@@ -200,7 +200,7 @@ div.pearl {
 }
 
 /*//////>>> pearls & subtle animation */
-/* #pearl-11 {
+#pearl-11 {
     transition-property: opacity;
     transition-duration: 1500ms;
     transition-delay: 400ms;
@@ -217,7 +217,7 @@ div.pearl {
     transition-duration: 700ms;
     transition-delay: 600ms;
 }
- */
+
 /*////subtle animation END////*/
 
 @-webkit-keyframes rotating {

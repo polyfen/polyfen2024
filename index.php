@@ -52,11 +52,11 @@
             <a class="button large-button animated-button" href="discovery-call">Let's Talk!</a>
 
             <div class="background">
-                <div id="pearl-11" class="pearl rotate-slower">
+                <div id="pearl-11" class="pearl rotate-slower hidden">
                 </div>
-                <div id="pearl-12" class="pearl rotate">
+                <div id="pearl-12" class="pearl rotate hidden">
                 </div>
-                <div id="pearl-13" class="pearl rotate">
+                <div id="pearl-13" class="pearl rotate hidden">
                 </div>
             </div>
         </section>
