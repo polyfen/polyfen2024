@@ -64,10 +64,10 @@
         <section class="clients-featured container-900 hidden">
             <h2 class="caption align-center">Clients featured in</h2>
             <div class="clients-container">
-                <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60">
-                <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50">
-                <img src="imgs/forbes-logo.svg" alt="Forbes" height="40">
-                <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45">
+                <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60" class="hidden">
+                <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50" class="hidden">
+                <img src="imgs/forbes-logo.svg" alt="Forbes" height="40" class="hidden">
+                <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45" class="hidden">
             </div>
         </section>
 
@@ -76,7 +76,7 @@
         <section class="build container-1080 hidden">
             <h2 class="heading-1">Build</h2>
             <div class="cards-container">
-                <section class="services-card">
+                <section class="services-card hidden">
                     <h3 class="heading-2">Brand</h3>
                     <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
@@ -84,7 +84,7 @@
                     <h4 class="caption">2-3 weeks</h4>
                 </section>
 
-                <section class="services-card">
+                <section class="services-card hidden">
                     <h3 class="heading-2">Website</h3>
                     <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
@@ -92,7 +92,7 @@
                     <h4 class="caption">3-6 weeks</h4>
                 </section>
 
-                <section class="services-card">
+                <section class="services-card hidden">
                     <h3 class="heading-2">App</h3>
                     <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
@@ -105,19 +105,19 @@
         <section class="hire container-1080 hidden">
             <h2 class="heading-1">Hire</h2>
             <div class="cards-container">
-                <section class="services-card">
+                <section class="services-card hidden">
                     <h3 class="heading-2">Sr UX<br>Designer</h3>
                     <h4 class="caption">Around</h4>
                     <h4 class="heading-3">$45</h4>
                 </section>
 
-                <section class="services-card">
+                <section class="services-card hidden">
                     <h3 class="heading-2">Sr Software<br>Engineer</h3>
                     <h4 class="caption">Around</h4>
                     <h4 class="heading-3">$45</h4>
                 </section>
 
-                <section class="services-card">
+                <section class="services-card hidden">
                     <h3 class="heading-2">Sr Scrum<br>Master</h3>
                     <h4 class="caption">Around</h4>
                     <h4 class="heading-3">$35</h4>
@@ -128,7 +128,7 @@
 
         <section class="benefits container-700 hidden" aria-label="Benefits">
             <div class="accordions-container">
-                <section class="accordion">
+                <section class="accordion hidden">
                     <div class="acc-button">
                         <h3 data-acc="hand-coins" class="heading-3">Low cost, high value</h3>
                     </div>
@@ -137,7 +137,7 @@
                             around the world at a small fraction of the price from our competitors in the US.</p>
                     </div>
                 </section>
-                <section class="accordion">
+                <section class="accordion hidden">
                     <div class="acc-button">
                         <h3 data-acc="shield" class="heading-3">Wealth of experience</h3>
                     </div>
@@ -149,7 +149,7 @@
                             start-ups and big enterprises in Croatia, Argentina, and the US.</p>
                     </div>
                 </section>
-                <section class="accordion">
+                <section class="accordion hidden">
                     <div class="acc-button">
                         <h3 data-acc="crown" class="heading-3">End-to-end customer service</h3>
                     </div>
@@ -160,7 +160,7 @@
                             long-lasting and solid partnership.</p>
                     </div>
                 </section>
-                <section class="accordion">
+                <section class="accordion hidden">
                     <div class="acc-button">
                         <h3 data-acc="flag" class="heading-3">Fast-track project kick-off</h3>
                     </div>

@@ -1,7 +1,7 @@
 <section class="testimonials container-1080 hidden">
     <h2 class="heading-2 align-center">Hear our Success Stories</h2>
     <div class="testimonials-container">
-        <figure class="testimonial">
+        <figure class="testimonial hidden">
             <blockquote>
                 <p>
                     Always a pleasure working with them. They are very professional
@@ -15,7 +15,7 @@
 
         </figure>
 
-        <figure class="testimonial">
+        <figure class="testimonial hidden">
             <blockquote>
                 <p>
                     The final result was really great and had tons of
@@ -30,7 +30,7 @@
 
         </figure>
 
-        <figure class="testimonial">
+        <figure class="testimonial hidden">
             <blockquote>
                 <p>
                     Excellent skills and talent in project management, design, and branding.
