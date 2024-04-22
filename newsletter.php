@@ -72,8 +72,6 @@
         </div>
         </section>
 
-        <?php include 'includes/past-newsletters.php';?>   
-
         <?php include 'includes/newsletter-cta.php';?>
         
 
