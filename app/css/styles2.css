@@ -24,7 +24,7 @@ main:is(.about-main) {
 }
 
 main:is(.thank-you-main) {
-    padding-top: 150px;
+    padding-top: 60px;
 }
 
 /* esto afectaba al <ul> del footer-social, por UI traia 40px de margin-start,

@@ -53,8 +53,10 @@
 
     <!-- THANK-YOU page start -->
     <main class="thank-you-main hidden-header">
-        <h1 class="heading-2 align-center">Subscription Confirmed!</h1>
-
+        <h1 class="heading-1 align-center">Subscription Confirmed!</h1>
+        
+        <h2 class="heading-5 align-center">Follow us on social</h2>
+        <a href="https://www.linkedin.com/company/polyfen" target="_blank" class="button secondary-button">LinkedIn ➞</a>
 
         <?php include 'includes/call-to-action.php';?>
 
