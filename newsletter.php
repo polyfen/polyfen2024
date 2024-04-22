@@ -10,23 +10,17 @@
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Get our to Newsletter">
-    <meta property="og:url" content="https://polyfen.com/subscribe">
-    <meta name="keywords" content="#">
-    <meta name="description" property="og:description"
-        content="#">
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/#.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="fb:app_id" content="1799272553516195">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="Polyfen">
-    <meta name="twitter:creator" content="@ThePolyfenGroup">
-    <meta name="twitter:title" content="Subscribe to Newsletter">
-    <meta name="twitter:description"
-        content="#">
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/#.png">
     <meta name="robots" content="index, follow">
+    <meta property="og:url" content="https://polyfen.com/newsletter">
+    <meta property="og:title" content="Get our Newsletter | Polyfen">
+    <meta name="twitter:title" content="Get our Newsletter | Polyfen">
+    <meta name="description" property="og:description"
+        content="Unlock insights and stay ahead with bite-sized, high-quality content about design, marketing, tech, and business.">
+    <meta name="twitter:description"
+        content="Unlock insights and stay ahead with bite-sized, high-quality content about design, marketing, tech, and business.">
+    <meta name="keywords" content="Newsletter, News, Email, Design, Marketing, Tech, Software, Engineering, Business, Start-up, Entrepreneur, Founder, Advice, Knowledge, Tips, Education, Informative, Information, Insights">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/newsletter-meta.png">
+    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/newsletter-meta.png">
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
