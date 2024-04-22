@@ -3,7 +3,7 @@ name: 👾 Purge Cache on Cloudflare
 on:
   push:
     branches:
-      - master
+      - main
       - dev
       - staging-2
 
