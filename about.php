@@ -124,7 +124,7 @@
         </section>
         <hr>
         <section class="plck-section container hidden">
-            <h2 class="heading-2 align-center">We Made a Free Solution to Cookies Consent</h2>
+            <h2 class="heading-2 align-center">We Made a Free Solution for Cookies Consent</h2>
             <div class="column-to-row">
                 <div class="one-half hidden">
                     <iframe id="plcq-tutorial" width="560" height="315"
