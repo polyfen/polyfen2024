@@ -57,6 +57,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script defer src="/app/js/scrollfooter.js"></script>
 <script defer src="/app/js/navbar.js"></script>
 
+<!-- jQuery -->
+<script
+src="https://code.jquery.com/jquery-3.6.3.min.js"
+integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+crossorigin="anonymous"></script>
+
 <!--
   _____      _        __           
  |  __ \    | |      / _|          
