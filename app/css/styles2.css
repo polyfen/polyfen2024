@@ -34,11 +34,6 @@ ul {
     padding: 0;
 }
 
-/*capas esto se puede ir por que en plkt a.button ya trae text-decoration none*/
-a.button:hover {
-    text-decoration: none;
-}
-
 /* esto por qe en polykit no esta  definido los <a> a secas
 el <body> agregado para ganarle a la especificity de plkt de los "p a" ...etc
 habria que ver si vuelve el opacity.6 todos los <a> o en que situaciones.
@@ -82,9 +77,7 @@ hr.vertical-hr {
     width: unset;
 }
 
-/* Subtle transitions */
-
-/*////subtle animation////*/
+/* //Subtle transitions// */
 
 .hidden {
     opacity: 0;
@@ -199,7 +192,7 @@ div.pearl {
     transition: all 1s;
 }
 
-/*//////>>> pearls & subtle animation */
+/* pearls & subtle animation */
 #pearl-11 {
     transition-property: opacity;
     transition-duration: 1500ms;
@@ -218,7 +211,7 @@ div.pearl {
     transition-delay: 600ms;
 }
 
-/*////subtle animation END////*/
+/* END subtle animation for pearls */
 
 @-webkit-keyframes rotating {
     from {
@@ -457,7 +450,6 @@ div.pearl {
     }
 
 }
-
 /* END pearls */
 
 /*   ____            _    _                                 _       _  */
@@ -763,16 +755,17 @@ a.current-page {
     }
 
 }
-
 /* END Discovery call - landing-page */
+
 /*  _   _                                                */
 /* | | | | ___  _ __ ___   ___   _ __   __ _  __ _  ___  */
 /* | |_| |/ _ \| '_ ` _ \ / _ \ | '_ \ / _` |/ _` |/ _ \ */
 /* |  _  | (_) | | | | | |  __/ | |_) | (_| | (_| |  __/ */
 /* |_| |_|\___/|_| |_| |_|\___| | .__/ \__,_|\__, |\___| */
 /*                              |_|          |___/       */
-/* cover section ----------------------------------------*/
+/* Home page --------------------------------------------*/
 
+/* Cover section */
 .home-cover {
     text-align: center;
     margin-top: 20px;
@@ -793,8 +786,8 @@ a.current-page {
     z-index: 2;
 }
 
-/* clients featured section */
 
+/* clients featured section */
 .clients-featured {
     margin-top: 90px;
 }
@@ -815,6 +808,7 @@ a.current-page {
     opacity: 0.6;
 }
 
+/* Clients featured section MediaQuery */
 @media (min-width: 576px) {
     .clients-featured {
         margin-top: -140px;
@@ -833,7 +827,6 @@ a.current-page {
 }
 
 /* services section */
-
 .build,
 .hire {
     display: flex;
@@ -849,8 +842,6 @@ a.current-page {
     width: 100%;
     max-width: 350px;
 }
-
-
 
 .services-card {
     border: 1px solid #7437f850;
@@ -927,8 +918,7 @@ div.acc-button img {
     transition: max-height 0.2s ease-out;
 }
 
-/* services section mediaqueries*/
-
+/* services section mediaqueries */
 @media (min-width: 900px) {
 
     .build,
@@ -987,7 +977,7 @@ blockquote p {
 }
 
 
-/* testimonial section MediaQuery*/
+/* testimonial section MediaQuery */
 @media (min-width: 768px) {
     .testimonial {
         width: 30%;
@@ -1048,11 +1038,9 @@ a:hover div#send-message::before {
     margin: -8px 6px -8px 0;
 }
 
-/* aca  para adaptarlo sin opal (a:hover div#schedule-call::before)*/
 a#schedule-call:hover::before {
     background: url(../../imgs/icons/phone-call-white.svg) no-repeat center center;
 }
-
 
 button#nostyle::before {
     background: url(../../imgs/icons/paper-plane.svg) no-repeat center center;
@@ -1068,7 +1056,7 @@ button#nostyle:hover::before {
 /* | |_ | | | | | | || | |  _| | |_) | */
 /* |  _|| |_| | |_| || | | |___|  _ <  */
 /* |_|   \___/ \___/ |_| |_____|_| \_\ */
-/* Footer starts ----------------------*/
+/* Footer -----------------------------*/
 
 footer {
     display: grid;
@@ -1220,7 +1208,6 @@ footer .tpg-logo-container {
         align-self: normal;
     }
 }
-
 /* END FOOTER */
 
 /*     _    ____   ___  _   _ _____                           */
@@ -1253,7 +1240,6 @@ h1.caption {
 
 
 /* founder section */
-
 .founder-bios {
     width: fit-content;
     margin: 0 auto;
@@ -1441,9 +1427,6 @@ img.contact-flag {
 /*                            |_|          |___/       */
 /* work page ------------------------------------------*/
 
-
-
-
 .featured-project {
     display: flex;
     flex-direction: column;
@@ -1546,7 +1529,6 @@ img.contact-flag {
     }
 
 }
-
 /* END work page*/
 
 /*     _        _   _       _ _               _                */
@@ -1683,9 +1665,9 @@ div.other-project-card img {
     width: 29px;
 }
 
-/* new data type por las cant de estilos distintos, 
-ademas position absolute para que cuando los h4 caigan en 2 lineas, se siga alineando verticalmente
-ambos content:url() o background-image funcionan igual parece ser */
+/* New data-type */
+/* Con position absolute para que cuando los h4 caigan en 2 lineas, se siga alineando verticalmente */
+/* ambos content:url() o background-image funcionan */
 [data-acc]::before {
     height: 32px;
     width: 32px;
