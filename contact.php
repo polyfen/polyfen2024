@@ -75,7 +75,7 @@
                     <!-- place captcha here -->
                     <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
                         data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
-                        data-error-callback="onRecaptchaError">
+                        data-error-callback="onRecaptchaError" data-theme="dark">
                     </div>
                     <br>
                     <button id="nostyle" type="submit" class="secondary-button">Send Message</button>
