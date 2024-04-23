@@ -5,7 +5,7 @@ on:
     branches:
       - main
       - dev
-      - staging-2
+      - stg
 
 jobs:
   purge_cache:
