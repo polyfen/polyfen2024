@@ -471,7 +471,7 @@ z-index: 4;
 padding: 14px 16px 12px;
 border-radius: 3px;
 backdrop-filter: blur(6px);
-width: 296px;
+width: 270px;
 transition: bottom 0.5s ease;
 border: 1px solid #7437f850;
 }
@@ -564,6 +564,7 @@ div#cookies-title small {
     div#cookies-modal {
         justify-content: space-between;
         bottom: 20px;
+        width: 300px;
     }
 
 }
