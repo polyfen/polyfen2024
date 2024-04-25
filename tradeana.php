@@ -207,7 +207,7 @@
                     <div id="villa-terezija-cover" class="project-cover"
                         onmouseover="document.getElementById('villa-terezija-button').classList.add('button-hover'); document.getElementById('villa-terezija-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('villa-terezija-button').classList.remove('button-hover'); document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover')">
-                        <a href="/villa-terezija">
+                        <a href="villa-terezija">
                             <figure>
                                 <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy"
                                     alt="Villa Terezija">
