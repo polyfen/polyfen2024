@@ -6,7 +6,7 @@ function scrollFunction() {
 
   if (window.innerWidth >= 1100) {
     if (scrollDistanceFromBottom <= 80) {
-      modal.style.bottom = "140px";
+      modal.style.bottom = "120px";
     } else {
       modal.style.bottom = "20px";
     }
