@@ -118,3 +118,10 @@ section.plck-section h2 {
 .bottom-120, #crisp-chatbox div a.bottom-120 {
     bottom: 120px !important;
 }
+
+
+/* Chatbox */
+
+.crisp-client .cc-tlyw .cc-kxkl .cc-nsge .cc-imbb {
+    box-shadow: 0 0 0 2px #070924 !important;
+}
