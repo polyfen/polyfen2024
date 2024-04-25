@@ -112,3 +112,9 @@ section.plck-section h2 {
 #newsletter-icon-3:before {
     content: "🤝";
 }
+
+/* Change position of Cookies and Chat modals on scroll over the footer */
+
+.bottom-120, #crisp-chatbox div a.bottom-120 {
+    bottom: 120px !important;
+}
