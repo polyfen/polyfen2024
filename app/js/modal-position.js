@@ -1,8 +1,6 @@
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
+let scrollHandler = function() {
   let modal = document.getElementById("cookies-modal");
-  let chatLink = document.querySelector("#crisp-chatbox div a");
+  let chatLink = document.querySelector("#crisp-chatbox div a.cc-nsge");
   let scrollDistanceFromBottom = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
 
   if (window.innerWidth >= 1100) {
@@ -17,6 +15,8 @@ function scrollFunction() {
     modal.classList.remove("bottom-120");
     chatLink.classList.remove("bottom-120");
   }
-}
+};
+
+window.addEventListener('scroll', scrollHandler);
 
 console.log("modal-position.js loaded");
