@@ -1657,11 +1657,11 @@ div.other-project-card img {
 }
 
 [data-before="boris-in"]::before {
-    background-image: url(/imgs/icons/linkedin-in.svg);
+    background-image: url(imgs/icons/linkedin-in.svg);
 }
 
 [data-before="boris-hr"]::before {
-    background-image: url(/imgs/icons/globe-white.svg);
+    background-image: url(imgs/icons/globe-white.svg);
     width: 29px;
 }
 
@@ -1679,33 +1679,33 @@ div.other-project-card img {
 }
 
 [data-acc="rocket"]::before {
-    content: url(/imgs/icons/rocket-launch.svg);
+    content: url(imgs/icons/rocket-launch.svg);
 }
 
 [data-acc="person"]::before {
-    content: url(/imgs/icons/person.svg);
+    content: url(imgs/icons/person.svg);
 }
 
 [data-acc="globe"]::before {
-    content: url(/imgs/icons/globe.svg);
+    content: url(imgs/icons/globe.svg);
 }
 
 [data-acc="dna"]::before {
-    content: url(/imgs/icons/dna.svg);
+    content: url(imgs/icons/dna.svg);
 }
 
 [data-acc="hand-coins"]::before {
-    content: url(/imgs/icons/hand-coins.svg);
+    content: url(imgs/icons/hand-coins.svg);
 }
 
 [data-acc="shield"]::before {
-    content: url(/imgs/icons/shield-chevron.svg);
+    content: url(imgs/icons/shield-chevron.svg);
 }
 
 [data-acc="crown"]::before {
-    content: url(/imgs/icons/crown-simple.svg);
+    content: url(imgs/icons/crown-simple.svg);
 }
 
 [data-acc="flag"]::before {
-    content: url(/imgs/icons/flag-checkered.svg);
+    content: url(imgs/icons/flag-checkered.svg);
 }

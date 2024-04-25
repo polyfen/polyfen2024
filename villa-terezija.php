@@ -174,7 +174,7 @@
                     <div id="bike-in-mex-cover" class="project-cover"
                         onmouseover="document.getElementById('bike-in-mex-button').classList.add('button-hover'); document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('bike-in-mex-button').classList.remove('button-hover'); document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
-                        <a href="/bike-in-mex">
+                        <a href="bike-in-mex">
                             <figure>
                                 <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy"
                                     alt="Bike in Mex">
@@ -185,7 +185,7 @@
                     <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental
                         shop based in Tulum, Mexico.</p>
 
-                    <a class="button secondary-button margin-right-auto hidden" id='bike-in-mex-button' href="/bike-in-mex"
+                    <a class="button secondary-button margin-right-auto hidden" id='bike-in-mex-button' href="bike-in-mex"
                         onmouseover="document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
                         View Project ➞</a>
@@ -195,7 +195,7 @@
                     <div id="tradeana-cover" class="project-cover"
                         onmouseover="document.getElementById('tradeana-button').classList.add('button-hover'); document.getElementById('tradeana-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('tradeana-button').classList.remove('button-hover'); document.getElementById('tradeana-cover').classList.remove('project-cover-hover')">
-                        <a href="/tradeana">
+                        <a href="tradeana">
                             <figure>
                                 <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy"
                                     alt="Tradeana">
@@ -203,7 +203,7 @@
                         </a>
                         <h3 class="heading-2">Tradeana</h3>
                         <p>Helps traders efficiently audit and manage the risk of their ForEx operations.</p>
-                        <a class="button secondary-button margin-right-auto hidden" id="tradeana-button" href="/tradeana"
+                        <a class="button secondary-button margin-right-auto hidden" id="tradeana-button" href="tradeana"
                             onmouseover="document.getElementById('tradeana-cover').classList.add('project-cover-hover')"
                             onmouseout="document.getElementById('tradeana-cover').classList.remove('project-cover-hover')">
                             View Project ➞</a>
