@@ -65,7 +65,7 @@
 
             <div class="column-to-row">
                 <div class="one-half">
-                    <img src="imgs/illustrations/dudes-mini-pc.webp" alt="">
+                    <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
                 </div>
                 <div class="one-half">
                 <p>We're a creative and development agency founded in 2018 with a fully-remote team working for clients from the US.</p>
@@ -81,10 +81,10 @@
             <div class="column-to-row">
 
                 <div class="founder-bios hidden">
-                    <img class="founder-boris" src="imgs/about/boris-hrncic.webp" alt="">
+                    <img class="founder-boris" src="/imgs/about/boris-hrncic.webp" alt="">
                     <h3 class="caption">Boris Hrnčić</h3>
                     <h4 class="caption">Founder &amp; CEO</h4>
-                    <img src="imgs/flags/hr.svg" class="flag" alt=""><small>Zagreb, Croatia</small>
+                    <img src="/imgs/flags/hr.svg" class="flag" alt=""><small>Zagreb, Croatia</small>
                 </div>
 
                 <div class="founder-list hidden">
@@ -113,7 +113,7 @@
             <h2 class="heading-2 align-center">We Wrote the Book on Branding</h2>
             <div class="column-to-row">
                 <div class="one-half hidden">
-                    <img src="imgs/about/poly-atlas-animation.gif" alt="">
+                    <img src="/imgs/about/poly-atlas-animation.gif" alt="">
                 </div>
                 <div class="one-half hidden">
                     <p>A step-by-step guide to the Branding process including practical tips,

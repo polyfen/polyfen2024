@@ -9,7 +9,7 @@
                 </p>
             </blockquote>
             <figcaption>
-                <img src="imgs/testimonials/carlos-storie.webp" height="36" width="36" alt="">
+                <img src="/imgs/testimonials/carlos-storie.webp" height="36" width="36" alt="">
                 <small>Carlos Flores,<br>CEO at Metas Investments</small>
             </figcaption>
 
@@ -24,7 +24,7 @@
                 </p>
             </blockquote>
             <figcaption>
-                <img src="imgs/testimonials/mati-storie.webp" height="36" width="36" alt="">
+                <img src="/imgs/testimonials/mati-storie.webp" height="36" width="36" alt="">
                 <small> Matias Sanchez,<br>Founder at Bike in Mex</small>
             </figcaption>
 
@@ -37,7 +37,7 @@
                 </p>
             </blockquote>
             <figcaption>
-                <img src="imgs/testimonials/cesar-storie.webp" height="36" width="36" alt="">
+                <img src="/imgs/testimonials/cesar-storie.webp" height="36" width="36" alt="">
                 <small>Cesar Ramos,<br>CEO at Tradeana</small>
             </figcaption>
 
