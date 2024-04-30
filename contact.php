@@ -92,7 +92,7 @@
         <hr>
         <section class="email-phone container hidden">
             <h3 class="heading-2 align-center">hi@polyfen.com</h3>
-            <h3 class="heading-2 align-center"><img src="/imgs/flags/us.svg" class="contact-flag" alt=""> +1 415 610 8439</h3>
+            <h3 class="heading-2 align-center"><img src="imgs/flags/us.svg" class="contact-flag" alt=""> +1 415 610 8439</h3>
         </section>
     </main>
     <!-- CONTACT end -->
@@ -131,7 +131,7 @@
             dataType: "json",
             data: data,
             success: function(response) {
-                window.location.href = '/thank-you.php';
+                window.location.href = 'thank-you.php';
                 // console.log(response.message);
                 // Estas lineas son por si no quieren que redireccione a un thank you page
                 // contactForm.trigger('reset');

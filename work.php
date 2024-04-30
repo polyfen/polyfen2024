@@ -62,16 +62,16 @@
             <div id="bike-in-mex-cover" class="project-cover"
                 onmouseover="document.getElementById('bike-in-mex-button').classList.add('button-hover');document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover');"
                 onmouseout="document.getElementById('bike-in-mex-button').classList.remove('button-hover'); document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover');">
-                <a href="/bike-in-mex">
+                <a href="bike-in-mex">
                     <figure>
-                        <img src="/imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy"
+                        <img src="imgs/case-studies/bike-in-mex/bike-in-mex-thumbnail.webp" loading="lazy"
                             alt="Bike in Mex flag">
                     </figure>
                 </a>
                 <div class="project-preview">
-                    <a href="/bike-in-mex">
+                    <a href="bike-in-mex">
                         <figure>
-                            <img src="/imgs/case-studies/bike-in-mex/bike-in-mex-preview.gif" loading="lazy"
+                            <img src="imgs/case-studies/bike-in-mex/bike-in-mex-preview.gif" loading="lazy"
                                 alt="Bike in Mex preview">
                         </figure>
                     </a>
@@ -82,7 +82,7 @@
                 <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and
                     Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in
                     Tulum, Mexico.</p>
-                <a class="button secondary-button margin-right-auto hidden" id="bike-in-mex-button" href="/bike-in-mex"
+                <a class="button secondary-button margin-right-auto hidden" id="bike-in-mex-button" href="bike-in-mex"
                     onmouseover="document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover');"
                     onmouseout="document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover');">
                     View Project ➞</a>
@@ -95,15 +95,15 @@
             <div id="tradeana-cover" class="project-cover"
                 onmouseover="document.getElementById('tradeana-button').classList.add('button-hover');document.getElementById('tradeana-cover').classList.add('project-cover-hover');"
                 onmouseout="document.getElementById('tradeana-button').classList.remove('button-hover'); document.getElementById('tradeana-cover').classList.remove('project-cover-hover');">
-                <a href="/tradeana">
+                <a href="tradeana">
                     <figure>
-                        <img src="/imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
+                        <img src="imgs/case-studies/tradeana/tradeana-thumbnail.webp" loading="lazy" alt="Tradeana">
                     </figure>
                 </a>
                 <div class="project-preview">
-                    <a href="/tradeana">
+                    <a href="tradeana">
                         <figure>
-                            <img src="/imgs/case-studies/tradeana/tradeana-preview.gif" loading="lazy"
+                            <img src="imgs/case-studies/tradeana/tradeana-preview.gif" loading="lazy"
                                 alt="Tradeana preview">
                         </figure>
                     </a>
@@ -113,7 +113,7 @@
                 <h3 class="heading-2">Tradeana</h3>
                 <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help
                     them efficiently audit and manage the risk of their ForEx operations.</p>
-                <a class="button secondary-button margin-right-auto hidden" id="tradeana-button" href="/tradeana"
+                <a class="button secondary-button margin-right-auto hidden" id="tradeana-button" href="tradeana"
                     onmouseover="document.getElementById('tradeana-cover').classList.add('project-cover-hover');"
                     onmouseout="document.getElementById('tradeana-cover').classList.remove('project-cover-hover');">
                     View Project ➞</a>
@@ -126,16 +126,16 @@
             <div id="villa-terezija-cover" class="project-cover"
                 onmouseover="document.getElementById('villa-terezija-button').classList.add('button-hover');document.getElementById('villa-terezija-cover').classList.add('project-cover-hover');"
                 onmouseout="document.getElementById('villa-terezija-button').classList.remove('button-hover'); document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover');">
-                <a href="/villa-terezija">
+                <a href="villa-terezija">
                     <figure>
-                        <img src="/imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy"
+                        <img src="imgs/case-studies/villa-terezija/villa-terezija-thumbnail.webp" loading="lazy"
                             alt="Villa Terezija">
                     </figure>
                 </a>
                 <div class="project-preview">
-                    <a href="/villa-terezija">
+                    <a href="villa-terezija">
                         <figure>
-                            <img src="/imgs/case-studies/villa-terezija/villa-terezija-preview.gif" loading="lazy"
+                            <img src="imgs/case-studies/villa-terezija/villa-terezija-preview.gif" loading="lazy"
                                 alt="Villa Terezija preview">
                         </figure>
                     </a>
@@ -145,7 +145,7 @@
                 <h3 class="heading-2">Villa Terezija</h3>
                 <p>A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on
                     Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
-                <a class="button secondary-button margin-right-auto hidden" id="villa-terezija-button" href="/villa-terezija"
+                <a class="button secondary-button margin-right-auto hidden" id="villa-terezija-button" href="villa-terezija"
                     onmouseover="document.getElementById('villa-terezija-cover').classList.add('project-cover-hover');"
                     onmouseout="document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover');">
                     View Project ➞</a>
