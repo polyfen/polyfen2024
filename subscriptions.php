@@ -14,10 +14,8 @@
     <meta property="og:url" content="https://polyfen.com/subscriptions">
     <meta property="og:title" content="Subscription Plans for Start-ups">
     <meta name="twitter:title" content="Subscription Plans for Start-ups">
-    <meta name="description" property="og:description"
-        content="">
-    <meta name="twitter:description"
-        content="">
+    <meta name="description" property="og:description" content="">
+    <meta name="twitter:description" content="">
     <meta name="keywords" content="">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/#.png">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/#.png">
@@ -31,7 +29,7 @@
 
 </head>
 
-<body class="discovery-call landing-page dark-mode">
+<body class="landing-page subscriptions dark-mode">
     <!-- ya hay un estilo del founder-social  que llama a este ID -->
 
     <!-- Google Tag Manager (noscript) -->
@@ -47,11 +45,11 @@
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
-    <!-- Discovery Call - Landing page start -->
-    <main class="">
-        
+    <!-- Landing page start -->
+    <main class="subscriptions-main">
+
         <section class="container-1080">
-            <h1 class="caption align-center">Subscriptions</h1>
+            <h1 id="subscriptions" class="caption align-center">Subscriptions</h1>
             <h2 class="heading-1 align-center">Affordable Plans for<br>Every Start-up</h2>
             <section class="row">
                 <div class="subscription-plan-card">
@@ -126,13 +124,114 @@
 
         <hr>
 
-        <section class="container-1080">
-            <h2 class="align-center">Frequently Asked Questions</h2>
-        </section>
+        <section class="faqs container-1080 hidden">
+            <h2 class="heading-2 align-center">Frequently Asked Questions</h2>
+            <div class="container-700 accordions-container">
+                <div class="accordion hidden">
+                    <div class="acc-button">
+                        <h3 class="heading-4"><span>1. </span>What kind of tasks can I submit?</h3>
+                    </div>
+                    <div class="acc-panel">
+                        <p>As</p>
+                    </div>
+                </div>
 
+                <div class="accordion hidden">
+                    <div class="acc-button">
+                        <h3 class="heading-4"><span>2. </span>Can I build an entire app or MVP with you?</h3>
+                    </div>
+                    <div class="acc-panel">
+                        <p>Together</p>
+                    </div>
+                </div>
+
+                <div class="accordion hidden">
+                    <div class="acc-button">
+                        <h3 class="heading-4"><span>3. </span>Can I pause or cancel my subscription at anytime?</h3>
+                    </div>
+                    <div class="acc-panel">
+                        <p>We</p>
+                    </div>
+                </div>
+
+                <div class="accordion hidden">
+                    <div class="acc-button">
+                        <h3 class="heading-4"><span>4. </span>Can I change my subscription plan?</h3>
+                    </div>
+                    <div class="acc-panel">
+                        <p>Together</p>
+                    </div>
+                </div>
+
+                <div class="accordion hidden">
+                    <div class="acc-button">
+                        <h3 class="heading-4"><span>5. </span>What if I need more than 2 tasks at a time?</h3>
+                    </div>
+                    <div class="acc-panel">
+                        <p>We</p>
+                    </div>
+                </div>
+
+                <div class="accordion hidden">
+                    <div class="acc-button">
+                        <h3 class="heading-4"><span>6. </span>Can I ask you to follow my coding standards?</h3>
+                    </div>
+                    <div class="acc-panel">
+                        <p>We</p>
+                    </div>
+                </div>
+
+                <div class="accordion hidden">
+                    <div class="acc-button">
+                        <h3 class="heading-4"><span>7. </span>Can I prioritize my tasks?</h3>
+                    </div>
+                    <div class="acc-panel">
+                        <p>We</p>
+                    </div>
+                </div>
+
+                <div class="accordion hidden">
+                    <div class="acc-button">
+                        <h3 class="heading-4"><span>8. </span>Can I cancel a task once it's started?</h3>
+                    </div>
+                    <div class="acc-panel">
+                        <p>We</p>
+                    </div>
+                </div>
+
+                <div class="accordion hidden">
+                    <div class="acc-button">
+                        <h3 class="heading-4"><span>9. </span>What technologies do you use?</h3>
+                    </div>
+                    <div class="acc-panel">
+                        <p>We</p>
+                    </div>
+                </div>
+
+                <div class="accordion hidden">
+                    <div class="acc-button">
+                        <h3 class="heading-4"><span>10. </span>Can you sign an NDA?</h3>
+                    </div>
+                    <div class="acc-panel">
+                        <p>We</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
         <?php include 'includes/accolades.php';?>
 
-        <?php include 'includes/call-to-action.php';?>
+        <section class="cta-section">
+            <div class="grain-texture">
+                <div class="cta-content">
+                    <div class="hidden container">
+                        <h2 class="heading-1 align-center">Affordable plans for<br>every start-up</h2>
+                        <a class="button large-button secondary-button hidden" href="#subscriptions">↑ Subscribe Today
+                            ↑</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <!-- FORCE MAX-WIDTH 100% end -->

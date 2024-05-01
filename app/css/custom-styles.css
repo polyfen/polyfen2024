@@ -154,6 +154,7 @@ section.plck-section h2 {
     margin: -16px -16px 24px -16px;
     padding: 16px;
     border-radius: 6px 6px 0 0;
+    position: relative;
 }
 
 .card-header h3 {
@@ -164,9 +165,6 @@ section.plck-section h2 {
 .card-header h4 {
     font-weight: 400;
     display: inline;
-}
-
-.card-header small {
 }
 
 .row {
@@ -184,15 +182,11 @@ section.plck-section h2 {
 }
 
 .card-label {
-    position: relative;
-    bottom: 48px;
-    right: -4px;
+    position: absolute;
+    inset: 12px 12px auto auto;
     padding: 6px 16px 4px;
     background: rgb(6 9 36 / 41%);
     border-radius: 4px;
-    display: block;
-    width: fit-content;
-    float: right;
 }
 
 .featured-card .card-header {
