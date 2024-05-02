@@ -466,20 +466,23 @@ gap: 12px;
 position: fixed;
 bottom: 16px;
 left: 16px;
-background: rgba(255, 255, 255, 0.85);
+background: rgba(0, 0, 0, 0.85);
 z-index: 4;
-padding: 20px 20px 10px;
+padding: 14px 16px 12px;
 border-radius: 3px;
 backdrop-filter: blur(6px);
-width: 296px;
+width: 270px;
 transition: bottom 0.5s ease;
+border: 1px solid #7437f850;
 }
 
 #cookies-modal-buttons {
     display: flex;
-    flex-direction:row-reverse;
-    gap: 10px;
+    flex-direction:row;
+    gap: 2px;
     text-align: center;
+    margin-left: -4px;
+    margin-right: -4px;
 }
 
 #cookies-modal-buttons button{
@@ -494,21 +497,19 @@ div#cookies-modal button {
     display: flex;
     align-items: center;
     padding: 3px 24px;
-    border: 2px solid #00000052;
+    border: 2px solid #7437f850;
     border-radius: 4px;
     letter-spacing: 0;
-    color: #000;
-    background: rgba(255, 255, 255, 0.508);
+    color: #ffffff59;
     border-width: 2px;
     height: 28px;
     text-transform: uppercase;
     cursor: pointer;
-    opacity: 0.45;
     flex-grow: 1;
+    justify-content: center;
 }
 
 div#cookies-modal button:first-child {
-    margin-left: 6px;
     background: #7537f8;
     color: white !important;
     border-color: #5f27d3;
@@ -518,9 +519,21 @@ div#cookies-modal button:first-child {
 
 div#cookies-modal button:hover {
     opacity: 1;
-    color: #444444;
+    color: #FFFFFF;
     box-shadow: none;
     background-image: none !important;
+}
+
+div#cookies-modal button:not(#accept-cookies-button) {
+    text-decoration: underline;
+    border: none;
+    text-transform: none;
+    background: #321a5f;
+    padding: 5px 0;
+}
+
+div#cookies-modal button#accept-cookies-button:hover {
+    box-shadow: 0 0 8px #7537f8;
 }
 
 button#accept-cookies-button:before {
@@ -542,10 +555,8 @@ button#accept-cookies-button:hover:before {
 }
 
 div#cookies-title small {
-    color: #00000082;
-}
-div#cookies-title a {
-    color: black;
+    color: #ffffff82;
+    font-weight: 500;
 }
 
 @media (min-width: 768px) {
@@ -553,6 +564,7 @@ div#cookies-title a {
     div#cookies-modal {
         justify-content: space-between;
         bottom: 20px;
+        width: 300px;
     }
 
 }
