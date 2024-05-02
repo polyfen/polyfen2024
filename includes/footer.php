@@ -1,25 +1,13 @@
 <footer>
-    <ul aria-label="Our social networks" class="social no-bullets">
-        <li>
-            <a href="http://polyfen.com/twitter" target="_blank" title="Twitter">
-                <i class="fa-brands fa-x-twitter"></i>
-            </a>
-        </li>
-        <li>
-            <a href="http://polyfen.com/instagram" target="_blank" title="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </li>
-        <li>
-            <a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-        </li>
-        <li>
-            <a href="http://polyfen.com/github" target="_blank" title="Github">
-                <i class="fab fa-github"></i>
-            </a>
-        </li>
+<ul aria-label="Our-social-networks" class="social no-bullets">
+        <li><a href="http://polyfen.com/twitter" target="_blank" title="X" id="x-icon">
+            <img src="./imgs/icons/x-icon.svg" alt="X Icon" class="social_icon" /></a></li>
+        <li><a href="http://polyfen.com/instagram" target="_blank" title="Instagram">
+            <img src="./imgs/icons/instagram-icon.svg" alt="Instagram Icon" class="social_icon" /></a></li>
+        <li><a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin" id="linkedin-icon">
+            <img src="./imgs/icons/linkedin-icon.svg" alt="Linkedin Icon" class="social_icon" /></a></li>
+        <li><a href="http://polyfen.com/github" target="_blank" title="Github" id="github-icon">
+            <img src="./imgs/icons/github-icon.svg" alt="Github Icon" class="social_icon" /></a></li>
     </ul>
 
     <section  class="times" aria-label="Information about our different time zones">

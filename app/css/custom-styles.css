@@ -125,3 +125,10 @@ section.plck-section h2 {
 .crisp-client .cc-tlyw .cc-kxkl .cc-nsge span.cc-imbb {
     box-shadow: 0 0 0 2px #070924 !important;
 }
+
+/* img style for social icons in footer */
+footer .social_icon {
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+}
