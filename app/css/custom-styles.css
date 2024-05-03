@@ -10,12 +10,12 @@ section.cta-section {
 }
 
 div.grain-texture {
-    background: url(../../imgs/grain-texture-low-opacity.png);
+    background: url(../../imgs/grain-texture-low-opacity.webp);
 }
 
 @media (min-width: 700px) {
     div.grain-texture {
-        background: url('../../imgs/grain-texture.webp');
+        background: url(../../imgs/grain-texture.webp);
     }
 }
 
