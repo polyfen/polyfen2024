@@ -1114,6 +1114,7 @@ button#nostyle:hover::before {
 .stack-u img {
     width: 35px;
     max-height: 35px;
+    user-select: none;
 }
 
 @media (max-width: 900px) {
