@@ -283,7 +283,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion hidden d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>5. </span>What if I need more than 2 tasks at a time?</h3>
                     </div>
@@ -293,7 +293,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion hidden d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>6. </span>Can I ask you to follow my coding standards?</h3>
                     </div>
@@ -302,7 +302,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion hidden d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>7. </span>Can I prioritize my tasks?</h3>
                     </div>
@@ -312,7 +312,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion hidden d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>8. </span>Can I cancel a task once it's started?</h3>
                     </div>
@@ -322,7 +322,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion hidden d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>9. </span>What technologies do you use?</h3>
                     </div>
@@ -334,7 +334,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion hidden d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>10. </span>Can you sign an NDA?</h3>
                     </div>
@@ -343,6 +343,7 @@
                     </div>
                 </div>
             </div>
+            <button id="more-faqs" class="secondary-button small-button">View All FAQs</button>
         </section>
         <hr>
         <?php include 'includes/accolades.php';?>
@@ -395,6 +396,17 @@
                 }
             ]
         });
+    });
+    </script>
+    <!-- script for the button more-faqs -->
+    <script>
+    document.getElementById('more-faqs').addEventListener('click', function() {
+        let toToggle = document.querySelectorAll('.accordions-container .accordion:nth-child(n+5)');
+
+        toToggle.forEach(function(e) {
+            e.classList.toggle('d-none');
+        });
+        this.classList.add('d-none');
     });
     </script>
 </body>
