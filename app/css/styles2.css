@@ -1098,12 +1098,6 @@ button#nostyle:hover::before {
 }
 
 /* Tech Stack */
-.stack-container {
-    display: none;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-}
-
 .stack-u {
     display: flex;
     align-items: center;
@@ -1134,29 +1128,33 @@ button#nostyle:hover::before {
         margin-inline: auto;
     }
 
-    [class*=carrousel-] {
+    .carrousel-col {
         width: 100%;
         display: flex;
     }
 
-    [class*=carrousel-] .stack-u {
+    .carrousel-col .stack-u {
         margin-bottom: 20px;
     }
 }
 
 
 @media (min-width: 900px) {
+
+    
+    .carrousel-col,
+    .slide-inside {
+        display: contents;
+    }
+
     .row {
         flex-direction: row;
     }
 
-    .stack-container {
+    .stack-carrousel {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr auto;
-    }
-
-    .stack-carrousel {
-        display: none !important;
+        gap: 18px
     }
 }
 
@@ -1700,8 +1698,9 @@ div#slider-container {
     margin-inline: auto;
 }
 
-#slider-container :is(button) {
+.slick-slider.slick-initialized :is(button) {
     box-shadow: none;
+    background-image: none !important;
 }
 
 

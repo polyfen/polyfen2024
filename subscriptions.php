@@ -125,145 +125,116 @@
 
         <section class="container-1080">
             <h2 class="align-center">Solutions for<br>Every Stack</h2>
-            <div class="stack-container container-800">
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/git-original.svg">Git</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/jira-original.svg">Jira</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/confluence-original.svg">Confluence</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/wordpress-plain.svg">Wordpress</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/woocommerce-original.svg">WooCommerce
+
+
+            <!-- Tech Stack for carrousel -->
+            <div class="stack-carrousel container-800">
+                <div class="carrousel-col">
+                    <div class="slide-inside">
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/git-original.svg">Git</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/jira-original.svg">Jira</div>
+                        <div class="stack-u"><img loading="lazy"
+                                src="/imgs/tech-stack/confluence-original.svg">Confluence
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/wordpress-plain.svg">Wordpress
+                        </div>
+                        <div class="stack-u"><img loading="lazy"
+                                src="/imgs/tech-stack/woocommerce-original.svg">WooCommerce
+                        </div>
+                        <div class="stack-u"><img loading="lazy"
+                                src="/imgs/tech-stack/javascript-original.svg">JavaScript
+                        </div>
+                    </div>
                 </div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/javascript-original.svg">JavaScript</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/nodejs-original.svg">Node.js</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/react-original.svg">React</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/typescript-original.svg">TypeScript</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/vuejs-original.svg">Vue.js</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/angular-original.svg">Angular</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/python-plain.svg">Python</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/php-original.svg">PHP</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/laravel-original.svg">Laravel</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/mongodb-original.svg">MongoDB</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/firebase-original.svg">Firebase</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/nextjs-plain.svg">Next.js</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/bun-original.svg">Bun</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/swift-original.svg">Swift</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/dart-original.svg">Dart</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/flutter-original.svg">Flutter</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on
-                    Rails</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/sass-original.svg">Sass</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/bootstrap-original.svg">Bootstrap</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/tailwindcss-original.svg">Tailwind</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/materialui-plain.svg">Material UI</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/figma-original.svg">Figma</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/framer.svg">Framer</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/illustrator-plain.svg">Illustrator</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/photoshop-original.svg">Photoshop</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/aftereffects-original.svg">After Effects
+                <div class="carrousel-col">
+                    <div class="slide-inside">
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/nodejs-original.svg">Node.js
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/react-original.svg">React</div>
+                        <div class="stack-u"><img loading="lazy"
+                                src="/imgs/tech-stack/typescript-original.svg">TypeScript
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/vuejs-original.svg">Vue.js</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/angular-original.svg">Angular
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/python-plain.svg">Python</div>
+                    </div>
                 </div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/premierepro-original.svg">Premiere Pro
+                <div class="carrousel-col">
+                    <div class="slide-inside">
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/php-original.svg">PHP</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/laravel-original.svg">Laravel
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/mongodb-original.svg">MongoDB
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/firebase-original.svg">Firebase
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/nextjs-plain.svg">Next.js</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
+                    </div>
                 </div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/aws-plain.svg">AWS</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/azure-original.svg">Azure</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/googlecloud-original.svg">Google Cloud
+                <div class="carrousel-col">
+                    <div class="slide-inside">
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/bun-original.svg">Bun</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/swift-original.svg">Swift</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/dart-original.svg">Dart</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/flutter-original.svg">Flutter
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby
+                            on
+                            Rails</div>
+                    </div>
                 </div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/docker-original.svg">Docker</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes</div>
-                <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/jenkins-original.svg">Jenkins</div>
+                <div class="carrousel-col">
+                    <div class="slide-inside">
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/sass-original.svg">Sass</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/bootstrap-original.svg">Bootstrap
+                        </div>
+                        <div class="stack-u"><img loading="lazy"
+                                src="/imgs/tech-stack/tailwindcss-original.svg">Tailwind
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/materialui-plain.svg">Material UI
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/figma-original.svg">Figma</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/framer.svg">Framer</div>
+                    </div>
+                </div>
+                <div class="carrousel-col">
+                    <div class="slide-inside">
+                        <div class="stack-u"><img loading="lazy"
+                                src="/imgs/tech-stack/illustrator-plain.svg">Illustrator
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/photoshop-original.svg">Photoshop
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/aftereffects-original.svg">After
+                            Effects
+                        </div>
+                        <div class="stack-u"><img loading="lazy"
+                                src="/imgs/tech-stack/premierepro-original.svg">Premiere
+                            Pro
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/aws-plain.svg">AWS</div>
+                    </div>
+                </div>
+                <div class="carrousel-col">
+                    <div class="slide-inside">
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/azure-original.svg">Azure</div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/googlecloud-original.svg">Google
+                            Cloud
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/docker-original.svg">Docker</div>
+                        <div class="stack-u"><img loading="lazy"
+                                src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes
+                        </div>
+                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/jenkins-original.svg">Jenkins
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- Tech carrousel END -->
         </section>
-        <!-- Tech Stack for carrousel -->
-        <div class="stack-carrousel container-800">
-            <div class="carrousel-1">
-                <div class="slide-inside">
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/git-original.svg">Git</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/jira-original.svg">Jira</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/confluence-original.svg">Confluence
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/wordpress-plain.svg">Wordpress</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/woocommerce-original.svg">WooCommerce
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/javascript-original.svg">JavaScript
-                    </div>
-                </div>
-            </div>
-            <div class="carrousel-2">
-                <div class="slide-inside">
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/nodejs-original.svg">Node.js</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/react-original.svg">React</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/typescript-original.svg">TypeScript
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/vuejs-original.svg">Vue.js</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/angular-original.svg">Angular</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/python-plain.svg">Python</div>
-                </div>
-            </div>
-            <div class="carrousel-3">
-                <div class="slide-inside">
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/php-original.svg">PHP</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/laravel-original.svg">Laravel</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/mongodb-original.svg">MongoDB</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/firebase-original.svg">Firebase</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/nextjs-plain.svg">Next.js</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
-                </div>
-            </div>
-            <div class="carrousel-4">
-                <div class="slide-inside">
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/bun-original.svg">Bun</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/swift-original.svg">Swift</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/dart-original.svg">Dart</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/flutter-original.svg">Flutter</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on
-                        Rails</div>
-                </div>
-            </div>
-            <div class="carrousel-5">
-                <div class="slide-inside">
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/sass-original.svg">Sass</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/bootstrap-original.svg">Bootstrap
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/tailwindcss-original.svg">Tailwind
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/materialui-plain.svg">Material UI
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/figma-original.svg">Figma</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/framer.svg">Framer</div>
-                </div>
-            </div>
-            <div class="carrousel-6">
-                <div class="slide-inside">
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/illustrator-plain.svg">Illustrator
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/photoshop-original.svg">Photoshop
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/aftereffects-original.svg">After
-                        Effects
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/premierepro-original.svg">Premiere
-                        Pro
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/aws-plain.svg">AWS</div>
-                </div>
-            </div>
-            <div class="carrousel-7">
-                <div class="slide-inside">
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/azure-original.svg">Azure</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/googlecloud-original.svg">Google
-                        Cloud
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/docker-original.svg">Docker</div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes
-                    </div>
-                    <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/jenkins-original.svg">Jenkins</div>
-                </div>
-            </div>
-        </div>
-        <!-- Tech carrousel END -->
         <hr>
 
         <section class="faqs container-1080 hidden">
@@ -402,7 +373,27 @@
     <script>
     $(document).ready(function() {
         $('.stack-carrousel').slick({
-
+            responsive: [{
+                    breakpoint: 3000,
+                    settings: "unslick",
+                },
+                {
+                    breakpoint: 900,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true
+                    }
+                },
+                {
+                    breakpoint: 427,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true
+                    }
+                }
+            ]
         });
     });
     </script>
