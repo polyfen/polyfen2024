@@ -56,11 +56,17 @@
         <section class="container-1080">
             <h1 id="subscriptions" class="caption align-center">Subscriptions</h1>
             <h2 class="heading-1 align-center">Affordable Plans for<br>Every Start-up</h2>
+
+            <!-- toggle button -->
+            <div class="toggle-container">
+                <button class="small-button secondary-button inactive-button">Pay Monthly</button>
+                <button class="small-button secondary-button active-button">Pay Quarterly</button>
+            </div>
             <section class="row">
-                <div class="subscription-plan-card">
+                <div class="subscription-plan-card" id="starter">
                     <div class="card-header">
                         <h3 class="heading-2">Starter</h3>
-                        <h4 class="heading-3">$4917</h4>
+                        <h4 class="heading-3">$3442</h4>
                         <small class="caption">/Month</small>
                     </div>
                     <div class="card-body">
@@ -75,10 +81,10 @@
                         <a class="button secondary-button small-button">Start Today ➞</a>
                     </div>
                 </div>
-                <div class="subscription-plan-card featured-card">
+                <div class="subscription-plan-card featured-card" id="pro">
                     <div class="card-header">
                         <h3 class="heading-2">Pro</h3>
-                        <h4 class="heading-3">$8945</h4>
+                        <h4 class="heading-3">$6263</h4>
                         <small class="caption">/Month</small>
                         <small class="card-label mini">Popular</small>
                     </div>
@@ -125,7 +131,6 @@
 
         <section class="container-1080">
             <h2 class="align-center">Solutions for<br>Every Stack</h2>
-
 
             <!-- Tech Stack for carrousel -->
             <div class="stack-carrousel container-800">
@@ -398,7 +403,7 @@
         });
     });
     </script>
-    <!-- script for the button more-faqs -->
+    <!-- script for the button more-faqs & toogle-buttons -->
     <script>
     document.getElementById('more-faqs').addEventListener('click', function() {
         let toToggle = document.querySelectorAll('.accordions-container .accordion:nth-child(n+5)');
@@ -407,6 +412,26 @@
             e.classList.toggle('d-none');
         });
         this.classList.add('d-none');
+    });
+
+    document.querySelectorAll('.toggle-container button').forEach(button => {
+        button.addEventListener('click', () => {
+            if(button.classList.contains('inactive-button')){
+            document.querySelectorAll('.toggle-container button').forEach(e => {
+                e.classList.toggle('active-button');
+                e.classList.toggle('inactive-button');
+            });
+            let starterPrice = document.getElementById('starter').querySelector('h4');
+            let proPrice = document.getElementById('pro').querySelector('h4');
+            if (starterPrice.textContent === "$4917") {
+                starterPrice.textContent = "$3442";
+                proPrice.textContent = "$6263";
+            } else {
+                starterPrice.textContent = "$4917";
+                proPrice.textContent = "$8945";
+            }
+        }
+        });
     });
     </script>
 </body>

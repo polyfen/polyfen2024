@@ -1088,7 +1088,50 @@ button#nostyle:hover::before {
     width: 100%;
 }
 
+/* toggle buttons*/
+.toggle-container {
+    position: relative;
+    width: 333px;
+    height: 50px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
 
+.toggle-container button {
+    position: absolute;
+    inset-block: 0 auto;
+    margin: 0;
+    z-index: 2;
+    font-weight: 400;
+}
+
+ .toggle-container button:is(:active, :focus) {
+    outline: none;
+} 
+
+.toggle-container button:nth-child(1) {
+    left: 0px;
+}
+.toggle-container button:nth-child(2) {
+    right: 0px;
+}
+
+.active-button.active-button {
+    background-color: #722FFF;
+    padding-block: 10px;
+    border: 6px solid #722FFF;
+    z-index: 5;
+    margin-top: -5px;
+    /* pointer-events: none; */
+    cursor: default;
+    font-weight: 700;
+    box-shadow: none !important;
+}
+.no-hover {
+    pointer-events: none;
+}
+
+/* faqs */
 .faqs .accordion h3 span {
     color: #7537F8;
 }
