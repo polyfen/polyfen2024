@@ -1122,13 +1122,9 @@ button#nostyle:hover::before {
     border: 6px solid #722FFF;
     z-index: 5;
     margin-top: -5px;
-    /* pointer-events: none; */
     cursor: default;
     font-weight: 700;
     box-shadow: none !important;
-}
-.no-hover {
-    pointer-events: none;
 }
 
 /* faqs */
