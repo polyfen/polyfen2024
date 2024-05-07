@@ -228,7 +228,7 @@
 
     <script>
     $('.slider').slick({
-        dots: true,
+        dots: false,
         infinite: false
     });
     $('.lazy').slick({

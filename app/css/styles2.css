@@ -1103,6 +1103,7 @@ button#nostyle:hover::before {
     margin: 0;
     z-index: 2;
     font-weight: 400;
+    opacity: .6;
 }
 
  .toggle-container button:is(:active, :focus) {
@@ -1125,6 +1126,7 @@ button#nostyle:hover::before {
     cursor: default;
     font-weight: 700;
     box-shadow: none !important;
+    opacity: 1;
 }
 
 /* faqs */
@@ -1137,6 +1139,13 @@ button#nostyle:hover::before {
 }
 
 /* Tech Stack */
+
+/* slick styles */
+.stack-carrousel .slick-dots li:before { content: unset; }
+.stack-carrousel .slick-dots li.slick-active button:before { color: white; }
+.stack-carrousel .slick-dots li button:before { color: white; }
+/* slick ends */
+
 .stack-u {
     display: flex;
     align-items: center;
@@ -1151,9 +1160,9 @@ button#nostyle:hover::before {
 }
 
 @media (max-width: 900px) {
-    .stack-carrousel {
+/*     .stack-carrousel {
         width: calc(100% - 64px) !important;
-    }
+    } */
     .slide-inside {
         display: flex;
         margin-inline: auto;
@@ -1742,10 +1751,6 @@ div#slider-container {
     background-image: none !important;
 }
 
-
-ul.slick-dots {
-    display: none !important;
-}
 
 .other-projects-container h2 {
     margin-bottom: 8px;
