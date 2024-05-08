@@ -53,8 +53,8 @@
     <!-- Landing page start -->
     <main class="subscriptions-main">
 
-        <section class="container-1080">
-            <h1 id="subscriptions" class="caption align-center">Subscriptions</h1>
+        <section class="subscription-plans container-1080">
+            <h1 class="caption align-center">Subscriptions</h1>
             <h2 class="heading-1 align-center">Affordable Plans for<br>Every Start-up</h2>
 
             <!-- toggle button -->
@@ -101,11 +101,14 @@
                         <a class="button secondary-button small-button">Start Today ➞</a>
                     </div>
                 </div>
-                <div class="custom-plans">
+                <div class="start-a-chat">
                     <h3 class="caption" style="margin-bottom: 8px;">Want more?</h3>
                     <h4 class="heading-2">Talk to Sales for a Custom Plan</h4>
-                    <a class="button secondary-button small-button margin-right-auto">Book a Call ➞</a>
-                    <img src="imgs/coin-illustration.png" alt="" class="coin-illustration">
+                    <a href="/discovery-call" class="button secondary-button small-button margin-right-auto">Book a Call</a>
+                    <hr>
+                    <h3 class="caption" style="margin-bottom: 8px;">Any Questions?</h3>
+                    <h4 class="heading-2">We're Happy to Help</h4>
+                    <button onclick="$crisp.push(['do', 'chat:open'])" class="button secondary-button small-button margin-right-auto">Start a Chat</button>
                 </div>
             </section>
         </section>
