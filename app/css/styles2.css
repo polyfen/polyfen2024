@@ -1611,11 +1611,6 @@ div#slider-container {
     background-image: none !important;
 }
 
-
-ul.slick-dots {
-    display: none !important;
-}
-
 .other-projects-container h2 {
     margin-bottom: 8px;
 }
