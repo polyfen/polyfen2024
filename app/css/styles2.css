@@ -143,7 +143,7 @@ header {
     align-items: center;
     border-top: 12px solid #7537f8;
     padding: 20px;
-    z-index: 5;
+    z-index: 7;
 }
 
 img#logo {
@@ -585,7 +585,6 @@ div#cookies-title small {
 .nav-buttons {
     position: fixed;
     background: #070924a8;
-    ;
     backdrop-filter: blur(10px);
     z-index: 5;
     border: 1px solid #7437f850;
@@ -626,7 +625,7 @@ a.current-page {
         padding-top: 100px;
         padding-bottom: 100vh;
         width: 100%;
-        z-index: 4;
+        z-index: 5;
         display: none;
         text-align: left;
         font-family: 'BiotifBold', helvetica, arial, sans-serif;
@@ -641,7 +640,7 @@ a.current-page {
         top: 125px;
     }
 
-    body.landing-page .nav-buttons {
+    body.discovery-call .nav-buttons {
         top: 18px;
     }
 
@@ -670,7 +669,6 @@ a.current-page {
 
 
     .nav-close {
-        z-index: 4;
         display: none;
     }
 
@@ -705,7 +703,7 @@ a.current-page {
 
     .nav-links {
         position: relative;
-        z-index: 4;
+        z-index: 2;
         display: flex;
         gap: 15px;
         border-radius: 200px;
