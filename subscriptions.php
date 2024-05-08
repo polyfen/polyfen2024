@@ -135,104 +135,104 @@
             <div class="stack-carrousel container-800">
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/git-original.svg">Git</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/jira-original.svg">Jira</div>
-                        <div class="stack-u"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/git-original.svg">Git</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/jira-original.svg">Jira</div>
+                        <div class="stack-u hidden"><img loading="lazy"
                                 src="/imgs/tech-stack/confluence-original.svg">Confluence
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/wordpress-plain.svg">Wordpress
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/wordpress-plain.svg">Wordpress
                         </div>
-                        <div class="stack-u"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy"
                                 src="/imgs/tech-stack/woocommerce-original.svg">WooCommerce
                         </div>
-                        <div class="stack-u"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy"
                                 src="/imgs/tech-stack/javascript-original.svg">JavaScript
                         </div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/nodejs-original.svg">Node.js
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/nodejs-original.svg">Node.js
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/react-original.svg">React</div>
-                        <div class="stack-u"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/react-original.svg">React</div>
+                        <div class="stack-u hidden"><img loading="lazy"
                                 src="/imgs/tech-stack/typescript-original.svg">TypeScript
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/vuejs-original.svg">Vue.js</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/angular-original.svg">Angular
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/vuejs-original.svg">Vue.js</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/angular-original.svg">Angular
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/python-plain.svg">Python</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/python-plain.svg">Python</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/php-original.svg">PHP</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/laravel-original.svg">Laravel
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/php-original.svg">PHP</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/laravel-original.svg">Laravel
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/mongodb-original.svg">MongoDB
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/mongodb-original.svg">MongoDB
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/firebase-original.svg">Firebase
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/firebase-original.svg">Firebase
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/nextjs-plain.svg">Next.js</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/nextjs-plain.svg">Next.js</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/bun-original.svg">Bun</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/swift-original.svg">Swift</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/dart-original.svg">Dart</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/flutter-original.svg">Flutter
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/bun-original.svg">Bun</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/swift-original.svg">Swift</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/dart-original.svg">Dart</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/flutter-original.svg">Flutter
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby
                             on
                             Rails</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/sass-original.svg">Sass</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/bootstrap-original.svg">Bootstrap
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/sass-original.svg">Sass</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/bootstrap-original.svg">Bootstrap
                         </div>
-                        <div class="stack-u"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy"
                                 src="/imgs/tech-stack/tailwindcss-original.svg">Tailwind
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/materialui-plain.svg">Material UI
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/materialui-plain.svg">Material UI
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/figma-original.svg">Figma</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/framer.svg">Framer</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/figma-original.svg">Figma</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/framer.svg">Framer</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy"
                                 src="/imgs/tech-stack/illustrator-plain.svg">Illustrator
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/photoshop-original.svg">Photoshop
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/photoshop-original.svg">Photoshop
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/aftereffects-original.svg">After
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/aftereffects-original.svg">After
                             Effects
                         </div>
-                        <div class="stack-u"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy"
                                 src="/imgs/tech-stack/premierepro-original.svg">Premiere
                             Pro
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/aws-plain.svg">AWS</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/aws-plain.svg">AWS</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/azure-original.svg">Azure</div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/googlecloud-original.svg">Google
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/azure-original.svg">Azure</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/googlecloud-original.svg">Google
                             Cloud
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/docker-original.svg">Docker</div>
-                        <div class="stack-u"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/docker-original.svg">Docker</div>
+                        <div class="stack-u hidden"><img loading="lazy"
                                 src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/jenkins-original.svg">Jenkins
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/jenkins-original.svg">Jenkins
                         </div>
                     </div>
                 </div>
