@@ -1106,6 +1106,13 @@ button#nostyle:hover::before {
     opacity: .6;
 }
 
+.toggle-container button:nth-child(2):before {
+    content: "30% OFF";
+    position: absolute;
+    top: -26px;
+    font-weight: 400;
+}
+
  .toggle-container button:is(:active, :focus) {
     outline: none;
 } 
@@ -1211,6 +1218,8 @@ button#nostyle:hover::before {
     .stack-carrousel {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr auto;
+        grid-template-rows: repeat(10,auto);
+        grid-auto-flow: column;
         gap: 18px
     }
 }

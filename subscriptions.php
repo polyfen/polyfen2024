@@ -233,8 +233,6 @@
                         <div class="stack-u"><img loading="lazy"
                                 src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes
                         </div>
-                        <div class="stack-u"><img loading="lazy" src="/imgs/tech-stack/jenkins-original.svg">Jenkins
-                        </div>
                     </div>
                 </div>
             </div>
