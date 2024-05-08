@@ -1144,8 +1144,15 @@ button#nostyle:hover::before {
 
 /* slick styles */
 .stack-carrousel .slick-dots li:before { content: unset; }
-.stack-carrousel .slick-dots li.slick-active button:before { color: white; }
-.stack-carrousel .slick-dots li button:before { color: white; }
+.stack-carrousel .slick-dots li.slick-active button:before { 
+    color: #722FFF;
+    content: url(/imgs/bullet-active.svg);
+}
+.stack-carrousel .slick-dots li button:before {
+    color: #722FFF;
+    content: url(/imgs/bullet-inactive.svg);
+    opacity: 1;
+}
 /* slick ends */
 
 .stack-u {
