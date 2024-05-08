@@ -135,6 +135,12 @@ section.plck-section h2 {
 /*                                   |_|                           |_|          |___/       */
 /* subscription - landing page -------------------------------------------------------------*/
 
+.subscription-plan-card ul li {
+    font-family: 'Figtree', sans-serif  !important;
+    font-size: 1rem;
+    margin-bottom: 0.35rem;
+}
+
 .row {
     display: flex;
     flex-direction: column;
@@ -300,19 +306,6 @@ section.plck-section h2 {
 .bold {
     font-weight: 700 !important;
     color: white !important;
-}
-
-.subscription-plan-card ul li {
-    font-family: 'Figtree', sans-serif  !important;
-    font-size: 1rem;
-    margin-bottom: 0.35rem;
-}
-
-.card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
 }
 
 .subscription-value-props h2 {
