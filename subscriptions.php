@@ -381,6 +381,9 @@
     $(document).ready(function() {
         $('.stack-carrousel').slick({
             responsive: [{
+                infinite: true,
+                slidesToScroll: 1,
+
                     breakpoint: 3000,
                     settings: "unslick",
                 },
@@ -388,16 +391,16 @@
                     breakpoint: 900,
                     settings: {
                         slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true
+                        arrows: false,
+                        dots: true,
                     }
                 },
                 {
                     breakpoint: 427,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true
+                        arrows: false,
+                        dots: true,
                     }
                 }
             ]

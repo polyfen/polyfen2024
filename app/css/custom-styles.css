@@ -312,19 +312,18 @@ section.plck-section h2 {
     margin-bottom: 1rem;
 }
 /* Tech Stack */
+.stack-carrousel .slick-dots li:before { content: unset; }
 
-    /* slick styles */
-    .stack-carrousel .slick-dots li:before { content: unset; }
-    .stack-carrousel .slick-dots li.slick-active button:before { 
-        color: #722FFF;
-        content: url(/imgs/bullet-active.svg);
-    }
-    .stack-carrousel .slick-dots li button:before {
-        color: #722FFF;
-        content: url(/imgs/bullet-inactive.svg);
-        opacity: 1;
-    }
-    /* slick ends */
+.stack-carrousel .slick-dots li.slick-active button:before { 
+    color: #722FFF;
+    content: url(/imgs/bullet-active.svg);
+}
+.stack-carrousel .slick-dots li button:before {
+    color: #722FFF;
+    content: url(/imgs/bullet-inactive.svg);
+    opacity: 1;
+}
+/* slick ends */
 
 .stack-u {
     display: flex;
