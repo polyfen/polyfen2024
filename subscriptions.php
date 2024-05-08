@@ -112,9 +112,9 @@
 
         <hr>
 
-        <section class="container-1080 row">
+        <section class="container-1080 row subscription-value-props">
             <div class="col">
-                <h2>10x<br>Talent</h2>
+                <h2>World-class<br>Talent</h2>
                 <p>We hire world-class engineers, design and UX professionals in your timezone.</p>
             </div>
             <div class="col">
