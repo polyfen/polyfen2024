@@ -55,7 +55,7 @@
 
         <section class="container-1080">
             <h1 id="subscriptions" class="caption align-center">Subscriptions</h1>
-            <h2 class="heading-1 align-center">Affordable Plans for<br>Every Start-up</h2>
+            <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>for Every Start-up</h2>
 
             <!-- toggle button -->
             <div class="toggle-container">
@@ -73,7 +73,7 @@
                         <ul class="hanging-list">
                             <li class="bold">1 task at a time</li>
                             <li class="bold">3-5 days turnaround</li>
-                            <li class="bold">Unlimited tasks by Devs and Designers</li>
+                            <li class="bold">Unlimited tasks by Devs, UX,<br>and Designers</li>
                             <li>Unlimited revisions</li>
                             <li>Unlimited projects</li>
                             <li>Pause or cancel any time</li>
@@ -92,7 +92,7 @@
                         <ul class="hanging-list">
                             <li class="bold">2 task at a time</li>
                             <li class="bold">2-4 days turnaround</li>
-                            <li class="bold">Unlimited tasks by Devs, Designers, and Ops</li>
+                            <li class="bold">Unlimited tasks by Devs, UX,<br>Designers, and DevOps</li>
                             <li class="bold">Priority support</li>
                             <li>Unlimited revisions</li>
                             <li>Unlimited projects</li>
@@ -114,7 +114,7 @@
 
         <section class="container-1080 row">
             <div class="col">
-                <h2>10x Professionals</h2>
+                <h2>10x<br>Talent</h2>
                 <p>We hire world-class engineers, design and UX professionals in your timezone.</p>
             </div>
             <div class="col">
@@ -122,7 +122,7 @@
                 <p>No contracts, no paperwork hassle. Start today.</p>
             </div>
             <div class="col">
-                <h2>Devs, Ops, & Designers</h2>
+                <h2>Devs, DevOps, UX, & Designers</h2>
                 <p>A single subscription for tasks of all kinds.</p>
             </div>
         </section>
