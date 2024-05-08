@@ -1127,7 +1127,9 @@ button#nostyle:hover::before {
     box-shadow: 0px 0px 4px 0px #000;
     opacity: 1;
 }
-
+.toggle-container .active-button:hover {
+    box-shadow: 0px 0px 4px 4px #000;
+}
 /* faqs */
 .faqs .accordion h3 span {
     color: #7537F8;
