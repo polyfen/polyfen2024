@@ -313,8 +313,7 @@
                         <h3 class="heading-4"><span>7. </span>Can I prioritize my tasks?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Yes, as soon as you pay, you'll have access to our Notion kanban board where you can submit
-                            and prioritize your tasks.</p>
+                        <p>Yes, as soon as you pay, you'll have access to our task management system where you can submit and prioritize your tasks.</p>
                     </div>
                 </div>
 
@@ -333,10 +332,7 @@
                         <h3 class="heading-4"><span>9. </span>What technologies do you use?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Our engineers are experienced with the following technologies: React, Next.js, Node.js,
-                            Laravel, PHP, Airflow, Java, Express.js, MongoDB, PostgreSQL, MySQL, AWS (Lambdas, Step
-                            Functions, etc), Vercel, Render, and more. If you need help with a technology that's not
-                            listed here, just ask us.</p>
+                        <p>Our engineers are experienced with the following technologies: React, Next.js, Node.js, Laravel, PHP, Airflow, Java, Express.js, MongoDB, PostgreSQL, MySQL, AWS (Lambdas, Step Functions, etc), Vercel, Render, and more. Our design & UX team has experience in: Figma, Framer, Illustrator, Photoshop, After Effects, Premiere Pro, Hotjar, Google Analytics, Useberry, Maze, UserTesting, Dovetail, and more. If you need help with a technology that's not listed here, just ask us.</p>
                     </div>
                 </div>
 
