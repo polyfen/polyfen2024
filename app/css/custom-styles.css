@@ -323,7 +323,7 @@ section.plck-section h2 {
     height: 70px;
     place-content: center;
     background-color: #120E32;
-    border: 1px solid #7437F8;
+    border: 1px solid #7437f850;
     border-radius: 6px;
     margin-bottom: 25px;
 }
