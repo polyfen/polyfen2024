@@ -39,6 +39,8 @@
     <?php include 'includes/hello-bar.php';?>
     <!-- INCLUDE HELLO-BAR.PHP end -->
 
+    <div id="home-border-top"></div>
+    
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->

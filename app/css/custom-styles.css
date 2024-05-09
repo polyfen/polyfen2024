@@ -122,7 +122,7 @@ section.plck-section h2 {
 
 /* Chatbox */
 .crisp-client .cc-tlyw.cc-tlyw {
- z-index: 4;
+ z-index: 60;
 }
 
 .crisp-client .cc-tlyw .cc-kxkl .cc-nsge span.cc-imbb {
@@ -178,9 +178,10 @@ section.plck-section h2 {
     position: absolute;
     inset-block: 0 auto;
     margin: 0;
-    z-index: 2;
+    z-index: 10;
     font-weight: 400;
-    opacity: .6;
+    opacity: 1;
+    background: none;
 }
 
 .toggle-container button:nth-child(2):before {
@@ -205,7 +206,7 @@ section.plck-section h2 {
     background-color: #722FFF;
     padding-block: 10px;
     border: 6px solid #722FFF;
-    z-index: 5;
+    z-index: 11;
     margin-top: -5px;
     cursor: default;
     font-weight: 700;
@@ -266,7 +267,7 @@ section.plck-section h2 {
 }
 
 .card-body ul {
-    margin-right: 36px;
+    margin-right: 50px;
 }
 
 .subscription-plan-card ul li {
@@ -279,6 +280,8 @@ section.plck-section h2 {
     flex: 1;
     padding-left: 16px;
     padding-top: 16px;
+    max-width: 300px;
+    margin-inline: auto;
 }
 
 .start-a-chat h4 {
@@ -314,6 +317,22 @@ section.plck-section h2 {
 .subscription-value-props h2 {
     margin-bottom: 1rem;
 }
+
+.value-img {
+    width: 70px;
+    height: 70px;
+    place-content: center;
+    background-color: #120E32;
+    border: 1px solid #7437F8;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+.value-img img {
+    margin-inline: auto;
+    height: 32px;
+    user-select: none;
+}
+
 /* Tech Stack */
 .stack-carrousel .slick-dots li:before { content: unset; }
 
@@ -324,6 +343,7 @@ section.plck-section h2 {
 .stack-carrousel .slick-dots li button:before {
     color: #722FFF;
     content: url(/imgs/bullet-inactive.svg);
+    top: -36px;
     opacity: 1;
 }
 /* slick ends */
@@ -343,6 +363,9 @@ section.plck-section h2 {
 
 /* Tech stack MediaQueries  */
 @media (max-width: 900px) {
+    .stack-carrousel {
+        width: 100%;
+    }
     .slide-inside {
         display: flex;
         margin-inline: auto;

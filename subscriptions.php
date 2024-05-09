@@ -42,10 +42,6 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
-
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
@@ -54,7 +50,7 @@
     <main class="subscriptions-main">
 
         <section class="subscription-plans container-1080">
-            <h1 class="caption align-center">Subscriptions</h1>
+            <h1 id="subscriptions" class="caption align-center">Subscriptions</h1>
             <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>for Every Start-up</h2>
 
             <!-- toggle button -->
@@ -104,11 +100,11 @@
                 <div class="start-a-chat">
                     <h3 class="caption" style="margin-bottom: 8px;">Want more?</h3>
                     <h4 class="heading-2">Talk to Sales for a Custom Plan</h4>
-                    <a href="/discovery-call" class="button secondary-button small-button margin-right-auto">Book a Call</a>
+                    <a href="/discovery-call" data-button-icon="book-a-call" class="button secondary-button small-button margin-right-auto">Book a Call</a>
                     <hr>
                     <h3 class="caption" style="margin-bottom: 8px;">Any Questions?</h3>
                     <h4 class="heading-2">We're Happy to Help</h4>
-                    <button onclick="$crisp.push(['do', 'chat:open'])" class="button secondary-button small-button margin-right-auto">Start a Chat</button>
+                    <button data-button-icon="start-a-chat" onclick="$crisp.push(['do', 'chat:open'])" class="button secondary-button small-button margin-right-auto">Start a Chat</button>
                 </div>
             </section>
         </section>
@@ -117,14 +113,17 @@
 
         <section class="container-1080 row subscription-value-props">
             <div class="col">
+                <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
                 <h2>10x<br>Engineers</h2>
                 <p>We hire world-class engineers, design and UX professionals in your timezone.</p>
             </div>
             <div class="col">
+                <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
                 <h2>Fast-track Onboarding</h2>
                 <p>No contracts, no paperwork hassle. Start today.</p>
             </div>
             <div class="col">
+                 <div class="value-img"><img src="/imgs/icons/person.svg"></div>
                 <h2>Devs, DevOps, UX, & Designers</h2>
                 <p>A single subscription for tasks of all kinds.</p>
             </div>
@@ -165,7 +164,7 @@
                         <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/vuejs-original.svg">Vue.js</div>
                         <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/angular-original.svg">Angular
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/python-plain.svg">Python</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/python-logo.svg">Python</div>
                     </div>
                 </div>
                 <div class="carrousel-col">

@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (scroll >= 60) {
             buttons.style.top = '18px';
         } else {
-            if (body.classList.contains("discovery-call")) {
+            if (body.classList.contains("landing-page")) {
                 buttons.style.top = '18px';
             } else {
                 buttons.style.top = '125px';
