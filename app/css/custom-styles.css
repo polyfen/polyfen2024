@@ -184,7 +184,7 @@ section.plck-section h2 {
 }
 
 .toggle-container button:nth-child(2):before {
-    content: "30% OFF";
+    content: attr(data-content);
     position: absolute;
     top: -26px;
     font-weight: 400;

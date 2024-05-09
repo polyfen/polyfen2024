@@ -60,7 +60,7 @@
             <!-- toggle button -->
             <div class="toggle-container">
                 <button class="small-button secondary-button inactive-button">Pay Monthly</button>
-                <button class="small-button secondary-button active-button">Pay Quarterly</button>
+                <button data-content="30% OFF" class="small-button secondary-button active-button">Pay Quarterly</button>
             </div>
             <section class="row">
                 <div class="subscription-plan-card" id="starter">
