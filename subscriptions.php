@@ -55,7 +55,7 @@
 
         <section class="subscription-plans container-1080">
             <h1 class="caption align-center">Subscriptions</h1>
-            <h2 class="heading-1 align-center">Affordable Plans for<br>Every Start-up</h2>
+            <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>for Every Start-up</h2>
 
             <!-- toggle button -->
             <div class="toggle-container">
@@ -117,7 +117,7 @@
 
         <section class="container-1080 row subscription-value-props">
             <div class="col">
-                <h2>World-class<br>Talent</h2>
+                <h2>10x<br>Engineers</h2>
                 <p>We hire world-class engineers, design and UX professionals in your timezone.</p>
             </div>
             <div class="col">
