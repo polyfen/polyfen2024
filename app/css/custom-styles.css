@@ -29,6 +29,10 @@ div.grain-texture {
 
 /*     HOME PAGE       */
 
+.subscribe-section {
+    margin-bottom: 4rem;
+}
+
 .services-card {
     padding: 24px 16px;
 }
@@ -163,6 +167,14 @@ section.plck-section h2 {
 
 .subscription-plans h2 {
     margin-bottom: 4rem;
+}
+
+body.home .start-today-button {
+    display: none;
+}
+
+body.subscriptions .learn-more-button {
+    display: none;
 }
 
 /* toggle buttons*/
