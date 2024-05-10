@@ -14,9 +14,9 @@
     <meta property="og:url" content="https://polyfen.com/subscriptions">
     <meta property="og:title" content="Subscription Plans for Start-ups">
     <meta name="twitter:title" content="Subscription Plans for Start-ups">
-    <meta name="description" property="og:description" content="">
-    <meta name="twitter:description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" property="og:description" content="Affordable all-in-one subscriptions with unlimited design and development tasks for start-ups.">
+    <meta name="twitter:description" content="Affordable all-in-one subscriptions with unlimited design and development tasks for start-ups.">
+    <meta name="keywords" content="development tasks, design tasks, ux tasks, devops tasks, development subscription, design subscription, ux subscription, devops subscription, startup, product development, monthly, quarterly, ">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/#.png">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/#.png">
     <!-- PAGE-SPECIFIC META end -->
