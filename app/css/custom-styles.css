@@ -345,11 +345,9 @@ section.plck-section h2 {
     .stack-carrousel .slick-dots li button:before {
         color: #722FFF;
         content: url(/imgs/bullet-inactive.svg);
-        top: -36px;
         opacity: 1;
     }
     /* End Slick */
-
 
 .stack-u {
     display: flex;
@@ -381,6 +379,13 @@ section.plck-section h2 {
     .stack-carrousel {
         width: 100%;
     }
+
+    .stack-carrousel *.hidden {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+
     .slide-inside {
         display: flex;
         margin-inline: auto;
