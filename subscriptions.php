@@ -53,17 +53,17 @@
     <!-- Landing page start -->
     <main class="subscriptions-main">
 
-        <section class="subscription-plans container-1080">
+        <section class="subscription-plans container-1080 hidden">
             <h1 id="subscriptions" class="caption align-center">Subscriptions</h1>
             <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>for Every Start-up</h2>
 
             <!-- toggle button -->
-            <div class="toggle-container">
+            <div class="toggle-container hidden">
                 <button class="small-button secondary-button inactive-button">Pay Monthly</button>
                 <button data-content="30% OFF" class="small-button secondary-button active-button">Pay Quarterly</button>
             </div>
             <section class="row">
-                <div class="subscription-plan-card" id="starter">
+                <div class="subscription-plan-card hidden" id="starter">
                     <div class="card-header">
                         <h3 class="heading-2">Starter</h3>
                         <h4 class="heading-3">$3442</h4>
@@ -81,7 +81,7 @@
                         <a class="button secondary-button small-button">Start Today ➞</a>
                     </div>
                 </div>
-                <div class="subscription-plan-card featured-card" id="pro">
+                <div class="subscription-plan-card featured-card hidden" id="pro">
                     <div class="card-header">
                         <h3 class="heading-2">Pro</h3>
                         <h4 class="heading-3">$6263</h4>
@@ -101,7 +101,7 @@
                         <a class="button secondary-button small-button">Start Today ➞</a>
                     </div>
                 </div>
-                <div class="start-a-chat">
+                <div class="start-a-chat hidden">
                     <h3 class="caption" style="margin-bottom: 8px;">Want more?</h3>
                     <h4 class="heading-2">Talk to Sales for a Custom Plan</h4>
                     <a href="/discovery-call" data-button-icon="book-a-call" class="button secondary-button small-button margin-right-auto">Book a Call</a>
