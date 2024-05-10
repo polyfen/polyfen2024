@@ -353,7 +353,7 @@
             <div class="grain-texture">
                 <div class="cta-content">
                     <div class="hidden container">
-                        <h2 class="heading-1 align-center">Affordable plans for<br>every start-up</h2>
+                        <h2 class="heading-1 align-center">Affordable all-in-one plans<br>for every start-up</h2>
                         <a class="button large-button secondary-button hidden" href="#subscriptions">↑ Subscribe Today
                             ↑</a>
                     </div>
