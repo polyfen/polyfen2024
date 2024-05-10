@@ -334,19 +334,22 @@ section.plck-section h2 {
 }
 
 /* Tech Stack */
-.stack-carrousel .slick-dots li:before { content: unset; }
 
-.stack-carrousel .slick-dots li.slick-active button:before { 
-    color: #722FFF;
-    content: url(/imgs/bullet-active.svg);
-}
-.stack-carrousel .slick-dots li button:before {
-    color: #722FFF;
-    content: url(/imgs/bullet-inactive.svg);
-    top: -36px;
-    opacity: 1;
-}
-/* slick ends */
+    /* Slick */
+    .stack-carrousel .slick-dots li:before { content: unset; }
+
+    .stack-carrousel .slick-dots li.slick-active button:before { 
+        color: #722FFF;
+        content: url(/imgs/bullet-active.svg);
+    }
+    .stack-carrousel .slick-dots li button:before {
+        color: #722FFF;
+        content: url(/imgs/bullet-inactive.svg);
+        top: -36px;
+        opacity: 1;
+    }
+    /* End Slick */
+
 
 .stack-u {
     display: flex;
@@ -359,6 +362,18 @@ section.plck-section h2 {
     width: 35px;
     max-height: 35px;
     user-select: none;
+}
+
+.stack-u.pro::after {
+    content: 'PRO';
+    background: #7437f850;
+    border-radius: 4px;
+    width: 39px;
+    height: 17px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    place-content: center;
 }
 
 /* Tech stack MediaQueries  */

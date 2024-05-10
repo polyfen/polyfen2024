@@ -176,12 +176,13 @@
                         <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/php-original.svg">PHP</div>
                         <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/laravel-original.svg">Laravel
                         </div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/x.svg">MySQL</div>
+
                         <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/mongodb-original.svg">MongoDB
                         </div>
                         <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/firebase-original.svg">Firebase
                         </div>
                         <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/nextjs-plain.svg">Next.js</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
@@ -192,9 +193,7 @@
                         <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/dart-original.svg">Dart</div>
                         <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/flutter-original.svg">Flutter
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby
-                            on
-                            Rails</div>
+                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on Rails</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
@@ -226,19 +225,20 @@
                             Pro
                         </div>
                         <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/aws-plain.svg">AWS</div>
+                        <div class="pro stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/aws-plain.svg">AWS</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/azure-original.svg">Azure</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/googlecloud-original.svg">Google
+                        <div class="pro stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/azure-original.svg">Azure</div>
+                        <div class="pro stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/googlecloud-original.svg">Google
                             Cloud
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/docker-original.svg">Docker</div>
-                        <div class="stack-u hidden"><img loading="lazy"
+                        <div class="pro stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/docker-original.svg">Docker</div>
+                        <div class="pro stack-u hidden"><img loading="lazy"
                                 src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes
                         </div>
+                        <div class="pro stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
                     </div>
                 </div>
             </div>
