@@ -116,17 +116,17 @@
         <hr>
 
         <section class="container-1080 row subscription-value-props">
-            <div class="col">
+            <div class="col hidden">
                 <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
                 <h2>10x<br>Engineers</h2>
                 <p>We hire world-class engineers, design and UX professionals in your timezone.</p>
             </div>
-            <div class="col">
+            <div class="col hidden">
                 <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
                 <h2>Fast-track Onboarding</h2>
                 <p>No contracts, no paperwork hassle. Start today.</p>
             </div>
-            <div class="col">
+            <div class="col hidden">
                  <div class="value-img"><img src="/imgs/icons/person.svg"></div>
                 <h2>Devs, DevOps, UX, & Designers</h2>
                 <p>A single subscription for tasks of all kinds.</p>
