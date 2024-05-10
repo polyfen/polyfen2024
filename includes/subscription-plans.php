@@ -51,7 +51,7 @@
             <h3 class="caption" style="margin-bottom: 8px;">Any Questions?</h3>
             <h4 class="heading-2">We're Happy to Help</h4>
             <button data-button-icon="start-a-chat" onclick="$crisp.push(['do', 'chat:open'])"
-                class="button secondary-button small-button margin-right-auto">Start a Chat</button>
+                class="button secondary-button small-button margin-right-auto">Open Chat</button>
         </div>
     </div>
 </section>
