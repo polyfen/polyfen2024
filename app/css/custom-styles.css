@@ -120,16 +120,25 @@ section.plck-section h2 {
     content: "🤝";
 }
 
-/* Change position of Cookies and Chat modals on scroll over the footer */
+/* Chatbox */
 
-.bottom-120, #crisp-chatbox div a.bottom-120 {
+/* Change position of Cookies and Chat modals on scroll over the footer */
+.bottom-120,
+#crisp-chatbox div a.bottom-120 {
     bottom: 120px !important;
 }
 
+/*automatic message to not overlapping with chat bubble*/
+a.bottom-120 span .cc-1fs0[data-id="new_messages"] {
+    margin-bottom: 100px !important;
+}
+/*chat-window to not overlapping with chat bubble*/
+.cc-1hqb[data-visible="true"]:has(+ .bottom-120) {
+    margin-bottom: 100px !important;
+    }
 
-/* Chatbox */
 .crisp-client .cc-tlyw.cc-tlyw {
- z-index: 60;
+    z-index: 60;
 }
 
 .crisp-client .cc-tlyw .cc-kxkl .cc-nsge span.cc-imbb {
@@ -146,7 +155,7 @@ section.plck-section h2 {
 /* subscription - landing page -------------------------------------------------------------*/
 
 .subscription-plan-card ul li {
-    font-family: 'Figtree', sans-serif  !important;
+    font-family: 'Figtree', sans-serif !important;
     font-size: 1rem;
     margin-bottom: 0.35rem;
 }
@@ -206,13 +215,14 @@ body.subscriptions .learn-more-button {
     font-weight: 400;
 }
 
- .toggle-container button:is(:active, :focus) {
+.toggle-container button:is(:active, :focus) {
     outline: none;
-} 
+}
 
 .toggle-container button:nth-child(1) {
     left: 0px;
 }
+
 .toggle-container button:nth-child(2) {
     right: 0px;
 }
@@ -228,6 +238,7 @@ body.subscriptions .learn-more-button {
     box-shadow: 0px 0px 4px 4px #000;
     opacity: 1;
 }
+
 .toggle-container .active-button:hover {
     box-shadow: 0px 0px 4px 4px #000;
 }
@@ -258,19 +269,19 @@ body.subscriptions .learn-more-button {
     position: relative;
 }
 
-    .card-header h3 {
-        margin-bottom: 0rem;
-        font-weight: 700;
-    }
+.card-header h3 {
+    margin-bottom: 0rem;
+    font-weight: 700;
+}
 
-    .card-header h4 {
-        font-weight: 400;
-        display: inline;
-    }
+.card-header h4 {
+    font-weight: 400;
+    display: inline;
+}
 
-    .card-header small.caption {
-        opacity: 0.6;
-    }
+.card-header small.caption {
+    opacity: 0.6;
+}
 
 .card-body {
     display: flex;
@@ -286,7 +297,7 @@ body.subscriptions .learn-more-button {
 }
 
 .subscription-plan-card ul li {
-    font-family: 'Figtree', sans-serif  !important;
+    font-family: 'Figtree', sans-serif !important;
     font-size: 1rem;
     margin-bottom: 0.35rem;
 }
@@ -310,7 +321,7 @@ body.subscriptions .learn-more-button {
     width: 100%;
 }
 
-.subscription-plan-card ul li::before{
+.subscription-plan-card ul li::before {
     content: "✓";
 }
 
@@ -344,6 +355,7 @@ body.subscriptions .learn-more-button {
     border-radius: 6px;
     margin-bottom: 25px;
 }
+
 .value-img img {
     margin-inline: auto;
     height: 32px;
@@ -352,19 +364,23 @@ body.subscriptions .learn-more-button {
 
 /* Tech Stack */
 
-    /* Slick */
-    .stack-carrousel .slick-dots li:before { content: unset; }
+/* Slick */
+.stack-carrousel .slick-dots li:before {
+    content: unset;
+}
 
-    .stack-carrousel .slick-dots li.slick-active button:before { 
-        color: #722FFF;
-        content: url(/imgs/bullet-active.svg);
-    }
-    .stack-carrousel .slick-dots li button:before {
-        color: #722FFF;
-        content: url(/imgs/bullet-inactive.svg);
-        opacity: 1;
-    }
-    /* End Slick */
+.stack-carrousel .slick-dots li.slick-active button:before {
+    color: #722FFF;
+    content: url(/imgs/bullet-active.svg);
+}
+
+.stack-carrousel .slick-dots li button:before {
+    color: #722FFF;
+    content: url(/imgs/bullet-inactive.svg);
+    opacity: 1;
+}
+
+/* End Slick */
 
 .stack-u {
     display: flex;
@@ -409,9 +425,11 @@ body.subscriptions .learn-more-button {
         flex-direction: column;
         width: fit-content;
     }
+
     .stack-u {
         text-align: center;
     }
+
     .stack-u img {
         margin-inline: auto;
     }
@@ -427,6 +445,7 @@ body.subscriptions .learn-more-button {
 }
 
 @media (min-width: 900px) {
+
     .carrousel-col,
     .slide-inside {
         display: contents;
@@ -435,7 +454,7 @@ body.subscriptions .learn-more-button {
     .stack-carrousel {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr auto;
-        grid-template-rows: repeat(10,auto);
+        grid-template-rows: repeat(10, auto);
         grid-auto-flow: column;
         gap: 18px
     }
@@ -455,4 +474,5 @@ body.subscriptions .learn-more-button {
         padding-left: 30px;
     }
 }
+
 /*end subscriptions page*/
