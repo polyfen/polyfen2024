@@ -276,19 +276,21 @@ section.plck-section h2 {
     margin-bottom: 0.35rem;
 }
 
-.start-a-chat {
+.subscription-third-col {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     padding-left: 16px;
     padding-top: 16px;
-    max-width: 300px;
+    width: 300px;
     margin-inline: auto;
 }
 
-.start-a-chat h4 {
+.subscription-third-col h4 {
     margin-bottom: 0;
 }
 
-.start-a-chat hr {
+.subscription-third-col hr {
     margin-block: 2rem;
     width: 100%;
 }
