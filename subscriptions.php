@@ -14,9 +14,12 @@
     <meta property="og:url" content="https://polyfen.com/subscriptions">
     <meta property="og:title" content="Design & Dev Subscription Plans">
     <meta name="twitter:title" content="Design & Dev Subscription Plans">
-    <meta name="description" property="og:description" content="Affordable all-in-one subscriptions with unlimited design and development tasks for start-ups.">
-    <meta name="twitter:description" content="Affordable all-in-one subscriptions with unlimited design and development tasks for start-ups.">
-    <meta name="keywords" content="development tasks, design tasks, ux tasks, devops tasks, development subscription, design subscription, ux subscription, devops subscription, startup, product development, monthly, quarterly, ">
+    <meta name="description" property="og:description"
+        content="Affordable all-in-one subscriptions with unlimited design and development tasks for start-ups.">
+    <meta name="twitter:description"
+        content="Affordable all-in-one subscriptions with unlimited design and development tasks for start-ups.">
+    <meta name="keywords"
+        content="development tasks, design tasks, ux tasks, devops tasks, development subscription, design subscription, ux subscription, devops subscription, startup, product development, monthly, quarterly, ">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/subscriptions.png">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/subscriptions.png">
     <!-- PAGE-SPECIFIC META end -->
@@ -41,7 +44,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
     <!-- INCLUDE HELLO-BAR.PHP start -->
     <?php include 'includes/hello-bar.php';?>
     <!-- INCLUDE HELLO-BAR.PHP end -->
@@ -60,7 +63,8 @@
             <!-- toggle button -->
             <div class="toggle-container hidden">
                 <button class="small-button secondary-button inactive-button">Pay Monthly</button>
-                <button data-content="30% OFF" class="small-button secondary-button active-button">Pay Quarterly</button>
+                <button data-content="30% OFF" class="small-button secondary-button active-button">Pay
+                    Quarterly</button>
             </div>
             <section class="row">
                 <div class="subscription-plan-card hidden" id="starter">
@@ -104,11 +108,13 @@
                 <div class="start-a-chat hidden">
                     <h3 class="caption" style="margin-bottom: 8px;">Want more?</h3>
                     <h4 class="heading-2">Talk to Sales for a Custom Plan</h4>
-                    <a href="/discovery-call" data-button-icon="book-a-call" class="button secondary-button small-button margin-right-auto">Book a Call</a>
+                    <a href="/discovery-call" data-button-icon="book-a-call"
+                        class="button secondary-button small-button margin-right-auto">Book a Call</a>
                     <hr>
                     <h3 class="caption" style="margin-bottom: 8px;">Any Questions?</h3>
                     <h4 class="heading-2">We're Happy to Help</h4>
-                    <button data-button-icon="start-a-chat" onclick="$crisp.push(['do', 'chat:open'])" class="button secondary-button small-button margin-right-auto">Start a Chat</button>
+                    <button data-button-icon="start-a-chat" onclick="$crisp.push(['do', 'chat:open'])"
+                        class="button secondary-button small-button margin-right-auto">Start a Chat</button>
                 </div>
             </section>
         </section>
@@ -127,7 +133,7 @@
                 <p>No contracts, no paperwork hassle. Start today.</p>
             </div>
             <div class="col hidden">
-                 <div class="value-img"><img src="/imgs/icons/person.svg"></div>
+                <div class="value-img"><img src="/imgs/icons/person.svg"></div>
                 <h2>Devs, DevOps, UX, & Designers</h2>
                 <p>A single subscription for tasks of all kinds.</p>
             </div>
@@ -135,110 +141,175 @@
 
         <hr>
 
-        <section class="container-1080">
+        <section class="stack-section container-1080">
             <h2 class="align-center">Solutions for<br>Every Stack</h2>
 
             <!-- Tech Stack for carrousel -->
-            <div class="stack-carrousel container-800">
+            <div class="stack-carrousel">
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/git-original.svg">Git</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/jira-original.svg">Jira</div>
-                        <div class="stack-u hidden"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/git-original.svg">Git</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/jira-original.svg">Jira</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/confluence-original.svg">Confluence
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/wordpress-plain.svg">Wordpress
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/wordpress-plain.svg">Wordpress
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/woocommerce-original.svg">WooCommerce
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/javascript-original.svg">JavaScript
                         </div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/nodejs-original.svg">Node.js
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/nodejs-original.svg">Node.js
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/react-original.svg">React</div>
-                        <div class="stack-u hidden"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/react-original.svg">React</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/typescript-original.svg">TypeScript
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/vuejs-original.svg">Vue.js</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/angular-original.svg">Angular
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/vuejs-original.svg">Vue.js</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/angular-original.svg">Angular
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/python-logo.svg">Python</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/python-logo.svg">Python</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/php-original.svg">PHP</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/laravel-original.svg">Laravel
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/php-original.svg">PHP</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/laravel-original.svg">Laravel
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/x.svg">MySQL</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/mysql-original-icon.svg">MySQL</div>
 
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/mongodb-original.svg">MongoDB
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/mongodb-original.svg">MongoDB
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/firebase-original.svg">Firebase
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/firebase-original.svg">Firebase
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/nextjs-plain.svg">Next.js</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/nextjs-plain.svg">Next.js</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/bun-original.svg">Bun</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/swift-original.svg">Swift</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/dart-original.svg">Dart</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/flutter-original.svg">Flutter
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/bun-original.svg">Bun</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/swift-original.svg">Swift</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/dart-original.svg">Dart</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/flutter-original.svg">Flutter
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on Rails</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on Rails</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/sass-original.svg">Sass</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/bootstrap-original.svg">Bootstrap
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/sass-original.svg">Sass</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/bootstrap-original.svg">Bootstrap
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/tailwindcss-original.svg">Tailwind
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/materialui-plain.svg">Material UI
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/materialui-plain.svg">Material UI
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/figma-original.svg">Figma</div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/framer.svg">Framer</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/figma-original.svg">Figma</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt="" src="/imgs/tech-stack/framer.svg">Framer
+                        </div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/illustrator-plain.svg">Illustrator
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/photoshop-original.svg">Photoshop
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/photoshop-original.svg">Photoshop
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/aftereffects-original.svg">After
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/aftereffects-original.svg">After
                             Effects
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy"
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/premierepro-original.svg">Premiere
                             Pro
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
-                        <div class="pro stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/aws-plain.svg">AWS</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/xd-original.svg">Adobe XD</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="pro stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/azure-original.svg">Azure</div>
-                        <div class="pro stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/googlecloud-original.svg">Google
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/analytics-logo.svg">Google Analytics</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/useberry-logo.svg">Useberry</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/maze-logo-w.svg">Maze</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/usertesting-icon.svg">UserTesting</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/dovetail-logo-white.svg">Dovetail</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/java-original.svg">Java</div>
+                    </div>
+                </div>
+                <div class="carrousel-col">
+                    <div class="slide-inside">
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/dotnet-logo.svg">.Net</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/databricks-logo.svg">Databricks</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/django-plain.svg">Django</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/rust-original.svg">Rust</div>
+                        <div class="stack-u hidden"><img loading="lazy" alt="" src="/imgs/tech-stack/go-original.svg">Go
+                        </div>
+                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/aws-plain.svg">AWS</div>
+                    </div>
+                </div>
+                <div class="carrousel-col">
+                    <div class="slide-inside">
+                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/azure-original.svg">Azure</div>
+                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/googlecloud-original.svg">Google
                             Cloud
                         </div>
-                        <div class="pro stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/docker-original.svg">Docker</div>
-                        <div class="pro stack-u hidden"><img loading="lazy"
+                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/docker-original.svg">Docker</div>
+                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes
                         </div>
-                        <div class="pro stack-u hidden"><img loading="lazy" src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
+                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
                     </div>
                 </div>
             </div>
@@ -316,7 +387,8 @@
                         <h3 class="heading-4"><span>7. </span>Can I prioritize my tasks?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Yes, as soon as you pay, you'll have access to our task management system where you can submit and prioritize your tasks.</p>
+                        <p>Yes, as soon as you pay, you'll have access to our task management system where you can
+                            submit and prioritize your tasks.</p>
                     </div>
                 </div>
 
@@ -335,7 +407,12 @@
                         <h3 class="heading-4"><span>9. </span>What technologies do you use?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Our engineers are experienced with the following technologies: React, Next.js, Node.js, Laravel, PHP, Airflow, Java, Express.js, MongoDB, PostgreSQL, MySQL, AWS (Lambdas, Step Functions, etc), Vercel, Render, and more. Our design & UX team has experience in: Figma, Framer, Illustrator, Photoshop, After Effects, Premiere Pro, Hotjar, Google Analytics, Useberry, Maze, UserTesting, Dovetail, and more. If you need help with a technology that's not listed here, just ask us.</p>
+                        <p>Our engineers are experienced with the following technologies: React, Next.js, Node.js,
+                            Laravel, PHP, Airflow, Java, Express.js, MongoDB, PostgreSQL, MySQL, AWS (Lambdas, Step
+                            Functions, etc), Vercel, Render, and more. Our design & UX team has experience in: Figma,
+                            Framer, Illustrator, Photoshop, After Effects, Premiere Pro, Hotjar, Google Analytics,
+                            Useberry, Maze, UserTesting, Dovetail, and more. If you need help with a technology that's
+                            not listed here, just ask us.</p>
                     </div>
                 </div>
 
@@ -380,8 +457,8 @@
     $(document).ready(function() {
         $('.stack-carrousel').slick({
             responsive: [{
-                infinite: true,
-                slidesToScroll: 1,
+                    infinite: true,
+                    slidesToScroll: 1,
 
                     breakpoint: 3000,
                     settings: "unslick",
@@ -419,21 +496,21 @@
 
     document.querySelectorAll('.toggle-container button').forEach(button => {
         button.addEventListener('click', () => {
-            if(button.classList.contains('inactive-button')){
-            document.querySelectorAll('.toggle-container button').forEach(e => {
-                e.classList.toggle('active-button');
-                e.classList.toggle('inactive-button');
-            });
-            let starterPrice = document.getElementById('starter').querySelector('h4');
-            let proPrice = document.getElementById('pro').querySelector('h4');
-            if (starterPrice.textContent === "$4917") {
-                starterPrice.textContent = "$3442";
-                proPrice.textContent = "$6263";
-            } else {
-                starterPrice.textContent = "$4917";
-                proPrice.textContent = "$8945";
+            if (button.classList.contains('inactive-button')) {
+                document.querySelectorAll('.toggle-container button').forEach(e => {
+                    e.classList.toggle('active-button');
+                    e.classList.toggle('inactive-button');
+                });
+                let starterPrice = document.getElementById('starter').querySelector('h4');
+                let proPrice = document.getElementById('pro').querySelector('h4');
+                if (starterPrice.textContent === "$4917") {
+                    starterPrice.textContent = "$3442";
+                    proPrice.textContent = "$6263";
+                } else {
+                    starterPrice.textContent = "$4917";
+                    proPrice.textContent = "$8945";
+                }
             }
-        }
         });
     });
     </script>
