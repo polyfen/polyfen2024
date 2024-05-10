@@ -29,6 +29,9 @@ div.grain-texture {
 
 /*     HOME PAGE       */
 
+#services {
+    scroll-margin-top: 4rem;
+}
 .subscribe-section {
     margin-bottom: 4rem;
 }

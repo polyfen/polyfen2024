@@ -51,7 +51,8 @@
             <h1 class="title-1">Unleash your<br>business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
             <small class="caption">Start Today</small>
-            <a class="button large-button animated-button" href="discovery-call">Let's Talk!</a>
+            <a class="button large-button animated-button" href="/discovery-call">Book a Call</a>
+            <a class="button large-button secondary-button" href="#services">Learn More</a>
 
             <div class="background">
                 <div id="pearl-11" class="pearl rotate-slower hidden">
@@ -75,40 +76,41 @@
 
         <hr>
 
-        <section class="container-1080 hidden subscribe-section">
-            <h2 class="heading-1">Subscribe</h2>
-            <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
-            <?php include 'includes/subscription-plans.php';?>
-            <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
-        </section>
+        <section id="services">
+            <section class="container-1080 hidden subscribe-section">
+                <h2 class="heading-1">Subscribe</h2>
+                <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
+                <?php include 'includes/subscription-plans.php';?>
+                <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
+            </section>
+            <section class="build container-1080 hidden">
+                <h2 class="heading-1">Build</h2>
+                <div class="cards-container">
+                    <section class="services-card hidden">
+                        <h3 class="heading-2">Brand</h3>
+                        <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="">
+                        <h4 class="caption">Starting at</h4>
+                        <h4 class="heading-3">$7,600</h4>
+                        <h4 class="caption">2-3 weeks</h4>
+                    </section>
 
-        <section class="build container-1080 hidden">
-            <h2 class="heading-1">Build</h2>
-            <div class="cards-container">
-                <section class="services-card hidden">
-                    <h3 class="heading-2">Brand</h3>
-                    <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="">
-                    <h4 class="caption">Starting at</h4>
-                    <h4 class="heading-3">$7,600</h4>
-                    <h4 class="caption">2-3 weeks</h4>
-                </section>
+                    <section class="services-card hidden">
+                        <h3 class="heading-2">Website</h3>
+                        <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="">
+                        <h4 class="caption">Starting at</h4>
+                        <h4 class="heading-3">$7,800</h4>
+                        <h4 class="caption">3-6 weeks</h4>
+                    </section>
 
-                <section class="services-card hidden">
-                    <h3 class="heading-2">Website</h3>
-                    <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="">
-                    <h4 class="caption">Starting at</h4>
-                    <h4 class="heading-3">$7,800</h4>
-                    <h4 class="caption">3-6 weeks</h4>
-                </section>
-
-                <section class="services-card hidden">
-                    <h3 class="heading-2">App</h3>
-                    <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
-                    <h4 class="caption">Starting at</h4>
-                    <h4 class="heading-3">$39,000</h4>
-                    <h4 class="caption">2-6 months</h4>
-                </section>
-            </div>
+                    <section class="services-card hidden">
+                        <h3 class="heading-2">App</h3>
+                        <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
+                        <h4 class="caption">Starting at</h4>
+                        <h4 class="heading-3">$39,000</h4>
+                        <h4 class="caption">2-6 months</h4>
+                    </section>
+                </div>
+            </section>
         </section>
 
         <hr>
