@@ -59,7 +59,7 @@
 
     <!-- CONTACT page start -->
     <main class="contact-main">
-        <section class="message-call container-1080 hidden-header" aria-label="Contact">
+        <section class="message-call container-1080 fade-in-header" aria-label="Contact">
             <section class="send-a-message">
                 <h2 class="heading-2 align-center">Send a Message</h2>
                 <div class="err-msj">Verify you are human</div>
@@ -90,7 +90,7 @@
             </section>
         </section>
         <hr>
-        <section class="email-phone container hidden">
+        <section class="email-phone container fade-in">
             <h3 class="heading-2 align-center">hi@polyfen.com</h3>
             <h3 class="heading-2 align-center"><img src="/imgs/flags/us.svg" class="contact-flag" alt=""> +1 415 610 8439</h3>
         </section>

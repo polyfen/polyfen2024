@@ -80,14 +80,14 @@ hr.vertical-hr {
 
 /* //Subtle transitions// */
 
-.hidden {
+.fade-in {
     opacity: 0;
     /*filter: blur(1px);*/
     transform: translateY(75px);
     transition: all 0.65s;
 }
 
-.hidden-header {
+.fade-in-header {
     opacity: 0;
     /*filter: blur(1px);*/
     transform: translateY(75px);

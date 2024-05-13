@@ -13,7 +13,7 @@
 ?>
 
 
-<section class="past-newsletters container-1080 hidden">
+<section class="past-newsletters container-1080 fade-in">
 
     <h2 class="heading-3 align-center">Past Newsletters</h2>    
 

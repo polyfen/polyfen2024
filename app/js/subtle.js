@@ -8,8 +8,8 @@ const observer = new IntersectionObserver(entries => {
     });
 });
 
-const hiddenElements = document.querySelectorAll('.hidden');
-hiddenElements.forEach((el) => observer.observe(el));
+const fadeinElements = document.querySelectorAll('.fade-in');
+fadeinElements.forEach((el) => observer.observe(el));
 
 
 //version for header
@@ -22,5 +22,5 @@ const observerHeader = new IntersectionObserver(entries => {
     });
 });
 
-const hiddenHeader = document.querySelectorAll('.hidden-header');
-hiddenHeader.forEach((el) => observerHeader.observe(el));
+const fadeinHeader = document.querySelectorAll('.fade-in-header');
+fadeinHeader.forEach((el) => observerHeader.observe(el));

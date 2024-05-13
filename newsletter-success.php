@@ -52,7 +52,7 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- THANK-YOU page start -->
-    <main class="thank-you-main hidden-header">
+    <main class="thank-you-main fade-in-header">
         <h1 class="heading-1 align-center">Subscription Confirmed!</h1>
         
         <h2 class="heading-5 align-center">Follow us on social</h2>

@@ -58,7 +58,7 @@
     <!-- ABOUT page start -->
     <main class="about-main">
 
-        <section class="about-cover container hidden-header">
+        <section class="about-cover container fade-in-header">
 
             <h1 class="caption align-center">About</h1>
             <h2 class="heading-1 align-center">Where Business &amp; Creativity Come Together</h2>
@@ -75,30 +75,30 @@
             </div>
         </section>
         <hr>
-        <section class="founder container-700 hidden">
+        <section class="founder container-700 fade-in">
             <h2 class="heading-2 align-center">10+ Years of Experience in Design, Development, &amp; Marketing</h2>
 
             <div class="column-to-row">
 
-                <div class="founder-bios hidden">
+                <div class="founder-bios fade-in">
                     <img class="founder-boris" src="/imgs/about/boris-hrncic.webp" alt="">
                     <h3 class="caption">Boris Hrnčić</h3>
                     <h4 class="caption">Founder &amp; CEO</h4>
                     <img src="/imgs/flags/hr.svg" class="flag" alt=""><small>Zagreb, Croatia</small>
                 </div>
 
-                <div class="founder-list hidden">
+                <div class="founder-list fade-in">
                     <ul class="hanging-list arrow-bullets spaced-list">
-                        <li class="hidden">Coding since 2008 and designing brands since 2010.
+                        <li class="fade-in">Coding since 2008 and designing brands since 2010.
                         </li>
-                        <li class="hidden">Vetted in the top 3% of designers worldwide by
+                        <li class="fade-in">Vetted in the top 3% of designers worldwide by
                             <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
                             2017.
                         </li>
-                        <li class="hidden">Led high-performing teams for small start-ups and big
+                        <li class="fade-in">Led high-performing teams for small start-ups and big
                             enterprises in Croatia, Argentina, and the US.</li>
                     </ul>
-                    <div class="founder-social hidden">
+                    <div class="founder-social fade-in">
                         <a data-before="boris-in" href="https://www.linkedin.com/in/borishr/"
                             target="_blank">LinkedIn</a>
                         <a data-before="boris-hr" href="https://boris.hr/" target="_blank" rel="follow">boris.hr</a>
@@ -109,45 +109,45 @@
 
         </section>
         <hr>
-        <section class="plat-section container hidden">
+        <section class="plat-section container fade-in">
             <h2 class="heading-2 align-center">We Wrote the Book on Branding</h2>
             <div class="column-to-row">
-                <div class="one-half hidden">
+                <div class="one-half fade-in">
                     <img src="/imgs/about/poly-atlas-animation.gif" alt="">
                 </div>
-                <div class="one-half hidden">
+                <div class="one-half fade-in">
                     <p>A step-by-step guide to the Branding process including practical tips,
                         case studies, template files, and many other useful resources.</p>
-                    <a class="button secondary-button margin-right-auto hidden" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki</a>
+                    <a class="button secondary-button margin-right-auto fade-in" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki</a>
                 </div>
             </div>
         </section>
         <hr>
-        <section class="plck-section container hidden">
+        <section class="plck-section container fade-in">
             <h2 class="heading-2 align-center">We Made a Free Solution for Cookies Consent</h2>
             <div class="column-to-row">
-                <div class="one-half hidden">
+                <div class="one-half fade-in">
                     <iframe id="plcq-tutorial" width="560" height="315"
                         src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM" title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen loading="lazy"></iframe>
                 </div>
-                <div class="one-half hidden">
+                <div class="one-half fade-in">
                     <p>We developed a simple open-source technology that helps websites comply with privacy protection
                         regulations like GDPR and the California Online Privacy Act.</p>
-                    <a href="https://polycookies.com/" target="_blank" class="button secondary-button margin-right-auto hidden">polycookies.com</a>
+                    <a href="https://polycookies.com/" target="_blank" class="button secondary-button margin-right-auto fade-in">polycookies.com</a>
                 </div>
             </div>
         </section>
 
         <hr>
 
-        <section class="what-sets-us-apart container-1080 hidden">
+        <section class="what-sets-us-apart container-1080 fade-in">
 
             <h2 class="heading-2 align-center">What Sets us Apart</h2>
             <div class="container-700 accordions-container">
 
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 data-acc="rocket" class="heading-3">Excellence through R&amp;D</h3>
                     </div>
@@ -161,7 +161,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 data-acc="person" class="heading-3">Teamwork makes the dream work</h3>
                     </div>
@@ -172,7 +172,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 data-acc="globe" class="heading-3">Fully remote since 2018</h3>
                     </div>
@@ -183,7 +183,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 data-acc="dna" class="heading-3">Transparency is in our DNA</h3>
                     </div>

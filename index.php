@@ -44,7 +44,7 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- Home page start -->
-    <main class="home-main hidden-header">
+    <main class="home-main fade-in-header">
         <section class="home-cover">
             <h1 class="title-1">Unleash your<br>business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
@@ -52,31 +52,31 @@
             <a class="button large-button animated-button" href="discovery-call">Let's Talk!</a>
 
             <div class="background">
-                <div id="pearl-11" class="pearl rotate-slower hidden">
+                <div id="pearl-11" class="pearl rotate-slower fade-in">
                 </div>
-                <div id="pearl-12" class="pearl rotate hidden">
+                <div id="pearl-12" class="pearl rotate fade-in">
                 </div>
-                <div id="pearl-13" class="pearl rotate hidden">
+                <div id="pearl-13" class="pearl rotate fade-in">
                 </div>
             </div>
         </section>
 
-        <section class="clients-featured container-900 hidden">
+        <section class="clients-featured container-900 fade-in">
             <h2 class="caption align-center">Clients featured in</h2>
             <div class="clients-container">
-                <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60" class="hidden">
-                <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50" class="hidden">
-                <img src="imgs/forbes-logo.svg" alt="Forbes" height="40" class="hidden">
-                <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45" class="hidden">
+                <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60" class="fade-in">
+                <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50" class="fade-in">
+                <img src="imgs/forbes-logo.svg" alt="Forbes" height="40" class="fade-in">
+                <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45" class="fade-in">
             </div>
         </section>
 
         <hr>
 
-        <section class="build container-1080 hidden">
+        <section class="build container-1080 fade-in">
             <h2 class="heading-1">Build</h2>
             <div class="cards-container">
-                <section class="services-card hidden">
+                <section class="services-card fade-in">
                     <h3 class="heading-2">Brand</h3>
                     <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
@@ -84,7 +84,7 @@
                     <h4 class="caption">2-3 weeks</h4>
                 </section>
 
-                <section class="services-card hidden">
+                <section class="services-card fade-in">
                     <h3 class="heading-2">Website</h3>
                     <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
@@ -92,7 +92,7 @@
                     <h4 class="caption">3-6 weeks</h4>
                 </section>
 
-                <section class="services-card hidden">
+                <section class="services-card fade-in">
                     <h3 class="heading-2">App</h3>
                     <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
                     <h4 class="caption">Starting at</h4>
@@ -102,22 +102,22 @@
             </div>
         </section>
 
-        <section class="hire container-1080 hidden">
+        <section class="hire container-1080 fade-in">
             <h2 class="heading-1">Hire</h2>
             <div class="cards-container">
-                <section class="services-card hidden">
+                <section class="services-card fade-in">
                     <h3 class="heading-2">Sr UX<br>Designer</h3>
                     <h4 class="caption">Around</h4>
                     <h4 class="heading-3">$45</h4>
                 </section>
 
-                <section class="services-card hidden">
+                <section class="services-card fade-in">
                     <h3 class="heading-2">Sr Software<br>Engineer</h3>
                     <h4 class="caption">Around</h4>
                     <h4 class="heading-3">$45</h4>
                 </section>
 
-                <section class="services-card hidden">
+                <section class="services-card fade-in">
                     <h3 class="heading-2">Sr Scrum<br>Master</h3>
                     <h4 class="caption">Around</h4>
                     <h4 class="heading-3">$35</h4>
@@ -126,9 +126,9 @@
 
         </section>
 
-        <section class="benefits container-700 hidden" aria-label="Benefits">
+        <section class="benefits container-700 fade-in" aria-label="Benefits">
             <div class="accordions-container">
-                <section class="accordion hidden">
+                <section class="accordion fade-in">
                     <div class="acc-button">
                         <h3 data-acc="hand-coins" class="heading-3">Low cost, high value</h3>
                     </div>
@@ -137,7 +137,7 @@
                             around the world at a small fraction of the price from our competitors in the US.</p>
                     </div>
                 </section>
-                <section class="accordion hidden">
+                <section class="accordion fade-in">
                     <div class="acc-button">
                         <h3 data-acc="shield" class="heading-3">Wealth of experience</h3>
                     </div>
@@ -149,7 +149,7 @@
                             start-ups and big enterprises in Croatia, Argentina, and the US.</p>
                     </div>
                 </section>
-                <section class="accordion hidden">
+                <section class="accordion fade-in">
                     <div class="acc-button">
                         <h3 data-acc="crown" class="heading-3">End-to-end customer service</h3>
                     </div>
@@ -160,7 +160,7 @@
                             long-lasting and solid partnership.</p>
                     </div>
                 </section>
-                <section class="accordion hidden">
+                <section class="accordion fade-in">
                     <div class="acc-button">
                         <h3 data-acc="flag" class="heading-3">Fast-track project kick-off</h3>
                     </div>

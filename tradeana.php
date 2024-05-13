@@ -60,11 +60,11 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <main class="case-study-main container-1080">
-        <h1 class="heading-1 align-center hidden-header">Tradeana</h1>
-        <p class="project-p hidden-header">Tradeana's patented software, Forex Risk Engine™,
+        <h1 class="heading-1 align-center fade-in-header">Tradeana</h1>
+        <p class="project-p fade-in-header">Tradeana's patented software, Forex Risk Engine™,
             is designed by traders for traders to help them efficiently audit and
             manage the risk of their ForEx operations.</p>
-        <div id="slider-container" class="hidden-header">
+        <div id="slider-container" class="fade-in-header">
             <div class="slider lazy">
 
                 <picture data-lazy>
@@ -178,11 +178,11 @@
 
         <hr>
 
-        <section class="other-projects-container hidden">
+        <section class="other-projects-container fade-in">
             <h2 class="heading-2 align-center" style="margin-bottom:4rem;">Other Projects</h2>
             <div class="other-project-cards">
 
-                <div class="other-project-card hidden">
+                <div class="other-project-card fade-in">
                     <div id="bike-in-mex-cover" class="project-cover"
                         onmouseover="document.getElementById('bike-in-mex-button').classList.add('button-hover'); document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('bike-in-mex-button').classList.remove('button-hover'); document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
@@ -197,13 +197,13 @@
                     <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental
                         shop based in Tulum, Mexico.</p>
 
-                    <a class="button secondary-button margin-right-auto hidden" id='bike-in-mex-button' href="/bike-in-mex"
+                    <a class="button secondary-button margin-right-auto fade-in" id='bike-in-mex-button' href="/bike-in-mex"
                         onmouseover="document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
                         View Project ➞</a>
                 </div>
 
-                <div class="other-project-card hidden">
+                <div class="other-project-card fade-in">
                     <div id="villa-terezija-cover" class="project-cover"
                         onmouseover="document.getElementById('villa-terezija-button').classList.add('button-hover'); document.getElementById('villa-terezija-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('villa-terezija-button').classList.remove('button-hover'); document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover')">
@@ -216,7 +216,7 @@
                         <h3 class="heading-2">Villa Terezija</h3>
                         <p>A touristic accommodation surrounded by a stunning rose garden.</p>
 
-                        <a class="button secondary-button margin-right-auto hidden" id="villa-terezija-button" href="/villa-terezija"
+                        <a class="button secondary-button margin-right-auto fade-in" id="villa-terezija-button" href="/villa-terezija"
                             onmouseover="document.getElementById('villa-terezija-cover').classList.add('project-cover-hover')"
                             onmouseout="document.getElementById('villa-terezija-cover').classList.remove('project-cover-hover')">
                             View Project ➞</a>

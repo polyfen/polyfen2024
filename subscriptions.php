@@ -243,10 +243,10 @@
         </section>
         <hr>
 
-        <section class="faqs container-1080 hidden">
+        <section class="faqs container-1080 fade-in">
             <h2 class="heading-2 align-center">Frequently Asked Questions</h2>
             <div class="container-700 accordions-container">
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>1. </span>What kind of tasks can I submit?</h3>
                     </div>
@@ -258,7 +258,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>2. </span>Can I build an entire app or MVP with you?</h3>
                     </div>
@@ -269,7 +269,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>3. </span>Can I pause or cancel my subscription at anytime?</h3>
                     </div>
@@ -280,7 +280,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>4. </span>Can I change my subscription plan?</h3>
                     </div>
@@ -289,7 +289,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>5. </span>What if I need more than 2 tasks at a time?</h3>
                     </div>
@@ -299,7 +299,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>6. </span>Can I ask you to follow my coding standards?</h3>
                     </div>
@@ -308,7 +308,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>7. </span>Can I prioritize my tasks?</h3>
                     </div>
@@ -318,7 +318,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>8. </span>Can I cancel a task once it's started?</h3>
                     </div>
@@ -328,7 +328,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>9. </span>What technologies do you use?</h3>
                     </div>
@@ -340,7 +340,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>10. </span>Can you sign an NDA?</h3>
                     </div>
@@ -357,9 +357,9 @@
         <section class="cta-section">
             <div class="grain-texture">
                 <div class="cta-content">
-                    <div class="hidden container">
+                    <div class="fade-in container">
                         <h2 class="heading-1 align-center">Affordable plans for<br>every start-up</h2>
-                        <a class="button large-button secondary-button hidden" href="#subscriptions">↑ Subscribe Today
+                        <a class="button large-button secondary-button fade-in" href="#subscriptions">↑ Subscribe Today
                             ↑</a>
                     </div>
                 </div>
