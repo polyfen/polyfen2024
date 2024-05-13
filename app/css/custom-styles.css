@@ -467,6 +467,8 @@ body.subscriptions .learn-more-button {
 
 .faqs h3.heading-4 {
     margin-bottom: 0;
+    display: flex;
+    gap: 5px;
 }
 
 @media (min-width: 1024px) {

@@ -96,7 +96,7 @@ hr.vertical-hr {
     /* z-index: 2; */
 }
 
-.show {
+.visible {
     opacity: 1;
     filter: blur(0);
     transform: translateY(0);
@@ -913,8 +913,10 @@ a.current-page {
 }
 
 .acc-button h3[data-acc] {
+    display: flex;
+    align-items: center;
+    gap: 15;
     margin: unset;
-    padding-left: 44px;
     padding-right: 5px;
 }
 
@@ -963,7 +965,7 @@ div.acc-button img {
 
 @media (min-width: 1024px) {
     .acc-panel {
-        padding-left: 46px;
+        padding-left: 48px;
     }
 }
 
@@ -1649,10 +1651,7 @@ div.other-project-card img {
 [data-acc]::before {
     height: 32px;
     width: 32px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 46%;
-    left: 16px;
+    position: relative;
     text-decoration: none;
 }
 
