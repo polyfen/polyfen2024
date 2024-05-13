@@ -413,7 +413,7 @@ body.subscriptions .learn-more-button {
         width: 100%;
     }
 
-    .stack-carrousel *.hidden {
+    .stack-carrousel *.fade-in {
         opacity: 1;
         filter: blur(0);
         transform: translateY(0);

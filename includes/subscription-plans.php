@@ -1,5 +1,5 @@
 <section class="row">
-    <div class="subscription-plan-card hidden" id="starter">
+    <div class="subscription-plan-card fade-in" id="starter">
         <div class="card-header">
             <h3 class="heading-2">Starter</h3>
             <h4 class="heading-3">$3442</h4>
@@ -18,7 +18,7 @@
             <a class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More ➞</a>
         </div>
     </div>
-    <div class="subscription-plan-card featured-card hidden" id="pro">
+    <div class="subscription-plan-card featured-card fade-in" id="pro">
         <div class="card-header">
             <h3 class="heading-2">Pro</h3>
             <h4 class="heading-3">$6263</h4>
@@ -39,7 +39,7 @@
             <a class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More ➞</a>
         </div>
     </div>
-    <div class="subscription-third-col hidden">
+    <div class="subscription-third-col fade-in">
         <div class="custom-plan">
             <h3 class="caption" style="margin-bottom: 8px;">Want more?</h3>
             <h4 class="heading-2">Talk to Sales for a Custom Plan</h4>

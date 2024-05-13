@@ -56,12 +56,12 @@
     <!-- Landing page start -->
     <main class="subscriptions-main">
 
-        <section class="subscription-plans container-1080 hidden">
+        <section class="subscription-plans container-1080 fade-in">
             <h1 id="subscriptions" class="caption align-center">Subscriptions</h1>
             <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>for Every Start-up</h2>
 
             <!-- toggle button -->
-            <div class="toggle-container hidden">
+            <div class="toggle-container fade-in">
                 <button class="small-button secondary-button inactive-button">Pay Monthly</button>
                 <button data-content="30% OFF" class="small-button secondary-button active-button">Pay
                     Quarterly</button>
@@ -74,17 +74,17 @@
         <hr>
 
         <section class="container-1080 row subscription-value-props">
-            <div class="col hidden">
+            <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
                 <h2>10x<br>Engineers</h2>
                 <p>We hire world-class engineers, design and UX professionals in your timezone.</p>
             </div>
-            <div class="col hidden">
+            <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
                 <h2>Fast-track Onboarding</h2>
                 <p>No contracts, no paperwork hassle. Start today.</p>
             </div>
-            <div class="col hidden">
+            <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/person.svg"></div>
                 <h2>Devs, DevOps, UX, & Designers</h2>
                 <p>A single subscription for tasks of all kinds.</p>
@@ -100,167 +100,167 @@
             <div class="stack-carrousel">
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/git-original.svg">Git</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/jira-original.svg">Jira</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/confluence-original.svg">Confluence
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/wordpress-plain.svg">Wordpress
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/woocommerce-original.svg">WooCommerce
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/javascript-original.svg">JavaScript
                         </div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/nodejs-original.svg">Node.js
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/react-original.svg">React</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/typescript-original.svg">TypeScript
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/vuejs-original.svg">Vue.js</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/angular-original.svg">Angular
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/python-logo.svg">Python</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/php-original.svg">PHP</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/laravel-original.svg">Laravel
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/mysql-original-icon.svg">MySQL</div>
 
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/mongodb-original.svg">MongoDB
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/firebase-original.svg">Firebase
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/nextjs-plain.svg">Next.js</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/bun-original.svg">Bun</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/swift-original.svg">Swift</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/dart-original.svg">Dart</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/flutter-original.svg">Flutter
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on Rails</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/sass-original.svg">Sass</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/bootstrap-original.svg">Bootstrap
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/tailwindcss-original.svg">Tailwind
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/materialui-plain.svg">Material UI
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/figma-original.svg">Figma</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt="" src="/imgs/tech-stack/framer.svg">Framer
+                        <div class="stack-u fade-in"><img loading="lazy" alt="" src="/imgs/tech-stack/framer.svg">Framer
                         </div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/illustrator-plain.svg">Illustrator
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/photoshop-original.svg">Photoshop
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/aftereffects-original.svg">After
                             Effects
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/premierepro-original.svg">Premiere
                             Pro
                         </div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/xd-original.svg">Adobe XD</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/analytics-logo.svg">Google Analytics</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/useberry-logo.svg">Useberry</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/maze-logo-w.svg">Maze</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/usertesting-icon.svg">UserTesting</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/dovetail-logo-white.svg">Dovetail</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/java-original.svg">Java</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/dotnet-logo.svg">.Net</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/databricks-logo.svg">Databricks</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/django-plain.svg">Django</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt=""
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/rust-original.svg">Rust</div>
-                        <div class="stack-u hidden"><img loading="lazy" alt="" src="/imgs/tech-stack/go-original.svg">Go
+                        <div class="stack-u fade-in"><img loading="lazy" alt="" src="/imgs/tech-stack/go-original.svg">Go
                         </div>
-                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/aws-plain.svg">AWS</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
                     <div class="slide-inside">
-                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/azure-original.svg">Azure</div>
-                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/googlecloud-original.svg">Google
                             Cloud
                         </div>
-                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/docker-original.svg">Docker</div>
-                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes
                         </div>
-                        <div class="pro stack-u hidden"><img loading="lazy" alt=""
+                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
                     </div>
                 </div>
@@ -269,10 +269,10 @@
         </section>
         <hr>
 
-        <section class="faqs container-1080 hidden">
+        <section class="faqs container-1080 fade-in">
             <h2 class="heading-2 align-center">Frequently Asked Questions</h2>
             <div class="container-700 accordions-container">
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>1. </span>What kind of tasks can I submit?</h3>
                     </div>
@@ -284,7 +284,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>2. </span>Can I build an entire app or MVP with you?</h3>
                     </div>
@@ -295,7 +295,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>3. </span>Can I pause or cancel my subscription at anytime?</h3>
                     </div>
@@ -306,7 +306,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden">
+                <div class="accordion fade-in">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>4. </span>Can I change my subscription plan?</h3>
                     </div>
@@ -315,7 +315,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>5. </span>What if I need more than 2 tasks at a time?</h3>
                     </div>
@@ -325,7 +325,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>6. </span>Can I ask you to follow my coding standards?</h3>
                     </div>
@@ -334,7 +334,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>7. </span>Can I prioritize my tasks?</h3>
                     </div>
@@ -344,7 +344,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>8. </span>Can I cancel a task once it's started?</h3>
                     </div>
@@ -354,7 +354,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>9. </span>What technologies do you use?</h3>
                     </div>
@@ -368,7 +368,7 @@
                     </div>
                 </div>
 
-                <div class="accordion hidden d-none">
+                <div class="accordion fade-in d-none">
                     <div class="acc-button">
                         <h3 class="heading-4"><span>10. </span>Can you sign an NDA?</h3>
                     </div>
@@ -385,9 +385,9 @@
         <section class="cta-section">
             <div class="grain-texture">
                 <div class="cta-content">
-                    <div class="hidden container">
+                    <div class="fade-in container">
                         <h2 class="heading-1 align-center">Affordable all-in-one plans<br>for every start-up</h2>
-                        <a class="button large-button secondary-button hidden" href="#subscriptions">↑ Subscribe Today
+                        <a class="button large-button secondary-button fade-in" href="#subscriptions">↑ Subscribe Today
                             ↑</a>
                     </div>
                 </div>

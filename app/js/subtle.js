@@ -3,13 +3,13 @@ const observer = new IntersectionObserver(entries => {
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
         } else {
-            entry.target.classList.remove('show');
+            entry.target.classList.remove('visible');
         }
     });
 });
 
-const hiddenElements = document.querySelectorAll('.hidden');
-hiddenElements.forEach((el) => observer.observe(el));
+const fadeinElements = document.querySelectorAll('.fade-in');
+fadeinElements.forEach((el) => observer.observe(el));
 
 
 //version for header
@@ -17,10 +17,10 @@ hiddenElements.forEach((el) => observer.observe(el));
 const observerHeader = new IntersectionObserver(entries => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('show');
+            entry.target.classList.add('visible');
         }
     });
 });
 
-const hiddenHeader = document.querySelectorAll('.hidden-header');
-hiddenHeader.forEach((el) => observerHeader.observe(el));
+const fadeinHeader = document.querySelectorAll('.fade-in-header');
+fadeinHeader.forEach((el) => observerHeader.observe(el));

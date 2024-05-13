@@ -49,22 +49,22 @@
 
     <!-- Discovery Call - Landing page start -->
     <main class="discovery-main">
-        <section class="subscribe-cover hidden-header" style="margin-bottom: 6rem;">
+        <section class="subscribe-cover fade-in-header" style="margin-bottom: 6rem;">
             <h1 class="caption align-center">Newsletter</h1>
             <h2 class="heading-1 align-center">Unlock Insights &amp;<br>Stay Ahead</h2>
             <?php include 'includes/mailchimp-form.php';?>
         </section>
 
-        <section class="container hidden" style="margin-bottom:6rem;">
+        <section class="container fade-in" style="margin-bottom:6rem;">
         <div class="column-to-row">
             <div class="one-half">
                 <img src="imgs/email-illustration.webp" alt="" style="max-width:260px;margin:auto;">
             </div>
             <div class="one-half">
                 <ul class="hanging-list arrow-bullets spaced-list">
-                    <li id="newsletter-icon-1" class="hidden"><h3 class="heading-5">All killer, no filler</h3><br>Bite-sized, high-quality content.</li>
-                    <li id="newsletter-icon-2" class="hidden"><h3 class="heading-5">Members-only benefits</h3><br>Insider knowledge and early access for subscribers.</li>
-                    <li id="newsletter-icon-3" class="hidden"><h3 class="heading-5">Active community</h3><br>Engage with our community on <a href="https://www.linkedin.com/company/polyfen" target="_blank">LinkedIn</a>.</li>
+                    <li id="newsletter-icon-1" class="fade-in"><h3 class="heading-5">All killer, no filler</h3><br>Bite-sized, high-quality content.</li>
+                    <li id="newsletter-icon-2" class="fade-in"><h3 class="heading-5">Members-only benefits</h3><br>Insider knowledge and early access for subscribers.</li>
+                    <li id="newsletter-icon-3" class="fade-in"><h3 class="heading-5">Active community</h3><br>Engage with our community on <a href="https://www.linkedin.com/company/polyfen" target="_blank">LinkedIn</a>.</li>
                 </ul>
             </div>
         </div>
