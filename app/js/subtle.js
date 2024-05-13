@@ -1,9 +1,9 @@
 const observer = new IntersectionObserver(entries => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('show');
+            entry.target.classList.add('visible');
         } else {
-            entry.target.classList.remove('show');
+            entry.target.classList.remove('visible');
         }
     });
 });
@@ -17,7 +17,7 @@ fadeinElements.forEach((el) => observer.observe(el));
 const observerHeader = new IntersectionObserver(entries => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('show');
+            entry.target.classList.add('visible');
         }
     });
 });
