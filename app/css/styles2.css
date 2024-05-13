@@ -1094,6 +1094,12 @@ footer {
     justify-content: center;
 }
 
+footer .social_icon {
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+}
+
 /* watches */
 .times {
     display: flex;
