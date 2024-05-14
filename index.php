@@ -50,7 +50,6 @@
         <section class="home-cover">
             <h1 class="title-1">Unleash your<br>business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
-            <small class="caption">Start Today</small>
             <a class="button large-button animated-button" href="/discovery-call">Book a Call</a>
             <a class="button large-button secondary-button" href="#services">Learn More</a>
 
