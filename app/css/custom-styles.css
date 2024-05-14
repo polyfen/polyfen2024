@@ -454,7 +454,7 @@ body.subscriptions .learn-more-button {
     .stack-carrousel {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr auto;
-        grid-template-rows: repeat(10, auto);
+        grid-template-rows: repeat(9, auto);
         grid-auto-flow: column;
         gap: 18px
     }
