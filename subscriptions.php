@@ -287,8 +287,8 @@
                         <p style="margin-top: 1.5rem; margin-bottom:0;">DevOps</p>
                         <ul class="hanging-list">
                         <li>Set up AWS infrastructure</li>    
-                        <li></li>    
-                        <li></li>    
+                        <li>Generate Docker container</li>    
+                        <li>Subscribe to SNS queue</li>    
                         </ul>
                         <p style="margin-top: 1.5rem; margin-bottom:0;">UX</p>
                         <ul class="hanging-list">
