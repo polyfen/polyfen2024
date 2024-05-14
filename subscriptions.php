@@ -218,7 +218,7 @@
                 <div class="carrousel-col">
                     <div class="slide-inside">
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/analytics-logo.svg">G Analytics</div>
+                                src="/imgs/tech-stack/analytics-logo.svg">Google<br>Analytics</div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/useberry-logo.svg">Useberry</div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
