@@ -310,9 +310,7 @@
                         <h3 class="heading-4"><span>2. </span>Can I build an entire app or MVP with you?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Yes, we can help you build your entire app or MVP, just submit your tasks and we'll get to
-                            work. We are going to slice your project into small tasks and work through them one or two
-                            at a time (it depends on your plan).</p>
+                        <p>Yes, we can help build an entire app or MVP. Just submit what you need done and we'll get to work. We’ll slice your project into smaller tasks and kill them one by one. Or two at a time, depending on your plan.</p>
                     </div>
                 </div>
 
@@ -321,9 +319,7 @@
                         <h3 class="heading-4"><span>3. </span>Can I pause or cancel my subscription at anytime?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Yes, you can pause or cancel your subscription at anytime, no questions asked. If you pause
-                            or cancel your subscription, you will still have access to your account until the end of
-                            your billing cycle.</p>
+                        <p>Yes, you can pause or cancel your subscription at any time. You will still have access to your account until the end of your billing cycle.</p>
                     </div>
                 </div>
 
@@ -332,7 +328,7 @@
                         <h3 class="heading-4"><span>4. </span>Can I change my subscription plan?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Yes, you can upgrade or downgrade your subscription plan at anytime.</p>
+                        <p>Yes, you can upgrade or downgrade your subscription plan at any time.</p>
                     </div>
                 </div>
 
@@ -341,8 +337,7 @@
                         <h3 class="heading-4"><span>5. </span>What if I need more than 2 tasks at a time?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>We offer a custom plan for startups that need more than 2 tasks at a time, please contact us
-                            for more information.</p>
+                        <p>We offer custom plans for companies that need to kill multiple tasks at the same time, please contact us.</p>
                     </div>
                 </div>
 
@@ -351,7 +346,7 @@
                         <h3 class="heading-4"><span>6. </span>Can I ask you to follow my coding standards?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Yes, we can follow your coding standards, just let us know what they are.</p>
+                        <p>Yes, we can follow your design and development standards, just let us know what they are.</p>
                     </div>
                 </div>
 
@@ -360,8 +355,7 @@
                         <h3 class="heading-4"><span>7. </span>Can I prioritize my tasks?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Yes, as soon as you pay, you'll have access to our task management system where you can
-                            submit and prioritize your tasks.</p>
+                        <p>Yes. As soon as your plan starts, you'll have access to our task management system to submit and prioritize your tasks.</p>
                     </div>
                 </div>
 
@@ -370,8 +364,7 @@
                         <h3 class="heading-4"><span>8. </span>Can I cancel a task once it's started?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Yes, you're in control of your tasks, projects, and priorities, you can cancel a task at
-                            anytime.</p>
+                        <p>Yes, you are in full control of your tasks, projects, and priorities, you can cancel/reprioritize a task at any time.</p>
                     </div>
                 </div>
 
@@ -380,13 +373,9 @@
                         <h3 class="heading-4"><span>9. </span>What technologies do you use?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Our engineers are experienced with the following technologies: React, Next.js, Node.js,
-                            Laravel, PHP, Airflow, Java, Express.js, MongoDB, PostgreSQL, MySQL, AWS (Lambdas, Step
-                            Functions, etc), Vercel, Render, and more.</p>
-                        <p>Our design & UX team has experience in: Figma,
-                            Framer, Illustrator, Photoshop, After Effects, Premiere Pro, Hotjar, Google Analytics,
-                            Useberry, Maze, UserTesting, Dovetail, and more. If you need help with a technology that's
-                            not listed here, just ask us.</p>
+                        <p>Our engineers are experienced with the following technologies: React, Next.js, Node.js, Laravel, PHP, Airflow, Java, Express.js, MongoDB, PostgreSQL, MySQL, AWS (Lambdas, Step Functions, etc), Vercel, Render, and more.</p>
+                        <p>Our design & UX team has experience in: Figma, Framer, Illustrator, Photoshop, After Effects, Premiere Pro, Hotjar, Google Analytics, Useberry, Maze, UserTesting, Dovetail, and more.</p>
+                        <p>If you need help with a technology that's not listed here, just ask us.</p>
                     </div>
                 </div>
 
@@ -395,7 +384,7 @@
                         <h3 class="heading-4"><span>10. </span>Can you sign an NDA?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>Yes, we can sign an NDA, just send it to us.</p>
+                        <p>Yes, we can sign an NDA, just send it over.</p>
                     </div>
                 </div>
             </div>
