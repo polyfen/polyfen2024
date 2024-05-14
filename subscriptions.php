@@ -401,7 +401,9 @@
             </div>
             <button id="more-faqs" class="secondary-button small-button">View All FAQs</button>
         </section>
+        
         <hr>
+
         <?php include 'includes/accolades.php';?>
 
         <section class="cta-section">

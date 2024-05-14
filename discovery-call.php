@@ -82,7 +82,7 @@
 
         <hr>
 
-        <?php include 'includes/testimonial.php';?>
+        <?php include 'includes/accolades.php';?>
 
         <?php include 'includes/call-to-action.php';?>
 
