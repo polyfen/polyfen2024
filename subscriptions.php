@@ -421,28 +421,21 @@
     <script>
     $(document).ready(function() {
         $('.stack-carrousel').slick({
-            responsive: [{
-                    infinite: true,
-                    slidesToScroll: 1,
-
-                    breakpoint: 3000,
-                    settings: "unslick",
+            mobileFirst: true,
+            infinite: true,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 600,
+                    settings: {
+                    slidesToShow: 2,
+                    }
                 },
                 {
                     breakpoint: 900,
-                    settings: {
-                        slidesToShow: 2,
-                        arrows: false,
-                        dots: true,
-                    }
-                },
-                {
-                    breakpoint: 427,
-                    settings: {
-                        slidesToShow: 1,
-                        arrows: false,
-                        dots: true,
-                    }
+                    settings: "unslick",
                 }
             ]
         });
