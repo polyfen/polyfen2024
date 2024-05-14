@@ -277,10 +277,31 @@
                         <h3 class="heading-4"><span>1. </span>What kind of tasks can I submit?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>We can help you with any kind of task that you need help with, from building a new feature,
-                            to fixing a bug, to refactoring your codebase, to setting up your AWS infrastructure (only
-                            available on the Pro plan), and more. If you're not sure if we can help you with your task,
-                            just ask us.</p>
+                        <p>We can help with any task you need. If you're not sure what you need or how we can help, just ask. Here are some examples:</p>
+                        <p style="margin-top: 1.5rem; margin-bottom:0;">Development</p>
+                        <ul class="hanging-list">
+                        <li>Build a new feature</li>    
+                        <li>Fix a bug</li>    
+                        <li>Refactor codebase</li>    
+                        </ul>
+                        <p style="margin-top: 1.5rem; margin-bottom:0;">DevOps</p>
+                        <ul class="hanging-list">
+                        <li>Set up AWS infrastructure</li>    
+                        <li></li>    
+                        <li></li>    
+                        </ul>
+                        <p style="margin-top: 1.5rem; margin-bottom:0;">UX</p>
+                        <ul class="hanging-list">
+                        <li>Write user stories</li>    
+                        <li>Chart user flows</li>    
+                        <li>Diagram information architecture</li>    
+                        </ul>
+                        <p style="margin-top: 1.5rem; margin-bottom:0;">Design</p>
+                        <ul class="hanging-list" style="margin-bottom: 2.5rem;">
+                        <li>Design landing page</li>    
+                        <li>Redesign logo</li>    
+                        <li>Build Figma prototype</li>    
+                        </ul>
                     </div>
                 </div>
 
@@ -361,7 +382,8 @@
                     <div class="acc-panel">
                         <p>Our engineers are experienced with the following technologies: React, Next.js, Node.js,
                             Laravel, PHP, Airflow, Java, Express.js, MongoDB, PostgreSQL, MySQL, AWS (Lambdas, Step
-                            Functions, etc), Vercel, Render, and more. Our design & UX team has experience in: Figma,
+                            Functions, etc), Vercel, Render, and more.</p>
+                        <p>Our design & UX team has experience in: Figma,
                             Framer, Illustrator, Photoshop, After Effects, Premiere Pro, Hotjar, Google Analytics,
                             Useberry, Maze, UserTesting, Dovetail, and more. If you need help with a technology that's
                             not listed here, just ask us.</p>
