@@ -58,7 +58,7 @@
 
         <section class="subscription-plans container-1080 fade-in">
             <h1 id="subscriptions" class="caption align-center">Subscriptions</h1>
-            <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>for Every Start-up</h2>
+            <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>Unlimited Tasks</h2>
 
             <!-- toggle button -->
             <div class="toggle-container fade-in">
@@ -76,8 +76,8 @@
         <section class="container-1080 row subscription-value-props">
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
-                <h2>10x<br>Engineers</h2>
-                <p>We hire world-class engineers, design and UX professionals in your timezone.</p>
+                <h2>Skilled Professionals</h2>
+                <p>We have world-class development, design, and UX talent available in your timezone.</p>
             </div>
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
@@ -87,7 +87,7 @@
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/person.svg"></div>
                 <h2>Devs, DevOps, UX, & Designers</h2>
-                <p>A single subscription for tasks of all kinds.</p>
+                <p>A full-blown team ready to kill your tasks.</p>
             </div>
         </section>
 
