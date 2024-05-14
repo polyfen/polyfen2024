@@ -154,12 +154,6 @@ a.bottom-120 span .cc-1fs0[data-id="new_messages"] {
 /*                                   |_|                           |_|          |___/       */
 /* subscription - landing page -------------------------------------------------------------*/
 
-.subscription-plan-card ul li {
-    font-family: 'Figtree', sans-serif !important;
-    font-size: 1rem;
-    margin-bottom: 0.35rem;
-}
-
 .row {
     display: flex;
     flex-direction: column;
@@ -298,6 +292,7 @@ body.subscriptions .learn-more-button {
 
 .subscription-plan-card ul li {
     font-family: 'Figtree', sans-serif !important;
+    text-wrap: balance;
     font-size: 1rem;
     margin-bottom: 0.35rem;
 }
