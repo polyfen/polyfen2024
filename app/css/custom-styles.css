@@ -395,11 +395,15 @@ body.subscriptions .learn-more-button {
     user-select: none;
 }
 
+.stack-u span {
+    min-width: fit-content;
+}
+
 .stack-u.pro::after {
     content: 'PRO';
     background: #7437f850;
     border-radius: 4px;
-    width: 39px;
+    min-width: 39px;
     height: 17px;
     font-size: 12px;
     font-weight: 600;

@@ -57,7 +57,7 @@
     <main class="subscriptions-main">
 
         <section class="subscription-plans container-1080 fade-in">
-            <h1 id="subscriptions" class="caption align-center">Subscriptions</h1>
+            <h1 id="plans" class="caption align-center">Subscriptions</h1>
             <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>Unlimited Tasks</h2>
 
             <!-- toggle button -->
@@ -252,8 +252,8 @@
                         <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/azure-original.svg">Azure</div>
                         <div class="pro stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/googlecloud-original.svg">Google
-                            Cloud
+                                src="/imgs/tech-stack/googlecloud-original.svg">
+                                <span>Google Cloud</span>
                         </div>
                         <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/docker-original.svg">Docker</div>
@@ -411,7 +411,7 @@
                 <div class="cta-content">
                     <div class="fade-in container">
                         <h2 class="heading-1 align-center">Affordable all-in-one plans<br>unlimited tasks</h2>
-                        <a class="button large-button secondary-button fade-in" href="#subscriptions">↑ Subscribe Today
+                        <a class="button large-button secondary-button fade-in" href="#plans">↑ Subscribe Today
                             ↑</a>
                     </div>
                 </div>

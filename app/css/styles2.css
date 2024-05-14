@@ -915,7 +915,7 @@ a.current-page {
 .acc-button h3[data-acc] {
     display: flex;
     align-items: center;
-    gap: 15;
+    gap: 15px;
     margin: unset;
     padding-right: 5px;
 }
