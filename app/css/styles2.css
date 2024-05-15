@@ -145,15 +145,23 @@ header {
     padding: 20px;
 }
 
-body.home header { border-top: none; }
+body.home header {
+    border-top: none;
+}
 
 div#home-border-top {
     border-top: 12px solid #7537f8;
     position: relative;
     z-index: 10;
 }
-a.logo { z-index: 50;}
-img#logo { height: 50px;}
+
+a.logo {
+    z-index: 50;
+}
+
+img#logo {
+    height: 50px;
+}
 
 /*  ____                 _      */
 /* |  _ \ ___  __ _ _ __| |___  */
@@ -833,6 +841,54 @@ a.current-page {
 .clients-container img {
     opacity: 0.6;
 }
+
+/* infinite  horizontal scroll */
+.scroller {
+    max-width: 600px;
+    border: 5px solid lime;
+}
+
+.scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.scroller[data-animated=true] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+.scroller[data-animated=true] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 
+    var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards)
+    linear
+    infinite;
+}
+.scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+}
+.scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+}
+.scroller[data-speed="slow"] {
+    --_animation-duration: 20s;
+}
+.scroller[data-speed="fast"] {
+    --_animation-duration: 120s;
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+
+
 
 /* Clients featured section MediaQuery */
 @media (min-width: 576px) {
@@ -1698,6 +1754,7 @@ div.other-project-card img {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 [data-button-icon]:hover::before {
     opacity: 1;
 }
@@ -1717,6 +1774,7 @@ a:hover div#send-message::before {
     background-image: url(../../imgs/icons/phone-call.svg);
     margin-block: -8px;
 }
+
 [data-button-icon="schedule-call"]:hover::before {
     background-image: url(../../imgs/icons/phone-call-white.svg);
 }
@@ -1725,6 +1783,7 @@ a:hover div#send-message::before {
     background-image: url(../../imgs/icons/paper-plane.svg);
     margin-block: -8px;
 }
+
 [data-button-icon="send-message"]:hover::before {
     background-image: url(../../imgs/icons/paper-plane-white.svg);
 }
