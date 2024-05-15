@@ -196,21 +196,21 @@
                 <div class="carrousel-col">
                     <div class="slide-inside">
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/illustrator-plain.svg">Illustrator
+                                src="/imgs/tech-stack/illustrator.svg">Illustrator
                         </div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/photoshop-original.svg">Photoshop
+                                src="/imgs/tech-stack/photoshop.svg">Photoshop
                         </div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/aftereffects-original.svg">After
+                                src="/imgs/tech-stack/after-effects.svg">After
                             Effects
                         </div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/premierepro-original.svg">Premiere
+                                src="/imgs/tech-stack/premiere.svg">Premiere
                             Pro
                         </div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/xd-original.svg">Adobe XD</div>
+                                src="/imgs/tech-stack/indesign.svg">InDesign</div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
                     </div>
