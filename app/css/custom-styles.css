@@ -360,6 +360,9 @@ body.subscriptions .learn-more-button {
 /* Tech Stack */
 
 /* Slick */
+.stack-carrousel .slick-dots {
+    bottom: -35px;
+}
 .stack-carrousel .slick-dots li:before {
     content: unset;
 }
