@@ -263,6 +263,9 @@
                         <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
                     </div>
+                    <div class="pro stack-u fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/jenkins-original.svg">Jenkins</div>
+                    </div>
                 </div>
             </div>
             <!-- Tech carrousel END -->
