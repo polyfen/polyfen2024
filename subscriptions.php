@@ -454,22 +454,43 @@
         });
         this.classList.add('d-none');
     });
-
+    /* */
     document.querySelectorAll('.toggle-container button').forEach(button => {
+
         button.addEventListener('click', () => {
             if (button.classList.contains('inactive-button')) {
                 document.querySelectorAll('.toggle-container button').forEach(e => {
                     e.classList.toggle('active-button');
                     e.classList.toggle('inactive-button');
                 });
-                let starterPrice = document.getElementById('starter').querySelector('h4');
-                let proPrice = document.getElementById('pro').querySelector('h4');
-                if (starterPrice.textContent === "$4917") {
-                    starterPrice.textContent = "$3442";
-                    proPrice.textContent = "$6263";
+
+                const starterPrice = document.getElementById('starter').querySelector('h4');
+                const proPrice = document.getElementById('pro').querySelector('h4');
+                const starterPriceButton = document.getElementById('starter').querySelector('.start-today-button');
+                const proPriceButton = document.getElementById('pro').querySelector('.start-today-button');
+
+                const mStarterPrice = "$4917"
+                const mProPrice = "$8945"
+                const qStarterPrice = "$3442"
+                const qProPrice = "$6263"
+
+                const mStarterLink = "https://buy.stripe.com/test_7sI7suaS65k39G05kk";
+                const mProLink = "https://buy.stripe.com/test_cN2cMOf8m9Aj7xS5km";
+                const qStarterLink = "https://buy.stripe.com/test_3cs28ad0e9Aj2dy001";
+                const qProLink = "https://buy.stripe.com/test_9AQ5kmgcq4fZ8BWbIL";
+
+
+                if (starterPrice.textContent === mStarterPrice) {
+                    starterPrice.textContent = qStarterPrice;
+                    starterPriceButton.href = qStarterLink;
+                    proPrice.textContent = qProPrice;
+                    proPriceButton.href = qProLink;
+
                 } else {
-                    starterPrice.textContent = "$4917";
-                    proPrice.textContent = "$8945";
+                    starterPrice.textContent = mStarterPrice;
+                    starterPriceButton.href = mStarterLink;
+                    proPrice.textContent = mProPrice;
+                    proPriceButton.href = mProLink;
                 }
             }
         });
