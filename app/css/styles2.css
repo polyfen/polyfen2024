@@ -836,7 +836,6 @@ a.current-page {
 
 /* infinite  horizontal scroll */
 .scroller {
-    max-width: 1200px;
     margin-inline: auto;
 }
 
@@ -851,7 +850,7 @@ a.current-page {
 .scroller[data-animated=true] {
     overflow: hidden;
     -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+    mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
 }
 .scroller[data-animated=true] .scroller__inner {
     width: max-content;
