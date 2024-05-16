@@ -35,7 +35,14 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <main>
-
+        <h1 class="align-center">Welcome to Your<br>All-in-One Subscription</h1>
+        
+        <hr>
+        
+        <section class="container row">
+            <h2>Rodrigo is Your New Account Manager</h2>
+            <a class="button secondary-button small-button" href="https://calendly.com/polyfen/subscriptions" target="_blank">Book a Call</a>
+        </section>
     </main>
 
     <!-- INCLUDE FOOTER.PHP start -->
