@@ -77,7 +77,7 @@
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
                 <h2>Skilled Professionals</h2>
-                <p>We have world-class development, design, and UX talent available in your timezone.</p>
+                <p>We have world-class talent available in your timezone.</p>
             </div>
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
