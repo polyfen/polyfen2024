@@ -14,7 +14,7 @@
     <meta property="og:url" content="https://polyfen.com/discovery-call">
     <meta name="keywords" content="">
     <meta name="description" property="og:description"
-        content="Tell me about your project. Hear what we can do for you. No strings attached.">
+        content="Tell us about your project. Hear what we can do for you. No strings attached.">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/discovery-call.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -24,7 +24,7 @@
     <meta name="twitter:creator" content="@PolyfenGroup">
     <meta name="twitter:title" content="Book a Discovery Call with us">
     <meta name="twitter:description"
-        content="Tell me about your project. Hear what we can do for you. No strings attached.">
+        content="Tell us about your project. Hear what we can do for you. No strings attached.">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/discovery-call.png">
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
@@ -55,22 +55,16 @@
 
         <section class="boris-container container">
             <div class="boris-portrait">
-                <img id="boris-portrait" src="imgs/about/boris-hrncic.webp" alt="Boris Hrnčić" loading="lazy" class="portrait">
+                <img id="boris-portrait" src="imgs/rod-portrait.webp" alt="" loading="lazy" class="portrait">
             </div>
             <div class="boris-bio">
-                <h2 class="heading-4">Boris Hrnčić</h2>
-                <h3 class="caption">Founder & CEO</h3>
+                <h2 class="heading-4">Rodrigo Gatica</h2>
+                <h3 class="caption" style="opacity: 0.8;">COO &amp; Account Manager</h3>
                 <p>
                     Tell us about your project.<br>
                     Learn what we can do for you.<br>
                     No strings attached.
                 </p>
-                <div class="founder-social">
-                    <a class="boris-in-link" href="https://www.linkedin.com/in/borishr/" target="_blank"><img
-                            src="/imgs/icons/linkedin-in.svg" height="25" alt=""><small>LinkedIn</small></a>
-                    <a class="boris-hr-link" href="https://boris.hr/" target="_blank" rel="follow"><img
-                            src="/imgs/icons/globe-white.svg" height="25" alt=""><small>boris.hr</small></a>
-                </div>
             </div>
         </section>
 
