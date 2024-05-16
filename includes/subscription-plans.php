@@ -14,7 +14,7 @@
                 <li>Unlimited projects</li>
                 <li>Pause or cancel any time</li>
             </ul>
-            <a class="button secondary-button small-button start-today-button">Start Today ➞</a>
+            <a class="button secondary-button small-button start-today-button" href="https://buy.stripe.com/test_3cs28ad0e9Aj2dy001">Start Today ➞</a>
             <a class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More ➞</a>
         </div>
     </div>
@@ -35,7 +35,7 @@
                 <li>Unlimited projects</li>
                 <li>Pause or cancel any time</li>
             </ul>
-            <a class="button secondary-button small-button start-today-button">Start Today ➞</a>
+            <a class="button secondary-button small-button start-today-button" href="https://buy.stripe.com/test_9AQ5kmgcq4fZ8BWbIL">Start Today ➞</a>
             <a class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More ➞</a>
         </div>
     </div>
