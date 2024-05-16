@@ -2,7 +2,7 @@
     <div class="subscription-plan-card fade-in" id="starter">
         <div class="card-header">
             <h3 class="heading-2">Starter</h3>
-            <h4 class="heading-3">$3442</h4>
+            <h4 class="heading-3" data-price-m="$4917" data-price-q="$3442">$</h4>
             <small class="caption">/Month</small>
         </div>
         <div class="card-body">
@@ -14,14 +14,14 @@
                 <li>Unlimited projects</li>
                 <li>Pause or cancel any time</li>
             </ul>
-            <a class="button secondary-button small-button start-today-button" href="https://buy.stripe.com/test_3cs28ad0e9Aj2dy001">Start Today ➞</a>
+            <a class="button secondary-button small-button start-today-button" href="#">Start Today ➞</a>
             <a class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More ➞</a>
         </div>
     </div>
     <div class="subscription-plan-card featured-card fade-in" id="pro">
         <div class="card-header">
             <h3 class="heading-2">Pro</h3>
-            <h4 class="heading-3">$6263</h4>
+            <h4 class="heading-3" data-price-m="$8945" data-price-q="$6263">$</h4>
             <small class="caption">/Month</small>
             <small class="card-label mini">Popular</small>
         </div>
@@ -35,7 +35,7 @@
                 <li>Unlimited projects</li>
                 <li>Pause or cancel any time</li>
             </ul>
-            <a class="button secondary-button small-button start-today-button" href="https://buy.stripe.com/test_9AQ5kmgcq4fZ8BWbIL">Start Today ➞</a>
+            <a class="button secondary-button small-button start-today-button" href="#">Start Today ➞</a>
             <a class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More ➞</a>
         </div>
     </div>
