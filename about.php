@@ -61,7 +61,7 @@
         <section class="about-cover container fade-in-header">
 
             <h1 class="caption align-center">About</h1>
-            <h2 class="heading-1 align-center">Where Business &amp; Creativity Come Together</h2>
+            <h2 class="heading-1 align-center">Where Design &amp; Development Click</h2>
 
             <div class="column-to-row">
                 <div class="one-half">
