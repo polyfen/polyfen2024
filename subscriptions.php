@@ -276,7 +276,7 @@
         </section>
         <hr>
 
-        <section class="faqs container-1080 fade-in">
+        <section id="faq" class="faqs container-1080 fade-in">
             <h2 class="heading-2 align-center">Frequently Asked Questions</h2>
             <div class="container-700 accordions-container">
                 <div class="accordion fade-in">
