@@ -120,7 +120,7 @@ section.plck-section h2 {
     content: "🤝";
 }
 
-/* Chatbox */
+/* Chatbot */
 
 /* Change position of Cookies and Chat modals on scroll over the footer */
 .bottom-120,
@@ -132,6 +132,11 @@ section.plck-section h2 {
 a.bottom-120 span .cc-1fs0[data-id="new_messages"] {
     margin-bottom: 100px !important;
 }
+
+a.bottom-120 span.cc-9q9h.cc-1ev6 {
+    margin-bottom: 100px !important;
+}
+
 /*chat-window to not overlapping with chat bubble*/
 .cc-1hqb[data-visible="true"]:has(+ .bottom-120) {
     margin-bottom: 100px !important;
