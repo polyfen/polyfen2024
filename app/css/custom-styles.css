@@ -133,6 +133,7 @@ a.bottom-120 span .cc-1fs0[data-id="new_messages"] {
     margin-bottom: 100px !important;
 }
 
+/*instant chat-window to not overlapping with chat bubble*/
 a.bottom-120 span.cc-9q9h.cc-1ev6 {
     margin-bottom: 100px !important;
 }
@@ -142,6 +143,7 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
     margin-bottom: 100px !important;
     }
 
+/*chat-window to not overlapping with chat bubble*/
 .crisp-client .cc-tlyw.cc-tlyw {
     z-index: 60;
 }
