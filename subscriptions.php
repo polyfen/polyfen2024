@@ -58,7 +58,7 @@
 
         <section class="subscription-plans container-1080 fade-in">
             <h1 id="plans" class="caption align-center">Subscriptions</h1>
-            <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>Unlimited Tasks</h2>
+            <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>For Startups</h2>
 
             <!-- toggle button -->
             <div class="toggle-container fade-in">
@@ -76,7 +76,7 @@
         <section class="container-1080 row subscription-value-props">
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
-                <h2>Skilled Professionals</h2>
+                <h2>Tech<br>Experts</h2>
                 <p>We have world-class talent available in your timezone.</p>
             </div>
             <div class="col fade-in">
@@ -402,7 +402,7 @@
             <div class="grain-texture">
                 <div class="cta-content">
                     <div class="fade-in container">
-                        <h2 class="heading-1 align-center">Affordable all-in-one plans<br>unlimited tasks</h2>
+                        <h2 class="heading-1 align-center">Affordable all-in-one plans<br>for startups</h2>
                         <a class="button large-button secondary-button fade-in" href="#plans">↑ Subscribe Today
                             ↑</a>
                     </div>
