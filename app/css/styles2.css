@@ -801,6 +801,10 @@ a.current-page {
     margin-top: 20px;
 }
 
+hr.home-cover {
+    margin-top: -185px;
+}
+
 .home-cover p {
     max-width: 450px;
     margin: 35px auto;
@@ -820,10 +824,6 @@ a.current-page {
 .clients-featured {
     position: relative;
     z-index: 10;
-}
-
-.home .clients-featured {
-    margin-top: 90px;
 }
 
 .clients-featured h2 {
@@ -883,17 +883,7 @@ a.current-page {
 
 
 /* Clients featured section MediaQuery */
-@media (min-width: 576px) {
-    .home .clients-featured {
-        margin-top: -140px;
-    }
-}
 
-@media (min-width: 900px) {
-    .home .clients-featured {
-        margin-top: -230px;
-    }
-}
 
 /* services section */
 .build,

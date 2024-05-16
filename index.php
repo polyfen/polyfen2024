@@ -24,6 +24,7 @@
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <script defer src="/app/js/horizontal-scroll.js"></script>
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 </head>
@@ -63,17 +64,7 @@
             </div>
         </section>
 
-        <section class="clients-featured container-900 fade-in">
-            <h2 class="caption align-center">Clients featured in</h2>
-            <div class="clients-container">
-                <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60" class="fade-in">
-                <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50" class="fade-in">
-                <img src="imgs/forbes-logo.svg" alt="Forbes" height="40" class="fade-in">
-                <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45" class="fade-in">
-            </div>
-        </section>
-
-        <hr>
+        <hr class="home-cover">
 
         <section id="services">
             <section class="container-1080 fade-in subscribe-section">
@@ -163,7 +154,7 @@
 
         <hr>
 
-        <?php include 'includes/testimonial.php';?>
+        <?php include 'includes/accolades.php';?>
     </main>
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
     <?php include 'includes/call-to-action.php';?>
