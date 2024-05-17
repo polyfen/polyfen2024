@@ -868,7 +868,7 @@ hr.home-cover {
     --_animation-direction: forwards;
 }
 .scroller[data-speed="slow"] {
-    --_animation-duration: 80s;
+    --_animation-duration: 60s;
 }
 .scroller[data-speed="fast"] {
     --_animation-duration: 20s;
