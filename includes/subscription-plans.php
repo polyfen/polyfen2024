@@ -1,8 +1,50 @@
+<?php
+    // Load env vars here:
+    $mStarterLink = "https://buy.stripe.com/test_7sI7suaS65k39G05kk"; //getenv('STRIPE_STARTER_MONTHLY_URL');
+    $mProLink = "https://buy.stripe.com/test_cN2cMOf8m9Aj7xS5km"; //getenv('STRIPE_PRO_MONTHLY_URL');
+    $qStarterLink = "https://buy.stripe.com/test_3cs28ad0e9Aj2dy001"; //getenv('STRIPE_STARTER_QUARTERLY_URL');
+    $qProLink = "https://buy.stripe.com/test_9AQ5kmgcq4fZ8BWbIL"; //getenv('STRIPE_PRO_QUARTERLY_URL');
+
+
+    $starterPriceMonthly = '$4917';
+    $starterStripeUrlMonthly = $mStarterLink;
+    $starterPriceQuarterly = '$3442';
+    $starterStripeUrlQuarterly = $qStarterLink;
+    $proPriceMonthly = '$8945';
+    $proStripeUrlMonthly = $mProLink;
+    $proPriceQuarterly = '$6263';
+    $proStripeUrlQuarterly = $qProLink;
+?>
+
+<script type="application/javascript">
+    window.subscriptionPlans = {
+        monthly: {
+            starter: {
+                price: "<?php echo $starterPriceMonthly; ?>",
+                stripeUrl: "<?php echo $starterStripeUrlMonthly; ?>",
+            },
+            pro: {
+                price: "<?php echo $proPriceMonthly; ?>",
+                stripeUrl: "<?php echo $proStripeUrlMonthly; ?>",
+            },
+        },
+        quarterly: {
+            starter: {
+                price: "<?php echo $starterPriceQuarterly; ?>",
+                stripeUrl: "<?php echo $starterStripeUrlQuarterly; ?>",
+            },
+            pro: {
+                price: "<?php echo $proPriceQuarterly; ?>",
+                stripeUrl: "<?php echo $proStripeUrlQuarterly; ?>",
+            },
+        }
+    };
+</script>
 <section class="row">
     <div class="subscription-plan-card fade-in" id="starter">
         <div class="card-header">
             <h3 class="heading-2">Starter</h3>
-            <h4 class="heading-3" data-price-m="$4917" data-price-q="$3442">$</h4>
+            <h4 class="heading-3">$</h4>
             <small class="caption">/Month</small>
         </div>
         <div class="card-body">
@@ -21,7 +63,7 @@
     <div class="subscription-plan-card featured-card fade-in" id="pro">
         <div class="card-header">
             <h3 class="heading-2">Pro</h3>
-            <h4 class="heading-3" data-price-m="$8945" data-price-q="$6263">$</h4>
+            <h4 class="heading-3">$</h4>
             <small class="caption">/Month</small>
             <small class="card-label mini">Popular</small>
         </div>
