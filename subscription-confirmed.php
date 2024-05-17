@@ -40,9 +40,9 @@
 
         <hr>
         <section class="plat-section container">
-            <div class="column-to-row fade-in">
-                <div class="one-half fade-in">
-                    <img src="/imgs/rod-portrait.webp" alt="">
+            <div class="column-to-row account-manager">
+                <div class="one-half fade-in account-manager-col">
+                    <img class="account-manager-img" src="/imgs/rod-portrait.webp" alt="Rodrigo">
                 </div>
                 <div class="one-half fade-in">
                     <h2>Rodrigo is Your New Account Manager</h2>

@@ -493,7 +493,16 @@ body.subscriptions .learn-more-button {
 body.subs-confirmed main {
     margin-bottom: 86px;
 } 
-
+.account-manager.column-to-row {
+justify-content: center;
+}
+.account-manager-img{
+    width: 179px;
+    border-radius: 8px;
+}
+.account-manager-col {
+width: fit-content;
+}
 
 @media (min-width: 768px) {
     section:nth-of-type(odd) .one-half:nth-of-type(odd) {
