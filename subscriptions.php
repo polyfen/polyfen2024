@@ -28,6 +28,7 @@
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <script defer src="/app/js/accordion.js"></script>
     <script defer src="/app/js/plan-cards-toggle.js"></script>
     <script defer src="/app/js/horizontal-scroll.js"></script>
     <!-- PAGE-SPECIFIC SCRIPTS end -->
@@ -430,7 +431,7 @@
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
-    <!-- slick -->
+    <!-- slick for tech-stack -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="libs/slick/slick/slick.min.js"></script>
@@ -456,7 +457,8 @@
         });
     });
     </script>
-    <!-- script for the button more-faqs & toogle-buttons -->
+    
+    <!-- script for the button more-faqs -->
     <script>
     document.getElementById('more-faqs').addEventListener('click', function() {
         let toToggle = document.querySelectorAll('.accordions-container .accordion:nth-child(n+5)');

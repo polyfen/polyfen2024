@@ -24,6 +24,8 @@
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <script defer src="/app/js/accordion.js"></script>
+    <script defer src="/app/js/plan-cards-toggle.js"></script>
     <script defer src="/app/js/horizontal-scroll.js"></script>
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 

@@ -31,10 +31,10 @@
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
-
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <script defer src="/app/js/accordion.js"></script>
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 
