@@ -500,7 +500,7 @@ justify-content: center;
     width: 179px;
     border-radius: 8px;
 }
-.account-manager-col {
+.account-manager .account-manager-col {
 width: fit-content;
 }
 
