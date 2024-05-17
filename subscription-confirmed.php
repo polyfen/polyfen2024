@@ -18,11 +18,12 @@
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <script defer src="/app/js/accordion.js"></script>
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 </head>
 
-<body class="landing-page dark-mode">
+<body class="subs-confirmed no-hellobar dark-mode">
     <!-- ya hay un estilo del founder-social  que llama a este ID -->
 
     <!-- Google Tag Manager (noscript) -->
@@ -34,15 +35,62 @@
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
-    <main>
+    <main class="subs-confirmed-main">
         <h1 class="align-center">Welcome to Your<br>All-in-One Subscription</h1>
-        
+
         <hr>
-        
-        <section class="container row">
-            <h2>Rodrigo is Your New Account Manager</h2>
-            <a class="button secondary-button small-button" href="https://calendly.com/polyfen/subscriptions" target="_blank">Book a Call</a>
+        <section class="plat-section container">
+            <div class="column-to-row fade-in">
+                <div class="one-half fade-in">
+                    <img src="/imgs/rod-portrait.webp" alt="">
+                </div>
+                <div class="one-half fade-in">
+                    <h2>Rodrigo is Your New Account Manager</h2>
+                    <a class="button secondary-button margin-right-auto"
+                        href="https://calendly.com/polyfen/subscriptions" target="_blank">Book a Call</a>
+                </div>
+            </div>
         </section>
+        <hr>
+        <section class="plat-section container">
+            <div class="column-to-row fade-in">
+                <div class="one-half fade-in">
+                    <a href="/videos/Create-Task-Animation.webm" target="_blank" title="Open Full-Screen" style="cursor: zoom-in;">
+                        <video autoplay muted loop width="327">
+                            <source src="/videos/Create-Task-Animation.webm" type="video/webm">
+                            <source src="/videos/Create-Task-Animation.mp4" type="video/mp4">
+
+                            Sorry, your browser doesn't support HTML5 video.
+                        </video>
+                    </a>
+                </div>
+                <div class="one-half fade-in">
+                    <h2>Start Creating Tasks</h2>
+                    <a class="button secondary-button margin-right-auto"
+                        href="https://polyfen.atlassian.net/servicedesk/customer/portal/1" target="_blank">Create a task</a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="plat-section container">
+            <div class="column-to-row fade-in">
+                <div class="one-half fade-in">
+                    <video autoplay muted loop width="327">
+                        <source src="/videos/Slack-ANimation-v2.webm" type="video/webm">
+                        <source src="/videos/Slack-ANimation-v2.mp4" type="video/mp4">
+
+                        Sorry, your browser doesn't support HTML5 video.
+                    </video>
+                </div>
+                <div class="one-half fade-in">
+                    <h2>Join our Slack for Ongoing Support</h2>
+                    <a class="button secondary-button margin-right-auto" href="https://polyfen.slack.com/"
+                        target="_blank">open slack</a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <?php include 'includes/faqs.php';?>
     </main>
 
     <!-- INCLUDE FOOTER.PHP start -->

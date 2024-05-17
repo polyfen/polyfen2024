@@ -1246,19 +1246,13 @@ h1.caption {
 .column-to-row {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .one-half {
     width: 100%;
     max-width: 400px;
 }
-
-.column-to-row div+div {
-    margin-top: 40px;
-}
-
 
 /* founder section */
 .founder-bios {
@@ -1325,7 +1319,6 @@ iframe#plcq-tutorial {
 /* About Page mediaQueries */
 @media (min-width: 768px) {
     .column-to-row {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -1349,10 +1342,6 @@ iframe#plcq-tutorial {
 
     .founder-list {
         width: 60%;
-    }
-
-    .column-to-row div+div {
-        margin-top: unset;
     }
 }
 

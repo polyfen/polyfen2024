@@ -487,3 +487,19 @@ body.subscriptions .learn-more-button {
 }
 
 /*end subscriptions page*/
+
+/* Subs-confirmed page */
+
+body.subs-confirmed main {
+    margin-bottom: 86px;
+} 
+
+
+@media (min-width: 768px) {
+    section:nth-of-type(odd) .one-half:nth-of-type(odd) {
+        order:unset; /* Esto cancela el estilo general que apunta a los odd */
+    }
+    section:nth-of-type(even) .one-half:nth-of-type(odd) {
+        order: 1;
+    }
+}
