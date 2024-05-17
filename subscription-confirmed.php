@@ -76,8 +76,8 @@
             <div class="column-to-row fade-in">
                 <div class="one-half fade-in">
                     <video autoplay muted loop width="327">
-                        <source src="/videos/Slack-ANimation-v2.webm" type="video/webm">
-                        <source src="/videos/Slack-ANimation-v2.mp4" type="video/mp4">
+                        <source src="/videos/Slack-Animation-v2.webm" type="video/webm">
+                        <source src="/videos/Slack-Animation-v2.mp4" type="video/mp4">
 
                         Sorry, your browser doesn't support HTML5 video.
                     </video>
