@@ -1,9 +1,24 @@
 <?php
-    // Load env vars here:
-    $mStarterLink = "https://buy.stripe.com/test_7sI7suaS65k39G05kk"; //getenv('STRIPE_STARTER_MONTHLY_URL');
-    $mProLink = "https://buy.stripe.com/test_cN2cMOf8m9Aj7xS5km"; //getenv('STRIPE_PRO_MONTHLY_URL');
-    $qStarterLink = "https://buy.stripe.com/test_3cs28ad0e9Aj2dy001"; //getenv('STRIPE_STARTER_QUARTERLY_URL');
-    $qProLink = "https://buy.stripe.com/test_9AQ5kmgcq4fZ8BWbIL"; //getenv('STRIPE_PRO_QUARTERLY_URL');
+
+    /**
+     * None of this should be here, in an include.
+     * We should eventually refactor everything to
+     * use a custom router and make this kind of things tidier
+     */
+    $env = file_get_contents(__DIR__."/../.env");
+    $lines = explode("\n",$env);
+
+    foreach($lines as $line){
+        preg_match("/([^#]+)\=(.*)/",$line,$matches);
+        if(isset($matches[2])){
+            putenv(trim($line));
+        }
+    } 
+
+    $mStarterLink = getenv('STRIPE_STARTER_MONTHLY_URL');
+    $mProLink = getenv('STRIPE_PRO_MONTHLY_URL');
+    $qStarterLink = getenv('STRIPE_STARTER_QUARTERLY_URL');
+    $qProLink = getenv('STRIPE_PRO_QUARTERLY_URL');
 
 
     $starterPriceMonthly = '$4917';
