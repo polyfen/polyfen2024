@@ -118,7 +118,7 @@
                 <div class="one-half fade-in">
                     <p>A step-by-step guide to the Branding process including practical tips,
                         case studies, template files, and many other useful resources.</p>
-                    <a class="button secondary-button margin-right-auto fade-in" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki</a>
+                    <a data-button-icon="globe-net" class="button secondary-button margin-right-auto fade-in" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki</a>
                 </div>
             </div>
         </section>
@@ -135,7 +135,7 @@
                 <div class="one-half fade-in">
                     <p>We developed a simple open-source technology that helps websites comply with privacy protection
                         regulations like GDPR and the California Online Privacy Act.</p>
-                    <a href="https://polycookies.com/" target="_blank" class="button secondary-button margin-right-auto fade-in">polycookies.com</a>
+                    <a data-button-icon="globe-net" href="https://polycookies.com/" target="_blank" class="button secondary-button margin-right-auto fade-in">polycookies.com</a>
                 </div>
             </div>
         </section>

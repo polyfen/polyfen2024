@@ -1730,3 +1730,70 @@ div.other-project-card img {
 [data-acc="flag"]::before {
     content: url(/imgs/icons/flag-checkered.svg);
 }
+
+/* Botones con iconos */
+[data-button-icon]::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+[data-button-icon]:hover::before {
+    opacity: 1;
+}
+
+/*  
+  #send-message::before {
+    background: url(../../imgs/icons/envelope.svg) no-repeat center center;
+    margin-top: -2px;
+  }
+
+a:hover div#send-message::before {
+    background: url(../../imgs/icons/envelope-white.svg) no-repeat center center;
+}
+*/
+
+[data-button-icon="schedule-call"]::before {
+    background-image: url(../../imgs/icons/phone-call.svg);
+    margin-block: -8px;
+}
+
+[data-button-icon="schedule-call"]:hover::before {
+    background-image: url(../../imgs/icons/phone-call-white.svg);
+}
+
+[data-button-icon="send-message"]::before {
+    background-image: url(../../imgs/icons/paper-plane.svg);
+    margin-block: -8px;
+}
+
+[data-button-icon="send-message"]:hover::before {
+    background-image: url(../../imgs/icons/paper-plane-white.svg);
+}
+
+[data-button-icon="globe-net"]::before {
+    content: url(/imgs/icons/globe-net.svg);
+}
+
+[data-button-icon="globe-net"]:hover::before {
+    content: url(/imgs/icons/globe-net-white.svg);
+}
+
+[data-button-icon="start-a-chat"]::before {
+    background-image: url(../../imgs/icons/chat.svg);
+    width: 18px;
+    height: 15px;
+    opacity: .6;
+}
+
+[data-button-icon="book-a-call"]::before {
+    background-image: url(../../imgs/icons/phone.svg);
+    width: 16px;
+    height: 16px;
+    opacity: .8;
+}
