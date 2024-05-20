@@ -467,6 +467,10 @@ body.subscriptions .learn-more-button {
 }
 
 /* faqs */
+
+#faq {
+    scroll-margin-top: 6rem;
+}
 .faqs .accordion h3 span {
     color: #7537F8;
 }
