@@ -24,6 +24,9 @@
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <script defer src="/app/js/accordion.js"></script>
+    <script defer src="/app/js/plan-cards-toggle.js"></script>
+    <script defer src="/app/js/horizontal-scroll.js"></script>
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 </head>
@@ -39,6 +42,8 @@
     <?php include 'includes/hello-bar.php';?>
     <!-- INCLUDE HELLO-BAR.PHP end -->
 
+    <div id="home-border-top"></div>
+    
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
@@ -48,8 +53,8 @@
         <section class="home-cover">
             <h1 class="title-1">Unleash your<br>business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
-            <small class="caption">Start Today</small>
-            <a class="button large-button animated-button" href="discovery-call">Let's Talk!</a>
+            <a class="button large-button animated-button" href="/discovery-call">Book a Call</a>
+            <a class="button large-button secondary-button" href="#services">Learn More</a>
 
             <div class="background">
                 <div id="pearl-11" class="pearl rotate-slower fade-in">
@@ -61,70 +66,46 @@
             </div>
         </section>
 
-        <section class="clients-featured container-900 fade-in">
-            <h2 class="caption align-center">Clients featured in</h2>
-            <div class="clients-container">
-                <img src="imgs/fortune-500-logo.svg" alt="Fortune 500" height="60" class="fade-in">
-                <img src="imgs/y-combinator-logo.svg" alt="Y Combinator" height="50" class="fade-in">
-                <img src="imgs/forbes-logo.svg" alt="Forbes" height="40" class="fade-in">
-                <img src="imgs/tech-cruch-disrupt-logo.svg" alt="TechCrunch Disrupt" height="45" class="fade-in">
-            </div>
+        <hr class="pearl-separator">
+
+        <section id="services">
+            <section class="container-1080 fade-in subscribe-section">
+                <h2 class="heading-1">Subscribe</h2>
+                <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
+                <?php include 'includes/subscription-plans.php';?>
+                <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
+            </section>
+            <section class="build container-1080 fade-in">
+                <h2 class="heading-1">Build</h2>
+                <div class="cards-container">
+                    <section class="services-card fade-in">
+                        <h3 class="heading-2">Brand</h3>
+                        <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="">
+                        <h4 class="caption">Starting at</h4>
+                        <h4 class="heading-3">$7,600</h4>
+                        <h4 class="caption">2-3 weeks</h4>
+                    </section>
+
+                    <section class="services-card fade-in">
+                        <h3 class="heading-2">Website</h3>
+                        <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="">
+                        <h4 class="caption">Starting at</h4>
+                        <h4 class="heading-3">$7,800</h4>
+                        <h4 class="caption">3-6 weeks</h4>
+                    </section>
+
+                    <section class="services-card fade-in">
+                        <h3 class="heading-2">App</h3>
+                        <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
+                        <h4 class="caption">Starting at</h4>
+                        <h4 class="heading-3">$39,000</h4>
+                        <h4 class="caption">2-6 months</h4>
+                    </section>
+                </div>
+            </section>
         </section>
 
         <hr>
-
-        <section class="build container-1080 fade-in">
-            <h2 class="heading-1">Build</h2>
-            <div class="cards-container">
-                <section class="services-card fade-in">
-                    <h3 class="heading-2">Brand</h3>
-                    <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="">
-                    <h4 class="caption">Starting at</h4>
-                    <h4 class="heading-3">$7,600</h4>
-                    <h4 class="caption">2-3 weeks</h4>
-                </section>
-
-                <section class="services-card fade-in">
-                    <h3 class="heading-2">Website</h3>
-                    <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="">
-                    <h4 class="caption">Starting at</h4>
-                    <h4 class="heading-3">$7,800</h4>
-                    <h4 class="caption">3-6 weeks</h4>
-                </section>
-
-                <section class="services-card fade-in">
-                    <h3 class="heading-2">App</h3>
-                    <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
-                    <h4 class="caption">Starting at</h4>
-                    <h4 class="heading-3">$39,000</h4>
-                    <h4 class="caption">2-6 months</h4>
-                </section>
-            </div>
-        </section>
-
-        <section class="hire container-1080 fade-in">
-            <h2 class="heading-1">Hire</h2>
-            <div class="cards-container">
-                <section class="services-card fade-in">
-                    <h3 class="heading-2">Sr UX<br>Designer</h3>
-                    <h4 class="caption">Around</h4>
-                    <h4 class="heading-3">$45</h4>
-                </section>
-
-                <section class="services-card fade-in">
-                    <h3 class="heading-2">Sr Software<br>Engineer</h3>
-                    <h4 class="caption">Around</h4>
-                    <h4 class="heading-3">$45</h4>
-                </section>
-
-                <section class="services-card fade-in">
-                    <h3 class="heading-2">Sr Scrum<br>Master</h3>
-                    <h4 class="caption">Around</h4>
-                    <h4 class="heading-3">$35</h4>
-                </section>
-            </div>
-
-        </section>
 
         <section class="benefits container-700 fade-in" aria-label="Benefits">
             <div class="accordions-container">
@@ -175,7 +156,7 @@
 
         <hr>
 
-        <?php include 'includes/testimonial.php';?>
+        <?php include 'includes/accolades.php';?>
     </main>
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
     <?php include 'includes/call-to-action.php';?>

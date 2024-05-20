@@ -31,10 +31,10 @@
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
-
     <!-- PAGE-SPECIFIC CSS end -->
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <script defer src="/app/js/accordion.js"></script>
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 
@@ -61,16 +61,16 @@
         <section class="about-cover container fade-in-header">
 
             <h1 class="caption align-center">About</h1>
-            <h2 class="heading-1 align-center">Where Business &amp; Creativity Come Together</h2>
+            <h2 class="heading-1 align-center">Where Design &amp; Development Click</h2>
 
             <div class="column-to-row">
                 <div class="one-half">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
                 </div>
                 <div class="one-half">
-                <p>We're a creative and development agency founded in 2018 with a fully-remote team working for clients from the US.</p>
-                <p>We help US businesses translate their vision into digital experiences that bring in the money.</p>
-                <p>We're also heavily committed to R&amp;D projects that help us grow and keep us at the cutting-edge in an always-changing environment.</p>
+                <p>We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.</p>
+                <p>From discovery to UX, development, deployment, and maintenance, we help companies translate their vision into digital experiences that bring in the money.</p>
+                <p>Culture-wise, we’re shaped by R&D. It runs through our hiring, operational, and delivery strategies to stay ahead of the curve.</p>
                 </div>
             </div>
         </section>

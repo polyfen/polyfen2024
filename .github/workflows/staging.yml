@@ -7,12 +7,21 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
+    environment: production
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v2
-    
+      uses: actions/checkout@v4
+
+    - name: Create ENV file
+      uses: SpicyPizza/create-envfile@v2.0
+      with:
+        envkey_STRIPE_STARTER_MONTHLY_URL: ${{ vars.STRIPE_STARTER_MONTHLY_URL }}
+        envkey_STRIPE_PRO_MONTHLY_URL: ${{ vars.STRIPE_PRO_MONTHLY_URL }}
+        envkey_STRIPE_STARTER_QUARTERLY_URL: ${{ vars.STRIPE_STARTER_QUARTERLY_URL }}
+        envkey_STRIPE_PRO_QUARTERLY_URL: ${{ vars.STRIPE_PRO_QUARTERLY_URL }}
+
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      uses: SamKirkland/FTP-Deploy-Action@4.3.5
       with:
         server: ftp.borishrncic.com
         username: ${{ secrets.ftp_stg_username }}

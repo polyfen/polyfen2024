@@ -29,6 +29,13 @@ div.grain-texture {
 
 /*     HOME PAGE       */
 
+#services {
+    scroll-margin-top: 4rem;
+}
+.subscribe-section {
+    margin-bottom: 4rem;
+}
+
 .services-card {
     padding: 24px 16px;
 }
@@ -113,7 +120,7 @@ section.plck-section h2 {
     content: "🤝";
 }
 
-/* Chatbox */
+/* Chatbot */
 
 /* Change position of Cookies and Chat modals on scroll over the footer */
 .bottom-120,
@@ -136,7 +143,7 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
     margin-bottom: 100px !important;
     }
 
-/* chat z-index*/    
+/*chat-window to not overlapping with chat bubble*/
 .crisp-client .cc-tlyw.cc-tlyw {
     z-index: 60;
 }
@@ -175,6 +182,14 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
     margin-bottom: 4rem;
 }
 
+body.home .start-today-button {
+    display: none;
+}
+
+body.subscriptions .learn-more-button {
+    display: none;
+}
+
 /* toggle buttons*/
 .toggle-container {
     position: relative;
@@ -188,21 +203,22 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
     position: absolute;
     inset-block: 0 auto;
     margin: 0;
-    z-index: 2;
+    z-index: 10;
     font-weight: 400;
-    opacity: .6;
+    opacity: 1;
+    background: none;
 }
 
 .toggle-container button:nth-child(2):before {
-    content: "30% OFF";
+    content: attr(data-content);
     position: absolute;
     top: -26px;
     font-weight: 400;
 }
 
- .toggle-container button:is(:active, :focus) {
+.toggle-container button:is(:active, :focus) {
     outline: none;
-} 
+}
 
 .toggle-container button:nth-child(1) {
     left: 0px;
@@ -215,7 +231,7 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
     background-color: #722FFF;
     padding-block: 10px;
     border: 6px solid #722FFF;
-    z-index: 5;
+    z-index: 11;
     margin-top: -5px;
     cursor: default;
     font-weight: 700;
@@ -262,9 +278,9 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
         display: inline;
     }
 
-    .card-header small.caption {
-        opacity: 0.6;
-    }
+.card-header small.caption {
+    opacity: 0.6;
+}
 
 .card-body {
     display: flex;
@@ -276,31 +292,36 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
 }
 
 .card-body ul {
-    margin-right: 36px;
+    margin-right: 50px;
 }
 
 .subscription-plan-card ul li {
-    font-family: 'Figtree', sans-serif  !important;
+    font-family: 'Figtree', sans-serif !important;
+    text-wrap: balance;
     font-size: 1rem;
     margin-bottom: 0.35rem;
 }
 
-.start-a-chat {
+.subscription-third-col {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     padding-left: 16px;
     padding-top: 16px;
+    width: 300px;
+    margin-inline: auto;
 }
 
-.start-a-chat h4 {
+.subscription-third-col h4 {
     margin-bottom: 0;
 }
 
-.start-a-chat hr {
+.subscription-third-col hr {
     margin-block: 2rem;
     width: 100%;
 }
 
-.subscription-plan-card ul li::before{
+.subscription-plan-card ul li::before {
     content: "✓";
 }
 
@@ -321,20 +342,48 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
     color: white !important;
 }
 
+.subscription-value-props h2 {
+    margin-bottom: 1rem;
+}
+
+.value-img {
+    width: 70px;
+    height: 70px;
+    place-content: center;
+    background-color: #120E32;
+    border: 1px solid #7437f850;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.value-img img {
+    margin-inline: auto;
+    height: 32px;
+    user-select: none;
+}
+
 /* Tech Stack */
 
-    /* slick styles */
-    .stack-carrousel .slick-dots li:before { content: unset; }
-    .stack-carrousel .slick-dots li.slick-active button:before { 
-        color: #722FFF;
-        content: url(/imgs/bullet-active.svg);
-    }
-    .stack-carrousel .slick-dots li button:before {
-        color: #722FFF;
-        content: url(/imgs/bullet-inactive.svg);
-        opacity: 1;
-    }
-    /* slick ends */
+/* Slick */
+.stack-carrousel .slick-dots {
+    bottom: -35px;
+}
+.stack-carrousel .slick-dots li:before {
+    content: unset;
+}
+
+.stack-carrousel .slick-dots li.slick-active button:before {
+    color: #722FFF;
+    content: url(/imgs/bullet-active.svg);
+}
+
+.stack-carrousel .slick-dots li button:before {
+    color: #722FFF;
+    content: url(/imgs/bullet-inactive.svg);
+    opacity: 1;
+}
+
+/* End Slick */
 
 .stack-u {
     display: flex;
@@ -349,17 +398,45 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
     user-select: none;
 }
 
+.stack-u span {
+    min-width: fit-content;
+}
+
+.stack-u.pro::after {
+    content: 'PRO';
+    background: #7437f850;
+    border-radius: 4px;
+    min-width: 39px;
+    height: 17px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    place-content: center;
+}
+
 /* Tech stack MediaQueries  */
 @media (max-width: 900px) {
+    .stack-carrousel {
+        width: 100%;
+    }
+
+    .stack-carrousel *.fade-in {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+
     .slide-inside {
         display: flex;
         margin-inline: auto;
         flex-direction: column;
         width: fit-content;
     }
+
     .stack-u {
         text-align: center;
     }
+
     .stack-u img {
         margin-inline: auto;
     }
@@ -382,8 +459,8 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
 
     .stack-carrousel {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr auto;
-        grid-template-rows: repeat(10,auto);
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(9, auto);
         grid-auto-flow: column;
         gap: 18px
     }
@@ -396,6 +473,8 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
 
 .faqs h3.heading-4 {
     margin-bottom: 0;
+    display: flex;
+    gap: 5px;
 }
 
 @media (min-width: 1024px) {
@@ -403,4 +482,38 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
         padding-left: 30px;
     }
 }
+
 /*end subscriptions page*/
+
+/* Subs-confirmed page */
+
+main.subs-confirmed-main h1 {
+    margin-bottom: 1.5rem;
+}
+
+video {
+    border-radius: 4px;
+}
+
+body.subs-confirmed main {
+    margin-bottom: 86px;
+} 
+.account-manager.column-to-row {
+justify-content: center;
+}
+.account-manager-img{
+    width: 179px;
+    border-radius: 8px;
+}
+.account-manager .account-manager-col {
+width: fit-content;
+}
+
+@media (min-width: 768px) {
+    section:nth-of-type(odd) .one-half:nth-of-type(odd) {
+        order:unset; /* Esto cancela el estilo general que apunta a los odd */
+    }
+    section:nth-of-type(even) .one-half:nth-of-type(odd) {
+        order: 1;
+    }
+}

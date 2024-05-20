@@ -52,7 +52,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Global javascript -->
 <script defer src="/app/js/timezone.js"></script>
 <script defer src="/app/js/subtle.js"></script>
-<script defer src="/app/js/accordion.js"></script>
 <script defer src="/app/js/modal-position.js"></script>
 <script defer src="/app/js/scrollfooter.js"></script>
 <script defer src="/app/js/navbar.js"></script>
