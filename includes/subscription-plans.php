@@ -1,8 +1,65 @@
+<?php
+
+    /**
+     * None of this should be here, in an include.
+     * We should eventually refactor everything to
+     * use a custom router and make this kind of things tidier
+     */
+    $env = file_get_contents(__DIR__."/../.env");
+    $lines = explode("\n",$env);
+
+    foreach($lines as $line){
+        preg_match("/([^#]+)\=(.*)/",$line,$matches);
+        if(isset($matches[2])){
+            putenv(trim($line));
+        }
+    } 
+
+    $mStarterLink = getenv('STRIPE_STARTER_MONTHLY_URL');
+    $mProLink = getenv('STRIPE_PRO_MONTHLY_URL');
+    $qStarterLink = getenv('STRIPE_STARTER_QUARTERLY_URL');
+    $qProLink = getenv('STRIPE_PRO_QUARTERLY_URL');
+
+
+    $starterPriceMonthly = '$4917';
+    $starterStripeUrlMonthly = $mStarterLink;
+    $starterPriceQuarterly = '$3442';
+    $starterStripeUrlQuarterly = $qStarterLink;
+    $proPriceMonthly = '$8945';
+    $proStripeUrlMonthly = $mProLink;
+    $proPriceQuarterly = '$6263';
+    $proStripeUrlQuarterly = $qProLink;
+?>
+
+<script type="application/javascript">
+    window.subscriptionPlans = {
+        monthly: {
+            starter: {
+                price: "<?php echo $starterPriceMonthly; ?>",
+                stripeUrl: "<?php echo $starterStripeUrlMonthly; ?>",
+            },
+            pro: {
+                price: "<?php echo $proPriceMonthly; ?>",
+                stripeUrl: "<?php echo $proStripeUrlMonthly; ?>",
+            },
+        },
+        quarterly: {
+            starter: {
+                price: "<?php echo $starterPriceQuarterly; ?>",
+                stripeUrl: "<?php echo $starterStripeUrlQuarterly; ?>",
+            },
+            pro: {
+                price: "<?php echo $proPriceQuarterly; ?>",
+                stripeUrl: "<?php echo $proStripeUrlQuarterly; ?>",
+            },
+        }
+    };
+</script>
 <section class="row">
     <div class="subscription-plan-card fade-in" id="starter">
         <div class="card-header">
             <h3 class="heading-2">Starter</h3>
-            <h4 class="heading-3" data-price-m="$4917" data-price-q="$3442">$</h4>
+            <h4 class="heading-3">$</h4>
             <small class="caption">/Month</small>
         </div>
         <div class="card-body">
@@ -21,7 +78,7 @@
     <div class="subscription-plan-card featured-card fade-in" id="pro">
         <div class="card-header">
             <h3 class="heading-2">Pro</h3>
-            <h4 class="heading-3" data-price-m="$8945" data-price-q="$6263">$</h4>
+            <h4 class="heading-3">$</h4>
             <small class="caption">/Month</small>
             <small class="card-label mini">Popular</small>
         </div>
