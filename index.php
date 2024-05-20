@@ -66,7 +66,7 @@
             </div>
         </section>
 
-        <hr class="home-cover">
+        <hr class="pearl-separator">
 
         <section id="services">
             <section class="container-1080 fade-in subscribe-section">

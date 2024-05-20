@@ -801,10 +801,6 @@ a.current-page {
     margin-top: 20px;
 }
 
-hr.home-cover {
-    margin-top: -185px;
-}
-
 .home-cover p {
     max-width: 450px;
     margin: 35px auto;
@@ -820,6 +816,11 @@ hr.home-cover {
     z-index: 10;
 }
 
+@media (min-width: 900px) {
+hr.pearl-separator {
+    margin-top: -185px;
+}}
+
 /* clients featured section */
 .clients-featured {
     position: relative;
@@ -834,7 +835,7 @@ hr.home-cover {
     opacity: 0.6;
 }
 
-/* infinite  horizontal scroll */
+/* infinite  horizontal scroll *****************************************/
 .scroller {
     margin-inline: auto;
 }
@@ -879,7 +880,7 @@ hr.home-cover {
         transform: translate(calc(-50% - 2.5rem)); /* 2.5rem es la mitad del gap*/
     }
 }
-/* END infinite scroll */
+/* END infinite scroll **********************************************/
 
 
 /* Clients featured section MediaQuery */
