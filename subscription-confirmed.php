@@ -37,7 +37,7 @@
 
     <main class="subs-confirmed-main">
         <h1 class="align-center">🎉🎉🎉<br>Thank You for Subscribing!</h1>
-        <h2 class="align-center heading-4">You're in Good Hands</h2>
+        <h2 class="align-center heading-4">You Are in Good Hands</h2>
         <hr>
         <section class="plat-section container">
             <div class="column-to-row account-manager">
