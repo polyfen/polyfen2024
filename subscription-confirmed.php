@@ -86,6 +86,7 @@
                 </div>
                 <div class="one-half fade-in">
                     <h2>Join our Slack for Ongoing Support</h2>
+                    <p>Check your inbox for the invite.</p>
                 </div>
             </div>
         </section>
