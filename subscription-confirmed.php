@@ -36,8 +36,8 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <main class="subs-confirmed-main">
-        <h1 class="align-center">Welcome to Your<br>All-in-One Subscription</h1>
-
+        <h1 class="align-center">🎉🎉🎉<br>Thank You for Subscribing!</h1>
+        <h2 class="align-center heading-4">You're in Good Hands</h2>
         <hr>
         <section class="plat-section container">
             <div class="column-to-row account-manager">
@@ -46,7 +46,7 @@
                 </div>
                 <div class="one-half fade-in">
                     <h2>Rodrigo is Your New Account Manager</h2>
-                    <a class="button secondary-button margin-right-auto"
+                    <a class="button secondary-button margin-right-auto small-button"
                         href="https://calendly.com/polyfen/subscriptions" target="_blank">Book a Call</a>
                 </div>
             </div>
@@ -55,7 +55,8 @@
         <section class="plat-section container">
             <div class="column-to-row fade-in">
                 <div class="one-half fade-in">
-                    <a href="/videos/Create-Task-Animation.webm" target="_blank" title="Open Full-Screen" style="cursor: zoom-in;">
+                    <a href="/videos/Create-Task-Animation.webm" target="_blank" title="Open Full-Screen"
+                        style="cursor: zoom-in;">
                         <video autoplay muted loop width="327">
                             <source src="/videos/Create-Task-Animation.webm" type="video/webm">
                             <source src="/videos/Create-Task-Animation.mp4" type="video/mp4">
@@ -65,9 +66,10 @@
                     </a>
                 </div>
                 <div class="one-half fade-in">
-                    <h2>Start Creating Tasks</h2>
-                    <a class="button secondary-button margin-right-auto"
-                        href="https://polyfen.atlassian.net/servicedesk/customer/portal/1" target="_blank">Create a task</a>
+                    <h2>Start Creating<br>Tasks</h2>
+                    <a class="button secondary-button margin-right-auto small-button"
+                        href="https://polyfen.atlassian.net/servicedesk/customer/portal/1" target="_blank">Create a
+                        Task</a>
                 </div>
             </div>
         </section>
@@ -84,8 +86,6 @@
                 </div>
                 <div class="one-half fade-in">
                     <h2>Join our Slack for Ongoing Support</h2>
-                    <a class="button secondary-button margin-right-auto" href="https://polyfen.slack.com/"
-                        target="_blank">open slack</a>
                 </div>
             </div>
         </section>
@@ -97,6 +97,17 @@
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
+    <!-- script for the button more-faqs -->
+    <script>
+    document.getElementById('more-faqs').addEventListener('click', function() {
+        let toToggle = document.querySelectorAll('.accordions-container .accordion:nth-child(n+5)');
+
+        toToggle.forEach(function(e) {
+            e.classList.toggle('d-none');
+        });
+        this.classList.add('d-none');
+    });
+    </script>
 </body>
 
 </html>

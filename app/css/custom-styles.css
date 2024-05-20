@@ -490,6 +490,14 @@ body.subscriptions .learn-more-button {
 
 /* Subs-confirmed page */
 
+main.subs-confirmed-main h1 {
+    margin-bottom: 1.5rem;
+}
+
+video {
+    border-radius: 4px;
+}
+
 body.subs-confirmed main {
     margin-bottom: 86px;
 } 
