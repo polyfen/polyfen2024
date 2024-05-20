@@ -1670,7 +1670,7 @@ div.other-project-card img {
 }
 
 [data-before="boris-hr"]::before {
-    background-image: url(/imgs/icons/globe-white.svg);
+    background-image: url(/imgs/icons/globe-net-white.svg);
     width: 29px;
 }
 
