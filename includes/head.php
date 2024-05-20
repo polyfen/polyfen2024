@@ -47,6 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="preload" as="image" href="/imgs/icons/envelope-white.svg">
 <link rel="preload" as="image" href="/imgs/icons/phone-call-white.svg">
 <link rel="preload" as="image" href="/imgs/icons/paper-plane-white.svg">
+<link rel="preload" as="image" href="/imgs/icons/globe-net-white.svg">
 
 <!-- Global javascript -->
 <script defer src="/app/js/timezone.js"></script>
