@@ -352,19 +352,15 @@ body.subscriptions .learn-more-button {
 .value-img {
     width: 70px;
     height: 70px;
-    align-content: center;
+    /* align-content: center; */
     background-color: #120E32;
     border: 1px solid #7437f850;
     border-radius: 6px;
     margin-bottom: 25px;
-}
-@supports not (align-content: center) {
-    .value-img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
-}
 
 .value-img img {
     margin-inline: auto;
