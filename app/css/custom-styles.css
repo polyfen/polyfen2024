@@ -32,6 +32,7 @@ div.grain-texture {
 #services {
     scroll-margin-top: 4rem;
 }
+
 .subscribe-section {
     margin-bottom: 4rem;
 }
@@ -141,7 +142,7 @@ a.bottom-120 span.cc-9q9h.cc-1ev6 {
 /*chat-window to not overlapping with chat bubble*/
 .cc-1hqb[data-visible="true"]:has(+ .bottom-120) {
     margin-bottom: 100px !important;
-    }
+}
 
 /*chat-window to not overlapping with chat bubble*/
 .crisp-client .cc-tlyw.cc-tlyw {
@@ -223,6 +224,7 @@ body.subscriptions .learn-more-button {
 .toggle-container button:nth-child(1) {
     left: 0px;
 }
+
 .toggle-container button:nth-child(2) {
     right: 0px;
 }
@@ -238,6 +240,7 @@ body.subscriptions .learn-more-button {
     box-shadow: 0px 0px 4px 4px #000;
     opacity: 1;
 }
+
 .toggle-container .active-button:hover {
     box-shadow: 0px 0px 4px 4px #000;
 }
@@ -268,15 +271,15 @@ body.subscriptions .learn-more-button {
     position: relative;
 }
 
-    .card-header h3 {
-        margin-bottom: 0rem;
-        font-weight: 700;
-    }
+.card-header h3 {
+    margin-bottom: 0rem;
+    font-weight: 700;
+}
 
-    .card-header h4 {
-        font-weight: 400;
-        display: inline;
-    }
+.card-header h4 {
+    font-weight: 400;
+    display: inline;
+}
 
 .card-header small.caption {
     opacity: 0.6;
@@ -349,19 +352,11 @@ body.subscriptions .learn-more-button {
 .value-img {
     width: 70px;
     height: 70px;
-    place-content: center;
+    align-content: center;
     background-color: #120E32;
     border: 1px solid #7437f850;
     border-radius: 6px;
     margin-bottom: 25px;
-}
-
-@supports not (place-content) {
-    .value-img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 }
 
 .value-img img {
@@ -376,13 +371,18 @@ body.subscriptions .learn-more-button {
 .stack-carrousel .slick-dots {
     bottom: -35px;
 }
+
 .stack-carrousel .slick-dots li::before {
     content: unset;
 }
 
+[data-acc="rocket"]::before {
+    content: url('/imgs/icons/rocket-launch.svg');
+}
+
 .stack-carrousel .slick-dots li.slick-active button::before {
     color: #722FFF;
-    content: url(/imgs/bullet-active.svg);
+    content: url('/imgs/bullet-active.svg');
 }
 
 .stack-carrousel .slick-dots li button::before {
@@ -460,6 +460,7 @@ body.subscriptions .learn-more-button {
 }
 
 @media (min-width: 900px) {
+
     .carrousel-col,
     .slide-inside {
         display: contents;
@@ -479,6 +480,7 @@ body.subscriptions .learn-more-button {
 #faq {
     scroll-margin-top: 6rem;
 }
+
 .faqs .accordion h3 span {
     color: #7537F8;
 }
@@ -509,22 +511,27 @@ video {
 
 body.subs-confirmed main {
     margin-bottom: 86px;
-} 
-.account-manager.column-to-row {
-justify-content: center;
 }
-.account-manager-img{
+
+.account-manager.column-to-row {
+    justify-content: center;
+}
+
+.account-manager-img {
     width: 179px;
     border-radius: 8px;
 }
+
 .account-manager .account-manager-col {
-width: fit-content;
+    width: fit-content;
 }
 
 @media (min-width: 768px) {
     section:nth-of-type(odd) .one-half:nth-of-type(odd) {
-        order:unset; /* Esto cancela el estilo general que apunta a los odd */
+        order: unset;
+        /* Esto cancela el estilo general que apunta a los odd */
     }
+
     section:nth-of-type(even) .one-half:nth-of-type(odd) {
         order: 1;
     }
