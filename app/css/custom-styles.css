@@ -108,15 +108,15 @@ section.plck-section h2 {
     margin: 2rem auto;
 }
 
-#newsletter-icon-1:before {
+#newsletter-icon-1::before {
     content: "💎";
 }
 
-#newsletter-icon-2:before {
+#newsletter-icon-2::before {
     content: "🔑";
 }
 
-#newsletter-icon-3:before {
+#newsletter-icon-3::before {
     content: "🤝";
 }
 
@@ -209,7 +209,7 @@ body.subscriptions .learn-more-button {
     background: none;
 }
 
-.toggle-container button:nth-child(2):before {
+.toggle-container button:nth-child(2)::before {
     content: attr(data-content);
     position: absolute;
     top: -26px;
@@ -356,6 +356,14 @@ body.subscriptions .learn-more-button {
     margin-bottom: 25px;
 }
 
+@supports not (place-content) {
+    .value-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .value-img img {
     margin-inline: auto;
     height: 32px;
@@ -368,16 +376,16 @@ body.subscriptions .learn-more-button {
 .stack-carrousel .slick-dots {
     bottom: -35px;
 }
-.stack-carrousel .slick-dots li:before {
+.stack-carrousel .slick-dots li::before {
     content: unset;
 }
 
-.stack-carrousel .slick-dots li.slick-active button:before {
+.stack-carrousel .slick-dots li.slick-active button::before {
     color: #722FFF;
     content: url(/imgs/bullet-active.svg);
 }
 
-.stack-carrousel .slick-dots li button:before {
+.stack-carrousel .slick-dots li button::before {
     color: #722FFF;
     content: url(/imgs/bullet-inactive.svg);
     opacity: 1;
