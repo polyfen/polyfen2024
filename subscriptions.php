@@ -89,7 +89,7 @@
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/person.svg"></div>
                 <h2>Devs, DevOps, UX, & Designers</h2>
-                <p>A full-blown team ready to kill your tasks.</p>
+                <p>A full-blown team ready to crush your tasks.</p>
             </div>
         </section>
 
