@@ -426,7 +426,7 @@ body.subscriptions .learn-more-button {
     font-size: 12px;
     font-weight: 600;
     text-align: center;
-    place-content: center;
+    align-content: center;
 }
 
 /* Tech stack MediaQueries  */
