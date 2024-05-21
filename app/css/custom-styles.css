@@ -358,6 +358,13 @@ body.subscriptions .learn-more-button {
     border-radius: 6px;
     margin-bottom: 25px;
 }
+@supports not (align-content: center) {
+    .value-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 .value-img img {
     margin-inline: auto;
