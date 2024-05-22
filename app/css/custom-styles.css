@@ -411,6 +411,7 @@ body.subscriptions .learn-more-button {
 
 .stack-u span {
     min-width: fit-content;
+    color: inherit;
 }
 
 .stack-u.pro::after {
