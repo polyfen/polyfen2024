@@ -1,5 +1,3 @@
-console.log("Soy el navbar.js");
-
 /* eventListener para manejar en el NAV los botones en mobile */
 
 const navOpener = document.querySelector('.nav-hamburger')
