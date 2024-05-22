@@ -1,6 +1,6 @@
 <section class="team-slider container- ">
     <!-- first row -->
-    <div class="scroller" data-direction="left" data-speed="slow">
+    <div class="scroller" data-direction="left" data-speed="custom">
         <div class="scroller__inner">
             <div class="row team-card">
                 <div class="col">
@@ -53,7 +53,7 @@
         </div>
     </div>
     <!-- second row -->
-    <div class="scroller" data-direction="left" data-speed="slow">
+    <div class="scroller" data-direction="left" data-speed="custom">
         <div class="scroller__inner">
             <div class="row team-card">
                 <div class="col">
@@ -107,7 +107,7 @@
     </div>
 
     <!-- thirth row -->
-    <div class="scroller" data-direction="left" data-speed="slow">
+    <div class="scroller" data-direction="left" data-speed="custom">
         <div class="scroller__inner">
             <div class="row team-card">
                 <div class="col">

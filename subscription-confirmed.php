@@ -94,7 +94,7 @@
         <hr>
         <?php include 'includes/faqs.php';?> 
         <hr>
-        <h2 class="caption align-center">We Look Forward to Crushing Your Tasks</h2>
+        <h2 class="heading-2 align-center">We Look Forward to<br>Crushing Your Tasks</h2>
         <?php include 'includes/team-slider.php';?>
     </main>
 

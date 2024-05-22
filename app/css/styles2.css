@@ -835,7 +835,38 @@ hr.pearl-separator {
     opacity: 0.6;
 }
 
+/* -------- PRE INFINITE SCROLL ------------------------------- */
+/* clients features valores*/
+.clients-featured .scroller__inner {
+    --gap: 5rem;
+}
+
+
+/* nuevo scroller, definiendo los valores relativos*/
+
+.team-slider .scroller__inner {
+    --gap: 50px;
+    padding-block: 10px
+}
+.scroller:nth-child(1) {
+    --speed: 70s;
+}
+
+.scroller:nth-child(2) {
+    --speed: 60s;
+}
+
+.scroller:nth-child(3) {
+    --speed: 50s;
+}
+
+
+/* .team-slider .scroller__inner .team-card:nth-child(3) {
+    border: 2px solid green;
+} */
+/*---------------------------------------*/
 /* infinite  horizontal scroll *****************************************/
+
 .scroller {
     margin-inline: auto;
 }
@@ -845,12 +876,12 @@ hr.pearl-separator {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 5rem; /*si se cambia el gap, hay que cambiar tmb en transform */
+    gap: var(--gap, 30px);
 }
 
 .scroller[data-animated=true] {
     overflow: hidden;
-    -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+    -webkit-mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
     mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
 }
 .scroller[data-animated=true] .scroller__inner {
@@ -874,10 +905,13 @@ hr.pearl-separator {
 .scroller[data-speed="fast"] {
     --_animation-duration: 20s;
 }
+.scroller[data-speed="custom"] {
+    --_animation-duration: var(--speed);
+}
 
 @keyframes scroll {
     to {
-        transform: translate(calc(-50% - 2.5rem)); /* 2.5rem es la mitad del gap*/
+        transform: translate(calc(-50% - calc(var(--gap, 30px) / 2))); /* la mitad del gap*/
     }
 }
 /* END infinite scroll **********************************************/
