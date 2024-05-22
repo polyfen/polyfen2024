@@ -835,87 +835,12 @@ hr.pearl-separator {
     opacity: 0.6;
 }
 
-/* -------- PRE INFINITE SCROLL ------------------------------- */
-/* clients features valores*/
-.clients-featured .scroller__inner {
-    --gap: 5rem;
-}
-
-
-/* nuevo scroller, definiendo los valores relativos*/
-
-.team-slider .scroller__inner {
-    --gap: 50px;
-    padding-block: 10px
-}
-.scroller:nth-child(1) {
-    --speed: 70s;
-}
-
-.scroller:nth-child(2) {
-    --speed: 60s;
-}
-
-.scroller:nth-child(3) {
-    --speed: 50s;
-}
-
-
-/* .team-slider .scroller__inner .team-card:nth-child(3) {
-    border: 2px solid green;
-} */
-/*---------------------------------------*/
-/* infinite  horizontal scroll *****************************************/
-
-.scroller {
-    margin-inline: auto;
-}
-
-.scroller__inner {
-    padding-block: 1rem;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: var(--gap, 30px);
-}
-
-.scroller[data-animated=true] {
-    overflow: hidden;
-    -webkit-mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
-    mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
-}
-.scroller[data-animated=true] .scroller__inner {
-    width: max-content;
-    flex-wrap: nowrap;
-    animation: scroll 
-    var(--_animation-duration, 40s)
-    var(--_animation-direction, forwards)
-    linear
-    infinite;
-}
-.scroller[data-direction="right"] {
-    --_animation-direction: reverse;
-}
-.scroller[data-direction="left"] {
-    --_animation-direction: forwards;
-}
-.scroller[data-speed="slow"] {
-    --_animation-duration: 60s;
-}
-.scroller[data-speed="fast"] {
-    --_animation-duration: 20s;
-}
-.scroller[data-speed="custom"] {
-    --_animation-duration: var(--speed);
-}
 
 @keyframes scroll {
     to {
         transform: translate(calc(-50% - calc(var(--gap, 30px) / 2))); /* la mitad del gap*/
     }
 }
-/* END infinite scroll **********************************************/
-
 
 /* Clients featured section MediaQuery */
 
@@ -1816,3 +1741,84 @@ a:hover div#send-message::before {
     height: 16px;
     opacity: .8;
 }
+
+/*  _   _            _                _        _   ____                 _ _  */
+/* | | | | ___  _ __(_)_______  _ __ | |_ __ _| | / ___|  ___ _ __ ___ | | | */
+/* | |_| |/ _ \| '__| |_  / _ \| '_ \| __/ _` | | \___ \ / __| '__/ _ \| | | */
+/* |  _  | (_) | |  | |/ / (_) | | | | || (_| | |  ___) | (__| | | (_) | | | */
+/* |_| |_|\___/|_|  |_/___\___/|_| |_|\__\__,_|_| |____/ \___|_|  \___/|_|_| */
+/* Horizontal Scroll --------------------------------------------------------*/
+
+
+
+/* |Individual Scroll  values */
+/* +-+-+ +-+-+-+-+-+-+-+-+-+-+*/
+
+/* accolades values */
+.clients-featured .scroller__inner {
+    --gap: 5rem;
+}
+/* teamSlider values */
+.team-slider .scroller__inner {
+    --gap: 50px;
+    padding-block: 10px
+}
+.scroller:nth-child(1) {
+    --speed: 70s;
+}
+
+.scroller:nth-child(2) {
+    --speed: 60s;
+}
+
+.scroller:nth-child(3) {
+    --speed: 50s;
+}
+
+
+/* Horizontal Scroll General-Values */
+/* +-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+.scroller {
+    margin-inline: auto;
+}
+
+.scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--gap, 30px);
+}
+
+.scroller[data-animated=true] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+    mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+}
+.scroller[data-animated=true] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 
+    var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards)
+    linear
+    infinite;
+}
+.scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+}
+.scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+}
+.scroller[data-speed="slow"] {
+    --_animation-duration: 60s;
+}
+.scroller[data-speed="fast"] {
+    --_animation-duration: 20s;
+}
+.scroller[data-speed="custom"] {
+    --_animation-duration: var(--speed);
+}
+
+/* END infinite scroll **/

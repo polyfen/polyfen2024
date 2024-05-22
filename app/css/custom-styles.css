@@ -583,11 +583,11 @@ body.subs-confirmed main {
     display: block;
 }
 
-.scroller:nth-child(2) {
+/* .scroller:nth-child(2) {
     padding-left: 160px;
 }
 .scroller:nth-child(3) {
     padding-left: 60px;
-}
+} */
 
 

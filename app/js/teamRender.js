@@ -20,8 +20,8 @@ const renderTeam = (group, containerSelector) => {
     });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    renderTeam(group1, '.team-avatar1');
-    renderTeam(group2, '.team-avatar2');
-    renderTeam(group3, '.team-avatar3');
-});
+
+// Llamamos a renderTeam() en secuencia
+renderTeam(group1, '.team-avatar1');
+renderTeam(group2, '.team-avatar2');
+renderTeam(group3, '.team-avatar3');

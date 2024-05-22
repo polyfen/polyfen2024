@@ -19,7 +19,7 @@
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <script defer src="/app/js/accordion.js"></script>
-    <script defer type="module" src="/app/js/main.js"></script>
+    <script defer type="module" src="/app/js/teamRender.js"></script>
     <script defer src="/app/js/horizontal-scroll.js"></script>
   
     <!-- PAGE-SPECIFIC SCRIPTS end -->

@@ -1,5 +1,6 @@
 const scrollers = document.querySelectorAll(".scroller");
 
+/* un timeOut para esperar a que se injecten las cards */
 setTimeout(addAnimation, 0);
 
 function addAnimation() {
