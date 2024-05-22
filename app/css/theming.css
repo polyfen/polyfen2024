@@ -1,3 +1,8 @@
+/* variable mixins */
+:root {
+    --polyfen-indigo: #722FFF;
+}
+
 body.dark-mode {
     background-color: #070924;
 
