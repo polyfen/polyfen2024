@@ -25,5 +25,3 @@ document.addEventListener('DOMContentLoaded', () => {
     renderTeam(group2, '.team-avatar2');
     renderTeam(group3, '.team-avatar3');
 });
-
-console.log("soymainjs")

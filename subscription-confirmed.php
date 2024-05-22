@@ -19,8 +19,9 @@
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <script defer src="/app/js/accordion.js"></script>
+    <script defer type="module" src="/app/js/main.js"></script>
     <script defer src="/app/js/horizontal-scroll.js"></script>
-    <script defer src="/app/js/main.js"></script>
+  
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 </head>
@@ -112,40 +113,6 @@
             e.classList.toggle('d-none');
         });
         this.classList.add('d-none');
-    });
-    </script>
-    <!-- script for the team slider -->
-    <script type="module">
-    import {
-        group1,
-        group2,
-        group3
-    } from '.app/js/teamData.js';
-
-    const renderTeam = (group, containerSelector) => {
-        const container = document.querySelector(containerSelector);
-
-        group.forEach(teamMember => {
-            const teamCard = document.createElement('div');
-            teamCard.classList.add('row', 'team-card');
-
-            teamCard.innerHTML = `
-        <div class="col">
-            <img src="${teamMember.dataImg}" alt="">
-        </div>
-        <div class="col">
-            <strong>${teamMember.dataName}</strong>
-            <small>${teamMember.dataJob}</small>
-        </div>`;
-
-            container.appendChild(teamCard);
-        });
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-        renderTeam(group1, '.team-avatar1');
-        renderTeam(group2, '.team-avatar2');
-        renderTeam(group3, '.team-avatar3');
     });
     </script>
 </body>

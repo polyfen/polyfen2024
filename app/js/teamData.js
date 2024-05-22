@@ -12,10 +12,10 @@ export const group2 = [
     { id: "alex-p", dataName: "Alex P.", dataJob: "Front-end Dev", dataImg: "imgs/team-avatars/3-avatar.svg" },
     { id: "susan-b", dataName: "Susan B.", dataJob: "Back-end Dev", dataImg: "imgs/team-avatars/22-avatar.svg" },
     { id: "chris-t", dataName: "Chris T.", dataJob: "UX Designer", dataImg: "imgs/team-avatars/4-avatar.svg" },
-    { id: "olivia-h", dataName: "Olivia H.", dataJob: "UX Designer", dataImg: "imgs/team-avatars/24-avatar.svg" },
+    { id: "olivia-h", dataName: "Olivia H.", dataJob: "Data Scientist", dataImg: "imgs/team-avatars/24-avatar.svg" },
     { id: "paul-h", dataName: "Paul H.", dataJob: "QA Engineer", dataImg: "imgs/team-avatars/7-avatar.svg" },
     { id: "steve-r", dataName: "Steve R.", dataJob: "Mobile Dev", dataImg: "imgs/team-avatars/10-avatar.svg" },
-    { id: "zoe-p", dataName: "Zoe P.", dataJob: "Data Scientist", dataImg: "imgs/team-avatars/21-avatar.svg" }
+    { id: "boris-h", dataName: "Boris H.", dataJob: "UX Designer", dataImg: "imgs/team-avatars/21-avatar.svg" }
 ];
 
 export const group3 = [
@@ -27,3 +27,5 @@ export const group3 = [
     { id: "sophia-r", dataName: "Sophia R.", dataJob: "QA Engineer", dataImg: "imgs/team-avatars/26-avatar.svg" },
     { id: "george-f", dataName: "George F.", dataJob: "System Architect", dataImg: "imgs/team-avatars/13-avatar.svg" }
 ];
+
+console.log("soyelteamdata")

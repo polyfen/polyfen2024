@@ -9,7 +9,9 @@ let scrollHandler = function() {
       chatLink.classList.add("bottom-120");
     } else {
       modal.classList.remove("bottom-120");
+      if (chatLink) {
       chatLink.classList.remove("bottom-120");
+      }
     }
   } else if (window.innerWidth < 1100) {
     modal.classList.remove("bottom-120");
@@ -18,5 +20,3 @@ let scrollHandler = function() {
 };
 
 window.addEventListener('scroll', scrollHandler);
-
-console.log("modal-position.js loaded");

@@ -1,8 +1,6 @@
-console.log('soy el scroller.js');
-
 const scrollers = document.querySelectorAll(".scroller");
 
-addAnimation();
+setTimeout(addAnimation, 0);
 
 function addAnimation() {
     scrollers.forEach(scroller => {
@@ -13,6 +11,6 @@ function addAnimation() {
             const duplicatedItem = item.cloneNode(true);
             /* duplicatedItem.setAttribute('aria-hidden', true); */
             scrollerInner.appendChild(duplicatedItem);
-        } )
-    })
+        });
+});
 }

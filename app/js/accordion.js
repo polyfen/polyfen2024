@@ -13,5 +13,3 @@ for (i = 0; i < acc.length; i++) {
 
     });
 }
-
-console.log("accordion.js loaded");
