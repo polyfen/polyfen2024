@@ -1768,11 +1768,11 @@ a:hover div#send-message::before {
 }
 
 .scroller:nth-child(2) {
-    --speed: 80s;
+    --speed: 100s;
 }
 
 .scroller:nth-child(3) {
-    --speed: 70s;
+    --speed: 90s;
 }
 
 
