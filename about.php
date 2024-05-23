@@ -35,6 +35,8 @@
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <script defer src="/app/js/accordion.js"></script>
+    <script defer type="module" src="/app/js/teamRender.js"></script>
+    <script defer src="/app/js/horizontal-scroll.js"></script>
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 
@@ -200,7 +202,9 @@
 
             </div>
         </section>
-
+        <hr>
+        <h2 class="heading-2 align-center">Exceptional Talent<br>that Sparks Innovation</h2>
+        <?php include 'includes/team-slider.php';?>
     </main>
     <!-- ABOUT end -->
 

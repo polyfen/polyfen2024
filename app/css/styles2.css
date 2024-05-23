@@ -835,53 +835,12 @@ hr.pearl-separator {
     opacity: 0.6;
 }
 
-/* infinite  horizontal scroll *****************************************/
-.scroller {
-    margin-inline: auto;
-}
-
-.scroller__inner {
-    padding-block: 1rem;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5rem; /*si se cambia el gap, hay que cambiar tmb en transform */
-}
-
-.scroller[data-animated=true] {
-    overflow: hidden;
-    -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-    mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
-}
-.scroller[data-animated=true] .scroller__inner {
-    width: max-content;
-    flex-wrap: nowrap;
-    animation: scroll 
-    var(--_animation-duration, 40s)
-    var(--_animation-direction, forwards)
-    linear
-    infinite;
-}
-.scroller[data-direction="right"] {
-    --_animation-direction: reverse;
-}
-.scroller[data-direction="left"] {
-    --_animation-direction: forwards;
-}
-.scroller[data-speed="slow"] {
-    --_animation-duration: 60s;
-}
-.scroller[data-speed="fast"] {
-    --_animation-duration: 20s;
-}
 
 @keyframes scroll {
     to {
-        transform: translate(calc(-50% - 2.5rem)); /* 2.5rem es la mitad del gap*/
+        transform: translate(calc(-50% - calc(var(--gap, 30px) / 2))); /* la mitad del gap*/
     }
 }
-/* END infinite scroll **********************************************/
-
 
 /* Clients featured section MediaQuery */
 
@@ -1783,3 +1742,84 @@ a:hover div#send-message::before {
     height: 16px;
     opacity: .8;
 }
+
+/*  _   _            _                _        _   ____                 _ _  */
+/* | | | | ___  _ __(_)_______  _ __ | |_ __ _| | / ___|  ___ _ __ ___ | | | */
+/* | |_| |/ _ \| '__| |_  / _ \| '_ \| __/ _` | | \___ \ / __| '__/ _ \| | | */
+/* |  _  | (_) | |  | |/ / (_) | | | | || (_| | |  ___) | (__| | | (_) | | | */
+/* |_| |_|\___/|_|  |_/___\___/|_| |_|\__\__,_|_| |____/ \___|_|  \___/|_|_| */
+/* Horizontal Scroll --------------------------------------------------------*/
+
+
+
+/* |Individual Scroll  values */
+/* +-+-+ +-+-+-+-+-+-+-+-+-+-+*/
+
+/* accolades values */
+.clients-featured .scroller__inner {
+    --gap: 5rem;
+}
+/* teamSlider values */
+.team-slider .scroller__inner {
+    --gap: 50px;
+    padding-block: 10px
+}
+.scroller:nth-child(1) {
+    --duration: 90s;
+}
+
+.scroller:nth-child(2) {
+    --duration: 100s;
+}
+
+.scroller:nth-child(3) {
+    --duration: 90s;
+}
+
+
+/* Horizontal Scroll General-Values */
+/* +-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+.scroller {
+    margin-inline: auto;
+}
+
+.scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--gap, 30px);
+}
+
+.scroller[data-animated=true] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+    mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+}
+.scroller[data-animated=true] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 
+    var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards)
+    linear
+    infinite;
+}
+.scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+}
+.scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+}
+.scroller[data-duration="slow"] {
+    --_animation-duration: 60s;
+}
+.scroller[data-duration="fast"] {
+    --_animation-duration: 20s;
+}
+.scroller[data-duration="custom"] {
+    --_animation-duration: var(--duration);
+}
+
+/* END infinite scroll **/

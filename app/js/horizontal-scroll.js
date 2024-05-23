@@ -1,8 +1,7 @@
-console.log('soy el scroller.js');
-
 const scrollers = document.querySelectorAll(".scroller");
 
-addAnimation();
+/* un timeOut para esperar a que se injecten las cards */
+setTimeout(addAnimation, 0);
 
 function addAnimation() {
     scrollers.forEach(scroller => {
@@ -13,6 +12,6 @@ function addAnimation() {
             const duplicatedItem = item.cloneNode(true);
             /* duplicatedItem.setAttribute('aria-hidden', true); */
             scrollerInner.appendChild(duplicatedItem);
-        } )
-    })
+        });
+});
 }

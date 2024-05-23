@@ -1,5 +1,4 @@
 let estadoAnterior = null;
-console.log("scrollfooter.js loaded");
 
 function ajustarPaddingFooter() {
     const cookiesModal = document.getElementById("cookies-modal");
@@ -12,7 +11,6 @@ function ajustarPaddingFooter() {
         if (estadoActual !== estadoAnterior) {
             footer.style.paddingBottom = estadoActual !== "none" ? "150px" : "20px";
             estadoAnterior = estadoActual;
-            console.log("el ultimo" + estadoAnterior);
         }
     }
 }

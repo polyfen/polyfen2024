@@ -19,6 +19,9 @@
 
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <script defer src="/app/js/accordion.js"></script>
+    <script defer type="module" src="/app/js/teamRender.js"></script>
+    <script defer src="/app/js/horizontal-scroll.js"></script>
+  
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 
 </head>
@@ -92,6 +95,9 @@
         </section>
         <hr>
         <?php include 'includes/faqs.php';?>
+        <hr>
+        <h2 class="heading-2 align-center">We Look Forward to<br>Crushing Your Tasks</h2>
+        <?php include 'includes/team-slider.php';?>
     </main>
 
     <!-- INCLUDE FOOTER.PHP start -->
