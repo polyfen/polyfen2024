@@ -1,11 +1,11 @@
 export const group1 = [
     { id: "lean-b", dataName: "Lean B.", dataJob: "Front-End Developer", dataImg: "imgs/team-avatars/lean-avatar.webp" },
-    { id: "nahuel-r", dataName: "Nahuel R.", dataJob: "UX & Visual Designer", dataImg: "imgs/team-avatars/2-avatar.webp" },
-    { id: "diego-l", dataName: "Diego L.", dataJob: "React Developer", dataImg: "imgs/team-avatars/3-avatar.webp" },
-    { id: "martin-r", dataName: "Martín R.", dataJob: "DevOps Engineer", dataImg: "imgs/team-avatars/4b-avatar.webp" },
+    { id: "nahuel-m", dataName: "Nahuel M.", dataJob: "UX & Visual Designer", dataImg: "imgs/team-avatars/15-avatar.webp" },
+    { id: "diego-l", dataName: "Diego L.", dataJob: "React Developer", dataImg: "imgs/team-avatars/12-avatar.webp" },
+    { id: "martin-r", dataName: "Martín R.", dataJob: "DevOps Engineer", dataImg: "imgs/team-avatars/4-avatar.webp" },
     { id: "lucia-j", dataName: "Lucía J.", dataJob: "Brand Strategist", dataImg: "imgs/team-avatars/21-avatar.webp" },
     { id: "sebastian-d", dataName: "Sebastián D.", dataJob: "Wordpress Developer", dataImg: "imgs/team-avatars/5-avatar.webp" },
-    { id: "agustina-o", dataName: "Agustina O.", dataJob: "Back-End Developer", dataImg: "imgs/team-avatars/22b-avatar.webp" }
+    { id: "agustina-o", dataName: "Agustina O.", dataJob: "Back-End Developer", dataImg: "imgs/team-avatars/22-avatar.webp" }
 ];
 
 export const group2 = [
@@ -21,9 +21,9 @@ export const group2 = [
 export const group3 = [
     { id: "camila-r", dataName: "Camila R.", dataJob: "Back-End Developer", dataImg: "imgs/team-avatars/25-avatar.webp" },
     { id: "emiliano-g", dataName: "Emiliano G.", dataJob: "Product Designer", dataImg: "imgs/team-avatars/11-avatar.webp" },
-    { id: "ignacio-m", dataName: "Ignacio M.", dataJob: "DevOps Engineer", dataImg: "imgs/team-avatars/12-avatar.webp" },
-    { id: "victoria-c", dataName: "Victoria C.", dataJob: "UX Researcher", dataImg: "imgs/team-avatars/26b-avatar.webp" },
+    { id: "ignacio-m", dataName: "Ignacio M.", dataJob: "DevOps Engineer", dataImg: "imgs/team-avatars/2-avatar.webp" },
+    { id: "victoria-c", dataName: "Victoria C.", dataJob: "UX Researcher", dataImg: "imgs/team-avatars/26-avatar.webp" },
     { id: "mark-l", dataName: "Augusto L.", dataJob: "Data Scientist", dataImg: "imgs/team-avatars/13-avatar.webp" },
-    { id: "henry-j", dataName: "Hernan P.", dataJob: "Front-end Dev", dataImg: "imgs/team-avatars/14b-avatar.webp" },
+    { id: "henry-j", dataName: "Hernan P.", dataJob: "Front-end Dev", dataImg: "imgs/team-avatars/14-avatar.webp" },
     { id: "george-f", dataName: "Javier M.", dataJob: "System Architect", dataImg: "imgs/team-avatars/1-avatar.webp" }
 ];
