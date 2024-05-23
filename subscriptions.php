@@ -30,7 +30,9 @@
     <!-- PAGE-SPECIFIC SCRIPTS start -->
     <script defer src="/app/js/accordion.js"></script>
     <script defer src="/app/js/plan-cards-toggle.js"></script>
+    <script defer type="module" src="/app/js/teamRender.js"></script>
     <script defer src="/app/js/horizontal-scroll.js"></script>
+
     <!-- slick -->
     <link rel="stylesheet" type="text/css" href="/libs/slick/slick/slick.css" />
     <!-- Add the new slick-theme.css if you want the default styling -->
@@ -280,6 +282,9 @@
         <hr>
 
         <?php include 'includes/accolades.php';?>
+        <hr>
+        <h2 class="heading-2 align-center">Team of Experts in your Timezone</h2>
+        <?php include 'includes/team-slider.php';?>
 
         <section class="cta-section">
             <div class="grain-texture">
@@ -292,7 +297,6 @@
                 </div>
             </div>
         </section>
-
     </main>
     <!-- FORCE MAX-WIDTH 100% end -->
 
