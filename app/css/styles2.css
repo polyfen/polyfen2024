@@ -1764,15 +1764,15 @@ a:hover div#send-message::before {
     padding-block: 10px
 }
 .scroller:nth-child(1) {
-    --speed: 70s;
+    --speed: 90s;
 }
 
 .scroller:nth-child(2) {
-    --speed: 60s;
+    --speed: 80s;
 }
 
 .scroller:nth-child(3) {
-    --speed: 50s;
+    --speed: 70s;
 }
 
 

@@ -583,11 +583,12 @@ body.subs-confirmed main {
     display: block;
 }
 
-/* .scroller:nth-child(2) {
-    padding-left: 160px;
+
+.team-avatar2  {
+    margin-left: 80px;
 }
-.scroller:nth-child(3) {
-    padding-left: 60px;
-} */
+.team-avatar3  {
+    margin-left: 30px;
+}
 
 
