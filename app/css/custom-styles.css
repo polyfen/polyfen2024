@@ -592,3 +592,8 @@ body.subs-confirmed main {
 }
 
 
+@media (max-width: 900px) {
+    .team-card.row {
+        flex-direction: row;
+    }
+}

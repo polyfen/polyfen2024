@@ -281,10 +281,12 @@
 
         <hr>
 
-        <?php include 'includes/accolades.php';?>
-        <hr>
-        <h2 class="heading-2 align-center">Team of Experts in your Timezone</h2>
+        <h2 class="heading-2 align-center">Team of Experts<br>in your Timezone</h2>
         <?php include 'includes/team-slider.php';?>
+        
+        <hr>
+
+        <?php include 'includes/accolades.php';?>
 
         <section class="cta-section">
             <div class="grain-texture">
@@ -296,7 +298,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>       
     </main>
     <!-- FORCE MAX-WIDTH 100% end -->
 

@@ -23,7 +23,7 @@ export const group3 = [
     { id: "emiliano-g", dataName: "Emiliano G.", dataJob: "Product Designer", dataImg: "imgs/team-avatars/11-avatar.webp" },
     { id: "ignacio-m", dataName: "Ignacio M.", dataJob: "DevOps Engineer", dataImg: "imgs/team-avatars/2-avatar.webp" },
     { id: "victoria-c", dataName: "Victoria C.", dataJob: "UX Researcher", dataImg: "imgs/team-avatars/26-avatar.webp" },
-    { id: "mark-l", dataName: "Augusto L.", dataJob: "Data Scientist", dataImg: "imgs/team-avatars/13-avatar.webp" },
-    { id: "henry-j", dataName: "Hernan P.", dataJob: "Front-end Dev", dataImg: "imgs/team-avatars/14-avatar.webp" },
-    { id: "george-f", dataName: "Javier M.", dataJob: "System Architect", dataImg: "imgs/team-avatars/1-avatar.webp" }
+    { id: "augusto-l", dataName: "Augusto L.", dataJob: "Data Scientist", dataImg: "imgs/team-avatars/13-avatar.webp" },
+    { id: "hernan-p", dataName: "Hernan P.", dataJob: "Front-end Dev", dataImg: "imgs/team-avatars/14-avatar.webp" },
+    { id: "javier-n", dataName: "Javier N.", dataJob: "Systems Architect", dataImg: "imgs/team-avatars/1-avatar.webp" }
 ];
