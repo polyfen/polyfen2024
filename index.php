@@ -107,50 +107,21 @@
 
         <hr>
 
-        <section class="benefits container-700 fade-in" aria-label="Benefits">
-            <div class="accordions-container">
-                <section class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="hand-coins" class="heading-3">Low cost, high value</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>Our cost-efficient, fully-remote business model offers services from top-tier professionals
-                            around the world at a small fraction of the price from our competitors in the US.</p>
-                    </div>
-                </section>
-                <section class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="shield" class="heading-3">Wealth of experience</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>Founder &amp; CEO <a href="https://boris.hr" rel="follow" target="_blank">Boris
-                                Hrnčić</a> brings to the table 10+ years of experience in design, development, and
-                            marketing. Vetted in the top 3% of designers worldwide by <a href="https://toptal.com"
-                                rel="nofollow" target="_blank">Toptal</a> in 2017. Led high-performing teams for small
-                            start-ups and big enterprises in Croatia, Argentina, and the US.</p>
-                    </div>
-                </section>
-                <section class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="crown" class="heading-3">End-to-end customer service</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>We've got you covered next time you encounter any new requirements in the area of business
-                            development, marketing, design, or tech. Our growing list of satisfied customers is
-                            testimony that we go above and beyond to help your business grow and to develop a
-                            long-lasting and solid partnership.</p>
-                    </div>
-                </section>
-                <section class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="flag" class="heading-3">Fast-track project kick-off</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>Our standardized and automated workflows ensure that no time is wasted. Send us an enquiry
-                            and we'll promptly engage in understanding your requirements, proposing a solution detailed
-                            in a comprehensive agreement, and prepare for a prompt project kick-off.</p>
-                    </div>
-                </section>
+        <section class="container-1080 row subscription-value-props">
+            <div class="col fade-in">
+                <div class="value-img"><img src="/imgs/icons/hand-coins.svg"></div>
+                <h2>Low Cost,<br>High Value</h2>
+                <p>Our remote business model passes the savings onto you.</p>
+            </div>
+            <div class="col fade-in">
+                <div class="value-img"><img src="/imgs/icons/shield-chevron.svg"></div>
+                <h2>Wealth of<br>Experience</h2>
+                <p>Our partners accumulate 50+ years of indsutry experience.</p>
+            </div>
+            <div class="col fade-in">
+                <div class="value-img"><img src="/imgs/icons/crown-simple.svg"></div>
+                <h2>End-to-End<br>Customer Service</h2>
+                <p>Our growing list of clients is testimony that we go above and beyond.</p>
             </div>
         </section>
 
