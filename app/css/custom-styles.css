@@ -1230,7 +1230,7 @@ blockquote p {
 /* | |_| |/ _ \| '__| |_  / _ \| '_ \| __/ _` | | \___ \ / __| '__/ _ \| | | */
 /* |  _  | (_) | |  | |/ / (_) | | | | || (_| | |  ___) | (__| | | (_) | | | */
 /* |_| |_|\___/|_|  |_/___\___/|_| |_|\__\__,_|_| |____/ \___|_|  \___/|_|_| */
-/* Horizontal Scroll --------------------------------------------------------*/
+/* Horizontal Scroll - Slider -----------------------------------------------*/
 
 /* Scroll Individual-Values */
 /* +-+-+ +-+-+-+-+-+-+-+-+-+-+*/
@@ -1254,6 +1254,13 @@ blockquote p {
 
 .scroller:nth-child(3) {
     --duration: 90s;
+}
+
+.team-avatar2  {
+    margin-left: 40px;
+}
+.team-avatar3  {
+    margin-left: 15px;
 }
 
 
@@ -1283,6 +1290,17 @@ blockquote p {
     -webkit-mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
     mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
 }
+@media (max-width: 1100px) {
+    .scroller[data-animated=true] {
+        -webkit-mask:unset;
+        mask: unset;
+    }
+    section:has(>.scroller) {
+        width: 100%;
+    }
+}
+
+
 .scroller[data-animated=true] .scroller__inner {
     width: max-content;
     flex-wrap: nowrap;
@@ -2464,19 +2482,9 @@ body.subs-confirmed main {
     max-width: unset;
 }
 
-
 .team-card .col:nth-child(2) * {
     display: block;
 }
-
-
-.team-avatar2  {
-    margin-left: 80px;
-}
-.team-avatar3  {
-    margin-left: 30px;
-}
-
 
 @media (max-width: 900px) {
     .team-card.row {
