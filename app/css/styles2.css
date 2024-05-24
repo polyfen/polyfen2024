@@ -755,7 +755,7 @@ a.current-page {
     width: 100%;
     max-width: 180px;
     height: auto;
-    border-radius: 4px;
+    border-radius: 12px;
     margin-bottom: 20px;
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -1230,7 +1230,7 @@ h1.caption {
 .founder-bios .founder-boris {
     max-width: 200px;
     margin-bottom: 20px;
-    border-radius: 4px;
+    border-radius: 12px;
 }
 
 img.flag {
