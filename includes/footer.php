@@ -45,7 +45,6 @@
         <a href="/about">About</a>
         <a href="/work">Work</a>
         <a href="/subscriptions">Subscriptions</a>
-        <a href="/newsletter">Newsletter</a>
         <a href="/contact">Contact</a>
     </nav>
 
@@ -56,6 +55,8 @@
         <a href="https://thepolyfengroup.com/wiki/" target="_blank" class="mini">Team Wiki</a>
         <span>&vert;</span>
         <a href="https://thepolyfengroup.com/brand/" target="_blank" class="mini">Brand Guidelines</a>
+        <span>&vert;</span>
+        <a href="/newsletter" class="mini">Newsletter</a>
     </nav>
 
     <!-- scripts location call luxon-->
