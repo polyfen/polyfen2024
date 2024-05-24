@@ -281,7 +281,7 @@
 
         <hr>
 
-        <h2 class="heading-2 align-center">Team of Experts<br>in your Timezone</h2>
+        <h2 class="heading-2 align-center">Team of Experts<br>in Your Timezone</h2>
         <?php include 'includes/team-slider.php';?>
         
         <hr>
