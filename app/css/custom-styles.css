@@ -1504,7 +1504,6 @@ img.flag {
 .founder .column-to-row {
     align-items: flex-start;
     justify-content: center;
-    gap: 0px;
 }
 
 .founder-social {
