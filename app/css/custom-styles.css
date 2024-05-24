@@ -2250,7 +2250,7 @@ body.subscriptions .learn-more-button {
 
 /* Slick */
 .stack-carrousel .slick-dots {
-    bottom: -35px;
+    bottom: -45px;
 }
 
 .stack-carrousel .slick-dots li::before {
