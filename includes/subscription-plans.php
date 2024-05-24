@@ -71,7 +71,7 @@
                 <li>Unlimited projects</li>
                 <li>Pause or cancel any time</li>
             </ul>
-            <a class="button secondary-button small-button start-today-button" href="#">Start Today ➞</a>
+            <a class="button secondary-button small-button start-today-button secondary-cta-button" href="#">Start Today ➞</a>
             <a class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More ➞</a>
         </div>
     </div>
@@ -92,7 +92,7 @@
                 <li>Unlimited projects</li>
                 <li>Pause or cancel any time</li>
             </ul>
-            <a class="button secondary-button small-button start-today-button" href="#">Start Today ➞</a>
+            <a class="button secondary-button small-button start-today-button secondary-cta-button" href="#">Start Today ➞</a>
             <a class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More ➞</a>
         </div>
     </div>

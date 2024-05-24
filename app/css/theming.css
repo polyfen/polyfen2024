@@ -58,8 +58,16 @@ button.secondary-button, a.button.secondary-button, input.button.secondary-butto
 
 button.secondary-button:hover, a.button.secondary-button:hover, input.button.secondary-button:hover {
     background-image: none !important;
-    box-shadow: 0 0 10px #712fff, inset 0 0 0 2px #070924;
+    box-shadow: 0 0 10px #712fff, inset 0 0 0 1.4px #070924;
     background-color: #712fff;
+}
+
+a.button.secondary-cta-button {
+    background-color: #712fff;
+}
+
+a.button.secondary-cta-button:hover {
+    box-shadow: 0 0 10px #712fff, inset 0 0 0 1.4px #070924;
 }
 
 form input,
