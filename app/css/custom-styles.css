@@ -2275,12 +2275,9 @@ body.subscriptions .learn-more-button {
     color: white !important;
 }
 
+/* value propts */
 .subscription-value-props h2 {
     margin-bottom: 1rem;
-}
-
-.subscription-value-props p {
-    max-width: 300px;
 }
 
 .value-img {
@@ -2302,6 +2299,12 @@ body.subscriptions .learn-more-button {
     user-select: none;
 }
 
+/*mediquerys  subscriptions*/
+@media (max-width: 900px) {
+    .subscription-value-props p {
+        max-width: 300px;
+    }
+}
 /* Tech Stack */
 
 /* Slick */
