@@ -89,12 +89,12 @@
             </div>
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
-                <h2>Fast-track Onboarding</h2>
+                <h2>Fast-track<br>Onboarding</h2>
                 <p>No contracts, no paperwork hassle. Start today.</p>
             </div>
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/person.svg"></div>
-                <h2>Devs, DevOps, UX, & Designers</h2>
+                <h2>Devs, DevOps,<br>UX, & Designers</h2>
                 <p>A full-blown team ready to crush your tasks.</p>
             </div>
         </section>
