@@ -1,13 +1,13 @@
 <header>
     <a class="logo" href="/"><img src="/imgs/polyfen-logo.svg" id="logo" alt="Polyfen"></a>
-    <div id="context-menu" class="d-none">
+    <div id="context-menu caption" class="d-none">
         <ul>
             <li><a id="copylogo" href="logo.svg">Copy logo as SVG</a></li>
             <li><a href="https://drive.google.com/drive/folders/1hEl8370cqLWeeUEWjiC05Api3KhNaxgS?usp=sharing" target="_blank">Download brand assets</a></li>
             <li><a href="https://thepolyfengroup.com/brand" target="_blank">Visit brand guidelines</a></li>
         </ul>
     </div>
-    <div id="confirm" class="confirm-message"></div>
+    <div id="confirm-svg" class="confirm-message"></div>
     <nav class="hello-nav">
         <div class="nav-links">
             <a href="/">Home</a>
