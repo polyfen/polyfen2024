@@ -77,6 +77,10 @@
 
         <hr>
 
+        <?php include 'includes/accolades.php';?>
+
+        <hr>
+
         <section class="container-1080 row subscription-value-props">
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
@@ -283,10 +287,6 @@
 
         <h2 class="heading-2 align-center">Team of Experts<br>in Your Timezone</h2>
         <?php include 'includes/team-slider.php';?>
-        
-        <hr>
-
-        <?php include 'includes/accolades.php';?>
 
         <section class="cta-section">
             <div class="grain-texture">
