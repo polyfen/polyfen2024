@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function confirmation(message) {
 
         const confirmElement = document.getElementById('confirm');
+        let confirmationTimeout;
         confirmElement.textContent = message;
         confirmElement.classList.add('anime');
         clearTimeout(confirmationTimeout);
