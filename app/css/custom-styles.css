@@ -2558,8 +2558,9 @@ content: none;
 
 .confirm-message {
     position: fixed;
-    bottom: 20px;
+    top: 20%;
     left: 50%;
+    z-index: 60;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
