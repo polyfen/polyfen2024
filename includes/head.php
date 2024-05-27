@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script defer src="/app/js/modal-position.js"></script>
 <script defer src="/app/js/scrollfooter.js"></script>
 <script defer src="/app/js/navbar.js"></script>
-<script defer src="/app/js/svgmenu.js"></script>
+<script src="/app/js/svgmenu.js"></script>
 
 <!-- jQuery -->
 <script

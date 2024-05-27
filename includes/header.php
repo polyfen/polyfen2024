@@ -7,6 +7,7 @@
             <li><a href="https://thepolyfengroup.com/brand" target="_blank">Visit brand guidelines</a></li>
         </ul>
     </div>
+    <div id="confirm" class="confirm-message"></div>
     <nav class="hello-nav">
         <div class="nav-links">
             <a href="/">Home</a>

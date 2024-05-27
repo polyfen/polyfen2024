@@ -52,6 +52,21 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    // Función para mostrar el mensaje de confirmación
+
+    function confirmation(message) {
+
+        const confirmElement = document.getElementById('confirm');
+        confirmElement.textContent = message;
+        confirmElement.classList.add('anime');
+        clearTimeout(confirmationTimeout);
+
+        confirmationTimeout = setTimeout(() => {
+            confirmElement.classList.remove('anime');
+        }, 800);
+
+    }
+
     // Copiar el contenido del logo SVG al portapapeles
     copyLogo.addEventListener('click', function (event) {
         event.preventDefault();
@@ -61,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Copiar el contenido SVG al portapapeles
         navigator.clipboard.writeText(svgContent)
         .then(() => {
-            alert('Logo SVG copied to clipboard!');
+            confirmation('Logo SVG copied to clipboard!');
         })
         .catch((error) => {
             console.error('Failed to copy logo SVG:', error);
