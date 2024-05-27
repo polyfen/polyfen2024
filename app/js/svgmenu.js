@@ -1,9 +1,10 @@
-console.log("soySVGmenu")
+console.log("soySVGmenu");
 
 document.addEventListener('DOMContentLoaded', function () {
     const logoContainer = document.getElementById('logo');
     const contextMenu = document.getElementById('context-menu');
     const copyLogo = document.getElementById('copylogo');
+    let confirmationTimeout;
 
     // Función para mostrar el menú contextual
     function showContextMenu(event) {
@@ -53,11 +54,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Función para mostrar el mensaje de confirmación
-
     function confirmation(message) {
-
         const confirmElement = document.getElementById('confirm');
-        let confirmationTimeout;
         confirmElement.textContent = message;
         confirmElement.classList.add('anime');
         clearTimeout(confirmationTimeout);
@@ -65,22 +63,25 @@ document.addEventListener('DOMContentLoaded', function () {
         confirmationTimeout = setTimeout(() => {
             confirmElement.classList.remove('anime');
         }, 800);
-
     }
 
     // Copiar el contenido del logo SVG al portapapeles
     copyLogo.addEventListener('click', function (event) {
         event.preventDefault();
-        // Obtener el contenido SVG que quieres copiar (reemplaza este texto con tu SVG)
-        const svgContent = "<svg>...</svg>";
-        
-        // Copiar el contenido SVG al portapapeles
-        navigator.clipboard.writeText(svgContent)
-        .then(() => {
-            confirmation('Logo SVG copied to clipboard!');
-        })
-        .catch((error) => {
-            console.error('Failed to copy logo SVG:', error);
-        });
+        fetch('imgs/polyfen-logo.svg')
+            .then(response => response.text())
+            .then(svgContent => {
+                // Copiar el contenido SVG al portapapeles
+                navigator.clipboard.writeText(svgContent)
+                    .then(() => {
+                        confirmation('Logo SVG copied to clipboard!');
+                    })
+                    .catch((error) => {
+                        console.error('Failed to copy logo SVG:', error);
+                    });
+            })
+            .catch(error => {
+                console.error('Failed to fetch logo SVG:', error);
+            });
     });
 });
