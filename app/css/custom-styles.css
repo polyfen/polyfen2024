@@ -2556,3 +2556,22 @@ content: none;
     color: rgb(81, 15, 134); ;
 }
 
+.confirm-message {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    z-index: 60;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.confirm-message.anime {
+    display: block;
+    opacity: 1;
+}
