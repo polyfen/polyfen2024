@@ -2566,10 +2566,12 @@ content: none;
     color: white;
     padding: 10px;
     border-radius: 5px;
+    display: none;
     opacity: 0;
     transition: opacity 0.3s ease;
 }
 
 .confirm-message.anime {
+    display: block;
     opacity: 1;
 }
