@@ -1,13 +1,11 @@
-console.log("soySVGmenu");
-
 document.addEventListener('DOMContentLoaded', function () {
-    const logoContainer = document.getElementById('logo');
+    const logo = document.getElementById('logo');
     const contextMenu = document.getElementById('context-menu');
     const copyLogo = document.getElementById('copylogo');
     let confirmationTimeout;
 
     // Función para mostrar el menú contextual
-    function showContextMenu(event) {
+    const showContextMenu = (event) => {
         event.preventDefault();
         const menuWidth = contextMenu.offsetWidth;
         const menuHeight = contextMenu.offsetHeight;
@@ -18,13 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
         let menuX = event.pageX - 0;
         let menuY = event.pageY - 30;
 
-        if (menuX + menuWidth > windowWidth) {
-            menuX -= menuWidth;
-        }
-
-        if (menuY + menuHeight > windowHeight) {
-            menuY -= menuHeight;
-        }
+        if (menuX + menuWidth > windowWidth) { menuX -= menuWidth;}
+        if (menuY + menuHeight > windowHeight) { menuY -= menuHeight;}
 
         contextMenu.style.top = `${menuY}px`;
         contextMenu.style.left = `${menuX}px`;
@@ -32,12 +25,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Función para ocultar el menú contextual
-    function hideContextMenu() {
-        contextMenu.classList.add('d-none');
-    }
+    const hideContextMenu = () => { contextMenu.classList.add('d-none');}
 
     // Mostrar el menú contextual al hacer clic derecho en el logo-container
-    logoContainer.addEventListener('contextmenu', showContextMenu);
+    logo.addEventListener('contextmenu', showContextMenu);
 
     // Ocultar el menú contextual al hacer clic fuera de él
     document.addEventListener('click', function (event) {
@@ -45,28 +36,27 @@ document.addEventListener('DOMContentLoaded', function () {
             hideContextMenu();
         }
     });
-
     // Ocultar el menú contextual al presionar la tecla Escape
-    document.addEventListener('keydown', function (event) {
+    document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') {
             hideContextMenu();
         }
     });
 
     // Función para mostrar el mensaje de confirmación
-    function confirmation(message) {
-        const confirmElement = document.getElementById('confirm');
+    const confirmation = (message) => {
+        const confirmElement = document.getElementById('confirm-svg');
         confirmElement.textContent = message;
         confirmElement.classList.add('anime');
         clearTimeout(confirmationTimeout);
 
         confirmationTimeout = setTimeout(() => {
             confirmElement.classList.remove('anime');
-        }, 800);
+        }, 999);
     }
 
     // Copiar el contenido del logo SVG al portapapeles
-    copyLogo.addEventListener('click', function (event) {
+    copyLogo.addEventListener('click', (event) => {
         event.preventDefault();
         fetch('/imgs/polyfen-logo.svg')
             .then(response => response.text())
