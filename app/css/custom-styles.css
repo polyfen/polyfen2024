@@ -2586,14 +2586,17 @@ content: none;
     background-image: url(/imgs/icons/arrow-square-out-fill.svg);
     height: 23px;
     width: 30px;
+    top: 4px;
 }
 [data-before="copy"]::before {
     background-image: url(/imgs/icons/copy-fill.svg);
     height: 23px;
     width: 30px;
+    top: 4px;
 }
 [data-before="google-drive"]::before {
     background-image: url(/imgs/icons/google-drive-logo-fill.svg);
     height: 23px;
     width: 30px;
+    top: 4px;
 }
