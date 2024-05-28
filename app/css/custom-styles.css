@@ -2554,7 +2554,7 @@ content: none;
 }
 
 #context-menu li {
-    padding: 8px 12px;
+    padding: 2px 12px 14px 12px;
     cursor: pointer;
 }
 
@@ -2586,17 +2586,17 @@ content: none;
     background-image: url(/imgs/icons/arrow-square-out-fill.svg);
     height: 23px;
     width: 30px;
-    top: 4px;
+    top: 5px;
 }
 [data-before="copy"]::before {
     background-image: url(/imgs/icons/copy-fill.svg);
     height: 23px;
     width: 30px;
-    top: 4px;
+    top: 5px;
 }
 [data-before="google-drive"]::before {
     background-image: url(/imgs/icons/google-drive-logo-fill.svg);
     height: 23px;
     width: 30px;
-    top: 4px;
+    top: 5px;
 }
