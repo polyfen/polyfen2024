@@ -1111,6 +1111,37 @@ a:hover div#send-message::before {
     height: 16px;
     opacity: .8;
 }
+
+
+/* ::AFTER --> */
+a[data-button-arrow] {
+    position: relative;
+}
+
+[data-button-arrow]::after {
+    content: url(/imgs/icons/arrow-right-fill.svg);
+    position: absolute;
+    display: inline-block;
+    top: 6px;
+    right: 24px;
+}
+
+[data-button-arrow]:hover::after {
+    animation: moveArrow 1s ease-out infinite;
+}
+
+@keyframes moveArrow {
+    0% {
+        transform: translateX(0);
+    }
+    70% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+
 /* END data-types */
 
 /*     _                              _  _                     */
