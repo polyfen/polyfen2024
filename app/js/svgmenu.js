@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Ajustar la posición para que el menú no se salga de la ventana
         let menuX = event.pageX - 0;
-        let menuY = event.pageY - 30;
+        let menuY = event.pageY - 62;
 
         if (menuX + menuWidth > windowWidth) { menuX -= menuWidth;}
         if (menuY + menuHeight > windowHeight) { menuY -= menuHeight;}
