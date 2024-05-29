@@ -1124,10 +1124,12 @@ a[data-button-arrow] {
     display: inline-block;
     top: 7px;
     right: 24px;
+    opacity: .8;
 }
 
 [data-button-arrow]:hover::after {
     animation: moveArrow 1s ease-out infinite;
+    opacity: 1;
 }
 
 @keyframes moveArrow {
@@ -1139,6 +1141,46 @@ a[data-button-arrow] {
     }
     100% {
         transform: translateX(10px);
+    }
+}
+
+a[data-button-arrow-up] {
+    position: relative;
+}
+
+[data-button-arrow-up]::before {
+    content: url(/imgs/icons/arrow-up-fill.svg);
+    position: absolute;
+    display: inline-block;
+    bottom: 17px;
+    left: 24px;
+    opacity: .8;
+}
+
+[data-button-arrow-up]::after {
+    content: url(/imgs/icons/arrow-up-fill.svg);
+    position: absolute;
+    display: inline-block;
+    bottom: 17px;
+    right: 24px;
+    opacity: .8;
+}
+
+[data-button-arrow-up]:hover::before,
+[data-button-arrow-up]:hover::after {
+    animation: moveArrow-up 1s ease-out infinite;
+    opacity: 1;
+}
+
+@keyframes moveArrow-up {
+    0% {
+        transform: translatey(0px);
+    }
+    70% {
+        transform: translatey(-10px);
+    }
+    100% {
+        transform: translatey(-10px);
     }
 }
 
