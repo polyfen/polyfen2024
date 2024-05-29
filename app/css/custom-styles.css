@@ -1122,7 +1122,7 @@ a[data-button-arrow] {
     content: url(/imgs/icons/arrow-right-fill.svg);
     position: absolute;
     display: inline-block;
-    top: 6px;
+    top: 7px;
     right: 24px;
 }
 
