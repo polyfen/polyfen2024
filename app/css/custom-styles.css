@@ -1113,18 +1113,33 @@ a:hover div#send-message::before {
 }
 
 
-/* ::AFTER --> */
+/* Button Arrows --> */
+/* Arrow right --> */
 a[data-button-arrow] {
     position: relative;
 }
 
 [data-button-arrow]::after {
-    content: url(/imgs/icons/arrow-right-fill.svg);
+    content: '';
+    background-image: url(/imgs/icons/arrow-right-fill-3.svg);
+    background-repeat: no-repeat;
     position: absolute;
     display: inline-block;
+    opacity: .8;
+}
+
+[data-button-arrow]::after {
+    top: 14px;
+    right: 42px;
+    height: 22px;
+    width: 22px;
+}
+
+.small-button[data-button-arrow]::after {
     top: 7px;
     right: 24px;
-    opacity: .8;
+    height: 18px;
+    width: 16px;
 }
 
 [data-button-arrow]:hover::after {
@@ -1144,6 +1159,7 @@ a[data-button-arrow] {
     }
 }
 
+/* Arrow Up^ */
 a[data-button-arrow-up] {
     position: relative;
 }
@@ -1155,6 +1171,7 @@ a[data-button-arrow-up] {
     bottom: 17px;
     left: 24px;
     opacity: .8;
+    animation: moveArrow-up 1s ease-out infinite;
 }
 
 [data-button-arrow-up]::after {
@@ -1164,11 +1181,11 @@ a[data-button-arrow-up] {
     bottom: 17px;
     right: 24px;
     opacity: .8;
+    animation: moveArrow-up 1s ease-out infinite;
 }
 
 [data-button-arrow-up]:hover::before,
 [data-button-arrow-up]:hover::after {
-    animation: moveArrow-up 1s ease-out infinite;
     opacity: 1;
 }
 

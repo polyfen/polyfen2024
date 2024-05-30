@@ -71,8 +71,8 @@
                 <li>Unlimited projects</li>
                 <li>Pause or cancel any time</li>
             </ul>
-            <a class="button secondary-button small-button start-today-button secondary-cta-button" href="#">Start Today ➞</a>
-            <a class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More ➞</a>
+            <a data-button-arrow class="button secondary-button small-button start-today-button secondary-cta-button" href="#">Start Today</a>
+            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More</a>
         </div>
     </div>
     <div class="subscription-plan-card featured-card fade-in" id="pro">
