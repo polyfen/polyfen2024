@@ -1177,10 +1177,10 @@ a[data-button-arrow-up] {
         transform: translatey(0px);
     }
     70% {
-        transform: translatey(-10px);
+        transform: translatey(-5px);
     }
     100% {
-        transform: translatey(-10px);
+        transform: translatey(-5px);
     }
 }
 
