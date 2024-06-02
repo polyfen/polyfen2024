@@ -1121,25 +1121,22 @@ a[data-button-arrow] {
 
 [data-button-arrow]::after {
     content: '';
-    background-image: url(/imgs/icons/arrow-right-fill-3.svg);
+    background-image: url(/imgs/icons/arrow-right-fill-4.svg);
     background-repeat: no-repeat;
-    position: absolute;
     display: inline-block;
     opacity: .8;
 }
 
 [data-button-arrow]::after {
-    top: 14px;
-    right: 42px;
-    height: 22px;
-    width: 22px;
+    height: 10px;
+    width: 18px;
+    margin-left: 2px;
 }
 
 .small-button[data-button-arrow]::after {
-    top: 7px;
-    right: 24px;
-    height: 18px;
-    width: 16px;
+    height: 10px;
+    width: 13px;
+    margin-left: 1px;
 }
 
 [data-button-arrow]:hover::after {
@@ -1166,8 +1163,8 @@ a[data-button-arrow-up] {
 
 [data-button-arrow-up]::before {
     content: url(/imgs/icons/arrow-up-fill.svg);
-    position: absolute;
     display: inline-block;
+    margin-right: 1px;
     bottom: 17px;
     left: 24px;
     opacity: .8;
@@ -1176,8 +1173,8 @@ a[data-button-arrow-up] {
 
 [data-button-arrow-up]::after {
     content: url(/imgs/icons/arrow-up-fill.svg);
-    position: absolute;
     display: inline-block;
+    margin-left: 1px;
     bottom: 17px;
     right: 24px;
     opacity: .8;
