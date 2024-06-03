@@ -1,6 +1,6 @@
 let scrollHandler = function() {
   let modal = document.getElementById("cookies-modal");
-  let chatLink = document.querySelector("#crisp-chatbox div a");
+  let chatLink = document.querySelector('#crisp-chatbox div a[role="button"]');
   let scrollDistanceFromBottom = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
 
   if (window.innerWidth >= 1100) {
