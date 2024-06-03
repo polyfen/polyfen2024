@@ -1130,13 +1130,13 @@ a[data-button-arrow] {
 [data-button-arrow]::after {
     height: 10px;
     width: 18px;
-    margin-left: 2px;
+    margin-left: 6px;
 }
 
 .small-button[data-button-arrow]::after {
     height: 10px;
     width: 13px;
-    margin-left: 1px;
+    margin-left: 4px;
 }
 
 [data-button-arrow]:hover::after {
@@ -1162,9 +1162,9 @@ a[data-button-arrow-up] {
 }
 
 [data-button-arrow-up]::before {
-    content: url(/imgs/icons/arrow-up-fill.svg);
+    content: url(/imgs/icons/arrow-up-fill-4.svg);
     display: inline-block;
-    margin-right: 1px;
+    margin-right: 4px;
     bottom: 17px;
     left: 24px;
     opacity: .8;
@@ -1172,9 +1172,9 @@ a[data-button-arrow-up] {
 }
 
 [data-button-arrow-up]::after {
-    content: url(/imgs/icons/arrow-up-fill.svg);
+    content: url(/imgs/icons/arrow-up-fill-4.svg);
     display: inline-block;
-    margin-left: 1px;
+    margin-left: 4px;
     bottom: 17px;
     right: 24px;
     opacity: .8;
