@@ -67,7 +67,8 @@
             <!-- toggle button -->
             <div class="toggle-container fade-in">
                 <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
-                <button data-content="30% OFF" class="small-button secondary-button active-button" data-period="quarterly">Pay
+                <button data-content="30% OFF" class="small-button secondary-button active-button"
+                    data-period="quarterly">Pay
                     Quarterly</button>
             </div>
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
@@ -103,7 +104,6 @@
 
         <section class="stack-section container-1080">
             <h2 class="align-center">Solutions for<br>Every Stack</h2>
-
             <!-- Tech Stack for carrousel -->
             <div class="stack-carrousel">
                 <div class="carrousel-col">
@@ -270,12 +270,12 @@
                                 src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes
                         </div>
                         <div class="pro stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
+                                src="/imgs/tech-stack/vercel-original.svg">Vercel
+                        </div>
+                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/jenkins-original.svg">Jenkins</div>
                     </div>
-                    <div class="pro stack-u fade-in"><img loading="lazy" alt=""
-                            src="/imgs/tech-stack/jenkins-original.svg">Jenkins</div>
                 </div>
-            </div>
             </div>
             <!-- Tech carrousel END -->
         </section>
@@ -293,12 +293,11 @@
                 <div class="cta-content">
                     <div class="fade-in container">
                         <h2 class="heading-1 align-center">Affordable all-in-one plans<br>for startups</h2>
-                        <a class="button large-button secondary-button fade-in" href="#plans">↑ Subscribe Today
-                            ↑</a>
+                        <a data-button-arrow-up class="button large-button secondary-button fade-in" href="#plans">Subscribe Today</a>
                     </div>
                 </div>
             </div>
-        </section>       
+        </section>
     </main>
     <!-- FORCE MAX-WIDTH 100% end -->
 
