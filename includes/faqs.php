@@ -9,30 +9,10 @@
                     <div class="acc-panel">
                         <p>We can help with any task you need. If you're not sure what you need or how we can help, just
                             ask. Here are some examples:</p>
-                        <p style="margin-top: 1.5rem; margin-bottom:0;">Development</p>
-                        <ul class="hanging-list">
-                            <li>Build a new feature</li>
-                            <li>Fix a bug</li>
-                            <li>Refactor codebase</li>
-                        </ul>
-                        <p style="margin-top: 1.5rem; margin-bottom:0;">DevOps</p>
-                        <ul class="hanging-list">
-                            <li>Set up AWS infrastructure</li>
-                            <li>Generate Docker container</li>
-                            <li>Subscribe to SNS queue</li>
-                        </ul>
-                        <p style="margin-top: 1.5rem; margin-bottom:0;">UX</p>
-                        <ul class="hanging-list">
-                            <li>Write user stories</li>
-                            <li>Chart user flows</li>
-                            <li>Diagram information architecture</li>
-                        </ul>
-                        <p style="margin-top: 1.5rem; margin-bottom:0;">Design</p>
-                        <ul class="hanging-list" style="margin-bottom: 2.5rem;">
-                            <li>Design landing page</li>
-                            <li>Redesign logo</li>
-                            <li>Build Figma prototype</li>
-                        </ul>
+                        <p><strong>Development:</strong> Build a new feature, Fix a bug, Refactor codebase, ...</p>
+                        <p><strong>DevOps:</strong> Set up AWS infrastructure, Generate Docker container, Subscribe to SNS queue, ...</p>
+                        <p><strong>UX:</strong> Write user stories, Chart user flows, Diagram information architecture, ...</p>
+                        <p><strong>Design:</strong> Design landing page, Redesign logo, Build Figma prototype, ...</p>
                     </div>
                 </div>
 
