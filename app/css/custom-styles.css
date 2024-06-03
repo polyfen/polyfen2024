@@ -1077,6 +1077,16 @@ a:hover div#send-message::before {
     margin-block: -8px;
 }
 
+[data-button-icon="coins"]::before {
+    background-image: url(../../imgs/icons/coins.svg);
+    margin-block: -8px;
+    height: 22px;
+}
+
+[data-button-icon="coins"]:hover::before {
+    background-image: url(../../imgs/icons/coins-white.svg);
+}
+
 [data-button-icon="schedule-call"]:hover::before {
     background-image: url(../../imgs/icons/phone-call-white.svg);
 }
