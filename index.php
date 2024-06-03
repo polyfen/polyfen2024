@@ -54,7 +54,7 @@
             <h1 class="title-1">Unleash your<br>business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
             <a class="button large-button animated-button" href="/discovery-call">Book a Call</a>
-            <a class="button large-button secondary-button" href="#services">Learn More</a>
+            <a class="button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
 
             <div class="background">
                 <div id="pearl-11" class="pearl rotate-slower fade-in">
