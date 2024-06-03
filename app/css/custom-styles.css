@@ -1134,7 +1134,7 @@ a[data-button-arrow] {
 }
 
 .small-button[data-button-arrow]::after {
-    height: 10px;
+    height: 8px;
     width: 13px;
     margin-left: 4px;
 }
