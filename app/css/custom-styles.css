@@ -1121,7 +1121,7 @@ a[data-button-arrow] {
 
 [data-button-arrow]::after {
     content: '';
-    background-image: url(/imgs/icons/arrow-right-fill-4.svg);
+    background-image: url(/imgs/icons/arrow-right-fill.svg);
     background-repeat: no-repeat;
     display: inline-block;
     opacity: .8;
@@ -1134,7 +1134,7 @@ a[data-button-arrow] {
 }
 
 .small-button[data-button-arrow]::after {
-    height: 10px;
+    height: 8px;
     width: 13px;
     margin-left: 4px;
 }
@@ -1161,24 +1161,22 @@ a[data-button-arrow-up] {
     position: relative;
 }
 
-[data-button-arrow-up]::before {
-    content: url(/imgs/icons/arrow-up-fill-4.svg);
+[data-button-arrow-up]::before,
+[data-button-arrow-up]::after {
+    content: url(/imgs/icons/arrow-up-fill.svg);
     display: inline-block;
-    margin-right: 4px;
-    bottom: 17px;
-    left: 24px;
     opacity: .8;
     animation: moveArrow-up 1s ease-out infinite;
+    height: 16px;
+    width: 9px;
+}
+
+[data-button-arrow-up]::before {
+    margin-right: 8px;
 }
 
 [data-button-arrow-up]::after {
-    content: url(/imgs/icons/arrow-up-fill-4.svg);
-    display: inline-block;
-    margin-left: 4px;
-    bottom: 17px;
-    right: 24px;
-    opacity: .8;
-    animation: moveArrow-up 1s ease-out infinite;
+    margin-left: 8px;
 }
 
 [data-button-arrow-up]:hover::before,
