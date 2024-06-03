@@ -1601,7 +1601,7 @@ a.bottom-120 span [data-id="new_messages"] {
 }
 
 /*instant chat-window to not overlapping with chat bubble*/
-#crisp-chatbox div a.bottom-120 > span > span > span > span {
+#crisp-chatbox div a.bottom-120 > span > span#general_entice > span > span {
     margin-bottom: 100px !important;
 }
 
