@@ -1596,25 +1596,26 @@ blockquote p {
 }
 
 /*automatic message to not overlapping with chat bubble*/
-a.bottom-120 span .cc-1fs0[data-id="new_messages"] {
+a.bottom-120 span [data-id="new_messages"] {
     margin-bottom: 100px !important;
 }
 
 /*instant chat-window to not overlapping with chat bubble*/
-a.bottom-120 span.cc-9q9h.cc-1ev6 {
+a.bottom-120 span {
     margin-bottom: 100px !important;
 }
 
 /*chat-window to not overlapping with chat bubble*/
-.cc-1hqb[data-visible="true"]:has(+ .bottom-120) {
+[data-visible="true"]:has(+ .bottom-120) {
     margin-bottom: 100px !important;
 }
 
 /*chat-window to not overlapping with chat bubble*/
-.crisp-client .cc-tlyw.cc-tlyw {
+#crisp-chatbox {
     z-index: 60;
 }
 
+/* esto no estaria funcionando por los cambios de clases */
 .crisp-client .cc-tlyw .cc-kxkl .cc-nsge span.cc-imbb {
     box-shadow: 0 0 0 2px #070924 !important;
 }
