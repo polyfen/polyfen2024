@@ -293,8 +293,7 @@
                 <div class="cta-content">
                     <div class="fade-in container">
                         <h2 class="heading-1 align-center">Affordable all-in-one plans<br>for startups</h2>
-                        <a class="button large-button secondary-button fade-in" href="#plans">↑ Subscribe Today
-                            ↑</a>
+                        <a data-button-arrow-up class="button large-button secondary-button fade-in" href="#plans">Subscribe Today</a>
                     </div>
                 </div>
             </div>

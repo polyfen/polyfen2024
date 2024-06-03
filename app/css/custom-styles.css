@@ -1111,6 +1111,91 @@ a:hover div#send-message::before {
     height: 16px;
     opacity: .8;
 }
+
+
+/* Button Arrows --> */
+/* Arrow right --> */
+a[data-button-arrow] {
+    position: relative;
+}
+
+[data-button-arrow]::after {
+    content: '';
+    background-image: url(/imgs/icons/arrow-right-fill.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    opacity: .8;
+}
+
+[data-button-arrow]::after {
+    height: 10px;
+    width: 18px;
+    margin-left: 6px;
+}
+
+.small-button[data-button-arrow]::after {
+    height: 8px;
+    width: 13px;
+    margin-left: 4px;
+}
+
+[data-button-arrow]:hover::after {
+    animation: moveArrow 1s ease-out infinite;
+    opacity: 1;
+}
+
+@keyframes moveArrow {
+    0% {
+        transform: translateX(0);
+    }
+    70% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+/* Arrow Up^ */
+a[data-button-arrow-up] {
+    position: relative;
+}
+
+[data-button-arrow-up]::before,
+[data-button-arrow-up]::after {
+    content: url(/imgs/icons/arrow-up-fill.svg);
+    display: inline-block;
+    opacity: .8;
+    animation: moveArrow-up 1s ease-out infinite;
+    height: 16px;
+    width: 9px;
+}
+
+[data-button-arrow-up]::before {
+    margin-right: 10px;
+}
+
+[data-button-arrow-up]::after {
+    margin-left: 10px;
+}
+
+[data-button-arrow-up]:hover::before,
+[data-button-arrow-up]:hover::after {
+    opacity: 1;
+}
+
+@keyframes moveArrow-up {
+    0% {
+        transform: translatey(0px);
+    }
+    70% {
+        transform: translatey(-5px);
+    }
+    100% {
+        transform: translatey(-5px);
+    }
+}
+
 /* END data-types */
 
 /*     _                              _  _                     */
