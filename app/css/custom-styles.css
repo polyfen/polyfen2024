@@ -1460,30 +1460,15 @@ blockquote p {
 /*                                |___/                        */
 /* Activity-box -----------------------------------------------*/
 
-.activity-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 150px;
-    max-width: 1400px;
-}
-
-.activity-item {
+.activity-box img {
     width: min(240px, 48.624%);
+    max-width: 226.663px;
     border-radius: 4px;
 }
-
-.activity-item img {
-    display: block;
-    border-radius: 4px;
-    width: 100%;
-}
-
 @media (min-width: 1025px) {
-    .activity-item {
+/*     .activity-item {
         max-width: 226.663px;
-    }
+    } */
 }
 /* END Activity-box */
 
