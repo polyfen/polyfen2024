@@ -1606,7 +1606,7 @@ a.bottom-120 span {
 }
 
 /*chat-window to not overlapping with chat bubble*/
-[data-visible="true"]:has(+ .bottom-120) {
+div[data-visible="true"]:has(+ .bottom-120) {
     margin-bottom: 100px !important;
 }
 
