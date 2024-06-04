@@ -291,9 +291,9 @@
         <section class="cta-section">
             <div class="grain-texture">
                 <div class="cta-content">
-                    <div class="fade-in container">
+                    <div class="container">
                         <h2 class="heading-1 align-center">Affordable all-in-one plans<br>for startups</h2>
-                        <a data-button-arrow-up class="button large-button secondary-button fade-in" href="#plans">Subscribe Today</a>
+                        <a data-button-arrow-up class="button large-button secondary-button" href="#plans">Subscribe Today</a>
                     </div>
                 </div>
             </div>
