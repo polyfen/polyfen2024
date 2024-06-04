@@ -279,6 +279,11 @@
             </div>
             <!-- Tech carrousel END -->
         </section>
+
+        <hr>
+
+        <?php include 'includes/portfolio-thumbnails.php';?>
+        
         <hr>
 
         <?php include 'includes/faqs.php';?>

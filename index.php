@@ -65,7 +65,7 @@
                 </div>
             </div>
         </section>
-
+        
         <?php include 'includes/accolades.php';?>
         <hr>
 
