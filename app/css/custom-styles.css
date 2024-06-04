@@ -864,23 +864,8 @@ div.pearl {
         position: inherit;
         background-image: url(../../imgs/pearls/13.webp);
         margin: 0 auto;
-        right: -580px;
+        right: -370px;
         top: 650px;
-        height: 300px;
-        width: 300px;
-        display: block;
-        position: inherit;
-        margin: 0 auto;
-        right: -370px;
-        top: 695px;
-        height: 300px;
-        width: 300px;
-        display: block;
-        position: inherit;
-        background-image: url(../../imgs/pearls/13.webp);
-        margin: 0 auto;
-        right: -370px;
-        top: 730px;
     }
 
 }
@@ -910,7 +895,7 @@ div.pearl {
         background-image: url(../../imgs/pearls/13.webp);
         margin: 0 auto;
         right: -500px;
-        top: 725px;
+        top: 680px;
     }
 
 }
@@ -1641,11 +1626,22 @@ div[data-visible="true"]:has(+ .bottom-120) {
     position: relative;
     z-index: 10;
 }
+.home-cover + * {
+    margin-top: 60px;
+}
+@media (min-width: 576px) {
+    .home-cover + * {
+        margin-top: -185px;
+}}
 
 @media (min-width: 900px) {
-    /* any element following 'home-cover' will have margin-top */
     .home-cover + * {
-    margin-top: -185px;
+        margin-top: -205px;
+}}
+
+@media (min-width: 992px) {
+    .home-cover + * {
+        margin-top: -250px;
 }}
 
 
