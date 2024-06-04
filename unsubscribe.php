@@ -32,7 +32,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_POST['confirm']) && $_POST
     // request to the server;
     $response = postRequest($SPUTNIK_UNSUBSCRIBE_URL, $data, $headers);
 
-    print_r($response);
     if ($response['status'] === 'success') {
         $success = $response['message'];
     } else {
