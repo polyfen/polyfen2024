@@ -1298,6 +1298,11 @@ blockquote p {
 /* Scroll Individual-Values */
 /* +-+-+ +-+-+-+-+-+-+-+-+-+-+*/
 
+/* portfolio thumbnails */
+.activity-box .scroller__inner {
+    --gap: 1rem;
+}
+
 /* accolades values */
 .clients-featured .scroller__inner {
     --gap: 5rem;
