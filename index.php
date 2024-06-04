@@ -66,7 +66,8 @@
             </div>
         </section>
 
-        <hr class="pearl-separator">
+        <?php include 'includes/accolades.php';?>
+        <hr>
 
         <section id="services">
             <section class="container-1080 fade-in subscribe-section">
@@ -126,8 +127,7 @@
         </section>
 
         <hr>
-
-        <?php include 'includes/accolades.php';?>
+        <?php include 'includes/portfolio-thumbnails.php';?>
     </main>
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
     <?php include 'includes/call-to-action.php';?>

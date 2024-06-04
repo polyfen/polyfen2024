@@ -11,7 +11,6 @@
             <img alt="" src="imgs/activity-cads/domingo.webp">
             <img alt="" src="imgs/activity-cads/altirand-ios-app-icon.webp">
             <img alt="" src="imgs/activity-cads/magusvalge-menu.webp">
-            <img alt="" src="imgs/activity-cads/mare-totebag.webp">
             <img alt="" src="imgs/activity-cads/photographers-website.webp">
         </div>
     </div>
