@@ -910,7 +910,7 @@ div.pearl {
         background-image: url(../../imgs/pearls/13.webp);
         margin: 0 auto;
         right: -500px;
-        top: 760px;
+        top: 725px;
     }
 
 }
@@ -1643,7 +1643,8 @@ div[data-visible="true"]:has(+ .bottom-120) {
 }
 
 @media (min-width: 900px) {
-hr.pearl-separator {
+    /* any element following 'home-cover' will have margin-top */
+    .home-cover + * {
     margin-top: -185px;
 }}
 
