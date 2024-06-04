@@ -619,13 +619,14 @@ button#accept-cookies-button:before {
     top: 0px;
     margin-left: -10px;
     margin-right: 7px;
-    background-image: url('../../imgs/thumbs-up-regular-white.svg');
+    background-image: url('../../imgs/icons/thumbs-up-solid-white.svg');
+    opacity: .6;
     background-size: 20px auto;
     background-repeat: no-repeat;
 }
 
 button#accept-cookies-button:hover:before {
-    background-image: url('../../imgs/thumbs-up-solid-white.svg');
+    opacity: 1;
 }
 
 div#cookies-title small {
@@ -999,7 +1000,7 @@ div.pearl {
 }
 
 [data-before="boris-hr"]::before {
-    background-image: url(/imgs/icons/globe-net-white.svg);
+    background-image: url(/imgs/icons/globe-net.svg);
     width: 29px;
 }
 
@@ -1059,53 +1060,41 @@ div.pearl {
 
 [data-button-icon]:hover::before {
     opacity: 1;
+    filter: unset;
 }
 
 /*  
   #send-message::before {
     background: url(../../imgs/icons/envelope.svg) no-repeat center center;
+    filter:var(--filter-indigo);
     margin-top: -2px;
   }
-
-a:hover div#send-message::before {
-    background: url(../../imgs/icons/envelope-white.svg) no-repeat center center;
-}
 */
 
 [data-button-icon="schedule-call"]::before {
     background-image: url(../../imgs/icons/phone-call.svg);
+    filter:var(--filter-indigo);
     margin-block: -8px;
 }
 
+
 [data-button-icon="coins"]::before {
     background-image: url(../../imgs/icons/coins.svg);
+    filter: var(--filter-indigo);
     margin-block: -8px;
     height: 22px;
 }
 
-[data-button-icon="coins"]:hover::before {
-    background-image: url(../../imgs/icons/coins-white.svg);
-}
-
-[data-button-icon="schedule-call"]:hover::before {
-    background-image: url(../../imgs/icons/phone-call-white.svg);
-}
-
 [data-button-icon="send-message"]::before {
     background-image: url(../../imgs/icons/paper-plane.svg);
+    filter:var(--filter-indigo);
     margin-block: -8px;
 }
 
-[data-button-icon="send-message"]:hover::before {
-    background-image: url(../../imgs/icons/paper-plane-white.svg);
-}
 
 [data-button-icon="globe-net"]::before {
     content: url(/imgs/icons/globe-net.svg);
-}
-
-[data-button-icon="globe-net"]:hover::before {
-    content: url(/imgs/icons/globe-net-white.svg);
+    filter: var(--filter-indigo);
 }
 
 [data-button-icon="start-a-chat"]::before {
