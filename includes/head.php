@@ -42,11 +42,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <!-- Images preload -->
-<link rel="preload" as="image" href="/imgs/thumbs-up-solid-white.svg">
-<link rel="preload" as="image" href="/imgs/icons/envelope-white.svg">
-<link rel="preload" as="image" href="/imgs/icons/phone-call-white.svg">
-<link rel="preload" as="image" href="/imgs/icons/paper-plane-white.svg">
-<link rel="preload" as="image" href="/imgs/icons/globe-net-white.svg">
+<link rel="preload" as="image" href="/imgs/icons/arrow-square-out-fill.svg">
+<link rel="preload" as="image" href="/imgs/icons/copy-fill.svg">
+<link rel="preload" as="image" href="/imgs/icons/google-drive-logo-fill.svg">
+
 
 <!-- Global javascript -->
 <script defer src="/app/js/timezone.js"></script>

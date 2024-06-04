@@ -1,6 +1,7 @@
 /* variable mixins */
 :root {
     --polyfen-indigo: #722FFF;
+    --filter-indigo: brightness(0) saturate(100%) /* <-for non black svg */ invert(18%) sepia(85%) saturate(3760%) hue-rotate(256deg) brightness(102%) contrast(94%);
 }
 
 body.dark-mode {

@@ -619,13 +619,14 @@ button#accept-cookies-button:before {
     top: 0px;
     margin-left: -10px;
     margin-right: 7px;
-    background-image: url('../../imgs/thumbs-up-regular-white.svg');
+    background-image: url('../../imgs/icons/thumbs-up-solid-white.svg');
+    opacity: .6;
     background-size: 20px auto;
     background-repeat: no-repeat;
 }
 
 button#accept-cookies-button:hover:before {
-    background-image: url('../../imgs/thumbs-up-solid-white.svg');
+    opacity: 1;
 }
 
 div#cookies-title small {
@@ -999,7 +1000,7 @@ div.pearl {
 }
 
 [data-before="boris-hr"]::before {
-    background-image: url(/imgs/icons/globe-net-white.svg);
+    background-image: url(/imgs/icons/globe-net.svg);
     width: 29px;
 }
 
@@ -1059,43 +1060,41 @@ div.pearl {
 
 [data-button-icon]:hover::before {
     opacity: 1;
+    filter: unset;
 }
 
 /*  
   #send-message::before {
     background: url(../../imgs/icons/envelope.svg) no-repeat center center;
+    filter:var(--filter-indigo);
     margin-top: -2px;
   }
-
-a:hover div#send-message::before {
-    background: url(../../imgs/icons/envelope-white.svg) no-repeat center center;
-}
 */
 
 [data-button-icon="schedule-call"]::before {
     background-image: url(../../imgs/icons/phone-call.svg);
+    filter:var(--filter-indigo);
     margin-block: -8px;
 }
 
-[data-button-icon="schedule-call"]:hover::before {
-    background-image: url(../../imgs/icons/phone-call-white.svg);
+
+[data-button-icon="coins"]::before {
+    background-image: url(../../imgs/icons/coins.svg);
+    filter: var(--filter-indigo);
+    margin-block: -8px;
+    height: 22px;
 }
 
 [data-button-icon="send-message"]::before {
     background-image: url(../../imgs/icons/paper-plane.svg);
+    filter:var(--filter-indigo);
     margin-block: -8px;
 }
 
-[data-button-icon="send-message"]:hover::before {
-    background-image: url(../../imgs/icons/paper-plane-white.svg);
-}
 
 [data-button-icon="globe-net"]::before {
     content: url(/imgs/icons/globe-net.svg);
-}
-
-[data-button-icon="globe-net"]:hover::before {
-    content: url(/imgs/icons/globe-net-white.svg);
+    filter: var(--filter-indigo);
 }
 
 [data-button-icon="start-a-chat"]::before {
@@ -1172,11 +1171,11 @@ a[data-button-arrow-up] {
 }
 
 [data-button-arrow-up]::before {
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 [data-button-arrow-up]::after {
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 [data-button-arrow-up]:hover::before,
@@ -1571,25 +1570,26 @@ blockquote p {
 }
 
 /*automatic message to not overlapping with chat bubble*/
-a.bottom-120 span .cc-1fs0[data-id="new_messages"] {
+a.bottom-120 span [data-id="new_messages"] {
     margin-bottom: 100px !important;
 }
 
 /*instant chat-window to not overlapping with chat bubble*/
-a.bottom-120 span.cc-9q9h.cc-1ev6 {
+#crisp-chatbox div a.bottom-120 > span > span[data-id="general_entice"] > span > span {
     margin-bottom: 100px !important;
 }
 
 /*chat-window to not overlapping with chat bubble*/
-.cc-1hqb[data-visible="true"]:has(+ .bottom-120) {
+div[data-visible="true"]:has(+ .bottom-120) {
     margin-bottom: 100px !important;
 }
 
 /*chat-window to not overlapping with chat bubble*/
-.crisp-client .cc-tlyw.cc-tlyw {
+#crisp-chatbox {
     z-index: 60;
 }
 
+/* esto no estaria funcionando por los cambios de clases */
 .crisp-client .cc-tlyw .cc-kxkl .cc-nsge span.cc-imbb {
     box-shadow: 0 0 0 2px #070924 !important;
 }
