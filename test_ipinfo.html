@@ -18,6 +18,7 @@
                     resultsDiv.innerHTML = `
                         <p>IP: ${data.ip}</p>
                         <p>Country: ${data.country}</p>
+                        <p>Enable_hotjar?: ${data.enable_hotjar}
                     `;
                 })
                 .catch(error => console.error('Error:', error));
