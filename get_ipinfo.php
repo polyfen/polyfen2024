@@ -18,8 +18,13 @@ curl_close($ch);
 // Decodificar la respuesta JSON
 $data = json_decode($response, true);
 
-// Verificar el país y decidir si habilitar Hotjar
-$enable_hotjar = ($data['country'] === 'US'); // Ejemplo: habilitar Hotjar solo para usuarios en USA
+// Verificar si el país está en la lista
+$target_countries = [
+    'US', 'CA', 'AU', 'NZ', 'UK', 'IE', 'IS', 'PT', 'ES', 'DE', 'NO', 'SE', 'DK', 'FI', 'EE',
+    'CH', 'AT', 'NL', 'BE', 'FR'
+];
+
+$enable_hotjar = in_array($data['country'], $target_countries);
 
 // Devolver la información necesaria en formato JSON
 echo json_encode([
