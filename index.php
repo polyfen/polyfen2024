@@ -54,7 +54,7 @@
             <h1 class="title-1">Unleash your<br>business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
             <a class="button large-button animated-button" href="/discovery-call">Book a Call</a>
-            <a class="button large-button secondary-button" href="#services">Learn More</a>
+            <a class="button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
 
             <div class="background">
                 <div id="pearl-11" class="pearl rotate-slower fade-in">
@@ -65,8 +65,9 @@
                 </div>
             </div>
         </section>
-
-        <hr class="pearl-separator">
+        
+        <?php include 'includes/accolades.php';?>
+        <hr>
 
         <section id="services">
             <section class="container-1080 fade-in subscribe-section">
@@ -126,8 +127,7 @@
         </section>
 
         <hr>
-
-        <?php include 'includes/accolades.php';?>
+        <?php include 'includes/portfolio-thumbnails.php';?>
     </main>
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
     <?php include 'includes/call-to-action.php';?>

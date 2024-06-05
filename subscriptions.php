@@ -67,13 +67,18 @@
             <!-- toggle button -->
             <div class="toggle-container fade-in">
                 <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
-                <button data-content="30% OFF" class="small-button secondary-button active-button" data-period="quarterly">Pay
+                <button data-content="30% OFF" class="small-button secondary-button active-button"
+                    data-period="quarterly">Pay
                     Quarterly</button>
             </div>
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
         </section>
+
+        <hr>
+
+        <?php include 'includes/accolades.php';?>
 
         <hr>
 
@@ -85,12 +90,12 @@
             </div>
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
-                <h2>Fast-track Onboarding</h2>
+                <h2>Fast-track<br>Onboarding</h2>
                 <p>No contracts, no paperwork hassle. Start today.</p>
             </div>
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/person.svg"></div>
-                <h2>Devs, DevOps, UX, & Designers</h2>
+                <h2>Devs, DevOps,<br>UX, & Designers</h2>
                 <p>A full-blown team ready to crush your tasks.</p>
             </div>
         </section>
@@ -99,7 +104,6 @@
 
         <section class="stack-section container-1080">
             <h2 class="align-center">Solutions for<br>Every Stack</h2>
-
             <!-- Tech Stack for carrousel -->
             <div class="stack-carrousel">
                 <div class="carrousel-col">
@@ -266,15 +270,20 @@
                                 src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes
                         </div>
                         <div class="pro stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/vercel-original.svg">Vercel</div>
+                                src="/imgs/tech-stack/vercel-original.svg">Vercel
+                        </div>
+                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/jenkins-original.svg">Jenkins</div>
                     </div>
-                    <div class="pro stack-u fade-in"><img loading="lazy" alt=""
-                            src="/imgs/tech-stack/jenkins-original.svg">Jenkins</div>
                 </div>
-            </div>
             </div>
             <!-- Tech carrousel END -->
         </section>
+
+        <hr>
+
+        <?php include 'includes/portfolio-thumbnails.php';?>
+        
         <hr>
 
         <?php include 'includes/faqs.php';?>
@@ -283,22 +292,17 @@
 
         <h2 class="heading-2 align-center">Team of Experts<br>in Your Timezone</h2>
         <?php include 'includes/team-slider.php';?>
-        
-        <hr>
-
-        <?php include 'includes/accolades.php';?>
 
         <section class="cta-section">
             <div class="grain-texture">
                 <div class="cta-content">
-                    <div class="fade-in container">
+                    <div class="container">
                         <h2 class="heading-1 align-center">Affordable all-in-one plans<br>for startups</h2>
-                        <a class="button large-button secondary-button fade-in" href="#plans">↑ Subscribe Today
-                            ↑</a>
+                        <a data-button-arrow-up class="button large-button secondary-button" href="#plans">Subscribe Today</a>
                     </div>
                 </div>
             </div>
-        </section>       
+        </section>
     </main>
     <!-- FORCE MAX-WIDTH 100% end -->
 
