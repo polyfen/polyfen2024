@@ -5,9 +5,6 @@ header('Content-Type: application/json');
 $ip_address = $_SERVER['REMOTE_ADDR'];
 
 // Si la IP es IPv6, intentar obtener la IPv4
-if (strpos($ip_address, ':') !== false) {
-    $ip_address = gethostbyname($_SERVER['REMOTE_ADDR']);
-}
 
 $access_token = '3f9fbb3a088fb0';
 
@@ -21,9 +18,13 @@ curl_close($ch);
 // Decodificar la respuesta JSON
 $data = json_decode($response, true);
 
+// Verificar el país y decidir si habilitar Hotjar
+$enable_hotjar = ($data['country'] === 'US'); // Ejemplo: habilitar Hotjar solo para usuarios en USA
+
 // Devolver la información necesaria en formato JSON
 echo json_encode([
     'ip' => $data['ip'],
-    'country' => $data['country']
+    'country' => $data['country'],
+    'enable_hotjar' => $enable_hotjar
 ]);
 ?>
