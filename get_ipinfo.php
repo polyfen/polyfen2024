@@ -24,12 +24,12 @@ $target_countries = [
     'CH', 'AT', 'NL', 'BE', 'FR'
 ];
 
-$enable_hotjar = in_array($data['country'], $target_countries);
+$target_country = in_array($data['country'], $target_countries);
 
 // Devolver la información necesaria en formato JSON
 echo json_encode([
     'ip' => $data['ip'],
     'country' => $data['country'],
-    'enable_hotjar' => $enable_hotjar
+    'target_country' => $target_country
 ]);
 ?>
