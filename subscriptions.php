@@ -282,6 +282,7 @@
 
         <hr>
 
+        <h2 class="align-center">World-class Design</h2>
         <?php include 'includes/portfolio-thumbnails.php';?>
         
         <hr>
