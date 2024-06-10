@@ -43,11 +43,11 @@
     })
     .then(function(data) {
       window.targetCountry = data.targetCountry;
-      console.log('Global targetCountry:', window.targetCountry);  // Verifica que se almacena correctamente
+      console.log('Global targetCountry:', window.targetCountry);
     })
     .catch(function(error) {
       console.error('Error:', error);
-      window.targetCountry = false;  // Asigna false en caso de error
+      window.targetCountry = false;
     });
 })();
 </script>
