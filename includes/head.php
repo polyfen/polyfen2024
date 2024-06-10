@@ -32,6 +32,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
+<!-- targetCountry -->
+<script>
+(function() {
+  window.targetCountry = null;
+  
+  fetch('get_ipinfo.php')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      window.targetCountry = data.targetCountry;
+      console.log('Global targetCountry:', window.targetCountry);  // Verifica que se almacena correctamente
+    })
+    .catch(function(error) {
+      console.error('Error:', error);
+      window.targetCountry = false;  // Asigna false en caso de error
+    });
+})();
+</script>
+
 <!-- GTM -->
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
