@@ -24,11 +24,11 @@ $target_countries = [
     'CH', 'AT', 'NL', 'BE', 'FR'
 ];
 
-$target_country = in_array($data['country'], $target_countries);
+$targetCountry = in_array($data['country'], $target_countries);
 
 // Devolver la información necesaria en formato JSON
 echo json_encode([
     'country' => $data['country'],
-    'target_country' => $target_country
+    'targetCountry' => $targetCountry
 ]);
 ?>
