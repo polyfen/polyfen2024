@@ -28,7 +28,6 @@ $target_country = in_array($data['country'], $target_countries);
 
 // Devolver la información necesaria en formato JSON
 echo json_encode([
-    'ip' => $data['ip'],
     'country' => $data['country'],
     'target_country' => $target_country
 ]);
