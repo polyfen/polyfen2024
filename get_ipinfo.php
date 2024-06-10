@@ -24,16 +24,12 @@ $target_countries = [
     'CH', 'AT', 'NL', 'BE', 'FR'
 ];
 
-$targetCountry = in_array($data['country'], $target_countries);
-
-// Debugging
-var_dump($response);    // Ver la respuesta cruda de la API
-var_dump($data);        // Ver el JSON decodificado
-var_dump($targetCountry); // Ver el resultado de la verificación
+$target_country = in_array($data['country'], $target_countries);
 
 // Devolver la información necesaria en formato JSON
 echo json_encode([
+    'ip' => $data['ip'],
     'country' => $data['country'],
-    'targetCountry' => $targetCountry
+    'target_country' => $target_country
 ]);
 ?>
