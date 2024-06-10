@@ -16,6 +16,7 @@
                 .then(data => {
                     const resultsDiv = document.getElementById('results');
                     resultsDiv.innerHTML = `
+                        <p>IP: ${data.ip}</p>
                         <p>Country: ${data.country}</p>
                         <p>target_country?: ${data.target_country}
                     `;
