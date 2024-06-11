@@ -22,6 +22,7 @@ jobs:
           envkey_SPUTNIK_APIKEY: ${{ secrets.SPUTNIK_APIKEY }}
           envkey_SPUTNIK_ID: ${{ vars.SPUTNIK_ID }}
           envkey_SPUTNIK_UNSUBSCRIBE_URL: ${{ vars.SPUTNIK_UNSUBSCRIBE_URL }}
+          envkey_IPINFO_ACCESS_TOKEN: ${{ secrets.IPINFO_ACCESS_TOKEN }}
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
