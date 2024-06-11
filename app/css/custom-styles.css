@@ -2343,7 +2343,7 @@ body.subscriptions .learn-more-button {
     color: white !important;
 }
 
-/* value propts */
+/* value props */
 .subscription-value-props h2 {
     margin-bottom: 1rem;
 }
@@ -2675,4 +2675,24 @@ content: none;
     height: 23px;
     width: 30px;
     top: 6px;
+}
+
+
+.about-value-props {
+    margin-top: 5rem;
+}
+
+.about-value-props h3 {
+    margin-bottom: 1rem;
+}
+
+
+.about-value-props p {
+    max-width: 340px;
+}
+
+@media (min-width: 720px) {
+    .about-value-props p {
+        max-width: 300px;
+    }
 }
