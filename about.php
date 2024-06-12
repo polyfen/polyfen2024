@@ -157,7 +157,7 @@
                 <div class="col fade-in">
                     <div class="value-img"><img src="/imgs/icons/flask.svg"></div>
                     <h3>Excellence<br>through R&amp;D</h3>
-                    <p>We stay ahead exploring the latest tech in in-house projects.</p>
+                    <p>We stay ahead exploring the latest tech with in-house projects.</p>
                 </div>
                 <div class="col fade-in">
                     <div class="value-img"><img src="/imgs/icons/dna.svg"></div>
