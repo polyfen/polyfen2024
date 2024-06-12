@@ -77,35 +77,49 @@
             </div>
         </section>
         <hr>
-        <section class="founder container-700 fade-in">
-            <h2 class="heading-2 align-center">10+ Years of Experience in Design, Development, &amp; Marketing</h2>
+        <section class="board-members container-1080 fade-in">
+            <h2 class="heading-2 align-center">Industry Leaders in Creative &amp; Tech</h2>
 
-            <div class="column-to-row">
+            <div class="row">
 
-                <div class="founder-bios fade-in">
-                    <img class="founder-boris" src="/imgs/about/boris-hrncic.webp" alt="">
-                    <h3 class="caption">Boris Hrnčić</h3>
-                    <h4 class="caption">Founder &amp; CEO</h4>
-                    <img src="/imgs/flags/hr.svg" class="flag" alt=""><small>Zagreb, Croatia</small>
-                </div>
-
-                <div class="founder-list fade-in">
-                    <ul class="hanging-list arrow-bullets spaced-list">
-                        <li class="fade-in">Coding since 2008 and designing brands since 2010.
-                        </li>
-                        <li class="fade-in">Vetted in the top 3% of designers worldwide by
-                            <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
-                            2017.
-                        </li>
-                        <li class="fade-in">Led high-performing teams for small start-ups and big
-                            enterprises in Croatia, Argentina, and the US.</li>
-                    </ul>
-                    <div class="founder-social fade-in">
-                        <a data-before="boris-in" href="https://www.linkedin.com/in/borishr/"
-                            target="_blank">LinkedIn</a>
-                        <a data-before="boris-hr" href="https://boris.hr/" target="_blank" rel="follow">boris.hr</a>
+            <div class="col">
+                <div class="row">
+                    <img class="partner-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
+                    <div>
+                        <h3 class="heading-4">Boris Hrnčić</h3>
+                        <h4 class="caption">Founder &amp; CEO</h4>
+                        <a class="board-members-social" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
+                        <img src="/imgs/flags/hr.svg" class="flag" alt=""><small>Zagreb, Croatia</small>
                     </div>
                 </div>
+                <ul class="hanging-list arrow-bullets spaced-list">
+                    <li class="fade-in">Coding since 2008 and designing brands since 2010.
+                    </li>
+                    <li class="fade-in">Vetted in the top 3% of designers worldwide by
+                        <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
+                        2017.
+                    </li>
+                    <li class="fade-in">Led high-performing teams for small start-ups and big
+                        enterprises in Croatia, Argentina, and the US.</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <img class="partner-portrait" src="/imgs/rod-portrait.webp" alt="">
+                    <div>
+                        <h3 class="heading-4">Rodrigo Gatica</h3>
+                        <h4 class="caption">Partner &amp; COO</h4>
+                        <a class="board-members-social" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn</a>
+                        <img src="/imgs/flags/ar.svg" class="flag" alt=""><small>Mar del Plata, Argentina</small>
+                    </div>
+                </div>
+                <ul class="hanging-list arrow-bullets spaced-list">
+                    <li class="fade-in">Managing projects since 2016 and recruiting tech talent since 2018.</li>
+                    <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
+                    <li class="fade-in">Ran operations at companies going through hypergrowth.</li>
+                </ul>
+            </div>
 
             </div>
 

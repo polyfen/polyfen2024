@@ -1744,27 +1744,45 @@ h1.caption {
     max-width: 400px;
 }
 
-/* founder section */
+/* board-members section  start */
 
-section.founder h2 {
+section.board-members h2 {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 4rem;
 }
 
-section.founder h4 {
-    margin-bottom: 8px;
+.board-members .row:has(.row){
+    gap: 4rem;
 }
 
-.founder-bios {
-    width: fit-content;
-    margin: 0 auto;
-}
-
-.founder-bios .founder-boris {
+img.partner-portrait {
     max-width: 200px;
-    margin-bottom: 20px;
     border-radius: 12px;
+}
+
+.board-members h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.board-members h4 {
+    opacity: .6;
+    margin-bottom: 0.5rem;
+}
+
+.board-members ul {
+    display: none;
+}
+
+.board-members li {
+    text-wrap: balance;
+}
+
+.board-members-social {
+    display: block;
+    margin-bottom: 1.5rem;
 }
 
 img.flag {
@@ -1776,44 +1794,25 @@ img.flag {
     display: inline;
 }
 
-.founder-bios h4 {
-    opacity: .5;
+@media (min-width:900px) {
+    .board-members ul {
+        display: block;
+    }
+
+    img.partner-portrait {
+        margin-bottom: 20px;
+    }
+
+    .board-members .row:has(.row){
+        gap: 20px;
+    }
 }
 
-.founder .column-to-row {
-    align-items: flex-start;
-    justify-content: center;
-}
 
-.founder-social {
-    display: flex;
-    gap: 25px;
-    margin-left: 25px;
-    margin-top: 2rem;
-}
 
-.founder-social a img {
-    margin-right: 3px;
-    opacity: 0.5;
-    display: inline;
-    vertical-align: bottom;
-}
 
-.founder-social :is(.boris-hr-link:hover img, .boris-in-link:hover img) {
-    opacity: 1;
-}
 
-.founder li {
-    text-wrap: balance;
-}
-
-iframe#plcq-tutorial {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-/* founder section end */
+/* board-members section end */
 
 section.plat-section h2 {
     max-width: 450px;
@@ -1825,6 +1824,13 @@ section.plck-section h2 {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
+}
+
+iframe#plcq-tutorial {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 /* About Page mediaQueries */
