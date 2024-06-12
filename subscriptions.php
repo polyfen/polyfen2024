@@ -74,6 +74,10 @@
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
+             <div class="security-caption fade-in">
+                <img src="imgs/icons/lock.svg">
+                <small class="mini align-center">Secure Payment with Stripe</small>
+             </div>
         </section>
 
         <hr>

@@ -2349,6 +2349,26 @@ body.subscriptions .learn-more-button {
     color: white !important;
 }
 
+.security-caption {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.security-caption img {
+    margin-top: -8px;
+    height: 20px;
+}
+
+@media (max-width:899px) {
+    .security-caption {
+        display: none;
+    }
+}
+
 /* value props */
 .subscription-value-props h2 {
     margin-bottom: 1rem;
