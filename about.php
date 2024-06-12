@@ -99,7 +99,7 @@
                         <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
                         2017.
                     </li>
-                    <li class="fade-in">Led high-performing teams for small start-ups and big
+                    <li class="fade-in">Led high-performing teams at small start-ups and big
                         enterprises in Croatia, Argentina, and the US.</li>
                 </ul>
             </div>
