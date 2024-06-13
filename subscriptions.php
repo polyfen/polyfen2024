@@ -86,28 +86,48 @@
 
         <hr>
 
-        <section class="container-1080 row subscription-value-props">
-            <div class="col fade-in">
-                <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
-                <h2>Tech<br>Experts</h2>
-                <p>We have world-class talent available in your timezone.</p>
-            </div>
-            <div class="col fade-in">
-                <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
-                <h2>Fast-track<br>Onboarding</h2>
-                <p>No contracts, no paperwork hassle. Start today.</p>
-            </div>
-            <div class="col fade-in">
-                <div class="value-img"><img src="/imgs/icons/person.svg"></div>
-                <h2>Devs, DevOps,<br>UX, & Designers</h2>
-                <p>A full-blown team ready to crush your tasks.</p>
-            </div>
+        <section class="container-1080 subscription-value-props">
+                <h2 class="align-center" style="margin-bottom:5rem;">What You're Getting</h2>
+                <div class="row" style="margin-bottom: 4rem;">
+                        <div class="col fade-in">
+                                <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
+                                <h3>Fast-track<br>Onboarding</h3>
+                                <p>No contracts, no paperwork hassle. Start today.</p>
+                        </div>
+                        <div class="col fade-in">
+                                <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
+                                <h3>Qualified<br>Experts</h3>
+                                <p>We have highly qualified talent in your timezone.</p>
+                        </div>
+                        <div class="col fade-in">
+                                <div class="value-img"><img src="/imgs/icons/person.svg"></div>
+                                <h3>Devs, DevOps,<br>UX, & Designers</h3>
+                                <p>A full-blown team ready to crush your tasks.</p>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col fade-in">
+                                <div class="value-img"><img src="/imgs/icons/table.svg"></div>
+                                <h3>Client<br>Dashboard</h3>
+                                <p>Create and manage your tasks with ease.</p>
+                        </div>
+                        <div class="col fade-in">
+                                <div class="value-img"><img src="/imgs/icons/chats.svg"></div>
+                                <h3>Slack<br>Support</h3>
+                                <p>Quick response, realtime assistance.</p>
+                        </div>
+                        <div class="col fade-in">
+                                <div class="value-img"><img src="/imgs/icons/video-conference.svg"></div>
+                                <h3>Videocall<br>Scheduler</h3>
+                                <p>Book a call with your account manager.</p>
+                        </div>
+                </div>
         </section>
 
         <hr>
 
         <section class="stack-section container-1080">
-            <h2 class="align-center">Solutions for<br>Every Stack</h2>
+            <h2 class="align-center" style="margin-bottom: 4rem;">Solutions for<br>Every Stack</h2>
             <!-- Tech Stack for carrousel -->
             <div class="stack-carrousel">
                 <div class="carrousel-col">

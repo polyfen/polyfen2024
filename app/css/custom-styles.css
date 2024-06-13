@@ -2370,7 +2370,7 @@ body.subscriptions .learn-more-button {
 }
 
 /* value props */
-.subscription-value-props h2 {
+.subscription-value-props h3 {
     margin-bottom: 1rem;
 }
 
