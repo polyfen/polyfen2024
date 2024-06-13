@@ -2782,3 +2782,16 @@ ul.checkmark-bullet li::before {
 .slack-mockup img:first-child {
     display: block;
 }
+
+.task-example-type.pro::after {
+    content: 'PRO';
+    background: #7437f850;
+    border-radius: 4px;
+    min-width: 39px;
+    height: 17px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    align-content: center;
+    margin-top:12px;
+}

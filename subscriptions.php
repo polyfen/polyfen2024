@@ -115,34 +115,6 @@
                                         <div class="col fade-in">
                                                 <div class="task-example-type">
                                                         <div class="task-example-icon">
-                                                                <img src="imgs/icons/code.svg" alt="" height="20px">
-                                                        </div>
-                                                        <h4 class="heading-5">Development</h4>
-                                                </div>
-                                                <ul class="hanging-list checkmark-bullet">
-                                                        <li>Build a new feature</li>
-                                                        <li>Fix a bug</li>
-                                                        <li>Refactor codebase</li>
-                                                </ul>
-                                        </div>
-                                        <div class="col fade-in">
-                                        <div class="task-example-type">
-                                                        <div class="task-example-icon">
-                                                                <img src="imgs/icons/infinity.svg" alt="" height="20px">
-                                                        </div>
-                                                        <h4 class="heading-5">DevOps</h4>
-                                                </div>
-                                                <ul class="hanging-list checkmark-bullet">
-                                                        <li>Set up AWS infrastructure</li>
-                                                        <li>Generate Docker container</li>
-                                                        <li>Subscribe to SNS queue</li>
-                                                </ul>
-                                        </div>
-                                </div>
-                                <div class="row">
-                                        <div class="col fade-in">
-                                                <div class="task-example-type">
-                                                        <div class="task-example-icon">
                                                                 <img src="imgs/icons/user-focus.svg" alt="" height="20px">
                                                         </div>
                                                         <h4 class="heading-5">UX</h4>
@@ -164,6 +136,34 @@
                                                         <li>Design landing page</li>
                                                         <li>Redesign logo</li>
                                                         <li>Build Figma prototype</li>
+                                                </ul>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col fade-in">
+                                                <div class="task-example-type">
+                                                        <div class="task-example-icon">
+                                                                <img src="imgs/icons/code.svg" alt="" height="20px">
+                                                        </div>
+                                                        <h4 class="heading-5">Development</h4>
+                                                </div>
+                                                <ul class="hanging-list checkmark-bullet">
+                                                        <li>Build a new feature</li>
+                                                        <li>Fix a bug</li>
+                                                        <li>Refactor codebase</li>
+                                                </ul>
+                                        </div>
+                                        <div class="col fade-in">
+                                        <div class="task-example-type pro">
+                                                        <div class="task-example-icon">
+                                                                <img src="imgs/icons/infinity.svg" alt="" height="20px">
+                                                        </div>
+                                                        <h4 class="heading-5">DevOps</h4>
+                                                </div>
+                                                <ul class="hanging-list checkmark-bullet">
+                                                        <li>Set up AWS infrastructure</li>
+                                                        <li>Generate Docker container</li>
+                                                        <li>Subscribe to SNS queue</li>
                                                 </ul>
                                         </div>
                                 </div>
