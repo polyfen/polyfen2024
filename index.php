@@ -57,11 +57,11 @@
             <a class="button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
 
             <div class="background">
-                <div id="pearl-11" class="pearl rotate-slower fade-in">
+                <div id="pearl-11" class="pearl rotate-slower fade-in-header">
                 </div>
-                <div id="pearl-12" class="pearl rotate fade-in">
+                <div id="pearl-12" class="pearl rotate fade-in-header">
                 </div>
-                <div id="pearl-13" class="pearl rotate fade-in">
+                <div id="pearl-13" class="pearl rotate fade-in-header">
                 </div>
             </div>
         </section>

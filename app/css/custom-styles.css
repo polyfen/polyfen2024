@@ -2370,13 +2370,17 @@ body.subscriptions .learn-more-button {
 }
 
 /* value props */
+.subscription-value-props h2 {
+    margin-bottom: 5rem;
+}
+
 .subscription-value-props h3 {
     margin-bottom: 1rem;
 }
 
-.subscription-value-props p {
+/* .subscription-value-props p {
     max-width: 300px;
-}
+} */
 
 .value-img {
     width: 70px;
@@ -2398,9 +2402,9 @@ body.subscriptions .learn-more-button {
 }
 
 /*mediquerys  subscriptions*/
-@media (max-width: 900px) {
-    .subscription-value-props p {
-        max-width: 300px;
+@media (min-width: 900px) {
+    .subscription-value-props > div:has(+ div) {
+    margin-bottom: 4rem;
     }
 }
 /* Tech Stack */
