@@ -86,6 +86,93 @@
 
         <hr>
 
+        <section class="container-1080">
+                <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
+                <div class="row" style="gap:60px;">
+                        <div class="slack-mockup fade-in">
+                                <img src="imgs/slack-mockup-01.png" alt="">
+                                <img src="imgs/slack-mockup-02.png" alt="">
+                                <img src="imgs/slack-mockup-03.png" alt="">
+                                <img src="imgs/slack-mockup-04.png" alt="">
+                        </div>
+                        <script>
+                                document.addEventListener('DOMContentLoaded', (event) => {
+                                        const images = document.querySelectorAll('.slack-mockup img');
+                                        let currentImageIndex = 0;
+
+                                        function showNextImage() {
+                                        images[currentImageIndex].style.display = 'none'; // Hide the current image
+                                        currentImageIndex = (currentImageIndex + 1) % images.length; // Move to the next image
+                                        images[currentImageIndex].style.display = 'block'; // Show the next image
+                                        }
+
+                                        setInterval(showNextImage, 2500); // Change image every 3 seconds
+                                });
+                                </script>
+                        <div class="fade-in task-examples" alt="">
+                                <h3 class="caption" style="margin-bottom:1.5rem;">Some Examples</h3>
+                                <div class="row">
+                                        <div class="col fade-in">
+                                                <div class="task-example-type">
+                                                        <div class="task-example-icon">
+                                                                <img src="imgs/icons/code.svg" alt="" height="20px">
+                                                        </div>
+                                                        <h4 class="heading-5">Development</h4>
+                                                </div>
+                                                <ul class="hanging-list checkmark-bullet">
+                                                        <li>Build a new feature</li>
+                                                        <li>Fix a bug</li>
+                                                        <li>Refactor codebase</li>
+                                                </ul>
+                                        </div>
+                                        <div class="col fade-in">
+                                        <div class="task-example-type">
+                                                        <div class="task-example-icon">
+                                                                <img src="imgs/icons/infinity.svg" alt="" height="20px">
+                                                        </div>
+                                                        <h4 class="heading-5">DevOps</h4>
+                                                </div>
+                                                <ul class="hanging-list checkmark-bullet">
+                                                        <li>Set up AWS infrastructure</li>
+                                                        <li>Generate Docker container</li>
+                                                        <li>Subscribe to SNS queue</li>
+                                                </ul>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col fade-in">
+                                                <div class="task-example-type">
+                                                        <div class="task-example-icon">
+                                                                <img src="imgs/icons/user-focus.svg" alt="" height="20px">
+                                                        </div>
+                                                        <h4 class="heading-5">UX</h4>
+                                                </div>
+                                                <ul class="hanging-list checkmark-bullet">
+                                                        <li>Write user stories</li>
+                                                        <li>Chart user flows</li>
+                                                        <li>Diagram information architecture</li>
+                                                </ul>
+                                        </div>
+                                        <div class="col fade-in">
+                                                <div class="task-example-type">
+                                                        <div class="task-example-icon">
+                                                                <img src="imgs/icons/pencil-ruler.svg" alt="" height="20px">
+                                                        </div>
+                                                        <h4 class="heading-5">Design</h4>
+                                                </div>
+                                                <ul class="hanging-list checkmark-bullet">
+                                                        <li>Design landing page</li>
+                                                        <li>Redesign logo</li>
+                                                        <li>Build Figma prototype</li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <hr>
+
         <section class="container-1080 subscription-value-props">
                 <h2 class="align-center fade-in">What You're Getting</h2>
                 <div class="row">
