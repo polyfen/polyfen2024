@@ -90,10 +90,10 @@
                 <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
                 <div class="row" style="gap:60px;">
                         <div class="slack-mockup fade-in">
-                                <img src="imgs/slack-mockup-01.png" alt="">
-                                <img src="imgs/slack-mockup-02.png" alt="">
-                                <img src="imgs/slack-mockup-03.png" alt="">
-                                <img src="imgs/slack-mockup-04.png" alt="">
+                                <img src="imgs/slack-mockup-01.webp" alt="">
+                                <img src="imgs/slack-mockup-02.webp" alt="">
+                                <img src="imgs/slack-mockup-03.webp" alt="">
+                                <img src="imgs/slack-mockup-04.webp" alt="">
                         </div>
                         <script>
                                 document.addEventListener('DOMContentLoaded', (event) => {
