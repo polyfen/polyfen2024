@@ -2735,8 +2735,14 @@ ul.checkmark-bullet li::before {
     font-size: 1.1rem;
 }
 
-.task-examples .row {
-    margin-bottom: 2.5rem;
+.task-examples .col {
+    margin-bottom: 2rem;
+}
+
+@media (min-width:900px) {
+    .task-examples .col {
+        margin-bottom: 2.5rem;
+    }
 }
 
 .task-example-type {
