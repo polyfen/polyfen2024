@@ -2735,6 +2735,10 @@ ul.checkmark-bullet li::before {
     font-size: 1.1rem;
 }
 
+.task-examples .row {
+    gap:0;
+}
+
 .task-examples .col {
     margin-bottom: 2rem;
 }
@@ -2743,6 +2747,7 @@ ul.checkmark-bullet li::before {
     .task-examples .col {
         margin-bottom: 2.5rem;
     }
+    
 }
 
 .task-example-type {
@@ -2771,9 +2776,6 @@ ul.checkmark-bullet li::before {
     width: 100%;
     max-width: 500px;
     object-fit: contain;margin-top: -20px;
-}
-
-.slack-mockup img {
     display: none;
 }
 
