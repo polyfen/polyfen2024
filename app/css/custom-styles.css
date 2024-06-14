@@ -2370,11 +2370,20 @@ body.subscriptions .learn-more-button {
     height: 32px;
     user-select: none;
 }
+/* CTA adjustments */
+body.subscriptions .cta-content h2 {
+    max-width: 715px;
+    margin-inline: auto;
+    text-wrap: unset;
+}
 
 /*mediquerys  subscriptions*/
 @media (max-width: 900px) {
     .subscription-value-props p {
         max-width: 300px;
+    }
+    .subscription-value-props > div:has(+ div) {
+        margin-bottom: 4rem;
     }
 }
 /* Tech Stack */
