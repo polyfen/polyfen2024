@@ -2401,13 +2401,6 @@ body.subscriptions .learn-more-button {
     user-select: none;
 }
 
-/* CTA adjustments */
-body.subscriptions .cta-content h2 {
-    max-width: 715px;
-    margin-inline: auto;
-    text-wrap: unset;
-}
-
 /*mediquerys  subscriptions*/
 @media (min-width: 900px) {
     .subscription-value-props > div:has(+ div) {
