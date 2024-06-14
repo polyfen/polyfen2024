@@ -376,7 +376,7 @@ output.mini {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 220px;
+    max-width: 236px;
 }
 
 .sub-brands-footer span {
@@ -2399,6 +2399,13 @@ body.subscriptions .learn-more-button {
     margin-inline: auto;
     height: 32px;
     user-select: none;
+}
+
+/* CTA adjustments */
+body.subscriptions .cta-content h2 {
+    max-width: 715px;
+    margin-inline: auto;
+    text-wrap: unset;
 }
 
 /*mediquerys  subscriptions*/

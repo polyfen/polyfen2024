@@ -112,17 +112,17 @@
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/hand-coins.svg"></div>
                 <h3>Low Cost,<br>High Value</h3>
-                <p>Our remote business model passes the savings onto you.</p>
+                <p>Our remote business model<br>passes the savings onto you.</p>
             </div>
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/shield-chevron.svg"></div>
                 <h3>Wealth of<br>Experience</h3>
-                <p>Our partners accumulate 50+ years of indsutry experience.</p>
+                <p>Our partners accumulate 50+<br>years of indsutry experience.</p>
             </div>
             <div class="col fade-in">
                 <div class="value-img"><img src="/imgs/icons/crown-simple.svg"></div>
                 <h3>End-to-End<br>Customer Service</h3>
-                <p>Our growing list of clients is testimony that we go above and beyond.</p>
+                <p>Our growing list of clients is<br>testimony that we go above and beyond.</p>
             </div>
         </section>
 
