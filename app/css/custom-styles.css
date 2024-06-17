@@ -1065,9 +1065,12 @@ div.pearl {
 
 [data-button-icon="coins"]::before {
     background-image: url(../../imgs/icons/coins.svg);
-    filter: var(--filter-indigo);
+    filter: invert(18%) sepia(85%) saturate(3760%) hue-rotate(256deg) brightness(102%) contrast(94%);
     margin-block: -8px;
     height: 22px;
+}
+[data-button-icon="coins"]:hover::before {
+    filter: invert(100%)
 }
 
 [data-button-icon="send-message"]::before {
