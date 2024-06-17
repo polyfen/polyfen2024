@@ -65,7 +65,7 @@
         <div class="card-body">
             <ul class="hanging-list">
                 <li class="bold">1 task at a time</li>
-                <li class="bold">3-2 days turnaround</li>
+                <li class="bold">2-3 days turnaround</li>
                 <li class="bold">Unlimited tasks by Devs,<br>UX, and Designers</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
