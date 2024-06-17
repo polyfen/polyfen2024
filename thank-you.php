@@ -53,7 +53,7 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- THANK-YOU page start -->
-    <main class="thank-you-main fade-in-header">
+    <main class="thank-you-main fade-in">
         <h1 class="heading-2 align-center">Thank you</h1>
     </main>
 

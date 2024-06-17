@@ -59,7 +59,7 @@
 
     <!-- CONTACT page start -->
     <main class="contact-main">
-        <section class="message-call container-1080 fade-in-header" aria-label="Contact">
+        <section class="message-call container-1080 fade-in" aria-label="Contact">
             <section class="send-a-message">
                 <h2 class="heading-2 align-center">Send a Message</h2>
                 <div class="err-msj">Verify you are human</div>

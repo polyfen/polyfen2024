@@ -49,7 +49,7 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- Home page start -->
-    <main class="home-main fade-in-header">
+    <main class="home-main fade-in">
         <section class="home-cover">
             <h1 class="title-1">Unleash your<br>business full potential</h1>
             <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
@@ -57,11 +57,11 @@
             <a class="button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
 
             <div class="background">
-                <div id="pearl-11" class="pearl rotate-slower fade-in-header">
+                <div id="pearl-11" class="pearl rotate-slower fade-in">
                 </div>
-                <div id="pearl-12" class="pearl rotate fade-in-header">
+                <div id="pearl-12" class="pearl rotate fade-in">
                 </div>
-                <div id="pearl-13" class="pearl rotate fade-in-header">
+                <div id="pearl-13" class="pearl rotate fade-in">
                 </div>
             </div>
         </section>

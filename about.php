@@ -60,7 +60,7 @@
     <!-- ABOUT page start -->
     <main class="about-main">
 
-        <section class="about-cover container fade-in-header">
+        <section class="about-cover container fade-in">
 
             <h1 class="caption align-center">About</h1>
             <h2 class="heading-1 align-center">Where Design &amp; Development Click</h2>

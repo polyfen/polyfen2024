@@ -60,11 +60,11 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <main class="case-study-main container-1080">
-        <h1 class="heading-1 align-center fade-in-header">Tradeana</h1>
-        <p class="project-p fade-in-header">Tradeana's patented software, Forex Risk Engine™,
+        <h1 class="heading-1 align-center fade-in">Tradeana</h1>
+        <p class="project-p fade-in">Tradeana's patented software, Forex Risk Engine™,
             is designed by traders for traders to help them efficiently audit and
             manage the risk of their ForEx operations.</p>
-        <div id="slider-container" class="fade-in-header">
+        <div id="slider-container" class="fade-in">
             <div class="slider lazy">
 
                 <picture data-lazy>

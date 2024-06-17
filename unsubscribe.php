@@ -97,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_POST['confirm']) && $_POST
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- THANK-YOU page start -->
-    <main class="thank-you-main fade-in-header">
+    <main class="thank-you-main fade-in">
         <h1 class="heading-2 align-center">Unsubscribe Confirmation</h1>
 
         <?php if (isset($error)): ?>
