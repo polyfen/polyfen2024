@@ -106,7 +106,7 @@
                                         images[currentImageIndex].style.display = 'block'; // Show the next image
                                         }
 
-                                        setInterval(showNextImage, 2500); // Change image every 3 seconds
+                                        setInterval(showNextImage, 4000); // Change image every 3 seconds
                                 });
                                 </script>
                         <div class="fade-in task-examples" alt="">
