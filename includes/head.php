@@ -21,7 +21,7 @@
 <meta name="theme-color" content="#7537f8">
 
 <!-- CSS General -->
-<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-1.css" type="text/css">
+<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-2.css" type="text/css">
 <link rel="stylesheet" href="/app/css/theming.css" type="text/css">
 <link rel="stylesheet" href="/app/css/custom-styles.css" type="text/css">
 

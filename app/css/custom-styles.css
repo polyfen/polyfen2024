@@ -2241,11 +2241,12 @@ body.subscriptions .learn-more-button {
 }
 
 .active-button.active-button {
+    height: 45px;
     background-color: #722FFF;
-    padding-block: 10px;
+    /* padding-block: 10px; */
     border: 6px solid #722FFF;
     z-index: 11;
-    margin-top: -5px;
+    margin-top: -4px;
     cursor: default;
     font-weight: 700;
     box-shadow: 0px 0px 4px 4px #000;

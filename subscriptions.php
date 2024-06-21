@@ -68,8 +68,7 @@
             <div class="toggle-container fade-in">
                 <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
                 <button data-content="30% OFF" class="small-button secondary-button active-button"
-                    data-period="quarterly">Pay
-                    Quarterly</button>
+                    data-period="quarterly">Pay Quarterly</button>
             </div>
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
             <?php include 'includes/subscription-plans.php';?>
