@@ -10,7 +10,7 @@ if (!isset($_GET['id']) || !$SPUTNIK_ID || !$SPUTNIK_APIKEY || !$SPUTNIK_UNSUBSC
     die("400");
 }
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_POST['confirm']) && $_POST['confirm'] === 'yes')) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_REQUEST['confirm']) && $_REQUEST['confirm'] === 'yes')) {
     if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
         $ip = $_SERVER['HTTP_CLIENT_IP'];
     } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
