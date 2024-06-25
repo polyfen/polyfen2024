@@ -9,28 +9,32 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v4
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
 
-    - name: Create ENV file
-      uses: SpicyPizza/create-envfile@v2.0
-      with:
-        envkey_STRIPE_STARTER_MONTHLY_URL: ${{ vars.STRIPE_STARTER_MONTHLY_URL }}
-        envkey_STRIPE_PRO_MONTHLY_URL: ${{ vars.STRIPE_PRO_MONTHLY_URL }}
-        envkey_STRIPE_STARTER_QUARTERLY_URL: ${{ vars.STRIPE_STARTER_QUARTERLY_URL }}
-        envkey_STRIPE_PRO_QUARTERLY_URL: ${{ vars.STRIPE_PRO_QUARTERLY_URL }}
-  
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: ftp.borishrncic.com
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-          **/.docker*
-          **/docker*
-          **/docker/**
-          **/Dockerfile
+      - name: Create ENV file
+        uses: SpicyPizza/create-envfile@v2.0
+        with:
+          envkey_STRIPE_STARTER_MONTHLY_URL: ${{ vars.STRIPE_STARTER_MONTHLY_URL }}
+          envkey_STRIPE_PRO_MONTHLY_URL: ${{ vars.STRIPE_PRO_MONTHLY_URL }}
+          envkey_STRIPE_STARTER_QUARTERLY_URL: ${{ vars.STRIPE_STARTER_QUARTERLY_URL }}
+          envkey_STRIPE_PRO_QUARTERLY_URL: ${{ vars.STRIPE_PRO_QUARTERLY_URL }}
+          envkey_SPUTNIK_APIKEY: ${{ secrets.SPUTNIK_APIKEY }}
+          envkey_SPUTNIK_ID: ${{ vars.SPUTNIK_ID }}
+          envkey_SPUTNIK_UNSUBSCRIBE_URL: ${{ vars.SPUTNIK_UNSUBSCRIBE_URL }}
+          envkey_IPINFO_ACCESS_TOKEN: ${{ secrets.IPINFO_ACCESS_TOKEN }}
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ftp.borishrncic.com
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.docker*
+            **/docker*
+            **/docker/**
+            **/Dockerfile

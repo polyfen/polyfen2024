@@ -1,4 +1,4 @@
-<section class="container- activity-box" aria-label="Portfolio thumbnails">
+<section class="container- activity-box fade-in" aria-label="Portfolio thumbnails">
     <div class="scroller" data-direction="right" data-speed="slow">
         <div class="scroller__inner">
             <img alt="" src="imgs/activity-cads/podcasttoapp-app.webp">

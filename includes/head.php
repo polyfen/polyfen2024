@@ -21,7 +21,7 @@
 <meta name="theme-color" content="#7537f8">
 
 <!-- CSS General -->
-<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-1.css" type="text/css">
+<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-2.css" type="text/css">
 <link rel="stylesheet" href="/app/css/theming.css" type="text/css">
 <link rel="stylesheet" href="/app/css/custom-styles.css" type="text/css">
 
@@ -31,6 +31,26 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<!-- targetCountry -->
+<script>
+(function() {
+  window.targetCountry = null;
+  
+  fetch('get_ipinfo.php')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      window.targetCountry = data.targetCountry;
+      console.log('Global targetCountry:', window.targetCountry);
+    })
+    .catch(function(error) {
+      console.error('Error:', error);
+      window.targetCountry = false;
+    });
+})();
+</script>
 
 <!-- GTM -->
 <!-- Google Tag Manager -->

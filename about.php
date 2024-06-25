@@ -60,7 +60,7 @@
     <!-- ABOUT page start -->
     <main class="about-main">
 
-        <section class="about-cover container fade-in-header">
+        <section class="about-cover container fade-in">
 
             <h1 class="caption align-center">About</h1>
             <h2 class="heading-1 align-center">Where Design &amp; Development Click</h2>
@@ -77,35 +77,49 @@
             </div>
         </section>
         <hr>
-        <section class="founder container-700 fade-in">
-            <h2 class="heading-2 align-center">10+ Years of Experience in Design, Development, &amp; Marketing</h2>
+        <section class="board-members container-1080 fade-in">
+            <h2 class="heading-2 align-center">Industry Leaders in<br>Creative &amp; Tech</h2>
 
-            <div class="column-to-row">
+            <div class="row">
 
-                <div class="founder-bios fade-in">
-                    <img class="founder-boris" src="/imgs/about/boris-hrncic.webp" alt="">
-                    <h3 class="caption">Boris Hrnčić</h3>
-                    <h4 class="caption">Founder &amp; CEO</h4>
-                    <img src="/imgs/flags/hr.svg" class="flag" alt=""><small>Zagreb, Croatia</small>
-                </div>
-
-                <div class="founder-list fade-in">
-                    <ul class="hanging-list arrow-bullets spaced-list">
-                        <li class="fade-in">Coding since 2008 and designing brands since 2010.
-                        </li>
-                        <li class="fade-in">Vetted in the top 3% of designers worldwide by
-                            <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
-                            2017.
-                        </li>
-                        <li class="fade-in">Led high-performing teams for small start-ups and big
-                            enterprises in Croatia, Argentina, and the US.</li>
-                    </ul>
-                    <div class="founder-social fade-in">
-                        <a data-before="boris-in" href="https://www.linkedin.com/in/borishr/"
-                            target="_blank">LinkedIn</a>
-                        <a data-before="boris-hr" href="https://boris.hr/" target="_blank" rel="follow">boris.hr</a>
+            <div class="col">
+                <div class="row">
+                    <img class="partner-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
+                    <div>
+                        <h3 class="heading-4">Boris Hrnčić</h3>
+                        <h4 class="caption">Founder &amp; CEO</h4>
+                        <a class="board-members-social" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
+                        <img src="/imgs/flags/hr.svg" class="flag" alt=""><small>Zagreb, Croatia</small>
                     </div>
                 </div>
+                <ul class="hanging-list arrow-bullets spaced-list">
+                    <li class="fade-in">Coding since 2008 and designing brands since 2010.
+                    </li>
+                    <li class="fade-in">Vetted in the top 3% of designers worldwide by
+                        <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
+                        2017.
+                    </li>
+                    <li class="fade-in">Led high-performing teams at small start-ups and big
+                        enterprises in Croatia, Argentina, and the US.</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <img class="partner-portrait" src="/imgs/rod-portrait.webp" alt="">
+                    <div>
+                        <h3 class="heading-4">Rodrigo Gatica</h3>
+                        <h4 class="caption">Partner &amp; COO</h4>
+                        <a class="board-members-social" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn</a>
+                        <img src="/imgs/flags/ar.svg" class="flag" alt=""><small>Mar del Plata, Argentina</small>
+                    </div>
+                </div>
+                <ul class="hanging-list arrow-bullets spaced-list">
+                    <li class="fade-in">Managing projects since 2016 and recruiting tech talent since 2018.</li>
+                    <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
+                    <li class="fade-in">Ran operations at companies going through hypergrowth.</li>
+                </ul>
+            </div>
 
             </div>
 
@@ -147,60 +161,25 @@
         <section class="what-sets-us-apart container-1080 fade-in">
 
             <h2 class="heading-2 align-center">What Sets us Apart</h2>
-            <div class="container-700 accordions-container">
-
-                <div class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="rocket" class="heading-3">Excellence through R&amp;D</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>As a forward-thinking company we explore the latest techologies and nurture professional
-                            growth through internal Research & Development projects, like <a
-                                href="https://polyqwerty.com" target="_blank" rel="follow">Poly Qwerty</a> and <a
-                                href="https://polykit.xyz" target="_blank" rel="follow">Polykit</a>. That way, our
-                            clients count with the advantage of our top-tier talent to beat the competition and never be
-                            left behind in an always moving market.</p>
-                    </div>
+ 
+            <section class="container-1080 row about-value-props">
+                <div class="col fade-in">
+                    <div class="value-img"><img src="/imgs/icons/globe.svg"></div>
+                    <h3>Fully remote<br>since 2018</h3>
+                    <p>Our flexible work environment attracts the best talent in the world.</p>
                 </div>
-
-                <div class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="person" class="heading-3">Teamwork makes the dream work</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>Together we can achieve much more than we ever could alone. We are heavily commited to
-                            providing our team with all the tools, resources, and support to maintain a healthy and
-                            thriving work environment.</p>
-                    </div>
+                <div class="col fade-in">
+                    <div class="value-img"><img src="/imgs/icons/flask.svg"></div>
+                    <h3>Excellence<br>through R&amp;D</h3>
+                    <p>We stay ahead exploring the latest tech with in-house projects.</p>
                 </div>
-
-                <div class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="globe" class="heading-3">Fully remote since 2018</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>We can't compete with the comp packages of big tech companies. But where we can compete and
-                            win, is in flexibility. That allows us to have the best talent in the world at a sustainable
-                            cost.</p>
-                    </div>
+                <div class="col fade-in">
+                    <div class="value-img"><img src="/imgs/icons/dna.svg"></div>
+                    <h3>Transparency<br>is in our DNA</h3>
+                    <p>Browse freely our <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>, <a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
                 </div>
+            </section>
 
-                <div class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="dna" class="heading-3">Transparency is in our DNA</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>Our <a href="https://thepolyfengroup.com/business" target="_blank" rel="follow">Business
-                                Plan</a> and <a href="https://thepolyfengroup.com/wiki" target="_blank"
-                                rel="follow">Team Wiki</a> are just some of our documentation that is publically
-                            available. We also contribute to the open-source software community with public code
-                            repositories in <a href="https://github.com/polyfen" target="_blank"
-                                rel="nofollow">Github</a>. We believe that the world of business could learn a lot from
-                            the practices and culture of the open-source community.</p>
-                    </div>
-                </div>
-
-            </div>
         </section>
         <hr>
         <h2 class="heading-2 align-center">Exceptional Talent<br>that Sparks Innovation</h2>

@@ -49,7 +49,7 @@
 
     <!-- Discovery Call - Landing page start -->
     <main class="discovery-main">
-        <section class="subscribe-cover fade-in-header" style="margin-bottom: 6rem;">
+        <section class="subscribe-cover fade-in" style="margin-bottom: 6rem;">
             <h1 class="caption align-center">Newsletter</h1>
             <h2 class="heading-1 align-center">Unlock Insights &amp;<br>Stay Ahead</h2>
             <?php include 'includes/mailchimp-form.php';?>

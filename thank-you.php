@@ -25,7 +25,7 @@
     <meta name="twitter:title" content="Contact">
     <meta name="twitter:description" content="[TBD]">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noindex, nofollow">
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
@@ -53,7 +53,7 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- THANK-YOU page start -->
-    <main class="thank-you-main fade-in-header">
+    <main class="thank-you-main fade-in">
         <h1 class="heading-2 align-center">Thank you</h1>
     </main>
 

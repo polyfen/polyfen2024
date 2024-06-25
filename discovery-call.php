@@ -53,7 +53,7 @@
 
     <!-- Discovery Call - Landing page start -->
     <main class="discovery-main">
-        <h1 class="heading-1 align-center fade-in-header">Book a Discovery Call</h1>
+        <h1 class="heading-1 align-center fade-in">Book a Discovery Call</h1>
 
         <section class="boris-container container">
             <div class="boris-portrait">
@@ -61,7 +61,7 @@
             </div>
             <div class="boris-bio">
                 <h2 class="heading-4">Rodrigo Gatica</h2>
-                <h3 class="caption" style="opacity: 0.8;">COO &amp; Account Manager</h3>
+                <h3 class="caption" style="opacity: 0.8;">Partner &amp; COO</h3>
                 <p>
                     Tell us about your project.<br>
                     Learn what we can do for you.<br>

@@ -1,12 +1,14 @@
 <?php
+include './includes/helpers.php';
+loadEnv(__DIR__ . "/.env");
+
 header('Content-Type: application/json');
 
 // Obtener la IP del usuario
 $ip_address = $_SERVER['REMOTE_ADDR'];
 
-// Si la IP es IPv6, intentar obtener la IPv4
+$access_token = getenv('IPINFO_ACCESS_TOKEN');
 
-$access_token = '3f9fbb3a088fb0';
 
 // Realizar la solicitud a la API de IPinfo.io
 $ch = curl_init();
@@ -24,12 +26,11 @@ $target_countries = [
     'CH', 'AT', 'NL', 'BE', 'FR'
 ];
 
-$target_country = in_array($data['country'], $target_countries);
+$targetCountry = in_array($data['country'], $target_countries);
 
 // Devolver la información necesaria en formato JSON
 echo json_encode([
-    'ip' => $data['ip'],
     'country' => $data['country'],
-    'target_country' => $target_country
+    'targetCountry' => $targetCountry
 ]);
 ?>

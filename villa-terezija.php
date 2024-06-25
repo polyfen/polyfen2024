@@ -62,11 +62,11 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <main class="case-study-main container-1080">
-        <h1 class="heading-1 align-center fade-in-header">Villa Terezija</h1>
-        <p class="project-p fade-in-header">A touristic accommodation surrounded by a stunning rose garden in the quiet
+        <h1 class="heading-1 align-center fade-in">Villa Terezija</h1>
+        <p class="project-p fade-in">A touristic accommodation surrounded by a stunning rose garden in the quiet
             town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.
         </p>
-        <div id="slider-container" class="fade-in-header">
+        <div id="slider-container" class="fade-in">
             <div class="slider lazy">
                 <div>
                     <picture data-lazy>
