@@ -1032,29 +1032,12 @@ div.pearl {
 }
 
 /* Botones con iconos */
-[data-button-icon]::before {
-    content: '';
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin-right: 8px;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
+/*bases in polykit*/
 
 [data-button-icon]:hover::before {
     opacity: 1;
     filter: unset;
 }
-
-/*  
-  #send-message::before {
-    background: url(../../imgs/icons/envelope.svg) no-repeat center center;
-    filter:var(--filter-indigo);
-    margin-top: -2px;
-  }
-*/
 
 [data-button-icon="schedule-call"]::before {
     background-image: url(../../imgs/icons/phone-call.svg);
@@ -1101,10 +1084,7 @@ div.pearl {
 
 
 /* Button Arrows --> */
-/* Arrow right --> */
-a[data-button-arrow] {
-    position: relative;
-}
+/*bases in polykit*/
 
 [data-button-arrow]::after {
     content: '';
@@ -1112,40 +1092,6 @@ a[data-button-arrow] {
     background-repeat: no-repeat;
     display: inline-block;
     opacity: .8;
-}
-
-[data-button-arrow]::after {
-    height: 10px;
-    width: 18px;
-    margin-left: 6px;
-}
-
-.small-button[data-button-arrow]::after {
-    height: 8px;
-    width: 13px;
-    margin-left: 4px;
-}
-
-[data-button-arrow]:hover::after {
-    animation: moveArrow 1s ease-out infinite;
-    opacity: 1;
-}
-
-@keyframes moveArrow {
-    0% {
-        transform: translateX(0);
-    }
-    70% {
-        transform: translateX(10px);
-    }
-    100% {
-        transform: translateX(10px);
-    }
-}
-
-/* Arrow Up^ */
-a[data-button-arrow-up] {
-    position: relative;
 }
 
 [data-button-arrow-up]::before,
@@ -1156,32 +1102,7 @@ a[data-button-arrow-up] {
     animation: moveArrow-up 1s ease-out infinite;
     height: 16px;
     width: 9px;
-}
-
-[data-button-arrow-up]::before {
-    margin-right: 10px;
-}
-
-[data-button-arrow-up]::after {
-    margin-left: 10px;
-}
-
-[data-button-arrow-up]:hover::before,
-[data-button-arrow-up]:hover::after {
-    opacity: 1;
-}
-
-@keyframes moveArrow-up {
-    0% {
-        transform: translatey(0px);
-    }
-    70% {
-        transform: translatey(-5px);
-    }
-    100% {
-        transform: translatey(-5px);
-    }
-}
+} 
 
 /* END data-types */
 
