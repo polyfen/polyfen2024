@@ -98,10 +98,26 @@
 }
 
 /* END Horizontal-Scroll **/
+.clients h2 {
+  margin-bottom: 2rem;
+}
+
+.home .start-today-button {
+  display: none;
+}
+
+.subscriptions .learn-more-button {
+  display: none;
+}
+
+.cards-wrapper {
+  height: 500px;
+}
+
 .home-cover p {
   max-width: 452px;
 }
 
 .home .clients {
-  margin-top: 50px;
+  margin-top: 80px;
 }/*# sourceMappingURL=styles.css.map */

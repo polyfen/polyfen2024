@@ -56,11 +56,12 @@
     };
 </script>
 <section class="row">
-    <div class="subscription-plan-card fade-in" id="starter">
+    <div class="row cards-wrapper">
+    <div class="card fade-in" id="starter">
         <div class="card-header">
             <h3 class="heading-2">Starter</h3>
             <h4 class="heading-3">$</h4>
-            <small class="caption">/Month</small>
+            <small class="caption uppercase">/Month</small>
         </div>
         <div class="card-body">
             <ul class="hanging-list">
@@ -75,11 +76,11 @@
             <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More</a>
         </div>
     </div>
-    <div class="subscription-plan-card featured-card fade-in" id="pro">
+    <div class="card featured-card fade-in" id="pro">
         <div class="card-header">
             <h3 class="heading-2">Pro</h3>
             <h4 class="heading-3">$</h4>
-            <small class="caption">/Month</small>
+            <small class="caption uppercase">/Month</small>
             <small class="card-label mini">Popular</small>
         </div>
         <div class="card-body">
@@ -95,6 +96,7 @@
             <a data-button-arrow class="button secondary-button small-button start-today-button secondary-cta-button" href="#">Start Today</a>
             <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More</a>
         </div>
+    </div>
     </div>
     <div class="subscription-third-col fade-in">
         <div class="custom-plan">
