@@ -1,0 +1,1 @@
+{"version":3,"sources":["../scss/_home.scss","main.css"],"names":[],"mappings":"AAAA;EACI,gBAAA;ACCJ","file":"main.css","sourcesContent":[".home-cover p {\n    max-width: 452px;\n}",".home-cover p {\n  max-width: 452px;\n}"]}

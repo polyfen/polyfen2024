@@ -8,7 +8,7 @@
         </ul>
     </div>
     <div id="confirm-svg" class="confirm-message"></div>
-    <nav class="hello-nav">
+    <nav>
         <div class="nav-links">
             <a href="/">Home</a>
             <a href="/about">About</a>

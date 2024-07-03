@@ -31,18 +31,16 @@
 
 </head>
 
-<body class="home dark-mode">
+<body class="dark-mode polyfen-site home">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
-
-    <div id="home-border-top"></div>
+    <!-- INCLUDE hellobar.PHP start -->
+    <?php include 'includes/hellobar.php';?>
+    <!-- INCLUDE hellobar.PHP end -->
     
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
@@ -51,8 +49,8 @@
     <!-- Home page start -->
     <main class="home-main fade-in">
         <section class="home-cover">
-            <h1 class="title-1">Unleash your<br>business full potential</h1>
-            <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
+            <h1 class="title-1 align-center">Unleash your<br>business full potential</h1>
+            <p class="align-center">Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
             <a class="button large-button animated-button" href="/discovery-call">Book a Call</a>
             <a class="button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
 
@@ -136,6 +134,9 @@
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
 
 </body>
 

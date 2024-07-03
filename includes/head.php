@@ -21,9 +21,8 @@
 <meta name="theme-color" content="#7537f8">
 
 <!-- CSS General -->
-<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-2.css" type="text/css">
-<link rel="stylesheet" href="/app/css/theming.css" type="text/css">
-<link rel="stylesheet" href="/app/css/custom-styles.css" type="text/css">
+<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-3.css" type="text/css">
+<link rel="stylesheet" href="/app/css/styles.css" type="text/css">
 
 
 <!-- FONTS -->
@@ -72,7 +71,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script defer src="/app/js/subtle.js"></script>
 <script defer src="/app/js/modal-position.js"></script>
 <script defer src="/app/js/scrollfooter.js"></script>
-<script defer src="/app/js/navbar.js"></script>
 <script defer src="/app/js/svgmenu.js"></script>
 
 <!-- jQuery -->

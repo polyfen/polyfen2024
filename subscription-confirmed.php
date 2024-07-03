@@ -26,7 +26,7 @@
 
 </head>
 
-<body class="subs-confirmed no-hellobar dark-mode">
+<body class="dark-mode polyfen-site subs-confirmed">
     <!-- ya hay un estilo del founder-social  que llama a este ID -->
 
     <!-- Google Tag Manager (noscript) -->
@@ -115,6 +115,10 @@
         this.classList.add('d-none');
     });
     </script>
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
+
 </body>
 
 </html>

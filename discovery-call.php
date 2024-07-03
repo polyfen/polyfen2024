@@ -39,7 +39,7 @@
 
 </head>
 
-<body class="discovery-call landing-page dark-mode">
+<body class="dark-mode polyfen-site landing-page discovery-call">
     <!-- ya hay un estilo del founder-social  que llama a este ID -->
 
     <!-- Google Tag Manager (noscript) -->
@@ -88,6 +88,10 @@
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
+
 
     <!-- slick for tech-stack -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
