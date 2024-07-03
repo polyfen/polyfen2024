@@ -50,9 +50,9 @@
     <main class="home-main fade-in">
         <section class="home-cover">
             <h1 class="title-1 align-center">Unleash your<br>business full potential</h1>
-            <p class="align-center">Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
-            <a class="button large-button animated-button" href="/discovery-call">Book a Call</a>
-            <a class="button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
+            <p class="align-center margin-auto">Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
+            <a class="button large-button cta-button" href="/discovery-call">Book a Call</a>
+            <a class="button large-button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
 
             <div class="background">
                 <div id="pearl-11" class="pearl rotate-slower fade-in">
@@ -64,7 +64,7 @@
             </div>
         </section>
         
-        <?php include 'includes/accolades.php';?>
+        <?php include 'includes/clients.php';?>
         <hr>
 
         <section id="services">

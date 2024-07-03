@@ -22,7 +22,7 @@
 
 <!-- CSS General -->
 <link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-3.css" type="text/css">
-<link rel="stylesheet" href="/app/css/styles.css" type="text/css">
+<link rel="stylesheet" href="/app/css/styles-min.css" type="text/css">
 
 
 <!-- FONTS -->
