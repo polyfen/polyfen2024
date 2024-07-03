@@ -23,7 +23,7 @@ $data = json_decode($response, true);
 // Verificar si el país está en la lista
 $target_countries = [
     'US', 'CA', 'AU', 'NZ', 'UK', 'IE', 'IS', 'PT', 'ES', 'DE', 'NO', 'SE', 'DK', 'FI', 'EE',
-    'CH', 'AT', 'NL', 'BE', 'FR'
+    'CH', 'AT', 'NL', 'BE', 'FR', 'EG'
 ];
 
 $targetCountry = in_array($data['country'], $target_countries);
