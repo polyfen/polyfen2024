@@ -23,11 +23,11 @@
 
     $starterPriceMonthly = '$4917';
     $starterStripeUrlMonthly = $mStarterLink;
-    $starterPriceQuarterly = '$3442';
+    $starterPriceQuarterly = '$3935';
     $starterStripeUrlQuarterly = $qStarterLink;
     $proPriceMonthly = '$8945';
     $proStripeUrlMonthly = $mProLink;
-    $proPriceQuarterly = '$6263';
+    $proPriceQuarterly = '$7156';
     $proStripeUrlQuarterly = $qProLink;
 ?>
 
