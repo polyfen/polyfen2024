@@ -280,16 +280,16 @@
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/bun-original.svg">Bun</div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/swift-original.svg">Swift</div>
+                                src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on Rails</div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
+                                src="/imgs/tech-stack/rust-original.svg">Rust</div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/dart-original.svg">Dart</div>
-                        <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/flutter-original.svg">Flutter
+                                src="/imgs/tech-stack/go-original.svg">Go
                         </div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on Rails</div>
+                                src="/imgs/tech-stack/databricks-logo.svg">Databricks</div>
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/django-plain.svg">Django</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
@@ -353,14 +353,14 @@
                     <div class="slide-inside">
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/dotnet-logo.svg">.Net</div>
-                        <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/databricks-logo.svg">Databricks</div>
-                        <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/django-plain.svg">Django</div>
-                        <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/rust-original.svg">Rust</div>
-                        <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/go-original.svg">Go
+                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/swift-original.svg">Swift</div>
+                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
+                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/dart-original.svg">Dart</div>
+                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/flutter-original.svg">Flutter
                         </div>
                         <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/aws-plain.svg">AWS</div>
