@@ -55,7 +55,7 @@
         }
     };
 </script>
-<section class="row subscription-cards">
+<section class="row subscription-plans">
     <div class="row cards-wrapper">
     <div class="card fade-in" id="starter">
         <div class="card-header">

@@ -50,9 +50,7 @@
     </nav>
     -->
 
-
-    <!--
-    <nav class="sub-brands-footer">
+    <nav class="sub-sites-footer">
         <a href="https://thepolyfengroup.com/business/" target="_blank" class="mini">Business Plan</a>
         <span>&vert;</span>
         <a href="https://thepolyfengroup.com/wiki/" target="_blank" class="mini">Team Wiki</a>
@@ -61,7 +59,6 @@
         <span>&vert;</span>
         <a href="/newsletter" class="mini">Newsletter</a>
     </nav>
-    -->
 
     <!-- scripts location call luxon-->
     <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
