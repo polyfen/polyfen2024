@@ -1,10 +1,16 @@
 .security-caption {
-    margin-top: 8px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .security-caption {
+        margin-top: 8px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }    
 }
 
 .security-caption img {

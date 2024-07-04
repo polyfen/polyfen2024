@@ -309,10 +309,14 @@ footer .tpg-logo-container {
 }
 
 .cards-wrapper {
-  height: 500px;
-  width: 66.6666666667%;
+  height: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .cards-wrapper {
+    width: 66.6666666667%;
+  }
+}
 .subscription-plans {
   gap: 32px;
 }
@@ -343,6 +347,15 @@ footer .tpg-logo-container {
 }
 .build .card .heading-3 {
   margin-bottom: 8px;
+}
+
+.secondary-services {
+  text-align: center;
+}
+
+.secondary-services .button {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*  _              _    _                           _         _       */
@@ -435,6 +448,15 @@ section.cta-section {
   margin-top: 80px;
 }
 
+.subscription-plans h2 {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .subscription-plans h2 {
+    text-align: left;
+  }
+}
 img.partner-portrait {
   max-width: 200px;
   border-radius: 12px;
@@ -569,14 +591,19 @@ img.flag {
   }
 }
 .security-caption {
-  margin-top: 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
+  display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .security-caption {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .security-caption img {
   margin-top: -8px;
   height: 20px;

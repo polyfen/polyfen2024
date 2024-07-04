@@ -5,3 +5,13 @@
 .home .clients {
     margin-top: 80px;
 }
+
+.subscription-plans h2 {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .subscription-plans h2 {
+        text-align: left;
+    }
+}
