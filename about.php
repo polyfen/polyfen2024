@@ -58,21 +58,21 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- ABOUT page start -->
-    <main class="about-main">
+    <main>
 
         <section class="about-cover container fade-in">
 
-            <h1 class="caption align-center">About</h1>
+            <h1 class="caption align-center uppercase">About</h1>
             <h2 class="heading-1 align-center">Where Design &amp; Development Click</h2>
 
-            <div class="column-to-row">
-                <div class="one-half">
+            <div class="row">
+                <div class="col">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
                 </div>
-                <div class="one-half">
-                <p>We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.</p>
-                <p>From discovery to UX, development, deployment, and maintenance, we help companies translate their vision into digital experiences that bring in the money.</p>
-                <p>Culture-wise, we’re shaped by R&D. It runs through our hiring, operational, and delivery strategies to stay ahead of the curve.</p>
+                <div class="col">
+                    <p>We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.</p>
+                    <p>From discovery to UX, development, deployment, and maintenance, we help companies translate their vision into digital experiences that bring in the money.</p>
+                    <p>Culture-wise, we’re shaped by R&D. It runs through our hiring, operational, and delivery strategies to stay ahead of the curve.</p>
                 </div>
             </div>
         </section>
@@ -81,46 +81,41 @@
             <h2 class="heading-2 align-center">Industry Leaders in<br>Creative &amp; Tech</h2>
 
             <div class="row">
-
-            <div class="col">
-                <div class="row">
-                    <img class="partner-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
-                    <div>
-                        <h3 class="heading-4">Boris Hrnčić</h3>
-                        <h4 class="caption">Founder &amp; CEO</h4>
-                        <a class="board-members-social" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
-                        <img src="/imgs/flags/hr.svg" class="flag" alt=""><small>Zagreb, Croatia</small>
+                <div class="col">
+                    <div class="row">
+                        <img class="partner-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
+                        <div>
+                            <h3 class="heading-4">Boris Hrnčić</h3>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Founder &amp; CEO</h4>
+                            <a class="board-members-social link" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
+                        </div>
                     </div>
+                    <ul class="hanging-list arrow-bullets spaced-list">
+                        <li class="fade-in">Coding since 2008 and designing brands since 2010.
+                        </li>
+                        <li class="fade-in">Vetted in the top 3% of designers worldwide by
+                            <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
+                            2017.
+                        </li>
+                        <li class="fade-in">Led high-performing teams at small start-ups and big
+                            enterprises in Croatia, Argentina, and the US.</li>
+                    </ul>
                 </div>
-                <ul class="hanging-list arrow-bullets spaced-list">
-                    <li class="fade-in">Coding since 2008 and designing brands since 2010.
-                    </li>
-                    <li class="fade-in">Vetted in the top 3% of designers worldwide by
-                        <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
-                        2017.
-                    </li>
-                    <li class="fade-in">Led high-performing teams at small start-ups and big
-                        enterprises in Croatia, Argentina, and the US.</li>
-                </ul>
-            </div>
-
-            <div class="col">
-                <div class="row">
-                    <img class="partner-portrait" src="/imgs/rod-portrait.webp" alt="">
-                    <div>
-                        <h3 class="heading-4">Rodrigo Gatica</h3>
-                        <h4 class="caption">Partner &amp; COO</h4>
-                        <a class="board-members-social" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn</a>
-                        <img src="/imgs/flags/ar.svg" class="flag" alt=""><small>Mar del Plata, Argentina</small>
+                <div class="col">
+                    <div class="row">
+                        <img class="partner-portrait" src="/imgs/rod-portrait.webp" alt="">
+                        <div>
+                            <h3 class="heading-4">Rodrigo Gatica</h3>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Partner &amp; COO</h4>
+                            <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn</a>
+                        </div>
                     </div>
+                    <ul class="hanging-list arrow-bullets spaced-list">
+                        <li class="fade-in">Managing projects since 2016 and recruiting tech talent since 2018.</li>
+                        <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
+                        <li class="fade-in">Ran operations at companies going through hypergrowth.</li>
+                    </ul>
                 </div>
-                <ul class="hanging-list arrow-bullets spaced-list">
-                    <li class="fade-in">Managing projects since 2016 and recruiting tech talent since 2018.</li>
-                    <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
-                    <li class="fade-in">Ran operations at companies going through hypergrowth.</li>
-                </ul>
-            </div>
-
             </div>
 
         </section>

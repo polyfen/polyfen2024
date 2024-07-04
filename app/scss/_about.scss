@@ -1,0 +1,29 @@
+img.partner-portrait {
+    max-width: 200px;
+    border-radius: 12px;
+}
+
+@media (min-width: 900px) {
+    img.partner-portrait {
+        margin-bottom: 20px;
+    }
+}
+
+.board-members-social {
+    display: block;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+img.flag {
+    height: 20px;
+    width: auto;
+    border-radius: 2px;
+    margin-right: 8px;
+    vertical-align: bottom;
+    display: inline;
+}
+
+.board-members ul {
+    max-width: 420px;
+}
