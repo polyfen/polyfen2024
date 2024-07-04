@@ -112,6 +112,20 @@
 
 .cards-wrapper {
   height: 500px;
+  width: 66.6666666667%;
+}
+
+.subscription-cards {
+  gap: 32px;
+}
+
+.subscription-cards hr {
+  margin-block: 2rem;
+  width: 100%;
+}
+
+.subscription-cards div:nth-child(2) h4 {
+  margin-bottom: 0;
 }
 
 .home-cover p {

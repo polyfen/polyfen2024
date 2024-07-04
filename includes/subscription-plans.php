@@ -55,7 +55,7 @@
         }
     };
 </script>
-<section class="row">
+<section class="row subscription-cards">
     <div class="row cards-wrapper">
     <div class="card fade-in" id="starter">
         <div class="card-header">
@@ -98,16 +98,16 @@
         </div>
     </div>
     </div>
-    <div class="subscription-third-col fade-in">
+    <div class="fade-in">
         <div class="custom-plan">
-            <h3 class="caption" style="margin-bottom: 8px;">Need More Power?</h3>
+            <h3 class="caption uppercase" style="margin-bottom: 8px;">Need More Power?</h3>
             <h4 class="heading-2">Talk to Sales for<br>a Custom Plan</h4>
             <a href="/discovery-call" data-button-icon="book-a-call"
                 class="button secondary-button small-button margin-right-auto">Book a Call</a>
         </div>
         <hr>
         <div class="start-a-chat">
-            <h3 class="caption" style="margin-bottom: 8px;">Any Questions?</h3>
+            <h3 class="caption uppercase" style="margin-bottom: 8px;">Any Questions?</h3>
             <h4 class="heading-2">We're Happy<br>to Help</h4>
             <button data-button-icon="start-a-chat" onclick="$crisp.push(['do', 'chat:open'])"
                 class="button secondary-button small-button margin-right-auto">Open Chat</button>
