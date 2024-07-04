@@ -330,6 +330,10 @@ section.cta-section {
   display: none;
 }
 
+.cta-section .button {
+  box-shadow: 0 8px 4px -4px rgba(0, 0, 0, 0.4);
+}
+
 .home-cover p {
   max-width: 452px;
 }
