@@ -81,7 +81,7 @@
 
         <hr>
 
-        <?php include 'includes/accolades.php';?>
+        <?php include 'includes/clients.php';?>
 
         <hr>
 
@@ -109,7 +109,7 @@
                                 });
                                 </script>
                         <div class="fade-in task-examples" alt="">
-                                <h3 class="caption" style="margin-bottom:1.5rem;">Some Examples</h3>
+                                <h3 class="caption uppercase" style="margin-bottom:1.5rem;">Some Examples</h3>
                                 <div class="row">
                                         <div class="col fade-in">
                                                 <div class="task-example-type">
@@ -175,35 +175,35 @@
         <section class="container-1080 subscription-value-props">
                 <h2 class="align-center fade-in">What You're Getting</h2>
                 <div class="row">
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/flag.svg"></div>
                                 <h3>Fast-track<br>Onboarding</h3>
                                 <p>No contracts, no paperwork<br>hassle. Start today.</p>
                         </div>
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/cert.svg"></div>
                                 <h3>Qualified<br>Experts</h3>
                                 <p>We have highly qualified<br>talent in your timezone.</p>
                         </div>
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/person.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/person.svg"></div>
                                 <h3>Devs, DevOps,<br>UX, & Designers</h3>
                                 <p>A full-blown team ready to<br>crush your tasks.</p>
                         </div>
                 </div>
                 <div class="row">
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/table.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/table.svg"></div>
                                 <h3>Client<br>Dashboard</h3>
                                 <p>Create and manage your<br>tasks with ease.</p>
                         </div>
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/chats.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/chats.svg"></div>
                                 <h3>Slack<br>Support</h3>
                                 <p>Quick response, realtime<br>assistance.</p>
                         </div>
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/video-conference.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/video-conference.svg"></div>
                                 <h3>Videocall<br>Scheduler</h3>
                                 <p>Book a call with your<br>account manager.</p>
                         </div>
@@ -409,7 +409,7 @@
                 <div class="cta-content">
                     <div class="container-800">
                         <h2 class="heading-1 align-center">Affordable all-in-one<br>plans for startups</h2>
-                        <a data-button-arrow-up class="button large-button secondary-button" href="#plans">Subscribe Today</a>
+                        <a data-button-arrow-up class="button large-button cta-button" href="#plans">Subscribe Today</a>
                     </div>
                 </div>
             </div>
