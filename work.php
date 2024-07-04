@@ -55,7 +55,7 @@
 
     <!--Work page start -->
     <main class="work-main container-1080">
-        <h1 class="caption align-center fade-in">Work</h1>
+        <h1 class="caption align-center fade-in uppercase">Work</h1>
         <h2 class="heading-1 align-center fade-in">Featured Projects</h2>
 
         <!-- BIKE IN MEX start -->
@@ -166,7 +166,7 @@
     
 
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-    <?php include 'includes/call-to-action.php';?>
+    <?php include 'includes/cta-section.php';?>
     <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
