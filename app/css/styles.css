@@ -252,6 +252,50 @@ footer .tpg-logo-container {
   border-radius: 4px;
 }
 
+.team-slider .scroller__inner {
+  --gap: 50px;
+  padding-block: 10px;
+}
+
+.team-card {
+  background-color: #1E1758;
+  border-radius: 8px;
+  width: 250px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-inline: 10px;
+}
+
+.team-card .col:nth-child(1) {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-image: radial-gradient(50% 50% at center, #070924 0% 80%, transparent 81% 100%);
+  background-size: 85px 85px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.team-card .col:nth-child(1) img {
+  width: 85px;
+  height: 85px;
+  max-width: unset;
+}
+
+.team-card .col:nth-child(2) * {
+  display: block;
+}
+
+.team-card strong {
+  font-family: Figtree;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19.2px;
+  text-align: left;
+}
+
 .home .start-today-button {
   display: none;
 }

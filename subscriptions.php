@@ -61,7 +61,7 @@
     <main class="subscriptions-main">
 
         <section class="subscription-plans container-1080 fade-in">
-            <h1 id="plans" class="caption align-center">Subscriptions</h1>
+            <h1 id="plans" class="caption align-center uppercase">Subscriptions</h1>
             <h2 class="heading-1 align-center">Affordable All-in-One<br>Plans For Startups</h2>
 
             <!-- toggle button -->
