@@ -42,54 +42,54 @@
 
 </head>
 
-<body class="about dark-mode">
+<body class="dark-mode polyfen-site about">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE hellobar.PHP start -->
+    <?php include 'includes/hellobar.php';?>
+    <!-- INCLUDE hellobar.PHP end -->
 
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- ABOUT page start -->
-    <main class="about-main">
+    <main>
 
-        <section class="about-cover container fade-in-header">
+        <section class="about-cover container fade-in">
 
-            <h1 class="caption align-center">About</h1>
+            <h1 class="caption align-center uppercase">About</h1>
             <h2 class="heading-1 align-center">Where Design &amp; Development Click</h2>
 
-            <div class="column-to-row">
-                <div class="one-half">
+            <div class="row">
+                <div class="col">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
                 </div>
-                <div class="one-half">
-                <p>We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.</p>
-                <p>From discovery to UX, development, deployment, and maintenance, we help companies translate their vision into digital experiences that bring in the money.</p>
-                <p>Culture-wise, we’re shaped by R&D. It runs through our hiring, operational, and delivery strategies to stay ahead of the curve.</p>
+                <div class="col">
+                    <p>We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.</p>
+                    <p>From discovery to UX, development, deployment, and maintenance, we help companies translate their vision into digital experiences that bring in the money.</p>
+                    <p>Culture-wise, we’re shaped by R&D. It runs through our hiring, operational, and delivery strategies to stay ahead of the curve.</p>
                 </div>
             </div>
         </section>
         <hr>
-        <section class="founder container-700 fade-in">
-            <h2 class="heading-2 align-center">10+ Years of Experience in Design, Development, &amp; Marketing</h2>
+        <section class="board-members container-1080 fade-in">
+            <h2 class="heading-2 align-center">Industry Leaders in<br>Creative &amp; Tech</h2>
 
-            <div class="column-to-row">
-
-                <div class="founder-bios fade-in">
-                    <img class="founder-boris" src="/imgs/about/boris-hrncic.webp" alt="">
-                    <h3 class="caption">Boris Hrnčić</h3>
-                    <h4 class="caption">Founder &amp; CEO</h4>
-                    <img src="/imgs/flags/hr.svg" class="flag" alt=""><small>Zagreb, Croatia</small>
-                </div>
-
-                <div class="founder-list fade-in">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <img class="partner-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
+                        <div>
+                            <h3 class="heading-4">Boris Hrnčić</h3>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Founder &amp; CEO</h4>
+                            <a class="board-members-social link" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
                     <ul class="hanging-list arrow-bullets spaced-list">
                         <li class="fade-in">Coding since 2008 and designing brands since 2010.
                         </li>
@@ -97,27 +97,36 @@
                             <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
                             2017.
                         </li>
-                        <li class="fade-in">Led high-performing teams for small start-ups and big
+                        <li class="fade-in">Led high-performing teams at small start-ups and big
                             enterprises in Croatia, Argentina, and the US.</li>
                     </ul>
-                    <div class="founder-social fade-in">
-                        <a data-before="boris-in" href="https://www.linkedin.com/in/borishr/"
-                            target="_blank">LinkedIn</a>
-                        <a data-before="boris-hr" href="https://boris.hr/" target="_blank" rel="follow">boris.hr</a>
-                    </div>
                 </div>
-
+                <div class="col">
+                    <div class="row">
+                        <img class="partner-portrait" src="/imgs/rod-portrait.webp" alt="">
+                        <div>
+                            <h3 class="heading-4">Rodrigo Gatica</h3>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Partner &amp; COO</h4>
+                            <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+                    <ul class="hanging-list arrow-bullets spaced-list">
+                        <li class="fade-in">Managing projects since 2016 and recruiting tech talent since 2018.</li>
+                        <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
+                        <li class="fade-in">Ran operations at companies going through hypergrowth.</li>
+                    </ul>
+                </div>
             </div>
 
         </section>
         <hr>
         <section class="plat-section container fade-in">
             <h2 class="heading-2 align-center">We Wrote the Book on Branding</h2>
-            <div class="column-to-row">
-                <div class="one-half fade-in">
+            <div class="row">
+                <div class="col fade-in">
                     <img src="/imgs/about/poly-atlas-animation.gif" alt="">
                 </div>
-                <div class="one-half fade-in">
+                <div class="col fade-in">
                     <p>A step-by-step guide to the Branding process including practical tips,
                         case studies, template files, and many other useful resources.</p>
                     <a data-button-icon="globe-net" class="button secondary-button margin-right-auto fade-in" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki</a>
@@ -127,14 +136,14 @@
         <hr>
         <section class="plck-section container fade-in">
             <h2 class="heading-2 align-center">We Made a Free Solution for Cookies Consent</h2>
-            <div class="column-to-row">
-                <div class="one-half fade-in">
+            <div class="row">
+                <div class="col fade-in">
                     <iframe id="plcq-tutorial" width="560" height="315"
                         src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM" title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen loading="lazy"></iframe>
                 </div>
-                <div class="one-half fade-in">
+                <div class="col fade-in">
                     <p>We developed a simple open-source technology that helps websites comply with privacy protection
                         regulations like GDPR and the California Online Privacy Act.</p>
                     <a data-button-icon="globe-net" href="https://polycookies.com/" target="_blank" class="button secondary-button margin-right-auto fade-in">polycookies.com</a>
@@ -147,60 +156,25 @@
         <section class="what-sets-us-apart container-1080 fade-in">
 
             <h2 class="heading-2 align-center">What Sets us Apart</h2>
-            <div class="container-700 accordions-container">
-
-                <div class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="rocket" class="heading-3">Excellence through R&amp;D</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>As a forward-thinking company we explore the latest techologies and nurture professional
-                            growth through internal Research & Development projects, like <a
-                                href="https://polyqwerty.com" target="_blank" rel="follow">Poly Qwerty</a> and <a
-                                href="https://polykit.xyz" target="_blank" rel="follow">Polykit</a>. That way, our
-                            clients count with the advantage of our top-tier talent to beat the competition and never be
-                            left behind in an always moving market.</p>
-                    </div>
+ 
+            <section class="row">
+                <div class="icon-value-prop col fade-in">
+                    <div class="icon-container"><img src="/imgs/icons/globe.svg"></div>
+                    <h3>Fully remote<br>since 2018</h3>
+                    <p>Our flexible work environment attracts the best talent in the world.</p>
                 </div>
-
-                <div class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="person" class="heading-3">Teamwork makes the dream work</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>Together we can achieve much more than we ever could alone. We are heavily commited to
-                            providing our team with all the tools, resources, and support to maintain a healthy and
-                            thriving work environment.</p>
-                    </div>
+                <div class="icon-value-prop col fade-in">
+                    <div class="icon-container"><img src="/imgs/icons/flask.svg"></div>
+                    <h3>Excellence<br>through R&amp;D</h3>
+                    <p>We stay ahead exploring the latest tech with in-house projects.</p>
                 </div>
-
-                <div class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="globe" class="heading-3">Fully remote since 2018</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>We can't compete with the comp packages of big tech companies. But where we can compete and
-                            win, is in flexibility. That allows us to have the best talent in the world at a sustainable
-                            cost.</p>
-                    </div>
+                <div class="icon-value-prop col fade-in">
+                    <div class="icon-container"><img src="/imgs/icons/dna.svg"></div>
+                    <h3>Transparency<br>is in our DNA</h3>
+                    <p>Browse freely our <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>, <a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
                 </div>
+            </section>
 
-                <div class="accordion fade-in">
-                    <div class="acc-button">
-                        <h3 data-acc="dna" class="heading-3">Transparency is in our DNA</h3>
-                    </div>
-                    <div class="acc-panel">
-                        <p>Our <a href="https://thepolyfengroup.com/business" target="_blank" rel="follow">Business
-                                Plan</a> and <a href="https://thepolyfengroup.com/wiki" target="_blank"
-                                rel="follow">Team Wiki</a> are just some of our documentation that is publically
-                            available. We also contribute to the open-source software community with public code
-                            repositories in <a href="https://github.com/polyfen" target="_blank"
-                                rel="nofollow">Github</a>. We believe that the world of business could learn a lot from
-                            the practices and culture of the open-source community.</p>
-                    </div>
-                </div>
-
-            </div>
         </section>
         <hr>
         <h2 class="heading-2 align-center">Exceptional Talent<br>that Sparks Innovation</h2>
@@ -210,13 +184,16 @@
 
 
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-    <?php include 'includes/call-to-action.php';?>
+    <?php include 'includes/cta-section.php';?>
     <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
 
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
 
 </body>
 

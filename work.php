@@ -37,7 +37,7 @@
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 </head>
 
-<body class="work dark-mode">
+<body class="dark-mode polyfen-site work">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
@@ -45,9 +45,9 @@
     <!-- End Google Tag Manager (noscript) -->
 
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE hellobar.PHP start -->
+    <?php include 'includes/hellobar.php';?>
+    <!-- INCLUDE hellobar.PHP end -->
 
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
@@ -55,8 +55,8 @@
 
     <!--Work page start -->
     <main class="work-main container-1080">
-        <h1 class="caption align-center fade-in-header">Work</h1>
-        <h2 class="heading-1 align-center fade-in-header">Featured Projects</h2>
+        <h1 class="caption align-center fade-in uppercase">Work</h1>
+        <h2 class="heading-1 align-center fade-in">Featured Projects</h2>
 
         <!-- BIKE IN MEX start -->
         <div class="bike-in-mex featured-project fade-in">
@@ -166,12 +166,16 @@
     
 
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-    <?php include 'includes/call-to-action.php';?>
+    <?php include 'includes/cta-section.php';?>
     <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
+
 
 </body>
 

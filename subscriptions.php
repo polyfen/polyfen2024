@@ -41,7 +41,7 @@
 
 </head>
 
-<body class="subscriptions dark-mode">
+<body class="dark-mode polyfen-site subscriptions">
     <!-- ya hay un estilo del founder-social  que llama a este ID -->
 
     <!-- Google Tag Manager (noscript) -->
@@ -49,9 +49,9 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE hellobar.PHP start -->
+    <?php include 'includes/hellobar.php';?>
+    <!-- INCLUDE hellobar.PHP end -->
 
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
@@ -61,49 +61,159 @@
     <main class="subscriptions-main">
 
         <section class="subscription-plans container-1080 fade-in">
-            <h1 id="plans" class="caption align-center">Subscriptions</h1>
-            <h2 class="heading-1 align-center">Affordable All-in-One Plans<br>For Startups</h2>
+            <h1 id="plans" class="caption align-center uppercase">Subscriptions</h1>
+            <h2 class="heading-1 align-center">Affordable All-in-One<br>Plans For Startups</h2>
 
             <!-- toggle button -->
             <div class="toggle-container fade-in">
                 <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
                 <button data-content="30% OFF" class="small-button secondary-button active-button"
-                    data-period="quarterly">Pay
-                    Quarterly</button>
+                    data-period="quarterly">Pay Quarterly</button>
             </div>
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
+             <div class="security-caption fade-in">
+                <img src="imgs/icons/lock.svg" height="20px">
+                <small class="mini align-center">Secure Payment with Stripe</small>
+             </div>
         </section>
 
         <hr>
 
-        <?php include 'includes/accolades.php';?>
+        <?php include 'includes/clients.php';?>
 
         <hr>
 
-        <section class="container-1080 row subscription-value-props">
-            <div class="col fade-in">
-                <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
-                <h2>Tech<br>Experts</h2>
-                <p>We have world-class talent available in your timezone.</p>
-            </div>
-            <div class="col fade-in">
-                <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
-                <h2>Fast-track<br>Onboarding</h2>
-                <p>No contracts, no paperwork hassle. Start today.</p>
-            </div>
-            <div class="col fade-in">
-                <div class="value-img"><img src="/imgs/icons/person.svg"></div>
-                <h2>Devs, DevOps,<br>UX, & Designers</h2>
-                <p>A full-blown team ready to crush your tasks.</p>
-            </div>
+        <section class="container-1080">
+                <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
+                <div class="row" style="gap:60px;">
+                        <div class="slack-mockup fade-in">
+                                <img src="imgs/slack-mockup-01.webp" alt="">
+                                <img src="imgs/slack-mockup-02.webp" alt="">
+                                <img src="imgs/slack-mockup-03.webp" alt="">
+                                <img src="imgs/slack-mockup-04.webp" alt="">
+                        </div>
+                        <script>
+                                document.addEventListener('DOMContentLoaded', (event) => {
+                                        const images = document.querySelectorAll('.slack-mockup img');
+                                        let currentImageIndex = 0;
+
+                                        function showNextImage() {
+                                        images[currentImageIndex].style.display = 'none'; // Hide the current image
+                                        currentImageIndex = (currentImageIndex + 1) % images.length; // Move to the next image
+                                        images[currentImageIndex].style.display = 'block'; // Show the next image
+                                        }
+
+                                        setInterval(showNextImage, 4000); // Change image every 3 seconds
+                                });
+                                </script>
+                        <div class="fade-in task-examples" alt="">
+                                <h3 class="caption uppercase" style="margin-bottom:1.5rem;">Some Examples</h3>
+                                <div class="row">
+                                        <div class="col fade-in">
+                                                <div class="task-example-type">
+                                                        <div class="task-example-icon">
+                                                                <img src="imgs/icons/user-focus.svg" alt="" height="20px">
+                                                        </div>
+                                                        <h4 class="heading-5">UX</h4>
+                                                </div>
+                                                <ul class="hanging-list checkmark-bullet">
+                                                        <li>Write user stories</li>
+                                                        <li>Chart user flows</li>
+                                                        <li>Diagram information architecture</li>
+                                                </ul>
+                                        </div>
+                                        <div class="col fade-in">
+                                                <div class="task-example-type">
+                                                        <div class="task-example-icon">
+                                                                <img src="imgs/icons/pencil-ruler.svg" alt="" height="20px">
+                                                        </div>
+                                                        <h4 class="heading-5">Design</h4>
+                                                </div>
+                                                <ul class="hanging-list checkmark-bullet">
+                                                        <li>Design landing page</li>
+                                                        <li>Redesign logo</li>
+                                                        <li>Build Figma prototype</li>
+                                                </ul>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col fade-in">
+                                                <div class="task-example-type">
+                                                        <div class="task-example-icon">
+                                                                <img src="imgs/icons/code.svg" alt="" height="20px">
+                                                        </div>
+                                                        <h4 class="heading-5">Development</h4>
+                                                </div>
+                                                <ul class="hanging-list checkmark-bullet">
+                                                        <li>Build a new feature</li>
+                                                        <li>Fix a bug</li>
+                                                        <li>Refactor codebase</li>
+                                                </ul>
+                                        </div>
+                                        <div class="col fade-in">
+                                        <div class="task-example-type pro">
+                                                        <div class="task-example-icon">
+                                                                <img src="imgs/icons/infinity.svg" alt="" height="20px">
+                                                        </div>
+                                                        <h4 class="heading-5">DevOps</h4>
+                                                </div>
+                                                <ul class="hanging-list checkmark-bullet">
+                                                        <li>Set up AWS infrastructure</li>
+                                                        <li>Generate Docker container</li>
+                                                        <li>Subscribe to SNS queue</li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <hr>
+
+        <section class="container-1080 subscription-value-props">
+                <h2 class="align-center fade-in">What You're Getting</h2>
+                <div class="row">
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/flag.svg"></div>
+                                <h3>Fast-track<br>Onboarding</h3>
+                                <p>No contracts, no paperwork<br>hassle. Start today.</p>
+                        </div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/cert.svg"></div>
+                                <h3>Qualified<br>Experts</h3>
+                                <p>We have highly qualified<br>talent in your timezone.</p>
+                        </div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/person.svg"></div>
+                                <h3>Devs, DevOps,<br>UX, & Designers</h3>
+                                <p>A full-blown team ready to<br>crush your tasks.</p>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/table.svg"></div>
+                                <h3>Client<br>Dashboard</h3>
+                                <p>Create and manage your<br>tasks with ease.</p>
+                        </div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/chats.svg"></div>
+                                <h3>Slack<br>Support</h3>
+                                <p>Quick response, realtime<br>assistance.</p>
+                        </div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/video-conference.svg"></div>
+                                <h3>Videocall<br>Scheduler</h3>
+                                <p>Book a call with your<br>account manager.</p>
+                        </div>
+                </div>
         </section>
 
         <hr>
 
         <section class="stack-section container-1080">
-            <h2 class="align-center">Solutions for<br>Every Stack</h2>
+            <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Solutions for<br>Every Stack</h2>
             <!-- Tech Stack for carrousel -->
             <div class="stack-carrousel">
                 <div class="carrousel-col">
@@ -282,6 +392,7 @@
 
         <hr>
 
+        <h2 class="align-center fade-in">World-class Design</h2>
         <?php include 'includes/portfolio-thumbnails.php';?>
         
         <hr>
@@ -296,9 +407,9 @@
         <section class="cta-section">
             <div class="grain-texture">
                 <div class="cta-content">
-                    <div class="fade-in container">
-                        <h2 class="heading-1 align-center">Affordable all-in-one plans<br>for startups</h2>
-                        <a data-button-arrow-up class="button large-button secondary-button fade-in" href="#plans">Subscribe Today</a>
+                    <div class="container-800">
+                        <h2 class="heading-1 align-center">Affordable all-in-one<br>plans for startups</h2>
+                        <a data-button-arrow-up class="button large-button cta-button" href="#plans">Subscribe Today</a>
                     </div>
                 </div>
             </div>
@@ -348,6 +459,11 @@
         this.classList.add('d-none');
     });
     </script>
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
+
+
 </body>
 
 </html>

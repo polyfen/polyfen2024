@@ -1,0 +1,85 @@
+.security-caption {
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .security-caption {
+        margin-top: 8px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }    
+}
+
+.security-caption img {
+    margin-top: -8px;
+    height: 20px;
+}
+
+
+.task-examples li {
+    font-size: 1.1rem;
+}
+
+.task-examples .row {
+    gap:0;
+}
+
+.task-examples .col {
+    margin-bottom: 2rem;
+}
+
+@media (min-width:900px) {
+    .task-examples .col {
+        margin-bottom: 2.5rem;
+    }
+    
+}
+
+.task-example-type {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.task-example-type h4 {
+    margin-top: 8px;
+}
+
+.task-example-icon {
+    width: 40px;
+    height: 40px;
+    /* align-content: center; */
+    background-color: #120E32;
+    border: 1px solid #7437f850;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slack-mockup img {
+    width: 100%;
+    max-width: 500px;
+    object-fit: contain;margin-top: -20px;
+    display: none;
+}
+
+.slack-mockup img:first-child {
+    display: block;
+}
+
+.task-example-type.pro::after {
+    content: 'PRO';
+    background: #7437f850;
+    border-radius: 4px;
+    min-width: 39px;
+    height: 17px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    align-content: center;
+    margin-top:12px;
+}

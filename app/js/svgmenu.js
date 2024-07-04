@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Copiar el contenido del logo SVG al portapapeles
     copyLogo.addEventListener('click', (event) => {
         event.preventDefault();
-        fetch('imgs/polyfen-logo.svg')
+        fetch('/imgs/polyfen-logo.svg')
             .then(response => response.text())
             .then(svgContent => {
                 // Copiar el contenido SVG al portapapeles

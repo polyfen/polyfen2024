@@ -44,7 +44,7 @@
 
 </head>
 
-<body class="case-study dark-mode">
+<body class="dark-mode polyfen-site case-study">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
@@ -54,9 +54,9 @@
 
 
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE hellobar.PHP start -->
+    <?php include 'includes/hellobar.php';?>
+    <!-- INCLUDE hellobar.PHP end -->
 
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
@@ -64,12 +64,12 @@
 
     <main class="case-study-main container-1080">
 
-        <h1 class="heading-1 fade-in-header">Bike in Mex</h1>
-        <p class="project-p fade-in-header">We designed an identity focused on geometric illustrations inspired by ancient Aztec
+        <h1 class="heading-1 fade-in">Bike in Mex</h1>
+        <p class="project-p fade-in">We designed an identity focused on geometric illustrations inspired by ancient Aztec
             and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop
             based in Tulum, Mexico.</p>
 
-        <div id="slider-container" class="fade-in-header">
+        <div id="slider-container" class="fade-in">
             <div class="slider lazy">
                 <picture data-lazy>
                     <source media="(max-width: 420px)"
@@ -190,12 +190,16 @@
     </main>
 
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-    <?php include 'includes/call-to-action.php';?>
+    <?php include 'includes/cta-section.php';?>
     <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
+
 
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>

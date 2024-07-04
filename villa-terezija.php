@@ -44,7 +44,7 @@
 
 </head>
 
-<body class="case-study dark-mode">
+<body class="dark-mode polyfen-site case-study">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
@@ -54,19 +54,19 @@
 
 
     <!-- INCLUDE HELL-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
+    <?php include 'includes/hellobar.php';?>
+    <!-- INCLUDE hellobar.PHP end -->
 
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
     <main class="case-study-main container-1080">
-        <h1 class="heading-1 align-center fade-in-header">Villa Terezija</h1>
-        <p class="project-p fade-in-header">A touristic accommodation surrounded by a stunning rose garden in the quiet
+        <h1 class="heading-1 align-center fade-in">Villa Terezija</h1>
+        <p class="project-p fade-in">A touristic accommodation surrounded by a stunning rose garden in the quiet
             town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.
         </p>
-        <div id="slider-container" class="fade-in-header">
+        <div id="slider-container" class="fade-in">
             <div class="slider lazy">
                 <div>
                     <picture data-lazy>
@@ -220,6 +220,10 @@
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
+
 
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>

@@ -35,7 +35,7 @@
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 </head>
 
-<body class="thank-you dark-mode">
+<body class="dark-mode polyfen-site thank-you">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
@@ -43,16 +43,16 @@
     <!-- End Google Tag Manager (noscript) -->
 
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE hellobar.PHP start -->
+    <?php include 'includes/hellobar.php';?>
+    <!-- INCLUDE hellobar.PHP end -->
 
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- THANK-YOU page start -->
-    <main class="thank-you-main fade-in-header">
+    <main class="thank-you-main fade-in">
         <h1 class="heading-1 align-center">Subscription Confirmed!</h1>
         
         <h2 class="heading-5 align-center">Follow us on social</h2>
@@ -66,6 +66,10 @@
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
+
 
 </body>
 

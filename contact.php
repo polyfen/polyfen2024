@@ -41,7 +41,7 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
-<body class="contact dark-mode">
+<body class="dark-mode polyfen-site contact">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
@@ -49,57 +49,60 @@
     <!-- End Google Tag Manager (noscript) -->
 
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE hellobar.PHP start -->
+    <?php include 'includes/hellobar.php';?>
+    <!-- INCLUDE hellobar.PHP end -->
 
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
     <!-- INCLUDE HEADER.PHP end -->
 
     <!-- CONTACT page start -->
-    <main class="contact-main">
-        <section class="message-call container-1080 fade-in-header" aria-label="Contact">
-            <section class="send-a-message">
-                <h2 class="heading-2 align-center">Send a Message</h2>
-                <div class="err-msj">Verify you are human</div>
-                <form id="contact-form" method="POST" class="">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
+    <main class="container-1080">
+        <div class="row fade-in" aria-label="Contact">
+                <section class="send-a-message">
+                    <h2 class="heading-2 align-center">Send a Message</h2>
+                    <div class="err-msj">Verify you are human</div>
+                    <form id="contact-form" method="POST" class="">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
 
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" required>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
 
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" required></textarea>
-                    <!-- place captcha here -->
-                    <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
-                        data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
-                        data-error-callback="onRecaptchaError" data-theme="dark">
-                    </div>
-                    <br>
-                    <button data-button-icon="send-message" type="submit" class="secondary-button">Send Message</button>
-                </form>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" required></textarea>
+                        <!-- place captcha here -->
+                        <div class="g-recaptcha" data-sitekey="6Lej_NMnAAAAAK4fPl76kHS_8o21z1YER7Y4LtR7"
+                            data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
+                            data-error-callback="onRecaptchaError" data-theme="dark">
+                        </div>
+                        <br>
+                        <button data-button-icon="send-message" type="submit" class="secondary-button">Send Message</button>
+                    </form>
+                </section>
+                <hr class="vertical-hr">
+                <section class="schedule-a-call">
+                    <h2 class="heading-2 align-center">Schedule a Call</h2>
+                    <!-- INCLUDE CALENDLY.PHP start -->
+                    <?php include 'includes/calendly.php';?>
+                    <!-- INCLUDE CALENDLY.PHP end -->
+                </section>
+            </div>
+            <hr>
+            <section class="email-phone container fade-in">
+                <h3 class="heading-2 align-center">hi@polyfen.com</h3>
+                <h3 class="heading-2 align-center"><img src="/imgs/flags/us.svg" class="contact-flag" alt=""> +1 415 610 8439</h3>
             </section>
-            <hr class="vertical-hr">
-            <section>
-                <h2 class="heading-2 align-center">Schedule a Call</h2>
-                <!-- INCLUDE CALENDLY.PHP start -->
-                <?php include 'includes/calendly.php';?>
-                <!-- INCLUDE CALENDLY.PHP end -->
-            </section>
-        </section>
-        <hr>
-        <section class="email-phone container fade-in">
-            <h3 class="heading-2 align-center">hi@polyfen.com</h3>
-            <h3 class="heading-2 align-center"><img src="/imgs/flags/us.svg" class="contact-flag" alt=""> +1 415 610 8439</h3>
-        </section>
     </main>
     <!-- CONTACT end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
 
 
     <!-- contact form script start -->
