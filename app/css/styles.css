@@ -1318,6 +1318,11 @@ body.subs-confirmed main {
   }
 }
 /* END Subscription-confirmed page */
+@media (min-width: 768px) {
+  .create-task-section .row {
+    flex-direction: row-reverse;
+  }
+}
 iframe {
   max-width: 100%;
   border: none;

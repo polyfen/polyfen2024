@@ -55,7 +55,7 @@
             </div>
         </section>
         <hr>
-        <section class="container">
+        <section class="container create-task-section">
             <div class="row fade-in">
                 <div class="col fade-in">
                     <a href="/videos/Create-Task-Animation.webm" target="_blank" title="Open Full-Screen"
