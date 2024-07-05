@@ -119,14 +119,12 @@ footer .tpg-logo-container {
   }
 }
 .sub-sites-footer a {
-  -webkit-text-decoration: underline var(--accent-color) dotted 2px;
-          text-decoration: underline var(--accent-color) dotted 2px;
+  text-decoration: underline var(--accent-color) dotted 2px;
   text-underline-offset: 5px;
 }
 
 .sub-sites-footer a:hover {
-  -webkit-text-decoration: underline var(--accent-color) solid 2px;
-          text-decoration: underline var(--accent-color) solid 2px;
+  text-decoration: underline var(--accent-color) solid 2px;
 }
 
 @media (min-width: 900px) {
