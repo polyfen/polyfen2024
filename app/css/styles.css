@@ -1378,4 +1378,43 @@ video {
 }
 main {
   padding-top: 2rem;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*   ____ _           _   _           _    */
+/*  / ___| |__   __ _| |_| |__   ___ | |_  */
+/* | |   | '_ \ / _` | __| '_ \ / _ \| __| */
+/* | |___| | | | (_| | |_| |_) | (_) | |_  */
+/*  \____|_| |_|\__,_|\__|_.__/ \___/ \__| */
+/* Chatbot --------------------------------*/
+/* Change position of Cookies and Chat modals on scroll over the footer */
+.bottom-120,
+#crisp-chatbox div a.bottom-120 {
+  bottom: 120px !important;
+}
+
+/*automatic message to not overlapping with chat bubble*/
+a.bottom-120 span [data-id=new_messages] {
+  margin-bottom: 100px !important;
+}
+
+/*instant chat-window to not overlapping with chat bubble*/
+#crisp-chatbox div a.bottom-120 > span > span[data-id=general_entice] > span > span {
+  margin-bottom: 100px !important;
+}
+
+/*chat-window to not overlapping with chat bubble*/
+div[data-visible=true]:has(+ .bottom-120) {
+  margin-bottom: 100px !important;
+}
+
+/*chat-window to not overlapping with chat bubble*/
+#crisp-chatbox {
+  z-index: 60;
+}
+
+/* esto no estaria funcionando por los cambios de clases */
+.crisp-client .cc-tlyw .cc-kxkl .cc-nsge span.cc-imbb {
+  box-shadow: 0 0 0 2px #070924 !important;
+}
+
+/* END  ChatBot*//*# sourceMappingURL=styles.css.map */
