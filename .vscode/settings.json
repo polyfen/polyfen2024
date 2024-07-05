@@ -1,0 +1,24 @@
+{
+    "liveSassCompile.settings.compileOnWatch": false,
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "liveSassCompile.settings.useNewCompiler": true,
+    "liveSassCompile.settings.showOutputWindowOn": "Warning",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "app/css",
+            "savePathReplacementPairs": null
+        },
+        {
+            "format": "compressed",
+            "extensionName": "-min.css",
+            "savePath": "app/css",
+            "savePathReplacementPairs": null,
+            "generateMap": false
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "/libs/**"
+    ]
+}

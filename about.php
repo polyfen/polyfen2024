@@ -62,8 +62,8 @@
 
         <section class="about-cover container fade-in">
 
-            <h1 class="caption align-center uppercase">About</h1>
-            <h2 class="heading-1 align-center">Where Design &amp; Development Click</h2>
+            <h1 class="caption align-center uppercase margin-bottom-1">About</h1>
+            <h2 class="heading-1 align-center margin-bottom-4">Where Design &amp; Development Click</h2>
 
             <div class="row">
                 <div class="col">
@@ -78,7 +78,7 @@
         </section>
         <hr>
         <section class="board-members container-1080 fade-in">
-            <h2 class="heading-2 align-center">Industry Leaders in<br>Creative &amp; Tech</h2>
+            <h2 class="heading-2 align-center margin-bottom-4">Industry Leaders in<br>Creative &amp; Tech</h2>
 
             <div class="row">
                 <div class="col">
@@ -121,7 +121,7 @@
         </section>
         <hr>
         <section class="plat-section container fade-in">
-            <h2 class="heading-2 align-center">We Wrote the Book on Branding</h2>
+            <h2 class="heading-2 align-center margin-bottom-4">We Wrote the Book on Branding</h2>
             <div class="row">
                 <div class="col fade-in">
                     <img src="/imgs/about/poly-atlas-animation.gif" alt="">
@@ -129,24 +129,26 @@
                 <div class="col fade-in">
                     <p>A step-by-step guide to the Branding process including practical tips,
                         case studies, template files, and many other useful resources.</p>
-                    <a data-button-icon="globe-net" class="button secondary-button margin-right-auto fade-in" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki</a>
+                    <a data-button-arrow class="button secondary-button fade-in" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki</a>
                 </div>
             </div>
         </section>
         <hr>
         <section class="plck-section container fade-in">
-            <h2 class="heading-2 align-center">We Made a Free Solution for Cookies Consent</h2>
+            <h2 class="heading-2 align-center margin-bottom-4">We Made a Free Solution for Cookies Consent</h2>
             <div class="row">
                 <div class="col fade-in">
-                    <iframe id="plcq-tutorial" width="560" height="315"
+                    <div class="video-container">
+                        <iframe id="plcq-tutorial" width="560" height="315"
                         src="https://www.youtube.com/embed/QSKiPr_VgPo?si=s337oDu_dODGrxgM" title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen loading="lazy"></iframe>
+                    </div>
                 </div>
                 <div class="col fade-in">
                     <p>We developed a simple open-source technology that helps websites comply with privacy protection
                         regulations like GDPR and the California Online Privacy Act.</p>
-                    <a data-button-icon="globe-net" href="https://polycookies.com/" target="_blank" class="button secondary-button margin-right-auto fade-in">polycookies.com</a>
+                    <a data-button-arrow href="https://polycookies.com/" target="_blank" class="button secondary-button fade-in">polycookies.com</a>
                 </div>
             </div>
         </section>
@@ -155,29 +157,29 @@
 
         <section class="what-sets-us-apart container-1080 fade-in">
 
-            <h2 class="heading-2 align-center">What Sets us Apart</h2>
+            <h2 class="heading-2 align-center margin-bottom-4">What Sets us Apart</h2>
  
             <section class="row">
                 <div class="icon-value-prop col fade-in">
                     <div class="icon-container"><img src="/imgs/icons/globe.svg"></div>
                     <h3>Fully remote<br>since 2018</h3>
-                    <p>Our flexible work environment attracts the best talent in the world.</p>
+                    <p>Our flexible work environment<br>attracts the best talent in the world.</p>
                 </div>
                 <div class="icon-value-prop col fade-in">
                     <div class="icon-container"><img src="/imgs/icons/flask.svg"></div>
                     <h3>Excellence<br>through R&amp;D</h3>
-                    <p>We stay ahead exploring the latest tech with in-house projects.</p>
+                    <p>We stay ahead exploring<br>the latest tech with in-house projects.</p>
                 </div>
                 <div class="icon-value-prop col fade-in">
                     <div class="icon-container"><img src="/imgs/icons/dna.svg"></div>
                     <h3>Transparency<br>is in our DNA</h3>
-                    <p>Browse freely our <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>, <a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
+                    <p>Browse freely our <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>,<br><a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
                 </div>
             </section>
 
         </section>
         <hr>
-        <h2 class="heading-2 align-center">Exceptional Talent<br>that Sparks Innovation</h2>
+        <h2 class="heading-2 align-center margin-bottom-4">Exceptional Talent<br>that Sparks Innovation</h2>
         <?php include 'includes/team-slider.php';?>
     </main>
     <!-- ABOUT end -->

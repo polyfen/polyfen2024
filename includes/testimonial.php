@@ -1,5 +1,5 @@
 <section class="testimonials container-1080 fade-in">
-    <h2 class="heading-2 align-center">Hear our Success Stories</h2>
+    <h2 class="heading-2 align-center margin-bottom-4">Hear our Success Stories</h2>
     <div class="testimonials-container">
         <figure class="testimonial fade-in">
             <blockquote>

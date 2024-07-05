@@ -42,22 +42,22 @@
         <h1 class="align-center">🎉🎉🎉<br>Thank You for Subscribing!</h1>
         <h2 class="align-center heading-4">You Are in Good Hands</h2>
         <hr>
-        <section class="plat-section container">
-            <div class="column-to-row account-manager">
-                <div class="one-half fade-in account-manager-col">
+        <section class="container-600">
+            <div class="row account-manager">
+                <div class="col fade-in account-manager-col">
                     <img class="account-manager-img" src="/imgs/rod-portrait.webp" alt="Rodrigo">
                 </div>
-                <div class="one-half fade-in">
-                    <h2>Rodrigo is Your New Account Manager</h2>
+                <div class="col fade-in">
+                    <h2 class="margin-bottom-1">Rodrigo is Your New Account Manager</h2>
                     <a class="button secondary-button margin-right-auto small-button"
-                        href="https://calendly.com/polyfen/subscriptions" target="_blank">Book a Call</a>
+                        href="https://calendly.com/polyfen/intro" target="_blank">Book a Call</a>
                 </div>
             </div>
         </section>
         <hr>
-        <section class="plat-section container">
-            <div class="column-to-row fade-in">
-                <div class="one-half fade-in">
+        <section class="container create-task-section">
+            <div class="row fade-in">
+                <div class="col fade-in">
                     <a href="/videos/Create-Task-Animation.webm" target="_blank" title="Open Full-Screen"
                         style="cursor: zoom-in;">
                         <video autoplay muted loop width="327">
@@ -68,7 +68,7 @@
                         </video>
                     </a>
                 </div>
-                <div class="one-half fade-in">
+                <div class="col fade-in">
                     <h2>Start Creating<br>Tasks</h2>
                     <a class="button secondary-button margin-right-auto small-button"
                         href="https://polyfen.atlassian.net/servicedesk/customer/portal/1" target="_blank">Create a
@@ -77,17 +77,12 @@
             </div>
         </section>
         <hr>
-        <section class="plat-section container">
-            <div class="column-to-row fade-in">
-                <div class="one-half fade-in">
-                    <video autoplay muted loop width="327">
-                        <source src="/videos/Slack-Animation-v2.webm" type="video/webm">
-                        <source src="/videos/Slack-Animation-v2.mp4" type="video/mp4">
-
-                        Sorry, your browser doesn't support HTML5 video.
-                    </video>
+        <section class="container">
+            <div class="row fade-in">
+                <div class="col fade-in">
+                    <?php include 'includes/slack-mockup.php';?>
                 </div>
-                <div class="one-half fade-in">
+                <div class="col fade-in">
                     <h2>Join our Slack for Ongoing Support</h2>
                     <p>Check your inbox for the invite.</p>
                 </div>

@@ -36,7 +36,7 @@
     <!-- PAGE-SPECIFIC SCRIPTS end -->
 </head>
 
-<body class="thank-you dark-mode">
+<body class="dark-mode polyfen-site thank-you">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
