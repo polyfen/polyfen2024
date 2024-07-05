@@ -26,7 +26,13 @@
 
 .subscription-plans hr {
     margin-block: 2rem;
-    width: 100%;
+    width: 60%;
+}
+
+@media (min-width: 768px) {
+    .subscription-plans hr {
+        width: 100%;
+    }
 }
 
 .subscription-plans div:nth-child(2) h4 {

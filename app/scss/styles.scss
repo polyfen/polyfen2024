@@ -15,3 +15,7 @@
 @import "_work";
 @import "_case-studies";
 @import "_contact";
+
+main iframe {
+    max-width: 100%;
+}

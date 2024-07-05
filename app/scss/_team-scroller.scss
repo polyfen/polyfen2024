@@ -1,7 +1,3 @@
-.team-slider .scroller__inner {
-    --gap: 50px;
-    padding-block: 10px;
-}
 
 .team-card {
     background-color: #1E1758;
@@ -13,6 +9,23 @@
     justify-content: center;
     position: relative;
     padding-inline: 10px;
+}
+
+.team-card strong {
+    font-family: Figtree;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.2px;
+    text-align: left;
+}
+
+.team-card small {
+    font-family: Figtree;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.4px;
+    text-align: left;
+
 }
 
 .team-card .col:nth-child(1) {
@@ -33,10 +46,9 @@
     display: block;
 }
 
-.team-card strong {
-    font-family: Figtree;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 19.2px;
-    text-align: left;
-}   
+@media (max-width: 900px) {
+    .team-card.row {
+        flex-direction: row;
+    }
+}
+/* END team slider */

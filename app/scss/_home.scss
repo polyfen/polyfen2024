@@ -6,12 +6,15 @@
     margin-top: 80px;
 }
 
-.subscription-plans h2 {
-    text-align: center;
-}
+.home {
 
-@media screen and (min-width: 768px) {
-    .subscription-plans h2 {
-        text-align: left;
+    .subscription-plans h2, .build h2 {
+        text-align: center;
+    }
+
+    @media screen and (min-width: 768px) {
+        .subscription-plans h2, .build h2 {
+            text-align: left;
+        }
     }
 }
