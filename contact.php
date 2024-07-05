@@ -78,7 +78,7 @@
                             data-error-callback="onRecaptchaError" data-theme="dark">
                         </div>
                         <br>
-                        <button data-button-icon="send-message" type="submit" class="secondary-button">Send Message</button>
+                        <button type="submit" class="secondary-button">Send Message</button>
                     </form>
                 </section>
                 <hr class="vertical-hr">

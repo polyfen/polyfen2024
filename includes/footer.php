@@ -1,5 +1,5 @@
 <footer>
-<ul aria-label="Our-social-networks" class="social no-bullets">
+    <ul aria-label="Our-social-networks" class="social no-bullets">
         <li><a href="http://polyfen.com/twitter" target="_blank" title="X" id="x-icon">
             <img src="./imgs/icons/x-icon.svg" alt="X Icon" class="social_icon" /></a></li>
         <li><a href="http://polyfen.com/instagram" target="_blank" title="Instagram">
@@ -40,15 +40,13 @@
         </a>
     </div>
 
-    <!--
-    <nav class="footer-navbar-mobile">
+    <nav class="footer-navbar-mobile uppercase">
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/work">Work</a>
         <a href="/subscriptions">Subscriptions</a>
         <a href="/contact">Contact</a>
     </nav>
-    -->
 
     <nav class="sub-sites-footer">
         <a href="https://thepolyfengroup.com/business/" target="_blank" class="mini">Business Plan</a>

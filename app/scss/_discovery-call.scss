@@ -1,0 +1,61 @@
+
+/*  ____  _                                               _ _  */
+/* |  _ \(_)___  ___ _____   _____ _ __ _   _    ___ __ _| | | */
+/* | | | | / __|/ __/ _ \ \ / / _ \ '__| | | |  / __/ _` | | | */
+/* | |_| | \__ \ (_| (_) \ V /  __/ |  | |_| | | (_| (_| | | | */
+/* |____/|_|___/\___\___/ \_/ \___|_|   \__, |  \___\__,_|_|_| */
+/*                                      |___/                  */
+/* Discovery call ---------------------------------------------*/
+
+.boris-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 540px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.boris-container img.portrait {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.boris-bio h2 {
+    margin-bottom: .5rem;
+}
+
+.boris-bio h3 {
+    margin-bottom: 1rem;
+}
+
+.boris-bio .founder-social {
+    margin-left: unset;
+    ;
+}
+
+.discovery-main .cta-section #schedule-call {
+    display: none;
+    visibility: hidden;
+}
+
+.discovery-main .cta-section #landing-cta-button {
+    display: flex;
+    visibility: unset;
+}
+
+@media (min-width: 768px) {
+    .boris-container {
+        flex-direction: row;
+        gap: 20px;
+        margin-bottom: unset
+    }
+
+}

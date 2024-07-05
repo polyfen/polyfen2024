@@ -15,7 +15,18 @@
 @import "_work";
 @import "_case-studies";
 @import "_contact";
+@import "_discovery-call";
 
 main iframe {
     max-width: 100%;
+}
+
+.vertical-hr {
+    width: 100% !important;
+}
+
+@media (min-width: 900px) {
+    .vertical-hr {
+        width: unset !important;
+    }
 }

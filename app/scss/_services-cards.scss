@@ -68,5 +68,11 @@
 }
 
 @media screen and (min-width: 768px) {
-    
+    .secondary-services {
+        text-align: left;
+    }
+    .secondary-services .button {
+        margin-left: unset;
+        margin-right: auto;
+    }
 }

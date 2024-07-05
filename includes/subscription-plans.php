@@ -64,7 +64,7 @@
             <small class="caption uppercase">/Month</small>
         </div>
         <div class="card-body">
-            <ul class="hanging-list">
+            <ul class="hanging-list checkmark-bullet">
                 <li class="bold">1 task at a time</li>
                 <li class="bold">2-3 days turnaround</li>
                 <li class="bold">Unlimited tasks by Devs,<br>UX, and Designers</li>
@@ -84,7 +84,7 @@
             <small class="card-label mini">Popular</small>
         </div>
         <div class="card-body">
-            <ul class="hanging-list">
+            <ul class="hanging-list checkmark-bullet">
                 <li class="bold">2 tasks at a time</li>
                 <li class="bold">1-2 days turnaround</li>
                 <li class="bold">Unlimited tasks by Devs, UX, Designers, and DevOps</li>
