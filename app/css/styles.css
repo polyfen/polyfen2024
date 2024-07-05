@@ -380,6 +380,10 @@ footer .tpg-logo-container {
     margin-left: unset;
     margin-right: auto;
   }
+  .build .card img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 /*  _              _    _                           _         _       */
 /* | |_  ___  ___ | |_ (_) _ __ ___    ___   _ __  (_)  __ _ | | ___  */
