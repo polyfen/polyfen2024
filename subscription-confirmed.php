@@ -50,7 +50,7 @@
                 <div class="col fade-in">
                     <h2 class="margin-bottom-1">Rodrigo is Your New Account Manager</h2>
                     <a class="button secondary-button margin-right-auto small-button"
-                        href="https://calendly.com/polyfen/subscriptions" target="_blank">Book a Call</a>
+                        href="https://calendly.com/polyfen/intro" target="_blank">Book a Call</a>
                 </div>
             </div>
         </section>
