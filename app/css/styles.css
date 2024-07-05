@@ -480,6 +480,11 @@ section.cta-section {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .home-cover {
+    padding-top: 100px;
+  }
+}
 /*  ____                 _      */
 /* |  _ \ ___  __ _ _ __| |___  */
 /* | |_) / _ \/ _` | '__| / __| */
