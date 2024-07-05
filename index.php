@@ -68,7 +68,7 @@
         <hr>
 
         <section id="services">
-            <section class="container-1080 fade-in subscription-plans">
+            <section class="container-1080 fade-in subscription-plans margin-bottom-4">
                 <h2 class="heading-1">Subscribe</h2>
                 <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
                 <?php include 'includes/subscription-plans.php';?>

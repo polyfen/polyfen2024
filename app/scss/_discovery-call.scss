@@ -14,6 +14,7 @@
     max-width: 540px;
     margin: 0 auto;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .boris-container img.portrait {
@@ -26,6 +27,8 @@
     transform: scale(1);
     -webkit-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .boris-bio h2 {
@@ -55,7 +58,13 @@
     .boris-container {
         flex-direction: row;
         gap: 20px;
-        margin-bottom: unset
+        margin-bottom: unset;
+        text-align: unset;
+    }
+
+    .boris-container img.portrait {
+        margin-left: unset;
+        margin-right: unset;
     }
 
 }

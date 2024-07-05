@@ -83,3 +83,20 @@
     align-content: center;
     margin-top:12px;
 }
+
+.task-examples ul {
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px){
+    .task-examples ul {
+        margin-bottom: 0;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    .subscription-value-props .row {
+        margin-bottom: 2rem;
+    }
+}

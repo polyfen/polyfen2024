@@ -41,12 +41,21 @@ img.partner-portrait {
         margin-left: unset;
         margin-right: unset;
     }
+    .board-members .row .col .row div {
+        text-align: unset;
+    }
 }
 
 .board-members-social {
     display: block;
     margin-bottom: 1.5rem;
     margin-top: 1rem;
+}
+
+.plat-section h2 {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (min-width: 900px) {

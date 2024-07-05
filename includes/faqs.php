@@ -1,6 +1,6 @@
 <!-- Do NOT forget to add the script on the page where will be used -->
 <section class="faqs container-1080 fade-in">
-            <h2 id="faq" class="heading-2 align-center">Frequently Asked Questions</h2>
+            <h2 id="faq" class="heading-2 align-center">Frequently<br>Asked Questions</h2>
             <div class="container-700 accordions-container">
                 <div class="accordion fade-in">
                     <div class="acc-button">

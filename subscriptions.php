@@ -61,8 +61,8 @@
     <main class="subscriptions-main">
 
         <section class="subscription-plans container-1080 fade-in">
-            <h1 id="plans" class="caption align-center uppercase">Subscriptions</h1>
-            <h2 class="heading-1 align-center">Affordable All-in-One<br>Plans For Startups</h2>
+            <h1 id="plans" class="caption align-center uppercase margin-bottom-1">Subscriptions</h1>
+            <h2 class="heading-1 align-center margin-bottom-4">Affordable All-in-One<br>Plans For Startups</h2>
 
             <!-- toggle button -->
             <div class="toggle-container fade-in">
@@ -88,26 +88,7 @@
         <section class="container-1080">
                 <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
                 <div class="row" style="gap:60px;">
-                        <div class="slack-mockup fade-in">
-                                <img src="imgs/slack-mockup-01.webp" alt="">
-                                <img src="imgs/slack-mockup-02.webp" alt="">
-                                <img src="imgs/slack-mockup-03.webp" alt="">
-                                <img src="imgs/slack-mockup-04.webp" alt="">
-                        </div>
-                        <script>
-                                document.addEventListener('DOMContentLoaded', (event) => {
-                                        const images = document.querySelectorAll('.slack-mockup img');
-                                        let currentImageIndex = 0;
-
-                                        function showNextImage() {
-                                        images[currentImageIndex].style.display = 'none'; // Hide the current image
-                                        currentImageIndex = (currentImageIndex + 1) % images.length; // Move to the next image
-                                        images[currentImageIndex].style.display = 'block'; // Show the next image
-                                        }
-
-                                        setInterval(showNextImage, 4000); // Change image every 3 seconds
-                                });
-                                </script>
+                        <?php include 'includes/slack-mockup.php';?>
                         <div class="fade-in task-examples" alt="">
                                 <h3 class="caption uppercase" style="margin-bottom:1.5rem;">Some Examples</h3>
                                 <div class="row">
@@ -173,7 +154,7 @@
         <hr>
 
         <section class="container-1080 subscription-value-props">
-                <h2 class="align-center fade-in">What You're Getting</h2>
+                <h2 class="align-center fade-in margin-bottom-4">What You're Getting</h2>
                 <div class="row">
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/flag.svg"></div>
