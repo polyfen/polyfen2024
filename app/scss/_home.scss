@@ -20,12 +20,21 @@
 }
 
 .home-cover {
-    padding-top: 100px;
+    padding-top: 20px;
+}
+
+.home-cover h1, .home-cover p {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media screen and (min-width: 768px) {
     .home-cover {
         padding-top: unset;
+    }
+    .home-cover h1, .home-cover p {
+        padding-left: unset;
+        padding-right: unset;
     }
 }
 
