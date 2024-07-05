@@ -103,9 +103,9 @@ body:where(.dark-mode) * {
 /* | |_| |/ _ \ | |/ _ \ _____| '_ \ / _` | '__| */
 /* |  _  |  __/ | | (_) |_____| |_) | (_| | |    */
 /* |_| |_|\___|_|_|\___/      |_.__/ \__,_|_|    */
-/* hello-bar ------------------------------------*/
+/* hellobar ------------------------------------*/
 
-.hello-bar {
+.hellobar {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -117,18 +117,18 @@ body:where(.dark-mode) * {
     z-index: 40;
 }
 
-.hello-bar a.button {
+.hellobar a.button {
     margin: unset;
 }
 
 @media (min-width: 750px) {
-    div.hello-bar {
+    div.hellobar {
         height: 50px;
         flex-direction: row;
         gap: 20px;
     }
 }
-/* END Hello-Bar */
+/* END hellobar */
 
 /*  _   _    ___     _____ ____    _  _____ ___ ___  _   _  */
 /* | \ | |  / \ \   / /_ _/ ___|  / \|_   _|_ _/ _ \| \ | | */

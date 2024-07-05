@@ -31,18 +31,16 @@
 
 </head>
 
-<body class="home dark-mode">
+<body class="dark-mode polyfen-site home">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
-
-    <div id="home-border-top"></div>
+    <!-- INCLUDE hellobar.PHP start -->
+    <?php include 'includes/hellobar.php';?>
+    <!-- INCLUDE hellobar.PHP end -->
     
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
@@ -51,10 +49,10 @@
     <!-- Home page start -->
     <main class="home-main fade-in">
         <section class="home-cover">
-            <h1 class="title-1">Unleash your<br>business full potential</h1>
-            <p>Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
-            <a class="button large-button animated-button" href="/discovery-call">Book a Call</a>
-            <a class="button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
+            <h1 class="title-1 align-center">Unleash your<br>business full potential</h1>
+            <p class="align-center margin-auto">Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
+            <a class="button large-button cta-button" href="/discovery-call">Book a Call</a>
+            <a class="button large-button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
 
             <div class="background">
                 <div id="pearl-11" class="pearl rotate-slower fade-in">
@@ -66,11 +64,11 @@
             </div>
         </section>
         
-        <?php include 'includes/accolades.php';?>
+        <?php include 'includes/clients.php';?>
         <hr>
 
         <section id="services">
-            <section class="container-1080 fade-in subscribe-section">
+            <section class="container-1080 fade-in subscription-plans margin-bottom-4">
                 <h2 class="heading-1">Subscribe</h2>
                 <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
                 <?php include 'includes/subscription-plans.php';?>
@@ -78,29 +76,29 @@
             </section>
             <section class="build container-1080 fade-in">
                 <h2 class="heading-1">Build</h2>
-                <div class="cards-container">
-                    <section class="services-card fade-in">
+                <div class="row">
+                    <section class="card fade-in">
                         <h3 class="heading-2">Brand</h3>
                         <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="">
-                        <h4 class="caption">Starting at</h4>
+                        <h4 class="caption uppercase">Starting at</h4>
                         <h4 class="heading-3">$7,600</h4>
-                        <h4 class="caption">2-3 weeks</h4>
+                        <h4 class="caption uppercase">2-3 weeks</h4>
                     </section>
 
-                    <section class="services-card fade-in">
+                    <section class="card fade-in">
                         <h3 class="heading-2">Website</h3>
                         <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="">
-                        <h4 class="caption">Starting at</h4>
+                        <h4 class="caption uppercase">Starting at</h4>
                         <h4 class="heading-3">$7,800</h4>
-                        <h4 class="caption">3-6 weeks</h4>
+                        <h4 class="caption uppercase">3-6 weeks</h4>
                     </section>
 
-                    <section class="services-card fade-in">
+                    <section class="card fade-in">
                         <h3 class="heading-2">App</h3>
                         <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
-                        <h4 class="caption">Starting at</h4>
+                        <h4 class="caption uppercase">Starting at</h4>
                         <h4 class="heading-3">$39,000</h4>
-                        <h4 class="caption">2-6 months</h4>
+                        <h4 class="caption uppercase">2-6 months</h4>
                     </section>
                 </div>
             </section>
@@ -108,19 +106,19 @@
 
         <hr>
 
-        <section class="container-1080 row subscription-value-props">
-            <div class="col fade-in">
-                <div class="value-img"><img src="/imgs/icons/hand-coins.svg"></div>
+        <section class="row container-1080">
+            <div class="icon-value-prop col fade-in">
+                <div class="icon-container"><img src="/imgs/icons/hand-coins.svg"></div>
                 <h3>Low Cost,<br>High Value</h3>
                 <p>Our remote business model<br>passes the savings onto you.</p>
             </div>
-            <div class="col fade-in">
-                <div class="value-img"><img src="/imgs/icons/shield-chevron.svg"></div>
+            <div class="icon-value-prop col fade-in">
+                <div class="icon-container"><img src="/imgs/icons/shield-chevron.svg"></div>
                 <h3>Wealth of<br>Experience</h3>
                 <p>Our partners accumulate 50+<br>years of indsutry experience.</p>
             </div>
-            <div class="col fade-in">
-                <div class="value-img"><img src="/imgs/icons/crown-simple.svg"></div>
+            <div class="icon-value-prop col fade-in">
+                <div class="icon-container"><img src="/imgs/icons/crown-simple.svg"></div>
                 <h3>End-to-End<br>Customer Service</h3>
                 <p>Our growing list of clients is<br>testimony that we go above and beyond.</p>
             </div>
@@ -130,12 +128,15 @@
         <?php include 'includes/portfolio-thumbnails.php';?>
     </main>
     <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-    <?php include 'includes/call-to-action.php';?>
+    <?php include 'includes/cta-section.php';?>
     <!-- INCLUDE CALL-TO-ACTION.PHP end -->
 
     <!-- INCLUDE FOOTER.PHP start -->
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
 
 </body>
 

@@ -41,7 +41,7 @@
 
 </head>
 
-<body class="subscriptions dark-mode">
+<body class="dark-mode polyfen-site subscriptions">
     <!-- ya hay un estilo del founder-social  que llama a este ID -->
 
     <!-- Google Tag Manager (noscript) -->
@@ -49,9 +49,9 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php';?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE hellobar.PHP start -->
+    <?php include 'includes/hellobar.php';?>
+    <!-- INCLUDE hellobar.PHP end -->
 
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php';?>
@@ -61,8 +61,8 @@
     <main class="subscriptions-main">
 
         <section class="subscription-plans container-1080 fade-in">
-            <h1 id="plans" class="caption align-center">Subscriptions</h1>
-            <h2 class="heading-1 align-center">Affordable All-in-One<br>Plans For Startups</h2>
+            <h1 id="plans" class="caption align-center uppercase margin-bottom-1">Subscriptions</h1>
+            <h2 class="heading-1 align-center margin-bottom-4">Affordable All-in-One<br>Plans For Startups</h2>
 
             <!-- toggle button -->
             <div class="toggle-container fade-in">
@@ -81,35 +81,16 @@
 
         <hr>
 
-        <?php include 'includes/accolades.php';?>
+        <?php include 'includes/clients.php';?>
 
         <hr>
 
         <section class="container-1080">
                 <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
                 <div class="row" style="gap:60px;">
-                        <div class="slack-mockup fade-in">
-                                <img src="imgs/slack-mockup-01.webp" alt="">
-                                <img src="imgs/slack-mockup-02.webp" alt="">
-                                <img src="imgs/slack-mockup-03.webp" alt="">
-                                <img src="imgs/slack-mockup-04.webp" alt="">
-                        </div>
-                        <script>
-                                document.addEventListener('DOMContentLoaded', (event) => {
-                                        const images = document.querySelectorAll('.slack-mockup img');
-                                        let currentImageIndex = 0;
-
-                                        function showNextImage() {
-                                        images[currentImageIndex].style.display = 'none'; // Hide the current image
-                                        currentImageIndex = (currentImageIndex + 1) % images.length; // Move to the next image
-                                        images[currentImageIndex].style.display = 'block'; // Show the next image
-                                        }
-
-                                        setInterval(showNextImage, 4000); // Change image every 3 seconds
-                                });
-                                </script>
+                        <?php include 'includes/slack-mockup.php';?>
                         <div class="fade-in task-examples" alt="">
-                                <h3 class="caption" style="margin-bottom:1.5rem;">Some Examples</h3>
+                                <h3 class="caption uppercase" style="margin-bottom:1.5rem;">Some Examples</h3>
                                 <div class="row">
                                         <div class="col fade-in">
                                                 <div class="task-example-type">
@@ -173,37 +154,37 @@
         <hr>
 
         <section class="container-1080 subscription-value-props">
-                <h2 class="align-center fade-in">What You're Getting</h2>
+                <h2 class="align-center fade-in margin-bottom-4">What You're Getting</h2>
                 <div class="row">
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/flag.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/flag.svg"></div>
                                 <h3>Fast-track<br>Onboarding</h3>
                                 <p>No contracts, no paperwork<br>hassle. Start today.</p>
                         </div>
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/cert.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/cert.svg"></div>
                                 <h3>Qualified<br>Experts</h3>
                                 <p>We have highly qualified<br>talent in your timezone.</p>
                         </div>
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/person.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/person.svg"></div>
                                 <h3>Devs, DevOps,<br>UX, & Designers</h3>
                                 <p>A full-blown team ready to<br>crush your tasks.</p>
                         </div>
                 </div>
                 <div class="row">
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/table.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/table.svg"></div>
                                 <h3>Client<br>Dashboard</h3>
                                 <p>Create and manage your<br>tasks with ease.</p>
                         </div>
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/chats.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/chats.svg"></div>
                                 <h3>Slack<br>Support</h3>
                                 <p>Quick response, realtime<br>assistance.</p>
                         </div>
-                        <div class="col fade-in">
-                                <div class="value-img"><img src="/imgs/icons/video-conference.svg"></div>
+                        <div class="icon-value-prop col fade-in">
+                                <div class="icon-container"><img src="/imgs/icons/video-conference.svg"></div>
                                 <h3>Videocall<br>Scheduler</h3>
                                 <p>Book a call with your<br>account manager.</p>
                         </div>
@@ -409,7 +390,7 @@
                 <div class="cta-content">
                     <div class="container-800">
                         <h2 class="heading-1 align-center">Affordable all-in-one<br>plans for startups</h2>
-                        <a data-button-arrow-up class="button large-button secondary-button" href="#plans">Subscribe Today</a>
+                        <a data-button-arrow-up class="button large-button cta-button" href="#plans">Subscribe Today</a>
                     </div>
                 </div>
             </div>
@@ -459,6 +440,11 @@
         this.classList.add('d-none');
     });
     </script>
+
+    <!-- POLYKIT Scripts -->
+    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
+
+
 </body>
 
 </html>

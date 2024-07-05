@@ -88,9 +88,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_REQUEST['confirm']) && $_R
     <!-- End Google Tag Manager (noscript) -->
 
 
-    <!-- INCLUDE HELLO-BAR.PHP start -->
-    <?php include 'includes/hello-bar.php'; ?>
-    <!-- INCLUDE HELLO-BAR.PHP end -->
+    <!-- INCLUDE hellobar.PHP start -->
+    <?php include 'includes/hellobar.php'; ?>
+    <!-- INCLUDE hellobar.PHP end -->
 
     <!-- INCLUDE HEADER.PHP start -->
     <?php include 'includes/header.php'; ?>

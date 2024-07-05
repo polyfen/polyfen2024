@@ -1,0 +1,60 @@
+@import "_footer";
+@import "_scroller";
+@import "_animations";
+@import "_clients-scroller";
+@import "_portfolio-scroller";
+@import "_team-scroller";
+@import "_services-cards";
+@import "_testimonials";
+@import "_cta-section";
+
+/* Pages */
+@import "_home";
+@import "_about";
+@import "_subscriptions";
+@import "_work";
+@import "_case-studies";
+@import "_contact";
+@import "_discovery-call";
+@import "_subscription-confirmed";
+
+iframe {
+    max-width: 100%;
+    border: none;
+}
+
+video {
+    width: 100%;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.vertical-hr {
+    width: 100% !important;
+}
+
+@media (min-width: 900px) {
+    .vertical-hr {
+        width: unset !important;
+    }
+}
+
+
+main {
+    padding-top: 2rem;
+}
