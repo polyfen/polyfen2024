@@ -44,7 +44,8 @@
     }
 
     img {
-        width: max-content;
+        height: auto;
+        width: 100px;
         margin: 0 auto 24px;
     }
     .caption {
@@ -71,9 +72,5 @@
     .secondary-services .button {
         margin-left: unset;
         margin-right: auto;
-    }
-
-    .build .card img {
-        object-fit: cover;
     }
 }

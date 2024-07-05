@@ -351,8 +351,8 @@ footer .tpg-logo-container {
   text-align: center;
 }
 .build .card img {
-  width: -moz-max-content;
-  width: max-content;
+  height: auto;
+  width: 100px;
   margin: 0 auto 24px;
 }
 .build .card .caption {
@@ -379,10 +379,6 @@ footer .tpg-logo-container {
   .secondary-services .button {
     margin-left: unset;
     margin-right: auto;
-  }
-  .build .card img {
-    -o-object-fit: cover;
-       object-fit: cover;
   }
 }
 /*  _              _    _                           _         _       */
