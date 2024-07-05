@@ -54,8 +54,6 @@
         <a href="https://thepolyfengroup.com/wiki/" target="_blank" class="mini">Team Wiki</a>
         <span>&vert;</span>
         <a href="https://thepolyfengroup.com/brand/" target="_blank" class="mini">Brand Guidelines</a>
-        <span>&vert;</span>
-        <a href="/newsletter" class="mini">Newsletter</a>
     </nav>
 
     <!-- scripts location call luxon-->
