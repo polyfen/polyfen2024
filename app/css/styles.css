@@ -430,7 +430,7 @@ blockquote p {
 }
 /* END Testimonials */
 section.cta-section {
-  background: radial-gradient(ellipse at top right, rgba(75, 0, 174, 0.431372549), rgba(75, 0, 174, 0.3803921569), rgba(75, 0, 174, 0.4705882353), rgba(64, 36, 127, 0.3882352941), rgba(209, 43, 148, 0.4392156863), rgba(242, 208, 175, 0.5843137255), rgba(75, 0, 174, 0.4), rgba(64, 36, 127, 0.431372549), rgba(64, 36, 127, 0.2588235294));
+  background: radial-gradient(ellipse at top right, rgba(75, 0, 174, 0.431372549), rgba(75, 0, 174, 0.3803921569), rgba(75, 0, 174, 0.4705882353), rgba(64, 36, 127, 0.3882352941), rgba(209, 43, 148, 0.4392156863), rgba(224, 208, 175, 0.5843137255), rgba(75, 0, 174, 0.4), rgba(64, 36, 127, 0.431372549), rgba(64, 36, 127, 0.2588235294));
   -webkit-backdrop-filter: blur(500px);
           backdrop-filter: blur(500px);
   padding: 0;
