@@ -122,7 +122,7 @@
         <hr>
         <section class="plat-section container fade-in">
             <h2 class="heading-2 align-center margin-bottom-4">We Wrote the Book on Branding</h2>
-            <div class="row">
+            <div class="row" style="gap:32px;">
                 <div class="col fade-in">
                     <img src="/imgs/about/poly-atlas-animation.gif" alt="">
                 </div>
@@ -136,7 +136,7 @@
         <hr>
         <section class="plck-section container fade-in">
             <h2 class="heading-2 align-center margin-bottom-4">We Made a Free Solution for Cookies Consent</h2>
-            <div class="row">
+            <div class="row" style="gap:32px;">
                 <div class="col fade-in">
                     <div class="video-container">
                         <iframe id="plcq-tutorial" width="560" height="315"
