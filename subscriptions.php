@@ -85,7 +85,7 @@
 
         <hr>
 
-        <section class="container-1080">
+        <section id="learn-more" class="container-1080">
                 <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
                 <div class="row" style="gap:60px;">
                         <?php include 'includes/slack-mockup.php';?>

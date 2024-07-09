@@ -73,7 +73,7 @@
                 <li>Pause or cancel any time</li>
             </ul>
             <a data-button-arrow class="button small-button start-today-button" href="#">Start Today</a>
-            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More</a>
+            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
     <div class="card featured-card fade-in" id="pro">
@@ -94,7 +94,7 @@
                 <li>Pause or cancel any time</li>
             </ul>
             <a data-button-arrow class="button small-button start-today-button" href="#">Start Today</a>
-            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More</a>
+            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
     </div>
