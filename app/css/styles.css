@@ -211,7 +211,7 @@ footer .tpg-logo-container {
   width: -moz-max-content;
   width: max-content;
   flex-wrap: nowrap;
-  animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+  animation: scroll var(--_animation-duration, 65s) var(--_animation-direction, forwards) linear infinite;
 }
 
 .scroller[data-direction=right] {
