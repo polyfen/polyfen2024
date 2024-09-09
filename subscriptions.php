@@ -159,34 +159,34 @@
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/flag.svg"></div>
                                 <h3>Fast-track<br>Onboarding</h3>
-                                <p>No contracts, no paperwork<br>hassle. Start today.</p>
+                                <p>No contracts, no paperwork hassle. Start today.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/cert.svg"></div>
                                 <h3>Qualified<br>Experts</h3>
-                                <p>We have highly qualified<br>talent in your timezone.</p>
+                                <p>We have highly qualified talent in your timezone.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/person.svg"></div>
                                 <h3>Devs, DevOps,<br>UX, & Designers</h3>
-                                <p>A full-blown team ready to<br>crush your tasks.</p>
+                                <p>A full-blown team ready to crush your tasks.</p>
                         </div>
                 </div>
                 <div class="row">
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/table.svg"></div>
                                 <h3>Client<br>Dashboard</h3>
-                                <p>Create and manage your<br>tasks with ease.</p>
+                                <p>Create and manage your tasks with ease.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/chats.svg"></div>
                                 <h3>Slack<br>Support</h3>
-                                <p>Quick response, realtime<br>assistance.</p>
+                                <p>Quick response, realtime assistance.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/video-conference.svg"></div>
                                 <h3>Videocall<br>Scheduler</h3>
-                                <p>Book a call with your<br>account manager.</p>
+                                <p>Book a call with your account manager.</p>
                         </div>
                 </div>
         </section>

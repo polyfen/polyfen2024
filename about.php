@@ -163,17 +163,17 @@
                 <div class="icon-value-prop col fade-in">
                     <div class="icon-container"><img src="/imgs/icons/globe.svg"></div>
                     <h3>Fully remote<br>since 2018</h3>
-                    <p>Our flexible work environment<br>attracts the best talent in the world.</p>
+                    <p>Our flexible work environment attracts the best talent in the world.</p>
                 </div>
                 <div class="icon-value-prop col fade-in">
                     <div class="icon-container"><img src="/imgs/icons/flask.svg"></div>
                     <h3>Excellence<br>through R&amp;D</h3>
-                    <p>We stay ahead exploring<br>the latest tech with in-house projects.</p>
+                    <p>We stay ahead exploring the latest tech with in-house projects.</p>
                 </div>
                 <div class="icon-value-prop col fade-in">
                     <div class="icon-container"><img src="/imgs/icons/dna.svg"></div>
                     <h3>Transparency<br>is in our DNA</h3>
-                    <p>Browse freely our <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>,<br><a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
+                    <p>Browse freely our <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>, <a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
                 </div>
             </section>
 
