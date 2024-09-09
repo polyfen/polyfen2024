@@ -60,12 +60,12 @@
     <!-- ABOUT page start -->
     <main>
 
-        <section class="about-cover container fade-in">
+        <section class="about-cover fade-in">
 
             <h1 class="caption align-center uppercase margin-bottom-1">About</h1>
-            <h2 class="heading-1 align-center margin-bottom-4">Where Design &amp; Development Click</h2>
+            <h2 class="title-2 align-center margin-bottom-4">Where Design &amp;<br>Development Click</h2>
 
-            <div class="row">
+            <div class="container row">
                 <div class="col">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
                 </div>
@@ -78,7 +78,7 @@
         </section>
         <hr>
         <section class="board-members container-1080 fade-in">
-            <h2 class="heading-2 align-center margin-bottom-4">Industry Leaders in<br>Creative &amp; Tech</h2>
+            <h2 class="heading-1 align-center margin-bottom-4">Industry Leaders in<br>Creative &amp; Tech</h2>
 
             <div class="row">
                 <div class="col">
@@ -121,7 +121,7 @@
         </section>
         <hr>
         <section class="plat-section container fade-in">
-            <h2 class="heading-2 align-center margin-bottom-4">We Wrote the Book on Branding</h2>
+            <h2 class="heading-1 align-center margin-bottom-4">We Wrote the Book on Branding</h2>
             <div class="row" style="gap:32px;">
                 <div class="col fade-in">
                     <img src="/imgs/about/poly-atlas-animation.gif" alt="">
@@ -135,7 +135,7 @@
         </section>
         <hr>
         <section class="plck-section container fade-in">
-            <h2 class="heading-2 align-center margin-bottom-4">We Made a Free Solution for Cookies Consent</h2>
+            <h2 class="heading-1 align-center margin-bottom-4">We Made a Free Solution for Cookies Consent</h2>
             <div class="row" style="gap:32px;">
                 <div class="col fade-in">
                     <div class="video-container">
@@ -157,7 +157,7 @@
 
         <section class="what-sets-us-apart container-1080 fade-in">
 
-            <h2 class="heading-2 align-center margin-bottom-4">What Sets us Apart</h2>
+            <h2 class="heading-1 align-center margin-bottom-4">What Sets us Apart</h2>
  
             <section class="row">
                 <div class="icon-value-prop col fade-in">
@@ -179,7 +179,7 @@
 
         </section>
         <hr>
-        <h2 class="heading-2 align-center margin-bottom-4">Exceptional Talent<br>that Sparks Innovation</h2>
+        <h2 class="heading-1 align-center margin-bottom-4">Exceptional Talent<br>that Sparks Innovation</h2>
         <?php include 'includes/team-slider.php';?>
     </main>
     <!-- ABOUT end -->

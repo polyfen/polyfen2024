@@ -62,7 +62,7 @@
 
         <section class="subscription-plans container-1080 fade-in">
             <h1 id="plans" class="caption align-center uppercase margin-bottom-1">Subscriptions</h1>
-            <h2 class="heading-1 align-center margin-bottom-4">Affordable All-in-One<br>Plans For Startups</h2>
+            <h2 class="title-2 align-center margin-bottom-4">Affordable All-in-One<br>Plans For Startups</h2>
 
             <!-- toggle button -->
             <div class="toggle-container fade-in">
@@ -86,7 +86,7 @@
         <hr>
 
         <section id="learn-more" class="container-1080">
-                <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
+                <h2 class="align-center heading-1 fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
                 <div class="row" style="gap:60px;">
                         <?php include 'includes/slack-mockup.php';?>
                         <div class="fade-in task-examples" alt="">
@@ -154,7 +154,7 @@
         <hr>
 
         <section class="container-1080 subscription-value-props">
-                <h2 class="align-center fade-in margin-bottom-4">What You're Getting</h2>
+                <h2 class="align-center heading-1 fade-in margin-bottom-4">What You're Getting</h2>
                 <div class="row">
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/flag.svg"></div>
@@ -194,7 +194,7 @@
         <hr>
 
         <section class="stack-section container-1080">
-            <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Solutions for<br>Every Stack</h2>
+            <h2 class="align-center heading-1 fade-in" style="margin-bottom: 4rem;">Solutions for<br>Every Stack</h2>
             <!-- Tech Stack for carrousel -->
             <div class="stack-carrousel">
                 <div class="carrousel-col">
@@ -373,7 +373,7 @@
 
         <hr>
 
-        <h2 class="align-center fade-in">World-class Design</h2>
+        <h2 class="align-center heading-1 fade-in">World-class Design</h2>
         <?php include 'includes/portfolio-thumbnails.php';?>
         
         <hr>
@@ -382,14 +382,14 @@
 
         <hr>
 
-        <h2 class="heading-2 align-center">Team of Experts<br>in Your Timezone</h2>
+        <h2 class="heading-1 align-center">Team of Experts<br>in Your Timezone</h2>
         <?php include 'includes/team-slider.php';?>
 
         <section class="cta-section">
             <div class="grain-texture">
                 <div class="cta-content">
                     <div class="container-800">
-                        <h2 class="heading-1 align-center">Affordable all-in-one<br>plans for startups</h2>
+                        <h2 class="title-2 align-center">Affordable all-in-one<br>plans for startups</h2>
                         <a data-button-arrow-up class="button large-button cta-button" href="#plans">Subscribe Today</a>
                     </div>
                 </div>

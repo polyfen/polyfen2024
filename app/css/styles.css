@@ -6,6 +6,11 @@ footer {
   padding: 24px 0 0 0;
   gap: 30px;
   background: var(--accent-color-900);
+  border-top: 2px solid var(--accent-color-30pct);
+}
+
+body:has(.cta-section) footer {
+  border-top: none;
 }
 
 @media (min-width: 1100px) {
@@ -445,6 +450,10 @@ section.cta-section {
   box-shadow: 0 8px 4px -4px rgba(0, 0, 0, 0.3);
 }
 
+body.landing-page .cta-button-view-plans {
+  display: none;
+}
+
 /* Pages */
 .home-cover p {
   max-width: 452px;
@@ -763,7 +772,7 @@ img.partner-portrait {
 }
 
 .plat-section h2 {
-  max-width: 400px;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
 }
