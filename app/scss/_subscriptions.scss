@@ -51,9 +51,7 @@
 .task-example-icon {
     width: 40px;
     height: 40px;
-    /* align-content: center; */
-    background-color: #120E32;
-    border: 1px solid #7437f850;
+    background-image: var(--accent-color-gradient);
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -97,6 +95,6 @@
 
 @media screen and (min-width: 768px){
     .subscription-value-props .row {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 }

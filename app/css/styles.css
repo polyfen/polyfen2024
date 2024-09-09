@@ -949,9 +949,7 @@ img.flag {
 .task-example-icon {
   width: 40px;
   height: 40px;
-  /* align-content: center; */
-  background-color: #120E32;
-  border: 1px solid rgba(116, 55, 248, 0.3137254902);
+  background-image: var(--accent-color-gradient);
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -995,7 +993,7 @@ img.flag {
 }
 @media screen and (min-width: 768px) {
   .subscription-value-props .row {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 }
 /* __        __         _                              */
