@@ -10,7 +10,7 @@
             <img src="./imgs/icons/github-icon.svg" alt="Github Icon" class="social_icon" /></a></li>
     </ul>
 
-    <section  class="times" aria-label="Information about our different time zones">
+    <section  class="times" aria-label="Our Timezones">
         <section aria-label="San Francisco time" data-timezone="US/Pacific">
             <img src="/imgs/flags/us.svg" class="country-flag" alt="">
             <small class="mini">San Francisco</small>
@@ -20,11 +20,6 @@
         <section aria-label="Mar del Plata time" data-timezone="America/Argentina/Buenos_Aires">
             <img src="/imgs/flags/ar.svg" class="country-flag" alt="">
             <small class="mini">Mar del Plata</small>
-            <output class="mini">00:00</output>
-        </section>
-        <section aria-label="Zagreb time" data-timezone="Europe/Belgrade">
-            <img src="/imgs/flags/hr.svg" class="country-flag" alt="">
-            <small class="mini">Zagreb</small>
             <output class="mini">00:00</output>
         </section>
     </section>
