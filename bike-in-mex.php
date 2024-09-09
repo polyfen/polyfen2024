@@ -64,8 +64,8 @@
 
     <main class="case-study-main container-1080">
 
-        <h1 class="heading-1 fade-in">Bike in Mex</h1>
-        <p class="project-p fade-in">We designed an identity focused on geometric illustrations inspired by ancient Aztec
+        <h1 class="title-1 fade-in margin-bottom-2">Bike in Mex</h1>
+        <p class="project-p fade-in margin-bottom-6">We designed an identity focused on geometric illustrations inspired by ancient Aztec
             and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop
             based in Tulum, Mexico.</p>
 
@@ -144,7 +144,7 @@
         <hr>
 
         <section class="other-projects-container fade-in">
-            <h2 class="heading-2 align-center" style="margin-bottom:4rem;">Other Projects</h2>
+            <h2 class="heading-1 align-center" style="margin-bottom:4rem;">Other Projects</h2>
 
             <div class="other-project-cards">
                 <div class="other-project-card fade-in">
