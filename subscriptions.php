@@ -167,7 +167,7 @@
                                 <p>We have highly qualified talent in your timezone.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
-                                <div class="icon-container"><img src="/imgs/icons/person.svg"></div>
+                                <div class="icon-container"><img src="/imgs/icons/person.svg" width="34px"></div>
                                 <h3>Devs, DevOps,<br>UX, & Designers</h3>
                                 <p>A full-blown team ready to crush your tasks.</p>
                         </div>
