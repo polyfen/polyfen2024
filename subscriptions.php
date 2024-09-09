@@ -95,7 +95,7 @@
                                         <div class="col fade-in">
                                                 <div class="task-example-type">
                                                         <div class="task-example-icon">
-                                                                <img src="imgs/icons/user-focus.svg" alt="" height="20px">
+                                                                <img src="imgs/icons/user-focus.svg" alt="" height="22px">
                                                         </div>
                                                         <h4 class="heading-5">UX</h4>
                                                 </div>
@@ -123,7 +123,7 @@
                                         <div class="col fade-in">
                                                 <div class="task-example-type">
                                                         <div class="task-example-icon">
-                                                                <img src="imgs/icons/code.svg" alt="" height="20px">
+                                                                <img src="imgs/icons/code.svg" alt="" height="22px">
                                                         </div>
                                                         <h4 class="heading-5">Development</h4>
                                                 </div>
@@ -136,7 +136,7 @@
                                         <div class="col fade-in">
                                         <div class="task-example-type pro">
                                                         <div class="task-example-icon">
-                                                                <img src="imgs/icons/infinity.svg" alt="" height="20px">
+                                                                <img src="imgs/icons/infinity.svg" alt="" height="24px">
                                                         </div>
                                                         <h4 class="heading-5">DevOps</h4>
                                                 </div>
