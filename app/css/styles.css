@@ -5,6 +5,7 @@ footer {
   justify-items: center;
   padding: 24px 0 0 0;
   gap: 30px;
+  background: var(--accent-color-900);
 }
 
 @media (min-width: 1100px) {
@@ -430,28 +431,10 @@ blockquote p {
 }
 /* END Testimonials */
 section.cta-section {
-  background: radial-gradient(ellipse at top right, rgba(75, 0, 174, 0.431372549), rgba(75, 0, 174, 0.3803921569), rgba(75, 0, 174, 0.4705882353), rgba(64, 36, 127, 0.3882352941), rgba(209, 43, 148, 0.4392156863), rgba(224, 208, 175, 0.5843137255), rgba(75, 0, 174, 0.4), rgba(64, 36, 127, 0.431372549), rgba(64, 36, 127, 0.2588235294));
-  -webkit-backdrop-filter: blur(500px);
-          backdrop-filter: blur(500px);
-  padding: 0;
-  background-attachment: fixed;
-  background-size: 200% 200%;
-  animation: gradient 10s ease infinite;
+  background: var(--accent-color-900);
+  border-top: 2px solid var(--accent-color-30pct);
+  padding-block: 80px 64px;
   margin-block: 100px 0px;
-}
-
-@media (min-width: 700px) {
-  div.grain-texture {
-    background: url(../../imgs/grain-texture.webp);
-  }
-}
-.cta-content {
-  background: linear-gradient(42deg, rgba(75, 0, 174, 0.0002), rgba(75, 0, 174, 0.0002), rgba(248, 208, 134, 0.011372549), rgba(209, 43, 148, 0.0156862745), rgba(209, 43, 148, 0.098431), rgba(171, 154, 245, 0.0188235294), rgba(16, 122, 236, 0.0282353), rgba(63, 36, 127, 0.0266666667), rgba(63, 36, 127, 0.0129411765));
-  -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
-  padding: 80px 0 100px;
-  background-size: 200% 200%;
-  animation: gradient 20s infinite;
 }
 
 .cta-section #landing-cta-button {
