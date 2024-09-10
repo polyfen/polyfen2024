@@ -85,7 +85,7 @@
                     <div class="row gap-2">
                         <img class="partner-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
                         <div>
-                            <h3 class="heading-2 margin-bottom-1">Boris<br>Hrnčić</h3>
+                            <h3 class="heading-2 margin-bottom-1">Boris Hrnčić</h3>
                             <h4 class="caption uppercase" style="margin-bottom: 1rem;">Founder &amp; CEO</h4>
                             <a class="board-members-social link" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
                         </div>
@@ -105,7 +105,7 @@
                     <div class="row gap-2">
                         <img class="partner-portrait" src="/imgs/rod-portrait.webp" alt="">
                         <div>
-                            <h3 class="heading-2 margin-bottom-1">Rodrigo<br>Gatica</h3>
+                            <h3 class="heading-2 margin-bottom-1">Rodrigo Gatica</h3>
                             <h4 class="caption uppercase" style="margin-bottom: 1rem;">Partner &amp; COO</h4>
                             <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn</a>
                         </div>

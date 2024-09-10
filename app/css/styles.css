@@ -765,6 +765,9 @@ img.partner-portrait {
   .board-members .row .col .row div {
     text-align: unset;
   }
+  .board-members h3 {
+    max-width: 140px;
+  }
 }
 .board-members-social {
   display: block;
@@ -992,11 +995,10 @@ img.flag {
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 768px) {
-  .subscription-value-props .row {
-    margin-bottom: 1rem;
-  }
+.subscription-value-props .row {
+  margin-bottom: 1rem;
 }
+
 .secondary-services hr {
   border-color: var(--accent-color-30pct);
 }

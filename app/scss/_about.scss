@@ -44,7 +44,12 @@ img.partner-portrait {
     .board-members .row .col .row div {
         text-align: unset;
     }
+    .board-members h3 {
+        max-width: 140px;
+    }
 }
+
+
 
 .board-members-social {
     display: block;
