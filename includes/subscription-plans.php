@@ -61,7 +61,7 @@
         <div class="card-header">
             <h3 class="heading-2">Starter</h3>
             <h4 class="heading-3">$</h4>
-            <small class="caption uppercase">/Month</small>
+            <small class="caption uppercase font-weight-400">/Month</small>
         </div>
         <div class="card-body">
             <ul class="hanging-list checkmark-bullet">
@@ -80,7 +80,7 @@
         <div class="card-header">
             <h3 class="heading-2">Pro</h3>
             <h4 class="heading-3">$</h4>
-            <small class="caption uppercase">/Month</small>
+            <small class="caption uppercase font-weight-400">/Month</small>
             <small class="card-label mini">Popular</small>
         </div>
         <div class="card-body">
