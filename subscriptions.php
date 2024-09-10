@@ -62,7 +62,7 @@
 
         <section class="subscription-plans container-1080 fade-in">
             <h1 id="plans" class="caption align-center uppercase margin-bottom-1">Subscriptions</h1>
-            <h2 class="title-2 align-center margin-bottom-4">Affordable All-in-One<br>Plans For Startups</h2>
+            <h2 class="title-2 align-center margin-bottom-4">Affordable All-in-One Plans For Startups</h2>
 
             <!-- toggle button -->
             <div class="toggle-container fade-in">
