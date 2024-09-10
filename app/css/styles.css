@@ -750,14 +750,14 @@ div.pearl {
 
 img.partner-portrait {
   max-width: 200px;
-  border-radius: 12px;
+  border-radius: 18px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (min-width: 900px) {
   img.partner-portrait {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     margin-left: unset;
     margin-right: unset;
   }
@@ -906,7 +906,7 @@ img.flag {
 
 @media screen and (min-width: 768px) {
   .security-caption {
-    margin-top: 8px;
+    margin-top: 16px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -996,6 +996,10 @@ img.flag {
     margin-bottom: 1rem;
   }
 }
+.secondary-services hr {
+  border-color: var(--accent-color-30pct);
+}
+
 /* __        __         _                              */
 /* \ \      / /__  _ __| | __  _ __   __ _  __ _  ___  */
 /*  \ \ /\ / / _ \| '__| |/ / | '_ \ / _` |/ _` |/ _ \ */
@@ -1240,7 +1244,7 @@ img.contact-flag {
   width: 100%;
   max-width: 180px;
   height: auto;
-  border-radius: 12px;
+  border-radius: 18px;
   margin-bottom: 20px;
   transform: scale(1);
   transition: 0.2s ease-in-out;

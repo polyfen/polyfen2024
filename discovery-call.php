@@ -55,12 +55,12 @@
     <main class="discovery-main">
         <h1 class="title-2 align-center fade-in margin-bottom-6">Book a Discovery Call</h1>
 
-        <section class="boris-container container fade-in">
+        <section class="boris-container container fade-in gap-2">
             <div class="boris-portrait">
                 <img id="boris-portrait" src="imgs/rod-portrait.webp" alt="" loading="lazy" class="portrait">
             </div>
             <div class="boris-bio">
-                <h2 class="heading-4">Rodrigo Gatica</h2>
+                <h2 class="heading-3">Rodrigo Gatica</h2>
                 <h3 class="caption uppercase" style="opacity: 0.8;">Partner &amp; COO</h3>
                 <p>
                     Tell us about your project.<br>

@@ -82,15 +82,15 @@
 
             <div class="row">
                 <div class="col">
-                    <div class="row">
+                    <div class="row gap-2">
                         <img class="partner-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
                         <div>
-                            <h3 class="heading-4">Boris Hrnčić</h3>
+                            <h3 class="heading-2 margin-bottom-1">Boris<br>Hrnčić</h3>
                             <h4 class="caption uppercase" style="margin-bottom: 1rem;">Founder &amp; CEO</h4>
                             <a class="board-members-social link" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
                         </div>
                     </div>
-                    <ul class="hanging-list arrow-bullets spaced-list">
+                    <ul class="hanging-list spaced-list">
                         <li class="fade-in">Coding since 2008 and designing brands since 2010.
                         </li>
                         <li class="fade-in">Vetted in the top 3% of designers worldwide by
@@ -102,15 +102,15 @@
                     </ul>
                 </div>
                 <div class="col">
-                    <div class="row">
+                    <div class="row gap-2">
                         <img class="partner-portrait" src="/imgs/rod-portrait.webp" alt="">
                         <div>
-                            <h3 class="heading-4">Rodrigo Gatica</h3>
+                            <h3 class="heading-2 margin-bottom-1">Rodrigo<br>Gatica</h3>
                             <h4 class="caption uppercase" style="margin-bottom: 1rem;">Partner &amp; COO</h4>
                             <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn</a>
                         </div>
                     </div>
-                    <ul class="hanging-list arrow-bullets spaced-list">
+                    <ul class="hanging-list spaced-list">
                         <li class="fade-in">Managing projects since 2016 and recruiting tech talent since 2018.</li>
                         <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
                         <li class="fade-in">Ran operations at companies going through hypergrowth.</li>

@@ -30,14 +30,14 @@
 
 img.partner-portrait {
     max-width: 200px;
-    border-radius: 12px;
+    border-radius: 18px;
     margin-left: auto;
     margin-right: auto;
 }
 
 @media (min-width: 900px) {
     img.partner-portrait {
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
         margin-left: unset;
         margin-right: unset;
     }

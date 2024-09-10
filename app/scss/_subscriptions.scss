@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 768px){
     .security-caption {
-        margin-top: 8px;
+        margin-top: 16px;
         display: flex;
         flex-direction: row;
         gap: 10px;
@@ -97,4 +97,8 @@
     .subscription-value-props .row {
         margin-bottom: 1rem;
     }
+}
+
+.secondary-services hr {
+    border-color: var(--accent-color-30pct);
 }
