@@ -363,7 +363,7 @@ footer .tpg-logo-container {
 }
 .build .card .caption {
   margin-bottom: 6px;
-  opacity: 0.6;
+  color: var(--dark-mode-text);
 }
 .build .card .heading-3 {
   margin-bottom: 8px;
