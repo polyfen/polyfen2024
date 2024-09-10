@@ -389,7 +389,7 @@
             <div class="grain-texture">
                 <div class="cta-content">
                     <div class="container-800">
-                        <h2 class="title-2 align-center">Affordable all-in-one<br>plans for startups</h2>
+                        <h2 class="title-2 align-center">Affordable all-in-one plans for startups</h2>
                         <a data-button-arrow-up class="button large-button cta-button" href="#plans">Subscribe Today</a>
                     </div>
                 </div>
