@@ -93,9 +93,7 @@
                     <ul class="hanging-list spaced-list">
                         <li class="fade-in">Coding since 2008 and designing brands since 2010.
                         </li>
-                        <li class="fade-in">Vetted in the top 3% of designers worldwide by
-                            <a href="https://toptal.com" target="_blank" rel="nofollow">Toptal</a> in
-                            2017.
+                        <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.
                         </li>
                         <li class="fade-in">Led high-performing teams at small start-ups and big
                             enterprises in Croatia, Argentina, and the US.</li>
