@@ -82,7 +82,7 @@
                         <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-auto">
                         <h4 class="caption uppercase font-weight-400">Starting at</h4>
                         <h4 class="heading-3">$7,600</h4>
-                        <h4 class="caption uppercase font-weight-400">2-3 weeks</h4>
+                        <h4 class="caption uppercase font-weight-400">3-8 weeks</h4>
                     </section>
 
                     <section class="card fade-in">
@@ -90,7 +90,7 @@
                         <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-auto">
                         <h4 class="caption uppercase font-weight-400">Starting at</h4>
                         <h4 class="heading-3">$7,800</h4>
-                        <h4 class="caption uppercase font-weight-400">3-6 weeks</h4>
+                        <h4 class="caption uppercase font-weight-400">4-12 weeks</h4>
                     </section>
 
                     <section class="card fade-in">
@@ -98,7 +98,7 @@
                         <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
                         <h4 class="caption uppercase font-weight-400">Starting at</h4>
                         <h4 class="heading-3">$39,000</h4>
-                        <h4 class="caption uppercase font-weight-400">2-6 months</h4>
+                        <h4 class="caption uppercase font-weight-400">3-6 months</h4>
                     </section>
                 </div>
             </section>
