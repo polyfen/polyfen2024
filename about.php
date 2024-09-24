@@ -78,7 +78,7 @@
         </section>
         <hr>
         <section class="board-members container-1080 fade-in">
-            <h2 class="heading-1 align-center margin-bottom-4">Industry Leaders in<br>Creative &amp; Tech</h2>
+            <h2 class="heading-1 align-center margin-bottom-4">Industry Leaders in<br>Tech &amp; Creative</h2>
             <div class="row">
                 <div class="col">
                     <div class="row gap-2">
