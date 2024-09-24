@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Polyfen | Creative & Software Boutique</title>
+    <title>Polyfen | Software & Creative Studio</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
@@ -11,10 +11,10 @@
     <!-- PAGE-SPECIFIC META start -->
     <meta name="robots" content="index, follow">
     <meta property="og:url" content="https://polyfen.com">
-    <meta property="og:title" content="Polyfen | Creative & Software Boutique">
-    <meta name="twitter:title" content="Polyfen | Creative Software Boutique">
-    <meta name="description" property="og:description" content="Creative & software boutique empowering US businesses with design, marketing, and engineering since 2018.">
-    <meta name="twitter:description" content="Creative & software boutique empowering US businesses with design, marketing, and engineering since 2018.">
+    <meta property="og:title" content="Polyfen | Software & Creative Studio">
+    <meta name="twitter:title" content="Polyfen | Software & Creative Studio">
+    <meta name="description" property="og:description" content="Software & creative studio empowering US businesses with design and engineering services since 2018.">
+    <meta name="twitter:description" content="Software & creative studio empowering US businesses with design and engineering services since 2018.">
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
@@ -50,7 +50,7 @@
     <main class="home-main fade-in">
         <section class="home-cover">
             <h1 class="title-1 align-center">Unleash your<br>business full potential</h1>
-            <p class="align-center margin-auto">Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
+            <p class="align-center margin-auto">Software & creative studio empowering US businesses with design and engineering services since 2018.</p>
             <a class="button large-button cta-button" href="/discovery-call">Book a Call</a>
             <a data-button-arrow-down class="button large-button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
 
