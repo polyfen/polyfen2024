@@ -79,14 +79,28 @@
         <hr>
         <section class="board-members container-1080 fade-in">
             <h2 class="heading-1 align-center margin-bottom-4">Industry Leaders in<br>Creative &amp; Tech</h2>
-
             <div class="row">
+                <div class="col">
+                    <div class="row gap-2">
+                        <img class="partner-portrait" src="/imgs/rod-portrait.webp" alt="">
+                        <div>
+                            <h3 class="heading-2 margin-bottom-1">Rodrigo Gatica</h3>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">CEO &amp; Cofounder</h4>
+                            <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+                    <ul class="hanging-list spaced-list">
+                        <li class="fade-in">Managing projects since 2016 and recruiting tech talent since 2018.</li>
+                        <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
+                        <li class="fade-in">Ran operations at companies going through hypergrowth.</li>
+                    </ul>
+                </div>
                 <div class="col">
                     <div class="row gap-2">
                         <img class="partner-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
                         <div>
                             <h3 class="heading-2 margin-bottom-1">Boris Hrnčić</h3>
-                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Founder &amp; CEO</h4>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Chief Design Officer &amp; Cofounder</h4>
                             <a class="board-members-social link" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
                         </div>
                     </div>
@@ -99,23 +113,7 @@
                             enterprises in Croatia, Argentina, and the US.</li>
                     </ul>
                 </div>
-                <div class="col">
-                    <div class="row gap-2">
-                        <img class="partner-portrait" src="/imgs/rod-portrait.webp" alt="">
-                        <div>
-                            <h3 class="heading-2 margin-bottom-1">Rodrigo Gatica</h3>
-                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Partner &amp; COO</h4>
-                            <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn</a>
-                        </div>
-                    </div>
-                    <ul class="hanging-list spaced-list">
-                        <li class="fade-in">Managing projects since 2016 and recruiting tech talent since 2018.</li>
-                        <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
-                        <li class="fade-in">Ran operations at companies going through hypergrowth.</li>
-                    </ul>
-                </div>
             </div>
-
         </section>
         <hr>
         <section class="plat-section container fade-in">

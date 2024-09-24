@@ -61,7 +61,7 @@
             </div>
             <div class="boris-bio">
                 <h2 class="heading-3">Rodrigo Gatica</h2>
-                <h3 class="caption uppercase" style="opacity: 0.8;">Partner &amp; COO</h3>
+                <h3 class="caption uppercase" style="opacity: 0.8;">CEO &amp; Cofounder</h3>
                 <p>
                     Tell us about your project.<br>
                     Learn what we can do for you.<br>
