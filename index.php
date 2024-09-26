@@ -106,21 +106,24 @@
 
         <hr>
 
-        <section class="row container-1080">
-            <div class="icon-value-prop col fade-in">
-                <div class="icon-container"><img src="/imgs/icons/hand-coins.svg"></div>
-                <h3>Low Cost,<br>High Value</h3>
-                <p>Our remote business model passes the savings onto you.</p>
-            </div>
-            <div class="icon-value-prop col fade-in">
-                <div class="icon-container"><img src="/imgs/icons/shield-chevron.svg"></div>
-                <h3>Wealth of<br>Experience</h3>
-                <p>Our partners accumulate 50+ years of indsutry experience.</p>
-            </div>
-            <div class="icon-value-prop col fade-in">
-                <div class="icon-container"><img src="/imgs/icons/crown-simple.svg"></div>
-                <h3>End-to-End<br>Customer Service</h3>
-                <p>Our growing list of clients is testimony that we go above and beyond.</p>
+        <section class="container-1080">
+            <h2 class="heading-1 align-center margin-bottom-4">What You're Getting</h2>
+            <div class="row">
+                <div class="icon-value-prop col fade-in">
+                    <div class="icon-container"><img src="/imgs/icons/hand-coins.svg"></div>
+                    <h3>Low Cost,<br>High Value</h3>
+                    <p>Our remote business model passes the savings onto you.</p>
+                </div>
+                <div class="icon-value-prop col fade-in">
+                    <div class="icon-container"><img src="/imgs/icons/shield-chevron.svg"></div>
+                    <h3>Owner-<br>Managed</h3>
+                    <p>Our founders are immersed in every project to ensure client satisfaction.</p>
+                </div>
+                <div class="icon-value-prop col fade-in">
+                    <div class="icon-container"><img src="/imgs/icons/crown-simple.svg"></div>
+                    <h3>End-to-End<br>Customer Service</h3>
+                    <p>Our growing list of clients is testimony that we go above and beyond.</p>
+                </div>
             </div>
         </section>
 
