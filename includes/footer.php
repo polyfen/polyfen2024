@@ -16,7 +16,11 @@
             <small class="mini">San Francisco</small>
             <output class="mini">00:00</output>
         </section>
-
+        <section aria-label="Delaware time" data-timezone="US/Eastern">
+            <img src="/imgs/flags/us.svg" class="country-flag" alt="">
+            <small class="mini">Delaware</small>
+            <output class="mini">00:00</output>
+        </section>
         <section aria-label="Mar del Plata time" data-timezone="America/Argentina/Buenos_Aires">
             <img src="/imgs/flags/ar.svg" class="country-flag" alt="">
             <small class="mini">Mar del Plata</small>
