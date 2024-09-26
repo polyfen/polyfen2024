@@ -107,7 +107,7 @@
         <hr>
 
         <section class="container-1080">
-            <h2 class="heading-1 align-center margin-bottom-4">What You're Getting</h2>
+            <h2 class="heading-1 align-center margin-bottom-4 fade-in">What You're Getting</h2>
             <div class="row">
                 <div class="icon-value-prop col fade-in">
                     <div class="icon-container"><img src="/imgs/icons/hand-coins.svg"></div>
