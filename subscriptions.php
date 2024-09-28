@@ -179,7 +179,7 @@
                                 <p>Create and manage your tasks with ease.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
-                                <div class="icon-container"><img src="/imgs/icons/chats.svg"></div>
+                                <div class="icon-container"><img src="/imgs/icons/slack.svg"></div>
                                 <h3>Slack<br>Support</h3>
                                 <p>Quick response, realtime assistance.</p>
                         </div>
