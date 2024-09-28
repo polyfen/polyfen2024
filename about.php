@@ -150,7 +150,7 @@
 
         <hr>
 
-        <section class="what-sets-us-apart container-1080 fade-in">
+        <section class="what-sets-us-apart container-900 fade-in">
 
             <h2 class="heading-1 align-center margin-bottom-4">What Sets us Apart</h2>
  
