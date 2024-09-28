@@ -86,7 +86,7 @@
                         <div>
                             <h3 class="heading-2 margin-bottom-1">Rodrigo Gatica</h3>
                             <h4 class="caption uppercase" style="margin-bottom: 1rem;">CEO &amp; Cofounder</h4>
-                            <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn</a>
+                            <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn ↗</a>
                         </div>
                     </div>
                     <ul class="hanging-list spaced-list">
@@ -101,7 +101,7 @@
                         <div>
                             <h3 class="heading-2 margin-bottom-1">Boris Hrnčić</h3>
                             <h4 class="caption uppercase" style="margin-bottom: 1rem;">Chief Design Officer &amp; Cofounder</h4>
-                            <a class="board-members-social link" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn</a>
+                            <a class="board-members-social link" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn ↗</a>
                         </div>
                     </div>
                     <ul class="hanging-list spaced-list">
