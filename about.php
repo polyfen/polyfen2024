@@ -155,23 +155,30 @@
 
             <h2 class="heading-1 align-center margin-bottom-4">What Sets us Apart</h2>
  
-            <section class="row">
-                <div class="icon-value-prop col fade-in">
-                    <div class="icon-container"><img src="/imgs/icons/globe.svg"></div>
-                    <h3>Fully remote<br>since 2018</h3>
-                    <p>Our flexible work environment attracts the best talent in the world.</p>
-                </div>
-                <div class="icon-value-prop col fade-in">
-                    <div class="icon-container"><img src="/imgs/icons/flask.svg"></div>
-                    <h3>Excellence<br>through R&amp;D</h3>
-                    <p>We stay ahead exploring the latest tech with in-house projects.</p>
-                </div>
-                <div class="icon-value-prop col fade-in">
+            <div class="row gap-05">
+                <div class="icon-value-prop col fade-in margin-bottom-05">
                     <div class="icon-container"><img src="/imgs/icons/dna.svg"></div>
                     <h3>Transparency<br>is in our DNA</h3>
-                    <p>Browse freely our <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>, <a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
+                    <p>Within the team, with clients, and prostpects, we value speaking with candor. Learn more about us in our publicly available <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>, <a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
                 </div>
-            </section>
+                <div class="icon-value-prop col fade-in margin-bottom-05">
+                    <div class="icon-container"><img src="/imgs/icons/horizontal-line.svg"></div>
+                    <h3>Horizontal<br>Collaboration</h3>
+                    <p>Everyone is encouraged to reach out to team leaders proactively, no matter your role or seniority. We're just a Slack message away.</p>
+                </div>
+            </div>
+            <div class="row gap-05">
+                <div class="icon-value-prop col fade-in margin-bottom-05">
+                    <div class="icon-container"><img src="/imgs/icons/flask.svg"></div>
+                    <h3>Excellence<br>through R&amp;D</h3>
+                    <p>We invest roughly half of our resources into implementing the latest tech in digital products built by us, for us.</p>
+                </div>
+                <div class="icon-value-prop col fade-in margin-bottom-05">
+                    <div class="icon-container"><img src="/imgs/icons/globe.svg"></div>
+                    <h3>Fully remote<br>since 2018</h3>
+                    <p>Our flexible setup brings in top global talent. Found a perfect surf spot? Work from there and enjoy it as long as you want.</p>
+                </div>
+            </div>
 
         </section>
         <hr>
