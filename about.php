@@ -163,7 +163,7 @@
                 <div class="icon-value-prop col fade-in margin-bottom-05">
                     <div class="icon-container"><img src="/imgs/icons/horizontal-line.svg"></div>
                     <h3>Horizontal<br>Collaboration</h3>
-                    <p>Everyone is encouraged to reach out to team leaders proactively, no matter your role or seniority. We're just a Slack message away.</p>
+                    <p>Everyone is encouraged to reach out to team leaders proactively, no matter your role or seniority. We're all just a Slack message away.</p>
                 </div>
             </div>
             <div class="row gap-05">
