@@ -13,8 +13,8 @@
     <meta property="og:url" content="https://polyfen.com">
     <meta property="og:title" content="Polyfen | Software & Creative Studio">
     <meta name="twitter:title" content="Polyfen | Software & Creative Studio">
-    <meta name="description" property="og:description" content="Software & creative studio empowering US businesses with design and engineering solutions since 2018.">
-    <meta name="twitter:description" content="Software & creative studio empowering US businesses with design and engineering solutions since 2018.">
+    <meta name="description" property="og:description" content="Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.">
+    <meta name="twitter:description" content="Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.">
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
@@ -50,7 +50,7 @@
     <main class="home-main fade-in">
         <section class="home-cover">
             <h1 class="title-1 align-center">Unleash your<br>business full potential</h1>
-            <p class="align-center margin-auto">Software & creative studio empowering US businesses with design and engineering solutions since 2018.</p>
+            <p class="align-center margin-auto">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
             <a class="button large-button cta-button" href="/discovery-call">Book a Call</a>
             <a data-button-arrow-down class="button large-button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
 
