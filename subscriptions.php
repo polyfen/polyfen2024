@@ -155,7 +155,7 @@
 
         <section class="container-1080 subscription-value-props">
                 <h2 class="align-center heading-1 fade-in margin-bottom-4">What You're Getting</h2>
-                <div class="row">
+                <div class="row gap-05">
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/flag.svg"></div>
                                 <h3>Fast-track<br>Onboarding</h3>
@@ -172,7 +172,7 @@
                                 <p>A full-blown team ready to crush your tasks.</p>
                         </div>
                 </div>
-                <div class="row">
+                <div class="row gap-05">
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/table.svg"></div>
                                 <h3>Client<br>Dashboard</h3>
