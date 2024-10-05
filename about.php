@@ -109,7 +109,7 @@
                         </li>
                         <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.
                         </li>
-                        <li class="fade-in">Led high-performance teams in bootstrapped startups and well-stablished multinationals.</li>
+                        <li class="fade-in">Led high-performance teams in bootstrapped startups and well-established multinationals.</li>
                     </ul>
                 </div>
             </div>
