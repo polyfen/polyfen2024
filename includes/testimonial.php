@@ -5,7 +5,7 @@
             <blockquote>
                 <p>
                     Always a pleasure working with them. They are very professional
-                    and always deliver on time. Their work always exceeds expectations
+                    and always deliver on time. Their work always exceeds expectations.
                 </p>
             </blockquote>
             <figcaption>
