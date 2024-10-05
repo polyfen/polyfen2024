@@ -158,7 +158,7 @@
                 <div class="icon-value-prop col fade-in margin-bottom-05">
                     <div class="icon-container"><img src="/imgs/icons/dna.svg"></div>
                     <h3>Transparency<br>is in our DNA</h3>
-                    <p>Within the team, with clients, and prostpects, we value speaking with candor. Learn more about us in our publicly available <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>, <a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
+                    <p>Within the team, with clients, and prospects, we value speaking with candor. Learn more about us in our publicly available <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>, <a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
                 </div>
                 <div class="icon-value-prop col fade-in margin-bottom-05">
                     <div class="icon-container"><img src="/imgs/icons/horizontal-line.svg"></div>
