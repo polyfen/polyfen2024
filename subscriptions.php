@@ -164,7 +164,7 @@
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/cert.svg"></div>
                                 <h3>Qualified<br>Experts</h3>
-                                <p>We have highly qualified talent in your timezone.</p>
+                                <p>We screen rigorously and hire only the best.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/person.svg" width="34px"></div>
