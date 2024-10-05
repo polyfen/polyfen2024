@@ -85,7 +85,7 @@
                         <img class="partner-portrait" src="/imgs/rod-portrait.webp" alt="">
                         <div>
                             <h3 class="heading-2 margin-bottom-1">Rodrigo Gatica</h3>
-                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">CEO &amp; Cofounder</h4>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Chief Executive Officer &amp; Cofounder</h4>
                             <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn ↗</a>
                         </div>
                     </div>
