@@ -70,7 +70,7 @@
                 <li class="bold">Unlimited tasks by Devs,<br>UX, and Designers</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
-                <li>Pause or cancel any time</li>
+                <li>Pause or cancel anytime</li>
             </ul>
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
             <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
@@ -91,7 +91,7 @@
                 <li class="bold">Priority support</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
-                <li>Pause or cancel any time</li>
+                <li>Pause or cancel anytime</li>
             </ul>
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
             <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
