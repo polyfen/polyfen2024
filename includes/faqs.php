@@ -22,7 +22,7 @@
                     </div>
                     <div class="acc-panel">
                         <p>Yes, we can help build an entire app or MVP. Just submit what you need done and we'll get to
-                            work. We’ll slice your project into smaller tasks and kill them one by one. Or two at a
+                            work. We’ll slice your project into smaller tasks and crush them one by one. Or two at a
                             time, depending on your plan.</p>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         <h3 class="heading-4"><span>5. </span>What if I need more than 2 tasks at a time?</h3>
                     </div>
                     <div class="acc-panel">
-                        <p>We offer custom plans for companies that need to kill multiple tasks at the same time, please
+                        <p>We offer custom plans for companies that need to crush multiple tasks at the same time, please
                             contact us.</p>
                     </div>
                 </div>
