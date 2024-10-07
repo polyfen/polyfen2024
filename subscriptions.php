@@ -162,7 +162,7 @@
                                 <p>No contracts, no paperwork hassle. Start today.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
-                                <div class="icon-container"><img src="/imgs/icons/cert.svg"></div>
+                                <div class="icon-container"><img src="/imgs/icons/triangle.svg"></div>
                                 <h3>Top-tier<br>Talent</h3>
                                 <p>We screen rigorously and hire only the best.</p>
                         </div>
