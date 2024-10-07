@@ -117,12 +117,12 @@
                 <div class="icon-value-prop col fade-in">
                     <div class="icon-container"><img src="/imgs/icons/shield-chevron.svg"></div>
                     <h3>Owner-<br>Managed</h3>
-                    <p>Our founders are immersed in every project to ensure client satisfaction.</p>
+                    <p>Our founders get involved in projects to ensure client satisfaction.</p>
                 </div>
                 <div class="icon-value-prop col fade-in">
                     <div class="icon-container"><img src="/imgs/icons/crown-simple.svg"></div>
                     <h3>End-to-End<br>Customer Service</h3>
-                    <p>Our growing list of clients is testimony that we go above and beyond.</p>
+                    <p>Our growing list of happy clients is testimony that we go above and beyond.</p>
                 </div>
             </div>
         </section>
