@@ -90,9 +90,9 @@
                         </div>
                     </div>
                     <ul class="hanging-list spaced-list">
-                        <li class="fade-in">Managing projects since 2016, recruiting tech talent since 2018.</li>
+                        <li class="fade-in">Leading projects since 2016, recruiting tech talent since 2018.</li>
                         <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
-                        <li class="fade-in">Ran operations at companies going through hypergrowth.</li>
+                        <li class="fade-in">Ran operations at companies in hypergrowth mode.</li>
                     </ul>
                 </div>
                 <div class="col">
