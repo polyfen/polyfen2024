@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Your Brand is Your Story | Polyfen</title>
+    <title>Your Brand is your Story | Polyfen</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
@@ -12,7 +12,7 @@
     <!-- PAGE-SPECIFIC META start -->
     <meta name="robots" content="index, follow">
     <meta property="og:url" content="https://polyfen.com/branding">
-    <meta property="og:title" content="Your Brand is Your Story">
+    <meta property="og:title" content="Your Brand is your Story">
     <meta name="description" property="og:description"
         content="Elevate your brand with expert strategy, design, and development. Book a call with Polyfen to build your story.">
     <meta name="keywords"
