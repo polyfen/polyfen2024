@@ -17,3 +17,15 @@ section.cta-section {
 body.landing-page .cta-button-view-plans {
     display: none;
 }
+
+.cta-section #branding-cta-heading {
+    display: none;
+}
+
+body.branding-page .cta-section #general-cta-heading {
+    display: none;
+}
+
+body.branding-page .cta-section #branding-cta-heading {
+    display: block;
+}
