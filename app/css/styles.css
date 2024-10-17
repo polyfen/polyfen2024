@@ -1379,6 +1379,10 @@ main {
   padding-top: 2rem;
 }
 
+.photo-icon-button::before {
+  background-image: url(../../imgs/photo-icon.png);
+}
+
 /*   ____ _           _   _           _    */
 /*  / ___| |__   __ _| |_| |__   ___ | |_  */
 /* | |   | '_ \ / _` | __| '_ \ / _ \| __| */
