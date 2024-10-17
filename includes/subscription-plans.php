@@ -21,13 +21,13 @@
     $qProLink = getenv('STRIPE_PRO_QUARTERLY_URL');
 
 
-    $starterPriceMonthly = '$4917';
+    $starterPriceMonthly = '$4,917';
     $starterStripeUrlMonthly = $mStarterLink;
-    $starterPriceQuarterly = '$3935';
+    $starterPriceQuarterly = '$3,935';
     $starterStripeUrlQuarterly = $qStarterLink;
-    $proPriceMonthly = '$8945';
+    $proPriceMonthly = '$8,945';
     $proStripeUrlMonthly = $mProLink;
-    $proPriceQuarterly = '$7156';
+    $proPriceQuarterly = '$7,156';
     $proStripeUrlQuarterly = $qProLink;
 ?>
 
