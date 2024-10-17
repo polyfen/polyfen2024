@@ -396,7 +396,8 @@ footer .tpg-logo-container {
 .testimonials-container {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  max-width: 400px;
+  margin-inline: auto;
 }
 
 .testimonials-container figure {
@@ -426,8 +427,8 @@ blockquote p {
 
 /* Home > Testimonial-section MediaQuery */
 @media (min-width: 768px) {
-  .testimonial {
-    width: 30%;
+  .testimonials-container {
+    max-width: unset;
   }
   .testimonials-container {
     flex-direction: row;
@@ -743,9 +744,6 @@ div.pearl {
 }
 
 @media (min-width: 768px) {
-  .about-cover .row {
-    flex-direction: row-reverse;
-  }
   .about-cover .row .col:first-child {
     display: flex;
     align-content: center;
@@ -1352,11 +1350,55 @@ body.subs-confirmed main {
     flex-direction: row-reverse;
   }
 }
+.branding-cover-background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.branding-cover-background .pearl {
+  display: block;
+  background-image: url(../../imgs/pearls/09.webp);
+  height: 400px;
+  width: 400px;
+  left: -320px;
+  top: 180px;
+}
+
+.branding-cover-background .pearl.pearl-right {
+  left: unset;
+  right: -320px;
+}
+
+@media (min-width: 900px) {
+  .branding-cover-background .pearl {
+    height: 600px;
+    width: 600px;
+    left: -300px;
+  }
+  .branding-cover-background .pearl.pearl-right {
+    left: unset;
+    right: -300px;
+  }
+}
 .branding-services-breakdown .card h3 {
-  max-width: 180px;
   display: flex;
   align-items: center;
-  height: 70px;
+  height: 54px;
+}
+
+.branding-services-breakdown .icon-container {
+  margin-bottom: 0;
+  height: 54px;
+  width: 54px;
+  border-radius: 100%;
+  padding: 8px;
+}
+
+.branding-services-breakdown .card .row {
+  flex-direction: row;
+  gap: 0.75rem;
 }
 
 .branding-page .col.card {
@@ -1365,6 +1407,27 @@ body.subs-confirmed main {
   height: fit-content;
 }
 
+.thought-leaders-section .col {
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+@media (min-width: 900px) {
+  .branding-services-breakdown .card h3 {
+    height: 70px;
+  }
+  .branding-services-breakdown .icon-container {
+    height: 70px;
+    width: 70px;
+  }
+  .branding-services-breakdown .card .row {
+    margin-bottom: 1rem;
+  }
+  .thought-leaders-section .col {
+    max-width: unset;
+    margin-inline: unset;
+  }
+}
 iframe {
   max-width: 100%;
   border: none;

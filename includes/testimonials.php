@@ -1,9 +1,8 @@
-<section class="testimonials container-1080 fade-in">
-    <h2 class="heading-1 align-center margin-bottom-4">Hear our Success Stories</h2>
-    <div class="testimonials-container">
-        <figure class="testimonial fade-in">
+    <div class="testimonials-container row gap-05">
+        <figure class="testimonial fade-in card card-with-padding col">
+            <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
             <blockquote>
-                <p>
+                <p class="caption">
                     Always a pleasure working with them. They are very professional
                     and always deliver on time. Their work always exceeds expectations.
                 </p>
@@ -15,9 +14,10 @@
 
         </figure>
 
-        <figure class="testimonial fade-in">
+        <figure class="testimonial fade-in card card-with-padding col">
+            <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
             <blockquote>
-                <p>
+                <p class="caption">
                     The final result was really great and had tons of
                     assets to use in different display formats.
                     We are super happy with our brand!
@@ -30,9 +30,10 @@
 
         </figure>
 
-        <figure class="testimonial fade-in">
+        <figure class="testimonial fade-in card card-with-padding col">
+            <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
             <blockquote>
-                <p>
+                <p class="caption">
                     Excellent skills and talent in project management, design, and branding.
                 </p>
             </blockquote>
@@ -43,5 +44,3 @@
 
         </figure>
     </div>
-
-</section>

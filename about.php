@@ -11,11 +11,11 @@
 
     <!-- PAGE-SPECIFIC META start -->
     <meta property="og:title" content="About | Polyfen">
-    <meta property="og:url" content="https://polyfen.com">
+    <meta property="og:url" content="https://polyfen.com/about">
     <meta name="keywords"
-        content="Creative agency, Development agency, Zagreb, Croatia, Austin, US, USA, Mar del Plata, Argentina, Full-service, Digital experiences, Business solutions, Owner-managed reliability, Remote business, End-to-end customer service, Flexible contract options, R&D innovation-oriented team, AI">
+        content="Creative agency, Development agency, Austin, US, USA, Nearshore, Full-service, Digital experiences, Business solutions, Owner-managed reliability, Remote business, End-to-end customer service, Flexible contract options, R&D innovation-oriented team, AI">
     <meta name="description" property="og:description"
-        content="Fully remote creative & development agency transforming businesses with exceptional digital experiences since 2018.">
+        content="We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/about-meta.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -25,7 +25,7 @@
     <meta name="twitter:creator" content="@PolyfenAgency">
     <meta name="twitter:title" content="About">
     <meta name="twitter:description"
-        content="Fully remote creative & development agency transforming businesses with exceptional digital experiences since 2018.">
+        content="We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/about-meta.png">
     <meta name="robots" content="index, follow">
     <!-- PAGE-SPECIFIC META end -->
@@ -65,7 +65,7 @@
             <h1 class="caption align-center uppercase margin-bottom-1">About</h1>
             <h2 class="title-2 align-center margin-bottom-4">Where Design &amp;<br>Development Click</h2>
 
-            <div class="container row">
+            <div class="container-1080 row">
                 <div class="col">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
                 </div>

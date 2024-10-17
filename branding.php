@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Branding Services | Polyfen</title>
+    <title>Your Brand is Your Story | Polyfen</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
@@ -12,16 +12,12 @@
     <!-- PAGE-SPECIFIC META start -->
     <meta name="robots" content="index, follow">
     <meta property="og:url" content="https://polyfen.com/branding">
-    <meta property="og:title" content="Branding Services">
-    <meta name="twitter:title" content="Branding Services">
+    <meta property="og:title" content="Your Brand is Your Story">
     <meta name="description" property="og:description"
-        content="#">
-    <meta name="twitter:description"
-        content="#">
+        content="Elevate your brand with expert strategy, design, and development. Book a call with Polyfen to build your story.">
     <meta name="keywords"
-        content="#">
+        content="branding, brand strategy, visual identity, logo design, brand architecture, creative concept, brand guidelines, brand touchpoints, brand storytelling, brand development, business branding, brand messaging, naming, brand design, brand identity design, creative direction, art direction, marketing strategy">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/branding.png">
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/branding.png">
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
@@ -54,8 +50,15 @@
     <main class="branding-main">
         <section class="branding-cover">
                 <h1 class="title-1 align-center fade-in">Your Brand<br><span class="color-accent">is your Story</span></h1>
-                <h2 class="heading-1 align-center font-weight-400 fade-in">Make it one worth telling</h2>
+                <h2 class="heading-1 align-center font-weight-400 fade-in">Make it one<br>worth telling</h2>
                 <a class="button large-button cta-button photo-icon-button fade-in" href="/discovery-call">Book a Call</a>
+
+                <div class="branding-cover-background">
+                        <div class="pearl rotate-slower fade-in">
+                        </div>
+                        <div class="pearl pearl-right rotate-slower fade-in">
+                        </div>
+                </div>
         </section>
 
         <hr>
@@ -65,31 +68,32 @@
         <hr>
 
         <section class="branding-services-breakdown">
-                <h2 class="heading-1 align-center margin-bottom-4 fade-in">We’ve got you covered<br>from Idea to Market</h2>
+                <h2 class="heading-1 align-center margin-bottom-4 fade-in">We’ve got you Covered<br>from Idea to Market</h2>
                 <div class="container-1080">
                         <div class="row gap-05">
                                 <div class="card card-with-padding fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/magnifying-glass.svg"></div>
-                                                <h3 class="heading-4">Market Research</h3>
+                                                <h3 class="heading-4">Market<br>Research</h3>
                                         </div>
                                         <ul class="hanging-list">
                                                 <li>Business analysis</li>
-                                                <li>Competitor analysis</li>
+                                                <li>Competition analysis</li>
                                                 <li>Market trends</li>
                                                 <li>Target audience</li>
-                                                <li>Customer personas</li>
-                                                <li>Customer journey</li>
+                                                <li>Buyer personas</li>
+                                                <li>Buyer's journey</li>
                                         </ul>
                                 </div>
                                 <div class="card card-with-padding fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/puzzle-piece.svg"></div>
-                                                <h3 class="heading-4">Brand Strategy</h3>
+                                                <h3 class="heading-4">Brand<br>Strategy</h3>
                                         </div>
                                         <ul class="hanging-list">
                                                 <li>Keywords</li>
                                                 <li>Creative concept</li>
+                                                <li>Moodboard</li>
                                                 <li>Naming</li>
                                                 <li>Brand architecture</li>
                                                 <li>Voice</li>
@@ -100,7 +104,7 @@
                                 <div class="card card-with-padding fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/pencil-circle.svg"></div>
-                                                <h3 class="heading-4">Visual Identity</h3>
+                                                <h3 class="heading-4">Visual<br>Identity</h3>
                                         </div>
                                         <ul class="hanging-list">
                                                 <li>Logo system</li>
@@ -120,7 +124,7 @@
                                 <div class="card card-with-padding fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/browsers.svg"></div>
-                                                <h3 class="heading-4">Web Development</h3>
+                                                <h3 class="heading-4">Web<br>Development</h3>
                                         </div>
                                         <ul class="hanging-list">
                                                 <li>Information architecture</li>
@@ -136,7 +140,7 @@
                                 <div class="card card-with-padding fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/storefront.svg"></div>
-                                                <h3 class="heading-4">Brand Touchpoints</h3>
+                                                <h3 class="heading-4">Brand<br>Touchpoints</h3>
                                         </div>
                                         <ul class="hanging-list">
                                                 <li>Social media profiles</li>
@@ -152,7 +156,7 @@
                                 <div class="card card-with-padding fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/book-bookmark.svg"></div>
-                                                <h3 class="heading-4">Brand Guidelines</h3>
+                                                <h3 class="heading-4">Brand<br>Guidelines</h3>
                                         </div>
                                         <p class="caption">Centralise all the documentation about how your brand should be used in a Brand Guidelines webpage.</p>
                                         <p class="caption">Share your logo files and assets seamlessly across your organization and with your partners network.</p>
@@ -172,25 +176,25 @@
         <hr>
 
         <section class="thought-leaders-section">
-                <h2 class="heading-1 align-center margin-bottom-4 fade-in">We wrote the<br>book on Branding</h2>
+                <h2 class="heading-1 align-center margin-bottom-4 fade-in">We Wrote the<br>Book on Branding</h2>
                 <div class="container-1080 row gap-4">
                         <div class="col">
-                                <img src="/imgs/about/poly-atlas-animation.gif" alt="" class="margin-bottom-2">
-                                <p>A step-by-step guide to the Branding process including practical tips, case studies, template files, and many other useful resources.</p>
+                                <img src="/imgs/about/poly-atlas-animation.gif" alt="" class="margin-bottom-2 fade-in">
+                                <p class="fade-in">A step-by-step guide to the Branding process including practical tips, case studies, template files, and many other useful resources.</p>
                                 <a class="button secondary-button fade-in margin-right-auto" href="https://www.linkedin.com/feed/update/urn:li:activity:7251959276586328064" target="_blank">Listen to AI Podcast ↗</a>
                                 <a class="button secondary-button fade-in margin-right-auto" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki ↗</a>
                         </div>
-                        <div class="col card card-with-padding">
+                        <div class="col card card-with-padding fade-in">
                                 <div class="row gap-1">
                                         <img class="partner-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
                                         <div>
-                                                <h3 class="heading-2 margin-bottom-1 margin-top-1">Boris Hrnčić</h3>
-                                                <h4 class="caption uppercase" style="margin-bottom: 1rem;">Chief Design Officer<br>&amp; Cofounder</h4>
-                                                <a class="board-members-social link" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn ↗</a>
+                                                <h3 class="heading-2 margin-bottom-1 margin-top-1 fade-in">Boris Hrnčić</h3>
+                                                <h4 class="caption uppercase fade-in" style="margin-bottom: 1rem;">Chief Design Officer<br>&amp; Cofounder</h4>
+                                                <a class="board-members-social link fade-in" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn ↗</a>
                                         </div>
                                 </div>
                         <ul class="hanging-list spaced-list">
-                                <li class="fade-in">Coding since 2008, designing since 2010.
+                                <li class="fade-in">Designing brands since 2010, coding since 2008.
                                 </li>
                                 <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.
                                 </li>
@@ -198,6 +202,14 @@
                         </ul>
                         </div>
                 </div>
+        </section>
+
+        <hr>
+
+
+        <section class="testimonials-section container-1080">
+            <h2 class="heading-1 align-center margin-bottom-4 fade-in">Elevating Brands,<br>One Client at a Time</h2>
+            <?php include 'includes/testimonials.php';?>
         </section>
 
         <!-- INCLUDE CALL-TO-ACTION.PHP start -->

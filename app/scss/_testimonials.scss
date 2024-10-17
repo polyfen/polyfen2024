@@ -8,7 +8,8 @@
 .testimonials-container {
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    max-width: 400px;
+    margin-inline: auto;
 }
 
 .testimonials-container figure {
@@ -40,8 +41,8 @@ blockquote p {
 
 /* Home > Testimonial-section MediaQuery */
 @media (min-width: 768px) {
-    .testimonial {
-        width: 30%;
+    .testimonials-container {
+        max-width: unset;
     }
 
     .testimonials-container {
