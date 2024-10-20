@@ -9,7 +9,7 @@
         <!----- CTA SECTION GENERAL SUBSCRIPTIONS ----->
         <div class="cta-section-content-subscriptions  flex-column-center">
             <h2 class="title-2 align-center">Give your business the power-up it needs</h2>
-            <a data-button-arrow-up class="button large-button cta-button cta-button-subscriptions margin-bottom-05" href="#subscribe-today">Subscribe Today</a>
+            <a data-button-arrow-up class="button large-button cta-button cta-button-subscriptions margin-bottom-05" href="#start-today">Start Today</a>
             <a class="button large-button secondary-button photo-button cta-button-book-call margin-bottom-05"  href="/discovery-call">Book Call</a>
         </div>
         <!----- CTA SECTION GENERAL BRANDING ----->

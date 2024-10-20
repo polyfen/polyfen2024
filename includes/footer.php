@@ -25,7 +25,6 @@
             <a href="/case-studies">Case Studies</a>
             <a href="/branding">Branding</a>
             <a href="/subscriptions">Subscriptions</a>
-            <a href="/contact">Contact</a>
         </nav>
     </div>
     <div class="social-links-container">

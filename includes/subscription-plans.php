@@ -65,11 +65,11 @@
         </div>
         <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
-                <li class="bold">1 task at a time</li>
-                <li class="bold">2-3 days turnaround</li>
+                <li>1 task at a time</li>
+                <li>2-3 days turnaround</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
-                <li class="bold">Unlimited tasks by Devs,<br>UX, and Designers</li>
+                <li>Unlimited tasks by Devs,<br>UX, and Designers</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
@@ -83,16 +83,16 @@
                 <h4 class="heading-3">$7,156</h4>
                 <small>/Month</small>
             </div>
-            <small class="label mini">Popular</small>
+            <small class="label mini">★ Most Popular</small>
         </div>
         <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
-                <li class="bold">2 tasks at a time</li>
-                <li class="bold">1-2 days turnaround</li>
+                <li>2 tasks at a time</li>
+                <li>1-2 days turnaround</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
-                <li class="bold">Unlimited tasks by Devs, UX,<br>Designers, and DevOps</li>
-                <li class="bold">Priority support</li>
+                <li>Unlimited tasks by Devs, UX,<br>Designers, and DevOps</li>
+                <li>Priority support</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
@@ -103,8 +103,15 @@
         <div class="card-header">
             <h3 class="heading-2 margin-bottom-05">Custom<br>Plan</h3>
         </div>
-        <div class="card-body flex-column-center">
-            <p class="caption">Monthly subscription tailored to your specific needs.</p>
+        <div class="card-body flex-column-center">   
+            <ul class="hanging-list checkmark-bullet">
+                <li>Flexible number of tasks<br>based on your needs</li>
+                <li>Flexible turnaround times</li>
+                <li>Unlimited revisions</li>
+                <li>Unlimited projects</li>
+                <li>Dedicated team of Devs, UX,<br>Designers, and DevOps</li>
+                <li>Priority support tailored<br>to your requirements</li>
+            </ul>
             <a data-button-arrow class="button photo-button secondary-button" href="/discovery-call">Book Call</a>
         </div>
     </div>
