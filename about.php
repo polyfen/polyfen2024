@@ -43,9 +43,9 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN ABOUT start ---------->
     <main>
-        <section class="fade-in">
+        <section class="section-cover-about fade-in">
             <h2 class="title-2 align-center margin-bottom-4">Where Design &amp;<br>Development Click</h2>
-            <div class="container-1080 row gap-4">
+            <div class="container-900 row gap-4">
                 <div class="col">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
                 </div>

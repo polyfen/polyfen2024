@@ -16,6 +16,15 @@
     justify-content: center;
 }
 
+.card-small {
+    padding-inline: 16px;
+    padding-block: 16px 20px;
+}
+
+.card-small ul {
+    margin-bottom: 0;
+}
+
 .card p {
     margin-bottom: 0;
 }

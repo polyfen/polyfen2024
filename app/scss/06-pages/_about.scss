@@ -1,6 +1,11 @@
 /* ------------------------------------------------------ */
 /*///////////// _ABOUT.scss start /////////////*/
 
+.section-cover-about img {
+    max-width: 360px;
+    margin-inline: auto;
+}
+
 .section-board-members ul {
     margin-bottom: 0;
 }

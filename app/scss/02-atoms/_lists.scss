@@ -2,6 +2,10 @@ ul {
     list-style: none;
 }
 
+li {
+    font-size: inherit;
+}
+
 main ul {
     margin-bottom: 2rem;
 }

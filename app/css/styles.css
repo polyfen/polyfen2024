@@ -504,8 +504,8 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
   --slate-600: hsl(233, 8%, 42%);
   --slate-700: hsl(228, 9%, 32%);
   --slate-800: hsl(233, 14%, 24%);
-  --slate-900: hsl(235, 50%, 14%);
-  --slate-950: hsl(235, 100%, 8%);
+  --slate-900: hsl(235, 55%, 10%);
+  --slate-950: hsl(235, 100%, 6%);
   --slate-050-90pct: hsla(231, 64%, 96%, 0.9);
   --slate-050-80pct: hsla(231, 64%, 96%, 0.8);
   --slate-050-70pct: hsla(231, 64%, 96%, 0.7);
@@ -529,7 +529,7 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
   --indigo-600: hsl(259, 71%, 49%);
   --indigo-700: hsl(259, 76%, 39%);
   --indigo-800: hsl(259, 84%, 29%);
-  --indigo-900: hsl(259, 100%, 19%);
+  --indigo-900: hsl(259, 100%, 16%);
   --indigo-950: hsl(240, 53%, 10%);
 }
 
@@ -943,6 +943,18 @@ html {
   scroll-margin-top: 120px;
 }
 
+.fade-in {
+  opacity: 0;
+  transform: translateY(75px);
+  transition: opacity 0.65s, transform 0.65s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition-timing-function: ease-out;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 0%;
@@ -1114,7 +1126,7 @@ button:hover, a.button:hover, input.button:hover {
   height: 70px;
   background-image: var(--accent-color-gradient);
   border-radius: 12px;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1125,6 +1137,8 @@ button:hover, a.button:hover, input.button:hover {
   width: 40px;
   height: 40px;
   padding: 4px;
+  border-radius: 8px;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 900px) {
@@ -1137,6 +1151,10 @@ button:hover, a.button:hover, input.button:hover {
 /* -------------------------------------------------*/
 ul {
   list-style: none;
+}
+
+li {
+  font-size: inherit;
 }
 
 main ul {
@@ -1326,6 +1344,15 @@ ul.no-bullets li:before {
   justify-content: center;
 }
 
+.card-small {
+  padding-inline: 16px;
+  padding-block: 16px 20px;
+}
+
+.card-small ul {
+  margin-bottom: 0;
+}
+
 .card p {
   margin-bottom: 0;
 }
@@ -1485,6 +1512,64 @@ ul.no-bullets li:before {
 
 /*///////////// _SUBSCRIPTION-CARDS.scss end /////////////*/
 /* ------------------------------------------------------ */
+/*------------------------------------------------------ */
+/*///////////// _FAQ.scss start /////////////*/
+.accordions-container {
+  padding-top: 2rem;
+}
+
+.accordion {
+  border-bottom: 1px solid rgba(116, 55, 248, 0.3137254902);
+  margin-bottom: 32px;
+}
+
+.acc-button {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+  transition: 0.4s;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.3019607843);
+}
+
+.faq h3.heading-4 {
+  margin-bottom: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.faq .accordion h3 span {
+  color: #7537F8;
+}
+
+.acc-button:after {
+  content: "+";
+  float: right;
+  margin-left: auto;
+  font-size: 2rem;
+}
+
+.acc-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+@media (min-width: 1024px) {
+  .acc-panel {
+    padding-left: 48px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .faq .acc-panel {
+    padding-left: 30px;
+  }
+}
+/*///////////// _SUBSCRIPTIONS.scss end /////////////*/
+/*------------------------------------------------------ */
 /* 05-GLOBAL SECTIONS */
 /* ------------------------------------------------------ */
 /*///////////// _HEADER.scss start /////////////*/
@@ -1502,7 +1587,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: var(--black);
-  border: 1px solid var(--accent-color-50pct);
+  border: 1px solid var(--accent-color-30pct);
   max-width: 960px;
   margin-inline: auto;
   border-radius: 12px;
@@ -1800,6 +1885,11 @@ footer .social-links {
 /* -------------------------------------------------*/
 /* ------------------------------------------------------ */
 /*///////////// _ABOUT.scss start /////////////*/
+.section-cover-about img {
+  max-width: 360px;
+  margin-inline: auto;
+}
+
 .section-board-members ul {
   margin-bottom: 0;
 }
@@ -2026,7 +2116,6 @@ footer .social-links {
   max-width: 500px;
   -o-object-fit: contain;
      object-fit: contain;
-  margin-top: -20px;
   display: none;
 }
 
@@ -2034,7 +2123,11 @@ footer .social-links {
   display: block;
 }
 
-.task-example-type.pro::after {
+.section-task-examples .card .row {
+  align-items: baseline;
+}
+
+.section-task-examples .card .pro::after {
   content: "PRO";
   background: rgba(116, 55, 248, 0.3137254902);
   border-radius: 4px;
@@ -2047,6 +2140,105 @@ footer .social-links {
   margin-top: 12px;
 }
 
+.stack-carrousel .slick-dots {
+  bottom: -45px;
+}
+
+.stack-carrousel .slick-dots li::before {
+  content: unset;
+}
+
+[data-acc=rocket]::before {
+  content: url("/imgs/icons/rocket-launch.svg");
+}
+
+.stack-carrousel .slick-dots li.slick-active button::before {
+  color: #722fff;
+  content: url("/imgs/bullet-active.svg");
+}
+
+.stack-carrousel .slick-dots li button::before {
+  color: #722fff;
+  content: url("/imgs/bullet-inactive.svg");
+  opacity: 1;
+}
+
+.stack-u {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.stack-u img {
+  width: 35px;
+  max-height: 35px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.stack-u span {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  color: inherit;
+}
+
+.stack-u.pro::after {
+  content: "PRO";
+  background: rgba(116, 55, 248, 0.3137254902);
+  border-radius: 4px;
+  min-width: 39px;
+  height: 17px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  align-content: center;
+}
+
+@media (max-width: 900px) {
+  .stack-carrousel {
+    width: 100%;
+  }
+  .stack-carrousel *.fade-in {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+  .slide-inside {
+    display: flex;
+    margin-inline: auto;
+    flex-direction: column;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .stack-u {
+    text-align: center;
+  }
+  .stack-u img {
+    margin-inline: auto;
+  }
+  .carrousel-col {
+    width: 100%;
+    display: flex;
+  }
+  .carrousel-col .stack-u {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 900px) {
+  .carrousel-col, .slide-inside {
+    display: contents;
+  }
+  .stack-carrousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(9, auto);
+    grid-auto-flow: column;
+    gap: 18px;
+  }
+}
 /*///////////// _SUBSCRIPTIONS.scss end /////////////*/
 /*------------------------------------------------------ */
 /* MISC */

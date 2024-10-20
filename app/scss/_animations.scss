@@ -1,3 +1,15 @@
+.fade-in {
+    opacity: 0;
+    transform: translateY(75px);
+    transition: opacity 0.65s, transform 0.65s;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition-timing-function: ease-out;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 0%;
