@@ -26,6 +26,34 @@ button:hover, a.button:hover, input.button:hover {
     box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
 }
 
+.cta-button {
+    background-image: var(--accent-color-gradient);
+    opacity: 0.9;
+}
+
+.cta-button:hover {
+    opacity: 1;
+}
+
+.secondary-button {
+    background: var(--accent-color-900);
+    border: 2px solid var(--accent-color); 
+}
+
+.large-button  {
+    height: 60px;
+    padding: 1.25rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 260px;
+}
+
+
+.small-button  {
+    height: 36px;
+    width: 180px;
+}
+
 .photo-button::before {
     content: "";
     display: inline-block;
@@ -40,6 +68,15 @@ button:hover, a.button:hover, input.button:hover {
     background-position: center center;
 }
 
+.small-button.photo-button::before {
+    width: 26px;
+    height: 26px;
+}
+
+.large-button.photo-button::before {
+    width: 40px;
+    height: 40px;
+}
 
 .toggle-container {
     position: relative;

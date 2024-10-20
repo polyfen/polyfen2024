@@ -13,7 +13,7 @@
             <a href="/subscriptions">Subscriptions</a>
         </nav>
         <div class="header-cta-container">
-            <a class="button small-button photo-button" href="/discovery-call">Book Call</a>
+            <a class="button photo-button" href="/discovery-call">Book Call</a>
         </div>
     </div>
 </header>

@@ -44,8 +44,8 @@ ___     _       __
         <section class="section-cover-home">
             <h1 class="title-1 align-center">Unleash your<br>business full potential</h1>
             <p class="align-center">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
-            <a class="button large-button cta-button photo-button margin-bottom-05" href="/discovery-call">Book a Call</a>
-            <a data-button-arrow-down class="button large-button secondary-button" href="#services">Learn More</a>
+            <a class="button large-button cta-button photo-button margin-bottom-05" href="/discovery-call">Book Call</a>
+            <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">Learn More</a>
             <div class="cover-home-background">
                 <div id="pearl-1" class="pearl rotate-slower fade-in">
                 </div>
@@ -59,42 +59,39 @@ ___     _       __
         <?php include 'includes/clients-logo-scroller.php';?>
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-        <section class="container-1080 margin-bottom-6 fade-in">
-            <h2 class="heading-1">Subscribe</h2>
+        <section id="learn-more" class="container-1080 margin-bottom-6 fade-in">
+            <h2 class="heading-1 margin-bottom-4 align-center">Subscription Plans</h2>
             <!-- SUBSCRIPTION-PLANS.php start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- SUBSCRIPTION-PLANS.php end -->
         </section>
         <hr>
         <section class="build container-1080 fade-in">
-            <h2 class="heading-1">Build</h2>
+            <h2 class="heading-1 margin-bottom-4 align-center">Build</h2>
             <div class="row">
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">Brand</h3>
                     <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-auto">
                     <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3">$7,600</h4>
-                    <h4 class="caption uppercase font-weight-400">3-8 weeks</h4>
+                    <h4 class="heading-3 margin-bottom-0">$7,600</h4>
                 </div>
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">Website</h3>
                     <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-auto">
                     <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3">$7,800</h4>
-                    <h4 class="caption uppercase font-weight-400">4-12 weeks</h4>
+                    <h4 class="heading-3 margin-bottom-0">$7,800</h4>
                 </div>
                 <div class="col card align-center fade-in">
-                    <h3 class="heading-2 align-center">App</h3>
+                    <h3 class="heading-2 align-center">MVP</h3>
                     <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
                     <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3">$39,000</h4>
-                    <h4 class="caption uppercase font-weight-400">3-6 months</h4>
+                    <h4 class="heading-3 margin-bottom-0">$39,000</h4>
                 </div>
             </div>
         </section>
         <hr>
         <section class="container-1080">
-            <h2 class="heading-1 align-center margin-bottom-4 fade-in">What You're Getting</h2>
+            <h2 class="heading-1 align-center margin-bottom-4 fade-in">We're Different</h2>
             <div class="row">
                 <div class="col card fade-in">
                     <div class="icon-container">

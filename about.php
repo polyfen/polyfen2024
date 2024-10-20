@@ -85,7 +85,7 @@ ___     _       __
                         </div>
                     </div>
                     <ul class="hanging-list spaced-list">
-                        <li class="fade-in">Coding since 2008, designing since 2010.
+                        <li class="fade-in">Coding websites since 2008, designing brands since 2010 and products since 2014.
                         </li>
                         <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.
                         </li>
@@ -104,7 +104,7 @@ ___     _       __
                 <div class="col fade-in">
                     <p>A step-by-step guide to the Branding process including practical tips,
                         case studies, template files, and many other useful resources.</p>
-                    <a data-button-arrow class="button secondary-button fade-in" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki</a>
+                    <a data-button-arrow class="button secondary-button fade-in" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki ↗</a>
                 </div>
             </div>
         </section>
@@ -123,7 +123,7 @@ ___     _       __
                 <div class="col fade-in">
                     <p>We developed a simple open-source technology that helps websites comply with privacy protection
                         regulations like GDPR and the California Online Privacy Act.</p>
-                    <a data-button-arrow href="https://polycookies.com/" target="_blank" class="button secondary-button fade-in">polycookies.com</a>
+                    <a data-button-arrow href="https://polycookies.com/" target="_blank" class="button secondary-button fade-in">polycookies.com ↗</a>
                 </div>
             </div>
         </section>

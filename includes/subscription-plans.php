@@ -57,9 +57,9 @@
 <div class="row">
     <div class="col card card-subscriptions fade-in" id="starter">
         <div class="card-header">
-            <h3 class="heading-2 margin-bottom-05">Starter</h3>
+            <h3 class="heading-2 margin-bottom-025">Starter</h3>
             <div class="row gap-025">
-                <h4 class="heading-3">$</h4>
+                <h4 class="heading-3">$3,935</h4>
                 <small>/Month</small>
             </div>
         </div>
@@ -72,18 +72,19 @@
                 <li>Unlimited projects</li>
                 <li>Pause or cancel anytime</li>
             </ul>
+            <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
-            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
+            <a data-button-arrow class="button secondary-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
     <div class="col card card-subscriptions featured-card fade-in" id="pro">
         <div class="card-header">
-            <h3 class="heading-2 margin-bottom-05">Pro</h3>
+            <h3 class="heading-2 margin-bottom-025">Pro</h3>
             <div class="row gap-025">
-                <h4 class="heading-3">$</h4>
+                <h4 class="heading-3">$7,156</h4>
                 <small>/Month</small>
             </div>
-            <small class="card-label mini">Popular</small>
+            <small class="label mini">Popular</small>
         </div>
         <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
@@ -95,17 +96,22 @@
                 <li>Unlimited projects</li>
                 <li>Pause or cancel anytime</li>
             </ul>
+            <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
-            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
+            <a data-button-arrow class="button secondary-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
-    <div class="col card card-subscriptions featured-card fade-in" id="pro">
+    <div class="col card card-subscriptions fade-in" id="pro">
         <div class="card-header">
-            <h3 class="heading-2 margin-bottom-05">Custom</h3>
+            <h3 class="heading-2 margin-bottom-05">Custom<br>Plan</h3>
         </div>
         <div class="card-body flex-column-center">
-            <p>Need something more tailored to your needs? Book a call with us and we'll discuss your project and how we can help.</p>
-            <a data-button-arrow class="button photo-button small-button" href="/discovery-call">Book a Call</a>
+            <p>Monthly subscription tailored to your specific needs.</p>
+            <a data-button-arrow class="button photo-button secondary-button" href="/discovery-call">Book Call</a>
         </div>
     </div>
+</div>
+<div class="row flex-row-center margin-top-2 fade-in">
+    <img src="imgs/icons/lock.svg" height="20px">
+    <small class="mini align-center">Secure Payment with Stripe</small>
 </div>

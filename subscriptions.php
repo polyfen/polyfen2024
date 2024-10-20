@@ -57,10 +57,6 @@ ___     _       __
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
-             <div class="row flex-row-center margin-top-1 fade-in">
-                <img src="imgs/icons/lock.svg" height="20px">
-                <small class="mini align-center">Secure Payment with Stripe</small>
-             </div>
         </section>
         <hr>
         <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
