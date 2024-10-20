@@ -1,4 +1,4 @@
-<section class="container- activity-box fade-in" aria-label="Portfolio thumbnails">
+<div class="activity-box fade-in" aria-label="Portfolio">
     <div class="scroller" data-direction="right" data-speed="slow">
         <div class="scroller__inner">
             <img alt="" src="imgs/activity-cads/podcasttoapp-app.webp">
@@ -14,4 +14,4 @@
             <img alt="" src="imgs/activity-cads/photographers-website.webp">
         </div>
     </div>
-</section>
+</div>

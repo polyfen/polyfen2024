@@ -1,0 +1,33 @@
+/* ------------------------------------------------------ */
+/*///////////// _HEADER.scss start /////////////*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-container {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--black);
+    border: 1px solid var(--accent-color-30pct);
+    max-width: 960px;
+    margin-inline: auto;
+    border-radius: 12px;
+    padding: 16px 24px;
+}
+
+.logo-header img {
+    height: 42px;
+}
+
+.header-cta-container a.button {
+    width: unset;
+}
+
+/*///////////// _HEADER.scss end /////////////*/
+/* ------------------------------------------------------ */

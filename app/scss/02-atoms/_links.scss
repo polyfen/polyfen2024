@@ -1,0 +1,24 @@
+/* ------------------------------------------------------ */
+/*///////////// _LINKS.scss start /////////////*/
+
+a:hover {
+    color: var(--display-text-color);
+}
+
+nav a.current-page {
+    color: var(--accent-color);
+}
+
+p a {
+    text-decoration: underline var(--accent-color) dotted 2px;
+    -webkit-text-decoration: underline var(--accent-color) dotted 2px;
+    text-underline-offset: 5px;
+}
+
+p a:hover {
+    text-decoration: underline var(--accent-color) solid 2px;
+    -webkit-text-decoration: underline var(--accent-color) solid 2px;
+}
+
+/*///////////// _LINKS.scss end /////////////*/
+/* ------------------------------------------------------ */

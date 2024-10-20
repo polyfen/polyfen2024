@@ -1,0 +1,44 @@
+/* ------------------------------------------------------ */
+/*///////////// _BUTTONS.scss start /////////////*/
+
+button, .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    max-width: 100%;
+    padding: 1rem 1.4rem;
+    border: none;
+    border-radius: 900px;
+    background-color: var(--accent-color-90pct);
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0s;
+}
+
+button:hover, a.button:hover, input.button:hover {
+    text-decoration: none;
+    transition: 0s;
+    background-color: var(--accent-color);
+    box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
+}
+
+.photo-button::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    margin-right: 10px;
+    border: 1px solid black;
+    background-image: url(../../imgs/photo-icon.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*///////////// _BUTTONS.scss end /////////////*/
+/* ------------------------------------------------------ */
