@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: inherit;
+}
+
+main ul {
+    margin-bottom: 2rem;
+}
+  
+main ul li::before {
+    content: "◆";
+    color: var(--accent-color); 
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.2em; 
+    margin-left: -1.2em;
+}
+
+.hanging-list {
+    padding-left: 24px;
+}
+
+.arrow-bullets li::before {
+    content: "➜";
+}
+
+ul.checkmark-bullet li::before {
+    content: "✓";
+}
+
+.spaced-list li {
+    margin-bottom: 1.2rem;
+}
+
+ul.no-bullets li:before {
+    display: none;
+}

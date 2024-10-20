@@ -1,0 +1,19 @@
+/* ------------------------------------------------------ */
+/*///////////// _BRAND-COLORS.scss start /////////////*/
+
+:root {
+    --accent-color: var(--indigo-500);
+    --accent-color-700: var(--indigo-700);
+    --accent-color-800: var(--indigo-800);
+    --accent-color-900: var(--indigo-900);
+    --accent-color-950: var(--indigo-950);
+    --accent-color-90pct: hsl(from var(--accent-color) h s l / 0.9); 
+    --accent-color-50pct: hsl(from var(--accent-color) h s l / 0.5);
+    --accent-color-30pct: hsl(from var(--accent-color) h s l / 0.3);
+    --accent-gradient-start: #D837F8;
+    --accent-gradient-end: #3747F8;
+    --accent-color-gradient: linear-gradient(45deg, var(--accent-gradient-start), var(--accent-gradient-end));
+}
+
+/*///////////// _BRAND-COLORS.scss end /////////////*/
+/* -------------------------------------------------*/

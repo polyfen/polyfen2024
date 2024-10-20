@@ -1,53 +1,18 @@
-.home-cover p {
-    max-width: 452px;
-}
+/* ------------------------------------------------------ */
+/*///////////// _HOME.scss start /////////////*/
 
-.home .clients {
-    margin-top: 80px;
-}
+.section-cover-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 16px;
 
-.home {
-
-    .subscription-plans h2, .build h2 {
-        text-align: center;
-    }
-
-    @media screen and (min-width: 768px) {
-        .subscription-plans h2, .build h2 {
-            text-align: left;
-        }
+    p {
+        max-width: 445px;
     }
 }
 
-.home-cover {
-    padding-top: 20px;
-}
-
-.home-cover h1, .home-cover p {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-@media screen and (min-width: 768px) {
-    .home-cover {
-        padding-top: unset;
-    }
-    .home-cover h1, .home-cover p {
-        padding-left: unset;
-        padding-right: unset;
-    }
-}
-
-
-
-/*  ____                 _      */
-/* |  _ \ ___  __ _ _ __| |___  */
-/* | |_) / _ \/ _` | '__| / __| */
-/* |  __/  __/ (_| | |  | \__ \ */
-/* |_|   \___|\__,_|_|  |_|___/ */
-/* pearls ----------------------*/
-
-div.background {
+.cover-home-background {
     position: relative;
     width: 100%;
     height: 100%;
@@ -57,118 +22,54 @@ div.background {
     overflow-x: clip;
     opacity: 0.9;
 }
-
-#pearl-11 {
+    
+#pearl-1 {
     display: block;
     background-image: url('../../imgs/pearls/09.webp');
     width: 400px;
     height: 400px;
     top: 180px;
     right: -110px;
+    transition-property: opacity;
+    transition-duration: 1500ms;
+    transition-delay: 400ms;
 }
-
-#pearl-12 {
+    
+#pearl-2 {
     display: block;
     background-image: url('../../imgs/pearls/01.webp');
     width: 300px;
     height: 300px;
     top: 360px;
     left: -120px;
-}
-
-div.pearl {
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    -webkit-transition: all 1s;
-    transition: all 1s;
-}
-
-/* pearls & subtle animation */
-#pearl-11 {
-    transition-property: opacity;
-    transition-duration: 1500ms;
-    transition-delay: 400ms;
-}
-
-#pearl-12 {
     transition-property: opacity;
     transition-duration: 1000ms;
     transition-delay: 800ms;
 }
-
-#pearl-13 {
+    
+#pearl-3 {
     transition-property: opacity;
     transition-duration: 700ms;
     transition-delay: 600ms;
 }
-/* END subtle animation for pearls */
-
-@-webkit-keyframes rotating {
-    from {
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg)
-    }
-
-    to {
-        -webkit-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg)
-    }
-}
-
-@keyframes rotating {
-    from {
-        -ms-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg)
-    }
-
-    to {
-        -ms-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg)
-    }
-}
-
-.rotate {
-    -webkit-animation: rotating 90s linear infinite !important;
-    -moz-animation: rotating 90s linear infinite !important;
-    -ms-animation: rotating 90s linear infinite !important;
-    -o-animation: rotating 90s linear infinite !important;
-    animation: rotating 90s linear infinite !important
-}
-
-.rotate-slower {
-    -webkit-animation: rotating 200s linear infinite !important;
-    -moz-animation: rotating 200s linear infinite !important;
-    -ms-animation: rotating 200s linear infinite !important;
-    -o-animation: rotating 200s linear infinite !important;
-    animation: rotating 200s linear infinite !important
-}
 
 @media (min-width:576px) {
 
-    #pearl-11 {
+    #pearl-1 {
         top: -420px;
         right: -400px;
         width: 900px;
         height: 900px;
     }
 
-    #pearl-12 {
+    #pearl-2 {
         width: 300px;
         height: 300px;
         top: 350px;
         left: -60px;
     }
 
-    div#pearl-13 {
+    div#pearl-3 {
         height: 300px;
         width: 300px;
         display: block;
@@ -189,21 +90,21 @@ div.pearl {
 
 @media(min-width:768px) {
 
-    #pearl-11 {
+    #pearl-1 {
         top: -400px;
         right: -310px;
         width: 900px;
         height: 900px;
     }
 
-    #pearl-12 {
+    #pearl-2 {
         width: 300px;
         height: 300px;
         top: 340px;
         left: -60px;
     }
 
-    div#pearl-13 {
+    div#pearl-3 {
         height: 300px;
         width: 300px;
         display: block;
@@ -227,7 +128,7 @@ div.pearl {
 
 @media (min-width:992px) {
 
-    #pearl-11 {
+    #pearl-1 {
         top: -450px;
         right: 30px;
         width: 1050px;
@@ -238,7 +139,7 @@ div.pearl {
         height: 900px;
     }
 
-    #pearl-12 {
+    #pearl-2 {
         width: 390px;
         height: 390px;
         top: 350px;
@@ -253,7 +154,7 @@ div.pearl {
         left: -100px;
     }
 
-    div#pearl-13 {
+    div#pearl-3 {
         height: 300px;
         width: 300px;
         display: block;
@@ -269,21 +170,21 @@ div.pearl {
 
 @media (min-width:1200px) {
 
-    #pearl-11 {
+    #pearl-1 {
         top: -360px;
         right: -90px;
         width: 1050px;
         height: 1050px;
     }
 
-    #pearl-12 {
+    #pearl-2 {
         width: 390px;
         height: 390px;
         top: 440px;
         left: -105px;
     }
 
-    div#pearl-13 {
+    div#pearl-3 {
         height: 300px;
         width: 300px;
         display: block;
@@ -298,21 +199,21 @@ div.pearl {
 
 @media(min-width:1680px) {
 
-    #pearl-11 {
+    #pearl-1 {
         top: -400px;
         right: 40px;
         width: 1050px;
         height: 1050px;
     }
 
-    #pearl-12 {
+    #pearl-2 {
         width: 450px;
         height: 450px;
         top: 340px;
         left: -100px;
     }
 
-    div#pearl-13 {
+    div#pearl-3 {
         height: 350px;
         width: 350px;
         display: block;
@@ -323,10 +224,12 @@ div.pearl {
         top: 700px;
     }
 }
-/* END pearls */
 
-@media screen and (min-width: 576px) {
-    .home .clients {
-        margin-top: -200px;
-    }
+.build .card img {
+    height: auto;
+    width: 100px;
+    margin: 0 auto 24px;
 }
+
+/*///////////// _HOME.scss end /////////////*/
+/* -------------------------------------------------*/

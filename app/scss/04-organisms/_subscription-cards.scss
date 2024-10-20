@@ -1,0 +1,57 @@
+/* ------------------------------------------------------ */
+/*///////////// _SUBSCRIPTION-CARDS.scss start /////////////*/
+
+.card-subscriptions .card-header .row {
+    align-items: baseline;
+}
+
+.body-home .card-subscriptions .start-today-button {
+    display: none;
+}
+
+.body-subscriptions .card-subscriptions .learn-more-button {
+    display: none;
+}
+
+.card-subscriptions {
+    padding: 0;
+}
+
+.card-header {
+    height: 116px;
+    background: #391E81;
+    padding: 16px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+}
+
+.featured-card .card-header {
+    background-image: linear-gradient(45deg, #722FFF, #4b00ae, #d12b94, #722FFF, #4b00ae);
+    background-size: 200% 200%;
+    animation: gradient 12s infinite;
+}
+
+.card-header .label {
+    position: relative;
+    top: -120px;
+    left: calc(100% - 72px);
+}
+
+.card-body {
+    padding: 24px 16px 24px;
+}
+
+.card-body ul, .card-body p {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 1.5rem;
+}
+
+.subscriptions-reasurance img {
+    filter: brightness(0) saturate(100%) invert(28%) sepia(86%) saturate(7346%) hue-rotate(258deg) brightness(103%) contrast(101%);
+    margin-top: -2px;
+    margin-bottom: 2px;
+}
+
+/*///////////// _SUBSCRIPTION-CARDS.scss end /////////////*/
+/* ------------------------------------------------------ */

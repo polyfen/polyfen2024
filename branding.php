@@ -1,77 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
 
+___     _       __          
+| _ \___| |_  _ / _|___ _ _  
+|  _/ _ \ | || |  _/ -_) ' \ 
+|_| \___/_|\_, |_| \___|_||_|
+           |__/              
+
+-->
+<html lang="en">
 <head>
     <title>Your Brand is your Story | Polyfen</title>
-
-
-    <!-- INCLUDE HEAD.PHP start -->
+    <!---------- HEAD.php start ---------->
     <?php include 'includes/head.php';?>
-    <!-- INCLUDE HEAD.PHP end -->
-
-    <!-- PAGE-SPECIFIC META start -->
+    <!---------- HEAD.php end ---------->
+    <!---------- PAGE-SPECIFIC META start ---------->
     <meta name="robots" content="index, follow">
     <meta property="og:url" content="https://polyfen.com/branding">
     <meta property="og:title" content="Your Brand is your Story">
-    <meta name="description" property="og:description"
-        content="Elevate your brand with expert strategy, design, and development. Book a call with Polyfen to build your story.">
-    <meta name="keywords"
-        content="branding, brand strategy, visual identity, logo design, brand architecture, creative concept, brand guidelines, brand touchpoints, brand storytelling, brand development, business branding, brand messaging, naming, brand design, brand identity design, creative direction, art direction, marketing strategy">
+    <meta name="description" property="og:description" content="Elevate your brand with expert strategy, design, and development. Book a call with Polyfen to build your story.">
+    <meta name="keywords" content="branding, brand strategy, visual identity, logo design, brand architecture, creative concept, brand guidelines, brand touchpoints, brand storytelling, brand development, business branding, brand messaging, naming, brand design, brand identity design, creative direction, art direction, marketing strategy">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/branding.png">
-    <!-- PAGE-SPECIFIC META end -->
-
-    <!-- PAGE-SPECIFIC CSS start -->
-    <!-- PAGE-SPECIFIC CSS end -->
-
-    <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <!---------- PAGE-SPECIFIC META end ---------->
+    <!---------- PAGE-SPECIFIC CSS start ---------->
+    <!---------- PAGE-SPECIFIC CSS end ---------->
+    <!---------- PAGE-SPECIFIC SCRIPTS start ---------->
     <script defer type="module" src="/app/js/teamRender.js"></script>
     <script defer src="/app/js/horizontal-scroll.js"></script>
-    <!-- PAGE-SPECIFIC SCRIPTS end -->
-
+    <!---------- PAGE-SPECIFIC SCRIPTS end ---------->
 </head>
-
-<body class="dark-mode polyfen-site branding-page">
-    <!-- ya hay un estilo del founder-social  que llama a este ID -->
-
-    <!-- Google Tag Manager (noscript) -->
+<body class="body-branding">
+    <!---------- Google Tag Manager (noscript) start ---------->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- INCLUDE hellobar.PHP start -->
+    <!---------- Google Tag Manager (noscript) end ---------->
+    <!---------- HELLOBAR.php start ---------->
     <?php include 'includes/hellobar.php';?>
-    <!-- INCLUDE hellobar.PHP end -->
-
-    <!-- INCLUDE HEADER.PHP start -->
+    <!---------- HELLOBAR.php end ---------->
+    <!---------- HEADER.php start ---------->
     <?php include 'includes/header.php';?>
-    <!-- INCLUDE HEADER.PHP end -->
-
-    <!-- Landing page start -->
-    <main class="branding-main">
-        <section class="branding-cover">
+    <!---------- HEADER.php end ---------->
+    <!---------- MAIN BRANDING start ---------->
+    <main>
+        <section class="section-cover-branding flex-column-center">
                 <h1 class="title-1 align-center fade-in">Your Brand<br><span class="color-accent">is your Story</span></h1>
                 <h2 class="heading-1 align-center font-weight-400 fade-in">Make it one<br>worth telling</h2>
-                <a class="button large-button cta-button photo-icon-button fade-in" href="/discovery-call">Book a Call</a>
-
-                <div class="branding-cover-background">
+                <a class="button large-button cta-button photo-button fade-in" href="#book-call">Book a Call</a>
+                <div class="cover-branding-background">
                         <div class="pearl rotate-slower fade-in">
                         </div>
                         <div class="pearl pearl-right rotate-slower fade-in">
                         </div>
                 </div>
         </section>
-
         <hr>
-
-        <?php include 'includes/clients.php';?>
-
+        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
+        <?php include 'includes/clients-logo-scroller.php';?>
+        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-
-        <section class="branding-services-breakdown">
+        <section class="section-branding-services-breakdown">
                 <h2 class="heading-1 align-center margin-bottom-4 fade-in">We’ve got you Covered<br>from Idea to Market</h2>
                 <div class="container-1080">
-                        <div class="row gap-05">
-                                <div class="card card-with-padding fade-in">
+                        <div class="row margin-bottom-05">
+                                <div class="col card fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/magnifying-glass.svg"></div>
                                                 <h3 class="heading-4">Market<br>Research</h3>
@@ -85,7 +76,7 @@
                                                 <li>Buyer's journey</li>
                                         </ul>
                                 </div>
-                                <div class="card card-with-padding fade-in">
+                                <div class="col card fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/puzzle-piece.svg"></div>
                                                 <h3 class="heading-4">Brand<br>Strategy</h3>
@@ -101,7 +92,7 @@
                                                 <li>Key messages</li>
                                         </ul>
                                 </div>
-                                <div class="card card-with-padding fade-in">
+                                <div class="col card fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/pencil-circle.svg"></div>
                                                 <h3 class="heading-4">Visual<br>Identity</h3>
@@ -120,8 +111,8 @@
                                         </ul>
                                 </div>
                         </div>
-                        <div class="row gap-05">
-                                <div class="card card-with-padding fade-in">
+                        <div class="row">
+                                <div class="col card fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/browsers.svg"></div>
                                                 <h3 class="heading-4">Web<br>Development</h3>
@@ -137,7 +128,7 @@
                                                 <li>Release</li>
                                         </ul>
                                 </div>
-                                <div class="card card-with-padding fade-in">
+                                <div class="col card fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/storefront.svg"></div>
                                                 <h3 class="heading-4">Brand<br>Touchpoints</h3>
@@ -153,40 +144,38 @@
                                                 <li>Marketing collateral</li>
                                         </ul>
                                 </div>
-                                <div class="card card-with-padding fade-in">
+                                <div class="col card fade-in">
                                         <div class="row">
                                                 <div class="icon-container"><img src="/imgs/icons/book-bookmark.svg"></div>
                                                 <h3 class="heading-4">Brand<br>Guidelines</h3>
                                         </div>
-                                        <p class="caption">Centralise all the documentation about how your brand should be used in a Brand Guidelines webpage.</p>
-                                        <p class="caption">Share your logo files and assets seamlessly across your organization and with your partners network.</p>
-                                        <p class="caption">Take a look at ours: <a href="https://thepolyfengroup.com/brand" target="_blank" class="caption">thepolyfengroup.com/brand ↗</a></p>
+                                        <p class="caption margin-bottom-1">Centralise all the documentation about how your brand should be used in a Brand Guidelines webpage.</p>
+                                        <p class="caption margin-bottom-1">Share your logo files and assets seamlessly across your organization and with your partners network.</p>
+                                        <p class="caption margin-bottom-1">Take a look at ours: <a href="https://thepolyfengroup.com/brand" target="_blank" class="caption">thepolyfengroup.com/brand ↗</a></p>
                                 </div>
                         </div>
                 </div>
         </section>
-
         <hr>
-
-        <section class="design-portfolio-section">
-                <h2 class="heading-1 align-center margin-bottom-4 fade-in">World-class Design</h2>
-                <?php include 'includes/portfolio-thumbnails.php';?>
+        <section>
+            <h2 class="heading-1 align-center margin-bottom-2 fade-in">World-class Design</h2>
+            <!---------- PORTFOLIO-SCROLLER.php start ---------->
+            <?php include 'includes/portfolio-scroller.php';?>
+            <!---------- PORTFOLIO-SCROLLER.php end ---------->
         </section>
-
         <hr>
-
-        <section class="thought-leaders-section">
+        <section class="section-thought-leaders">
                 <h2 class="heading-1 align-center margin-bottom-4 fade-in">We Wrote the<br>Book on Branding</h2>
                 <div class="container-1080 row gap-4">
                         <div class="col">
                                 <img src="/imgs/about/poly-atlas-animation.gif" alt="" class="margin-bottom-2 fade-in">
                                 <p class="fade-in">A step-by-step guide to the Branding process including practical tips, case studies, template files, and many other useful resources.</p>
-                                <a class="button secondary-button fade-in margin-right-auto" href="https://www.linkedin.com/feed/update/urn:li:activity:7251959276586328064" target="_blank">Listen to AI Podcast ↗</a>
+                                <a class="button secondary-button fade-in margin-right-auto margin-bottom-05" href="https://www.linkedin.com/feed/update/urn:li:activity:7251959276586328064" target="_blank">Listen to AI Podcast ↗</a>
                                 <a class="button secondary-button fade-in margin-right-auto" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki ↗</a>
                         </div>
-                        <div class="col card card-with-padding fade-in">
+                        <div class="col card fade-in">
                                 <div class="row gap-1">
-                                        <img class="partner-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
+                                        <img class="board-member-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
                                         <div>
                                                 <h3 class="heading-2 margin-bottom-1 margin-top-1 fade-in">Boris Hrnčić</h3>
                                                 <h4 class="caption uppercase fade-in" style="margin-bottom: 1rem;">Chief Design Officer<br>&amp; Cofounder</h4>
@@ -211,25 +200,15 @@
             <h2 class="heading-1 align-center margin-bottom-4 fade-in">Elevating Brands,<br>One Client at a Time</h2>
             <?php include 'includes/testimonials.php';?>
         </section>
-
-        <!-- INCLUDE CALL-TO-ACTION.PHP start -->
-        <?php include 'includes/cta-section.php';?>
-        <!-- INCLUDE CALL-TO-ACTION.PHP end -->
-
     </main>
-    <!-- FORCE MAX-WIDTH 100% end -->
-
-    <!-- INCLUDE FOOTER.PHP start -->
+    <!---------- MAIN BRANDING end ---------->
+    <!---------- CALL-TO-ACTION.php start ---------->
+    <?php include 'includes/cta-section.php';?>
+    <!---------- CALL-TO-ACTION.php end ---------->
+    <!---------- FOOTER.php start ---------->
     <?php include 'includes/footer.php';?>
-    <!-- INCLUDE FOOTER.PHP end -->
-
-    <!-- slick for tech-stack -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <!-- POLYKIT Scripts -->
+    <!---------- FOOTER.php end ---------->
+    <!---------- POLYKIT Scripts ---------->
     <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
-
-
 </body>
-
 </html>

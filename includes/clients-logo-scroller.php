@@ -1,6 +1,5 @@
-<section class="clients">
-    <h2 class="caption align-center uppercase fade-in">Clients featured in</h2>
-    <!--     <div class="clients-container"> -->
+<div class="clients-logo-carousel">
+    <h2 class="caption align-center uppercase fade-in margin-bottom-2">Clients featured in</h2>
     <div class="scroller fade-in" data-direction="right" data-speed="slow">
         <div class="scroller__inner">
             <img src="imgs/accolades/fortune-500-logo.svg" alt="Fortune 500" height="60">
@@ -14,4 +13,4 @@
             <img src="imgs/accolades/wired.svg" alt="Wired" height="40">
         </div>
     </div>
-</section>
+</div>

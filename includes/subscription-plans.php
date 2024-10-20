@@ -30,7 +30,6 @@
     $proPriceQuarterly = '$7,156';
     $proStripeUrlQuarterly = $qProLink;
 ?>
-
 <script type="application/javascript">
     window.subscriptionPlans = {
         monthly: {
@@ -55,62 +54,72 @@
         }
     };
 </script>
-<section class="row subscription-plans">
-    <div class="row cards-wrapper">
-    <div class="card fade-in" id="starter">
+<div class="row">
+    <div class="col card card-subscriptions fade-in" id="starter">
         <div class="card-header">
-            <h3 class="heading-2">Starter</h3>
-            <h4 class="heading-3">$</h4>
-            <small class="caption uppercase font-weight-400 color-body-text">/Month</small>
+            <h3 class="heading-2 margin-bottom-025">Starter</h3>
+            <div class="row gap-025">
+                <h4 class="heading-3">$3,935</h4>
+                <small>/Month</small>
+            </div>
         </div>
-        <div class="card-body">
+        <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
                 <li class="bold">1 task at a time</li>
                 <li class="bold">2-3 days turnaround</li>
-                <li class="bold">Unlimited tasks by Devs,<br>UX, and Designers</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
-                <li>Pause or cancel anytime</li>
+                <li class="bold">Unlimited tasks by Devs,<br>UX, and Designers</li>
             </ul>
+            <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
-            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
+            <a data-button-arrow class="button secondary-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
-    <div class="card featured-card fade-in" id="pro">
+    <div class="col card card-subscriptions featured-card fade-in" id="pro">
         <div class="card-header">
-            <h3 class="heading-2">Pro</h3>
-            <h4 class="heading-3">$</h4>
-            <small class="caption uppercase font-weight-400 color-body-text">/Month</small>
-            <small class="card-label mini">Popular</small>
+            <h3 class="heading-2 margin-bottom-025">Pro</h3>
+            <div class="row gap-025">
+                <h4 class="heading-3">$7,156</h4>
+                <small>/Month</small>
+            </div>
+            <small class="label mini">Popular</small>
         </div>
-        <div class="card-body">
+        <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
                 <li class="bold">2 tasks at a time</li>
                 <li class="bold">1-2 days turnaround</li>
-                <li class="bold">Unlimited tasks by Devs, UX, Designers, and DevOps</li>
-                <li class="bold">Priority support</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
-                <li>Pause or cancel anytime</li>
+                <li class="bold">Unlimited tasks by Devs, UX,<br>Designers, and DevOps</li>
+                <li class="bold">Priority support</li>
             </ul>
+            <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
-            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
+            <a data-button-arrow class="button secondary-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
-    </div>
-    <div class="secondary-services fade-in">
-        <div class="custom-plan">
-            <h3 class="caption uppercase" style="margin-bottom: 8px;">Need More Power?</h3>
-            <h4 class="heading-2">Talk to Sales for<br>a Custom Plan</h4>
-            <a href="/discovery-call" data-button-icon="book-a-call"
-                class="button secondary-button small-button">Book a Call</a>
+    <div class="col card card-subscriptions fade-in" id="pro">
+        <div class="card-header">
+            <h3 class="heading-2 margin-bottom-05">Custom<br>Plan</h3>
         </div>
-        <hr>
-        <div class="start-a-chat">
-            <h3 class="caption uppercase" style="margin-bottom: 8px;">Any Questions?</h3>
-            <h4 class="heading-2">We're Happy<br>to Help</h4>
-            <button data-button-icon="start-a-chat" onclick="$crisp.push(['do', 'chat:open'])"
-                class="button secondary-button small-button">Open Chat</button>
+        <div class="card-body flex-column-center">
+            <p class="caption">Monthly subscription tailored to your specific needs.</p>
+            <a data-button-arrow class="button photo-button secondary-button" href="/discovery-call">Book Call</a>
         </div>
     </div>
-</section>
+</div>
+<div class="row subscriptions-reasurance gap-1 flex-row-center margin-top-2">
+    <div class="row gap-025 fade-in" style="align-items: center;">
+        <img src="imgs/icons/lock-simple.svg" height="24px">
+        <small class="mini align-center">Secure Payment with Stripe</small>
+    </div>
+    <div class="row gap-025 fade-in" style="align-items: center;">
+        <img src="imgs/icons/shield-check.svg" height="24px">
+        <small class="mini align-center">No Hidden Fees</small>
+    </div>
+    <div class="row gap-025 fade-in" style="align-items: center;">
+        <img src="imgs/icons/pause-circle.svg" height="24px">
+        <small class="mini align-center">Pause or Cancel Any Time</small>
+    </div>
+</div>

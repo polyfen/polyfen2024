@@ -1,6 +1,5 @@
-
-/* Scroll Individual-Values */
-/* +-+-+ +-+-+-+-+-+-+-+-+-+-+*/
+/* ------------------------------------------------------ */
+/*///////////// _LOGO-CAROUSEL.scss start /////////////*/
 
 /* portfolio thumbnails */
 .activity-box .scroller__inner {
@@ -8,7 +7,7 @@
 }
 
 /* accolades values */
-.clients .scroller__inner {
+.clients-logo-carousel .scroller__inner {
     --gap: 5rem;
 }
 /* teamSlider values */
@@ -98,4 +97,11 @@
     --_animation-duration: var(--duration);
 }
 
-/* END Horizontal-Scroll **/
+.activity-box img {
+    width: min(240px, 48.624%);
+    max-width: 226.663px;
+    border-radius: 4px;
+}
+
+/*///////////// _LOGO-CAROUSEL.scss end /////////////*/
+/* -------------------------------------------------*/

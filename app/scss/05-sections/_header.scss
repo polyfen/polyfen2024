@@ -1,0 +1,39 @@
+/* ------------------------------------------------------ */
+/*///////////// _HEADER.scss start /////////////*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+.header-container {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--black);
+    border: 1px solid var(--accent-color-30pct);
+    max-width: 960px;
+    margin-inline: auto;
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+.logo-header img {
+    height: 46px;
+}
+
+header nav {
+    display: flex;
+    gap: 12px;
+}
+
+.header-cta-container a.button {
+    width: unset;
+}
+
+/*///////////// _HEADER.scss end /////////////*/
+/* ------------------------------------------------------ */

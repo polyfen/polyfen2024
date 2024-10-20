@@ -1,0 +1,32 @@
+/* ------------------------------------------------------ */
+/*///////////// _ICONS.scss start /////////////*/
+
+.icon-container {
+    width: 70px;
+    height: 70px;
+    background-image: var(--accent-color-gradient);
+    border-radius: 12px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.icon-container-small {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 900px) {
+    .icon-container {
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+
+/*///////////// _ICONS.scss end /////////////*/
+/* -------------------------------------------------*/

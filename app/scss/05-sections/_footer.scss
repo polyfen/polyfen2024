@@ -1,0 +1,64 @@
+:root {
+    --footer-background: var(--slate-900);
+}
+
+footer {
+    background: var(--footer-background);
+    border-top: 1px solid var(--accent-color-30pct);
+    padding-block: 24px;
+    padding-inline: 16px;
+
+    .timezones-container, .social-links-container {
+       width: 320px;
+    }
+
+    .footer-navbar-container {
+        width: -webkit-fill-available;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .timezones {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    @media (min-width: 675px) {
+        .timezones {
+            gap: 10px;
+            align-items: flex-start;
+        }
+    }
+    
+    .timezones div img.country-flag {
+        height: 20px;
+        width: auto;
+        border-radius: 2px;
+        margin-left: 1px;
+        margin-right: 7px;
+        float: left;
+    }
+    
+    output.mini {
+        margin-inline: 5px 10px;
+        color: white;
+    }
+    
+    .social-links-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .social-links {
+        list-style: none;
+        text-align: right;
+    }
+
+    nav {
+        display: flex;
+        gap: 16px;
+    }
+}

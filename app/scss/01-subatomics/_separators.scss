@@ -1,0 +1,42 @@
+/* ------------------------------------------------------ */
+/*///////////// _SEPARATORS.scss start /////////////*/
+
+hr {
+    margin-block: 3rem;
+    border-width: 0px;
+    width: calc(100% - 2rem);
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.half-separator {
+    margin-block: 1.5rem;
+}
+
+.quarter-separator {
+    margin-block: 1rem;
+}
+
+@media (min-width: 900px) {
+    hr {
+        margin-block: 6rem;
+    }
+    .medium-separator {
+        margin-block: 4rem;
+    }
+    .small-separator {
+        margin-block: 2.5rem;
+    }
+}
+
+.secondary-separator {
+    max-width: 300px;
+}
+
+hr.vertical-hr {
+    width: unset;
+}
+
+/*///////////// _SEPARATORS.scss end /////////////*/
+/* -------------------------------------------------*/
