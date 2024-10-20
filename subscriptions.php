@@ -62,12 +62,12 @@
 
         <section class="subscription-plans container-1080 fade-in">
             <h1 id="plans" class="caption align-center uppercase margin-bottom-1">Subscriptions</h1>
-            <h2 class="heading-1 align-center margin-bottom-4">Affordable All-in-One<br>Plans For Startups</h2>
+            <h2 class="title-2 align-center margin-bottom-4">Affordable All-in-One Plans For Startups</h2>
 
             <!-- toggle button -->
             <div class="toggle-container fade-in">
                 <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
-                <button data-content="30% OFF" class="small-button secondary-button active-button"
+                <button data-content="20% OFF" class="small-button secondary-button active-button"
                     data-period="quarterly">Pay Quarterly</button>
             </div>
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
@@ -85,8 +85,8 @@
 
         <hr>
 
-        <section class="container-1080">
-                <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
+        <section id="learn-more" class="container-1080">
+                <h2 class="align-center heading-1 fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
                 <div class="row" style="gap:60px;">
                         <?php include 'includes/slack-mockup.php';?>
                         <div class="fade-in task-examples" alt="">
@@ -95,7 +95,7 @@
                                         <div class="col fade-in">
                                                 <div class="task-example-type">
                                                         <div class="task-example-icon">
-                                                                <img src="imgs/icons/user-focus.svg" alt="" height="20px">
+                                                                <img src="imgs/icons/user-focus.svg" alt="" height="22px">
                                                         </div>
                                                         <h4 class="heading-5">UX</h4>
                                                 </div>
@@ -123,7 +123,7 @@
                                         <div class="col fade-in">
                                                 <div class="task-example-type">
                                                         <div class="task-example-icon">
-                                                                <img src="imgs/icons/code.svg" alt="" height="20px">
+                                                                <img src="imgs/icons/code.svg" alt="" height="22px">
                                                         </div>
                                                         <h4 class="heading-5">Development</h4>
                                                 </div>
@@ -136,7 +136,7 @@
                                         <div class="col fade-in">
                                         <div class="task-example-type pro">
                                                         <div class="task-example-icon">
-                                                                <img src="imgs/icons/infinity.svg" alt="" height="20px">
+                                                                <img src="imgs/icons/infinity.svg" alt="" height="24px">
                                                         </div>
                                                         <h4 class="heading-5">DevOps</h4>
                                                 </div>
@@ -154,39 +154,39 @@
         <hr>
 
         <section class="container-1080 subscription-value-props">
-                <h2 class="align-center fade-in margin-bottom-4">What You're Getting</h2>
-                <div class="row">
+                <h2 class="align-center heading-1 fade-in margin-bottom-4">What You're Getting</h2>
+                <div class="row gap-05">
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/flag.svg"></div>
                                 <h3>Fast-track<br>Onboarding</h3>
-                                <p>No contracts, no paperwork<br>hassle. Start today.</p>
+                                <p>No contracts, no paperwork hassle. Start today.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
-                                <div class="icon-container"><img src="/imgs/icons/cert.svg"></div>
-                                <h3>Qualified<br>Experts</h3>
-                                <p>We have highly qualified<br>talent in your timezone.</p>
+                                <div class="icon-container"><img src="/imgs/icons/triangle.svg"></div>
+                                <h3>Top-tier<br>Talent</h3>
+                                <p>We screen rigorously and hire only the best.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
-                                <div class="icon-container"><img src="/imgs/icons/person.svg"></div>
+                                <div class="icon-container"><img src="/imgs/icons/person.svg" width="34px"></div>
                                 <h3>Devs, DevOps,<br>UX, & Designers</h3>
-                                <p>A full-blown team ready to<br>crush your tasks.</p>
+                                <p>A full-blown team ready to crush your tasks.</p>
                         </div>
                 </div>
-                <div class="row">
+                <div class="row gap-05">
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/table.svg"></div>
                                 <h3>Client<br>Dashboard</h3>
-                                <p>Create and manage your<br>tasks with ease.</p>
+                                <p>Create and manage your tasks with ease.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
-                                <div class="icon-container"><img src="/imgs/icons/chats.svg"></div>
+                                <div class="icon-container"><img src="/imgs/icons/slack.svg"></div>
                                 <h3>Slack<br>Support</h3>
-                                <p>Quick response, realtime<br>assistance.</p>
+                                <p>Quick response, realtime assistance.</p>
                         </div>
                         <div class="icon-value-prop col fade-in">
                                 <div class="icon-container"><img src="/imgs/icons/video-conference.svg"></div>
                                 <h3>Videocall<br>Scheduler</h3>
-                                <p>Book a call with your<br>account manager.</p>
+                                <p>Book a call with your account manager.</p>
                         </div>
                 </div>
         </section>
@@ -194,7 +194,7 @@
         <hr>
 
         <section class="stack-section container-1080">
-            <h2 class="align-center fade-in" style="margin-bottom: 4rem;">Solutions for<br>Every Stack</h2>
+            <h2 class="align-center heading-1 fade-in" style="margin-bottom: 4rem;">Solutions for<br>Every Stack</h2>
             <!-- Tech Stack for carrousel -->
             <div class="stack-carrousel">
                 <div class="carrousel-col">
@@ -261,16 +261,16 @@
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/bun-original.svg">Bun</div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/swift-original.svg">Swift</div>
+                                src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on Rails</div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
+                                src="/imgs/tech-stack/rust-original.svg">Rust</div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/dart-original.svg">Dart</div>
-                        <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/flutter-original.svg">Flutter
+                                src="/imgs/tech-stack/go-original.svg">Go
                         </div>
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on Rails</div>
+                                src="/imgs/tech-stack/databricks-logo.svg">Databricks</div>
+                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/django-plain.svg">Django</div>
                     </div>
                 </div>
                 <div class="carrousel-col">
@@ -334,14 +334,14 @@
                     <div class="slide-inside">
                         <div class="stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/dotnet-logo.svg">.Net</div>
-                        <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/databricks-logo.svg">Databricks</div>
-                        <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/django-plain.svg">Django</div>
-                        <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/rust-original.svg">Rust</div>
-                        <div class="stack-u fade-in"><img loading="lazy" alt=""
-                                src="/imgs/tech-stack/go-original.svg">Go
+                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/swift-original.svg">Swift</div>
+                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
+                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/dart-original.svg">Dart</div>
+                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                src="/imgs/tech-stack/flutter-original.svg">Flutter
                         </div>
                         <div class="pro stack-u fade-in"><img loading="lazy" alt=""
                                 src="/imgs/tech-stack/aws-plain.svg">AWS</div>
@@ -373,7 +373,7 @@
 
         <hr>
 
-        <h2 class="align-center fade-in">World-class Design</h2>
+        <h2 class="align-center heading-1 fade-in">World-class Design</h2>
         <?php include 'includes/portfolio-thumbnails.php';?>
         
         <hr>
@@ -382,14 +382,14 @@
 
         <hr>
 
-        <h2 class="heading-2 align-center">Team of Experts<br>in Your Timezone</h2>
+        <h2 class="heading-1 align-center">Team of Experts<br>in Your Timezone</h2>
         <?php include 'includes/team-slider.php';?>
 
         <section class="cta-section">
             <div class="grain-texture">
                 <div class="cta-content">
                     <div class="container-800">
-                        <h2 class="heading-1 align-center">Affordable all-in-one<br>plans for startups</h2>
+                        <h2 class="title-2 align-center">Affordable all-in-one plans for startups</h2>
                         <a data-button-arrow-up class="button large-button cta-button" href="#plans">Subscribe Today</a>
                     </div>
                 </div>

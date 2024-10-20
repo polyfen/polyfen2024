@@ -12,7 +12,8 @@
         <div class="nav-links">
             <a href="/">Home</a>
             <a href="/about">About</a>
-            <a href="/work">Work</a>
+            <a href="/case-studies">Case Studies</a>
+            <a href="/branding">Branding</a>
             <a href="/subscriptions">Subscriptions</a>
             <a href="/contact">Contact</a>
         </div>

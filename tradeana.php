@@ -60,8 +60,8 @@
     <!-- INCLUDE HEADER.PHP end -->
 
     <main class="case-study-main container-1080">
-        <h1 class="heading-1 align-center fade-in">Tradeana</h1>
-        <p class="project-p fade-in">Tradeana's patented software, Forex Risk Engine™,
+        <h1 class="title-1 align-center fade-in margin-bottom-2">Tradeana</h1>
+        <p class="project-p fade-in margin-bottom-6">Tradeana's patented software, Forex Risk Engine™,
             is designed by traders for traders to help them efficiently audit and
             manage the risk of their ForEx operations.</p>
         <div id="slider-container" class="fade-in">
@@ -179,7 +179,7 @@
         <hr>
 
         <section class="other-projects-container fade-in">
-            <h2 class="heading-2 align-center" style="margin-bottom:4rem;">Other Projects</h2>
+            <h2 class="heading-1 align-center" style="margin-bottom:4rem;">Other Projects</h2>
             <div class="other-project-cards">
 
                 <div class="other-project-card fade-in">

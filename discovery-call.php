@@ -53,15 +53,15 @@
 
     <!-- Discovery Call - Landing page start -->
     <main class="discovery-main">
-        <h1 class="heading-1 align-center fade-in">Book a Discovery Call</h1>
+        <h1 class="title-2 align-center fade-in margin-bottom-6">Book a Discovery Call</h1>
 
-        <section class="boris-container container">
+        <section class="boris-container container fade-in gap-2">
             <div class="boris-portrait">
                 <img id="boris-portrait" src="imgs/rod-portrait.webp" alt="" loading="lazy" class="portrait">
             </div>
             <div class="boris-bio">
-                <h2 class="heading-4">Rodrigo Gatica</h2>
-                <h3 class="caption uppercase" style="opacity: 0.8;">Partner &amp; COO</h3>
+                <h2 class="heading-3">Rodrigo Gatica</h2>
+                <h3 class="caption uppercase" style="opacity: 0.8;">CEO &amp; Cofounder</h3>
                 <p>
                     Tell us about your project.<br>
                     Learn what we can do for you.<br>
@@ -78,9 +78,9 @@
 
         <hr>
 
-        <?php include 'includes/accolades.php';?>
+        <?php include 'includes/clients.php';?>
 
-        <?php include 'includes/call-to-action.php';?>
+        <?php include 'includes/cta-section.php';?>
 
     </main>
     <!-- FORCE MAX-WIDTH 100% end -->

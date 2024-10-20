@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 768px){
     .security-caption {
-        margin-top: 8px;
+        margin-top: 16px;
         display: flex;
         flex-direction: row;
         gap: 10px;
@@ -51,9 +51,7 @@
 .task-example-icon {
     width: 40px;
     height: 40px;
-    /* align-content: center; */
-    background-color: #120E32;
-    border: 1px solid #7437f850;
+    background-image: var(--accent-color-gradient);
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -95,8 +93,10 @@
     
 }
 
-@media screen and (min-width: 768px){
-    .subscription-value-props .row {
-        margin-bottom: 2rem;
-    }
+.subscription-value-props .row {
+    margin-bottom: 0.5rem;
+}
+
+.secondary-services hr {
+    border-color: var(--accent-color-30pct);
 }

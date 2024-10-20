@@ -5,6 +5,12 @@ footer {
   justify-items: center;
   padding: 24px 0 0 0;
   gap: 30px;
+  background: var(--accent-color-900);
+  border-top: 2px solid var(--accent-color-30pct);
+}
+
+body:has(.cta-section) footer {
+  border-top: none;
 }
 
 @media (min-width: 1100px) {
@@ -211,7 +217,7 @@ footer .tpg-logo-container {
   width: -moz-max-content;
   width: max-content;
   flex-wrap: nowrap;
-  animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+  animation: scroll var(--_animation-duration, 65s) var(--_animation-direction, forwards) linear infinite;
 }
 
 .scroller[data-direction=right] {
@@ -357,7 +363,7 @@ footer .tpg-logo-container {
 }
 .build .card .caption {
   margin-bottom: 6px;
-  opacity: 0.6;
+  color: var(--dark-mode-text);
 }
 .build .card .heading-3 {
   margin-bottom: 8px;
@@ -390,7 +396,8 @@ footer .tpg-logo-container {
 .testimonials-container {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  max-width: 400px;
+  margin-inline: auto;
 }
 
 .testimonials-container figure {
@@ -420,8 +427,8 @@ blockquote p {
 
 /* Home > Testimonial-section MediaQuery */
 @media (min-width: 768px) {
-  .testimonial {
-    width: 30%;
+  .testimonials-container {
+    max-width: unset;
   }
   .testimonials-container {
     flex-direction: row;
@@ -430,28 +437,11 @@ blockquote p {
 }
 /* END Testimonials */
 section.cta-section {
-  background: radial-gradient(ellipse at top right, #4B00AE, #4B00AE, #4B00AE, #40247F, #D12B94, rgba(242, 208, 175, 0.5843137255), #4B00AE, #40247F, #40247F);
-  -webkit-backdrop-filter: blur(500px);
-          backdrop-filter: blur(500px);
-  padding: 0;
-  background-attachment: fixed;
-  background-size: 200% 200%;
-  animation: gradient 10s ease infinite;
+  background: var(--accent-color-900);
+  border-top: 2px solid var(--accent-color-50pct);
+  padding-block: 80px 64px;
   margin-block: 100px 0px;
-}
-
-@media (min-width: 700px) {
-  div.grain-texture {
-    background: url(../../imgs/grain-texture.webp);
-  }
-}
-.cta-content {
-  background: linear-gradient(42deg, rgba(75, 0, 174, 0.0784313725), rgba(75, 0, 174, 0.0549019608), rgba(248, 208, 134, 0.1137254902), rgba(209, 43, 148, 0.1568627451), rgba(209, 43, 148, 0.1568627451), rgba(242, 208, 175, 0.1882352941), rgba(16, 122, 236, 0.2823529412), rgba(63, 36, 127, 0.2666666667), rgba(63, 36, 127, 0.1294117647));
-  -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
-  padding: 80px 0 100px;
-  background-size: 200% 200%;
-  animation: gradient 20s infinite;
+  background-image: radial-gradient(at top, var(--accent-color-30pct) 0%, transparent 60%);
 }
 
 .cta-section #landing-cta-button {
@@ -460,6 +450,22 @@ section.cta-section {
 
 .cta-section .button {
   box-shadow: 0 8px 4px -4px rgba(0, 0, 0, 0.3);
+}
+
+body.landing-page .cta-button-view-plans {
+  display: none;
+}
+
+.cta-section #branding-cta-heading {
+  display: none;
+}
+
+body.branding-page .cta-section #general-cta-heading {
+  display: none;
+}
+
+body.branding-page .cta-section #branding-cta-heading {
+  display: block;
 }
 
 /* Pages */
@@ -738,9 +744,6 @@ div.pearl {
 }
 
 @media (min-width: 768px) {
-  .about-cover .row {
-    flex-direction: row-reverse;
-  }
   .about-cover .row .col:first-child {
     display: flex;
     align-content: center;
@@ -758,19 +761,23 @@ div.pearl {
 
 img.partner-portrait {
   max-width: 200px;
-  border-radius: 12px;
+  border-radius: 18px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid var(--accent-color-30pct);
 }
 
 @media (min-width: 900px) {
   img.partner-portrait {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     margin-left: unset;
     margin-right: unset;
   }
   .board-members .row .col .row div {
     text-align: unset;
+  }
+  .board-members h3 {
+    max-width: 140px;
   }
 }
 .board-members-social {
@@ -780,7 +787,7 @@ img.partner-portrait {
 }
 
 .plat-section h2 {
-  max-width: 400px;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -914,7 +921,7 @@ img.flag {
 
 @media screen and (min-width: 768px) {
   .security-caption {
-    margin-top: 8px;
+    margin-top: 16px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -957,9 +964,7 @@ img.flag {
 .task-example-icon {
   width: 40px;
   height: 40px;
-  /* align-content: center; */
-  background-color: #120E32;
-  border: 1px solid rgba(116, 55, 248, 0.3137254902);
+  background-image: var(--accent-color-gradient);
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -1001,11 +1006,14 @@ img.flag {
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 768px) {
-  .subscription-value-props .row {
-    margin-bottom: 2rem;
-  }
+.subscription-value-props .row {
+  margin-bottom: 0.5rem;
 }
+
+.secondary-services hr {
+  border-color: var(--accent-color-30pct);
+}
+
 /* __        __         _                              */
 /* \ \      / /__  _ __| | __  _ __   __ _  __ _  ___  */
 /*  \ \ /\ / / _ \| '__| |/ / | '_ \ / _` |/ _` |/ _ \ */
@@ -1250,12 +1258,13 @@ img.contact-flag {
   width: 100%;
   max-width: 180px;
   height: auto;
-  border-radius: 12px;
+  border-radius: 18px;
   margin-bottom: 20px;
   transform: scale(1);
   transition: 0.2s ease-in-out;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid var(--accent-color-30pct);
 }
 
 .boris-bio h2 {
@@ -1341,6 +1350,87 @@ body.subs-confirmed main {
     flex-direction: row-reverse;
   }
 }
+.branding-cover-background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  overflow: hidden;
+  height: 800px;
+}
+
+.branding-cover-background .pearl {
+  display: block;
+  background-image: url(../../imgs/pearls/09.webp);
+  height: 400px;
+  width: 400px;
+  left: -320px;
+  top: 180px;
+}
+
+.branding-cover-background .pearl.pearl-right {
+  left: unset;
+  right: -320px;
+}
+
+@media (min-width: 900px) {
+  .branding-cover-background .pearl {
+    height: 600px;
+    width: 600px;
+    left: -300px;
+  }
+  .branding-cover-background .pearl.pearl-right {
+    left: unset;
+    right: -300px;
+  }
+}
+.branding-services-breakdown .card h3 {
+  display: flex;
+  align-items: center;
+  height: 54px;
+}
+
+.branding-services-breakdown .icon-container {
+  margin-bottom: 0;
+  height: 54px;
+  width: 54px;
+  border-radius: 100%;
+  padding: 8px;
+}
+
+.branding-services-breakdown .card .row {
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+.branding-page .col.card {
+  flex: unset;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.thought-leaders-section .col {
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+@media (min-width: 900px) {
+  .branding-services-breakdown .card h3 {
+    height: 70px;
+  }
+  .branding-services-breakdown .icon-container {
+    height: 70px;
+    width: 70px;
+  }
+  .branding-services-breakdown .card .row {
+    margin-bottom: 1rem;
+  }
+  .thought-leaders-section .col {
+    max-width: unset;
+    margin-inline: unset;
+  }
+}
 iframe {
   max-width: 100%;
   border: none;
@@ -1378,4 +1468,47 @@ video {
 }
 main {
   padding-top: 2rem;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.photo-icon-button::before {
+  background-image: url(../../imgs/photo-icon.png);
+}
+
+/*   ____ _           _   _           _    */
+/*  / ___| |__   __ _| |_| |__   ___ | |_  */
+/* | |   | '_ \ / _` | __| '_ \ / _ \| __| */
+/* | |___| | | | (_| | |_| |_) | (_) | |_  */
+/*  \____|_| |_|\__,_|\__|_.__/ \___/ \__| */
+/* Chatbot --------------------------------*/
+/* Change position of Cookies and Chat modals on scroll over the footer */
+.bottom-120,
+#crisp-chatbox div a.bottom-120 {
+  bottom: 120px !important;
+}
+
+/*automatic message to not overlapping with chat bubble*/
+a.bottom-120 span [data-id=new_messages] {
+  margin-bottom: 100px !important;
+}
+
+/*instant chat-window to not overlapping with chat bubble*/
+#crisp-chatbox div a.bottom-120 > span > span[data-id=general_entice] > span > span {
+  margin-bottom: 100px !important;
+}
+
+/*chat-window to not overlapping with chat bubble*/
+div[data-visible=true]:has(+ .bottom-120) {
+  margin-bottom: 100px !important;
+}
+
+/*chat-window to not overlapping with chat bubble*/
+#crisp-chatbox {
+  z-index: 60;
+}
+
+/* esto no estaria funcionando por los cambios de clases */
+.crisp-client .cc-tlyw .cc-kxkl .cc-nsge span.cc-imbb {
+  box-shadow: 0 0 0 2px #070924 !important;
+}
+
+/* END  ChatBot*//*# sourceMappingURL=styles.css.map */

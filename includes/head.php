@@ -21,8 +21,8 @@
 <meta name="theme-color" content="#7537f8">
 
 <!-- CSS General -->
-<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-3.css" type="text/css">
-<link rel="stylesheet" href="/app/css/styles-min.css" type="text/css">
+<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-4.css?v=4.0" type="text/css">
+<link rel="stylesheet" href="/app/css/styles-min.css?v=4.0" type="text/css">
 
 
 <!-- FONTS -->

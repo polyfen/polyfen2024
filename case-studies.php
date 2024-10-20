@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <title>Work | Polyfen</title>
+    <title>Case Studies | Polyfen</title>
 
     <!-- INCLUDE HEAD.PHP start -->
     <?php include 'includes/head.php';?>
     <!-- INCLUDE HEAD.PHP end -->
 
     <!-- PAGE-SPECIFIC META start -->
-    <meta property="og:title" content="Work | Polyfen">
-    <meta property="og:url" content="https://polyfen.com/portfolio">
+    <meta property="og:title" content="Case Studies | Polyfen">
+    <meta property="og:url" content="https://polyfen.com/case-studies">
     <meta name="keywords"
         content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta name="description" property="og:description"
@@ -22,7 +22,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="Polyfen">
     <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Work | Polyfen">
+    <meta name="twitter:title" content="Case Studies | Polyfen">
     <meta name="twitter:description"
         content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018.">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
@@ -56,8 +56,8 @@
     <!--Work page start -->
     <main class="work-main">
         <div class="container-1080">
-            <h1 class="caption align-center fade-in uppercase margin-bottom-1">Work</h1>
-            <h2 class="heading-1 align-center fade-in margin-bottom-4">Featured Projects</h2>
+            <h1 class="caption align-center fade-in uppercase margin-bottom-1">Case Studies</h1>
+            <h2 class="title-2 align-center fade-in margin-bottom-6">Featured Projects</h2>
 
             <!-- BIKE IN MEX start -->
             <div class="bike-in-mex featured-project fade-in">
@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="project-description fade-in">
-                    <h3 class="heading-2">Bike in Mex</h3>
+                    <h3 class="heading-1 margin-bottom-1">Bike in Mex</h3>
                     <p>We designed an identity focused on geometric illustrations inspired by ancient Aztec and
                         Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in
                         Tulum, Mexico.</p>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <div class="project-description fade-in">
-                    <h3 class="heading-2">Tradeana</h3>
+                    <h3 class="heading-1 margin-bottom-1">Tradeana</h3>
                     <p>Tradeana's patented software, Forex Risk Engine™, is designed by traders for traders to help
                         them efficiently audit and manage the risk of their ForEx operations.</p>
                     <a data-button-arrow class="button secondary-button margin-right-auto fade-in" id="tradeana-button" href="/tradeana"
@@ -144,7 +144,7 @@
                     </div>
                 </div>
                 <div class="project-description fade-in">
-                    <h3 class="heading-2">Villa Terezija</h3>
+                    <h3 class="heading-1 margin-bottom-1">Villa Terezija</h3>
                     <p>A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on
                         Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.</p>
                     <a data-button-arrow class="button secondary-button margin-right-auto fade-in" id="villa-terezija-button" href="/villa-terezija"
@@ -165,7 +165,10 @@
 
         <hr>
 
-        <?php include 'includes/testimonial.php';?>
+        <section class="testimonials-section container-1080">
+            <h2 class="heading-1 align-center margin-bottom-4 fade-in">Elevating Brands,<br>One Client at a Time</h2>
+            <?php include 'includes/testimonials.php';?>
+        </section>
 
     
         </main>

@@ -21,13 +21,13 @@
     $qProLink = getenv('STRIPE_PRO_QUARTERLY_URL');
 
 
-    $starterPriceMonthly = '$4917';
+    $starterPriceMonthly = '$4,917';
     $starterStripeUrlMonthly = $mStarterLink;
-    $starterPriceQuarterly = '$3442';
+    $starterPriceQuarterly = '$3,935';
     $starterStripeUrlQuarterly = $qStarterLink;
-    $proPriceMonthly = '$8945';
+    $proPriceMonthly = '$8,945';
     $proStripeUrlMonthly = $mProLink;
-    $proPriceQuarterly = '$6263';
+    $proPriceQuarterly = '$7,156';
     $proStripeUrlQuarterly = $qProLink;
 ?>
 
@@ -61,7 +61,7 @@
         <div class="card-header">
             <h3 class="heading-2">Starter</h3>
             <h4 class="heading-3">$</h4>
-            <small class="caption uppercase">/Month</small>
+            <small class="caption uppercase font-weight-400 color-body-text">/Month</small>
         </div>
         <div class="card-body">
             <ul class="hanging-list checkmark-bullet">
@@ -70,17 +70,17 @@
                 <li class="bold">Unlimited tasks by Devs,<br>UX, and Designers</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
-                <li>Pause or cancel any time</li>
+                <li>Pause or cancel anytime</li>
             </ul>
-            <a data-button-arrow class="button small-button start-today-button" href="#">Start Today</a>
-            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More</a>
+            <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
+            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
     <div class="card featured-card fade-in" id="pro">
         <div class="card-header">
             <h3 class="heading-2">Pro</h3>
             <h4 class="heading-3">$</h4>
-            <small class="caption uppercase">/Month</small>
+            <small class="caption uppercase font-weight-400 color-body-text">/Month</small>
             <small class="card-label mini">Popular</small>
         </div>
         <div class="card-body">
@@ -91,10 +91,10 @@
                 <li class="bold">Priority support</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
-                <li>Pause or cancel any time</li>
+                <li>Pause or cancel anytime</li>
             </ul>
-            <a data-button-arrow class="button small-button start-today-button" href="#">Start Today</a>
-            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions">Learn More</a>
+            <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
+            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
     </div>

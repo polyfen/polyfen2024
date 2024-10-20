@@ -1,25 +1,9 @@
 section.cta-section {
-    background: radial-gradient(ellipse at top right, #4B00AE, #4B00AE, #4B00AE, #40247F, #D12B94, #f2d0af95, #4B00AE, #40247F, #40247F);
-    backdrop-filter: blur(500px);
-    padding: 0;
-    background-attachment: fixed;
-    background-size: 200% 200%;
-    animation: gradient 10s ease infinite;
+    background: var(--accent-color-900);
+    border-top: 2px solid var(--accent-color-50pct);
+    padding-block: 80px 64px;
     margin-block: 100px 0px;
-}
-
-@media (min-width: 700px) {
-    div.grain-texture {
-        background: url(../../imgs/grain-texture.webp);
-    }
-}
-
-.cta-content {
-    background: linear-gradient(42deg, #4b00ae14, #4b00ae0e, #f8d0861d, #d12b9428, #d12b9428, #f2d0af30, #107aec48, #3f247f44, #3f247f21);
-    backdrop-filter: blur(40px);
-    padding: 80px 0 100px;
-    background-size: 200% 200%;
-    animation: gradient 20s infinite;
+    background-image: radial-gradient(at top, var(--accent-color-30pct) 0%, transparent 60%);
 }
 
 .cta-section #landing-cta-button {
@@ -28,4 +12,20 @@ section.cta-section {
 
 .cta-section .button {
     box-shadow: 0 8px 4px -4px rgba(0, 0, 0, 0.3);
+}
+
+body.landing-page .cta-button-view-plans {
+    display: none;
+}
+
+.cta-section #branding-cta-heading {
+    display: none;
+}
+
+body.branding-page .cta-section #general-cta-heading {
+    display: none;
+}
+
+body.branding-page .cta-section #branding-cta-heading {
+    display: block;
 }

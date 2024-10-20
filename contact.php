@@ -61,7 +61,7 @@
     <main class="container-1080">
         <div class="row fade-in" aria-label="Contact">
                 <section class="send-a-message">
-                    <h2 class="heading-2 align-center">Send a Message</h2>
+                    <h2 class="heading-1 align-center">Send a Message</h2>
                     <div class="err-msj">Verify you are human</div>
                     <form id="contact-form" method="POST" class="">
                         <label for="email">Email</label>
@@ -83,7 +83,7 @@
                 </section>
                 <hr class="vertical-hr">
                 <section class="schedule-a-call">
-                    <h2 class="heading-2 align-center">Schedule a Call</h2>
+                    <h2 class="heading-1 align-center">Schedule a Call</h2>
                     <!-- INCLUDE CALENDLY.PHP start -->
                     <?php include 'includes/calendly.php';?>
                     <!-- INCLUDE CALENDLY.PHP end -->
@@ -92,7 +92,7 @@
             <hr>
             <section class="email-phone container fade-in">
                 <h3 class="heading-2 align-center">hi@polyfen.com</h3>
-                <h3 class="heading-2 align-center"><img src="/imgs/flags/us.svg" class="contact-flag" alt=""> +1 415 610 8439</h3>
+                <h3 class="heading-2 align-center margin-bottom-6"><img src="/imgs/flags/us.svg" class="contact-flag" alt=""> +1 415 610 8439</h3>
             </section>
     </main>
     <!-- CONTACT end -->

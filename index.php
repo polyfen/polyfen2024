@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Polyfen | Creative & Software Boutique</title>
+    <title>Polyfen | Software & Creative Studio</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
@@ -11,10 +11,10 @@
     <!-- PAGE-SPECIFIC META start -->
     <meta name="robots" content="index, follow">
     <meta property="og:url" content="https://polyfen.com">
-    <meta property="og:title" content="Polyfen | Creative & Software Boutique">
-    <meta name="twitter:title" content="Polyfen | Creative Software Boutique">
-    <meta name="description" property="og:description" content="Creative & software boutique empowering US businesses with design, marketing, and engineering since 2018.">
-    <meta name="twitter:description" content="Creative & software boutique empowering US businesses with design, marketing, and engineering since 2018.">
+    <meta property="og:title" content="Polyfen | Software & Creative Studio">
+    <meta name="twitter:title" content="Polyfen | Software & Creative Studio">
+    <meta name="description" property="og:description" content="Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.">
+    <meta name="twitter:description" content="Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.">
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
@@ -50,9 +50,9 @@
     <main class="home-main fade-in">
         <section class="home-cover">
             <h1 class="title-1 align-center">Unleash your<br>business full potential</h1>
-            <p class="align-center margin-auto">Creative & software boutique empowering US businesses with design, marketing, and engineering services since 2018.</p>
-            <a class="button large-button cta-button" href="/discovery-call">Book a Call</a>
-            <a class="button large-button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
+            <p class="align-center margin-auto">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
+            <a class="button large-button cta-button photo-icon-button" href="/discovery-call">Book a Call</a>
+            <a data-button-arrow-down class="button large-button secondary-button" href="#services" style="font-weight: 400;">Learn More</a>
 
             <div class="background">
                 <div id="pearl-11" class="pearl rotate-slower fade-in">
@@ -68,7 +68,7 @@
         <hr>
 
         <section id="services">
-            <section class="container-1080 fade-in subscription-plans margin-bottom-4">
+            <section class="container-1080 fade-in subscription-plans margin-bottom-6">
                 <h2 class="heading-1">Subscribe</h2>
                 <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
                 <?php include 'includes/subscription-plans.php';?>
@@ -79,26 +79,26 @@
                 <div class="row">
                     <section class="card fade-in">
                         <h3 class="heading-2">Brand</h3>
-                        <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="">
-                        <h4 class="caption uppercase">Starting at</h4>
+                        <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-auto">
+                        <h4 class="caption uppercase font-weight-400">Starting at</h4>
                         <h4 class="heading-3">$7,600</h4>
-                        <h4 class="caption uppercase">2-3 weeks</h4>
+                        <h4 class="caption uppercase font-weight-400">3-8 weeks</h4>
                     </section>
 
                     <section class="card fade-in">
                         <h3 class="heading-2">Website</h3>
-                        <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="">
-                        <h4 class="caption uppercase">Starting at</h4>
+                        <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-auto">
+                        <h4 class="caption uppercase font-weight-400">Starting at</h4>
                         <h4 class="heading-3">$7,800</h4>
-                        <h4 class="caption uppercase">3-6 weeks</h4>
+                        <h4 class="caption uppercase font-weight-400">4-12 weeks</h4>
                     </section>
 
                     <section class="card fade-in">
                         <h3 class="heading-2">App</h3>
                         <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
-                        <h4 class="caption uppercase">Starting at</h4>
+                        <h4 class="caption uppercase font-weight-400">Starting at</h4>
                         <h4 class="heading-3">$39,000</h4>
-                        <h4 class="caption uppercase">2-6 months</h4>
+                        <h4 class="caption uppercase font-weight-400">3-6 months</h4>
                     </section>
                 </div>
             </section>
@@ -106,21 +106,24 @@
 
         <hr>
 
-        <section class="row container-1080">
-            <div class="icon-value-prop col fade-in">
-                <div class="icon-container"><img src="/imgs/icons/hand-coins.svg"></div>
-                <h3>Low Cost,<br>High Value</h3>
-                <p>Our remote business model<br>passes the savings onto you.</p>
-            </div>
-            <div class="icon-value-prop col fade-in">
-                <div class="icon-container"><img src="/imgs/icons/shield-chevron.svg"></div>
-                <h3>Wealth of<br>Experience</h3>
-                <p>Our partners accumulate 50+<br>years of indsutry experience.</p>
-            </div>
-            <div class="icon-value-prop col fade-in">
-                <div class="icon-container"><img src="/imgs/icons/crown-simple.svg"></div>
-                <h3>End-to-End<br>Customer Service</h3>
-                <p>Our growing list of clients is<br>testimony that we go above and beyond.</p>
+        <section class="container-1080">
+            <h2 class="heading-1 align-center margin-bottom-4 fade-in">What You're Getting</h2>
+            <div class="row">
+                <div class="icon-value-prop col fade-in">
+                    <div class="icon-container"><img src="/imgs/icons/hand-coins.svg"></div>
+                    <h3>Low Cost,<br>High Value</h3>
+                    <p>Our remote business model passes the savings onto you.</p>
+                </div>
+                <div class="icon-value-prop col fade-in">
+                    <div class="icon-container"><img src="/imgs/icons/shield-chevron.svg"></div>
+                    <h3>Owner-<br>Managed</h3>
+                    <p>Our founders get involved in projects to ensure client satisfaction.</p>
+                </div>
+                <div class="icon-value-prop col fade-in">
+                    <div class="icon-container"><img src="/imgs/icons/crown-simple.svg"></div>
+                    <h3>End-to-End<br>Customer Service</h3>
+                    <p>Our growing list of happy clients is testimony that we go above and beyond.</p>
+                </div>
             </div>
         </section>
 
