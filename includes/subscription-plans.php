@@ -106,12 +106,18 @@
             <h3 class="heading-2 margin-bottom-05">Custom<br>Plan</h3>
         </div>
         <div class="card-body flex-column-center">
-            <p>Monthly subscription tailored to your specific needs.</p>
+            <p class="caption">Monthly subscription tailored to your specific needs.</p>
             <a data-button-arrow class="button photo-button secondary-button" href="/discovery-call">Book Call</a>
         </div>
     </div>
 </div>
 <div class="row flex-row-center margin-top-2 fade-in">
-    <img src="imgs/icons/lock.svg" height="20px">
-    <small class="mini align-center">Secure Payment with Stripe</small>
+    <div class="row">
+        <img src="imgs/icons/lock.svg" height="20px">
+        <small class="mini align-center">Secure Payment with Stripe</small>
+    </div>
+    <div class="row">
+        <img src="imgs/icons/lock.svg" height="20px">
+        <small class="mini align-center">No Hidden Fees</small>
+    </div>
 </div>
