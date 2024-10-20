@@ -8,7 +8,7 @@
         </div>
         <!----- CTA SECTION GENERAL SUBSCRIPTIONS ----->
         <div class="cta-section-content-subscriptions  flex-column-center">
-            <h2 class="title-2 align-center">Give your business the power-up it needs</h2>
+            <h2 class="title-2 align-center">You Focus on Growth,<br>We Knock out your Tasks</h2>
             <a data-button-arrow-up class="button large-button cta-button cta-button-subscriptions margin-bottom-05" href="#start-today">Start Today</a>
             <a class="button large-button secondary-button photo-button cta-button-book-call margin-bottom-05"  href="/discovery-call">Book Call</a>
         </div>

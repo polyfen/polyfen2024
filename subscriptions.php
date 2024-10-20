@@ -47,7 +47,7 @@ ___     _       __
     <!---------- MAIN SUBSCRIPTIONS start ---------->
         <main>
                 <section class="subscription-plans container-1080 fade-in">
-                <h1 class="title-2 align-center margin-bottom-4">Affordable All-in-One Plans For Startups</h1>
+                <h1 class="title-2 align-center margin-bottom-4">Offload your Design<br>& Development Needs</h1>
                 <!---------- TOGGLE BUTTON ---------->
                 <div class="toggle-container fade-in" id="start-today">
                         <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
