@@ -10,6 +10,10 @@
     padding-bottom: 120px;
 }
 
+.body-branding .section-cta {
+    padding-bottom: 0;
+}
+
 .body-subscriptions .cta-section-content-general, .body-branding .cta-section-content-general {
     display: none;
 }
@@ -18,6 +22,6 @@
     display: flex;
 }
 
-body:not(.body-subscriptions) .cta-section-content-subscriptions, body:not(.body-branding) .cta-section-content-branding, {
+body:not(.body-subscriptions) .cta-section-content-subscriptions, body:not(.body-branding) .cta-section-content-branding {
     display: none;
 }

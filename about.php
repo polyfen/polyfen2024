@@ -129,12 +129,12 @@ ___     _       __
         </section>
         <hr>
         <section class="section-what-sets-us-apart container-900 fade-in">
-            <h2 class="heading-1 align-center margin-bottom-4">What Sets us Apart</h2>
+            <h2 class="heading-1 align-center margin-bottom-4">Committed to Values that<br>Foster Collaboration & Growth</h2>
             <div class="row gap-05">
                 <div class="col card fade-in margin-bottom-05">
                     <div class="icon-container"><img src="/imgs/icons/dna.svg"></div>
                     <h3 class="margin-bottom-1">Transparency<br>is in our DNA</h3>
-                    <p>Within the team, with clients, and prospects, we value speaking with candor. Learn more about us in our publicly available <a href="https://thepolyfengroup.com/business" target="_blank">Business Plan</a>, <a href="https://thepolyfengroup.com/wiki" target="_blank">Team Wiki</a>, and <a href="https://thepolyfengroup.com/brand" target="_blank">Brand Guidelines</a>.</p>
+                    <p>Within the team, with clients, and prospects, we value speaking with candor, especially when challenges arise.</p>
                 </div>
                 <div class="col card fade-in margin-bottom-05">
                     <div class="icon-container"><img src="/imgs/icons/horizontal-line.svg"></div>

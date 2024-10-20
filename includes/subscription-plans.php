@@ -67,10 +67,9 @@
             <ul class="hanging-list checkmark-bullet">
                 <li class="bold">1 task at a time</li>
                 <li class="bold">2-3 days turnaround</li>
-                <li class="bold">Unlimited tasks by Devs,<br>UX, and Designers</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
-                <li>Pause or cancel anytime</li>
+                <li class="bold">Unlimited tasks by Devs,<br>UX, and Designers</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
@@ -90,11 +89,10 @@
             <ul class="hanging-list checkmark-bullet">
                 <li class="bold">2 tasks at a time</li>
                 <li class="bold">1-2 days turnaround</li>
-                <li class="bold">Unlimited tasks by Devs, UX, Designers, and DevOps</li>
-                <li class="bold">Priority support</li>
                 <li>Unlimited revisions</li>
                 <li>Unlimited projects</li>
-                <li>Pause or cancel anytime</li>
+                <li class="bold">Unlimited tasks by Devs, UX,<br>Designers, and DevOps</li>
+                <li class="bold">Priority support</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
@@ -111,13 +109,17 @@
         </div>
     </div>
 </div>
-<div class="row flex-row-center margin-top-2 fade-in">
-    <div class="row">
-        <img src="imgs/icons/lock.svg" height="20px">
+<div class="row subscriptions-reasurance gap-1 flex-row-center margin-top-2">
+    <div class="row gap-025 fade-in" style="align-items: center;">
+        <img src="imgs/icons/lock-simple.svg" height="24px">
         <small class="mini align-center">Secure Payment with Stripe</small>
     </div>
-    <div class="row">
-        <img src="imgs/icons/lock.svg" height="20px">
+    <div class="row gap-025 fade-in" style="align-items: center;">
+        <img src="imgs/icons/shield-check.svg" height="24px">
         <small class="mini align-center">No Hidden Fees</small>
+    </div>
+    <div class="row gap-025 fade-in" style="align-items: center;">
+        <img src="imgs/icons/pause-circle.svg" height="24px">
+        <small class="mini align-center">Pause or Cancel Any Time</small>
     </div>
 </div>

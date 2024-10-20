@@ -56,4 +56,9 @@ footer {
         list-style: none;
         text-align: right;
     }
+
+    nav {
+        display: flex;
+        gap: 16px;
+    }
 }

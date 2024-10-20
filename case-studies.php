@@ -42,7 +42,7 @@ ___     _       __
     <!---------- MAIN CASE STUDIES start ---------->
     <main>
         <section>
-            <h1 class="title-2 align-center fade-in margin-bottom-6">Proud of Every Project</h1>
+            <h1 class="title-2 align-center fade-in margin-bottom-6">Commitment to  Excellence<br>in Every Project</h1>
         </section>
         <hr>
         <section class="container-1080">
@@ -133,7 +133,7 @@ ___     _       __
         </section>
         <hr>
         <section class="section-testimonials container-1080">
-            <h2 class="heading-1 align-center margin-bottom-4 fade-in">Elevating Brands,<br>One Client at a Time</h2>
+            <h2 class="heading-1 align-center margin-bottom-4 fade-in">Crafting Success,<br>One Client at a Time</h2>
             <?php include 'includes/testimonials.php';?>
         </section>
         </main>

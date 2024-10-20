@@ -1592,8 +1592,14 @@ ul.no-bullets li:before {
 
 .card-body ul, .card-body p {
   width: 100%;
-  height: 220px;
+  height: 180px;
   margin-bottom: 1.5rem;
+}
+
+.subscriptions-reasurance img {
+  filter: brightness(0) saturate(100%) invert(28%) sepia(86%) saturate(7346%) hue-rotate(258deg) brightness(103%) contrast(101%);
+  margin-top: -2px;
+  margin-bottom: 2px;
 }
 
 /*///////////// _SUBSCRIPTION-CARDS.scss end /////////////*/
@@ -1707,6 +1713,10 @@ header nav {
   padding-bottom: 120px;
 }
 
+.body-branding .section-cta {
+  padding-bottom: 0;
+}
+
 .body-subscriptions .cta-section-content-general, .body-branding .cta-section-content-general {
   display: none;
 }
@@ -1769,6 +1779,10 @@ footer .social-links-container {
 footer .social-links {
   list-style: none;
   text-align: right;
+}
+footer nav {
+  display: flex;
+  gap: 16px;
 }
 
 /* 06-PAGES */
