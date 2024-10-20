@@ -100,21 +100,21 @@ ___     _       __
                     <div class="icon-container">
                         <img src="/imgs/icons/hand-coins.svg">
                     </div>
-                    <h3>Low Cost,<br>High Value</h3>
+                    <h3 class="margin-bottom-1">Low Cost,<br>High Value</h3>
                     <p>Our remote business model passes the savings onto you.</p>
                 </div>
                 <div class="col card fade-in">
                     <div class="icon-container">
                         <img src="/imgs/icons/shield-chevron.svg">
                     </div>
-                    <h3>Owner-<br>Managed</h3>
+                    <h3 class="margin-bottom-1">Owner-<br>Managed</h3>
                     <p>Our founders get involved in projects to ensure client satisfaction.</p>
                 </div>
                 <div class="col card fade-in">
                     <div class="icon-container">
                         <img src="/imgs/icons/crown-simple.svg">
                     </div>
-                    <h3>End-to-End<br>Customer Service</h3>
+                    <h3 class="margin-bottom-1">End-to-End<br>Customer Service</h3>
                     <p>Our growing list of happy clients is testimony that we go above and beyond.</p>
                 </div>
             </div>

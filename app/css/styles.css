@@ -1048,7 +1048,7 @@ button:hover, a.button:hover, input.button:hover {
   width: 70px;
   height: 70px;
   background-image: var(--accent-color-gradient);
-  border-radius: 6px;
+  border-radius: 12px;
   margin-bottom: 25px;
   display: flex;
   align-items: center;
