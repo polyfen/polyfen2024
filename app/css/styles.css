@@ -977,7 +977,7 @@ a:hover {
 }
 
 nav a.current-page {
-  color: var(--accent-color);
+  color: var(--white-40pct);
 }
 
 p a, .link {
@@ -1299,7 +1299,7 @@ ul.no-bullets li:before {
 }
 
 .label {
-  padding: 6px 8px 4px;
+  padding: 4px 8px 4px;
   background: var(--accent-color-800);
   border-radius: 4px;
   border: 1px solid var(--accent-color-30pct);
@@ -1583,17 +1583,21 @@ ul.no-bullets li:before {
 .card-header .label {
   position: relative;
   top: -120px;
-  left: calc(100% - 72px);
+  left: calc(100% - 132px);
 }
 
 .card-body {
   padding: 24px 16px 24px;
 }
 
-.card-body ul, .card-body p {
+.card-body ul {
   width: 100%;
-  height: 180px;
+  height: 280px;
   margin-bottom: 1.5rem;
+}
+
+.card-body li {
+  margin-bottom: 0.5rem;
 }
 
 .subscriptions-reasurance img {

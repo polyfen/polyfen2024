@@ -197,9 +197,6 @@
     <?php include 'includes/footer.php';?>
     <!-- INCLUDE FOOTER.PHP end -->
 
-    <!-- POLYKIT Scripts -->
-    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
-
 
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>

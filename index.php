@@ -60,7 +60,7 @@ ___     _       __
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
         <section id="learn-more" class="container-1080 margin-bottom-6 fade-in">
-            <h2 class="heading-1 margin-bottom-4 align-center">Affordable Subscription<br>Plans for Startups</h2>
+            <h2 class="heading-1 margin-bottom-4 align-center">Offload your Design<br>& Development Needs</h2>
             <!-- SUBSCRIPTION-PLANS.php start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- SUBSCRIPTION-PLANS.php end -->
@@ -130,7 +130,5 @@ ___     _       __
     <!---------- FOOTER.php start ---------->
     <?php include 'includes/footer.php';?>
     <!---------- FOOTER.php end ---------->
-    <!---------- POLYKIT Scripts ---------->
-    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
 </body>
 </html>

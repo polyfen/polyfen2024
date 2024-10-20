@@ -144,7 +144,5 @@ ___     _       __
     <!---------- FOOTER.php start ---------->
     <?php include 'includes/footer.php';?>
     <!---------- FOOTER.php end ---------->
-    <!---------- POLYKIT Scripts ---------->
-    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
 </body>
 </html>
