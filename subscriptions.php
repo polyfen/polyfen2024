@@ -1,69 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
 
+___     _       __          
+| _ \___| |_  _ / _|___ _ _  
+|  _/ _ \ | || |  _/ -_) ' \ 
+|_| \___/_|\_, |_| \___|_||_|
+           |__/              
+
+-->
+<html lang="en">
 <head>
     <title>Design & Dev Subscription Plans | Polyfen</title>
-
-
-    <!-- INCLUDE HEAD.PHP start -->
+    <!---------- HEAD.php start ---------->
     <?php include 'includes/head.php';?>
-    <!-- INCLUDE HEAD.PHP end -->
-
-    <!-- PAGE-SPECIFIC META start -->
+    <!---------- HEAD.php end ---------->
+    <!---------- PAGE-SPECIFIC META start ---------->
     <meta name="robots" content="index, follow">
     <meta property="og:url" content="https://polyfen.com/subscriptions">
     <meta property="og:title" content="Design & Dev Subscription Plans">
-    <meta name="twitter:title" content="Design & Dev Subscription Plans">
-    <meta name="description" property="og:description"
-        content="Affordable all-in-one subscriptions with unlimited design and development tasks for start-ups.">
-    <meta name="twitter:description"
-        content="Affordable all-in-one subscriptions with unlimited design and development tasks for start-ups.">
-    <meta name="keywords"
-        content="development tasks, design tasks, ux tasks, devops tasks, development subscription, design subscription, ux subscription, devops subscription, startup, product development, monthly, quarterly, ">
+    <meta name="description" property="og:description" content="Affordable all-in-one subscriptions with unlimited design and development tasks for start-ups.">
+    <meta name="keywords" content="development tasks, design tasks, ux tasks, devops tasks, development subscription, design subscription, ux subscription, devops subscription, startup, product development, monthly, quarterly, ">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/subscriptions.png">
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/subscriptions.png">
-    <!-- PAGE-SPECIFIC META end -->
-
-    <!-- PAGE-SPECIFIC CSS start -->
-    <!-- PAGE-SPECIFIC CSS end -->
-
-    <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <!---------- PAGE-SPECIFIC META end ---------->
+    <!---------- PAGE-SPECIFIC CSS start ---------->
+    <!---------- PAGE-SPECIFIC CSS end ---------->
+    <!---------- PAGE-SPECIFIC SCRIPTS start ---------->
     <script defer src="/app/js/accordion.js"></script>
     <script defer src="/app/js/plan-cards-toggle.js"></script>
     <script defer type="module" src="/app/js/teamRender.js"></script>
     <script defer src="/app/js/horizontal-scroll.js"></script>
-
-    <!-- slick -->
     <link rel="stylesheet" type="text/css" href="/libs/slick/slick/slick.css" />
-    <!-- Add the new slick-theme.css if you want the default styling -->
     <link rel="stylesheet" type="text/css" href="/libs/slick/slick/slick-theme.css" />
-    <!-- PAGE-SPECIFIC SCRIPTS end -->
-
+    <!---------- PAGE-SPECIFIC SCRIPTS end ---------->
 </head>
-
-<body class="dark-mode polyfen-site subscriptions">
-    <!-- ya hay un estilo del founder-social  que llama a este ID -->
-
-    <!-- Google Tag Manager (noscript) -->
+<body class="body-subscriptions">
+    <!---------- Google Tag Manager (noscript) ---------->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- INCLUDE hellobar.PHP start -->
+    <!---------- Google Tag Manager (noscript) end ---------->
+    <!---------- HELLOBAR.php start ---------->
     <?php include 'includes/hellobar.php';?>
-    <!-- INCLUDE hellobar.PHP end -->
-
-    <!-- INCLUDE HEADER.PHP start -->
+    <!---------- HELLOBAR.php end ---------->
+    <!---------- HEADER.php start ---------->
     <?php include 'includes/header.php';?>
-    <!-- INCLUDE HEADER.PHP end -->
-
-    <!-- Landing page start -->
-    <main class="subscriptions-main">
-
+    <!---------- HEADER.php end ---------->
+    <!---------- MAIN SUBSCRIPTIONS start ---------->
+    <main>
         <section class="subscription-plans container-1080 fade-in">
-            <h1 id="plans" class="caption align-center uppercase margin-bottom-1">Subscriptions</h1>
-            <h2 class="title-2 align-center margin-bottom-4">Affordable All-in-One Plans For Startups</h2>
-
+            <h1 class="title-2 align-center margin-bottom-4">Affordable All-in-One Plans For Startups</h1>
             <!-- toggle button -->
             <div class="toggle-container fade-in">
                 <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
@@ -73,28 +57,27 @@
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
-             <div class="security-caption fade-in">
+             <div class="row flex-row-center margin-top-1 fade-in">
                 <img src="imgs/icons/lock.svg" height="20px">
                 <small class="mini align-center">Secure Payment with Stripe</small>
              </div>
         </section>
-
         <hr>
-
-        <?php include 'includes/clients.php';?>
-
+        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
+        <?php include 'includes/clients-logo-scroller.php';?>
+        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-
         <section id="learn-more" class="container-1080">
                 <h2 class="align-center heading-1 fade-in" style="margin-bottom: 4rem;">Ask for Whatever<br>You Need</h2>
-                <div class="row" style="gap:60px;">
-                        <?php include 'includes/slack-mockup.php';?>
-                        <div class="fade-in task-examples" alt="">
-                                <h3 class="caption uppercase" style="margin-bottom:1.5rem;">Some Examples</h3>
-                                <div class="row">
-                                        <div class="col fade-in">
-                                                <div class="task-example-type">
-                                                        <div class="task-example-icon">
+                <div class="row gap-1">
+                        <div class="col fade-in">
+                                <?php include 'includes/slack-mockup.php';?>
+                        </div>
+                        <div class="col fade-in">
+                                <div class="row margin-bottom-05">
+                                        <div class="col card fade-in">
+                                                <div class="row">
+                                                        <div class="icon-container icon-container-small">
                                                                 <img src="imgs/icons/user-focus.svg" alt="" height="22px">
                                                         </div>
                                                         <h4 class="heading-5">UX</h4>
@@ -105,9 +88,9 @@
                                                         <li>Diagram information architecture</li>
                                                 </ul>
                                         </div>
-                                        <div class="col fade-in">
-                                                <div class="task-example-type">
-                                                        <div class="task-example-icon">
+                                        <div class="col card fade-in">
+                                                <div class="row">
+                                                        <div class="icon-container icon-container-small">
                                                                 <img src="imgs/icons/pencil-ruler.svg" alt="" height="20px">
                                                         </div>
                                                         <h4 class="heading-5">Design</h4>
@@ -120,9 +103,9 @@
                                         </div>
                                 </div>
                                 <div class="row">
-                                        <div class="col fade-in">
-                                                <div class="task-example-type">
-                                                        <div class="task-example-icon">
+                                        <div class="col card fade-in">
+                                                <div class="row">
+                                                        <div class="icon-container icon-container-small">
                                                                 <img src="imgs/icons/code.svg" alt="" height="22px">
                                                         </div>
                                                         <h4 class="heading-5">Development</h4>
@@ -133,9 +116,9 @@
                                                         <li>Refactor codebase</li>
                                                 </ul>
                                         </div>
-                                        <div class="col fade-in">
-                                        <div class="task-example-type pro">
-                                                        <div class="task-example-icon">
+                                        <div class="col card fade-in">
+                                        <div class="row pro">
+                                                        <div class="icon-container icon-container-small">
                                                                 <img src="imgs/icons/infinity.svg" alt="" height="24px">
                                                         </div>
                                                         <h4 class="heading-5">DevOps</h4>

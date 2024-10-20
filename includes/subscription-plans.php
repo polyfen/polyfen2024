@@ -55,13 +55,15 @@
     };
 </script>
 <div class="row">
-    <div class="col card fade-in" id="starter">
+    <div class="col card card-subscriptions fade-in" id="starter">
         <div class="card-header">
-            <h3 class="heading-2">Starter</h3>
-            <h4 class="heading-3">$</h4>
-            <small class="caption uppercase font-weight-400 color-body-text">/Month</small>
+            <h3 class="heading-2 margin-bottom-05">Starter</h3>
+            <div class="row gap-025">
+                <h4 class="heading-3">$</h4>
+                <small>/Month</small>
+            </div>
         </div>
-        <div class="card-body">
+        <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
                 <li class="bold">1 task at a time</li>
                 <li class="bold">2-3 days turnaround</li>
@@ -74,14 +76,16 @@
             <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
-    <div class="col card featured-card fade-in" id="pro">
+    <div class="col card card-subscriptions featured-card fade-in" id="pro">
         <div class="card-header">
-            <h3 class="heading-2">Pro</h3>
-            <h4 class="heading-3">$</h4>
-            <small class="caption uppercase font-weight-400 color-body-text">/Month</small>
+            <h3 class="heading-2 margin-bottom-05">Pro</h3>
+            <div class="row gap-025">
+                <h4 class="heading-3">$</h4>
+                <small>/Month</small>
+            </div>
             <small class="card-label mini">Popular</small>
         </div>
-        <div class="card-body">
+        <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
                 <li class="bold">2 tasks at a time</li>
                 <li class="bold">1-2 days turnaround</li>
@@ -95,25 +99,13 @@
             <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
-    <div class="col card featured-card fade-in" id="pro">
+    <div class="col card card-subscriptions featured-card fade-in" id="pro">
         <div class="card-header">
-            <h3 class="heading-2">Pro</h3>
-            <h4 class="heading-3">$</h4>
-            <small class="caption uppercase font-weight-400 color-body-text">/Month</small>
-            <small class="card-label mini">Popular</small>
+            <h3 class="heading-2 margin-bottom-05">Custom</h3>
         </div>
-        <div class="card-body">
-            <ul class="hanging-list checkmark-bullet">
-                <li class="bold">2 tasks at a time</li>
-                <li class="bold">1-2 days turnaround</li>
-                <li class="bold">Unlimited tasks by Devs, UX, Designers, and DevOps</li>
-                <li class="bold">Priority support</li>
-                <li>Unlimited revisions</li>
-                <li>Unlimited projects</li>
-                <li>Pause or cancel anytime</li>
-            </ul>
-            <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
-            <a data-button-arrow class="button secondary-button small-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
+        <div class="card-body flex-column-center">
+            <p>Need something more tailored to your needs? Book a call with us and we'll discuss your project and how we can help.</p>
+            <a data-button-arrow class="button photo-button small-button" href="/discovery-call">Book a Call</a>
         </div>
     </div>
 </div>

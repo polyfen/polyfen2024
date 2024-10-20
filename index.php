@@ -54,8 +54,10 @@ ___     _       __
                 <div id="pearl-3" class="pearl rotate fade-in">
                 </div>
             </div>
-        </section>   
-        <?php include 'includes/clients-logo-carousel.php';?>
+        </section>
+        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
+        <?php include 'includes/clients-logo-scroller.php';?>
+        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
         <section class="container-1080 margin-bottom-6 fade-in">
             <h2 class="heading-1">Subscribe</h2>
@@ -120,16 +122,18 @@ ___     _       __
         <hr>
         <section>
             <h2 class="heading-1 align-center margin-bottom-2 fade-in">World-class Design</h2>
-            <?php include 'includes/portfolio-carousel.php';?>
+            <!---------- PORTFOLIO-SCROLLER.php start ---------->
+            <?php include 'includes/portfolio-scroller.php';?>
+            <!---------- PORTFOLIO-SCROLLER.php end ---------->
         </section>
     </main>
-    <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+    <!---------- CALL-TO-ACTION.php start ---------->
     <?php include 'includes/cta-section.php';?>
-    <!-- INCLUDE CALL-TO-ACTION.PHP end -->
-    <!-- INCLUDE FOOTER.PHP start -->
+    <!---------- CALL-TO-ACTION.php end ---------->
+    <!---------- FOOTER.php start ---------->
     <?php include 'includes/footer.php';?>
-    <!-- INCLUDE FOOTER.PHP end -->
-    <!-- POLYKIT Scripts -->
+    <!---------- FOOTER.php end ---------->
+    <!---------- POLYKIT Scripts ---------->
     <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
 </body>
 </html>

@@ -28,6 +28,7 @@ ___     _       __
 @import '02-atoms/_buttons.scss';
 @import '02-atoms/_icons.scss';
 @import '02-atoms/_lists.scss';
+@import '02-atoms/_pearls.scss';
 
 
 /* 03-MOLECULES */
@@ -37,9 +38,11 @@ ___     _       __
 
 /* 04-ORGANISMS */
 @import '04-organisms/_team-scroller.scss';
+@import '04-organisms/_testimonials.scss';
+@import '04-organisms/_subscription-cards.scss';
 
 
-/* 05-SECTIONS */
+/* 05-GLOBAL SECTIONS */
 @import '05-sections/_header.scss';
 @import '05-sections/_cta-section.scss';
 @import '05-sections/_footer.scss';
@@ -48,15 +51,12 @@ ___     _       __
 /* 06-PAGES */
 @import '06-pages/_home.scss';
 @import '06-pages/_about.scss';
+@import '06-pages/_case-studies.scss';
+@import '06-pages/_branding.scss';
+@import '06-pages/_subscriptions.scss';
 
 
 /* MISC */
-.flex-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 
 
 

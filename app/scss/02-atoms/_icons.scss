@@ -13,8 +13,14 @@
     padding: 16px;
 }
 
+.icon-container-small {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+}
+
 @media screen and (min-width: 900px) {
-    .icon-value-prop .icon-container {
+    .icon-container {
         margin-left: unset;
         margin-right: unset;
     }

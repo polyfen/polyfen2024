@@ -682,6 +682,14 @@ main {
   padding-bottom: 4rem !important;
 }
 
+.gap-0 {
+  gap: 0 !important;
+}
+
+.gap-025 {
+  gap: 4px !important;
+}
+
 .gap-05 {
   gap: 8px !important;
 }
@@ -909,6 +917,18 @@ hr.vertical-hr {
   color: white !important;
 }
 
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 /* 02-ATOMS */
 /* ------------------------------------------------------ */
 /*///////////// _LINKS.scss start /////////////*/
@@ -974,6 +994,52 @@ button:hover, a.button:hover, input.button:hover {
   background-position: center center;
 }
 
+.toggle-container {
+  position: relative;
+  width: 333px;
+  height: 50px;
+  margin-inline: auto;
+  margin-bottom: 24px;
+}
+
+.toggle-container button {
+  position: absolute;
+  inset-block: 0 auto;
+  margin: 0;
+  z-index: 10;
+  font-weight: 400;
+  opacity: 1;
+  background: none;
+}
+
+.toggle-container button:nth-child(1) {
+  left: 0px;
+}
+
+.toggle-container button:nth-child(2) {
+  right: 0px;
+}
+
+.active-button.active-button {
+  height: 45px;
+  background-color: #722FFF;
+  /* padding-block: 10px; */
+  border: 6px solid #722FFF;
+  z-index: 11;
+  margin-top: -4px;
+  cursor: default;
+  font-weight: 800;
+  box-shadow: 0px 0px 0px 3px #000;
+  opacity: 1;
+}
+
+.toggle-container button:nth-child(2)::before {
+  content: attr(data-content);
+  position: absolute;
+  top: -26px;
+  font-weight: 400;
+}
+
 /*///////////// _BUTTONS.scss end /////////////*/
 /* ------------------------------------------------------ */
 /* ------------------------------------------------------ */
@@ -990,8 +1056,14 @@ button:hover, a.button:hover, input.button:hover {
   padding: 16px;
 }
 
+.icon-container-small {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+}
+
 @media screen and (min-width: 900px) {
-  .icon-value-prop .icon-container {
+  .icon-container {
     margin-left: unset;
     margin-right: unset;
   }
@@ -1033,6 +1105,13 @@ ul.checkmark-bullet li::before {
 
 ul.no-bullets li:before {
   display: none;
+}
+
+.pearl {
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s;
 }
 
 /* 03-MOLECULES */
@@ -1223,7 +1302,57 @@ ul.no-bullets li:before {
 }
 /*///////////// _TEAM-SCROLLER.scss end /////////////*/
 /* ------------------------------------------------------ */
-/* 05-SECTIONS */
+/*------------------------------------------------------ */
+/*///////////// _TESTIMONIALS.scss start /////////////*/
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.testimonials-container figure {
+  margin-inline: 0;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.testimonial blockquote {
+  margin-inline: 0;
+}
+
+.testimonial figcaption {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.card.testimonial p {
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+/* Home > Testimonial-section MediaQuery */
+@media (min-width: 768px) {
+  .testimonials-container {
+    max-width: unset;
+  }
+  .testimonials-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+/*///////////// _TESTIMONIALS.scss end /////////////*/
+/*------------------------------------------------------ */
+.card-subscriptions .card-header .row {
+  align-items: baseline;
+}
+
+/* 05-GLOBAL SECTIONS */
 /* ------------------------------------------------------ */
 /*///////////// _HEADER.scss start /////////////*/
 header {
@@ -1349,12 +1478,6 @@ footer .social-links {
   z-index: -5;
   overflow-x: clip;
   opacity: 0.9;
-}
-.body-home .section-cover-home div.pearl {
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  transition: all 1s;
 }
 .body-home .section-cover-home #pearl-1 {
   display: block;
@@ -1609,13 +1732,209 @@ footer .social-links {
 
 /*///////////// _ABOUT.scss end /////////////*/
 /* ------------------------------------------------------ */
-/* MISC */
-.flex-center {
+/*------------------------------------------------------ */
+/*///////////// _CASE-STUDIES.scss start /////////////*/
+.featured-project {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-bottom: 50px;
+  gap: 20px;
 }
 
+.project-cover {
+  position: relative;
+  width: 100%;
+}
+
+.project-cover figure img {
+  transform: scale(1);
+  transition: 0.2s ease-in-out;
+  border-radius: 4px;
+  width: 90%;
+}
+
+.project-cover figure:hover img,
+.project-cover-hover figure img {
+  transform: scale(1.025);
+}
+
+.project-preview {
+  display: none;
+}
+
+.project-description {
+  max-width: 460px;
+  padding-top: 0;
+}
+
+.project-description .heading-2 {
+  padding-top: 0;
+}
+
+.button-hover {
+  background-image: none !important;
+  box-shadow: 0 0 10px #712fff, inset 0 0 0 2px #070924 !important;
+  background-color: #712fff !important;
+}
+
+@media (min-width: 576px) {
+  .featured-project {
+    flex-direction: row;
+    gap: unset;
+    margin-bottom: 100px;
+  }
+  .project-description {
+    width: 50%;
+    margin-left: 20px;
+    padding-top: 5px;
+  }
+}
+@media (min-width: 768px) {
+  .featured-project {
+    margin-bottom: 150px;
+  }
+  .project-description .heading-2 {
+    padding-top: 0;
+  }
+}
+@media (min-width: 992px) {
+  .project-description {
+    padding-top: 75px;
+  }
+}
+@media (min-width: 1200px) {
+  .project-cover {
+    width: 100%;
+    max-width: 600px;
+  }
+  .project-preview {
+    display: flex;
+    width: 340px;
+    position: absolute;
+    bottom: -8px;
+    right: -20px;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+  }
+  .project-description {
+    padding-top: 35px;
+    margin-left: 40px;
+  }
+}
+/*///////////// _CASE-STUDIES.scss end /////////////*/
+/* ------------------------------------------------------ */
+.cover-branding-background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  overflow: hidden;
+  height: 800px;
+}
+
+.cover-branding-background .pearl {
+  display: block;
+  background-image: url(../../imgs/pearls/09.webp);
+  height: 400px;
+  width: 400px;
+  left: -320px;
+  top: 180px;
+}
+
+.cover-branding-background .pearl.pearl-right {
+  left: unset;
+  right: -320px;
+}
+
+@media (min-width: 900px) {
+  .cover-branding-background .pearl {
+    height: 600px;
+    width: 600px;
+    left: -300px;
+  }
+  .cover-branding-background .pearl.pearl-right {
+    left: unset;
+    right: -300px;
+  }
+}
+.section-branding-services-breakdown .card h3 {
+  display: flex;
+  align-items: center;
+  height: 54px;
+}
+
+.section-branding-services-breakdown .icon-container {
+  margin-bottom: 0;
+  height: 54px;
+  width: 54px;
+  padding: 8px;
+}
+
+.section-branding-services-breakdown .card .row {
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+/*
+.branding-page .col.card {
+    flex: unset;
+    height: fit-content;
+}
+
+.thought-leaders-section .col {
+    max-width: 400px;
+    margin-inline: auto;
+}
+    */
+@media (min-width: 900px) {
+  .section-branding-services-breakdown .card h3 {
+    height: 70px;
+  }
+  .section-branding-services-breakdown .icon-container {
+    height: 70px;
+    width: 70px;
+  }
+  /*
+  .section-branding-services-breakdown .card .row {
+      margin-bottom: 1rem;
+  }
+  .thought-leaders-section .col {
+      max-width: unset;
+      margin-inline: unset;
+  }
+      */
+}
+/*------------------------------------------------------ */
+/*///////////// _SUBSCRIPTIONS.scss start /////////////*/
+.slack-mockup img {
+  width: 100%;
+  max-width: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: -20px;
+  display: none;
+}
+
+.slack-mockup img:first-child {
+  display: block;
+}
+
+.task-example-type.pro::after {
+  content: "PRO";
+  background: rgba(116, 55, 248, 0.3137254902);
+  border-radius: 4px;
+  min-width: 39px;
+  height: 17px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  align-content: center;
+  margin-top: 12px;
+}
+
+/*///////////// _SUBSCRIPTIONS.scss end /////////////*/
+/*------------------------------------------------------ */
+/* MISC */
 /* --------------------------------------------------------- */
 /* Pages */
 /*
