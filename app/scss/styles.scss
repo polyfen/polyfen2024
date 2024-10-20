@@ -21,10 +21,13 @@ ___     _       __
 @import '01-subatomics/_containers.scss';
 @import '01-subatomics/_rows.scss';
 @import '01-subatomics/_utilities.scss';
+
+
 /* 02-ATOMS */
 @import '02-atoms/_links.scss';
 @import '02-atoms/_buttons.scss';
 @import '02-atoms/_icons.scss';
+@import '02-atoms/_lists.scss';
 
 
 /* 03-MOLECULES */
@@ -33,6 +36,7 @@ ___     _       __
 
 
 /* 04-ORGANISMS */
+@import '04-organisms/_team-scroller.scss';
 
 
 /* 05-SECTIONS */
@@ -43,7 +47,7 @@ ___     _       __
 
 /* 06-PAGES */
 @import '06-pages/_home.scss';
-
+@import '06-pages/_about.scss';
 
 
 /* MISC */

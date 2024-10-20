@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 
 ___     _       __          
@@ -503,8 +504,8 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
   --slate-600: hsl(233, 8%, 42%);
   --slate-700: hsl(228, 9%, 32%);
   --slate-800: hsl(233, 14%, 24%);
-  --slate-900: hsl(235, 63%, 15%);
-  --slate-950: hsl(235, 63%, 7%);
+  --slate-900: hsl(235, 50%, 14%);
+  --slate-950: hsl(235, 100%, 8%);
   --slate-050-90pct: hsla(231, 64%, 96%, 0.9);
   --slate-050-80pct: hsla(231, 64%, 96%, 0.8);
   --slate-050-70pct: hsla(231, 64%, 96%, 0.7);
@@ -919,13 +920,13 @@ nav a.current-page {
   color: var(--accent-color);
 }
 
-p a {
+p a, .link {
   text-decoration: underline var(--accent-color) dotted 2px;
   -webkit-text-decoration: underline var(--accent-color) dotted 2px;
   text-underline-offset: 5px;
 }
 
-p a:hover {
+p a:hover, .link:hover {
   text-decoration: underline var(--accent-color) solid 2px;
   -webkit-text-decoration: underline var(--accent-color) solid 2px;
 }
@@ -997,6 +998,43 @@ button:hover, a.button:hover, input.button:hover {
 }
 /*///////////// _ICONS.scss end /////////////*/
 /* -------------------------------------------------*/
+ul {
+  list-style: none;
+}
+
+main ul {
+  margin-bottom: 2rem;
+}
+
+main ul li::before {
+  content: "◆";
+  color: var(--accent-color);
+  font-weight: bold;
+  display: inline-block;
+  width: 1.2em;
+  margin-left: -1.2em;
+}
+
+.hanging-list {
+  padding-left: 24px;
+}
+
+.arrow-bullets li::before {
+  content: "➜";
+}
+
+ul.checkmark-bullet li::before {
+  content: "✓";
+}
+
+.spaced-list li {
+  margin-bottom: 1.2rem;
+}
+
+ul.no-bullets li:before {
+  display: none;
+}
+
 /* 03-MOLECULES */
 /* ------------------------------------------------------ */
 /*///////////// _LOGO-CAROUSEL.scss start /////////////*/
@@ -1129,6 +1167,62 @@ button:hover, a.button:hover, input.button:hover {
 /*///////////// _CARDS.scss end /////////////*/
 /* -------------------------------------------------*/
 /* 04-ORGANISMS */
+/* ------------------------------------------------------ */
+/*///////////// _TEAM-SCROLLER.scss start /////////////*/
+.team-card {
+  background-color: #1E1758;
+  border-radius: 8px;
+  width: 250px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-inline: 10px;
+}
+
+.team-card strong {
+  font-family: Figtree;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19.2px;
+  text-align: left;
+}
+
+.team-card small {
+  font-family: Figtree;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.4px;
+  text-align: left;
+}
+
+.team-card .col:nth-child(1) {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-image: radial-gradient(50% 50% at center, #070924 0% 80%, transparent 81% 100%);
+  background-size: 85px 85px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.team-card .col:nth-child(1) img {
+  width: 85px;
+  height: 85px;
+  max-width: unset;
+}
+
+.team-card .col:nth-child(2) * {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .team-card.row {
+    flex-direction: row;
+  }
+}
+/*///////////// _TEAM-SCROLLER.scss end /////////////*/
+/* ------------------------------------------------------ */
 /* 05-SECTIONS */
 /* ------------------------------------------------------ */
 /*///////////// _HEADER.scss start /////////////*/
@@ -1137,23 +1231,29 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 500;
 }
 
 .header-container {
-  margin-top: 16px;
+  margin-top: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: var(--black);
-  border: 1px solid var(--accent-color-30pct);
+  border: 1px solid var(--accent-color-50pct);
   max-width: 960px;
   margin-inline: auto;
   border-radius: 12px;
-  padding: 16px 24px;
+  padding: 12px 16px;
 }
 
 .logo-header img {
-  height: 42px;
+  height: 46px;
+}
+
+header nav {
+  display: flex;
+  gap: 12px;
 }
 
 .header-cta-container a.button {
@@ -1460,6 +1560,55 @@ footer .social-links {
 
 /*///////////// _HOME.scss end /////////////*/
 /* -------------------------------------------------*/
+/* ------------------------------------------------------ */
+/*///////////// _ABOUT.scss start /////////////*/
+.section-board-members ul {
+  margin-bottom: 0;
+}
+
+.board-member-portrait {
+  max-width: 200px;
+  border-radius: 16px;
+  border: 1px solid var(--accent-color-30pct);
+}
+
+.board-members-social {
+  display: block;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 900px) {
+  img.board-member-portrait {
+    margin-bottom: 2rem;
+  }
+  .section-board-members h3 {
+    max-width: 140px;
+  }
+}
+.section-poly-atlas h2 {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 900px) {
+  .section-poly-atlas .button, .section-poly-cookies .button {
+    margin-right: auto;
+    margin-left: unset;
+  }
+  .section-poly-cookies .row {
+    flex-direction: row-reverse;
+  }
+}
+.poly-cookies-video {
+  border-radius: 16px;
+  border: none;
+  max-width: 100%;
+}
+
+/*///////////// _ABOUT.scss end /////////////*/
+/* ------------------------------------------------------ */
 /* MISC */
 .flex-center {
   display: flex;

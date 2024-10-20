@@ -33,14 +33,14 @@ ___     _       __
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!---------- Google Tag Manager (noscript) end ---------->
-    <!-- HELLOBAR.php start -->
+    <!---------- HELLOBAR.php start ---------->
     <?php include 'includes/hellobar.php';?>
-    <!-- HELLOBAR.php end -->
+    <!---------- HELLOBAR.php end ---------->
     <!---------- HEADER.php start ---------->
     <?php include 'includes/header.php';?>
     <!---------- HEADER.php end ---------->
     <!---------- MAIN HOME start ---------->
-    <main class="main-home">
+    <main>
         <section class="section-cover-home">
             <h1 class="title-1 align-center">Unleash your<br>business full potential</h1>
             <p class="align-center">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
