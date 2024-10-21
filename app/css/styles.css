@@ -1666,6 +1666,159 @@ ul.no-bullets li:before {
 }
 /*///////////// _SUBSCRIPTIONS.scss end /////////////*/
 /*------------------------------------------------------ */
+/*------------------------------------------------------ */
+/*///////////// _COOKIES-MODAL.scss start /////////////*/
+#cookies-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 40;
+  padding: 14px 16px 12px;
+  border-radius: 3px;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  width: 270px;
+  transition: bottom 0.5s ease;
+  border: 1px solid var(--accent-color-30pct);
+}
+
+#cookies-modal-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  text-align: center;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+#cookies-modal-buttons button {
+  all: unset;
+}
+
+div#cookies-modal.cookies-d-none {
+  display: none !important;
+}
+
+div#cookies-modal button {
+  display: flex;
+  align-items: center;
+  padding: 3px 24px;
+  border: 2px solid rgba(116, 55, 248, 0.3137254902);
+  border-radius: 4px;
+  letter-spacing: 0;
+  color: hsla(0, 0%, 100%, 0.85);
+  border-width: 2px;
+  height: 28px;
+  text-transform: uppercase;
+  cursor: pointer;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+div#cookies-modal button:first-child {
+  background: #7537f8;
+  color: white !important;
+  border-color: #5f27d3;
+  font-weight: 700;
+  opacity: 0.9;
+  width: 0px;
+}
+
+div#cookies-modal button:hover {
+  opacity: 1;
+  color: #FFFFFF;
+  box-shadow: none;
+  background-image: none !important;
+}
+
+div#cookies-modal button:not(#accept-cookies-button) {
+  text-decoration: underline;
+  border: none;
+  text-transform: none;
+  background: #321a5f;
+  padding: 5px 0;
+}
+
+div#cookies-modal button#accept-cookies-button:hover {
+  box-shadow: 0 0 8px #7537f8;
+}
+
+button#accept-cookies-button:before {
+  content: "";
+  display: none;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  margin-left: -10px;
+  margin-right: 7px;
+  background-image: url("../../imgs/icons/thumbs-up-solid-white.svg");
+  opacity: 0.6;
+  background-size: 20px auto;
+  background-repeat: no-repeat;
+}
+
+button#accept-cookies-button:hover:before {
+  opacity: 1;
+}
+
+div#cookies-title small {
+  color: hsla(0, 0%, 100%, 0.85);
+  font-weight: 500;
+  font-variation-settings: "wght" 500;
+}
+
+@media (min-width: 768px) {
+  div#cookies-modal {
+    justify-content: space-between;
+    bottom: 20px;
+    width: 300px;
+  }
+  button#accept-cookies-button:before {
+    display: inline-block;
+  }
+}
+/*///////////// _COOKIES-MODAL.scss end /////////////*/
+/*------------------------------------------------------ */
+/*------------------------------------------------------ */
+/*///////////// _CHAT.scss start /////////////*/
+/* Change position of Cookies and Chat modals on scroll over the footer */
+.bottom-120,
+#crisp-chatbox div a.bottom-120 {
+  bottom: 120px !important;
+}
+
+/*automatic message to not overlapping with chat bubble*/
+a.bottom-120 span [data-id=new_messages] {
+  margin-bottom: 100px !important;
+}
+
+/*instant chat-window to not overlapping with chat bubble*/
+#crisp-chatbox div a.bottom-120 > span > span[data-id=general_entice] > span > span {
+  margin-bottom: 100px !important;
+}
+
+/*chat-window to not overlapping with chat bubble*/
+div[data-visible=true]:has(+ .bottom-120) {
+  margin-bottom: 100px !important;
+}
+
+/*chat-window to not overlapping with chat bubble*/
+#crisp-chatbox {
+  z-index: 60;
+}
+
+/* esto no estaria funcionando por los cambios de clases */
+.crisp-client .cc-tlyw .cc-kxkl .cc-nsge span.cc-imbb {
+  box-shadow: 0 0 0 2px #070924 !important;
+}
+
+/*///////////// _CHAT.scss end /////////////*/
+/*------------------------------------------------------ */
 /* 05-GLOBAL SECTIONS */
 /* ------------------------------------------------------ */
 /*///////////// _HEADER.scss start /////////////*/
