@@ -112,7 +112,7 @@ ___     _       __
                         <img src="/imgs/icons/crown-simple.svg">
                     </div>
                     <h3 class="margin-bottom-1">End-to-End<br>Customer Service</h3>
-                    <p>Our growing list of happy clients is testimony that we go above and beyond.</p>
+                    <p>Our growing list of happy clients shows that we go above and beyond.</p>
                 </div>
             </div>
         </section>
