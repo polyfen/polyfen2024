@@ -1616,6 +1616,10 @@ ul.no-bullets li:before {
   margin-bottom: 0.5rem;
 }
 
+.subscriptions-reasurance {
+  justify-content: center;
+}
+
 .subscriptions-reasurance img {
   filter: brightness(0) saturate(100%) invert(28%) sepia(86%) saturate(7346%) hue-rotate(258deg) brightness(103%) contrast(101%);
   margin-top: -2px;
@@ -1661,14 +1665,14 @@ ul.no-bullets li:before {
   color: rgba(255, 255, 255, 0.3019607843);
 }
 
-.faq h3.heading-4 {
+.faqs h3.heading-4 {
   margin-bottom: 0;
   display: flex;
   gap: 5px;
 }
 
-.faq .accordion h3 span {
-  color: #7537F8;
+.faqs .accordion h3 span {
+  color: var(--accent-color);
 }
 
 .acc-button:after {
@@ -1676,6 +1680,7 @@ ul.no-bullets li:before {
   float: right;
   margin-left: auto;
   font-size: 2rem;
+  color: var(--accent-color);
 }
 
 .acc-panel {
@@ -1691,7 +1696,7 @@ ul.no-bullets li:before {
   }
 }
 @media (min-width: 1024px) {
-  .faq .acc-panel {
+  .faqs .acc-panel {
     padding-left: 30px;
   }
 }
@@ -2694,12 +2699,12 @@ div.other-project-card img {
 /*///////////// _SUBSCRIPTIONS.scss end /////////////*/
 /*------------------------------------------------------ */
 /* MISC */
-.section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
+.section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .subscription-plans h1, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
   margin-bottom: 2rem;
 }
 
 @media (min-width: 1080px) {
-  .section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
+  .section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .subscription-plans h1, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
     margin-bottom: 4rem;
   }
 }
