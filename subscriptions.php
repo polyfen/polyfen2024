@@ -46,17 +46,19 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN SUBSCRIPTIONS start ---------->
         <main>
-                <section class="subscription-plans container-1080 fade-in">
-                        <h1 class="title-2 align-center margin-bottom-4">Offload your Design<br>& Development Needs</h1>
-                        <!---------- TOGGLE BUTTON ---------->
-                        <div class="toggle-container fade-in" id="start-today">
-                                <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
-                                <button data-content="20% OFF" class="small-button secondary-button active-button"
-                                data-period="quarterly">Pay Quarterly</button>
+                <section class="subscription-plans fade-in">
+                        <div class="container-1080">
+                                <h1 class="title-2 align-center margin-bottom-4">Offload your Design<br>& Development Needs</h1>
+                                <!---------- TOGGLE BUTTON ---------->
+                                <div class="toggle-container fade-in" id="start-today">
+                                        <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
+                                        <button data-content="20% OFF" class="small-button secondary-button active-button"
+                                        data-period="quarterly">Pay Quarterly</button>
+                                </div>
+                                <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
+                                <?php include 'includes/subscription-plans.php';?>
+                                <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
                         </div>
-                        <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
-                        <?php include 'includes/subscription-plans.php';?>
-                        <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
                         <div class="cover-pearl-background">
                                 <div class="pearl rotate-slower fade-in">
                                 </div>
