@@ -1231,6 +1231,7 @@ button:hover, a.button:hover, input.button:hover {
   padding: 4px;
   border-radius: 8px;
   margin-bottom: 0;
+  margin-inline: 0;
 }
 
 @media screen and (min-width: 900px) {
@@ -1436,7 +1437,7 @@ ul.no-bullets li:before {
   justify-content: center;
 }
 
-.card-small {
+.card.card-small {
   padding-inline: 16px;
   padding-block: 16px 20px;
 }
@@ -2613,6 +2614,10 @@ div.other-project-card img {
   align-items: baseline;
 }
 
+.section-task-examples .mobile-row {
+  align-items: baseline;
+}
+
 .section-task-examples .card .pro::after {
   content: "PRO";
   background: rgba(116, 55, 248, 0.3137254902);
@@ -2624,6 +2629,9 @@ div.other-project-card img {
   text-align: center;
   align-content: center;
   margin-top: 12px;
+  position: absolute;
+  right: 16px;
+  top: 4px;
 }
 
 .stack-carrousel .slick-dots {
