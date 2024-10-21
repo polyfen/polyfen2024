@@ -42,7 +42,11 @@ ___     _       __
     <!---------- MAIN DISCOVERY CALL start ---------->
     <main>
         <section>
-            <h1 class="title-2 align-center margin-bottom-6 fade-in">Book a Discovery Call</h1>
+            <h1 class="title-2 align-center fade-in margin-bottom-6">Your Next Chapter<br>Starts with a Call</h1>
+            <div class="cover-pearl-background">
+                <div class="pearl rotate-slower fade-in">
+                </div>
+            </div>
         </section>
         <section class="container-600 row gap-2 fade-in">
             <div class="col card">

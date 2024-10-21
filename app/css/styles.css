@@ -1093,7 +1093,6 @@ button:hover, a.button:hover, input.button:hover {
   z-index: 10;
   font-weight: 400;
   opacity: 1;
-  background: none;
 }
 
 .toggle-container button:nth-child(1) {
@@ -1855,6 +1854,33 @@ div[data-visible=true]:has(+ .bottom-120) {
 
 /*///////////// _CHAT.scss end /////////////*/
 /*------------------------------------------------------ */
+.cover-pearl-background {
+  z-index: -1;
+  position: absolute;
+  top: -600px;
+  width: 100%;
+  left: 0;
+  overflow: hidden;
+  height: 800px;
+}
+
+.cover-pearl-background .pearl {
+  display: block;
+  background-image: url(../../imgs/pearls/09.webp);
+  height: 800px;
+  width: 800px;
+  left: calc(50% - 400px);
+  top: 0px;
+}
+
+.body-case-studies .cover-pearl-background {
+  top: -400px;
+}
+
+.body-discovery-call .cover-pearl-background {
+  top: -500px;
+}
+
 /* 05-GLOBAL SECTIONS */
 /* ------------------------------------------------------ */
 /*///////////// _HEADER.scss start /////////////*/
