@@ -60,14 +60,14 @@ ___     _       __
         <?php include 'includes/clients-logo-scroller.php';?>
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-        <section id="learn-more" class="container-1080 margin-bottom-6 fade-in">
+        <section id="learn-more" class="section-subscriptions-summary container-1080 margin-bottom-6 fade-in">
             <h2 class="heading-1 margin-bottom-4 align-center">Offload your Design<br>& Development Needs</h2>
             <!-- SUBSCRIPTION-PLANS.php start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- SUBSCRIPTION-PLANS.php end -->
         </section>
         <hr>
-        <section class="build container-1080 fade-in">
+        <section class="section-build-summary container-1080 fade-in">
             <h2 class="heading-1 margin-bottom-4 align-center">Build</h2>
             <div class="row">
                 <div class="col card align-center fade-in">
@@ -91,8 +91,8 @@ ___     _       __
             </div>
         </section>
         <hr>
-        <section class="container-1080">
-            <h2 class="heading-1 align-center margin-bottom-4 fade-in">Not Just Different.<br>Better.</h2>
+        <section class="section-differential-value-props container-1080">
+            <h2 class="heading-1 align-center fade-in">Not Just Different.<br>Better.</h2>
             <div class="row">
                 <div class="col card fade-in">
                     <div class="icon-container">
