@@ -35,46 +35,6 @@ navCloseButton.addEventListener('click', () => {
             defaultClass: 'title-2'
         },
         {
-            selector: '.section-subscriptions-summary h2',
-            mobileClass: 'margin-bottom-2',
-            defaultClass: 'margin-bottom-4'
-        },
-        {
-            selector: '.section-build-summary h2',
-            mobileClass: 'margin-bottom-2',
-            defaultClass: 'margin-bottom-4'
-        },
-        {
-            selector: '.section-differential-value-props h2',
-            mobileClass: 'margin-bottom-2',
-            defaultClass: 'margin-bottom-4'
-        },
-        {
-            selector: '.section-cover-about h1',
-            mobileClass: '',
-            defaultClass: 'margin-bottom-4'
-        },
-        {
-            selector: '.section-board-members h2',
-            mobileClass: 'margin-bottom-2',
-            defaultClass: 'margin-bottom-4'
-        },
-        {
-            selector: '.section-poly-atlas h2',
-            mobileClass: 'margin-bottom-2',
-            defaultClass: 'margin-bottom-4'
-        },
-        {
-            selector: '.section-poly-cookies h2',
-            mobileClass: 'margin-bottom-2',
-            defaultClass: 'margin-bottom-4'
-        },
-        {
-            selector: '.section-what-sets-us-apart h2',
-            mobileClass: 'margin-bottom-2',
-            defaultClass: 'margin-bottom-4'
-        },
-        {
             selector: '.subscription-plans h1',
             mobileClass: 'heading-1 margin-bottom-2',
             defaultClass: 'title-2 margin-bottom-4'

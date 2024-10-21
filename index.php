@@ -61,14 +61,14 @@ ___     _       __
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
         <section id="learn-more" class="section-subscriptions-summary container-1080 margin-bottom-6 fade-in">
-            <h2 class="heading-1 margin-bottom-4 align-center">Offload your Design<br>& Development Needs</h2>
+            <h2 class="heading-1 align-center">Offload your Design<br>& Development Needs</h2>
             <!-- SUBSCRIPTION-PLANS.php start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- SUBSCRIPTION-PLANS.php end -->
         </section>
         <hr>
         <section class="section-build-summary container-1080 fade-in">
-            <h2 class="heading-1 margin-bottom-4 align-center">Build</h2>
+            <h2 class="heading-1 align-center">Build</h2>
             <div class="row">
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">Brand</h3>
@@ -118,8 +118,8 @@ ___     _       __
             </div>
         </section>
         <hr>
-        <section>
-            <h2 class="heading-1 align-center margin-bottom-2 fade-in">World-class Design</h2>
+        <section class="section-portolio-thumbnails">
+            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
             <!---------- PORTFOLIO-SCROLLER.php start ---------->
             <?php include 'includes/portfolio-scroller.php';?>
             <!---------- PORTFOLIO-SCROLLER.php end ---------->

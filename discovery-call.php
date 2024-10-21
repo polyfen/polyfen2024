@@ -69,7 +69,7 @@ ___     _       __
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
         <section class="section-testimonials container-1080">
-            <h2 class="heading-1 align-center margin-bottom-4 fade-in">Crafting Success,<br>One Client at a Time</h2>
+            <h2 class="heading-1 align-center fade-in">Crafting Success,<br>One Client at a Time</h2>
             <?php include 'includes/testimonials.php';?>
         </section>
     </main>

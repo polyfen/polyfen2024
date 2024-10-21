@@ -157,8 +157,8 @@ ___     _       __
 
         </section>
         <hr>
-        <section>
-            <h2 class="heading-1 align-center margin-bottom-4">Exceptional Talent<br>that Sparks Innovation</h2>
+        <section class="section-team-scroller">
+            <h2 class="heading-1 align-center">Exceptional Talent<br>that Sparks Innovation</h2>
             <?php include 'includes/team-slider.php';?>
         </section>
     </main>
