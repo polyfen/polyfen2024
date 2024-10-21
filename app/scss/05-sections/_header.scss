@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: var(--black);
-    border: 1px solid var(--accent-color-30pct);
+    border-bottom: 1px solid var(--accent-color-30pct);
     max-width: 960px;
     margin-inline: auto;
     border-radius: 12px;
@@ -109,6 +109,10 @@ header nav {
 }
 
 @media (min-width: 900px) {
+    .header-container {
+        border: 1px solid var(--accent-color-30pct);
+    }
+
     .nav-menu-buttons {
         display: none;
     }
