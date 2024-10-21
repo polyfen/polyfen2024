@@ -111,7 +111,7 @@ ___     _       __
                     <div class="icon-container">
                         <img src="/imgs/icons/crown-simple.svg">
                     </div>
-                    <h3 class="margin-bottom-1">End-to-End<br>Customer Service</h3>
+                    <h3 class="margin-bottom-1">White Glove<br>Customer Service</h3>
                     <p>Our growing list of happy clients shows that we go above and beyond.</p>
                 </div>
             </div>
