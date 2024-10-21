@@ -109,7 +109,9 @@ header nav {
 }
 
 @media (min-width: 900px) {
-
+    .nav-menu-buttons {
+        display: none;
+    }
 }
 
 /*///////////// _HEADER.scss end /////////////*/

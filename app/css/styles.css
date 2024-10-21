@@ -1950,6 +1950,11 @@ header nav {
     display: flex;
   }
 }
+@media (min-width: 900px) {
+  .nav-menu-buttons {
+    display: none;
+  }
+}
 /*///////////// _HEADER.scss end /////////////*/
 /* ------------------------------------------------------ */
 :root {
@@ -2057,6 +2062,7 @@ footer nav a {
   }
   footer nav {
     flex-direction: row;
+    padding-block: 0;
   }
   footer nav a {
     text-align: unset;
