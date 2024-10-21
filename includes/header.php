@@ -15,5 +15,13 @@
         <div class="header-cta-container">
             <a class="button photo-button" href="/discovery-call">Book Call</a>
         </div>
+        <div class="nav-menu-buttons">
+            <button aria-label="Open/Close navbar" class="nav-open-button">
+                <img src="/imgs/icons/menu.svg" alt="" height="30">
+            </button>
+            <button class="nav-close-button">
+                <img src="/imgs/icons/close.svg" alt="" height="28">
+            </button>
+        </div>
     </div>
 </header>
