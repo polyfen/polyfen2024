@@ -44,7 +44,7 @@ ___     _       __
     <!---------- MAIN ABOUT start ---------->
     <main>
         <section class="section-cover-about fade-in">
-            <h2 class="title-2 align-center margin-bottom-4">Where Design &amp;<br>Development Click</h2>
+            <h1 class="title-2 align-center">Where Design &amp;<br>Development Click</h1>
             <div class="container-900 row gap-4">
                 <div class="col">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
@@ -58,7 +58,7 @@ ___     _       __
         </section>
         <hr>
         <section class="section-board-members container-1080 fade-in">
-            <h2 class="heading-1 align-center margin-bottom-4">Industry Leaders in<br>Tech &amp; Creative</h2>
+            <h2 class="heading-1 align-center">Industry Leaders in<br>Tech &amp; Creative</h2>
             <div class="row">
                 <div class="col card">
                     <div class="row gap-2">
@@ -96,7 +96,7 @@ ___     _       __
         </section>
         <hr>
         <section class="section-poly-atlas container-1080 fade-in">
-            <h2 class="heading-1 align-center margin-bottom-4">We Wrote the Book on Branding</h2>
+            <h2 class="heading-1 align-center">We Wrote the Book on Branding</h2>
             <div class="row gap-4">
                 <div class="col fade-in">
                     <img src="/imgs/about/poly-atlas-animation.gif" alt="">
@@ -110,7 +110,7 @@ ___     _       __
         </section>
         <hr>
         <section class="section-poly-cookies container-1080 fade-in">
-            <h2 class="heading-1 align-center margin-bottom-4">We Made a Free Solution for Cookies Consent</h2>
+            <h2 class="heading-1 align-center">We Made a Free Solution for Cookies Consent</h2>
             <div class="row gap-4">
                 <div class="col fade-in">
                     <div class="video-container">
@@ -129,7 +129,7 @@ ___     _       __
         </section>
         <hr>
         <section class="section-what-sets-us-apart container-900 fade-in">
-            <h2 class="heading-1 align-center margin-bottom-4">Committed to Values that<br>Foster Collaboration & Growth</h2>
+            <h2 class="heading-1 align-center">Committed to Values that<br>Foster Collaboration & Growth</h2>
             <div class="row gap-05">
                 <div class="col card fade-in margin-bottom-05">
                     <div class="icon-container"><img src="/imgs/icons/dna.svg"></div>

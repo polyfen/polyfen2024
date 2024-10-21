@@ -28,7 +28,7 @@
         </nav>
     </div>
     <div class="social-links-container">
-        <ul class="social-links no-bullets">
+        <ul class="social-links">
             <li>
                 <a href="http://polyfen.com/twitter" target="_blank" title="X" id="x-icon">Twitter / X ↗</li>
             <li>
