@@ -127,13 +127,13 @@ ___     _       __
             <!---------- VILLA TEREZIJA end ---------->
         </section>
         <hr>
-        <section>
-            <h2 class="heading-1 align-center margin-bottom-2 fade-in">World-class Design</h2>
+        <section class="section-portolio-thumbnails">
+            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
             <?php include 'includes/portfolio-scroller.php';?>
         </section>
         <hr>
         <section class="section-testimonials container-1080">
-            <h2 class="heading-1 align-center margin-bottom-4 fade-in">Crafting Success,<br>One Client at a Time</h2>
+            <h2 class="heading-1 align-center fade-in">Crafting Success,<br>One Client at a Time</h2>
             <?php include 'includes/testimonials.php';?>
         </section>
         </main>

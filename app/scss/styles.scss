@@ -63,7 +63,15 @@ ___     _       __
 
 /* MISC */
 
+.section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2   {
+    margin-bottom: 2rem;
+}
 
+@media (min-width: 1080px) {
+    .section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
+        margin-bottom: 4rem;
+    }
+}
 
 
 

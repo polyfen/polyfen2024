@@ -59,7 +59,7 @@ ___     _       __
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
         <section class="section-branding-services-breakdown">
-                <h2 class="heading-1 align-center margin-bottom-4 fade-in">We’ve got you Covered<br>from Idea to Market</h2>
+                <h2 class="heading-1 align-center fade-in">We’ve got you Covered<br>from Idea to Market</h2>
                 <div class="container-1080">
                         <div class="row margin-bottom-05">
                                 <div class="col card fade-in">
@@ -157,15 +157,15 @@ ___     _       __
                 </div>
         </section>
         <hr>
-        <section>
-            <h2 class="heading-1 align-center margin-bottom-2 fade-in">World-class Design</h2>
+        <section class="section-portolio-thumbnails">
+            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
             <!---------- PORTFOLIO-SCROLLER.php start ---------->
             <?php include 'includes/portfolio-scroller.php';?>
             <!---------- PORTFOLIO-SCROLLER.php end ---------->
         </section>
         <hr>
         <section class="section-thought-leaders">
-                <h2 class="heading-1 align-center margin-bottom-4 fade-in">We Wrote the<br>Book on Branding</h2>
+                <h2 class="heading-1 align-center fade-in">We Wrote the<br>Book on Branding</h2>
                 <div class="container-1080 row gap-4">
                         <div class="col">
                                 <img src="/imgs/about/poly-atlas-animation.gif" alt="" class="margin-bottom-2 fade-in">
@@ -192,12 +192,9 @@ ___     _       __
                         </div>
                 </div>
         </section>
-
         <hr>
-
-
         <section class="testimonials-section container-1080">
-            <h2 class="heading-1 align-center margin-bottom-4 fade-in">Elevating Brands,<br>One Client at a Time</h2>
+            <h2 class="heading-1 align-center fade-in">Elevating Brands,<br>One Client at a Time</h2>
             <?php include 'includes/testimonials.php';?>
         </section>
     </main>
