@@ -57,6 +57,10 @@ ___     _       __
                         <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
                         <?php include 'includes/subscription-plans.php';?>
                         <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
+                        <div class="cover-pearl-background">
+                                <div class="pearl rotate-slower fade-in">
+                                </div>
+                        </div>
                 </section>
                 <hr>
                 <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   

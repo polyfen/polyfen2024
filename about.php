@@ -55,6 +55,10 @@ ___     _       __
                     <p>Culture-wise, we’re shaped by R&D. It runs through our hiring, operational, and delivery strategies to stay ahead of the curve.</p>
                 </div>
             </div>
+            <div class="cover-pearl-background">
+                <div class="pearl rotate-slower fade-in">
+                </div>
+            </div>
         </section>
         <hr>
         <section class="section-board-members container-1080 fade-in">

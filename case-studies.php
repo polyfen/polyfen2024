@@ -43,6 +43,10 @@ ___     _       __
     <main>
         <section>
             <h1 class="title-2 align-center fade-in margin-bottom-6">Commitment to  Excellence<br>in Every Project</h1>
+            <div class="cover-pearl-background">
+                <div class="pearl rotate-slower fade-in">
+                </div>
+            </div>
         </section>
         <hr>
         <section class="container-1080">
