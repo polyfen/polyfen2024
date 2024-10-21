@@ -55,6 +55,7 @@ ___     _       __
                 </div>
             </div>
         </section>
+        <hr class="small-separator">
         <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
         <?php include 'includes/clients-logo-scroller.php';?>
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->

@@ -58,7 +58,7 @@
     <div class="col card card-subscriptions fade-in" id="starter">
         <div class="card-header">
             <h3 class="heading-2 margin-bottom-025">Starter</h3>
-            <div class="row gap-025">
+            <div class="mobile-row gap-025">
                 <h4 class="heading-3">$3,935</h4>
                 <small>/Month</small>
             </div>
@@ -79,7 +79,7 @@
     <div class="col card card-subscriptions featured-card fade-in" id="pro">
         <div class="card-header">
             <h3 class="heading-2 margin-bottom-025">Pro</h3>
-            <div class="row gap-025">
+            <div class="mobile-row gap-025">
                 <h4 class="heading-3">$7,156</h4>
                 <small>/Month</small>
             </div>
@@ -116,16 +116,16 @@
         </div>
     </div>
 </div>
-<div class="row subscriptions-reasurance gap-1 flex-row-center margin-top-2">
-    <div class="row gap-025 fade-in" style="align-items: center;">
+<div class="row subscriptions-reasurance gap-1 margin-top-2">
+    <div class="mobile-row gap-025 fade-in" style="align-items: center;">
         <img src="imgs/icons/lock-simple.svg" height="24px">
         <small class="mini align-center">Secure Payment with Stripe</small>
     </div>
-    <div class="row gap-025 fade-in" style="align-items: center;">
+    <div class="mobile-row gap-025 fade-in" style="align-items: center;">
         <img src="imgs/icons/shield-check.svg" height="24px">
         <small class="mini align-center">No Hidden Fees</small>
     </div>
-    <div class="row gap-025 fade-in" style="align-items: center;">
+    <div class="mobile-row gap-025 fade-in" style="align-items: center;">
         <img src="imgs/icons/pause-circle.svg" height="24px">
         <small class="mini align-center">Pause or Cancel Any Time</small>
     </div>

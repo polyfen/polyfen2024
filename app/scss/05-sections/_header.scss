@@ -36,6 +36,12 @@ header nav {
 }
 
 @media (max-width: 899px) {
+
+    .header-container {
+        margin-top: 0px;
+        border-radius: 0;
+    }
+
     header nav {
         display: none;
     }
@@ -81,8 +87,8 @@ header nav {
         .nav-close-button {
             display: flex;
             position: fixed;
-            top: 20px;
-            right: 20px;
+            top: 16px;
+            right: 16px;
         }
         nav {
             display: flex;

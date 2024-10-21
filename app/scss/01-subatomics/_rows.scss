@@ -7,6 +7,12 @@
     gap: 8px;
 }
 
+.mobile-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
 .row .col {
     flex-grow: 1;
     width: 100%;
