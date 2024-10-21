@@ -1,0 +1,62 @@
+/*------------------------------------------------------ */
+/*///////////// _FAQ.scss start /////////////*/
+
+.accordions-container {
+    padding-top: 2rem;
+}
+
+.accordion {
+    border-bottom: 1px solid #7437f850;
+    margin-bottom: 32px;
+}
+
+.acc-button {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    transition: .4s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #ffffff4d;
+}
+
+.faqs h3.heading-4 {
+    margin-bottom: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.faqs .accordion h3 span {
+    color: var(--accent-color);
+}
+
+.acc-button:after {
+    content: '\002B';
+    float: right;
+    margin-left: auto;
+    font-size: 2rem;
+    color: var(--accent-color);
+}
+
+.acc-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+@media (min-width: 1024px) {
+    .acc-panel {
+        padding-left: 48px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .faqs .acc-panel {
+        padding-left: 30px;
+    }
+}
+
+/*///////////// _SUBSCRIPTIONS.scss end /////////////*/
+/*------------------------------------------------------ */

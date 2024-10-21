@@ -1,0 +1,40 @@
+/* ------------------------------------------------------ */
+/*///////////// _CARDS.scss start /////////////*/
+
+:root {
+    --card-background-color: var(--slate-900);
+    --card-border-color: var(--accent-color-30pct);
+}
+
+.card {
+    background: var(--card-background-color);
+    border: 1px solid var(--card-border-color);
+    border-radius: 12px;
+    padding-inline: 16px;
+    padding-block: 16px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.card.card-small {
+    padding-inline: 16px;
+    padding-block: 16px 20px;
+}
+
+.card-small ul {
+    margin-bottom: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+@media (min-width: 900px) {
+    .card {
+        padding-inline: 24px;
+        padding-block: 24px 32px;
+    }
+}
+
+/*///////////// _CARDS.scss end /////////////*/
+/* -------------------------------------------------*/

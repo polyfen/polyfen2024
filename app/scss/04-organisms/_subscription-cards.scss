@@ -1,0 +1,84 @@
+/* ------------------------------------------------------ */
+/*///////////// _SUBSCRIPTION-CARDS.scss start /////////////*/
+
+.card-subscriptions .card-header .row {
+    align-items: baseline;
+}
+
+.body-home .card-subscriptions .start-today-button {
+    display: none;
+}
+
+.body-subscriptions .card-subscriptions .learn-more-button {
+    display: none;
+}
+
+.card-subscriptions {
+    padding: 0;
+}
+
+.card-header {
+    height: 100px;
+    background: #391E81;
+    padding: 16px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+}
+
+.card-header .mobile-row {
+    align-items: baseline;
+}
+
+.featured-card .card-header {
+    background-image: linear-gradient(45deg, #722FFF, #4b00ae, #d12b94, #722FFF, #4b00ae);
+    background-size: 200% 200%;
+    animation: gradient 12s infinite;
+}
+
+.card-header .label {
+    position: relative;
+    top: -92px;
+    left: calc(100% - 132px);
+}
+
+.card-body {
+    padding: 24px 16px 24px;
+}
+
+.card-body ul {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.card-body li {
+    margin-bottom: 0.5rem;
+}
+
+.subscriptions-reasurance {
+    justify-content: center;
+}
+
+.subscriptions-reasurance img {
+    filter: brightness(0) saturate(100%) invert(28%) sepia(86%) saturate(7346%) hue-rotate(258deg) brightness(103%) contrast(101%);
+    margin-top: -2px;
+    margin-bottom: 2px;
+}
+
+.subscriptions-reasurance .mobile-row {
+    justify-content: center;
+}
+
+@media (min-width: 900px) {
+    .card-header {
+        height: 116px;
+    }
+    .card-body ul {
+        height: 280px;
+    }
+    .card-header .label {
+        top: -120px;
+    }
+}
+
+/*///////////// _SUBSCRIPTION-CARDS.scss end /////////////*/
+/* ------------------------------------------------------ */

@@ -1,0 +1,58 @@
+/* ------------------------------------------------------ */
+/*///////////// _TEAM-SCROLLER.scss start /////////////*/
+
+.team-card {
+    background-color: #1E1758;
+    border-radius: 8px;
+    width: 250px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-inline: 10px;
+}
+
+.team-card strong {
+    font-family: Figtree;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.2px;
+    text-align: left;
+}
+
+.team-card small {
+    font-family: Figtree;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.4px;
+    text-align: left;
+
+}
+
+.team-card .col:nth-child(1) {
+    width: fit-content;
+    background-image: radial-gradient(50% 50% at center, #070924 0% 80%, transparent 81% 100%);
+    background-size: 85px 85px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team-card .col:nth-child(1) img {
+    width: 85px;
+    height: 85px;
+    max-width: unset;
+}
+
+.team-card .col:nth-child(2) * {
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .team-card.row {
+        flex-direction: row;
+    }
+}
+
+/*///////////// _TEAM-SCROLLER.scss end /////////////*/
+/* ------------------------------------------------------ */

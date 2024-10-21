@@ -1,0 +1,59 @@
+/* ------------------------------------------------------ */
+/*///////////// _ABOUT.scss start /////////////*/
+
+.section-cover-about img {
+    max-width: 360px;
+    margin-inline: auto;
+}
+
+.section-board-members ul {
+    margin-bottom: 0;
+}
+
+.board-member-portrait {
+    max-width: 200px;
+    border-radius: 16px;
+    border: 1px solid var(--accent-color-30pct);
+}
+
+.board-members-social {
+    display: block;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 900px) {
+    img.board-member-portrait {
+        margin-bottom: 2rem;
+    }
+    
+    .section-board-members h3 {
+        max-width: 140px;
+    }
+}
+
+.section-poly-atlas h2 {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 900px) {
+    .section-poly-atlas .button, .section-poly-cookies .button {
+        margin-right: auto;
+        margin-left: unset;
+    }
+
+    .section-poly-cookies .row {
+        flex-direction: row-reverse;
+    }
+}
+
+.poly-cookies-video {
+    border-radius: 16px;
+    border: none;
+    max-width: 100%;
+}
+
+/*///////////// _ABOUT.scss end /////////////*/
+/* ------------------------------------------------------ */

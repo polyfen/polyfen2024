@@ -1,0 +1,52 @@
+/*------------------------------------------------------ */
+/*///////////// _TESTIMONIALS.scss start /////////////*/
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-inline: auto;
+}
+
+.testimonials-container figure {
+    margin-inline: 0;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.testimonial blockquote {
+    margin-inline: 0;
+}
+
+.testimonial figcaption {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.card.testimonial p {
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+
+/* Home > Testimonial-section MediaQuery */
+@media (min-width: 768px) {
+    .testimonials-container {
+        max-width: unset;
+    }
+
+    .testimonials-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+
+/*///////////// _TESTIMONIALS.scss end /////////////*/
+/*------------------------------------------------------ */

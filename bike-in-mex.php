@@ -1,74 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
 
+___     _       __          
+| _ \___| |_  _ / _|___ _ _  
+|  _/ _ \ | || |  _/ -_) ' \ 
+|_| \___/_|\_, |_| \___|_||_|
+           |__/              
+
+-->
+<html lang="en">
 <head>
     <title>Polyfen | Bike in Mex Brand Identity Design</title>
-
-
-    <!-- INCLUDE HEAD.PHP start -->
+    <!---------- HEAD.php start ---------->
     <?php include 'includes/head.php';?>
-    <!-- INCLUDE HEAD.PHP end -->
-
-    <!-- PAGE-SPECIFIC META start -->
+    <!---------- HEAD.php end ---------->
+    <!---------- PAGE-SPECIFIC META start ---------->
     <meta property="og:title" content="Bike in Mex Branding | Polyfen">
     <meta property="og:url" content="https://polyfen.com/bike-in-mex">
-    <meta name="keywords"
-        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
-    <meta name="description" property="og:description"
-        content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.">
+    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
+    <meta name="description" property="og:description" content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="fb:app_id" content="1799272553516195">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="Polyfeny">
-    <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Bike in Mex Brand Identity Design">
-    <meta name="twitter:description"
-        content="We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop based in Tulum, Mexico.">
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/bike-in-mex-meta.png">
     <meta name="robots" content="index, follow">
-    <!-- PAGE-SPECIFIC META end -->
-
-    <!-- PAGE-SPECIFIC CSS start -->
-    <!-- PAGE-SPECIFIC CSS end -->
-
-    <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <!---------- PAGE-SPECIFIC META end ---------->
+    <!---------- PAGE-SPECIFIC CSS start ---------->
+    <!---------- PAGE-SPECIFIC CSS end ---------->
+    <!---------- PAGE-SPECIFIC SCRIPTS start ---------->
     <!-- SLICK start-->
     <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick.css">
     <!--// Add the new slick-theme.css if you want the default styling //-->
     <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick-theme.css">
     <!-- SLICK end-->
-    <!-- PAGE-SPECIFIC SCRIPTS end -->
-
-
+    <!---------- PAGE-SPECIFIC SCRIPTS end ---------->
 </head>
-
-<body class="dark-mode polyfen-site case-study">
-
-    <!-- Google Tag Manager (noscript) -->
+<body class="body-case-study-single">
+    <!---------- Google Tag Manager (noscript) start ---------->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-
-
-
-    <!-- INCLUDE hellobar.PHP start -->
+    <!---------- Google Tag Manager (noscript) end ---------->
+    <!---------- HELLOBAR.php start ---------->
     <?php include 'includes/hellobar.php';?>
-    <!-- INCLUDE hellobar.PHP end -->
-
-    <!-- INCLUDE HEADER.PHP start -->
+    <!---------- HELLOBAR.php end ---------->
+    <!---------- HEADER.php start ---------->
     <?php include 'includes/header.php';?>
-    <!-- INCLUDE HEADER.PHP end -->
-
-    <main class="case-study-main container-1080">
-
-        <h1 class="title-1 fade-in margin-bottom-2">Bike in Mex</h1>
-        <p class="project-p fade-in margin-bottom-6">We designed an identity focused on geometric illustrations inspired by ancient Aztec
-            and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop
+    <!---------- HEADER.php end ---------->
+    <!---------- MAIN BIKE IN MEX start ---------->
+    <main class="container-1080">
+        <h1 class="title-1 align-center fade-in margin-bottom-4">Bike in Mex</h1>
+        <p class="project-p fade-in margin-bottom-6">We designed an identity focused on geometric illustrations inspired by ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental shop
             based in Tulum, Mexico.</p>
-
         <div id="slider-container" class="fade-in">
             <div class="slider lazy">
                 <picture data-lazy>
@@ -188,24 +167,17 @@
             </div>
         </section>
     </main>
-
-    <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+    <!---------- MAIN BIKE IN MEX end ---------->
+    <!---------- CALL-TO-ACTION.php start ---------->
     <?php include 'includes/cta-section.php';?>
-    <!-- INCLUDE CALL-TO-ACTION.PHP end -->
-
-    <!-- INCLUDE FOOTER.PHP start -->
+    <!---------- CALL-TO-ACTION.php end ---------->
+    <!---------- FOOTER.php start ---------->
     <?php include 'includes/footer.php';?>
-    <!-- INCLUDE FOOTER.PHP end -->
-
-    <!-- POLYKIT Scripts -->
-    <script defer src="https://polykit.xyz/app/js/polykit-v0-3.js"></script>
-
-
-
+    <!---------- FOOTER.php end ---------->
+    <!---------- SCRIPTS ---------->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="libs/slick/slick/slick.min.js"></script>
-
     <script>
     $('.slider').slick({
         dots: false,
@@ -217,7 +189,5 @@
         slidesToScroll: 1
     });
     </script>
-
 </body>
-
 </html>

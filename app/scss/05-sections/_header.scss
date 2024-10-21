@@ -1,0 +1,122 @@
+/* ------------------------------------------------------ */
+/*///////////// _HEADER.scss start /////////////*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+.header-container {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--black);
+    border-bottom: 1px solid var(--accent-color-30pct);
+    max-width: 960px;
+    margin-inline: auto;
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+.logo-header img {
+    height: 46px;
+}
+
+header nav {
+    display: flex;
+    gap: 12px;
+}
+
+.header-cta-container a.button {
+    width: unset;
+}
+
+@media (max-width: 899px) {
+
+    .header-container {
+        margin-top: 0px;
+        border-radius: 0;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .nav-menu-buttons button {
+        display: flex;
+        height: 42px;
+        width: 42px;
+        border: 1px solid var(--accent-color-30pct);
+        background: var(--accent-color-800);
+        border-radius: 8px;
+        padding: 0;
+    }
+
+    button.nav-close-button {
+        display: none;
+    }
+
+    .header-cta-container {
+        display: none;
+    }
+
+    .open-nav{
+        .header-container {
+            margin-top: 0;
+            height: 100vh;
+            border-radius: 0;
+            border: none;
+            background: var(--black-95pct);
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: flex-start;
+            gap: 32px;
+            justify-content: flex-start;
+        }
+        .header-logo-container {
+            display: none;
+        }
+        .nav-open-button {
+            display: none;
+        }
+        .nav-close-button {
+            display: flex;
+            position: fixed;
+            top: 16px;
+            right: 16px;
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            z-index: 90;
+            font-size: 2.5rem;
+            font-weight: 600;
+            gap: 0; 
+        }
+        nav a {
+            margin: 8px 16px;
+        }
+        .header-cta-container {
+            display: flex;
+        }
+    }
+
+}
+
+@media (min-width: 900px) {
+    .header-container {
+        border: 1px solid var(--accent-color-30pct);
+    }
+
+    .nav-menu-buttons {
+        display: none;
+    }
+}
+
+/*///////////// _HEADER.scss end /////////////*/
+/* ------------------------------------------------------ */

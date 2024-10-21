@@ -1,3 +1,107 @@
+/*
+
+___     _       __          
+| _ \___| |_  _ / _|___ _ _  
+|  _/ _ \ | || |  _/ -_) ' \ 
+|_| \___/_|\_, |_| \___|_||_|
+           |__/              
+
+*/
+
+
+/* 01-SUBATOMICS */
+@import '01-subatomics/_reset.scss';
+@import '01-subatomics/_typography.scss';
+@import '01-subatomics/_primitive-colors.scss';
+@import '01-subatomics/_brand-colors.scss';
+@import '01-subatomics/_ui-colors.scss';
+@import '01-subatomics/_main.scss';
+@import '01-subatomics/_spacing.scss';
+@import '01-subatomics/_separators.scss';
+@import '01-subatomics/_containers.scss';
+@import '01-subatomics/_rows.scss';
+@import '01-subatomics/_utilities.scss';
+@import '01-subatomics/_animations.scss';
+
+
+/* 02-ATOMS */
+@import '02-atoms/_links.scss';
+@import '02-atoms/_buttons.scss';
+@import '02-atoms/_icons.scss';
+@import '02-atoms/_lists.scss';
+@import '02-atoms/_pearls.scss';
+@import '02-atoms/_labels.scss';
+
+
+/* 03-MOLECULES */
+@import '03-molecules/_carousels.scss';
+@import '03-molecules/_cards.scss';
+
+
+/* 04-ORGANISMS */
+@import '04-organisms/_team-scroller.scss';
+@import '04-organisms/_testimonials.scss';
+@import '04-organisms/_subscription-cards.scss';
+@import '04-organisms/_faq.scss';
+@import '04-organisms/_cookies-modal.scss';
+@import '04-organisms/_chat.scss';
+@import '04-organisms/_pearl-backgrounds.scss';
+
+
+/* 05-GLOBAL SECTIONS */
+@import '05-sections/_header.scss';
+@import '05-sections/_cta-section.scss';
+@import '05-sections/_footer.scss';
+
+
+/* 06-PAGES */
+@import '06-pages/_home.scss';
+@import '06-pages/_about.scss';
+@import '06-pages/_case-studies.scss';
+@import '06-pages/_case-study-single.scss';
+@import '06-pages/_branding.scss';
+@import '06-pages/_subscriptions.scss';
+
+
+/* MISC */
+
+.section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2   {
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 1080px) {
+    .section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
+        margin-bottom: 4rem;
+    }
+}
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pages */
+/*
 @import "_footer";
 @import "_scroller";
 @import "_animations";
@@ -7,8 +111,11 @@
 @import "_services-cards";
 @import "_testimonials";
 @import "_cta-section";
+@import "_chatbot";
+*/
 
 /* Pages */
+/*
 @import "_home";
 @import "_about";
 @import "_subscriptions";
@@ -18,7 +125,9 @@
 @import "_discovery-call";
 @import "_subscription-confirmed";
 @import "_branding-page";
+*/
 
+/*
 iframe {
     max-width: 100%;
     border: none;
@@ -32,9 +141,11 @@ video {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) *//*
   }
   
+
+  /*
 .video-container iframe {
     position: absolute;
     top: 0;
@@ -63,43 +174,5 @@ main {
 .photo-icon-button::before {
     background-image: url(../../imgs/photo-icon.png);
 }
+*/
 
-
-/*   ____ _           _   _           _    */
-/*  / ___| |__   __ _| |_| |__   ___ | |_  */
-/* | |   | '_ \ / _` | __| '_ \ / _ \| __| */
-/* | |___| | | | (_| | |_| |_) | (_) | |_  */
-/*  \____|_| |_|\__,_|\__|_.__/ \___/ \__| */
-/* Chatbot --------------------------------*/
-
-/* Change position of Cookies and Chat modals on scroll over the footer */
-.bottom-120,
-#crisp-chatbox div a.bottom-120 {
-    bottom: 120px !important;
-}
-
-/*automatic message to not overlapping with chat bubble*/
-a.bottom-120 span [data-id="new_messages"] {
-    margin-bottom: 100px !important;
-}
-
-/*instant chat-window to not overlapping with chat bubble*/
-#crisp-chatbox div a.bottom-120 > span > span[data-id="general_entice"] > span > span {
-    margin-bottom: 100px !important;
-}
-
-/*chat-window to not overlapping with chat bubble*/
-div[data-visible="true"]:has(+ .bottom-120) {
-    margin-bottom: 100px !important;
-}
-
-/*chat-window to not overlapping with chat bubble*/
-#crisp-chatbox {
-    z-index: 60;
-}
-
-/* esto no estaria funcionando por los cambios de clases */
-.crisp-client .cc-tlyw .cc-kxkl .cc-nsge span.cc-imbb {
-    box-shadow: 0 0 0 2px #070924 !important;
-}
-/* END  ChatBot*/

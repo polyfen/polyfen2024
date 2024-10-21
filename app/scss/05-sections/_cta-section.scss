@@ -1,0 +1,27 @@
+:root {
+    --cta-section-background: var(--slate-900);
+}
+
+.section-cta {
+    background: var(--cta-section-background);
+    background-image: radial-gradient(at top, var(--accent-color-30pct) 0%, transparent 60%);
+    border-top: 1px solid var(--accent-color-30pct);
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.body-branding .section-cta {
+    padding-bottom: 0;
+}
+
+.body-subscriptions .cta-section-content-general, .body-branding .cta-section-content-general {
+    display: none;
+}
+
+.body-subscriptions .cta-section-content-subscriptions, .body-branding .cta-section-content-branding {
+    display: flex;
+}
+
+body:not(.body-subscriptions) .cta-section-content-subscriptions, body:not(.body-branding) .cta-section-content-branding {
+    display: none;
+}

@@ -1,29 +1,27 @@
 <header>
-    <a class="logo" href="/"><img src="/imgs/polyfen-logo.svg" id="logo" alt="Polyfen"></a>
-    <div id="context-menu" class="mini d-none">
-        <ul>
-            <li><a data-before="copy" id="copylogo" href="logo.svg">Copy logo as SVG</a></li>
-            <li><a data-before="google-drive" href="https://drive.google.com/drive/folders/1hEl8370cqLWeeUEWjiC05Api3KhNaxgS?usp=sharing" target="_blank">Download brand assets</a></li>
-            <li><a data-before="arrow-square-out" href="https://thepolyfengroup.com/brand" target="_blank">Visit brand guidelines</a></li>
-        </ul>
-    </div>
-    <div id="confirm-svg" class="confirm-message"></div>
-    <nav class="header-nav">
-        <div class="nav-links">
+    <div class="header-container">
+        <div class="header-logo-container">
+            <a class="logo-header" href="/">
+                <img src="/imgs/polyfen-logo.svg" alt="Polyfen">
+            </a>
+        </div>
+        <nav>
             <a href="/">Home</a>
             <a href="/about">About</a>
             <a href="/case-studies">Case Studies</a>
             <a href="/branding">Branding</a>
             <a href="/subscriptions">Subscriptions</a>
-            <a href="/contact">Contact</a>
+        </nav>
+        <div class="header-cta-container">
+            <a class="button photo-button" href="/discovery-call">Book Call</a>
         </div>
-        <div class="nav-buttons">
-            <button aria-label="Open/Close navbar" class="nav-hamburger">
-                <img src="/imgs/hamburger_icon.svg" alt="" height="30">
+        <div class="nav-menu-buttons">
+            <button aria-label="Open/Close navbar" class="nav-open-button">
+                <img src="/imgs/icons/menu.svg" alt="" height="30">
             </button>
-            <button class="nav-close">
-                <img src="/imgs/close_icon.svg" alt="" height="28">
+            <button class="nav-close-button">
+                <img src="/imgs/icons/close.svg" alt="" height="28">
             </button>
         </div>
-    </nav>
+    </div>
 </header>

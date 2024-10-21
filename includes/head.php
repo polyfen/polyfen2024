@@ -8,7 +8,7 @@
 <meta property="fb:app_id" content="1799272553516195">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Polyfen">
-<meta name="twitter:creator" content="@PolyfenAgency">
+<meta name="twitter:creator" content="@We_are_Polyfen">
 <meta name="p:domain_verify" content="defdac0db8bc98b64145d03def30a79f">
 
 <!-- FAVICON -->
@@ -21,9 +21,7 @@
 <meta name="theme-color" content="#7537f8">
 
 <!-- CSS General -->
-<link rel="stylesheet" href="https://polykit.xyz/app/css/polykit-v0-4.css?v=4.0" type="text/css">
-<link rel="stylesheet" href="/app/css/styles-min.css?v=4.0" type="text/css">
-
+<link rel="stylesheet" href="/app/css/styles-min.css?v=24.10.1" type="text/css">
 
 <!-- FONTS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,6 +65,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <!-- Global javascript -->
+<script defer src="/app/js/main.js"></script>
 <script defer src="/app/js/timezone.js"></script>
 <script defer src="/app/js/subtle.js"></script>
 <script defer src="/app/js/modal-position.js"></script>
@@ -78,23 +77,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 src="https://code.jquery.com/jquery-3.6.3.min.js"
 integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
 crossorigin="anonymous"></script>
-
-<!--
-  _____      _        __           
- |  __ \    | |      / _|          
- | |__) |__ | |_   _| |_ ___ _ __  
- |  ___/ _ \| | | | |  _/ _ \ '_ \ 
- | |  | (_) | | |_| | ||  __/ | | |
- |_|   \___/|_|\__, |_| \___|_| |_|
-                __/ |              
-               |___/               
--->
-<!--
-          ____                    _ _     _       _           _ 
-         |___ \                  | (_)   | |     | |         | |
- __      ____) | ___  __   ____ _| |_  __| | __ _| |_ ___  __| |
- \ \ /\ / /__ < / __| \ \ / / _` | | |/ _` |/ _` | __/ _ \/ _` |
-  \ V  V /___) | (__   \ V / (_| | | | (_| | (_| | ||  __/ (_| |
-   \_/\_/|____/ \___|   \_/ \__,_|_|_|\__,_|\__,_|\__\___|\__,_|
-                                                                
--->
