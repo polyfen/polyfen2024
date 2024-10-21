@@ -85,7 +85,7 @@ ___     _       __
                         </div>
                     </div>
                     <ul class="hanging-list spaced-list">
-                        <li class="fade-in">Coding websites since 2008, designing brands since 2010 and products since 2014.
+                        <li class="fade-in">Coding websites since 2008, designing brands and digital products since 2010.
                         </li>
                         <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.
                         </li>
@@ -121,15 +121,14 @@ ___     _       __
                     </div>
                 </div>
                 <div class="col fade-in">
-                    <p>We developed a simple open-source technology that helps websites comply with privacy protection
-                        regulations like GDPR and the California Online Privacy Act.</p>
+                    <p>We developed a simple open-source technology that helps websites comply with privacy protection regulations like GDPR and the California Online Privacy Act.</p>
                     <a data-button-arrow href="https://polycookies.com/" target="_blank" class="button secondary-button fade-in">polycookies.com ↗</a>
                 </div>
             </div>
         </section>
         <hr>
         <section class="section-what-sets-us-apart container-900 fade-in">
-            <h2 class="heading-1 align-center">Committed to Values that<br>Foster Collaboration & Growth</h2>
+            <h2 class="heading-1 align-center">Values that Inspire<br>Collaboration & Growth</h2>
             <div class="row gap-05">
                 <div class="col card fade-in margin-bottom-05">
                     <div class="icon-container"><img src="/imgs/icons/dna.svg"></div>
