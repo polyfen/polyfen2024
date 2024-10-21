@@ -21,14 +21,14 @@
     color: #ffffff4d;
 }
 
-.faq h3.heading-4 {
+.faqs h3.heading-4 {
     margin-bottom: 0;
     display: flex;
     gap: 5px;
 }
 
-.faq .accordion h3 span {
-    color: #7537F8;
+.faqs .accordion h3 span {
+    color: var(--accent-color);
 }
 
 .acc-button:after {
@@ -36,6 +36,7 @@
     float: right;
     margin-left: auto;
     font-size: 2rem;
+    color: var(--accent-color);
 }
 
 .acc-panel {
@@ -52,7 +53,7 @@
 }
 
 @media (min-width: 1024px) {
-    .faq .acc-panel {
+    .faqs .acc-panel {
         padding-left: 30px;
     }
 }
