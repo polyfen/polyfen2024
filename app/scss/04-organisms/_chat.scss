@@ -4,22 +4,22 @@
 /* Change position of Cookies and Chat modals on scroll over the footer */
 .bottom-120,
 #crisp-chatbox div a.bottom-120 {
-    bottom: 120px !important;
+    bottom: 190px !important;
 }
 
 /*automatic message to not overlapping with chat bubble*/
 a.bottom-120 span [data-id="new_messages"] {
-    margin-bottom: 100px !important;
+    margin-bottom: 170px !important;
 }
 
 /*instant chat-window to not overlapping with chat bubble*/
 #crisp-chatbox div a.bottom-120 > span > span[data-id="general_entice"] > span > span {
-    margin-bottom: 100px !important;
+    margin-bottom: 170px !important;
 }
 
 /*chat-window to not overlapping with chat bubble*/
 div[data-visible="true"]:has(+ .bottom-120) {
-    margin-bottom: 100px !important;
+    margin-bottom: 170px !important;
 }
 
 /*chat-window to not overlapping with chat bubble*/
