@@ -78,7 +78,7 @@ ___     _       __
                                 <div class="col fade-in">
                                         <div class="row margin-bottom-05">
                                                 <div class="col card card-small fade-in">
-                                                        <div class="row">
+                                                        <div class="mobile-row">
                                                                 <div class="icon-container icon-container-small">
                                                                         <img src="imgs/icons/user-focus.svg" alt="" height="22px">
                                                                 </div>
@@ -91,7 +91,7 @@ ___     _       __
                                                         </ul>
                                                 </div>
                                                 <div class="col card card-small fade-in">
-                                                        <div class="row">
+                                                        <div class="mobile-row">
                                                                 <div class="icon-container icon-container-small">
                                                                         <img src="imgs/icons/pencil-ruler.svg" alt="" height="20px">
                                                                 </div>
@@ -106,7 +106,7 @@ ___     _       __
                                         </div>
                                         <div class="row">
                                                 <div class="col card card-small fade-in">
-                                                        <div class="row">
+                                                        <div class="mobile-row">
                                                                 <div class="icon-container icon-container-small">
                                                                         <img src="imgs/icons/code.svg" alt="" height="22px">
                                                                 </div>
@@ -119,7 +119,7 @@ ___     _       __
                                                         </ul>
                                                 </div>
                                                 <div class="col card card-small fade-in">
-                                                <div class="row pro">
+                                                <div class="mobile-row pro">
                                                                 <div class="icon-container icon-container-small">
                                                                         <img src="imgs/icons/infinity.svg" alt="" height="24px">
                                                                 </div>

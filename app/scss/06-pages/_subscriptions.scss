@@ -16,6 +16,10 @@
     align-items: baseline;
 }
 
+.section-task-examples .mobile-row {
+    align-items: baseline;
+}
+
 .section-task-examples .card .pro::after {
     content: 'PRO';
     background: #7437f850;
@@ -27,6 +31,9 @@
     text-align: center;
     align-content: center;
     margin-top:12px;
+    position: absolute;
+    right: 16px;
+    top: 4px;
 }
 
 .stack-carrousel .slick-dots {
