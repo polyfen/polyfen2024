@@ -30,15 +30,15 @@
     <div class="social-links-container">
         <ul class="social-links">
             <li>
-                <a href="http://polyfen.com/twitter" target="_blank" title="X" id="x-icon">Twitter / X ↗</li>
+                <a class="caption" href="http://polyfen.com/twitter" target="_blank" title="X" id="x-icon">Twitter / X ↗</li>
             <li>
-                <a href="http://polyfen.com/instagram" target="_blank" title="Instagram">Instagram ↗</a>
+                <a class="caption" href="http://polyfen.com/instagram" target="_blank" title="Instagram">Instagram ↗</a>
             </li>
             <li>
-                <a href="http://polyfen.com/linkedin" target="_blank" title="Linkedin" id="linkedin-icon">Linkedin ↗</a>
+                <a class="caption" href="http://polyfen.com/linkedin" target="_blank" title="Linkedin" id="linkedin-icon">Linkedin ↗</a>
             </li>
             <li>
-                <a href="http://polyfen.com/github" target="_blank" title="Github" id="github-icon">Github ↗</a>
+                <a class="caption" href="http://polyfen.com/github" target="_blank" title="Github" id="github-icon">Github ↗</a>
             </li>
         </ul>
     </div>

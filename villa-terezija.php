@@ -3,65 +3,41 @@
 
 <head>
     <title>Polyfen | Villa Terezija Brand Identity Design</title>
-
-
-    <!-- INCLUDE HEAD.PHP start -->
+    <!---------- HEAD.php start ---------->
     <?php include 'includes/head.php';?>
-    <!-- INCLUDE HEAD.PHP end -->
-
-    <!-- PAGE-SPECIFIC META start -->
+    <!---------- HEAD.php end ---------->
+    <!---------- PAGE-SPECIFIC META start ---------->
     <meta property="og:title" content="Villa Terezija Branding | Polyfen">
     <meta property="og:url" content="https://polyfen.com/villa-terezija">
-    <meta name="keywords"
-        content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
-    <meta name="description" property="og:description"
-        content="A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on Krk Island, Croatia.">
+    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
+    <meta name="description" property="og:description" content="A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on Krk Island, Croatia.">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/villa-terezija-meta.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="fb:app_id" content="1799272553516195">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="Polyfen">
-    <meta name="twitter:creator" content="@PolyfenAgency">
-    <meta name="twitter:title" content="Villa Terezija Brand Identity Design">
-    <meta name="twitter:description"
-        content="A touristic accommodation surrounded by a stunning rose garden in the quiet town of Baška on Krk Island, Croatia.">
-    <meta name="twitter:image" content="https://polyfen.com/imgs/meta/villa-terezija-meta.png">
     <meta name="robots" content="index, follow">
-    <!-- PAGE-SPECIFIC META end -->
-
-    <!-- PAGE-SPECIFIC CSS start -->
-    <!-- PAGE-SPECIFIC CSS end -->
-
-    <!-- PAGE-SPECIFIC SCRIPTS start -->
+    <!---------- PAGE-SPECIFIC META end ---------->
+    <!---------- PAGE-SPECIFIC CSS start ---------->
+    <!---------- PAGE-SPECIFIC CSS end ---------->
+    <!---------- PAGE-SPECIFIC SCRIPTS start ---------->
     <!-- SLICK start-->
     <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick.css">
     <!--// Add the new slick-theme.css if you want the default styling //-->
     <link rel="stylesheet" type="text/css" href="libs/slick/slick/slick-theme.css">
     <!-- SLICK end-->
-    <!-- PAGE-SPECIFIC SCRIPTS end -->
-
-
+    <!---------- PAGE-SPECIFIC SCRIPTS end ---------->
 </head>
 
-<body class="dark-mode polyfen-site case-study">
-
-    <!-- Google Tag Manager (noscript) -->
+<body class="body-case-study-single">
+    <!---------- Google Tag Manager (noscript) start ---------->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P25JFWC" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-
-
-    <!-- INCLUDE HELL-BAR.PHP start -->
+    <!---------- Google Tag Manager (noscript) end ---------->
+    <!---------- HELLOBAR.php start ---------->
     <?php include 'includes/hellobar.php';?>
-    <!-- INCLUDE hellobar.PHP end -->
-
-    <!-- INCLUDE HEADER.PHP start -->
+    <!---------- HELLOBAR.php end ---------->
+    <!---------- HEADER.php start ---------->
     <?php include 'includes/header.php';?>
-    <!-- INCLUDE HEADER.PHP end -->
-
-    <main class="case-study-main container-1080">
+    <!---------- HEADER.php end ---------->
+    <!---------- MAIN VILLA TEREZIJA start ---------->
+    <main class="container-1080">
         <h1 class="title-1 align-center fade-in margin-bottom-2">Villa Terezija</h1>
         <p class="project-p fade-in margin-bottom-6">A touristic accommodation surrounded by a stunning rose garden in the quiet
             town of Baška on Krk Island, Croatia. Minutes walk from a sandy beach on the clear blue Adriatic Sea.
@@ -163,13 +139,10 @@
                 </div>
             </div>
         </div>
-
         <hr>
-
         <section class="other-projects-container fade-in">
             <h2 class="heading-1 align-center" style="margin-bottom:4rem;">Other Projects</h2>
             <div class="other-project-cards">
-
                 <div class="other-project-card fade-in">
                     <div id="bike-in-mex-cover" class="project-cover"
                         onmouseover="document.getElementById('bike-in-mex-button').classList.add('button-hover'); document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
@@ -184,13 +157,11 @@
                     <h3 class="heading-2">Bike in Mex</h3>
                     <p>Ancient Aztec and Mayan symbols set on the vibrant colors of Mexico's flag for a bicycle rental
                         shop based in Tulum, Mexico.</p>
-
                     <a class="button secondary-button margin-right-auto fade-in" id='bike-in-mex-button' href="/bike-in-mex"
                         onmouseover="document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover')"
                         onmouseout="document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover')">
                         View Project ➞</a>
                 </div>
-
                 <div class="other-project-card fade-in">
                     <div id="tradeana-cover" class="project-cover"
                         onmouseover="document.getElementById('tradeana-button').classList.add('button-hover'); document.getElementById('tradeana-cover').classList.add('project-cover-hover')"
@@ -212,21 +183,17 @@
             </div>
         </section>
     </main>
-
-    <!-- INCLUDE CALL-TO-ACTION.PHP start -->
+    <!---------- MAIN TRADEANA end ---------->
+    <!---------- CALL-TO-ACTION.php start ---------->
     <?php include 'includes/cta-section.php';?>
-    <!-- INCLUDE CALL-TO-ACTION.PHP end -->
-
-    <!-- INCLUDE FOOTER.PHP start -->
+    <!---------- CALL-TO-ACTION.php end ---------->
+    <!---------- FOOTER.php start ---------->
     <?php include 'includes/footer.php';?>
-    <!-- INCLUDE FOOTER.PHP end -->
-
-
-
+    <!---------- FOOTER.php end ---------->
+    <!---------- SCRIPTS ---------->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="libs/slick/slick/slick.min.js"></script>
-
     <script>
     $('.slider').slick({
         dots: false,
@@ -238,7 +205,5 @@
         slidesToScroll: 1
     });
     </script>
-
 </body>
-
 </html>
