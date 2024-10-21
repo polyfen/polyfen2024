@@ -36,8 +36,8 @@ navCloseButton.addEventListener('click', () => {
         },
         {
             selector: '.subscription-plans h1',
-            mobileClass: 'heading-1 margin-bottom-2',
-            defaultClass: 'title-2 margin-bottom-4'
+            mobileClass: 'heading-1',
+            defaultClass: 'title-2'
         },
         // add more objects here
       ];

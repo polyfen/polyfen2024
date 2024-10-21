@@ -129,7 +129,7 @@ ___     _       __
         </section>
         <hr>
         <section class="section-what-sets-us-apart container-900 fade-in">
-            <h2 class="heading-1 align-center">Committed to Values that<br>Foster Collaboration & Growth</h2>
+            <h2 class="heading-1 align-center">Values that Inspire<br>Collaboration & Growth</h2>
             <div class="row gap-05">
                 <div class="col card fade-in margin-bottom-05">
                     <div class="icon-container"><img src="/imgs/icons/dna.svg"></div>
