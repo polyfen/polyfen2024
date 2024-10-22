@@ -42,7 +42,7 @@ ___     _       __
     <!---------- MAIN HOME start ---------->
     <main>
         <section class="section-cover-home">
-            <h1 class="title-1 align-center">Unleash your<br>business full potential</h1>
+            <h1 class="title-1 align-center">Transform Ideas<br>into Impact</h1>
             <p class="align-center">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
             <a class="button large-button cta-button photo-button margin-bottom-05" href="/discovery-call">Book Call</a>
             <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">Learn More</a>
