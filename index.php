@@ -55,12 +55,14 @@ ___     _       __
                 </div>
             </div>
         </section>
-        <hr class="small-separator">
-        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
-        <?php include 'includes/clients-logo-scroller.php';?>
-        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
+        <section id="learn-more" class="section-portolio-thumbnails">
+            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
+            <!---------- PORTFOLIO-SCROLLER.php start ---------->
+            <?php include 'includes/portfolio-scroller.php';?>
+            <!---------- PORTFOLIO-SCROLLER.php end ---------->
+        </section>
         <hr>
-        <section id="learn-more" class="section-subscriptions-summary container-1080 margin-bottom-6 fade-in">
+        <section class="section-subscriptions-summary container-1080 margin-bottom-6 fade-in">
             <h2 class="heading-1 align-center">Offload your Design<br>& Development Needs</h2>
             <!-- SUBSCRIPTION-PLANS.php start -->
             <?php include 'includes/subscription-plans.php';?>
@@ -68,28 +70,35 @@ ___     _       __
         </section>
         <hr>
         <section class="section-build-summary container-1080 fade-in">
-            <h2 class="heading-1 align-center">Build</h2>
+            <h2 class="heading-1 align-center">Fixed Price,<br>Precision Delivery</h2>
             <div class="row">
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">Brand</h3>
                     <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-auto">
                     <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3 margin-bottom-0">$7,600</h4>
+                    <h4 class="heading-3 margin-bottom-1">$7,600</h4>
+                    <a class="button secondary-button small-button margin-auto" href="/branding">Learn More</a>
                 </div>
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">Website</h3>
                     <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-auto">
                     <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3 margin-bottom-0">$7,800</h4>
+                    <h4 class="heading-3 margin-bottom-1">$7,800</h4>
+                    <a class="button secondary-button small-button margin-auto" href="/discovery-call">Book Call</a>
                 </div>
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">MVP</h3>
                     <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
                     <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3 margin-bottom-0">$39,000</h4>
+                    <h4 class="heading-3 margin-bottom-1">$39,000</h4>
+                    <a class="button secondary-button small-button margin-auto" href="/discovery-call">Book Call</a>
                 </div>
             </div>
         </section>
+        <hr>
+        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
+        <?php include 'includes/clients-logo-scroller.php';?>
+        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
         <section class="section-differential-value-props container-1080">
             <h2 class="heading-1 align-center fade-in">Not Just Different.<br>Better.</h2>
@@ -118,11 +127,9 @@ ___     _       __
             </div>
         </section>
         <hr>
-        <section class="section-portolio-thumbnails">
-            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
-            <!---------- PORTFOLIO-SCROLLER.php start ---------->
-            <?php include 'includes/portfolio-scroller.php';?>
-            <!---------- PORTFOLIO-SCROLLER.php end ---------->
+        <section class="section-testimonials container-1080">
+            <h2 class="heading-1 align-center fade-in">Crafting Success,<br>One Client at a Time</h2>
+            <?php include 'includes/testimonials.php';?>
         </section>
     </main>
     <!---------- CALL-TO-ACTION.php start ---------->

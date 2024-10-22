@@ -2116,6 +2116,7 @@ footer nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 6rem;
 }
 .section-cover-home p {
   max-width: 445px;
@@ -2163,6 +2164,9 @@ footer nav a {
 }
 
 @media (min-width: 576px) {
+  .section-cover-home {
+    margin-bottom: -6rem;
+  }
   #pearl-1 {
     top: -420px;
     right: -400px;
