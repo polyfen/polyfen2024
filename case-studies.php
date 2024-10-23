@@ -42,8 +42,8 @@ ___     _       __
     <!---------- MAIN CASE STUDIES start ---------->
     <main>
         <section>
-            <h1 class="title-2 align-center fade-in">Commitment to  Excellence</h1>
-            <h2 class="heading-1 font-weight-400 align-center margin-bottom-6 fade-in">In every project</h2>
+            <h1 class="title-2 align-center fade-in">Commitment<br>to  Excellence</h1>
+            <h2 class="heading-1 font-weight-400 align-center margin-bottom-6 fade-in">In every<br>single project</h2>
             <div class="cover-pearl-background">
                 <div class="pearl rotate-slower fade-in">
                 </div>

@@ -106,8 +106,8 @@ ___     _       __
                     <img src="/imgs/about/poly-atlas-animation.gif" alt="">
                 </div>
                 <div class="col fade-in">
-                    <p>A step-by-step guide to the Branding process including practical tips,
-                        case studies, template files, and many other useful resources.</p>
+                    <p>A step-by-step guide to the Branding process including practical tips, case studies, template files, and many other useful resources.</p>
+                    <a class="button secondary-button margin-bottom-05 fade-in" href="https://www.linkedin.com/feed/update/urn:li:activity:7251959276586328064" target="_blank">Listen to AI Podcast ↗</a>
                     <a data-button-arrow class="button secondary-button fade-in" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki ↗</a>
                 </div>
             </div>
