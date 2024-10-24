@@ -26,6 +26,7 @@ ___     _       __
     <!---------- PAGE-SPECIFIC CSS end ---------->
     <!---------- PAGE-SPECIFIC SCRIPTS start ---------->
     <script defer src="/app/js/horizontal-scroll.js"></script>
+    <script defer src="/app/js/plan-cards-toggle.js"></script>
     <!---------- PAGE-SPECIFIC SCRIPTS end ---------->
 </head>
 <body class="body-home">
@@ -64,6 +65,12 @@ ___     _       __
         <hr>
         <section class="section-subscriptions-summary container-1080 margin-bottom-6 fade-in">
             <h2 class="heading-1 align-center">Offload your Design<br>& Development Needs</h2>
+            <!---------- TOGGLE BUTTON ---------->
+            <div class="toggle-container fade-in" id="start-today">
+                    <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
+                    <button data-content="20% OFF" class="small-button secondary-button active-button"
+                    data-period="quarterly">Pay Quarterly</button>
+            </div>
             <!-- SUBSCRIPTION-PLANS.php start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- SUBSCRIPTION-PLANS.php end -->
