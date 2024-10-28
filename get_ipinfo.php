@@ -5,7 +5,7 @@ loadEnv(__DIR__ . "/.env");
 header('Content-Type: application/json');
 
 // Obtener la IP del usuario
-$ip_address = $_SERVER['REMOTE_ADDR'];
+$ip_address = get_client_ip();
 
 $access_token = getenv('IPINFO_ACCESS_TOKEN');
 
