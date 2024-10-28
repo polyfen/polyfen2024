@@ -36,3 +36,27 @@ function postRequest($url, $data, $requestHeaders = [])
 
     return $json_result;
 }
+
+function get_client_ip()
+{
+    // List of possible client IP sources
+    $fields = array(
+        'HTTP_CF_CONNECTING_IP', // Cloudflare
+        'HTTP_CLIENT_IP',
+        'HTTP_X_FORWARDED_FOR',
+        'HTTP_X_FORWARDED',
+        'HTTP_FORWARDED_FOR',
+        'HTTP_FORWARDED',
+        'REMOTE_ADDR', // This is fallback. It is always present and valid.
+    );
+
+    foreach ($fields as $ip_field) {
+        $realIp = $_SERVER[$ip_field];
+        // Return the one that's not empty and it's a valip IPv4 address
+        if (!empty($realIp) && filter_var($realIp, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4)) {
+            return $realIp;
+        }
+    }
+
+    return null;
+}
