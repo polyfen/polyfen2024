@@ -2020,6 +2020,10 @@ body:not(.body-subscriptions) .cta-section-content-subscriptions, body:not(.body
   display: none;
 }
 
+.section-cta .calendly-inline-widget {
+  width: 100%;
+}
+
 :root {
   --footer-background: var(--slate-900);
 }
