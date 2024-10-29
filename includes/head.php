@@ -40,7 +40,7 @@
     })
     .then(function(data) {
       window.targetCountry = data.targetCountry;
-      console.log('Global targetCountry:', window.targetCountry);
+      console.log('Global get_ipinfo:', data);
     })
     .catch(function(error) {
       console.error('Error:', error);
