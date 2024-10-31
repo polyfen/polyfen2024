@@ -113,7 +113,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_REQUEST['confirm']) && $_R
         <?php else: ?>
             <form method="post" class="space-y-4">
                 <input type="hidden" name="message_id" value="<?php echo htmlspecialchars($message_id); ?>">
-                <button type="submit" name="confirm" value="yes" class="margin-auto">Yes, unsubscribe
+                <button type="submit" name="confirm" value="yes" class="margin-auto margin-bottom-05">Yes, unsubscribe
                     me</button>
                 <button type="submit" name="confirm" value="no" class="margin-auto">No, keep me
                     subscribed</button>
