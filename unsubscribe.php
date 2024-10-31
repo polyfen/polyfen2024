@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_REQUEST['confirm']) && $_R
 <html lang="en">
 
 <head>
-    <title>Thank You! | Polyfen</title>
+    <title>Unsubscribe | Polyfen</title>
 
 
     <!-- INCLUDE HEAD.PHP start -->
