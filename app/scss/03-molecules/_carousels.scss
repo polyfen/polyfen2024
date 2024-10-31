@@ -6,6 +6,10 @@
     --gap: 1rem;
 }
 
+.activity-box .scroller:not(:last-child) {
+    margin-bottom: -16px;
+}
+
 /* accolades values */
 .clients-logo-carousel .scroller__inner {
     --gap: 5rem;
@@ -99,7 +103,7 @@
 
 .activity-box img {
     width: min(240px, 48.624%);
-    max-width: 226.663px;
+    max-width: 185px;
     border-radius: 4px;
 }
 
