@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_REQUEST['confirm']) && $_R
     <meta name="twitter:title" content="Contact">
     <meta name="twitter:description" content="[TBD]">
     <meta name="twitter:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noindex, nofollow">
     <!-- PAGE-SPECIFIC META end -->
 
     <!-- PAGE-SPECIFIC CSS start -->
@@ -113,9 +113,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_REQUEST['confirm']) && $_R
         <?php else: ?>
             <form method="post" class="space-y-4">
                 <input type="hidden" name="message_id" value="<?php echo htmlspecialchars($message_id); ?>">
-                <button type="submit" name="confirm" value="yes">Yes, unsubscribe
+                <button type="submit" name="confirm" value="yes" class="margin-auto">Yes, unsubscribe
                     me</button>
-                <button type="submit" name="confirm" value="no">No, keep me
+                <button type="submit" name="confirm" value="no" class="margin-auto">No, keep me
                     subscribed</button>
             </form>
         <?php endif; ?>
