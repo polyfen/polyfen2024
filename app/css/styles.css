@@ -1557,10 +1557,14 @@ ul.no-bullets li:before {
 @media (min-width: 768px) {
   .testimonials-container {
     max-width: unset;
-  }
-  .testimonials-container {
     flex-direction: row;
     align-items: flex-start;
+  }
+  .testimonial {
+    height: 250px;
+  }
+  .testimonial blockquote {
+    height: -webkit-fill-available;
   }
 }
 /*///////////// _TESTIMONIALS.scss end /////////////*/
