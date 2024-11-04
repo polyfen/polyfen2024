@@ -89,10 +89,8 @@ ___     _       __
                         </div>
                     </div>
                     <ul class="hanging-list spaced-list">
-                        <li class="fade-in">Coding websites since 2008, designing brands and digital products since 2010.
-                        </li>
-                        <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.
-                        </li>
+                        <li class="fade-in">Designing brands and digital products since 2010, coding websites since 2008.</li>
+                        <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.</li>
                         <li class="fade-in">Led high-performance teams in bootstrapped startups and well-established multinationals.</li>
                     </ul>
                 </div>
