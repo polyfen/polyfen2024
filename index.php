@@ -103,10 +103,6 @@ ___     _       __
             </div>
         </section>
         <hr>
-        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
-        <?php include 'includes/clients-logo-scroller.php';?>
-        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
-        <hr>
         <section class="section-differential-value-props container-1080">
             <h2 class="heading-1 align-center fade-in">Not Just Different.<br>Better.</h2>
             <div class="row">
@@ -133,6 +129,10 @@ ___     _       __
                 </div>
             </div>
         </section>
+        <hr>
+        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
+        <?php include 'includes/clients-logo-scroller.php';?>
+        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
         <section class="section-testimonials container-1080">
             <h2 class="heading-1 align-center fade-in">Crafting Success,<br>One Client at a Time</h2>
