@@ -3,15 +3,15 @@
         <div class="scroller__inner">
             <?php
             $images = [
-                "imgs/activity-cads/lion-risk-management-logo.png",
-                "imgs/activity-cads/metas-investments-business-cards.webp",
-                "imgs/activity-cads/hemingway-distillery-whiskey-bottle.webp",
-                "imgs/activity-cads/prepkanga-stationary.webp",
-                "imgs/activity-cads/the-barn-packaging2.webp",
-                "imgs/activity-cads/alternation-logo.png",
-                "imgs/activity-cads/health-and-travel-stationary.webp",
-                "imgs/activity-cads/altirand-ios-app-icon.webp",
-                "imgs/activity-cads/photographers-website.webp"
+                "imgs/design-thumbnails/metas-investments.webp",
+                "imgs/design-thumbnails/hemingway.webp",
+                "imgs/design-thumbnails/prepkanga.webp",
+                "imgs/design-thumbnails/homestead-coffee-roasters.webp",
+                "imgs/design-thumbnails/altirand.webp",
+                "imgs/design-thumbnails/photographer.webp",
+                "imgs/design-thumbnails/lion-risk-management.webp",
+                "imgs/design-thumbnails/alternation.webp",
+                "imgs/design-thumbnails/hud.webp"
             ];
             shuffle($images);
             foreach ($images as $image) {
@@ -24,14 +24,14 @@
         <div class="scroller__inner">
             <?php
             $images = [
-                "imgs/activity-cads/alchemy-container.png",
-                "imgs/activity-cads/podcasttoapp-app.png",
-                "imgs/activity-cads/mandala.webp",
-                "imgs/activity-cads/villa-terezija-totebag.png",
-                "imgs/activity-cads/magusvalge-menu.webp",
-                "imgs/activity-cads/lightning-bolt-logo.png",
-                "imgs/activity-cads/soma-iphone-app.webp",
-                "imgs/activity-cads/domingo-sign.png"
+                "imgs/design-thumbnails/alchemy.webp",
+                "imgs/design-thumbnails/mandala.webp",
+                "imgs/design-thumbnails/mare.webp",
+                "imgs/design-thumbnails/magusvalge.webp",
+                "imgs/design-thumbnails/lightning-bolt.webp",
+                "imgs/design-thumbnails/podcasttoapp.webp",
+                "imgs/design-thumbnails/domingo.webp",
+                "imgs/design-thumbnails/villa-terezija.webp"
             ];
             shuffle($images);
             foreach ($images as $image) {
