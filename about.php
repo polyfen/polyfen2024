@@ -69,7 +69,7 @@ ___     _       __
                         <img class="board-member-portrait" src="/imgs/rod-portrait.webp" alt="">
                         <div>
                             <h3 class="heading-2 margin-bottom-1">Rodrigo Gatica</h3>
-                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Chief Executive Officer &amp; Cofounder</h4>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Co-founder &amp; Chief Executive Officer</h4>
                             <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn ↗</a>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ ___     _       __
                         <img class="board-member-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
                         <div>
                             <h3 class="heading-2 margin-bottom-1">Boris Hrnčić</h3>
-                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Chief Design Officer &amp; Cofounder</h4>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Co-founder &amp; Chief Design Officer</h4>
                             <a class="board-members-social link" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn ↗</a>
                         </div>
                     </div>
