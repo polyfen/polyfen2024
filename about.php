@@ -44,7 +44,7 @@ ___     _       __
     <!---------- MAIN ABOUT start ---------->
     <main>
         <section class="section-cover-about fade-in">
-            <h1 class="title-2 align-center">Where Design &amp;<br>Development Click</h1>
+            <h1 class="title-1 align-center">Where Design &amp;<br>Development Click</h1>
             <div class="container-900 row gap-4">
                 <div class="col">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
