@@ -14,6 +14,7 @@
         </nav>
         <div class="header-cta-container">
             <a class="button photo-button" href="/discovery-call">Book Call</a>
+            <a class="button get-makeover-header-button" href="#form">Get Makeover</a>
         </div>
         <div class="nav-menu-buttons">
             <button aria-label="Open/Close navbar" class="nav-open-button">

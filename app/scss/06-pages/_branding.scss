@@ -1,39 +1,3 @@
-.cover-branding-background {
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    left: 0;
-    overflow: hidden;
-    height: 800px;
-}
-
-.cover-branding-background .pearl {
-    display: block;
-    background-image: url(../../imgs/pearls/09.webp);
-    height: 400px;
-    width: 400px;
-    left: -320px;
-    top: 180px;
-}
-
-.cover-branding-background .pearl.pearl-right {
-    left: unset;
-    right: -320px;
-}
-
-@media (min-width: 900px) {
-    .cover-branding-background .pearl {
-        height: 600px;
-        width: 600px;
-        left: -300px;
-    }
-    .cover-branding-background .pearl.pearl-right {
-        left: unset;
-        right: -300px;
-    }    
-}
-
 .section-branding-services-breakdown .card h3 {
     display: flex;
     align-items: center;

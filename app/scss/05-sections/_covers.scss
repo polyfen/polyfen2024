@@ -1,0 +1,39 @@
+.cover-two-pearls-background {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
+    height: 800px;
+}
+
+.cover-two-pearls-background .pearl {
+    display: block;
+    background-image: url(../../imgs/pearls/09.webp);
+    height: 400px;
+    width: 400px;
+    left: -320px;
+    top: 100px;
+}
+
+.body-free-makeover .cover-two-pearls-background .pearl {
+    top: 40px;
+}
+
+.cover-two-pearls-background .pearl.pearl-right {
+    left: unset;
+    right: -320px;
+}
+
+@media (min-width: 900px) {
+    .cover-two-pearls-background .pearl {
+        height: 600px;
+        width: 600px;
+        left: -300px;
+    }
+    .cover-two-pearls-background .pearl.pearl-right {
+        left: unset;
+        right: -300px;
+    }    
+}

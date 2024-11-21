@@ -9,6 +9,11 @@ header {
     z-index: 500;
 }
 
+body:has(.hellobar) header {
+    position: absolute;
+    top: 120px;
+}
+
 .header-container {
     margin-top: 12px;
     display: flex;
@@ -33,6 +38,14 @@ header nav {
 
 .header-cta-container a.button {
     width: unset;
+}
+
+body:not(.body-free-makeover) .get-makeover-header-button {
+    display: none;
+}
+
+.body-free-makeover .button:not(.get-makeover-header-button) {
+    display: none;
 }
 
 @media (max-width: 899px) {

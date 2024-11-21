@@ -1,6 +1,6 @@
-<div class="hellobar d-none">
-    <div class="hellobar-container">
-    <small class="mini align-center">✨✨✨ Schedule a call to enhance your solutions</small>
-    <a data-button-arrow class="button secondary-button small-button" href="/discovery-call">Book a Call</a>
+<div class="hellobar">
+    <div class="row">
+        <small class="mini align-center">✨✨✨ Claim a Free Redesign for your Website</small>
+        <a arrow class="button secondary-button mini-button" href="/free-makeover">Get Makeover</a>
     </div>
 </div>

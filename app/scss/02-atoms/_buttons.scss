@@ -8,7 +8,7 @@ button, .button {
     height: 50px;
     width: 240px;
     max-width: 100%;
-    padding: 1rem 1.4rem;
+    padding: 0 1.4rem;
     border: none;
     border-radius: 900px;
     background-color: var(--accent-color-90pct);
@@ -52,6 +52,11 @@ button:hover, a.button:hover, input.button:hover {
 .small-button  {
     height: 36px;
     width: 180px;
+}
+
+.mini-button {
+    height: 30px;
+    width: 160px;
 }
 
 .photo-button::before {
