@@ -97,7 +97,7 @@ ___     _       __
                     <h3 class="heading-2 align-center">MVP</h3>
                     <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
                     <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3 margin-bottom-1">$19,000</h4>
+                    <h4 class="heading-3 margin-bottom-1">$39,000</h4>
                     <a class="button secondary-button small-button margin-auto" href="/discovery-call">Book Call</a>
                 </div>
             </div>
