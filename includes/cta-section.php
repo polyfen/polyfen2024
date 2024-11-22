@@ -15,7 +15,6 @@
     <!----- CTA SECTION GENERAL BRANDING ----->
     <div class="cta-section-content-branding flex-column-center" id="book-call">
         <h2 class="title-2 align-center">Book a Call to<br>Elevate your Brand</h2>
-        <h3 class="heading-1 font-weight-400 align-center margin-bottom-3">Starting at $1.800</h3>
         <!---------- CALENDLY.php start ---------->
         <?php include 'includes/calendly.php';?>
         <!---------- CALENDLY.php end ---------->

@@ -81,16 +81,12 @@ ___     _       __
             <div class="row">
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">Brand</h3>
-                    <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-1">
-                    <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3 margin-bottom-1">$1,800</h4>
+                    <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-2">
                     <a class="button secondary-button small-button margin-auto" href="/branding">Learn More</a>
                 </div>
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">Website</h3>
-                    <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-1">
-                    <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3 margin-bottom-1">$2,800</h4>
+                    <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-2">
                     <a class="button secondary-button small-button margin-auto" href="/discovery-call">Book Call</a>
                 </div>
             </div>
