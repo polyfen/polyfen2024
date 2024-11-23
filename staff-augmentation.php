@@ -27,6 +27,8 @@ ___     _       __
     <!---------- PAGE-SPECIFIC SCRIPTS start ---------->
     <script defer type="module" src="/app/js/teamRender.js"></script>
     <script defer src="/app/js/horizontal-scroll.js"></script>
+    <link rel="stylesheet" type="text/css" href="/libs/slick/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/libs/slick/slick/slick-theme.css" />
     <!---------- PAGE-SPECIFIC SCRIPTS end ---------->
 </head>
 <body class="body-staff-augmentation">
@@ -259,5 +261,33 @@ ___     _       __
     <!---------- FOOTER.php start ---------->
     <?php include 'includes/footer.php';?>
     <!---------- FOOTER.php end ---------->
+
+    <!---------- SCRIPTS ---------->
+    <!-- slick for tech-stack -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="libs/slick/slick/slick.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.stack-carrousel').slick({
+            mobileFirst: true,
+            infinite: true,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+            responsive: [{
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 900,
+                    settings: "unslick",
+                }
+            ]
+        });
+    });
+    </script>
 </body>
 </html>
