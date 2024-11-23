@@ -1,0 +1,23 @@
+.staff-aug-steps {
+    padding-top: 2rem;
+}
+
+.staff-aug-steps .mobile-row {
+    margin-bottom: 3rem;
+    gap: 1rem;
+}
+
+.staff-aug-steps .mobile-row div {
+    display: flex;
+    align-items: center;
+}
+
+.staff-aug-steps .mobile-row div h3 {
+    margin-bottom: 0;
+}
+
+.staff-aug-steps-line {
+    position: absolute;
+    left: 36px;
+    top: 82px;
+}

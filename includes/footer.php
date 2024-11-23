@@ -24,6 +24,7 @@
             <a href="/about">About</a>
             <a href="/case-studies">Case Studies</a>
             <a href="/branding">Branding</a>
+            <a href="/staff-augmentation">Staff Augmentation</a>
             <a href="/subscriptions">Subscriptions</a>
         </nav>
     </div>

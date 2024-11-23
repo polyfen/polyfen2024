@@ -43,7 +43,7 @@ ___     _       __
     <!---------- MAIN BRANDING start ---------->
     <main>
         <section class="section-cover-branding flex-column-center">
-                <h1 class="title-1 align-center fade-in">Your Brand<br><span class="color-accent">is your Story</span></h1>
+                <h1 class="title-1 align-center fade-in">Your Brand<br><span class="color-gradient">is your Story</span></h1>
                 <h2 class="heading-1 align-center font-weight-400 fade-in">Make it one<br>worth telling</h2>
                 <a class="button large-button cta-button photo-button fade-in" href="#book-call">Book a Call</a>
                 <div class="cover-branding-background">
@@ -182,11 +182,11 @@ ___     _       __
                                                 <a class="board-members-social link fade-in" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn ↗</a>
                                         </div>
                                 </div>
-                        <ul class="hanging-list spaced-list">
-                                <li class="fade-in">Designing brands and digital products since 2010, coding websites since 2008.</li>
-                                <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.</li>
-                                <li class="fade-in">Led high-performance teams in bootstrapped startups and well-established multinationals.</li>
-                        </ul>
+                                <ul class="hanging-list spaced-list">
+                                        <li class="fade-in">Designing brands and digital products since 2010, coding websites since 2008.</li>
+                                        <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.</li>
+                                        <li class="fade-in">Led high-performance teams in bootstrapped startups and well-established multinationals.</li>
+                                </ul>
                         </div>
                 </div>
         </section>
