@@ -1541,6 +1541,10 @@ ul.no-bullets li:before {
   margin-inline: auto;
 }
 
+.body-staff-augmentation .testimonials-container-branding {
+  display: none;
+}
+
 .testimonials-container figure {
   margin-inline: 0;
 }
@@ -2769,8 +2773,11 @@ div.other-project-card img {
 }
 
 .staff-aug-steps .mobile-row {
-  margin-bottom: 3rem;
   gap: 1rem;
+}
+
+.staff-aug-steps .mobile-row:nth-child(-n+3) {
+  margin-bottom: 3rem;
 }
 
 .staff-aug-steps .mobile-row div {
