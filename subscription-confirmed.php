@@ -71,8 +71,7 @@
                 <div class="col fade-in">
                     <h2>Start Creating<br>Tasks</h2>
                     <a class="button secondary-button margin-right-auto small-button"
-                        href="https://polyfen.atlassian.net/servicedesk/customer/portal/1" target="_blank">Create a
-                        Task</a>
+                        href="https://polyfen.atlassian.net/servicedesk/customer/portal/1" target="_blank">Create a Task</a>
                 </div>
             </div>
         </section>

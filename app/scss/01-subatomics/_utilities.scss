@@ -55,6 +55,14 @@
     color: var(--accent-color) !important;
 }
 
+.color-gradient {
+    position: relative;
+    background: var(--accent-gradient, linear-gradient(225deg, #D837F8 0%, #3747F8 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .light-mode .color-body-text {
     color: var(--light-mode-text) !important;
 }

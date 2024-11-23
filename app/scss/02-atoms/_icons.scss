@@ -22,6 +22,11 @@
     margin-inline: 0;
 }
 
+.icon-container img {
+    width: 40px;
+    height: 40px;
+}
+
 @media screen and (min-width: 900px) {
     .icon-container {
         margin-left: unset;
