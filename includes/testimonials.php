@@ -68,7 +68,7 @@
         <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
         <blockquote>
             <p class="caption">
-                Our whole integrations team was sourced by Polyfen. They are now a key part of our business.
+                Our whole mobile app team was sourced by Polyfen. They are now a key part of our business.
             </p>
         </blockquote>
         <figcaption>
