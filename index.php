@@ -26,6 +26,7 @@ ___     _       __
     <!---------- PAGE-SPECIFIC CSS end ---------->
     <!---------- PAGE-SPECIFIC SCRIPTS start ---------->
     <script defer src="/app/js/horizontal-scroll.js"></script>
+    <script defer src="/app/js/plan-cards-toggle.js"></script>
     <!---------- PAGE-SPECIFIC SCRIPTS end ---------->
 </head>
 <body class="body-home">
@@ -42,7 +43,7 @@ ___     _       __
     <!---------- MAIN HOME start ---------->
     <main>
         <section class="section-cover-home">
-            <h1 class="title-1 align-center">Unleash your<br>business full potential</h1>
+            <h1 class="title-1 align-center">Transform Ideas<br>into Impact</h1>
             <p class="align-center">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
             <a class="button large-button cta-button photo-button margin-bottom-05" href="/discovery-call">Book Call</a>
             <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">Learn More</a>
@@ -55,38 +56,38 @@ ___     _       __
                 </div>
             </div>
         </section>
-        <hr class="small-separator">
-        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
-        <?php include 'includes/clients-logo-scroller.php';?>
-        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
+        <section id="learn-more" class="section-portolio-thumbnails">
+            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
+            <!---------- PORTFOLIO-SCROLLER.php start ---------->
+            <?php include 'includes/portfolio-scroller.php';?>
+            <!---------- PORTFOLIO-SCROLLER.php end ---------->
+        </section>
         <hr>
-        <section id="learn-more" class="section-subscriptions-summary container-1080 margin-bottom-6 fade-in">
+        <section class="section-subscriptions-summary container-1080 margin-bottom-6 fade-in">
             <h2 class="heading-1 align-center">Offload your Design<br>& Development Needs</h2>
+            <!---------- TOGGLE BUTTON ---------->
+            <div class="toggle-container fade-in" id="start-today">
+                    <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
+                    <button data-content="20% OFF" class="small-button secondary-button active-button"
+                    data-period="quarterly">Pay Quarterly</button>
+            </div>
             <!-- SUBSCRIPTION-PLANS.php start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- SUBSCRIPTION-PLANS.php end -->
         </section>
         <hr>
         <section class="section-build-summary container-1080 fade-in">
-            <h2 class="heading-1 align-center">Build</h2>
+            <h2 class="heading-1 align-center">Fixed Price,<br>Precision Delivery</h2>
             <div class="row">
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">Brand</h3>
-                    <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-auto">
-                    <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3 margin-bottom-0">$7,600</h4>
+                    <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-2">
+                    <a class="button secondary-button small-button margin-auto" href="/branding">Learn More</a>
                 </div>
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">Website</h3>
-                    <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-auto">
-                    <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3 margin-bottom-0">$7,800</h4>
-                </div>
-                <div class="col card align-center fade-in">
-                    <h3 class="heading-2 align-center">MVP</h3>
-                    <img src="imgs/illustrations/dudes-smartphone.webp" height="140" alt="">
-                    <h4 class="caption uppercase font-weight-400">Starting at</h4>
-                    <h4 class="heading-3 margin-bottom-0">$39,000</h4>
+                    <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-2">
+                    <a class="button secondary-button small-button margin-auto" href="/discovery-call">Book Call</a>
                 </div>
             </div>
         </section>
@@ -118,11 +119,13 @@ ___     _       __
             </div>
         </section>
         <hr>
-        <section class="section-portolio-thumbnails">
-            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
-            <!---------- PORTFOLIO-SCROLLER.php start ---------->
-            <?php include 'includes/portfolio-scroller.php';?>
-            <!---------- PORTFOLIO-SCROLLER.php end ---------->
+        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
+        <?php include 'includes/clients-logo-scroller.php';?>
+        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
+        <hr>
+        <section class="section-testimonials container-1080">
+            <h2 class="heading-1 align-center fade-in">Crafting Success,<br>One Client at a Time</h2>
+            <?php include 'includes/testimonials.php';?>
         </section>
     </main>
     <!---------- CALL-TO-ACTION.php start ---------->

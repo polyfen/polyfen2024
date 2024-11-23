@@ -44,7 +44,7 @@ ___     _       __
     <!---------- MAIN ABOUT start ---------->
     <main>
         <section class="section-cover-about fade-in">
-            <h1 class="title-2 align-center">Where Design &amp;<br>Development Click</h1>
+            <h1 class="title-1 align-center">Where Design &amp;<br>Development Click</h1>
             <div class="container-900 row gap-4">
                 <div class="col">
                     <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
@@ -69,7 +69,7 @@ ___     _       __
                         <img class="board-member-portrait" src="/imgs/rod-portrait.webp" alt="">
                         <div>
                             <h3 class="heading-2 margin-bottom-1">Rodrigo Gatica</h3>
-                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Chief Executive Officer &amp; Cofounder</h4>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Co-founder &amp; Chief Executive Officer</h4>
                             <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn ↗</a>
                         </div>
                     </div>
@@ -84,15 +84,13 @@ ___     _       __
                         <img class="board-member-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
                         <div>
                             <h3 class="heading-2 margin-bottom-1">Boris Hrnčić</h3>
-                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Chief Design Officer &amp; Cofounder</h4>
+                            <h4 class="caption uppercase" style="margin-bottom: 1rem;">Co-founder &amp; Chief Design Officer</h4>
                             <a class="board-members-social link" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn ↗</a>
                         </div>
                     </div>
                     <ul class="hanging-list spaced-list">
-                        <li class="fade-in">Coding websites since 2008, designing brands and digital products since 2010.
-                        </li>
-                        <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.
-                        </li>
+                        <li class="fade-in">Designing brands and digital products since 2010, coding websites since 2008.</li>
+                        <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.</li>
                         <li class="fade-in">Led high-performance teams in bootstrapped startups and well-established multinationals.</li>
                     </ul>
                 </div>
@@ -106,8 +104,8 @@ ___     _       __
                     <img src="/imgs/about/poly-atlas-animation.gif" alt="">
                 </div>
                 <div class="col fade-in">
-                    <p>A step-by-step guide to the Branding process including practical tips,
-                        case studies, template files, and many other useful resources.</p>
+                    <p>A step-by-step guide to the Branding process including practical tips, case studies, template files, and many other useful resources.</p>
+                    <a class="button secondary-button margin-bottom-05 fade-in" href="https://www.linkedin.com/feed/update/urn:li:activity:7251959276586328064" target="_blank">Listen to AI Podcast ↗</a>
                     <a data-button-arrow class="button secondary-button fade-in" href="https://polyatlas.wiki/" target="_blank">polyatlas.wiki ↗</a>
                 </div>
             </div>

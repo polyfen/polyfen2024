@@ -5,10 +5,9 @@ loadEnv(__DIR__ . "/.env");
 header('Content-Type: application/json');
 
 // Obtener la IP del usuario
-$ip_address = $_SERVER['REMOTE_ADDR'];
+$ip_address = get_client_ip();
 
 $access_token = getenv('IPINFO_ACCESS_TOKEN');
-
 
 // Realizar la solicitud a la API de IPinfo.io
 $ch = curl_init();
@@ -31,6 +30,7 @@ $targetCountry = in_array($data['country'], $target_countries);
 // Devolver la información necesaria en formato JSON
 echo json_encode([
     'country' => $data['country'],
-    'targetCountry' => $targetCountry
+    'targetCountry' => $targetCountry,
+    'ip' => $ip_address
 ]);
 ?>

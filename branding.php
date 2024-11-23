@@ -178,12 +178,12 @@ ___     _       __
                                         <img class="board-member-portrait" src="/imgs/about/boris-hrncic.webp" alt="">
                                         <div>
                                                 <h3 class="heading-2 margin-bottom-1 margin-top-1 fade-in">Boris Hrnčić</h3>
-                                                <h4 class="caption uppercase fade-in" style="margin-bottom: 1rem;">Chief Design Officer<br>&amp; Cofounder</h4>
+                                                <h4 class="caption uppercase fade-in" style="margin-bottom: 1rem;">Co-founder &amp; Chief Design Officer</h4>
                                                 <a class="board-members-social link fade-in" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn ↗</a>
                                         </div>
                                 </div>
                         <ul class="hanging-list spaced-list">
-                                <li class="fade-in">Coding websites since 2008, designing brands and digital products since 2010.</li>
+                                <li class="fade-in">Designing brands and digital products since 2010, coding websites since 2008.</li>
                                 <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.</li>
                                 <li class="fade-in">Led high-performance teams in bootstrapped startups and well-established multinationals.</li>
                         </ul>

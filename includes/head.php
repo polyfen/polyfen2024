@@ -21,7 +21,7 @@
 <meta name="theme-color" content="#7537f8">
 
 <!-- CSS General -->
-<link rel="stylesheet" href="/app/css/styles-min.css?v=4.0" type="text/css">
+<link rel="stylesheet" href="/app/css/styles-min.css?v=24.10.2" type="text/css">
 
 <!-- FONTS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +40,7 @@
     })
     .then(function(data) {
       window.targetCountry = data.targetCountry;
-      console.log('Global targetCountry:', window.targetCountry);
+      console.log('Global get_ipinfo:', data);
     })
     .catch(function(error) {
       console.error('Error:', error);

@@ -36,3 +36,30 @@ function postRequest($url, $data, $requestHeaders = [])
 
     return $json_result;
 }
+
+function get_client_ip() {
+    // List of possible client IP sources in order of preference
+    $fields = array(
+        'HTTP_X_FORWARDED_FOR', // Common header used for client IP
+        'HTTP_CLIENT_IP',
+        'HTTP_X_FORWARDED',
+        'HTTP_FORWARDED_FOR',
+        'HTTP_FORWARDED',
+        'HTTP_CF_CONNECTING_IP', // Cloudflare
+        'REMOTE_ADDR' // Fallback, always present and valid.
+    );
+
+    foreach ($fields as $ip_field) {
+        if (!empty($_SERVER[$ip_field])) {
+            // For HTTP_X_FORWARDED_FOR, multiple IPs may be returned
+            $ip_list = explode(',', $_SERVER[$ip_field]);
+            $realIp = trim($ip_list[0]);
+
+            if (filter_var($realIp, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4)) {
+                return $realIp;
+            }
+        }
+    }
+
+    return null;
+}

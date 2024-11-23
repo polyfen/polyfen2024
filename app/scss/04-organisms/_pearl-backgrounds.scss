@@ -1,12 +1,13 @@
 .cover-pearl-background {
     z-index: -1;
     position: absolute;
-    top: -600px;
+    top: -500px;
     width: 100%;
     left: 0;
     overflow: hidden;
     height: 800px;
 }
+
 
 .cover-pearl-background .pearl {
     display: block;
@@ -18,7 +19,7 @@
 }
 
 .body-case-studies .cover-pearl-background {
-    top: -400px;
+    top: -200px;
 }
 
 .body-discovery-call .cover-pearl-background {

@@ -54,7 +54,7 @@ ___     _       __
                     <img class="board-member-portrait" src="/imgs/rod-portrait.webp" alt="">
                     <div>
                         <h3 class="heading-2 margin-bottom-1">Rodrigo Gatica</h3>
-                        <h4 class="caption uppercase" style="margin-bottom: 1rem;">CEO &amp; Cofounder</h4>
+                        <h4 class="caption uppercase" style="margin-bottom: 1rem;">Co-founder &amp; CEO</h4>
                         <a class="board-members-social link" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn ↗</a>
                         <p>Tell us about your business.<br>Discover how we can help you.<br>No strings attached.</p>
                     </div>

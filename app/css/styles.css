@@ -577,7 +577,7 @@ h1, h2, h3, h4, h5, h6 {
 /*///////////// _UI-COLORS.scss end /////////////*/
 /* ------------------------------------------------------ */
 main {
-  padding-top: 160px;
+  padding-top: 140px;
   padding-bottom: 160px;
 }
 
@@ -1320,6 +1320,10 @@ ul.no-bullets li:before {
   --gap: 1rem;
 }
 
+.activity-box .scroller:not(:last-child) {
+  margin-bottom: -16px;
+}
+
 /* accolades values */
 .clients-logo-carousel .scroller__inner {
   --gap: 5rem;
@@ -1414,7 +1418,7 @@ ul.no-bullets li:before {
 
 .activity-box img {
   width: min(240px, 48.624%);
-  max-width: 226.663px;
+  max-width: 185px;
   border-radius: 4px;
 }
 
@@ -1553,10 +1557,14 @@ ul.no-bullets li:before {
 @media (min-width: 768px) {
   .testimonials-container {
     max-width: unset;
-  }
-  .testimonials-container {
     flex-direction: row;
     align-items: flex-start;
+  }
+  .testimonial {
+    height: 250px;
+  }
+  .testimonial blockquote {
+    height: -webkit-fill-available;
   }
 }
 /*///////////// _TESTIMONIALS.scss end /////////////*/
@@ -1858,7 +1866,7 @@ div[data-visible=true]:has(+ .bottom-120) {
 .cover-pearl-background {
   z-index: -1;
   position: absolute;
-  top: -600px;
+  top: -500px;
   width: 100%;
   left: 0;
   overflow: hidden;
@@ -1875,7 +1883,7 @@ div[data-visible=true]:has(+ .bottom-120) {
 }
 
 .body-case-studies .cover-pearl-background {
-  top: -400px;
+  top: -200px;
 }
 
 .body-discovery-call .cover-pearl-background {
@@ -2020,6 +2028,10 @@ body:not(.body-subscriptions) .cta-section-content-subscriptions, body:not(.body
   display: none;
 }
 
+.section-cta .calendly-inline-widget {
+  width: 100%;
+}
+
 :root {
   --footer-background: var(--slate-900);
 }
@@ -2116,6 +2128,7 @@ footer nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 6rem;
 }
 .section-cover-home p {
   max-width: 445px;
@@ -2163,6 +2176,9 @@ footer nav a {
 }
 
 @media (min-width: 576px) {
+  .section-cover-home {
+    margin-bottom: -6rem;
+  }
   #pearl-1 {
     top: -420px;
     right: -400px;
@@ -2741,8 +2757,13 @@ div.other-project-card img {
 }
 
 @media (min-width: 1080px) {
-  .section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
+  .section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
     margin-bottom: 4rem;
+  }
+}
+@media (min-width: 1080px) {
+  .section-cover-about h1 {
+    margin-bottom: 6rem;
   }
 }
 /* --------------------------------------------------------- */

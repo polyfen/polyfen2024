@@ -25,3 +25,7 @@
 body:not(.body-subscriptions) .cta-section-content-subscriptions, body:not(.body-branding) .cta-section-content-branding {
     display: none;
 }
+
+.section-cta .calendly-inline-widget {
+    width: 100%;
+}
