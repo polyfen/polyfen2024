@@ -19,7 +19,7 @@ ___     _       __
     <meta property="og:url" content="https://polyfen.com/about">
     <meta name="keywords" content="Creative agency, Development agency, Austin, US, USA, Nearshore, Full-service, Digital experiences, Business solutions, Owner-managed reliability, Remote business, End-to-end customer service, Flexible contract options, R&D innovation-oriented team, AI">
     <meta name="description" property="og:description" content="We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.">
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/about-meta.png">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/about.png">
     <meta name="robots" content="index, follow">
     <!---------- PAGE-SPECIFIC META end ---------->
     <!---------- PAGE-SPECIFIC CSS start ---------->
