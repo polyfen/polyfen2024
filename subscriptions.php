@@ -141,17 +141,17 @@ ___     _       __
                         <div class="row margin-bottom-05">
                                 <div class="col card fade-in">
                                         <div class="icon-container">
+                                                <img src="/imgs/icons/hand-coins.svg">
+                                        </div>
+                                        <h3 class="margin-bottom-1">Low Cost,<br>High Value</h3>
+                                        <p>Our remote business model passes the savings onto you.</p>
+                                </div>
+                                <div class="col card fade-in">
+                                        <div class="icon-container">
                                                 <img src="/imgs/icons/flag.svg">
                                         </div>
                                         <h3 class="margin-bottom-1">Fast-track<br>Onboarding</h3>
                                         <p>No contracts, no paperwork hassle. Start today.</p>
-                                </div>
-                                <div class="col card fade-in">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/triangle.svg">
-                                        </div>
-                                        <h3 class="margin-bottom-1">Top-tier<br>Talent</h3>
-                                        <p>We screen rigorously and hire only the best.</p>
                                 </div>
                                 <div class="col card fade-in">
                                         <div class="icon-container">
@@ -164,24 +164,24 @@ ___     _       __
                         <div class="row">
                                 <div class="col card fade-in">
                                         <div class="icon-container">
-                                                <img src="/imgs/icons/table.svg">
+                                                <img src="/imgs/icons/triangle.svg">
                                         </div>
-                                        <h3 class="margin-bottom-1">Client<br>Dashboard</h3>
-                                        <p>Create and manage your tasks with ease.</p>
+                                        <h3 class="margin-bottom-1">Top-tier<br>Talent</h3>
+                                        <p>We screen rigorously and hire only the best.</p>
                                 </div>
                                 <div class="col card fade-in">
                                         <div class="icon-container">
-                                                <img src="/imgs/icons/slack.svg">
+                                                <img src="/imgs/icons/chart-bar.svg">
                                         </div>
-                                        <h3 class="margin-bottom-1">Slack<br>Support</h3>
-                                        <p>Quick response, realtime assistance.</p>
+                                        <h3 class="margin-bottom-1">Dedicated<br>Project Manager</h3>
+                                        <p>Quick response, realtime human assistance over Slack.</p>
                                 </div>
                                 <div class="col card fade-in">
                                         <div class="icon-container">
-                                                <img src="/imgs/icons/video-conference.svg">
+                                                <img src="/imgs/icons/resize.svg">
                                         </div>
-                                        <h3 class="margin-bottom-1">Videocall<br>Scheduler</h3>
-                                        <p>Book a call with your account manager.</p>
+                                        <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
+                                        <p>Change your plan, pause, or cancel any time!</p>
                                 </div>
                         </div>
                 </section>
