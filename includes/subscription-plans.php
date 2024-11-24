@@ -65,10 +65,11 @@
         </div>
         <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
+                <li>Dedicated project manager</li>
+                <li>Unlimited projects</li>
+                <li>Unlimited revisions</li>
                 <li>1 task at a time</li>
                 <li>2-3 days turnaround</li>
-                <li>Unlimited revisions</li>
-                <li>Unlimited projects</li>
                 <li>Unlimited tasks by Devs,<br>UX, and Designers</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
@@ -87,10 +88,11 @@
         </div>
         <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
+                <li>Dedicated project manager</li>
+                <li>Unlimited projects</li>
+                <li>Unlimited revisions</li>
                 <li>2 tasks at a time</li>
                 <li>1-2 days turnaround</li>
-                <li>Unlimited revisions</li>
-                <li>Unlimited projects</li>
                 <li>Unlimited tasks by Devs, UX,<br>Designers, and DevOps</li>
                 <li>Priority support</li>
             </ul>
@@ -105,10 +107,11 @@
         </div>
         <div class="card-body flex-column-center">   
             <ul class="hanging-list checkmark-bullet">
+                <li>Dedicated project manager</li>
+                <li>Unlimited projects</li>
+                <li>Unlimited revisions</li>
                 <li>Flexible number of tasks<br>based on your needs</li>
                 <li>Flexible turnaround times</li>
-                <li>Unlimited revisions</li>
-                <li>Unlimited projects</li>
                 <li>Dedicated team of Devs, UX,<br>Designers, and DevOps</li>
                 <li>Priority support tailored<br>to your requirements</li>
             </ul>
