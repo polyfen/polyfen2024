@@ -201,7 +201,7 @@ ___     _       __
                                         <div>
                                                 <h3 class="heading-2 margin-bottom-1 margin-top-1 fade-in">Rodrigo Gatica</h3>
                                                 <h4 class="caption uppercase fade-in" style="margin-bottom: 1rem;">Co-founder &amp; CEO</h4>
-                                                <a class="board-members-social link fade-in" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn ↗</a>
+                                                <a class="board-members-social link fade-in" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn ↗</a>
                                         </div>
                                 </div>
                                 <ul class="hanging-list spaced-list">

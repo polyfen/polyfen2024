@@ -80,14 +80,14 @@ ___     _       __
             <h2 class="heading-1 align-center">Fixed Price,<br>Precision Delivery</h2>
             <div class="row">
                 <div class="col card align-center fade-in">
-                    <h3 class="heading-2 align-center">Brand</h3>
+                    <h3 class="heading-2 align-center">Branding</h3>
                     <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-2">
                     <a class="button secondary-button small-button margin-auto" href="/branding">Learn More</a>
                 </div>
                 <div class="col card align-center fade-in">
-                    <h3 class="heading-2 align-center">Website</h3>
+                    <h3 class="heading-2 align-center">Staff<br>Augmentation</h3>
                     <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-2">
-                    <a class="button secondary-button small-button margin-auto" href="/discovery-call">Book Call</a>
+                    <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
                 </div>
             </div>
         </section>
@@ -104,17 +104,17 @@ ___     _       __
                 </div>
                 <div class="col card fade-in">
                     <div class="icon-container">
-                        <img src="/imgs/icons/shield-chevron.svg">
-                    </div>
-                    <h3 class="margin-bottom-1">Owner-<br>Managed</h3>
-                    <p>Our founders get involved in projects to ensure client satisfaction.</p>
-                </div>
-                <div class="col card fade-in">
-                    <div class="icon-container">
                         <img src="/imgs/icons/crown-simple.svg">
                     </div>
                     <h3 class="margin-bottom-1">White Glove<br>Customer Service</h3>
-                    <p>Our growing list of happy clients shows that we go above and beyond.</p>
+                    <p>Dedicated support from results-<br>driven project managers.</p>
+                </div>
+                <div class="col card fade-in">
+                    <div class="icon-container">
+                        <img src="/imgs/icons/resize.svg">
+                    </div>
+                    <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
+                    <p>Flexible billing for startups, scaleups, and everything in between.</p>
                 </div>
             </div>
         </section>

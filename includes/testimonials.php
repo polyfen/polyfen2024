@@ -49,7 +49,7 @@
         </blockquote>
         <figcaption>
             <img src="/imgs/testimonials/carlos-storie.webp" height="36" width="36" alt="">
-            <small>#,<br>Founder at #</small>
+            <small>Martin Simmons,<br>Co-founder at Blue Forge Labs</small>
         </figcaption>
     </figure>
     <figure class="testimonial fade-in card card-with-padding col">
@@ -60,20 +60,20 @@
             </p>
         </blockquote>
         <figcaption>
-            <img src="/imgs/testimonials/mati-storie.webp" height="36" width="36" alt="">
-            <small>#,<br>CEO at #</small>
+            <img src="/imgs/testimonials/matthew-sato.webp" height="36" width="36" alt="">
+            <small>Matthew Sato,<br>CTO at DeltaCraft</small>
         </figcaption>
     </figure>
     <figure class="testimonial fade-in card card-with-padding col">
         <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
         <blockquote>
             <p class="caption">
-                Our whole mobile app team was sourced by Polyfen. They are now a key part of our business.
+                Our whole mobile app team was sourced by Polyfen. Now, they are a key part in our success.
             </p>
         </blockquote>
         <figcaption>
-            <img src="/imgs/testimonials/cesar-storie.webp" height="36" width="36" alt="">
-            <small>#,<br>VP of Product at #</small>
+            <img src="/imgs/testimonials/amelia-rivera.webp" height="36" width="36" alt="">
+            <small>Amelia Rivera,<br>VP of Product at Orionis App</small>
         </figcaption>
     </figure>
 </div>
