@@ -48,7 +48,8 @@ ___     _       __
         <main>
                 <section class="subscription-plans fade-in">
                         <div class="container-1080">
-                                <h1 class="title-2 align-center margin-bottom-4">Offload your Design<br>& Development Needs</h1>
+                                <h2 class="title-1 align-center margin-bottom-1">We knock out<br>your tasks</h2>
+                                <h3 class="heading-1 font-weight-400 align-center margin-bottom-4">You focus on growth</h3>
                                 <!---------- TOGGLE BUTTON ---------->
                                 <div class="toggle-container fade-in" id="start-today">
                                         <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
