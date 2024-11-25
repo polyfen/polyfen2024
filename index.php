@@ -20,7 +20,7 @@ ___     _       __
     <meta property="og:title" content="Polyfen | Software & Creative Studio">
     <meta name="description" property="og:description" content="Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.">
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/home.png">
     <!---------- PAGE-SPECIFIC META end ---------->
     <!---------- PAGE-SPECIFIC CSS start ---------->
     <!---------- PAGE-SPECIFIC CSS end ---------->

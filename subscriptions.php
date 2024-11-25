@@ -48,7 +48,8 @@ ___     _       __
         <main>
                 <section class="subscription-plans fade-in">
                         <div class="container-1080">
-                                <h1 class="title-2 align-center margin-bottom-4">Offload your Design<br>& Development Needs</h1>
+                                <h2 class="title-1 align-center margin-bottom-1">We knock out<br>your tasks</h2>
+                                <h3 class="heading-1 font-weight-400 align-center margin-bottom-4">You focus on growth</h3>
                                 <!---------- TOGGLE BUTTON ---------->
                                 <div class="toggle-container fade-in" id="start-today">
                                         <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
@@ -141,17 +142,17 @@ ___     _       __
                         <div class="row margin-bottom-05">
                                 <div class="col card fade-in">
                                         <div class="icon-container">
+                                                <img src="/imgs/icons/hand-coins.svg">
+                                        </div>
+                                        <h3 class="margin-bottom-1">Low Cost,<br>High Value</h3>
+                                        <p>Our remote business model passes the savings onto you.</p>
+                                </div>
+                                <div class="col card fade-in">
+                                        <div class="icon-container">
                                                 <img src="/imgs/icons/flag.svg">
                                         </div>
                                         <h3 class="margin-bottom-1">Fast-track<br>Onboarding</h3>
                                         <p>No contracts, no paperwork hassle. Start today.</p>
-                                </div>
-                                <div class="col card fade-in">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/triangle.svg">
-                                        </div>
-                                        <h3 class="margin-bottom-1">Top-tier<br>Talent</h3>
-                                        <p>We screen rigorously and hire only the best.</p>
                                 </div>
                                 <div class="col card fade-in">
                                         <div class="icon-container">
@@ -164,33 +165,203 @@ ___     _       __
                         <div class="row">
                                 <div class="col card fade-in">
                                         <div class="icon-container">
-                                                <img src="/imgs/icons/table.svg">
+                                                <img src="/imgs/icons/triangle.svg">
                                         </div>
-                                        <h3 class="margin-bottom-1">Client<br>Dashboard</h3>
-                                        <p>Create and manage your tasks with ease.</p>
+                                        <h3 class="margin-bottom-1">Top-tier<br>Talent</h3>
+                                        <p>We screen rigorously and hire only the best.</p>
                                 </div>
                                 <div class="col card fade-in">
                                         <div class="icon-container">
-                                                <img src="/imgs/icons/slack.svg">
+                                                <img src="/imgs/icons/chart-bar.svg">
                                         </div>
-                                        <h3 class="margin-bottom-1">Dedicated Slack<br>Support</h3>
-                                        <p>Quick response, realtime assistance.</p>
+                                        <h3 class="margin-bottom-1">Dedicated<br>Project Manager</h3>
+                                        <p>Quick response, realtime human assistance over Slack.</p>
                                 </div>
                                 <div class="col card fade-in">
                                         <div class="icon-container">
-                                                <img src="/imgs/icons/video-conference.svg">
+                                                <img src="/imgs/icons/resize.svg">
                                         </div>
-                                        <h3 class="margin-bottom-1">Videocall<br>Scheduler</h3>
-                                        <p>Book a call with your account manager.</p>
+                                        <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
+                                        <p>Change your plan, pause, or cancel any time!</p>
                                 </div>
                         </div>
                 </section>
                 <hr>
                 <section class="stack-section container-1080">
                         <h2 class="heading-1 align-center fade-in">Solutions for<br>Every Stack</h2>
-                        <!---------- TECH-STACK.php start ---------->
-                        <?php include 'includes/tech-stack.php';?>
-                        <!---------- TECH-STACK.php end ---------->
+                        <!---------- TECH STACK CAROUSEL ---------->
+                        <div class="stack-carrousel">
+                                <div class="carrousel-col">
+                                <div class="slide-inside">
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/git-original.svg">Git</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/jira-original.svg">Jira</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/confluence-original.svg">Confluence
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/wordpress-plain.svg">Wordpress
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/woocommerce-original.svg">WooCommerce
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/javascript-original.svg">JavaScript
+                                        </div>
+                                </div>
+                                </div>
+                                <div class="carrousel-col">
+                                <div class="slide-inside">
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/nodejs-original.svg">Node.js
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/react-original.svg">React</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/typescript-original.svg">TypeScript
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/vuejs-original.svg">Vue.js</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/angular-original.svg">Angular
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/python-logo.svg">Python</div>
+                                </div>
+                                </div>
+                                <div class="carrousel-col">
+                                <div class="slide-inside">
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/php-original.svg">PHP</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/laravel-original.svg">Laravel
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/mysql-original-icon.svg">MySQL</div>
+
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/mongodb-original.svg">MongoDB
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/firebase-original.svg">Firebase
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/nextjs-plain.svg">Next.js</div>
+                                </div>
+                                </div>
+                                <div class="carrousel-col">
+                                <div class="slide-inside">
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/bun-original.svg">Bun</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/rails-original-wordmark.svg">Ruby on Rails</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/rust-original.svg">Rust</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/go-original.svg">Go
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/databricks-logo.svg">Databricks</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/django-plain.svg">Django</div>
+                                </div>
+                                </div>
+                                <div class="carrousel-col">
+                                <div class="slide-inside">
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/sass-original.svg">Sass</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/bootstrap-original.svg">Bootstrap
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/tailwindcss-original.svg">Tailwind
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/materialui-plain.svg">Material UI
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/figma-original.svg">Figma</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt="" src="/imgs/tech-stack/framer.svg">Framer
+                                        </div>
+                                </div>
+                                </div>
+                                <div class="carrousel-col">
+                                <div class="slide-inside">
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/illustrator.svg">Illustrator
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/photoshop.svg">Photoshop
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/after-effects.svg">After
+                                        Effects
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/premiere.svg">Premiere
+                                        Pro
+                                        </div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/indesign.svg">InDesign</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/hotjar-logo.svg">Hotjar</div>
+                                </div>
+                                </div>
+                                <div class="carrousel-col">
+                                <div class="slide-inside">
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/analytics-logo.svg">Google<br>Analytics</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/useberry-logo.svg">Useberry</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/maze-logo-w.svg">Maze</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/usertesting-icon.svg">UserTesting</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/dovetail-logo-white.svg">Dovetail</div>
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/java-original.svg">Java</div>
+                                </div>
+                                </div>
+                                <div class="carrousel-col">
+                                <div class="slide-inside">
+                                        <div class="stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/dotnet-logo.svg">.Net</div>
+                                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/swift-original.svg">Swift</div>
+                                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/kotlin-original.svg">Kotlin</div>
+                                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/dart-original.svg">Dart</div>
+                                        <div class="stack-u pro fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/flutter-original.svg">Flutter
+                                        </div>
+                                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/aws-plain.svg">AWS</div>
+                                </div>
+                                </div>
+                                <div class="carrousel-col">
+                                <div class="slide-inside">
+                                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/azure-original.svg">Azure</div>
+                                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/googlecloud-original.svg">
+                                        <span>Google Cloud</span>
+                                        </div>
+                                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/docker-original.svg">Docker</div>
+                                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/kubernetes-original.svg">Kubernetes
+                                        </div>
+                                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/vercel-original.svg">Vercel
+                                        </div>
+                                        <div class="pro stack-u fade-in"><img loading="lazy" alt=""
+                                                src="/imgs/tech-stack/jenkins-original.svg">Jenkins</div>
+                                </div>
+                                </div>
+                        </div>
                 </section>
                 <hr>
                 <section class="section-portolio-thumbnails">

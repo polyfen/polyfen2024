@@ -1660,7 +1660,7 @@ ul.no-bullets li:before {
     height: 116px;
   }
   .card-body ul {
-    height: 280px;
+    height: 300px;
   }
   .card-header .label {
     top: -120px;
@@ -2503,7 +2503,7 @@ footer nav a {
 
 .board-member-portrait {
   max-width: 200px;
-  border-radius: 16px;
+  border-radius: 24px;
   border: 1px solid var(--accent-color-30pct);
 }
 
