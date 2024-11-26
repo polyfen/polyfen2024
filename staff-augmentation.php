@@ -20,7 +20,7 @@ ___     _       __
     <meta property="og:title" content="Supercharge your Team with Staff Augmentation">
     <meta name="description" property="og:description" content="Scale your team confidently with experts in design, engineering, and management.">
     <meta name="keywords" content="Staff Augmentation, Nearshore Talent, Quick Turnaround, Timezone Aligned Teams, Top Tier Developers, Tailored Resourcing, Scalable Solutions, Engineering Talent, Design Professionals, Project Management Experts, Dedicated Support, Latin American Developers, UX Researcher, UX Writer, UX/UI Designer, Product Designer, Visual Designer, Illustrator, Motion Graphics Designer, 3D Designer, Brand Strategist, Brand Designer, Creative Director, Design Systems Specialist, Front-End Developer, Back-End Developer, Full-Stack Developer, iOS Developer, Android Developer, QA Specialist, DevOps Engineer, Cloud Computing Specialist, IoT Specialist, AI Specialist, LLM Engineer, Blockchain Developer, Tech Lead, Business Analyst, Product Owner, Product Manager, Project Manager, Scrum Master, Operations Manager, Delivery Manager, Resource Manager, Release Manager, Risk Management Specialist, Agile Coach">
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/staff-augmentation.png">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/staff-augmentation-2.png">
     <!---------- PAGE-SPECIFIC META end ---------->
     <!---------- PAGE-SPECIFIC CSS start ---------->
     <!---------- PAGE-SPECIFIC CSS end ---------->
