@@ -60,7 +60,7 @@ ___     _       __
         <?php include 'includes/clients-logo-scroller.php';?>
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-        <section class="section-subscriptions-summary container-1080 margin-bottom-3 fade-in">
+        <section  id="learn-more" class="section-subscriptions-summary container-1080 margin-bottom-3 fade-in">
             <h2 class="heading-1 align-center">Offload your Design<br>& Development Needs</h2>
             <!---------- TOGGLE BUTTON ---------->
             <div class="toggle-container fade-in" id="start-today">
@@ -87,7 +87,7 @@ ___     _       __
             </div>
         </section>
         <hr>
-        <section id="learn-more" class="section-portolio-thumbnails">
+        <section class="section-portolio-thumbnails">
             <h2 class="heading-1 align-center fade-in">World-class Design</h2>
             <!---------- PORTFOLIO-SCROLLER.php start ---------->
             <?php include 'includes/portfolio-scroller.php';?>
