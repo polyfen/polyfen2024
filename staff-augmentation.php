@@ -179,7 +179,7 @@ ___     _       __
                                 <div class="icon-container">
                                         <img src="/imgs/icons/resize.svg">
                                 </div>
-                                <h3 class="margin-bottom-1">Scalable Solutions<br>On Demmand</h3>
+                                <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
                                 <p>Grow confidently with staff augmentation.</p>
                         </div>
                 </div>
