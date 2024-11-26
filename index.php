@@ -116,7 +116,7 @@ ___     _       __
                         <img src="/imgs/icons/resize.svg">
                     </div>
                     <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
-                    <p>Flexible billing for startups, scaleups, and everything in between.</p>
+                    <p>Flexible services for startups, scaleups, and everything in between.</p>
                 </div>
             </div>
         </section>
