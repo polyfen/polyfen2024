@@ -27,6 +27,11 @@
     height: 40px;
 }
 
+.icon-container-small img {
+    width: 22px;
+    height: 22px;
+}
+
 @media screen and (min-width: 900px) {
     .icon-container {
         margin-left: unset;
