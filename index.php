@@ -56,14 +56,11 @@ ___     _       __
                 </div>
             </div>
         </section>
-        <section id="learn-more" class="section-portolio-thumbnails">
-            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
-            <!---------- PORTFOLIO-SCROLLER.php start ---------->
-            <?php include 'includes/portfolio-scroller.php';?>
-            <!---------- PORTFOLIO-SCROLLER.php end ---------->
-        </section>
+        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
+        <?php include 'includes/clients-logo-scroller.php';?>
+        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-        <section class="section-subscriptions-summary container-1080 margin-bottom-6 fade-in">
+        <section class="section-subscriptions-summary container-1080 margin-bottom-3 fade-in">
             <h2 class="heading-1 align-center">Offload your Design<br>& Development Needs</h2>
             <!---------- TOGGLE BUTTON ---------->
             <div class="toggle-container fade-in" id="start-today">
@@ -75,9 +72,7 @@ ___     _       __
             <?php include 'includes/subscription-plans.php';?>
             <!-- SUBSCRIPTION-PLANS.php end -->
         </section>
-        <hr>
         <section class="section-build-summary container-1080 fade-in">
-            <h2 class="heading-1 align-center">Fixed Price,<br>Precision Delivery</h2>
             <div class="row">
                 <div class="col card align-center fade-in">
                     <h3 class="heading-2 align-center">Branding</h3>
@@ -85,11 +80,18 @@ ___     _       __
                     <a class="button secondary-button small-button margin-auto" href="/branding">Learn More</a>
                 </div>
                 <div class="col card align-center fade-in">
-                    <h3 class="heading-2 align-center">Staff<br>Augmentation</h3>
-                    <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-2">
+                    <h3 class="heading-2 align-center">Staff Augmentation</h3>
+                    <img src="imgs/illustrations/dudes-coffee.webp" height="140" alt="" class="margin-bottom-2">
                     <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
                 </div>
             </div>
+        </section>
+        <hr>
+        <section id="learn-more" class="section-portolio-thumbnails">
+            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
+            <!---------- PORTFOLIO-SCROLLER.php start ---------->
+            <?php include 'includes/portfolio-scroller.php';?>
+            <!---------- PORTFOLIO-SCROLLER.php end ---------->
         </section>
         <hr>
         <section class="section-differential-value-props container-1080">
@@ -119,12 +121,8 @@ ___     _       __
             </div>
         </section>
         <hr>
-        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
-        <?php include 'includes/clients-logo-scroller.php';?>
-        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
-        <hr>
         <section class="section-testimonials container-1080">
-            <h2 class="heading-1 align-center fade-in">Crafting Success,<br>One Client at a Time</h2>
+            <h2 class="heading-1 align-center fade-in">Delivering Success,<br>One Client at a Time</h2>
             <?php include 'includes/testimonials.php';?>
         </section>
     </main>
