@@ -112,7 +112,7 @@
                 <li>Unlimited revisions</li>
                 <li>Flexible number of tasks<br>based on your needs</li>
                 <li>Flexible turnaround times</li>
-                <li>Dedicated team of Devs, UX,<br>Designers, and DevOps</li>
+                <li>Dedicated team of Devs, UX,<br>Designers, QA, and DevOps</li>
                 <li>Priority support tailored<br>to your requirements</li>
             </ul>
             <a data-button-arrow class="button photo-button secondary-button" href="/discovery-call">Book Call</a>
