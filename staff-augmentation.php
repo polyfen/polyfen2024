@@ -62,7 +62,7 @@ ___     _       __
         <hr>
         <section class="section-branding-services-breakdown">
                 <h2 class="heading-1 align-center margin-bottom-1 fade-in">We’ve Got You Covered</h2>
-                <h3 class="heading-2 align-center font-weight-400 margin-bottom-4 fade-in">Launch, Maintain, Grow</h2>
+                <h3 class="heading-2 align-center font-weight-400 margin-bottom-4 fade-in">Launch, Grow, Maintain</h2>
                 <div class="container-1080">
                         <div class="row margin-bottom-05">
                                 <div class="col card fade-in">
@@ -117,7 +117,7 @@ ___     _       __
                                                 <h3 class="heading-4">Management</h3>
                                         </div>
                                         <ul class="hanging-list margin-bottom-0">
-                                                <li>Teach lead</li>
+                                                <li>Tech lead</li>
                                                 <li>Business analyst</li>
                                                 <li>Product owner</li>
                                                 <li>Product manager</li>
