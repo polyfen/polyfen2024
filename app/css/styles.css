@@ -1273,7 +1273,7 @@ main ul {
 }
 
 main ul li::before {
-  content: "◆";
+  content: "✦";
   color: var(--accent-color);
   font-weight: bold;
   display: inline-block;
