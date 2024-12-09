@@ -92,7 +92,7 @@
                 <li>Unlimited projects</li>
                 <li>Unlimited revisions</li>
                 <li>2 tasks at a time</li>
-                <li>1-2 days turnaround</li>
+                <li>1-3 days turnaround</li>
                 <li>Unlimited tasks by Devs, UX,<br>Designers, and DevOps</li>
                 <li>Priority support</li>
             </ul>
