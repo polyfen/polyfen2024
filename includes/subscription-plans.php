@@ -70,7 +70,7 @@
                 <li>Unlimited revisions</li>
                 <li>1 task at a time</li>
                 <li>2-3 days turnaround</li>
-                <li>Unlimited tasks by Devs,<br>UX, and Designers</li>
+                <li>Includes tasks performed by<br>Devs, UX, and Designers</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
@@ -93,7 +93,7 @@
                 <li>Unlimited revisions</li>
                 <li>2 tasks at a time</li>
                 <li>1-3 days turnaround</li>
-                <li>Unlimited tasks by Devs, UX,<br>Designers, and DevOps</li>
+                <li>Includes tasks performed by<br>Devs, UX, Designers, and DevOps</li>
                 <li>Priority support</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
