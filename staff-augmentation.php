@@ -60,7 +60,7 @@ ___     _       __
         <?php include 'includes/clients-logo-scroller.php';?>
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-        <section class="section-branding-services-breakdown">
+        <section class="section-services-breakdown">
                 <h2 class="heading-1 align-center margin-bottom-1 fade-in">We’ve Got You Covered</h2>
                 <h3 class="heading-2 align-center font-weight-400 margin-bottom-4 fade-in">Launch, Grow, Maintain</h2>
                 <div class="container-1080">

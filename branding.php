@@ -58,7 +58,7 @@ ___     _       __
         <?php include 'includes/clients-logo-scroller.php';?>
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-        <section class="section-branding-services-breakdown">
+        <section class="section-services-breakdown">
                 <h2 class="heading-1 align-center fade-in">We’ve got you Covered<br>from Idea to Market</h2>
                 <div class="container-1080">
                         <div class="row margin-bottom-05">

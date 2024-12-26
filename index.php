@@ -72,17 +72,59 @@ ___     _       __
             <?php include 'includes/subscription-plans.php';?>
             <!-- SUBSCRIPTION-PLANS.php end -->
         </section>
-        <section class="section-build-summary container-1080 fade-in">
-            <div class="row">
-                <div class="col card align-center fade-in">
-                    <h3 class="heading-2 align-center">Branding</h3>
-                    <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-2">
-                    <a class="button secondary-button small-button margin-auto" href="/branding">Learn More</a>
-                </div>
-                <div class="col card align-center fade-in">
-                    <h3 class="heading-2 align-center">Staff Augmentation</h3>
-                    <img src="imgs/illustrations/dudes-coffee.webp" height="140" alt="" class="margin-bottom-2">
-                    <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
+        <hr>
+        <section class="section-services-breakdown">
+            <h2 class="heading-1 align-center">Supercharge your Team<br>with Staff Augmentation</h2>
+            <div class="container-1080">
+                <div class="row margin-bottom-05">
+                        <div class="col card fade-in">
+                                <div class="row">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/pencil-and-ruler.svg">
+                                        </div>
+                                        <h3 class="heading-4">Design</h3>
+                                </div>
+                                <ul class="hanging-list">
+                                        <li>UX/UI designer</li>
+                                        <li>Visual designer</li>
+                                        <li>Motion graphics</li>
+                                        <li>Design systems specialist</li>
+                                        <li>More...</li>
+                                </ul>
+                                <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
+                        </div>
+                        <div class="col card fade-in">
+                                <div class="row">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/cpu.svg">
+                                        </div>
+                                        <h3 class="heading-4">Engineering</h3>
+                                </div>
+                                <ul class="hanging-list">
+                                        <li>Front-end</li>
+                                        <li>Back-end</li>
+                                        <li>Full-stack</li>
+                                        <li>iOS</li>
+                                        <li>More...</li>
+                                </ul>
+                                <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
+                        </div>
+                        <div class="col card fade-in">
+                                <div class="row">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/chart-bar.svg">
+                                        </div>
+                                        <h3 class="heading-4">Management</h3>
+                                </div>
+                                <ul class="hanging-list">
+                                        <li>Tech lead</li>
+                                        <li>Business analyst</li>
+                                        <li>Product owner</li>
+                                        <li>Product manager</li>
+                                        <li>More...</li>
+                                </ul>
+                                <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
+                        </div>
                 </div>
             </div>
         </section>
