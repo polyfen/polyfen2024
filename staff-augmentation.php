@@ -20,7 +20,7 @@ ___     _       __
     <meta property="og:title" content="Supercharge your Team with Staff Augmentation">
     <meta name="description" property="og:description" content="Scale your team confidently with experts in design, engineering, and management.">
     <meta name="keywords" content="Staff Augmentation, Nearshore Talent, Quick Turnaround, Timezone Aligned Teams, Top Tier Developers, Tailored Resourcing, Scalable Solutions, Engineering Talent, Design Professionals, Project Management Experts, Dedicated Support, Latin American Developers, UX Researcher, UX Writer, UX/UI Designer, Product Designer, Visual Designer, Illustrator, Motion Graphics Designer, 3D Designer, Brand Strategist, Brand Designer, Creative Director, Design Systems Specialist, Front-End Developer, Back-End Developer, Full-Stack Developer, iOS Developer, Android Developer, QA Specialist, DevOps Engineer, Cloud Computing Specialist, IoT Specialist, AI Specialist, LLM Engineer, Blockchain Developer, Tech Lead, Business Analyst, Product Owner, Product Manager, Project Manager, Scrum Master, Operations Manager, Delivery Manager, Resource Manager, Release Manager, Risk Management Specialist, Agile Coach">
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/staff-augmentation.png">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/staff-augmentation-2.png">
     <!---------- PAGE-SPECIFIC META end ---------->
     <!---------- PAGE-SPECIFIC CSS start ---------->
     <!---------- PAGE-SPECIFIC CSS end ---------->
@@ -47,7 +47,7 @@ ___     _       __
         <section class="section-cover-staff-augmentation flex-column-center">
                 <h1 class="title-1 align-center fade-in">Your Team,<br><span class="color-gradient">Supercharged</span></h1>
                 <h2 class="heading-1 align-center font-weight-400 fade-in">Top tier talent,<br>Nearshore rates</h2>
-                <a class="button large-button cta-button photo-button fade-in" href="#book-call">Book a Call</a>
+                <a class="button large-button cta-button photo-button fade-in" href="#book-call-staff-aug">Book a Call</a>
                 <div class="cover-two-pearls-background">
                         <div class="pearl rotate-slower fade-in">
                         </div>
@@ -60,9 +60,9 @@ ___     _       __
         <?php include 'includes/clients-logo-scroller.php';?>
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-        <section class="section-branding-services-breakdown">
+        <section class="section-services-breakdown">
                 <h2 class="heading-1 align-center margin-bottom-1 fade-in">We’ve Got You Covered</h2>
-                <h3 class="heading-2 align-center font-weight-400 margin-bottom-4 fade-in">Launch, Maintain, Grow</h2>
+                <h3 class="heading-2 align-center font-weight-400 margin-bottom-4 fade-in">Launch, Grow, Maintain</h2>
                 <div class="container-1080">
                         <div class="row margin-bottom-05">
                                 <div class="col card fade-in">
@@ -117,7 +117,7 @@ ___     _       __
                                                 <h3 class="heading-4">Management</h3>
                                         </div>
                                         <ul class="hanging-list margin-bottom-0">
-                                                <li>Teach lead</li>
+                                                <li>Tech lead</li>
                                                 <li>Business analyst</li>
                                                 <li>Product owner</li>
                                                 <li>Product manager</li>
@@ -179,7 +179,7 @@ ___     _       __
                                 <div class="icon-container">
                                         <img src="/imgs/icons/resize.svg">
                                 </div>
-                                <h3 class="margin-bottom-1">Scalable Solutions<br>On Demmand</h3>
+                                <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
                                 <p>Grow confidently with staff augmentation.</p>
                         </div>
                 </div>
@@ -201,7 +201,7 @@ ___     _       __
                                         <div>
                                                 <h3 class="heading-2 margin-bottom-1 margin-top-1 fade-in">Rodrigo Gatica</h3>
                                                 <h4 class="caption uppercase fade-in" style="margin-bottom: 1rem;">Co-founder &amp; CEO</h4>
-                                                <a class="board-members-social link fade-in" href="https://www.linkedin.com/in/borishr/" target="_blank">LinkedIn ↗</a>
+                                                <a class="board-members-social link fade-in" href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank">LinkedIn ↗</a>
                                         </div>
                                 </div>
                                 <ul class="hanging-list spaced-list">

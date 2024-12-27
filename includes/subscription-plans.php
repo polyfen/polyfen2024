@@ -65,11 +65,12 @@
         </div>
         <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
+                <li>Dedicated project manager</li>
+                <li>Unlimited projects</li>
+                <li>Unlimited revisions</li>
                 <li>1 task at a time</li>
                 <li>2-3 days turnaround</li>
-                <li>Unlimited revisions</li>
-                <li>Unlimited projects</li>
-                <li>Unlimited tasks by Devs,<br>UX, and Designers</li>
+                <li>Includes tasks performed by<br>Devs, UX, and Designers</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
             <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
@@ -87,11 +88,12 @@
         </div>
         <div class="card-body flex-column-center">
             <ul class="hanging-list checkmark-bullet">
-                <li>2 tasks at a time</li>
-                <li>1-2 days turnaround</li>
-                <li>Unlimited revisions</li>
+                <li>Dedicated project manager</li>
                 <li>Unlimited projects</li>
-                <li>Unlimited tasks by Devs, UX,<br>Designers, and DevOps</li>
+                <li>Unlimited revisions</li>
+                <li>2 tasks at a time</li>
+                <li>1-3 days turnaround</li>
+                <li>Includes tasks performed by<br>Devs, UX, Designers, and DevOps</li>
                 <li>Priority support</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
@@ -105,11 +107,12 @@
         </div>
         <div class="card-body flex-column-center">   
             <ul class="hanging-list checkmark-bullet">
+                <li>Dedicated project manager</li>
+                <li>Unlimited projects</li>
+                <li>Unlimited revisions</li>
                 <li>Flexible number of tasks<br>based on your needs</li>
                 <li>Flexible turnaround times</li>
-                <li>Unlimited revisions</li>
-                <li>Unlimited projects</li>
-                <li>Dedicated team of Devs, UX,<br>Designers, and DevOps</li>
+                <li>Dedicated team of Devs, UX,<br>Designers, QA, and DevOps</li>
                 <li>Priority support tailored<br>to your requirements</li>
             </ul>
             <a data-button-arrow class="button photo-button secondary-button" href="/discovery-call">Book Call</a>

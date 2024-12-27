@@ -20,7 +20,7 @@ ___     _       __
     <meta property="og:title" content="Polyfen | Software & Creative Studio">
     <meta name="description" property="og:description" content="Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.">
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/home.png">
     <!---------- PAGE-SPECIFIC META end ---------->
     <!---------- PAGE-SPECIFIC CSS start ---------->
     <!---------- PAGE-SPECIFIC CSS end ---------->
@@ -56,14 +56,11 @@ ___     _       __
                 </div>
             </div>
         </section>
-        <section id="learn-more" class="section-portolio-thumbnails">
-            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
-            <!---------- PORTFOLIO-SCROLLER.php start ---------->
-            <?php include 'includes/portfolio-scroller.php';?>
-            <!---------- PORTFOLIO-SCROLLER.php end ---------->
-        </section>
+        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
+        <?php include 'includes/clients-logo-scroller.php';?>
+        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-        <section class="section-subscriptions-summary container-1080 margin-bottom-6 fade-in">
+        <section  id="learn-more" class="section-subscriptions-summary container-1080 margin-bottom-3 fade-in">
             <h2 class="heading-1 align-center">Offload your Design<br>& Development Needs</h2>
             <!---------- TOGGLE BUTTON ---------->
             <div class="toggle-container fade-in" id="start-today">
@@ -76,20 +73,67 @@ ___     _       __
             <!-- SUBSCRIPTION-PLANS.php end -->
         </section>
         <hr>
-        <section class="section-build-summary container-1080 fade-in">
-            <h2 class="heading-1 align-center">Fixed Price,<br>Precision Delivery</h2>
-            <div class="row">
-                <div class="col card align-center fade-in">
-                    <h3 class="heading-2 align-center">Brand</h3>
-                    <img src="imgs/illustrations/dudes-basketball.webp" height="140" alt="" class="margin-bottom-2">
-                    <a class="button secondary-button small-button margin-auto" href="/branding">Learn More</a>
-                </div>
-                <div class="col card align-center fade-in">
-                    <h3 class="heading-2 align-center">Website</h3>
-                    <img src="imgs/illustrations/dudes-laptop.webp" height="140" alt="" class="margin-bottom-2">
-                    <a class="button secondary-button small-button margin-auto" href="/discovery-call">Book Call</a>
+        <section class="section-services-breakdown">
+            <h2 class="heading-1 align-center">Supercharge your Team<br>with Staff Augmentation</h2>
+            <div class="container-1080">
+                <div class="row margin-bottom-05">
+                        <div class="col card fade-in">
+                                <div class="row">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/pencil-and-ruler.svg">
+                                        </div>
+                                        <h3 class="heading-4">Design</h3>
+                                </div>
+                                <ul class="hanging-list">
+                                        <li>UX/UI designer</li>
+                                        <li>Visual designer</li>
+                                        <li>Motion graphics</li>
+                                        <li>Design systems specialist</li>
+                                        <li>More...</li>
+                                </ul>
+                                <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
+                        </div>
+                        <div class="col card fade-in">
+                                <div class="row">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/cpu.svg">
+                                        </div>
+                                        <h3 class="heading-4">Engineering</h3>
+                                </div>
+                                <ul class="hanging-list">
+                                        <li>Front-end</li>
+                                        <li>Back-end</li>
+                                        <li>Full-stack</li>
+                                        <li>iOS</li>
+                                        <li>More...</li>
+                                </ul>
+                                <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
+                        </div>
+                        <div class="col card fade-in">
+                                <div class="row">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/chart-bar.svg">
+                                        </div>
+                                        <h3 class="heading-4">Management</h3>
+                                </div>
+                                <ul class="hanging-list">
+                                        <li>Tech lead</li>
+                                        <li>Business analyst</li>
+                                        <li>Product owner</li>
+                                        <li>Product manager</li>
+                                        <li>More...</li>
+                                </ul>
+                                <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
+                        </div>
                 </div>
             </div>
+        </section>
+        <hr>
+        <section class="section-portolio-thumbnails">
+            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
+            <!---------- PORTFOLIO-SCROLLER.php start ---------->
+            <?php include 'includes/portfolio-scroller.php';?>
+            <!---------- PORTFOLIO-SCROLLER.php end ---------->
         </section>
         <hr>
         <section class="section-differential-value-props container-1080">
@@ -104,27 +148,23 @@ ___     _       __
                 </div>
                 <div class="col card fade-in">
                     <div class="icon-container">
-                        <img src="/imgs/icons/shield-chevron.svg">
-                    </div>
-                    <h3 class="margin-bottom-1">Owner-<br>Managed</h3>
-                    <p>Our founders get involved in projects to ensure client satisfaction.</p>
-                </div>
-                <div class="col card fade-in">
-                    <div class="icon-container">
                         <img src="/imgs/icons/crown-simple.svg">
                     </div>
                     <h3 class="margin-bottom-1">White Glove<br>Customer Service</h3>
-                    <p>Our growing list of happy clients shows that we go above and beyond.</p>
+                    <p>Dedicated support from results-<br>driven project managers.</p>
+                </div>
+                <div class="col card fade-in">
+                    <div class="icon-container">
+                        <img src="/imgs/icons/resize.svg">
+                    </div>
+                    <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
+                    <p>Flexible services for startups, scaleups, and everything in between.</p>
                 </div>
             </div>
         </section>
         <hr>
-        <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
-        <?php include 'includes/clients-logo-scroller.php';?>
-        <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
-        <hr>
         <section class="section-testimonials container-1080">
-            <h2 class="heading-1 align-center fade-in">Crafting Success,<br>One Client at a Time</h2>
+            <h2 class="heading-1 align-center fade-in">Delivering Success,<br>One Client at a Time</h2>
             <?php include 'includes/testimonials.php';?>
         </section>
     </main>

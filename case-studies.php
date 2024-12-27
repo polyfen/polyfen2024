@@ -19,7 +19,7 @@ ___     _       __
     <meta property="og:url" content="https://polyfen.com/case-studies">
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta name="description" property="og:description" content="We are a fully-remote creative & development agency helping businesses power their solutions, brands and apps since 2018.">
-    <meta property="og:image" content="https://polyfen.com/imgs/meta/polyfen-meta.png">
+    <meta property="og:image" content="https://polyfen.com/imgs/meta/case-studies.png">
     <meta name="robots" content="index, follow">
     <!---------- PAGE-SPECIFIC META end ---------->
     <!---------- PAGE-SPECIFIC CSS start ---------->

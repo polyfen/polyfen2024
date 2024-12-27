@@ -1,17 +1,17 @@
-.section-branding-services-breakdown .card h3 {
+.section-services-breakdown .card h3 {
     display: flex;
     align-items: center;
     height: 54px;
 }
 
-.section-branding-services-breakdown .icon-container {
+.section-services-breakdown .icon-container {
     margin-bottom: 0;
     height: 54px;
     width: 54px;
     padding: 8px;
 }
 
-.section-branding-services-breakdown .card .row {
+.section-services-breakdown .card .row {
     flex-direction: row;
     gap: 0.75rem;
 }
@@ -28,17 +28,17 @@
     */
 
 @media (min-width: 900px) {
-    .section-branding-services-breakdown .card h3 {
+    .section-services-breakdown .card h3 {
         height: 70px;
     }
 
-    .section-branding-services-breakdown .icon-container {
+    .section-services-breakdown .icon-container {
         height: 70px;
         width: 70px;
     }
 
     /*
-    .section-branding-services-breakdown .card .row {
+    .section-services-breakdown .card .row {
         margin-bottom: 1rem;
     }
     .thought-leaders-section .col {

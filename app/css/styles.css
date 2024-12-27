@@ -1247,6 +1247,11 @@ button:hover, a.button:hover, input.button:hover {
   height: 40px;
 }
 
+.icon-container-small img {
+  width: 22px;
+  height: 22px;
+}
+
 @media screen and (min-width: 900px) {
   .icon-container {
     margin-left: unset;
@@ -1268,7 +1273,7 @@ main ul {
 }
 
 main ul li::before {
-  content: "◆";
+  content: "✦";
   color: var(--accent-color);
   font-weight: bold;
   display: inline-block;
@@ -1534,18 +1539,22 @@ ul.no-bullets li:before {
 /* ------------------------------------------------------ */
 /*------------------------------------------------------ */
 /*///////////// _TESTIMONIALS.scss start /////////////*/
-.testimonials-container {
+.testimonials-wrapper .row {
   display: flex;
   flex-direction: column;
   max-width: 400px;
   margin-inline: auto;
 }
 
-.body-staff-augmentation .testimonials-container-branding {
+body:not(.body-branding) .testimonials-wrapper-branding, body:not(.body-staff-augmentation) .testimonials-wrapper-staff-augmentation {
   display: none;
 }
 
-.testimonials-container figure {
+.body-branding .testimonials-wrapper-general, .body-staff-augmentation .testimonials-wrapper-general {
+  display: none;
+}
+
+.testimonials-wrapper figure {
   margin-inline: 0;
 }
 
@@ -1572,7 +1581,7 @@ ul.no-bullets li:before {
 
 /* Home > Testimonial-section MediaQuery */
 @media (min-width: 768px) {
-  .testimonials-container {
+  .testimonials-wrapper .row {
     max-width: unset;
     flex-direction: row;
     align-items: flex-start;
@@ -1660,7 +1669,7 @@ ul.no-bullets li:before {
     height: 116px;
   }
   .card-body ul {
-    height: 280px;
+    height: 300px;
   }
   .card-header .label {
     top: -120px;
@@ -2488,6 +2497,10 @@ footer nav a {
   margin: 0 auto 24px;
 }
 
+.secondary-services-card li {
+  text-align: left;
+}
+
 /*///////////// _HOME.scss end /////////////*/
 /* -------------------------------------------------*/
 /* ------------------------------------------------------ */
@@ -2503,7 +2516,7 @@ footer nav a {
 
 .board-member-portrait {
   max-width: 200px;
-  border-radius: 16px;
+  border-radius: 24px;
   border: 1px solid var(--accent-color-30pct);
 }
 
@@ -2686,20 +2699,20 @@ div.other-project-card img {
     flex-direction: row;
   }
 }
-.section-branding-services-breakdown .card h3 {
+.section-services-breakdown .card h3 {
   display: flex;
   align-items: center;
   height: 54px;
 }
 
-.section-branding-services-breakdown .icon-container {
+.section-services-breakdown .icon-container {
   margin-bottom: 0;
   height: 54px;
   width: 54px;
   padding: 8px;
 }
 
-.section-branding-services-breakdown .card .row {
+.section-services-breakdown .card .row {
   flex-direction: row;
   gap: 0.75rem;
 }
@@ -2716,15 +2729,15 @@ div.other-project-card img {
 }
     */
 @media (min-width: 900px) {
-  .section-branding-services-breakdown .card h3 {
+  .section-services-breakdown .card h3 {
     height: 70px;
   }
-  .section-branding-services-breakdown .icon-container {
+  .section-services-breakdown .icon-container {
     height: 70px;
     width: 70px;
   }
   /*
-  .section-branding-services-breakdown .card .row {
+  .section-services-breakdown .card .row {
       margin-bottom: 1rem;
   }
   .thought-leaders-section .col {
@@ -2801,12 +2814,12 @@ div.other-project-card img {
 }
 
 /* MISC */
-.section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
+.section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-cover-about h1, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
   margin-bottom: 2rem;
 }
 
 @media (min-width: 1080px) {
-  .section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-branding-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
+  .section-subscriptions-summary h2, .section-build-summary h2, .section-differential-value-props h2, .section-portolio-thumbnails h2, .section-board-members h2, .section-poly-atlas h2, .section-poly-cookies h2, .section-what-sets-us-apart h2, .section-team-scroller h2, .section-services-breakdown h2, .section-thought-leaders h2, .testimonials-section h2, .section-testimonials h2, .section-task-examples h2, .subscription-value-props h2, .stack-section h2, .faqs h2 {
     margin-bottom: 4rem;
   }
 }
