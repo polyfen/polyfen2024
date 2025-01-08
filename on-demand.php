@@ -10,13 +10,13 @@ ___     _       __
 -->
 <html lang="en">
 <head>
-    <title>Design & Dev Subscription Plans | Polyfen</title>
+    <title>On-Demand Design & Dev Team | Polyfen</title>
     <!---------- HEAD.php start ---------->
     <?php include 'includes/head.php';?>
     <!---------- HEAD.php end ---------->
     <!---------- PAGE-SPECIFIC META start ---------->
     <meta name="robots" content="index, follow">
-    <meta property="og:url" content="https://polyfen.com/subscriptions">
+    <meta property="og:url" content="https://polyfen.com/on-demand">
     <meta property="og:title" content="Design & Dev Subscription Plans">
     <meta name="description" property="og:description" content="Affordable all-in-one subscriptions with unlimited design and development tasks for start-ups.">
     <meta name="keywords" content="development tasks, design tasks, ux tasks, devops tasks, development subscription, design subscription, ux subscription, devops subscription, startup, product development, monthly, quarterly, ">
@@ -48,17 +48,8 @@ ___     _       __
         <main>
                 <section class="subscription-plans fade-in">
                         <div class="container-1080">
-                                <h2 class="title-1 align-center margin-bottom-1">We knock out<br>your tasks</h2>
-                                <h3 class="heading-1 font-weight-400 align-center margin-bottom-4">You focus on growth</h3>
-                                <!---------- TOGGLE BUTTON ---------->
-                                <div class="toggle-container fade-in" id="start-today">
-                                        <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
-                                        <button data-content="20% OFF" class="small-button secondary-button active-button"
-                                        data-period="quarterly">Pay Quarterly</button>
-                                </div>
-                                <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
-                                <?php include 'includes/subscription-plans.php';?>
-                                <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
+                                <h2 class="title-1 align-center margin-bottom-2">Build More,<br>Spend Less</h2>
+                                <h3 class="heading-1 font-weight-400 align-center margin-bottom-4">Your On-Demand<br>Design & Dev Team</h3>
                         </div>
                         <div class="cover-pearl-background">
                                 <div class="pearl rotate-slower fade-in">
@@ -66,9 +57,108 @@ ___     _       __
                         </div>
                 </section>
                 <hr>
-                <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
-                <?php include 'includes/clients-logo-scroller.php';?>
-                <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
+                <section>
+                        <h2 class="heading-1 align-center">Instant Access to our<br>Expert Talent Pool</h2>
+                        <h3 class="align-center margin-bottom-4 font-weight-400">Seamlessly Add or Swap<br>Talent as Needed</h3>
+                        <div class="container-1080">
+                                <div class="row margin-bottom-05">
+                                        <div class="col card fade-in">
+                                                <div class="row">
+                                                        <div class="icon-container">
+                                                                <img src="/imgs/icons/pencil-and-ruler.svg">
+                                                        </div>
+                                                        <h3 class="heading-4">Design</h3>
+                                                </div>
+                                                <ul class="hanging-list margin-bottom-0">
+                                                        <li>UX researcher</li>
+                                                        <li>UX writer</li>
+                                                        <li>UX/UI designer</li>
+                                                        <li>Product designer</li>
+                                                        <li>Visual designer</li>
+                                                        <li>Illustrator</li>
+                                                        <li>Motion Graphics</li>
+                                                        <li>3D designer</li>
+                                                        <li>Brand strategist</li>
+                                                        <li>Brand designer</li>
+                                                        <li>Creative director</li>
+                                                        <li>Design Systems Specialist</li>
+                                                </ul>
+                                        </div>
+                                        <div class="col card fade-in">
+                                                <div class="row">
+                                                        <div class="icon-container">
+                                                                <img src="/imgs/icons/cpu.svg">
+                                                        </div>
+                                                        <h3 class="heading-4">Engineering</h3>
+                                                </div>
+                                                <ul class="hanging-list margin-bottom-0">
+                                                        <li>Front-end</li>
+                                                        <li>Back-end</li>
+                                                        <li>Full-stack</li>
+                                                        <li>iOS</li>
+                                                        <li>Android</li>
+                                                        <li>QA</li>
+                                                        <li>DevOps</li>
+                                                        <li>Cloud computing</li>
+                                                        <li>IoT</li>
+                                                        <li>AI</li>
+                                                        <li>LLM</li>
+                                                        <li>Blockchain</li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+                <hr>
+                <section class="container-1080 subscription-value-props">
+                        <h2 class="heading-1 align-center fade-in">What You're Getting</h2>
+                        <div class="row margin-bottom-05">
+                                <div class="col card fade-in">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/hand-coins.svg">
+                                        </div>
+                                        <h3 class="margin-bottom-1">Low Cost,<br>High Value</h3>
+                                        <p>Our remote business model passes the savings onto you.</p>
+                                </div>
+                                <div class="col card fade-in">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/flag.svg">
+                                        </div>
+                                        <h3 class="margin-bottom-1">Fast-track<br>Onboarding</h3>
+                                        <p>No contracts, no paperwork hassle. Start today.</p>
+                                </div>
+                                <div class="col card fade-in">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/person.svg" width="34px">
+                                        </div>
+                                        <h3 class="margin-bottom-1">Devs, DevOps,<br>UX, & Designers</h3>
+                                        <p>A full-blown team ready to crush your tasks.</p>
+                                </div>
+                        </div>
+                        <div class="row">
+                                <div class="col card fade-in">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/triangle.svg">
+                                        </div>
+                                        <h3 class="margin-bottom-1">Top-tier<br>Talent</h3>
+                                        <p>We screen rigorously and hire only the best.</p>
+                                </div>
+                                <div class="col card fade-in">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/chart-bar.svg">
+                                        </div>
+                                        <h3 class="margin-bottom-1">Designated<br>Project Manager</h3>
+                                        <p>Quick response, realtime human assistance over Slack.</p>
+                                </div>
+                                <div class="col card fade-in">
+                                        <div class="icon-container">
+                                                <img src="/imgs/icons/resize.svg">
+                                        </div>
+                                        <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
+                                        <p>Change your plan, pause, or cancel any time!</p>
+                                </div>
+                        </div>
+                </section>
                 <hr>
                 <section id="learn-more" class="section-task-examples container-1080">
                         <h2 class="heading-1 align-center fade-in">Ask for Whatever<br>You Need</h2>
@@ -120,7 +210,7 @@ ___     _       __
                                                         </ul>
                                                 </div>
                                                 <div class="col card card-small fade-in">
-                                                <div class="mobile-row pro">
+                                                <div class="mobile-row">
                                                                 <div class="icon-container icon-container-small">
                                                                         <img src="imgs/icons/infinity.svg" alt="" height="24px">
                                                                 </div>
@@ -133,56 +223,6 @@ ___     _       __
                                                         </ul>
                                                 </div>
                                         </div>
-                                </div>
-                        </div>
-                </section>
-                <hr>
-                <section class="container-1080 subscription-value-props">
-                        <h2 class="heading-1 align-center fade-in">What You're Getting</h2>
-                        <div class="row margin-bottom-05">
-                                <div class="col card fade-in">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/hand-coins.svg">
-                                        </div>
-                                        <h3 class="margin-bottom-1">Low Cost,<br>High Value</h3>
-                                        <p>Our remote business model passes the savings onto you.</p>
-                                </div>
-                                <div class="col card fade-in">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/flag.svg">
-                                        </div>
-                                        <h3 class="margin-bottom-1">Fast-track<br>Onboarding</h3>
-                                        <p>No contracts, no paperwork hassle. Start today.</p>
-                                </div>
-                                <div class="col card fade-in">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/person.svg" width="34px">
-                                        </div>
-                                        <h3 class="margin-bottom-1">Devs, DevOps,<br>UX, & Designers</h3>
-                                        <p>A full-blown team ready to crush your tasks.</p>
-                                </div>
-                        </div>
-                        <div class="row">
-                                <div class="col card fade-in">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/triangle.svg">
-                                        </div>
-                                        <h3 class="margin-bottom-1">Top-tier<br>Talent</h3>
-                                        <p>We screen rigorously and hire only the best.</p>
-                                </div>
-                                <div class="col card fade-in">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/chart-bar.svg">
-                                        </div>
-                                        <h3 class="margin-bottom-1">Dedicated<br>Project Manager</h3>
-                                        <p>Quick response, realtime human assistance over Slack.</p>
-                                </div>
-                                <div class="col card fade-in">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/resize.svg">
-                                        </div>
-                                        <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
-                                        <p>Change your plan, pause, or cancel any time!</p>
                                 </div>
                         </div>
                 </section>
