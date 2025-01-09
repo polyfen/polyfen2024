@@ -547,6 +547,7 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
   --accent-color-90pct: hsl(from var(--accent-color) h s l / 0.9);
   --accent-color-50pct: hsl(from var(--accent-color) h s l / 0.5);
   --accent-color-30pct: hsl(from var(--accent-color) h s l / 0.3);
+  --accent-color-10pct: hsl(from var(--accent-color) h s l / 0.10);
   --accent-gradient-start: #D837F8;
   --accent-gradient-end: #3747F8;
   --accent-color-gradient: linear-gradient(45deg, var(--accent-gradient-start), var(--accent-gradient-end));
@@ -560,6 +561,9 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
   --body-background-color: var(--slate-950);
   --display-text-color: var(--white);
   --body-text-color: var(--white-90pct);
+  --card-background-color: var(--slate-900);
+  --card-border-color: var(--accent-color-30pct);
+  --card-background-image: radial-gradient(at top, var(--accent-color-10pct) 0%, transparent 60%);
 }
 
 body {
@@ -572,6 +576,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--display-text-color);
+}
+
+:root {
+  --cta-section-background: var(--slate-900);
 }
 
 /*///////////// _UI-COLORS.scss end /////////////*/
@@ -1444,13 +1452,9 @@ ul.no-bullets li:before {
 /* -------------------------------------------------*/
 /* ------------------------------------------------------ */
 /*///////////// _CARDS.scss start /////////////*/
-:root {
-  --card-background-color: var(--slate-900);
-  --card-border-color: var(--accent-color-30pct);
-}
-
 .card {
   background: var(--card-background-color);
+  background-image: var(--card-background-image);
   border: 1px solid var(--card-border-color);
   border-radius: 12px;
   padding-inline: 16px;
