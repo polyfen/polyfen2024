@@ -62,12 +62,6 @@ ___     _       __
         <hr>
         <section  id="learn-more" class="section-subscriptions-summary container-1080 margin-bottom-3 fade-in">
             <h2 class="heading-1 align-center">Offload your Design<br>& Development Needs</h2>
-            <!---------- TOGGLE BUTTON ---------->
-            <div class="toggle-container fade-in" id="start-today">
-                    <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
-                    <button data-content="20% OFF" class="small-button secondary-button active-button"
-                    data-period="quarterly">Pay Quarterly</button>
-            </div>
             <!-- SUBSCRIPTION-PLANS.php start -->
             <?php include 'includes/subscription-plans.php';?>
             <!-- SUBSCRIPTION-PLANS.php end -->

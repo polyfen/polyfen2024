@@ -50,12 +50,6 @@ ___     _       __
                         <div class="container-1080">
                                 <h2 class="title-1 align-center margin-bottom-1">We knock out<br>your tasks</h2>
                                 <h3 class="heading-1 font-weight-400 align-center margin-bottom-4">You focus on growth</h3>
-                                <!---------- TOGGLE BUTTON ---------->
-                                <div class="toggle-container fade-in" id="start-today">
-                                        <button class="small-button secondary-button inactive-button" data-period="monthly">Pay Monthly</button>
-                                        <button data-content="20% OFF" class="small-button secondary-button active-button"
-                                        data-period="quarterly">Pay Quarterly</button>
-                                </div>
                                 <!-- INCLUDE SUBSCRIPTION-PLANS.PHP start -->
                                 <?php include 'includes/subscription-plans.php';?>
                                 <!-- INCLUDE SUBSCRIPTION-PLANS.PHP end -->
