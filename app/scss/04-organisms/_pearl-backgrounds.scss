@@ -25,3 +25,18 @@
 .body-discovery-call .cover-pearl-background {
     top: -400px;
 }
+
+.about-pearl-background {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-pearl-background .pearl {
+    display: block;
+    background-image: url(../../imgs/pearls/09.webp);
+    height: 420px;
+    width: 420px;
+    top: -200px;
+}

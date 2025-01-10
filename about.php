@@ -44,19 +44,19 @@ ___     _       __
     <!---------- MAIN ABOUT start ---------->
     <main>
         <section class="section-cover-about fade-in">
-            <h1 class="title-1 align-center">Where Design &amp;<br>Development Click</h1>
+            <h1 class="title-1 align-center">Where Design &amp;<br>Development <span class="color-gradient">Click</span></h1>
             <div class="container-900 row gap-4">
-                <div class="col">
-                    <img src="/imgs/illustrations/dudes-mini-pc.webp" alt="">
+                <div class="col click-animation fade-in">
+                    <img src="/imgs/cursor.svg" alt="">
+                    <div class="about-pearl-background">
+                        <div class="pearl rotate">
+                        </div>
+                    </div>
                 </div>
                 <div class="col">
                     <p>We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.</p>
                     <p>From discovery to UX, development, deployment, and maintenance, we help companies translate their vision into digital experiences that bring in the money.</p>
                     <p>Culture-wise, we’re shaped by R&D. It runs through our hiring, operational, and delivery strategies to stay ahead of the curve.</p>
-                </div>
-            </div>
-            <div class="cover-pearl-background">
-                <div class="pearl rotate-slower fade-in">
                 </div>
             </div>
         </section>
