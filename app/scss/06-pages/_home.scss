@@ -1,11 +1,7 @@
 /* ------------------------------------------------------ */
 /*///////////// _HOME.scss start /////////////*/
 
-.section-cover-home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 6rem;
+.section-cover-home .cover-inner {
 
     p {
         max-width: 445px;
@@ -54,10 +50,6 @@
 }
 
 @media (min-width:576px) {
-
-    .section-cover-home {
-        margin-bottom: -6rem;
-    }
 
     #pearl-1 {
         top: -420px;

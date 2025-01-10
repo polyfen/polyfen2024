@@ -42,18 +42,17 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN HOME start ---------->
     <main>
-        <section class="section-cover-home">
-            <h1 class="title-1 align-center">Transform Ideas<br>into Impact</h1>
-            <p class="align-center">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
-            <a class="button large-button cta-button photo-button margin-bottom-05" href="/discovery-call">Book Call</a>
-            <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">Learn More</a>
-            <div class="cover-home-background">
-                <div id="pearl-1" class="pearl rotate-slower fade-in">
-                </div>
-                <div id="pearl-2" class="pearl rotate fade-in">
-                </div>
-                <div id="pearl-3" class="pearl rotate fade-in">
-                </div>
+        <section class="cover video-cover section-cover-home">
+            <div class="cover-inner">
+                <h1 class="title-1 align-center">Transform Ideas<br>into Impact</h1>
+                <p class="align-center">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
+                <a class="button large-button cta-button photo-button margin-bottom-05" href="/discovery-call">Book Call</a>
+                <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">Learn More</a>
+            </div>
+            <div class="video-bg">
+                <video autoplay muted loop playsinline style="will-change: transform;">
+                    <source src="videos/background-2.mp4" type="video/mp4">
+                </video>
             </div>
         </section>
         <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
