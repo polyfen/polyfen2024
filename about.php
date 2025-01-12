@@ -46,10 +46,13 @@ ___     _       __
         <section class="section-cover-about fade-in">
             <h1 class="title-1 align-center">Where Design &amp;<br>Development <span class="color-gradient">Click</span></h1>
             <div class="container-900 row gap-4">
-                <div class="col">
-                    <video autoplay muted loop playsinline style="will-change: transform; width:200px;height:200px;border-radius:200px;">
-                        <source src="videos/background-2.mp4" type="video/mp4">
-                    </video>
+                <div class="col click-animation fade-in">
+                    <img src="/imgs/cursor.svg" alt="" class="cursor-image">
+                    <img src="/imgs/click-lines.svg" alt="" class="click-lines">
+                    <div class="about-pearl-background">
+                        <div class="pearl rotate">
+                        </div>
+                    </div>
                 </div>
                 <div class="col">
                     <p>We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.</p>
