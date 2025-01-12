@@ -21,7 +21,7 @@
 <meta name="theme-color" content="#7537f8">
 
 <!-- CSS General -->
-<link rel="stylesheet" href="/app/css/styles-min.css?v=24.11.2" type="text/css">
+<link rel="stylesheet" href="/app/css/styles-min.css?v=25.1.1" type="text/css">
 
 <!-- FONTS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
