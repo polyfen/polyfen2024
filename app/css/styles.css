@@ -1531,6 +1531,7 @@ ul.no-bullets li:before {
   font-weight: 800;
   line-height: 19.2px;
   text-align: left;
+  margin-bottom: 2px;
 }
 
 .team-card small {
