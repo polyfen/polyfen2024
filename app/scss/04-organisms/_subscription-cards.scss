@@ -23,6 +23,7 @@
     padding: 16px;
     border-radius: 6px 6px 0 0;
     position: relative;
+    background-image: radial-gradient(at top, var(--accent-color-50pct) 0%, transparent 60%);
 }
 
 .card-header .mobile-row {
