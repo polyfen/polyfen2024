@@ -2563,7 +2563,7 @@ footer nav a {
   display: flex;
   flex-direction: column;
   justify-content: center !important;
-  height: 280px;
+  height: 220px;
 }
 
 @keyframes click-scale {
@@ -2574,9 +2574,17 @@ footer nav a {
     transform: scale(0.95);
   }
 }
-.click-animation img {
+@keyframes click-lines {
+  0%, 10% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+}
+.cursor-image {
   animation: click-scale 3s infinite;
-  height: 90px;
+  height: 64px;
 }
 
 .about-pearl-background {
@@ -2591,25 +2599,40 @@ footer nav a {
 
 .about-pearl-background .pearl {
   display: block;
-  background-image: url(../../imgs/pearls/09.webp);
-  height: 300px;
-  width: 300px;
-  top: -150px;
+  background-image: url("../../imgs/pearls/09.webp");
+  height: 220px;
+  width: 220px;
+  top: -110px;
+}
+
+.click-lines {
+  position: absolute;
+  left: calc(50% - 49px);
+  top: calc(50% - 58px);
+  opacity: 0;
+  animation: click-lines 3s infinite;
+  height: 40px;
 }
 
 @media (min-width: 900px) {
   .click-animation {
-    height: 400px;
+    height: 320px;
   }
   .about-pearl-background .pearl {
     display: block;
-    background-image: url(../../imgs/pearls/09.webp);
-    height: 420px;
-    width: 420px;
-    top: -200px;
+    background-image: url("../../imgs/pearls/09.webp");
+    height: 320px;
+    width: 320px;
+    top: -150px;
   }
-  .click-animation img {
-    height: 140px;
+  .click-animation .cursor-image {
+    height: 80px;
+  }
+  .click-lines {
+    position: absolute;
+    left: calc(50% - 60px);
+    top: calc(50% - 70px);
+    height: 47px;
   }
 }
 /*///////////// _ABOUT.scss end /////////////*/

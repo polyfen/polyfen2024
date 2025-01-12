@@ -47,7 +47,8 @@ ___     _       __
             <h1 class="title-1 align-center">Where Design &amp;<br>Development <span class="color-gradient">Click</span></h1>
             <div class="container-900 row gap-4">
                 <div class="col click-animation fade-in">
-                    <img src="/imgs/cursor.svg" alt="">
+                    <img src="/imgs/cursor.svg" alt="" class="cursor-image">
+                    <img src="/imgs/click-lines.svg" alt="" class="click-lines">
                     <div class="about-pearl-background">
                         <div class="pearl rotate">
                         </div>
