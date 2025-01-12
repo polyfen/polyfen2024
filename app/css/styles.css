@@ -1522,6 +1522,7 @@ ul.no-bullets li:before {
   justify-content: center;
   position: relative;
   padding-inline: 10px;
+  background-image: radial-gradient(at top, var(--accent-color-50pct) 0%, transparent 60%);
 }
 
 .team-card strong {
