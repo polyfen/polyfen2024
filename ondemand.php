@@ -69,7 +69,6 @@ ___     _       __
                         </video>
                 </div>
                 </section>
-                <hr>
                 <section class="container-1080 section-pricing">
                         <h2 class="heading-1 align-center margin-bottom-4">Choose Your Team Size</h2>
                         <div class="row">
