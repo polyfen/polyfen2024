@@ -1386,6 +1386,44 @@ ul.no-bullets li:before {
   border: 1px solid var(--accent-color-30pct);
 }
 
+.section-with-video-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 200;
+  align-items: center;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: 0.6;
+  mix-blend-mode: soft-light;
+}
+
+.video-bg video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.video-bg video::-webkit-media-controls,
+.video-bg video::-webkit-media-controls-start-playback-button,
+.video-bg video::-webkit-media-controls-overlay-play-button {
+  display: none !important;
+  opacity: 0;
+}
+
 /* 03-MOLECULES */
 /* ------------------------------------------------------ */
 /*///////////// _LOGO-CAROUSEL.scss start /////////////*/
@@ -2254,16 +2292,8 @@ header nav {
   padding-top: 140px;
   margin-bottom: 80px;
   background: var(--accent-color-900);
-  background: #0036a3;
-  background: #0068a0;
-  background: #004FA2;
+  background-image: radial-gradient(at top, var(--accent-color-50pct) 0%, transparent 60%);
   border-bottom: 1px solid var(--accent-color-30pct);
-}
-
-.video-cover {
-  position: relative;
-  overflow: hidden;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5019607843);
 }
 
 .cover-inner {
@@ -2273,34 +2303,6 @@ header nav {
   flex-direction: column;
   align-items: center;
   margin-bottom: 4rem;
-}
-
-.video-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0.1;
-  mix-blend-mode: soft-light;
-  mix-blend-mode: luminosity;
-  mix-blend-mode: color-dodge;
-  mix-blend-mode: overlay;
-}
-
-.video-bg video {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.video-bg video::-webkit-media-controls,
-.video-bg video::-webkit-media-controls-start-playback-button,
-.video-bg video::-webkit-media-controls-overlay-play-button {
-  display: none !important;
-  opacity: 0;
 }
 
 .cover-two-pearls-background {
@@ -2347,15 +2349,18 @@ header nav {
 }
 
 .section-cta {
-  background: var(--cta-section-background);
-  background-image: radial-gradient(at top, var(--accent-color-30pct) 0%, transparent 60%);
+  background: var(--accent-color-900);
+  background-image: radial-gradient(at top, var(--accent-color-50pct) 0%, transparent 60%);
   border-top: 1px solid var(--accent-color-30pct);
-  padding-top: 100px;
-  padding-bottom: 120px;
 }
 
 .body-branding .section-cta {
   padding-bottom: 0;
+}
+
+.section-cta .section-with-video-bg {
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .body-subscriptions .cta-section-content-general, .body-branding .cta-section-content-general, .body-staff-augmentation .cta-section-content-general {
@@ -2466,7 +2471,11 @@ footer nav a {
 /* 06-PAGES */
 /* ------------------------------------------------------ */
 /*///////////// _HOME.scss start /////////////*/
-.section-cover-home .cover-inner p {
+.section-cover-home {
+  padding-bottom: 80px;
+}
+
+.section-cover-home p {
   max-width: 445px;
 }
 
@@ -3040,7 +3049,7 @@ div.other-project-card img {
 .video-container video {
   max-width: 100%;
   border-radius: 6px;
-  box-shadow: 0px 0px 8px 0px var(--accent-color, #7230FF), 0px 62px 16px -45px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 8px 0px hsla(259, 100%, 31.17%, 0.42), 0px 62px 16px -45px rgba(0, 0, 0, 0.4);
 }
 
 .section-cover-ondemand p {

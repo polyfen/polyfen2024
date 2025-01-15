@@ -42,8 +42,8 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN HOME start ---------->
     <main>
-        <section class="cover video-cover section-cover-home">
-            <div class="cover-inner">
+        <section class="cover section-with-video-bg section-cover-home">
+            <div class="content-wrapper">
                 <h1 class="title-1 align-center">Transform Ideas<br>into Impact</h1>
                 <p class="align-center">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
                 <a class="button large-button cta-button photo-button margin-bottom-05" href="/discovery-call">Book Call</a>

@@ -1,11 +1,12 @@
 /* ------------------------------------------------------ */
 /*///////////// _HOME.scss start /////////////*/
 
-.section-cover-home .cover-inner {
+.section-cover-home {
+    padding-bottom: 80px;    
+}
 
-    p {
-        max-width: 445px;
-    }
+.section-cover-home p {
+    max-width: 445px;
 }
 
 .cover-home-background {

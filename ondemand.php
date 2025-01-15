@@ -57,7 +57,8 @@ ___     _       __
                                 <div class="col">
                                         <div class="video-container">
                                                 <video autoplay muted loop >
-                                                        <source src="videos/ondemand-compressed.mp4" type="video/mp4">
+                                                        <source src="videos/ondemand.webm" type="video/webm">
+                                                        <source src="videos/ondemand.mp4" type="video/mp4">
                                                 </video>
                                         </div>
                                 </div>
