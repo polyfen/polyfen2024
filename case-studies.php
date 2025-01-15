@@ -41,16 +41,19 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN CASE STUDIES start ---------->
     <main>
-        <section>
-            <h1 class="title-1 align-center fade-in">Commitment<br>to  Excellence</h1>
-            <h2 class="heading-1 font-weight-400 align-center margin-bottom-6 fade-in">In every project</h2>
-            <div class="cover-pearl-background">
-                <div class="pearl rotate-slower fade-in">
-                </div>
+        <section class="cover section-with-video-bg">
+            <div class="content-wrapper">
+                <h1 class="title-1 align-center margin-bottom-1">Commitment<br>to Excellence</h1>
+                <h2 class="heading-1 font-weight-400 align-center margin-bottom-2 fade-in">in every project</h2>
+                <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">View Case Studies</a>
+            </div>
+            <div class="video-bg">
+                <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
+                    <source src="videos/background-7.mp4" type="video/mp4">
+                </video>
             </div>
         </section>
-        <hr>
-        <section class="container-1080">
+        <section class="container-1080" id="learn-more">
             <!---------- BIKE IN MEX start ---------->
             <div class="bike-in-mex featured-project fade-in">
                 <div id="bike-in-mex-cover" class="project-cover" onmouseover="document.getElementById('bike-in-mex-button').classList.add('button-hover');document.getElementById('bike-in-mex-cover').classList.add('project-cover-hover');" onmouseout="document.getElementById('bike-in-mex-button').classList.remove('button-hover'); document.getElementById('bike-in-mex-cover').classList.remove('project-cover-hover');">

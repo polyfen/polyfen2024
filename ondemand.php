@@ -46,31 +46,26 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN SUBSCRIPTIONS start ---------->
         <main>
-                <section class="cover video-cover section-cover-ondemand">
-                <div class="cover-inner container-1200 ">
-                        <div class="row">
-                                <div class="col">
-                                        <h1 class="title-3">Your OnDemand<br>Design &amp; Dev Team</h1>       
-                                        <p>Get access to a full-blown team for a fraction of the price of a single US senior employee.</p>                         
-                                        <a class="button secondary-button" href="#learn-more">Learn More</a>
-                                </div>
-                                <div class="col">
-                                        <div class="video-container">
-                                                <video autoplay muted loop >
-                                                        <source src="videos/ondemand.webm" type="video/webm">
-                                                        <source src="videos/ondemand.mp4" type="video/mp4">
-                                                </video>
+                <section class="cover video-cover pattern-background section-cover-ondemand">
+                        <div class="container-1200 ">
+                                <div class="row">
+                                        <div class="col">
+                                                <h1 class="title-3">Your OnDemand<br>Design &amp; Dev Team</h1>       
+                                                <p>Get access to a full-blown team for a fraction of the price of a single US senior employee.</p>                         
+                                                <a class="button secondary-button" href="#learn-more">Learn More</a>
+                                        </div>
+                                        <div class="col">
+                                                <div class="video-container">
+                                                        <video autoplay muted loop >
+                                                                <source src="videos/ondemand.webm" type="video/webm">
+                                                                <source src="videos/ondemand.mp4" type="video/mp4">
+                                                        </video>
+                                                </div>
                                         </div>
                                 </div>
                         </div>
-                </div>
-                <div class="video-bg">
-                        <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
-                                        <source src="videos/background-7.mp4" type="video/mp4">
-                        </video>
-                </div>
                 </section>
-                <section class="container-1080 section-pricing">
+                <section class="container-1080 section-pricing" id="learn-more">
                         <h2 class="heading-1 align-center margin-bottom-4">Choose Your Team Size</h2>
                         <div class="row">
                                 <div class="col">
@@ -138,7 +133,7 @@ ___     _       __
                 <?php include 'includes/clients-logo-scroller.php';?>
                 <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
                 <hr>
-                <section id="learn-more" class="section-task-examples container-1080">
+                <section class="section-task-examples container-1080">
                         <h2 class="heading-1 align-center fade-in">Ask for Whatever<br>You Need</h2>
                         <div class="row gap-1">
                                 <div class="col fade-in">

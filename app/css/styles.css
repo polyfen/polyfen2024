@@ -2291,9 +2291,15 @@ header nav {
   margin-top: -140px;
   padding-top: 140px;
   margin-bottom: 80px;
+  padding-bottom: 80px;
   background: var(--accent-color-900);
   background-image: radial-gradient(at top, var(--accent-color-50pct) 0%, transparent 60%);
   border-bottom: 1px solid var(--accent-color-30pct);
+}
+
+.pattern-background {
+  background: url("../../../imgs/background-pattern.png") center no-repeat;
+  background-size: cover;
 }
 
 .cover-inner {
@@ -2350,7 +2356,7 @@ header nav {
 
 .section-cta {
   background: var(--accent-color-900);
-  background-image: radial-gradient(at top, var(--accent-color-50pct) 0%, transparent 60%);
+  background-image: radial-gradient(at top, var(--accent-color-30pct) 0%, transparent 60%);
   border-top: 1px solid var(--accent-color-30pct);
 }
 
