@@ -1,13 +1,9 @@
 /* ------------------------------------------------------ */
 /*///////////// _CARDS.scss start /////////////*/
 
-:root {
-    --card-background-color: var(--slate-900);
-    --card-border-color: var(--accent-color-30pct);
-}
-
 .card {
     background: var(--card-background-color);
+    background-image: var(--card-background-image);
     border: 1px solid var(--card-border-color);
     border-radius: 12px;
     padding-inline: 16px;

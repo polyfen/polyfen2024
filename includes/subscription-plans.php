@@ -1,65 +1,9 @@
-<?php
-
-    /**
-     * None of this should be here, in an include.
-     * We should eventually refactor everything to
-     * use a custom router and make this kind of things tidier
-     */
-    $env = file_get_contents(__DIR__."/../.env");
-    $lines = explode("\n",$env);
-
-    foreach($lines as $line){
-        preg_match("/([^#]+)\=(.*)/",$line,$matches);
-        if(isset($matches[2])){
-            putenv(trim($line));
-        }
-    } 
-
-    $mStarterLink = getenv('STRIPE_STARTER_MONTHLY_URL');
-    $mProLink = getenv('STRIPE_PRO_MONTHLY_URL');
-    $qStarterLink = getenv('STRIPE_STARTER_QUARTERLY_URL');
-    $qProLink = getenv('STRIPE_PRO_QUARTERLY_URL');
-
-
-    $starterPriceMonthly = '$4,917';
-    $starterStripeUrlMonthly = $mStarterLink;
-    $starterPriceQuarterly = '$3,935';
-    $starterStripeUrlQuarterly = $qStarterLink;
-    $proPriceMonthly = '$8,945';
-    $proStripeUrlMonthly = $mProLink;
-    $proPriceQuarterly = '$7,156';
-    $proStripeUrlQuarterly = $qProLink;
-?>
-<script type="application/javascript">
-    window.subscriptionPlans = {
-        monthly: {
-            starter: {
-                price: "<?php echo $starterPriceMonthly; ?>",
-                stripeUrl: "<?php echo $starterStripeUrlMonthly; ?>",
-            },
-            pro: {
-                price: "<?php echo $proPriceMonthly; ?>",
-                stripeUrl: "<?php echo $proStripeUrlMonthly; ?>",
-            },
-        },
-        quarterly: {
-            starter: {
-                price: "<?php echo $starterPriceQuarterly; ?>",
-                stripeUrl: "<?php echo $starterStripeUrlQuarterly; ?>",
-            },
-            pro: {
-                price: "<?php echo $proPriceQuarterly; ?>",
-                stripeUrl: "<?php echo $proStripeUrlQuarterly; ?>",
-            },
-        }
-    };
-</script>
 <div class="row">
     <div class="col card card-subscriptions fade-in" id="starter">
         <div class="card-header">
             <h3 class="heading-2 margin-bottom-025">Starter</h3>
             <div class="mobile-row gap-025">
-                <h4 class="heading-3">$3,935</h4>
+                <h4 class="heading-3">$4,917</h4>
                 <small>/Month</small>
             </div>
         </div>
@@ -73,7 +17,7 @@
                 <li>Includes tasks performed by<br>Devs, UX, and Designers</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
-            <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
+            <a data-button-arrow class="button start-today-button" href="https://buy.stripe.com/aEU6r82i33cU8AEfYY">Start Today</a>
             <a data-button-arrow class="button secondary-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>
@@ -81,7 +25,7 @@
         <div class="card-header">
             <h3 class="heading-2 margin-bottom-025">Pro</h3>
             <div class="mobile-row gap-025">
-                <h4 class="heading-3">$7,156</h4>
+                <h4 class="heading-3">$8,945</h4>
                 <small>/Month</small>
             </div>
             <small class="label mini">★ Most Popular</small>
@@ -97,7 +41,7 @@
                 <li>Priority support</li>
             </ul>
             <!-- "Learn More" is shown in .body-home and "Start Today" in .body-subscriptions -->
-            <a data-button-arrow class="button start-today-button" href="#">Start Today</a>
+            <a data-button-arrow class="button start-today-button" href="https://buy.stripe.com/4gw7vcbSDfZG2cg8wy">Start Today</a>
             <a data-button-arrow class="button secondary-button learn-more-button" href="/subscriptions#learn-more">Learn More</a>
         </div>
     </div>

@@ -5,6 +5,9 @@
     --body-background-color: var(--slate-950);
     --display-text-color: var(--white);
     --body-text-color: var(--white-90pct);
+    --card-background-color: var(--slate-900);
+    --card-border-color: var(--accent-color-30pct);
+    --card-background-image: radial-gradient(at top, var(--accent-color-10pct) 0%, transparent 60%); 
 }
 
 body {
@@ -17,6 +20,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--display-text-color);
+}
+
+:root {
+    --cta-section-background: var(--slate-900);
 }
 
 /*///////////// _UI-COLORS.scss end /////////////*/
