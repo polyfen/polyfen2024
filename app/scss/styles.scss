@@ -31,11 +31,13 @@ ___     _       __
 @import '02-atoms/_lists.scss';
 @import '02-atoms/_pearls.scss';
 @import '02-atoms/_labels.scss';
+@import '02-atoms/_video-bg.scss';
 
 
 /* 03-MOLECULES */
 @import '03-molecules/_carousels.scss';
 @import '03-molecules/_cards.scss';
+@import '03-molecules/_slider-selector.scss';
 
 
 /* 04-ORGANISMS */
@@ -63,6 +65,7 @@ ___     _       __
 @import '06-pages/_case-study-single.scss';
 @import '06-pages/_branding.scss';
 @import '06-pages/_subscriptions.scss';
+@import '06-pages/_ondemand.scss';
 @import '06-pages/_staff-augmentation.scss';
 
 

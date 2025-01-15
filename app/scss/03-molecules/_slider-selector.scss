@@ -1,0 +1,63 @@
+.slider-container {
+    text-align: center;
+    width: 400px;
+    margin-inline: auto;
+    margin-block: 1rem 2rem;
+}
+.slider {
+    width: 100%;
+    margin: 10px 0;
+}
+.slider-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Add this line */
+}
+.slider-labels span {
+    cursor: pointer;
+}
+.slider-labels .active {
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(
+        to right,
+        var(--accent-color) 0%,
+        var(--accent-color) calc(var(--value, 0%) * 1%),
+        var(--accent-color-800) calc(var(--value, 0%) * 1%),
+        var(--accent-color-800) 100%
+    );
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s ease-in-out;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="range"]::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    cursor: pointer;
+}

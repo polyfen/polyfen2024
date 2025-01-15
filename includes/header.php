@@ -9,9 +9,9 @@
             <a href="/">Home</a>
             <a href="/about">About</a>
             <a href="/case-studies">Case Studies</a>
-            <a href="/branding">Branding</a>
+            <a href="/ondemand">OnDemand</a>
             <a href="/staff-augmentation">Staff Augmentation</a>
-            <a href="/subscriptions">Subscriptions</a>
+            <a href="/branding">Branding</a>
         </nav>
         <div class="header-cta-container">
             <a class="button photo-button" href="/discovery-call">Book Call</a>

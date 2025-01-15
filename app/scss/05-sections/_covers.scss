@@ -1,3 +1,27 @@
+.cover {
+    margin-top: -140px;
+    padding-top: 140px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+    background: var(--accent-color-900);
+    background-image: radial-gradient(at top, var(--accent-color-50pct) 0%, transparent 60%);
+    border-bottom: 1px solid var(--accent-color-30pct);
+}
+
+.pattern-background {
+    background: url('../../../imgs/background-pattern.png') center no-repeat;
+    background-size: cover;
+}
+
+.cover-inner {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
 .cover-two-pearls-background {
     z-index: -1;
     position: absolute;

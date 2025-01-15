@@ -44,16 +44,17 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN BRANDING start ---------->
     <main>
-        <section class="section-cover-staff-augmentation flex-column-center">
-                <h1 class="title-1 align-center fade-in">Your Team,<br><span class="color-gradient">Supercharged</span></h1>
-                <h2 class="heading-1 align-center font-weight-400 fade-in">Top tier talent,<br>Nearshore rates</h2>
+        <section class="cover section-with-video-bg">
+            <div class="content-wrapper">
+                <h1 class="title-1 align-center margin-bottom-2">Your Team,<br><span class="color-gradient">Supercharged</span></h1>
+                <h2 class="heading-1 align-center font-weight-400 fade-in">Top-tier talent,<br>Nearshore rates</h2>
                 <a class="button large-button cta-button photo-button fade-in" href="#book-call-staff-aug">Book a Call</a>
-                <div class="cover-two-pearls-background">
-                        <div class="pearl rotate-slower fade-in">
-                        </div>
-                        <div class="pearl pearl-right rotate-slower fade-in">
-                        </div>
-                </div>
+            </div>
+            <div class="video-bg">
+                <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
+                    <source src="videos/background-7.mp4" type="video/mp4">
+                </video>
+            </div>
         </section>
         <hr>
         <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   

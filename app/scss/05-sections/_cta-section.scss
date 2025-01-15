@@ -3,15 +3,18 @@
 }
 
 .section-cta {
-    background: var(--cta-section-background);
+    background: var(--accent-color-900);
     background-image: radial-gradient(at top, var(--accent-color-30pct) 0%, transparent 60%);
     border-top: 1px solid var(--accent-color-30pct);
-    padding-top: 100px;
-    padding-bottom: 120px;
 }
 
 .body-branding .section-cta {
     padding-bottom: 0;
+}
+
+.section-cta .section-with-video-bg {
+    padding-top: 100px;
+    padding-bottom: 120px;
 }
 
 .body-subscriptions .cta-section-content-general, .body-branding .cta-section-content-general, .body-staff-augmentation .cta-section-content-general {

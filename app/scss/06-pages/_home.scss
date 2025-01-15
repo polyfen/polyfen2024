@@ -2,14 +2,11 @@
 /*///////////// _HOME.scss start /////////////*/
 
 .section-cover-home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 6rem;
+    padding-bottom: 80px;    
+}
 
-    p {
-        max-width: 445px;
-    }
+.section-cover-home p {
+    max-width: 445px;
 }
 
 .cover-home-background {
@@ -54,10 +51,6 @@
 }
 
 @media (min-width:576px) {
-
-    .section-cover-home {
-        margin-bottom: -6rem;
-    }
 
     #pearl-1 {
         top: -420px;

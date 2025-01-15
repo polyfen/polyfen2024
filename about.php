@@ -48,10 +48,11 @@ ___     _       __
             <div class="container-900 row gap-4">
                 <div class="col click-animation fade-in">
                     <img src="/imgs/cursor.svg" alt="" class="cursor-image">
-                    <img src="/imgs/click-lines.svg" alt="" class="click-lines">
-                    <div class="about-pearl-background">
-                        <div class="pearl rotate">
-                        </div>
+                    <img src="/imgs/click-lines.svg" alt="" class="click-lines">   
+                    <div class="video-bg">
+                        <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
+                            <source src="videos/background-7.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
                 <div class="col">

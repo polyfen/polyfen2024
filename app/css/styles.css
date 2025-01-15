@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--display-font-family), var(--sans-fallback-fonts);
 }
 
-main p, main li, main p strong, main p span, main li strong, main th, main td, main li a, main p a {
+main p, main p strong, main p span, main th, main td, main p a {
   font-family: var(--body-text-font-family), var(--serif-fallback-fonts);
 }
 
@@ -148,6 +148,12 @@ p, p a, li, p strong, p span, li strong, li a, p a {
   letter-spacing: -0.4px;
 }
 
+.title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+  font-size: 2.4rem;
+  line-height: 110%;
+  letter-spacing: -0.4px;
+}
+
 h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
   font-size: 2rem;
   line-height: 110%;
@@ -173,7 +179,7 @@ h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.headi
 
 h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
   font-size: 1.25rem;
-  line-height: 110%;
+  line-height: 120%;
 }
 
 p, p a, li, p strong, p span, li strong, th, td, li a {
@@ -214,6 +220,9 @@ small.mini, a.mini, .mini {
   .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
     font-size: 3rem;
   }
+  .title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+    font-size: 2.85rem;
+  }
   h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
     font-size: 2.75rem;
   }
@@ -238,6 +247,9 @@ small.mini, a.mini, .mini {
   .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
     font-size: 4.25rem;
   }
+  .title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+    font-size: 3.75rem;
+  }
   h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
     font-size: 3.25rem;
     letter-spacing: -0.4px;
@@ -261,6 +273,11 @@ small.mini, a.mini, .mini {
 }
 
 .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+  font-weight: 800;
+  font-variation-settings: "wght" 800;
+}
+
+.title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
   font-weight: 800;
   font-variation-settings: "wght" 800;
 }
@@ -336,6 +353,10 @@ h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.headi
 }
 
 .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+  margin-bottom: 2.5rem;
+}
+
+.title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
   margin-bottom: 2.5rem;
 }
 
@@ -563,6 +584,7 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
   --accent-gradient-start: #D837F8;
   --accent-gradient-end: #3747F8;
   --accent-color-gradient: linear-gradient(45deg, var(--accent-gradient-start), var(--accent-gradient-end));
+  --cta-gradient: linear-gradient(45deg, #722FFF, #4B00AE, #D12B94, #722FFF, #4B00AE);
 }
 
 /*///////////// _BRAND-COLORS.scss end /////////////*/
@@ -854,6 +876,7 @@ hr.vertical-hr {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: 100%;
 }
 
 .mobile-row {
@@ -1330,6 +1353,10 @@ ul.checkmark-bullet li::before {
   margin-bottom: 1.2rem;
 }
 
+.half-spaced-list li {
+  margin-bottom: 0.6rem;
+}
+
 ul.no-bullets li:before {
   display: none;
 }
@@ -1361,6 +1388,44 @@ ul.no-bullets li:before {
   background: var(--accent-color-800);
   border-radius: 4px;
   border: 1px solid var(--accent-color-30pct);
+}
+
+.section-with-video-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 200;
+  align-items: center;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: 0.6;
+  mix-blend-mode: soft-light;
+}
+
+.video-bg video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.video-bg video::-webkit-media-controls,
+.video-bg video::-webkit-media-controls-start-playback-button,
+.video-bg video::-webkit-media-controls-overlay-play-button {
+  display: none !important;
+  opacity: 0;
 }
 
 /* 03-MOLECULES */
@@ -1501,6 +1566,12 @@ ul.no-bullets li:before {
   margin-bottom: 0;
 }
 
+.featured-card-wrapper {
+  border-radius: 12px;
+  padding: 2px;
+  background-image: linear-gradient(45deg, #722FFF, #4B00AE, #D12B94, #722FFF, #4B00AE);
+}
+
 @media (min-width: 900px) {
   .card {
     padding-inline: 24px;
@@ -1509,6 +1580,68 @@ ul.no-bullets li:before {
 }
 /*///////////// _CARDS.scss end /////////////*/
 /* -------------------------------------------------*/
+.slider-container {
+  text-align: center;
+  width: 400px;
+  margin-inline: auto;
+  margin-block: 1rem 2rem;
+}
+
+.slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add this line */
+}
+
+.slider-labels span {
+  cursor: pointer;
+}
+
+.slider-labels .active {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-color) calc(var(--value, 0%) * 1%), var(--accent-color-800) calc(var(--value, 0%) * 1%), var(--accent-color-800) 100%);
+  border-radius: 5px;
+  outline: none;
+  transition: background 0.3s ease-in-out;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 /* 04-ORGANISMS */
 /* ------------------------------------------------------ */
 /*///////////// _TEAM-SCROLLER.scss start /////////////*/
@@ -2065,7 +2198,7 @@ header {
   align-items: center;
   background: var(--black);
   border-bottom: 1px solid var(--accent-color-30pct);
-  max-width: 1080px;
+  max-width: 1200px;
   margin-inline: auto;
   border-radius: 12px;
   padding: 12px 16px;
@@ -2158,6 +2291,30 @@ header nav {
 }
 /*///////////// _HEADER.scss end /////////////*/
 /* ------------------------------------------------------ */
+.cover {
+  margin-top: -140px;
+  padding-top: 140px;
+  margin-bottom: 80px;
+  padding-bottom: 80px;
+  background: var(--accent-color-900);
+  background-image: radial-gradient(at top, var(--accent-color-50pct) 0%, transparent 60%);
+  border-bottom: 1px solid var(--accent-color-30pct);
+}
+
+.pattern-background {
+  background: url("../../../imgs/background-pattern.png") center no-repeat;
+  background-size: cover;
+}
+
+.cover-inner {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
 .cover-two-pearls-background {
   z-index: -1;
   position: absolute;
@@ -2202,15 +2359,18 @@ header nav {
 }
 
 .section-cta {
-  background: var(--cta-section-background);
+  background: var(--accent-color-900);
   background-image: radial-gradient(at top, var(--accent-color-30pct) 0%, transparent 60%);
   border-top: 1px solid var(--accent-color-30pct);
-  padding-top: 100px;
-  padding-bottom: 120px;
 }
 
 .body-branding .section-cta {
   padding-bottom: 0;
+}
+
+.section-cta .section-with-video-bg {
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .body-subscriptions .cta-section-content-general, .body-branding .cta-section-content-general, .body-staff-augmentation .cta-section-content-general {
@@ -2322,11 +2482,9 @@ footer nav a {
 /* ------------------------------------------------------ */
 /*///////////// _HOME.scss start /////////////*/
 .section-cover-home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 6rem;
+  padding-bottom: 80px;
 }
+
 .section-cover-home p {
   max-width: 445px;
 }
@@ -2373,9 +2531,6 @@ footer nav a {
 }
 
 @media (min-width: 576px) {
-  .section-cover-home {
-    margin-bottom: -6rem;
-  }
   #pearl-1 {
     top: -420px;
     right: -400px;
@@ -2592,6 +2747,7 @@ footer nav a {
   flex-direction: column;
   justify-content: center !important;
   height: 220px;
+  margin-top: 20px;
 }
 
 @keyframes click-scale {
@@ -2663,6 +2819,40 @@ footer nav a {
     left: calc(50% - 60px);
     top: calc(50% - 70px);
     height: 47px;
+  }
+}
+.click-animation .video-bg {
+  height: 220px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-color-900);
+  background-image: radial-gradient(at top, var(--accent-color-50pct) 0%, transparent 60%);
+  border-radius: 50%;
+  box-shadow: 0 0 2px 2px var(--accent-color);
+  position: absolute;
+  left: calc(50% - 110px);
+  opacity: 1;
+}
+
+.click-animation .video-bg video {
+  mix-blend-mode: soft-light;
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  margin-inline: auto;
+}
+
+@media (min-width: 900px) {
+  .click-animation .video-bg video {
+    height: 320px;
+    width: 320px;
+  }
+  .click-animation .video-bg {
+    height: 320px;
+    width: 320px;
+    left: calc(50% - 160px);
   }
 }
 /*///////////// _ABOUT.scss end /////////////*/
@@ -2896,6 +3086,45 @@ div.other-project-card img {
 
 /*///////////// _SUBSCRIPTIONS.scss end /////////////*/
 /*------------------------------------------------------ */
+.video-cover .col {
+  min-height: 400px;
+  justify-content: center;
+}
+
+.video-container video {
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0px 0px 8px 0px hsla(259, 100%, 31.17%, 0.42), 0px 62px 16px -45px rgba(0, 0, 0, 0.4);
+}
+
+.section-cover-ondemand p {
+  max-width: 400px;
+}
+
+.section-pricing .card {
+  flex-direction: column;
+}
+
+.section-pricing .card h3 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section-pricing .card h4 {
+  margin-bottom: 1rem;
+}
+
+.section-ondemand-roles .card h3 {
+  display: flex;
+  align-items: center;
+  height: 54px;
+}
+
+@media (min-width: 900px) {
+  .section-ondemand-roles .card h3 {
+    height: 70px;
+  }
+}
 .staff-aug-steps {
   padding-top: 2rem;
 }

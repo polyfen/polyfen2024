@@ -1,0 +1,36 @@
+.section-with-video-bg {
+    position: relative;
+    overflow: hidden;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 200;
+    align-items: center;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 0.6;
+    mix-blend-mode: soft-light;
+}
+
+.video-bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-bg video::-webkit-media-controls,
+  .video-bg video::-webkit-media-controls-start-playback-button,
+  .video-bg video::-webkit-media-controls-overlay-play-button {
+    display: none !important;
+    opacity: 0;
+}

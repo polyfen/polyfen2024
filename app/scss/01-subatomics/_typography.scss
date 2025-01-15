@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 main {
-    p, li, p strong, p span, li strong, th, td, li a, p a {
+    p, p strong, p span, th, td, p a {
         font-family: var(--body-text-font-family), var(--serif-fallback-fonts);
     }
 }
@@ -100,6 +100,12 @@ p, p a, li, p strong, p span, li strong, li a, p a {
     letter-spacing: -0.4px;
 }
 
+.title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+    font-size: 2.4rem;
+    line-height: 110%;
+    letter-spacing: -0.4px;
+}
+
 h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
     font-size: 2rem;
     line-height: 110%;
@@ -125,7 +131,7 @@ h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.headi
 
 h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
     font-size: 1.25rem;
-    line-height: 110%;
+    line-height: 120%;
 }
 
 p, p a, li, p strong, p span, li strong, th, td, li a {
@@ -166,6 +172,9 @@ small.mini, a.mini, .mini {
     .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
         font-size: 3rem;
     }
+    .title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+        font-size: 2.85rem;
+    }
     h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
         font-size: 2.75rem;
     }
@@ -191,6 +200,9 @@ small.mini, a.mini, .mini {
     }
     .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
         font-size: 4.25rem;
+    }
+    .title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+        font-size: 3.75rem;
     }
     h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
         font-size: 3.25rem;   
@@ -219,6 +231,11 @@ small.mini, a.mini, .mini {
 
 
 .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+    font-weight: 800;
+    font-variation-settings: "wght" 800;
+}
+
+.title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
     font-weight: 800;
     font-variation-settings: "wght" 800;
 }
@@ -296,6 +313,10 @@ h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.headi
 }
 
 .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+    margin-bottom: 2.5rem;
+}
+
+.title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
     margin-bottom: 2.5rem;
 }
 
