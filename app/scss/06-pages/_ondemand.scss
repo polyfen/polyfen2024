@@ -25,3 +25,15 @@
 .section-pricing .card h4 {
     margin-bottom: 1rem;
 }
+
+.section-ondemand-roles .card h3 {
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+
+@media (min-width: 900px) {
+    .section-ondemand-roles .card h3 {
+        height: 70px;
+    }
+}

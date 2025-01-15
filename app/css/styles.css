@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--display-font-family), var(--sans-fallback-fonts);
 }
 
-main p, main li, main p strong, main p span, main li strong, main th, main td, main li a, main p a {
+main p, main p strong, main p span, main th, main td, main p a {
   font-family: var(--body-text-font-family), var(--serif-fallback-fonts);
 }
 
@@ -1353,6 +1353,10 @@ ul.checkmark-bullet li::before {
   margin-bottom: 1.2rem;
 }
 
+.half-spaced-list li {
+  margin-bottom: 0.6rem;
+}
+
 ul.no-bullets li:before {
   display: none;
 }
@@ -1607,7 +1611,7 @@ input[type=range] {
   -webkit-appearance: none;
   width: 100%;
   height: 8px;
-  background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-color) calc(var(--value, 0%) * 1%), var(--accent-color-900) calc(var(--value, 0%) * 1%), var(--accent-color-900) 100%);
+  background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-color) calc(var(--value, 0%) * 1%), var(--accent-color-800) calc(var(--value, 0%) * 1%), var(--accent-color-800) 100%);
   border-radius: 5px;
   outline: none;
   transition: background 0.3s ease-in-out;
@@ -3110,6 +3114,17 @@ div.other-project-card img {
   margin-bottom: 1rem;
 }
 
+.section-ondemand-roles .card h3 {
+  display: flex;
+  align-items: center;
+  height: 54px;
+}
+
+@media (min-width: 900px) {
+  .section-ondemand-roles .card h3 {
+    height: 70px;
+  }
+}
 .staff-aug-steps {
   padding-top: 2rem;
 }

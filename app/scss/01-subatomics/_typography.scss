@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 main {
-    p, li, p strong, p span, li strong, th, td, li a, p a {
+    p, p strong, p span, th, td, p a {
         font-family: var(--body-text-font-family), var(--serif-fallback-fonts);
     }
 }

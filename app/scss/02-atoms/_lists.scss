@@ -35,6 +35,10 @@ ul.checkmark-bullet li::before {
     margin-bottom: 1.2rem;
 }
 
+.half-spaced-list li {
+    margin-bottom: 0.6rem;
+}
+
 ul.no-bullets li:before {
     display: none;
 }

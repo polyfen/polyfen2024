@@ -66,25 +66,10 @@ ___     _       __
                         </div>
                 </section>
                 <section class="container-1080 section-pricing" id="learn-more">
-                        <h2 class="heading-1 align-center margin-bottom-4">Choose Your Team Size</h2>
-                        <div class="row">
-                                <div class="col">
-                                        <h3>What You're Getting</h3>
-                                        <ul class="checkmark-bullet">
-                                                <li>Designated project manager</li>
-                                                <li>Get work done by Designers, UX, Devs, DevOps, and QA</li>
-                                                <li>Realtime, priority support on dedicated Slack channel</li>
-                                                <li>Unlimited projects</li>
-                                                <li>Unlimited revisions</li>
-                                                <li>Pause or Cancel Any Time</li>
-                                                <li>No Hidden Fees</li>
-                                                <li>Secure Payment with Stripe</li>
-                                        </ul>
-                                </div>
-                                <div class="col">
-                                        <div class="featured-card-wrapper">
-                                                <div class="card">
-                                                        <h3 class="heading-5 align-center font-weight-400">How many people do you need working at the same time?</h3>
+                        <div class="featured-card-wrapper">
+                                <div class="card">
+                                                <h2 class="heading-1 align-center margin-bottom-1 margin-top-2">Choose Your Team Size</h2>
+                                                        <h3 class="heading-5 align-center font-weight-400 margin-bottom-4">How many people do you need<br>working at the same time?</h3>
                                                         <h4 class="heading-2 align-center"><span class="color-gradient">x1</span> Active Talent</h4>
                                                         <h4 class="heading-2 align-center"><span class="color-gradient price-value">$6,490<span class="mini">/month</span></span></h4>
                                                         <div class="slider-container">
@@ -124,9 +109,97 @@ ___     _       __
                                                         </script>
                                                         <a class="button large-button cta-button margin-auto">Sign-up Now</a>
                                                 </div>
+                        </div>
+                </section>
+                <hr class="small-separator">
+                <section class="container-1080">
+                        <div class="row card">
+                                <div class="col">
+                                        <h2 class="heading-1 margin-top-1" style="margin-left: 20px;">What You're<br>Getting</h2>
+                                        <ul class="checkmark-bullet half-spaced-list">
+                                                <li>Get work done by Designers, UX, Devs, DevOps, and QA</li>
+                                                <li>Designated project manager</li>
+                                                <li>Real time, priority support on dedicated Slack channel</li>
+                                                <li>Unlimited projects</li>
+                                                <li>Unlimited revisions</li>
+                                                <li>Pause or cancel any time</li>
+                                                <li>No hidden fees</li>
+                                                <li>Secure payment with Stripe</li>
+                                        </ul>
+                                </div>
+                                <div class="col">
+                                        <img src="imgs/ondemand-team.webp">
+                                </div>
+
+                        </div>
+                </section>
+                <hr>
+                <section class="section-ondemand-roles">
+                        <h2 class="heading-1 align-center margin-bottom-4">Every Role You Need,<br>In a Single Monthly Plan</h2>
+                        <div class="container-1080">
+                        <div class="row margin-bottom-05">
+                                <div class="col card fade-in">
+                                        <div class="row gap-1">
+                                                <div class="icon-container">
+                                                        <img src="/imgs/icons/pencil-and-ruler.svg">
+                                                </div>
+                                                <h3 class="heading-4">Design</h3>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col">
+                                                        <ul class="hanging-list margin-bottom-0">
+                                                        <li>UX researcher</li>
+                                                        <li>UX writer</li>
+                                                        <li>UX/UI designer</li>
+                                                        <li>Product designer</li>
+                                                        <li>Visual designer</li>
+                                                        <li>Illustrator</li>
+                                                        </ul>
+                                                </div>
+                                                <div class="col">
+                                                        <ul class="hanging-list margin-bottom-0">
+                                                        <li>Motion Graphics</li>
+                                                        <li>3D designer</li>
+                                                        <li>Brand strategist</li>
+                                                        <li>Brand designer</li>
+                                                        <li>Creative director</li>
+                                                        <li>Design Systems Specialist</li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col card fade-in">
+                                        <div class="row gap-1">
+                                                <div class="icon-container">
+                                                        <img src="/imgs/icons/cpu.svg">
+                                                </div>
+                                                <h3 class="heading-4">Engineering</h3>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col">
+                                                        <ul class="hanging-list margin-bottom-0">
+                                                        <li>Front-end</li>
+                                                        <li>Back-end</li>
+                                                        <li>Full-stack</li>
+                                                        <li>iOS</li>
+                                                        <li>Android</li>
+                                                        <li>QA</li>
+                                                        </ul>
+                                                </div>
+                                                <div class="col">
+                                                        <ul class="hanging-list margin-bottom-0">
+                                                        <li>DevOps</li>
+                                                        <li>Cloud computing</li>
+                                                        <li>IoT</li>
+                                                        <li>AI</li>
+                                                        <li>LLM</li>
+                                                        <li>Blockchain</li>
+                                                        </ul>
+                                                </div>
                                         </div>
                                 </div>
                         </div>
+                </div>
                 </section>
                 <hr>
                 <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
