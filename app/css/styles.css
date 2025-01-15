@@ -179,7 +179,7 @@ h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.headi
 
 h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
   font-size: 1.25rem;
-  line-height: 110%;
+  line-height: 120%;
 }
 
 p, p a, li, p strong, p span, li strong, th, td, li a {
@@ -584,6 +584,7 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
   --accent-gradient-start: #D837F8;
   --accent-gradient-end: #3747F8;
   --accent-color-gradient: linear-gradient(45deg, var(--accent-gradient-start), var(--accent-gradient-end));
+  --cta-gradient: linear-gradient(45deg, #722FFF, #4B00AE, #D12B94, #722FFF, #4B00AE);
 }
 
 /*///////////// _BRAND-COLORS.scss end /////////////*/
@@ -1523,6 +1524,12 @@ ul.no-bullets li:before {
   margin-bottom: 0;
 }
 
+.featured-card-wrapper {
+  border-radius: 12px;
+  padding: 2px;
+  background-image: linear-gradient(45deg, #722FFF, #4B00AE, #D12B94, #722FFF, #4B00AE);
+}
+
 @media (min-width: 900px) {
   .card {
     padding-inline: 24px;
@@ -1531,6 +1538,68 @@ ul.no-bullets li:before {
 }
 /*///////////// _CARDS.scss end /////////////*/
 /* -------------------------------------------------*/
+.slider-container {
+  text-align: center;
+  width: 400px;
+  margin-inline: auto;
+  margin-block: 1rem 2rem;
+}
+
+.slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add this line */
+}
+
+.slider-labels span {
+  cursor: pointer;
+}
+
+.slider-labels .active {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-color) calc(var(--value, 0%) * 1%), var(--accent-color-900) calc(var(--value, 0%) * 1%), var(--accent-color-900) 100%);
+  border-radius: 5px;
+  outline: none;
+  transition: background 0.3s ease-in-out;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 /* 04-ORGANISMS */
 /* ------------------------------------------------------ */
 /*///////////// _TEAM-SCROLLER.scss start /////////////*/
@@ -2974,6 +3043,19 @@ div.other-project-card img {
 
 .section-cover-ondemand p {
   max-width: 400px;
+}
+
+.section-pricing .card {
+  flex-direction: column;
+}
+
+.section-pricing .card h3 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section-pricing .card h4 {
+  margin-bottom: 1rem;
 }
 
 .staff-aug-steps {

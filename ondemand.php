@@ -70,6 +70,70 @@ ___     _       __
                 </div>
                 </section>
                 <hr>
+                <section class="container-1080 section-pricing">
+                        <h2 class="heading-1 align-center margin-bottom-4">Choose Your Team Size</h2>
+                        <div class="row">
+                                <div class="col">
+                                        <h3>What You're Getting</h3>
+                                        <ul class="checkmark-bullet">
+                                                <li>Designated project manager</li>
+                                                <li>Get work done by Designers, UX, Devs, DevOps, and QA</li>
+                                                <li>Realtime, priority support on dedicated Slack channel</li>
+                                                <li>Unlimited projects</li>
+                                                <li>Unlimited revisions</li>
+                                                <li>Pause or Cancel Any Time</li>
+                                                <li>No Hidden Fees</li>
+                                                <li>Secure Payment with Stripe</li>
+                                        </ul>
+                                </div>
+                                <div class="col">
+                                        <div class="featured-card-wrapper">
+                                                <div class="card">
+                                                        <h3 class="heading-5 align-center font-weight-400">How many people do you need working at the same time?</h3>
+                                                        <h4 class="heading-2 align-center"><span class="color-gradient">x1</span> Active Talent</h4>
+                                                        <h4 class="heading-2 align-center"><span class="color-gradient price-value">$6,490<span class="mini">/month</span></span></h4>
+                                                        <div class="slider-container">
+                                                                <div class="slider-labels">
+                                                                        <span id="label1">x1</span>
+                                                                        <span id="label2">x2</span>
+                                                                        <span id="label3">x3</span>
+                                                                        <span id="label4">x4</span>
+                                                                        <span id="label5">x5</span>
+                                                                </div>
+                                                                <input type="range" min="1" max="5" value="1" class="slider" id="talentRange">
+                                                        </div>
+                                                        <script>
+                                                                const slider = document.getElementById('talentRange');
+                                                                const labels = document.querySelectorAll('.slider-labels span');
+                                                                const talentValue = document.querySelector('.color-gradient');
+                                                                const priceValue = document.querySelector('.price-value');
+
+                                                                const prices = {
+                                                                        1: '$6,490<span class="mini">/month</span>',
+                                                                        2: '$12,330<span class="mini">/month</span>',
+                                                                        3: '$18,500<span class="mini">/month</span>',
+                                                                        4: '$24,660<span class="mini">/month</span>',
+                                                                        5: '$29,810<span class="mini">/month</span>'
+                                                                };
+
+                                                                slider.addEventListener('input', function() {
+                                                                        labels.forEach(label => label.classList.remove('active'));
+                                                                        document.getElementById('label' + this.value).classList.add('active');
+                                                                        talentValue.innerHTML = 'x' + this.value;
+                                                                        priceValue.innerHTML = prices[this.value];
+                                                                        this.style.setProperty('--value', (this.value - 1) * 25);
+                                                                });
+
+                                                                document.getElementById('label1').classList.add('active');
+                                                                slider.style.setProperty('--value', (slider.value - 1) * 25);
+                                                        </script>
+                                                        <a class="button large-button cta-button margin-auto">Sign-up Now</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+                <hr>
                 <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
                 <?php include 'includes/clients-logo-scroller.php';?>
                 <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->

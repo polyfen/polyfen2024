@@ -12,3 +12,16 @@
 .section-cover-ondemand p {
     max-width: 400px;
 }
+
+.section-pricing .card {
+    flex-direction: column;
+}
+
+.section-pricing .card h3 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section-pricing .card h4 {
+    margin-bottom: 1rem;
+}
