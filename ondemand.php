@@ -221,8 +221,8 @@ ___     _       __
                                         <div class="icon-container">
                                                 <img src="/imgs/icons/person.svg" width="34px">
                                         </div>
-                                        <h3 class="margin-bottom-1">Devs, DevOps,<br>UX, & Designers</h3>
-                                        <p>A full-blown team ready to crush your tasks.</p>
+                                        <h3 class="margin-bottom-1">Devs, DevOps,<br>UX, QA, & More</h3>
+                                        <p>A full-blown team ready to crush your workload.</p>
                                 </div>
                         </div>
                         <div class="row">
@@ -237,14 +237,14 @@ ___     _       __
                                         <div class="icon-container">
                                                 <img src="/imgs/icons/chart-bar.svg">
                                         </div>
-                                        <h3 class="margin-bottom-1">Dedicated<br>Project Manager</h3>
-                                        <p>Quick response, realtime human assistance over Slack.</p>
+                                        <h3 class="margin-bottom-1">Designated<br>Project Manager</h3>
+                                        <p>Quick response, real time human assistance over Slack.</p>
                                 </div>
                                 <div class="col card fade-in">
                                         <div class="icon-container">
                                                 <img src="/imgs/icons/resize.svg">
                                         </div>
-                                        <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
+                                        <h3 class="margin-bottom-1">Scalable Solutions<br>OnDemand</h3>
                                         <p>Change your plan, pause, or cancel any time!</p>
                                 </div>
                         </div>
