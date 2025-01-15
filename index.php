@@ -50,7 +50,7 @@ ___     _       __
                 <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">Learn More</a>
             </div>
             <div class="video-bg">
-                <video autoplay muted loop playsinline style="will-change: transform;">
+                <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
                     <source src="videos/background-7.mp4" type="video/mp4">
                 </video>
             </div>
