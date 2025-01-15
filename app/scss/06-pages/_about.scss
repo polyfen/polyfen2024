@@ -60,6 +60,7 @@
     flex-direction: column;
     justify-content: center !important;
     height: 220px;
+    margin-top: 20px;
 }
 
 @keyframes click-scale {
@@ -132,6 +133,42 @@
         left: calc(50% - 60px);
         top: calc(50% - 70px);
         height: 47px;
+    }
+}
+
+.click-animation .video-bg {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-color-900);
+    background-image: radial-gradient(at top, var(--accent-color-50pct) 0%, transparent 60%);
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px var(--accent-color);
+    position: absolute;
+    left: calc(50% - 110px);
+    opacity: 1;
+}
+
+.click-animation .video-bg video {
+    mix-blend-mode: soft-light;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    margin-inline: auto;
+}
+
+@media (min-width: 900px) {
+    .click-animation .video-bg video {
+        height: 320px;
+        width: 320px;
+    }
+
+    .click-animation .video-bg {
+        height: 320px;
+        width: 320px;
+        left: calc(50% - 160px);
     }
 }
 
