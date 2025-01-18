@@ -49,7 +49,7 @@ ___     _       __
             </div>
             <div class="video-bg">
                 <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
-                    <source src="videos/background-7.mp4" type="video/mp4">
+                    <source src="videos/background-12.mp4" type="video/mp4">
                 </video>
             </div>
         </section>
