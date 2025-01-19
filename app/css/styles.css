@@ -1411,7 +1411,7 @@ ul.no-bullets li:before {
   height: 100%;
   z-index: 100;
   opacity: 0.6;
-  mix-blend-mode: soft-light;
+  mix-blend-mode: unset;
 }
 
 .video-bg video {
