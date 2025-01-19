@@ -49,9 +49,9 @@ ___     _       __
                 <div class="col click-animation fade-in">
                     <img src="/imgs/cursor.svg" alt="" class="cursor-image">
                     <img src="/imgs/click-lines.svg" alt="" class="click-lines">   
-                    <div class="video-bg">
+                    <div class="video-bg" style="z-index: -1;">
                         <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
-                            <source src="videos/background-27.mp4" type="video/mp4">
+                            <source src="videos/background-4.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
