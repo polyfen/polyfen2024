@@ -808,6 +808,10 @@ hr.vertical-hr {
   margin: 0 auto;
 }
 
+.row.container, .row.container-1440, .row.container-1200, .row.container-1080, .row.container-900, .row.container-800, .row.container-750, .row.container-700, .row.container-600, .row.container-500, .row.container-400, .row.container-350, .row.container-300, .row.container-250, .row.container-200 {
+  width: calc(100% - 30px) !important;
+}
+
 .container {
   width: calc(100% - 30px);
   max-width: 790px;
