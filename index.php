@@ -42,17 +42,14 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN HOME start ---------->
     <main>
-        <section class="cover section-with-video-bg section-cover-home">
+        <section class="cover section-cover-home">
             <div class="content-wrapper">
                 <h1 class="title-1 align-center">Transform Ideas<br>into Impact</h1>
                 <p class="align-center">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
                 <a class="button large-button cta-button photo-button margin-bottom-05" href="/discovery-call">Book Call</a>
                 <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">Learn More</a>
             </div>
-            <div class="video-bg">
-                <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
-                    <source src="videos/background-7.mp4" type="video/mp4">
-                </video>
+            <div class="pattern-background">
             </div>
         </section>
         <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   

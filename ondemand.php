@@ -46,7 +46,7 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN SUBSCRIPTIONS start ---------->
         <main>
-                <section class="cover video-cover pattern-background section-cover-ondemand">
+                <section class="cover video-cover section-cover-ondemand">
                         <div class="container-1200 ">
                                 <div class="row">
                                         <div class="col">
@@ -510,13 +510,6 @@ ___     _       __
                 <section class="testimonials-section container-1080">
                         <h2 class="heading-1 align-center fade-in">Delivering Success,<br>One Client at a Time</h2>
                         <?php include 'includes/testimonials.php';?>
-                </section>
-                <hr>
-                <section class="faqs container-1080 flex-column-center fade-in">
-                        <h2 id="faq" class="heading-1 align-center">Frequently<br>Asked Questions</h2>
-                        <!---------- FAQ.php start ---------->
-                        <?php include 'includes/faq.php';?>
-                        <!---------- FAQ.php end ---------->
                 </section>
                 <hr>
                 <section class="section-team-scroller">

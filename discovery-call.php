@@ -41,14 +41,12 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN DISCOVERY CALL start ---------->
     <main>
-        <section class="cover section-with-video-bg">
+        <section class="cover">
             <div class="content-wrapper">
                 <h1 class="title-2 align-center margin-bottom-1">Your Next Chapter<br>Starts with a Call</h1>
             </div>
-            <div class="video-bg">
-                <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
-                    <source src="videos/background-7.mp4" type="video/mp4">
-                </video>
+            <div class="pattern-background">
+                
             </div>
         </section>
         <section class="container-600 row gap-2 fade-in">
