@@ -2319,9 +2319,7 @@ header nav {
   left: 0;
   position: absolute;
   opacity: 1;
-  filter: blur(20px);
-  mix-blend-mode: hard-light;
-  transform: scale(1.1);
+  mix-blend-mode: color-dodge;
 }
 
 @keyframes flicker {
