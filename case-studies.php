@@ -41,16 +41,14 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN CASE STUDIES start ---------->
     <main>
-        <section class="cover section-with-video-bg">
+        <section class="cover">
             <div class="content-wrapper">
                 <h1 class="title-1 align-center margin-bottom-1">Commitment<br>to Excellence</h1>
                 <h2 class="heading-1 font-weight-400 align-center margin-bottom-2 fade-in">in every project</h2>
                 <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">View Case Studies</a>
             </div>
-            <div class="video-bg">
-                <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
-                    <source src="videos/background-7.mp4" type="video/mp4">
-                </video>
+            <div class="pattern-background">
+                
             </div>
         </section>
         <section class="container-1080" id="learn-more">

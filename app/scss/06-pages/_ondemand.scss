@@ -1,8 +1,3 @@
-.video-cover .col {
-    min-height: 400px;
-    justify-content: center;
-}
-
 .video-container video {
     max-width: 100%;
     border-radius: 6px;
@@ -15,6 +10,7 @@
 
 .section-pricing .card {
     flex-direction: column;
+    padding-bottom: 60px;
 }
 
 .section-pricing .card h3 {
@@ -32,8 +28,40 @@
     height: 54px;
 }
 
+.section-what-you-get-od img {
+    margin-bottom: 3rem;
+    max-width: 350px;
+    margin-inline: auto;
+}
+
+.section-what-you-get-od {
+    text-align: center;
+}
+
+.section-what-you-get-od ul {
+    text-align: left;
+}
+
+.section-ondemand-roles .mobile-row {
+    align-items: center;
+}
+
+@media (max-width: 899px) {
+    .section-ondemand-roles .card .row:has(ul) {
+        gap: 0;
+    }
+}
+
 @media (min-width: 900px) {
     .section-ondemand-roles .card h3 {
         height: 70px;
+    }
+    .section-what-you-get-od {
+        text-align: left;
+    }
+    .section-what-you-get-od img {
+        max-width: 100%;
+        margin-inline: unset;
+        margin-bottom: 0;
     }
 }

@@ -46,15 +46,15 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN SUBSCRIPTIONS start ---------->
         <main>
-                <section class="cover video-cover pattern-background section-cover-ondemand">
+                <section class="cover video-cover section-cover-ondemand">
                         <div class="container-1200 ">
                                 <div class="row">
-                                        <div class="col">
-                                                <h1 class="title-3">Your OnDemand<br>Design &amp; Dev Team</h1>       
-                                                <p>Get access to a full-blown team for a fraction of the price of a single US senior employee.</p>                         
+                                        <div class="col fade-in">
+                                                <h1 class="title-3 fade-in">Your OnDemand<br>Design &amp; Dev Team</h1>       
+                                                <p class="fade-in">Get access to a full-blown team for a fraction of the price of a single US senior employee.</p>                         
                                                 <a class="button secondary-button" href="#learn-more">Learn More</a>
                                         </div>
-                                        <div class="col">
+                                        <div class="col fade-in">
                                                 <div class="video-container">
                                                         <video autoplay muted loop >
                                                                 <source src="videos/ondemand.webm" type="video/webm">
@@ -66,68 +66,69 @@ ___     _       __
                         </div>
                 </section>
                 <section class="container-1080 section-pricing" id="learn-more">
-                        <div class="featured-card-wrapper">
+                        <div class="featured-card-wrapper fade-in">
                                 <div class="card">
-                                                <h2 class="heading-1 align-center margin-bottom-1 margin-top-2">Choose Your Team Size</h2>
-                                                        <h3 class="heading-5 align-center font-weight-400 margin-bottom-4">How many people do you need<br>working at the same time?</h3>
-                                                        <h4 class="heading-2 align-center"><span class="color-gradient">x1</span> Active Talent</h4>
-                                                        <h4 class="heading-2 align-center"><span class="color-gradient price-value">$6,490<span class="mini">/month</span></span></h4>
-                                                        <div class="slider-container">
-                                                                <div class="slider-labels">
-                                                                        <span id="label1">x1</span>
-                                                                        <span id="label2">x2</span>
-                                                                        <span id="label3">x3</span>
-                                                                        <span id="label4">x4</span>
-                                                                        <span id="label5">x5</span>
-                                                                </div>
-                                                                <input type="range" min="1" max="5" value="1" class="slider" id="talentRange">
-                                                        </div>
-                                                        <script>
-                                                                const slider = document.getElementById('talentRange');
-                                                                const labels = document.querySelectorAll('.slider-labels span');
-                                                                const talentValue = document.querySelector('.color-gradient');
-                                                                const priceValue = document.querySelector('.price-value');
-
-                                                                const prices = {
-                                                                        1: '$6,490<span class="mini">/month</span>',
-                                                                        2: '$12,330<span class="mini">/month</span>',
-                                                                        3: '$18,500<span class="mini">/month</span>',
-                                                                        4: '$24,660<span class="mini">/month</span>',
-                                                                        5: '$29,810<span class="mini">/month</span>'
-                                                                };
-
-                                                                slider.addEventListener('input', function() {
-                                                                        labels.forEach(label => label.classList.remove('active'));
-                                                                        document.getElementById('label' + this.value).classList.add('active');
-                                                                        talentValue.innerHTML = 'x' + this.value;
-                                                                        priceValue.innerHTML = prices[this.value];
-                                                                        this.style.setProperty('--value', (this.value - 1) * 25);
-                                                                });
-
-                                                                document.getElementById('label1').classList.add('active');
-                                                                slider.style.setProperty('--value', (slider.value - 1) * 25);
-                                                        </script>
-                                                        <a class="button large-button cta-button margin-auto">Sign-up Now</a>
+                                        <h2 class="heading-1 align-center margin-bottom-1 margin-top-2 fade-in">Choose Your Team Size</h2>
+                                        <h3 class="heading-5 align-center font-weight-400 margin-bottom-4 fade-in">How many people do you need<br>working at the same time?</h3>
+                                        <h4 class="heading-2 align-center fade-in"><span class="color-gradient">x1</span> Active Talent</h4>
+                                        <h4 class="heading-2 align-center fade-in"><span class="color-gradient price-value">$6,490<span class="mini">/month</span></span></h4>
+                                        <div class="slider-container fade-in">
+                                                <div class="slider-labels">
+                                                        <span id="label1">x1</span>
+                                                        <span id="label2">x2</span>
+                                                        <span id="label3">x3</span>
+                                                        <span id="label4">x4</span>
+                                                        <span id="label5">x5</span>
                                                 </div>
+                                                <input type="range" min="1" max="5" value="1" class="slider" id="talentRange">
+                                        </div>
+                                        <script>
+                                                const slider = document.getElementById('talentRange');
+                                                const labels = document.querySelectorAll('.slider-labels span');
+                                                const talentValue = document.querySelector('.color-gradient');
+                                                const priceValue = document.querySelector('.price-value');
+
+                                                const prices = {
+                                                        1: '$6,490<span class="mini">/month</span>',
+                                                        2: '$12,330<span class="mini">/month</span>',
+                                                        3: '$18,500<span class="mini">/month</span>',
+                                                        4: '$24,660<span class="mini">/month</span>',
+                                                        5: '$29,810<span class="mini">/month</span>'
+                                                };
+
+                                                slider.addEventListener('input', function() {
+                                                        labels.forEach(label => label.classList.remove('active'));
+                                                        document.getElementById('label' + this.value).classList.add('active');
+                                                        talentValue.innerHTML = 'x' + this.value;
+                                                        priceValue.innerHTML = prices[this.value];
+                                                        this.style.setProperty('--value', (this.value - 1) * 25);
+                                                });
+
+                                                document.getElementById('label1').classList.add('active');
+                                                slider.style.setProperty('--value', (slider.value - 1) * 25);
+                                        </script>
+                                        <a class="button large-button cta-button margin-auto">Sign-up Now</a>
+                                </div>
                         </div>
                 </section>
                 <hr class="small-separator">
-                <section class="container-1080">
-                        <div class="row card">
+                <section class="section-what-you-get-od container-1080">
+                        <div class="row card fade-in">
                                 <div class="col">
-                                        <h2 class="heading-1 margin-top-1" style="margin-left: 20px;">What You're<br>Getting</h2>
-                                        <ul class="checkmark-bullet half-spaced-list">
+                                        <h2 class="heading-1 margin-top-1 fade-in" style="margin-left: 20px;">What You're<br>Getting</h2>
+                                        <img class="fade-in desktop-d-none" src="imgs/ondemand-team.webp">
+                                        <ul class="fade-in checkmark-bullet half-spaced-list">
                                                 <li>Get work done by Designers, UX, Devs, DevOps, and QA</li>
-                                                <li>Designated project manager</li>
+                                                <li>Designated project manager that organizes your workload</li>
                                                 <li>Real time, priority support on dedicated Slack channel</li>
+                                                <li>Scale, pause, or cancel any time</li>
                                                 <li>Unlimited projects</li>
                                                 <li>Unlimited revisions</li>
-                                                <li>Pause or cancel any time</li>
                                                 <li>No hidden fees</li>
                                                 <li>Secure payment with Stripe</li>
                                         </ul>
                                 </div>
-                                <div class="col">
+                                <div class="col fade-in mobile-d-none">
                                         <img src="imgs/ondemand-team.webp">
                                 </div>
 
@@ -135,11 +136,11 @@ ___     _       __
                 </section>
                 <hr>
                 <section class="section-ondemand-roles">
-                        <h2 class="heading-1 align-center margin-bottom-4">Every Role You Need,<br>In a Single Monthly Plan</h2>
+                        <h2 class="heading-1 align-center margin-bottom-4 fade-in">Every Role You Need,<br>In a Single Monthly Plan</h2>
                         <div class="container-1080">
                         <div class="row margin-bottom-05">
                                 <div class="col card fade-in">
-                                        <div class="row gap-1">
+                                        <div class="mobile-row gap-1">
                                                 <div class="icon-container">
                                                         <img src="/imgs/icons/pencil-and-ruler.svg">
                                                 </div>
@@ -169,7 +170,7 @@ ___     _       __
                                         </div>
                                 </div>
                                 <div class="col card fade-in">
-                                        <div class="row gap-1">
+                                        <div class="mobile-row gap-1">
                                                 <div class="icon-container">
                                                         <img src="/imgs/icons/cpu.svg">
                                                 </div>
@@ -512,13 +513,6 @@ ___     _       __
                         <?php include 'includes/testimonials.php';?>
                 </section>
                 <hr>
-                <section class="faqs container-1080 flex-column-center fade-in">
-                        <h2 id="faq" class="heading-1 align-center">Frequently<br>Asked Questions</h2>
-                        <!---------- FAQ.php start ---------->
-                        <?php include 'includes/faq.php';?>
-                        <!---------- FAQ.php end ---------->
-                </section>
-                <hr>
                 <section class="section-team-scroller">
                         <h2 class="heading-1 align-center">Team of Experts<br>in Your Timezone</h2>
                         <?php include 'includes/team-slider.php';?>
@@ -555,17 +549,6 @@ ___     _       __
                 }
             ]
         });
-    });
-    </script>
-    <!-- script for the button more-faqs -->
-    <script>
-    document.getElementById('more-faqs').addEventListener('click', function() {
-        let toToggle = document.querySelectorAll('.accordions-container .accordion:nth-child(n+5)');
-
-        toToggle.forEach(function(e) {
-            e.classList.toggle('d-none');
-        });
-        this.classList.add('d-none');
     });
     </script>
 </body>

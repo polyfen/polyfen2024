@@ -44,16 +44,14 @@ ___     _       __
     <!---------- HEADER.php end ---------->
     <!---------- MAIN BRANDING start ---------->
     <main>
-        <section class="cover section-with-video-bg">
+        <section class="cover">
             <div class="content-wrapper">
                 <h1 class="title-1 align-center margin-bottom-2">Your Team,<br><span class="color-gradient">Supercharged</span></h1>
                 <h2 class="heading-1 align-center font-weight-400 fade-in">Top-tier talent,<br>Nearshore rates</h2>
                 <a class="button large-button cta-button photo-button fade-in" href="#book-call-staff-aug">Book a Call</a>
             </div>
-            <div class="video-bg">
-                <video autoplay muted loop playsinline style="will-change: transform;" playbackRate="0.5">
-                    <source src="videos/background-7.mp4" type="video/mp4">
-                </video>
+            <div class="pattern-background">
+                
             </div>
         </section>
         <hr>
