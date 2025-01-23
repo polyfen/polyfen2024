@@ -15,6 +15,18 @@
   margin-right: auto !important;
 }
 
+@media (max-width: 899px) {
+    .mobile-d-none {
+        display: none !important;
+    }
+}
+
+@media (min-width: 900px) {
+    .desktop-d-none {
+        display: none !important;
+    }
+}
+
 .margin-right-auto {
   margin-left: 0 !important;
   margin-right: auto !important;

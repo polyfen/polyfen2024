@@ -10,6 +10,7 @@
 
 .section-pricing .card {
     flex-direction: column;
+    padding-bottom: 60px;
 }
 
 .section-pricing .card h3 {
@@ -27,8 +28,33 @@
     height: 54px;
 }
 
+.section-what-you-get-od img {
+    margin-bottom: 3rem;
+}
+
+.section-what-you-get-od {
+    text-align: center;
+}
+
+.section-what-you-get-od ul {
+    text-align: left;
+}
+
+.section-ondemand-roles .mobile-row {
+    align-items: center;
+}
+
+@media (max-width: 899px) {
+    .section-ondemand-roles .card .row:has(ul) {
+        gap: 0;
+    }
+}
+
 @media (min-width: 900px) {
     .section-ondemand-roles .card h3 {
         height: 70px;
+    }
+    .section-what-you-get-od {
+        text-align: left;
     }
 }

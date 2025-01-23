@@ -112,10 +112,11 @@ ___     _       __
                         </div>
                 </section>
                 <hr class="small-separator">
-                <section class="container-1080">
+                <section class="section-what-you-get-od container-1080">
                         <div class="row card">
                                 <div class="col">
                                         <h2 class="heading-1 margin-top-1" style="margin-left: 20px;">What You're<br>Getting</h2>
+                                        <img class="desktop-d-none" src="imgs/ondemand-team.webp">
                                         <ul class="checkmark-bullet half-spaced-list">
                                                 <li>Get work done by Designers, UX, Devs, DevOps, and QA</li>
                                                 <li>Designated project manager</li>
@@ -127,7 +128,7 @@ ___     _       __
                                                 <li>Secure payment with Stripe</li>
                                         </ul>
                                 </div>
-                                <div class="col">
+                                <div class="col mobile-d-none">
                                         <img src="imgs/ondemand-team.webp">
                                 </div>
 
@@ -139,7 +140,7 @@ ___     _       __
                         <div class="container-1080">
                         <div class="row margin-bottom-05">
                                 <div class="col card fade-in">
-                                        <div class="row gap-1">
+                                        <div class="mobile-row gap-1">
                                                 <div class="icon-container">
                                                         <img src="/imgs/icons/pencil-and-ruler.svg">
                                                 </div>
@@ -169,7 +170,7 @@ ___     _       __
                                         </div>
                                 </div>
                                 <div class="col card fade-in">
-                                        <div class="row gap-1">
+                                        <div class="mobile-row gap-1">
                                                 <div class="icon-container">
                                                         <img src="/imgs/icons/cpu.svg">
                                                 </div>
@@ -548,17 +549,6 @@ ___     _       __
                 }
             ]
         });
-    });
-    </script>
-    <!-- script for the button more-faqs -->
-    <script>
-    document.getElementById('more-faqs').addEventListener('click', function() {
-        let toToggle = document.querySelectorAll('.accordions-container .accordion:nth-child(n+5)');
-
-        toToggle.forEach(function(e) {
-            e.classList.toggle('d-none');
-        });
-        this.classList.add('d-none');
     });
     </script>
 </body>
