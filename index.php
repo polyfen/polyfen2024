@@ -55,8 +55,8 @@ ___     _       __
         <!---------- CLIENTS-LOGO-SCROLLER.php start ---------->   
         <?php include 'includes/clients-logo-scroller.php';?>
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
-        <hr>
-        <section  id="learn-more" class="section-ondemand-summary container-1080 margin-bottom-3 fade-in">
+        <hr id="learn-more">
+        <section class="section-ondemand-summary container-1080 margin-bottom-3 fade-in">
             <h2 class="heading-1 align-center">Your OnDemand<br>Design & Dev Team</h2>
             <div class="card fade-in">
                 <div class="row">
