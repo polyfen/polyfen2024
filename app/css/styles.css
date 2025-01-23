@@ -3211,6 +3211,7 @@ div.other-project-card img {
 
 .section-what-you-get-od img {
   margin-bottom: 3rem;
+  width: 100%;
   max-width: 350px;
   margin-inline: auto;
 }
@@ -3221,6 +3222,10 @@ div.other-project-card img {
 
 .section-what-you-get-od ul {
   text-align: left;
+}
+
+.section-what-you-get-od h2 {
+  margin-left: 0;
 }
 
 .section-ondemand-roles .mobile-row {
@@ -3238,6 +3243,9 @@ div.other-project-card img {
   }
   .section-what-you-get-od {
     text-align: left;
+  }
+  .section-what-you-get-od h2 {
+    margin-left: 20px;
   }
   .section-what-you-get-od img {
     max-width: 100%;

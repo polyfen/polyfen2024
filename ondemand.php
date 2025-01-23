@@ -115,7 +115,7 @@ ___     _       __
                 <section class="section-what-you-get-od container-1080">
                         <div class="row card fade-in">
                                 <div class="col">
-                                        <h2 class="heading-1 margin-top-1 fade-in" style="margin-left: 20px;">What You're<br>Getting</h2>
+                                        <h2 class="heading-1 margin-top-1 fade-in">What You're<br>Getting</h2>
                                         <img class="fade-in desktop-d-none" src="imgs/ondemand-team.webp">
                                         <ul class="fade-in checkmark-bullet half-spaced-list">
                                                 <li>Get work done by Designers, UX, Devs, DevOps, and QA</li>
