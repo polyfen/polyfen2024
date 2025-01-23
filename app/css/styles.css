@@ -2400,6 +2400,11 @@ header nav {
   display: none;
 }
 
+.video-cover h1, .video-cover p {
+  text-align: center;
+  margin-inline: auto;
+}
+
 @media (min-width: 900px) {
   .video-cover .col {
     min-height: 400px;
@@ -2407,6 +2412,10 @@ header nav {
   }
   .video-cover .button {
     display: flex;
+  }
+  .video-cover h1, .video-cover p {
+    text-align: left;
+    margin-inline: unset;
   }
 }
 :root {
@@ -2747,6 +2756,24 @@ footer nav a {
 
 .secondary-services-card li {
   text-align: left;
+}
+
+.section-ondemand-summary .card {
+  flex-direction: column;
+}
+
+.section-ondemand-summary .card ul {
+  max-width: 440px;
+  margin-inline: auto;
+}
+
+.card .video-container {
+  flex: 1;
+  background: black;
+  display: flex;
+  border-radius: 4px;
+  max-width: 520px;
+  margin-inline: auto;
 }
 
 /*///////////// _HOME.scss end /////////////*/
@@ -3184,6 +3211,8 @@ div.other-project-card img {
 
 .section-what-you-get-od img {
   margin-bottom: 3rem;
+  max-width: 350px;
+  margin-inline: auto;
 }
 
 .section-what-you-get-od {
@@ -3209,6 +3238,11 @@ div.other-project-card img {
   }
   .section-what-you-get-od {
     text-align: left;
+  }
+  .section-what-you-get-od img {
+    max-width: 100%;
+    margin-inline: unset;
+    margin-bottom: 0;
   }
 }
 .staff-aug-steps {

@@ -232,5 +232,23 @@
     text-align: left;
 }
 
+.section-ondemand-summary .card {
+    flex-direction: column;
+}
+
+.section-ondemand-summary .card ul {
+    max-width: 440px;
+    margin-inline: auto;
+}
+
+.card .video-container {
+    flex: 1;
+    background: black;
+    display: flex;
+    border-radius: 4px;
+    max-width: 520px;
+    margin-inline: auto;
+}
+
 /*///////////// _HOME.scss end /////////////*/
 /* -------------------------------------------------*/

@@ -56,11 +56,68 @@ ___     _       __
         <?php include 'includes/clients-logo-scroller.php';?>
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr>
-        <section  id="learn-more" class="section-subscriptions-summary container-1080 margin-bottom-3 fade-in">
-            <h2 class="heading-1 align-center">Offload your Design<br>& Development Needs</h2>
-            <!-- SUBSCRIPTION-PLANS.php start -->
-            <?php include 'includes/subscription-plans.php';?>
-            <!-- SUBSCRIPTION-PLANS.php end -->
+        <section  id="learn-more" class="section-ondemand-summary container-1080 margin-bottom-3 fade-in">
+            <h2 class="heading-1 align-center">Your OnDemand<br>Design & Dev Team</h2>
+            <div class="card fade-in">
+                <div class="row">
+                    <div class="col fade-in">
+                        <div class="video-container">
+                                <video autoplay muted loop >
+                                        <source src="videos/ondemand.webm" type="video/webm">
+                                        <source src="videos/ondemand.mp4" type="video/mp4">
+                                </video>
+                        </div>     
+                    </div>
+                    <div class="col">
+                        <div >
+                            <h3 class="heading-2 align-center margin-top-2 margin-bottom-1 fade-in"><span class="color-gradient">x1</span> Active Talent</h3>
+                            <h3 class="heading-2 align-center fade-in margin-bottom-1"><span class="color-gradient price-value">$6,490<span class="mini">/month</span></span></h3>
+                            <div class="slider-container fade-in">
+                                    <div class="slider-labels">
+                                            <span id="label1">x1</span>
+                                            <span id="label2">x2</span>
+                                            <span id="label3">x3</span>
+                                            <span id="label4">x4</span>
+                                            <span id="label5">x5</span>
+                                    </div>
+                                    <input type="range" min="1" max="5" value="1" class="slider" id="talentRange">
+                            </div>
+                            <script>
+                                    const slider = document.getElementById('talentRange');
+                                    const labels = document.querySelectorAll('.slider-labels span');
+                                    const talentValue = document.querySelector('.color-gradient');
+                                    const priceValue = document.querySelector('.price-value');
+
+                                    const prices = {
+                                            1: '$6,490<span class="mini">/month</span>',
+                                            2: '$12,330<span class="mini">/month</span>',
+                                            3: '$18,500<span class="mini">/month</span>',
+                                            4: '$24,660<span class="mini">/month</span>',
+                                            5: '$29,810<span class="mini">/month</span>'
+                                    };
+
+                                    slider.addEventListener('input', function() {
+                                            labels.forEach(label => label.classList.remove('active'));
+                                            document.getElementById('label' + this.value).classList.add('active');
+                                            talentValue.innerHTML = 'x' + this.value;
+                                            priceValue.innerHTML = prices[this.value];
+                                            this.style.setProperty('--value', (this.value - 1) * 25);
+                                    });
+
+                                    document.getElementById('label1').classList.add('active');
+                                    slider.style.setProperty('--value', (slider.value - 1) * 25);
+                            </script>
+                        </div>
+                        <ul class="fade-in checkmark-bullet half-spaced-list hanging-list">
+                                <li>Get work done by Designers, UX, Devs, DevOps, and QA</li>
+                                <li>Designated project manager that organizes your workload</li>
+                                <li>Real time, priority support on dedicated Slack channel</li>
+                                <li>Scale, pause, or cancel any time</li>
+                        </ul>
+                        <a class="button secondary-button margin-auto margin-bottom-1" href="/ondemand">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </section>
         <hr>
         <section class="section-services-breakdown">

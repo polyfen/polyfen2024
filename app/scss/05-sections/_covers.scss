@@ -91,6 +91,13 @@
     display: none;
 }
 
+.video-cover {
+    h1, p {
+        text-align: center;
+        margin-inline: auto;
+    }
+}
+
 @media (min-width: 900px) {
     .video-cover .col {
         min-height: 400px;
@@ -98,5 +105,11 @@
     }
     .video-cover .button {
         display: flex;
+    }
+    .video-cover {
+        h1, p {
+            text-align: left;
+            margin-inline: unset;
+        }
     }
 }

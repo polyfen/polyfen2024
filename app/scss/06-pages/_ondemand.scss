@@ -30,6 +30,8 @@
 
 .section-what-you-get-od img {
     margin-bottom: 3rem;
+    max-width: 350px;
+    margin-inline: auto;
 }
 
 .section-what-you-get-od {
@@ -56,5 +58,10 @@
     }
     .section-what-you-get-od {
         text-align: left;
+    }
+    .section-what-you-get-od img {
+        max-width: 100%;
+        margin-inline: unset;
+        margin-bottom: 0;
     }
 }
