@@ -2385,6 +2385,19 @@ header nav {
   background-size: cover;
 }
 
+.video-cover .button {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .video-cover .col {
+    min-height: 400px;
+    justify-content: center;
+  }
+  .video-cover .button {
+    display: flex;
+  }
+}
 :root {
   --cta-section-background: var(--slate-900);
 }
@@ -3128,11 +3141,6 @@ div.other-project-card img {
 
 /*///////////// _SUBSCRIPTIONS.scss end /////////////*/
 /*------------------------------------------------------ */
-.video-cover .col {
-  min-height: 400px;
-  justify-content: center;
-}
-
 .video-container video {
   max-width: 100%;
   border-radius: 6px;

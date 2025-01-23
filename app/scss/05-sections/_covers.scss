@@ -86,3 +86,17 @@
     background: url('../../imgs/static-pattern.png') no-repeat center center;
     background-size: cover;
 }
+
+.video-cover .button {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .video-cover .col {
+        min-height: 400px;
+        justify-content: center;
+    }
+    .video-cover .button {
+        display: flex;
+    }
+}
