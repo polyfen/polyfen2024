@@ -49,12 +49,12 @@ ___     _       __
                 <section class="cover video-cover section-cover-ondemand">
                         <div class="container-1200 ">
                                 <div class="row">
-                                        <div class="col">
-                                                <h1 class="title-3">Your OnDemand<br>Design &amp; Dev Team</h1>       
-                                                <p>Get access to a full-blown team for a fraction of the price of a single US senior employee.</p>                         
+                                        <div class="col fade-in">
+                                                <h1 class="title-3 fade-in">Your OnDemand<br>Design &amp; Dev Team</h1>       
+                                                <p class="fade-in">Get access to a full-blown team for a fraction of the price of a single US senior employee.</p>                         
                                                 <a class="button secondary-button" href="#learn-more">Learn More</a>
                                         </div>
-                                        <div class="col">
+                                        <div class="col fade-in">
                                                 <div class="video-container">
                                                         <video autoplay muted loop >
                                                                 <source src="videos/ondemand.webm" type="video/webm">
@@ -66,13 +66,13 @@ ___     _       __
                         </div>
                 </section>
                 <section class="container-1080 section-pricing" id="learn-more">
-                        <div class="featured-card-wrapper">
+                        <div class="featured-card-wrapper fade-in">
                                 <div class="card">
-                                                <h2 class="heading-1 align-center margin-bottom-1 margin-top-2">Choose Your Team Size</h2>
-                                                        <h3 class="heading-5 align-center font-weight-400 margin-bottom-4">How many people do you need<br>working at the same time?</h3>
-                                                        <h4 class="heading-2 align-center"><span class="color-gradient">x1</span> Active Talent</h4>
-                                                        <h4 class="heading-2 align-center"><span class="color-gradient price-value">$6,490<span class="mini">/month</span></span></h4>
-                                                        <div class="slider-container">
+                                                <h2 class="heading-1 align-center margin-bottom-1 margin-top-2 fade-in">Choose Your Team Size</h2>
+                                                        <h3 class="heading-5 align-center font-weight-400 margin-bottom-4 fade-in">How many people do you need<br>working at the same time?</h3>
+                                                        <h4 class="heading-2 align-center fade-in"><span class="color-gradient">x1</span> Active Talent</h4>
+                                                        <h4 class="heading-2 align-center fade-in"><span class="color-gradient price-value">$6,490<span class="mini">/month</span></span></h4>
+                                                        <div class="slider-container fade-in">
                                                                 <div class="slider-labels">
                                                                         <span id="label1">x1</span>
                                                                         <span id="label2">x2</span>
@@ -113,11 +113,11 @@ ___     _       __
                 </section>
                 <hr class="small-separator">
                 <section class="section-what-you-get-od container-1080">
-                        <div class="row card">
+                        <div class="row card fade-in">
                                 <div class="col">
-                                        <h2 class="heading-1 margin-top-1" style="margin-left: 20px;">What You're<br>Getting</h2>
-                                        <img class="desktop-d-none" src="imgs/ondemand-team.webp">
-                                        <ul class="checkmark-bullet half-spaced-list">
+                                        <h2 class="heading-1 margin-top-1 fade-in" style="margin-left: 20px;">What You're<br>Getting</h2>
+                                        <img class="fade-in desktop-d-none" src="imgs/ondemand-team.webp">
+                                        <ul class="fade-in checkmark-bullet half-spaced-list">
                                                 <li>Get work done by Designers, UX, Devs, DevOps, and QA</li>
                                                 <li>Designated project manager</li>
                                                 <li>Real time, priority support on dedicated Slack channel</li>
@@ -128,7 +128,7 @@ ___     _       __
                                                 <li>Secure payment with Stripe</li>
                                         </ul>
                                 </div>
-                                <div class="col mobile-d-none">
+                                <div class="col fade-in mobile-d-none">
                                         <img src="imgs/ondemand-team.webp">
                                 </div>
 
@@ -136,7 +136,7 @@ ___     _       __
                 </section>
                 <hr>
                 <section class="section-ondemand-roles">
-                        <h2 class="heading-1 align-center margin-bottom-4">Every Role You Need,<br>In a Single Monthly Plan</h2>
+                        <h2 class="heading-1 align-center margin-bottom-4 fade-in">Every Role You Need,<br>In a Single Monthly Plan</h2>
                         <div class="container-1080">
                         <div class="row margin-bottom-05">
                                 <div class="col card fade-in">
