@@ -61,12 +61,47 @@ ___     _       __
             <div class="card fade-in">
                 <div class="row">
                     <div class="col fade-in">
-                        <div class="video-container">
-                                <video autoplay muted loop >
-                                        <source src="videos/ondemand.webm" type="video/webm">
-                                        <source src="videos/ondemand.mp4" type="video/mp4">
-                                </video>
-                        </div>     
+                    <div class="video-container">
+                                                        <div class="video-buttons">
+                                                                <button id="replayButton">Replay</button>
+                                                                <button id="muteButton">Unmute</button>
+                                                        </div>
+                                                        <script>
+                                                                document.addEventListener('DOMContentLoaded', () => {
+                                                                        const video = document.querySelector('video');
+                                                                        const replayButton = document.getElementById('replayButton');
+                                                                        const muteButton = document.getElementById('muteButton');
+
+                                                                        replayButton.addEventListener('click', () => {
+                                                                                video.currentTime = 0;
+                                                                                video.play();
+                                                                        });
+
+                                                                        video.addEventListener('play', () => {
+                                                                                replayButton.style.display = 'block';
+                                                                                muteButton.style.display = 'block';
+                                                                        });
+
+                                                                        muteButton.addEventListener('click', () => {
+                                                                                if (video.muted) {
+                                                                                        video.muted = false;
+                                                                                        muteButton.textContent = 'Mute';
+                                                                                } else {
+                                                                                        video.muted = true;
+                                                                                        muteButton.textContent = 'Unmute';
+                                                                                }
+                                                                        });
+
+                                                                        // Ensure subtitles are always displayed
+                                                                        const track = video.textTracks[0];
+                                                                        track.mode = 'showing';
+                                                                });
+                                                        </script>
+                                                        <video autoplay muted loop>
+                                                                <source src="videos/ondemand.webm" type="video/webm">
+                                                                <source src="videos/ondemand.mp4" type="video/mp4">
+                                                        </video>
+                                                </div>   
                     </div>
                     <div class="col">
                         <div >

@@ -64,6 +64,7 @@ ___     _       __
                                                                 document.addEventListener('DOMContentLoaded', () => {
                                                                         const video = document.querySelector('video');
                                                                         const replayButton = document.getElementById('replayButton');
+                                                                        const muteButton = document.getElementById('muteButton');
 
                                                                         replayButton.addEventListener('click', () => {
                                                                                 video.currentTime = 0;
@@ -72,15 +73,10 @@ ___     _       __
 
                                                                         video.addEventListener('play', () => {
                                                                                 replayButton.style.display = 'block';
+                                                                                muteButton.style.display = 'block';
                                                                         });
-                                                                });
-                                                        </script>
-                                                        <script>
-                                                                document.addEventListener('DOMContentLoaded', () => {
-                                                                        const video = document.querySelector('video');
-                                                                        const muteButton = document.getElementById('muteButton');
 
-                                                                        function toggleMute() {
+                                                                        muteButton.addEventListener('click', () => {
                                                                                 if (video.muted) {
                                                                                         video.muted = false;
                                                                                         muteButton.textContent = 'Mute';
@@ -88,16 +84,14 @@ ___     _       __
                                                                                         video.muted = true;
                                                                                         muteButton.textContent = 'Unmute';
                                                                                 }
-                                                                        }
-
-                                                                        muteButton.addEventListener('click', toggleMute);
-
-                                                                        video.addEventListener('play', () => {
-                                                                                muteButton.style.display = 'block';
                                                                         });
+
+                                                                        // Ensure subtitles are always displayed
+                                                                        const track = video.textTracks[0];
+                                                                        track.mode = 'showing';
                                                                 });
                                                         </script>
-                                                        <video autoplay muted loop >
+                                                        <video autoplay muted loop>
                                                                 <source src="videos/ondemand.webm" type="video/webm">
                                                                 <source src="videos/ondemand.mp4" type="video/mp4">
                                                         </video>
