@@ -1,3 +1,22 @@
+.video-container {
+    position: relative;
+}
+
+.video-buttons {
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    z-index: 9;
+}
+
+.video-buttons button {
+    width: 120px;
+    border-radius: 8px;
+    background-color: var(--slate-900);
+}
+
 .video-container video {
     max-width: 100%;
     border-radius: 6px;
