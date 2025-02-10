@@ -18,8 +18,8 @@ ___     _       __
     <meta name="robots" content="index, follow">
     <meta property="og:url" content="https://polyfen.com/ondemand">
     <meta property="og:title" content="OnDemand Design & Dev Team">
-    <meta name="description" property="og:description" content="#">
-    <meta name="keywords" content="#">
+    <meta name="description" property="og:description" content="Flexible design & dev teams OnDemand. Scale fast with top talent, no contracts, unlimited projects, real-time support.">
+    <meta name="keywords" content="design, development, staff augmentation, OnDemand teams, UX, UI, DevOps, QA, branding, software development, project management, remote teams, scalable solutions, unlimited projects, Polyfen">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/ondemand.png">
     <!---------- PAGE-SPECIFIC META end ---------->
     <!---------- PAGE-SPECIFIC CSS start ---------->
