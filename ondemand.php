@@ -118,31 +118,44 @@ ___     _       __
                                                 <input type="range" min="1" max="5" value="1" class="slider" id="talentRange">
                                         </div>
                                         <script>
-                                                const slider = document.getElementById('talentRange');
-                                                const labels = document.querySelectorAll('.slider-labels span');
-                                                const talentValue = document.querySelector('.color-gradient');
-                                                const priceValue = document.querySelector('.price-value');
+                                                document.addEventListener('DOMContentLoaded', () => {
+                                                        const slider = document.getElementById('talentRange');
+                                                        const labels = document.querySelectorAll('.slider-labels span');
+                                                        const talentValue = document.querySelector('.color-gradient');
+                                                        const priceValue = document.querySelector('.price-value');
+                                                        const signUpButton = document.querySelector('.cta-button');
 
-                                                const prices = {
-                                                        1: '$6,490<span class="mini">/month</span>',
-                                                        2: '$12,330<span class="mini">/month</span>',
-                                                        3: '$18,500<span class="mini">/month</span>',
-                                                        4: '$24,660<span class="mini">/month</span>',
-                                                        5: '$29,810<span class="mini">/month</span>'
-                                                };
+                                                        const prices = {
+                                                                1: '$6,490<span class="mini">/month</span>',
+                                                                2: '$12,330<span class="mini">/month</span>',
+                                                                3: '$18,500<span class="mini">/month</span>',
+                                                                4: '$24,660<span class="mini">/month</span>',
+                                                                5: '$29,810<span class="mini">/month</span>'
+                                                        };
 
-                                                slider.addEventListener('input', function() {
-                                                        labels.forEach(label => label.classList.remove('active'));
-                                                        document.getElementById('label' + this.value).classList.add('active');
-                                                        talentValue.innerHTML = 'x' + this.value;
-                                                        priceValue.innerHTML = prices[this.value];
-                                                        this.style.setProperty('--value', (this.value - 1) * 25);
+                                                        const urls = {
+                                                                1: 'https://buy.stripe.com/aEU16O5ufeVCg366ou',
+                                                                2: 'https://buy.stripe.com/dR6aHo9Kv6p69EIcMT',
+                                                                3: 'https://buy.stripe.com/dR6cPw2i3eVCeZ2008',
+                                                                4: 'https://buy.stripe.com/28o02K8GrdRybMQdQZ',
+                                                                5: 'https://buy.stripe.com/4gw02K8GrbJq9EI3cm'
+                                                        };
+
+                                                        slider.addEventListener('input', function() {
+                                                                labels.forEach(label => label.classList.remove('active'));
+                                                                document.getElementById('label' + this.value).classList.add('active');
+                                                                talentValue.innerHTML = 'x' + this.value;
+                                                                priceValue.innerHTML = prices[this.value];
+                                                                signUpButton.href = urls[this.value];
+                                                                this.style.setProperty('--value', (this.value - 1) * 25);
+                                                        });
+
+                                                        document.getElementById('label1').classList.add('active');
+                                                        slider.style.setProperty('--value', (slider.value - 1) * 25);
+                                                        signUpButton.href = urls[slider.value];
                                                 });
-
-                                                document.getElementById('label1').classList.add('active');
-                                                slider.style.setProperty('--value', (slider.value - 1) * 25);
                                         </script>
-                                        <a class="button large-button cta-button margin-auto">Sign-up Now</a>
+                                        <a class="button large-button cta-button margin-auto" href="#" target="_blank">Sign-up Now</a>
                                 </div>
                         </div>
                 </section>
