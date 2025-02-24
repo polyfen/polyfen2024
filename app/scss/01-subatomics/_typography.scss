@@ -134,6 +134,11 @@ h5, .heading-5 {
     line-height: 120%;
 }
 
+h6, .heading-6 {
+    font-size: 1.2rem;
+    line-height: 120%;
+}
+
 p, p a, li, p strong, p span, li strong, th, td, li a {
     font-size: 1.2rem;
     line-height: 150%;
@@ -190,6 +195,10 @@ small.mini, a.mini, .mini {
 
     h5, .heading-5 {
         font-size: 1.6rem;
+    }
+
+    h6, .heading-6 {
+        font-size: 1.4rem;
     }
 }
 
