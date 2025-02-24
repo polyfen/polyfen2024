@@ -136,48 +136,48 @@ p, p a, li, p strong, p span, li strong, li a, p a {
 }
 
 /* FONT-SIZES, LINE-HEIGHT, LETTER-SPACING */
-.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+.title-1 {
   font-size: 3rem;
   line-height: 110%;
   letter-spacing: -0.4px;
 }
 
-.title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+.title-2 {
   font-size: 2.75rem;
   line-height: 110%;
   letter-spacing: -0.4px;
 }
 
-.title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+.title-3 {
   font-size: 2.4rem;
   line-height: 110%;
   letter-spacing: -0.4px;
 }
 
-h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+h1, .heading-1 {
   font-size: 2rem;
   line-height: 110%;
   letter-spacing: -0.25px;
 }
 
-h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+h2, .heading-2 {
   font-size: 1.75rem;
   line-height: 110%;
   letter-spacing: -0.25px;
 }
 
-h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+h3, .heading-3 {
   font-size: 1.5rem;
   line-height: 110%;
   letter-spacing: -0.25px;
 }
 
-h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+h4, .heading-4 {
   font-size: 1.375rem;
   line-height: 110%;
 }
 
-h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
+h5, .heading-5 {
   font-size: 1.25rem;
   line-height: 120%;
 }
@@ -214,43 +214,43 @@ small.mini, a.mini, .mini {
 }
 
 @media (min-width: 720px) {
-  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  .title-1 {
     font-size: 3.75rem;
   }
-  .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+  .title-2 {
     font-size: 3rem;
   }
-  .title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+  .title-3 {
     font-size: 2.85rem;
   }
-  h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  h1, .heading-1 {
     font-size: 2.75rem;
   }
-  h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+  h2, .heading-2 {
     font-size: 2.5rem;
   }
-  h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+  h3, .heading-3 {
     font-size: 2.2rem;
   }
-  h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+  h4, .heading-4 {
     font-size: 1.75rem;
   }
-  h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
+  h5, .heading-5 {
     font-size: 1.6rem;
   }
 }
 @media (min-width: 1200px) {
-  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  .title-1 {
     font-size: 5.25rem;
     letter-spacing: -0.8px;
   }
-  .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+  .title-2 {
     font-size: 4.25rem;
   }
-  .title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+  .title-3 {
     font-size: 3.75rem;
   }
-  h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  h1, .heading-1 {
     font-size: 3.25rem;
     letter-spacing: -0.4px;
   }
@@ -259,10 +259,10 @@ small.mini, a.mini, .mini {
   }
 }
 @media (min-width: 1380px) {
-  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  .title-1 {
     font-size: 7.75rem;
   }
-  .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+  .title-2 {
     font-size: 5rem;
   }
 }
