@@ -18,7 +18,7 @@ ___     _       __
     <meta name="robots" content="index, follow">
     <meta property="og:url" content="https://polyfen.com">
     <meta property="og:title" content="Polyfen | Software & Creative Studio">
-    <meta name="description" property="og:description" content="Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.">
+    <meta name="description" property="og:description" content="AI consultancy that helps businesses stay ahead of their competition by implementing AI and automation.">
     <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/home.png">
     <!---------- PAGE-SPECIFIC META end ---------->
@@ -44,9 +44,9 @@ ___     _       __
     <main>
         <section class="cover section-cover-home">
             <div class="content-wrapper">
-                <h1 class="title-1 align-center">Transform Ideas<br>into Impact</h1>
-                <p class="align-center">Software & creative studio empowering startups and scaleups with design and engineering solutions since 2018.</p>
-                <a class="button large-button cta-button photo-button margin-bottom-05" href="/discovery-call">Book Call</a>
+                <h1 class="title-2 align-center">Stay Ahead by Making<br>Your Business <span class="color-gradient">AI-first</span></h1>
+                <h2 class="heading-5 margin-bottom-2 font-weight-400 align-center">Tap into our AI consultancy and reduce<br>costs with automated workflows</h2>
+                <a class="button large-button cta-button photo-button margin-bottom-05" href="/#book-call">Book Call</a>
                 <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">Learn More</a>
             </div>
             <div class="pattern-background">
@@ -56,196 +56,56 @@ ___     _       __
         <?php include 'includes/clients-logo-scroller.php';?>
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr id="learn-more">
-        <section class="section-ondemand-summary container-1080 margin-bottom-3 fade-in">
-            <h2 class="heading-1 align-center">Your OnDemand<br>Design & Dev Team</h2>
-            <div class="card fade-in">
-                <div class="row">
-                    <div class="col fade-in">
-                    <div class="video-container">
-                                                        <div class="video-buttons">
-                                                                <button id="replayButton">Replay</button>
-                                                                <button id="muteButton">Unmute</button>
-                                                        </div>
-                                                        <script>
-                                                                document.addEventListener('DOMContentLoaded', () => {
-                                                                        const video = document.querySelector('video');
-                                                                        const replayButton = document.getElementById('replayButton');
-                                                                        const muteButton = document.getElementById('muteButton');
-
-                                                                        replayButton.addEventListener('click', () => {
-                                                                                video.currentTime = 0;
-                                                                                video.play();
-                                                                        });
-
-                                                                        video.addEventListener('play', () => {
-                                                                                replayButton.style.display = 'block';
-                                                                                muteButton.style.display = 'block';
-                                                                        });
-
-                                                                        muteButton.addEventListener('click', () => {
-                                                                                if (video.muted) {
-                                                                                        video.muted = false;
-                                                                                        muteButton.textContent = 'Mute';
-                                                                                } else {
-                                                                                        video.muted = true;
-                                                                                        muteButton.textContent = 'Unmute';
-                                                                                }
-                                                                        });
-
-                                                                        // Ensure subtitles are always displayed
-                                                                        const track = video.textTracks[0];
-                                                                        track.mode = 'showing';
-                                                                });
-                                                        </script>
-                                                        <video autoplay muted loop>
-                                                                <source src="videos/ondemand.webm" type="video/webm">
-                                                                <source src="videos/ondemand.mp4" type="video/mp4">
-                                                        </video>
-                                                </div>   
+        <section class="section-differential-value-props container-1080" id="services">
+            <h2 class="heading-1 align-center fade-in">AI Consulting Services</h2>
+            <div class="row margin-bottom-05">
+                <div class="col card fade-in">
+                    <div class="icon-container">
+                        <img src="/imgs/icons/lock.svg">
                     </div>
-                    <div class="col">
-                        <div >
-                            <h3 class="heading-2 align-center margin-top-2 margin-bottom-1 fade-in"><span class="color-gradient">x1</span> Active Talent</h3>
-                            <h3 class="heading-2 align-center fade-in margin-bottom-1"><span class="color-gradient price-value">$6,490<span class="mini">/month</span></span></h3>
-                            <div class="slider-container fade-in">
-                                    <div class="slider-labels">
-                                            <span id="label1">x1</span>
-                                            <span id="label2">x2</span>
-                                            <span id="label3">x3</span>
-                                            <span id="label4">x4</span>
-                                            <span id="label5">x5</span>
-                                    </div>
-                                    <input type="range" min="1" max="5" value="1" class="slider" id="talentRange">
-                            </div>
-                            <script>
-                                    const slider = document.getElementById('talentRange');
-                                    const labels = document.querySelectorAll('.slider-labels span');
-                                    const talentValue = document.querySelector('.color-gradient');
-                                    const priceValue = document.querySelector('.price-value');
-
-                                    const prices = {
-                                            1: '$6,490<span class="mini">/month</span>',
-                                            2: '$12,330<span class="mini">/month</span>',
-                                            3: '$18,500<span class="mini">/month</span>',
-                                            4: '$24,660<span class="mini">/month</span>',
-                                            5: '$29,810<span class="mini">/month</span>'
-                                    };
-
-                                    slider.addEventListener('input', function() {
-                                            labels.forEach(label => label.classList.remove('active'));
-                                            document.getElementById('label' + this.value).classList.add('active');
-                                            talentValue.innerHTML = 'x' + this.value;
-                                            priceValue.innerHTML = prices[this.value];
-                                            this.style.setProperty('--value', (this.value - 1) * 25);
-                                    });
-
-                                    document.getElementById('label1').classList.add('active');
-                                    slider.style.setProperty('--value', (slider.value - 1) * 25);
-                            </script>
-                        </div>
-                        <ul class="fade-in checkmark-bullet half-spaced-list hanging-list">
-                                <li>Get work done by Designers, UX, Devs, DevOps, and QA</li>
-                                <li>Designated project manager that organizes your workload</li>
-                                <li>Real time, priority support on dedicated Slack channel</li>
-                                <li>Scale, pause, or cancel any time</li>
-                        </ul>
-                        <a class="button secondary-button margin-auto margin-bottom-1" href="/ondemand">Learn More</a>
+                    <h3 class="margin-bottom-1">Own<br>Your Data</h3>
+                    <p>Run the latest AI models in your infrastructure and maintain data compliance (ISO, HIPPA, SOC2, GDPR).</p>
+                </div>
+                <div class="col card fade-in">
+                    <div class="icon-container">
+                        <img src="/imgs/icons/crosshair.svg">
                     </div>
+                    <h3 class="margin-bottom-1">AI Strategy<br>&amp; Planning</h3>
+                    <p>We identify where AI can help your business and create a step-by-step plan to put it to work.</p>
                 </div>
             </div>
-        </section>
-        <hr>
-        <section class="section-services-breakdown">
-            <h2 class="heading-1 align-center">Supercharge your Team<br>with Staff Augmentation</h2>
-            <div class="container-1080">
-                <div class="row margin-bottom-05">
-                        <div class="col card fade-in">
-                                <div class="row">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/pencil-and-ruler.svg">
-                                        </div>
-                                        <h3 class="heading-4">Design</h3>
-                                </div>
-                                <ul class="hanging-list">
-                                        <li>UX/UI designer</li>
-                                        <li>Visual designer</li>
-                                        <li>Motion graphics</li>
-                                        <li>Design systems specialist</li>
-                                        <li>More...</li>
-                                </ul>
-                                <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
-                        </div>
-                        <div class="col card fade-in">
-                                <div class="row">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/cpu.svg">
-                                        </div>
-                                        <h3 class="heading-4">Engineering</h3>
-                                </div>
-                                <ul class="hanging-list">
-                                        <li>Front-end</li>
-                                        <li>Back-end</li>
-                                        <li>Full-stack</li>
-                                        <li>iOS</li>
-                                        <li>More...</li>
-                                </ul>
-                                <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
-                        </div>
-                        <div class="col card fade-in">
-                                <div class="row">
-                                        <div class="icon-container">
-                                                <img src="/imgs/icons/chart-bar.svg">
-                                        </div>
-                                        <h3 class="heading-4">Management</h3>
-                                </div>
-                                <ul class="hanging-list">
-                                        <li>Tech lead</li>
-                                        <li>Business analyst</li>
-                                        <li>Product owner</li>
-                                        <li>Product manager</li>
-                                        <li>More...</li>
-                                </ul>
-                                <a class="button secondary-button small-button margin-auto" href="/staff-augmentation">Learn More</a>
-                        </div>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section class="section-portolio-thumbnails">
-            <h2 class="heading-1 align-center fade-in">World-class Design</h2>
-            <!---------- PORTFOLIO-SCROLLER.php start ---------->
-            <?php include 'includes/portfolio-scroller.php';?>
-            <!---------- PORTFOLIO-SCROLLER.php end ---------->
-        </section>
-        <hr>
-        <section class="section-differential-value-props container-1080">
-            <h2 class="heading-1 align-center fade-in">Not Just Different.<br>Better.</h2>
             <div class="row">
                 <div class="col card fade-in">
                     <div class="icon-container">
-                        <img src="/imgs/icons/hand-coins.svg">
+                        <img src="/imgs/icons/robot.svg">
                     </div>
-                    <h3 class="margin-bottom-1">Low Cost,<br>High Value</h3>
-                    <p>Our remote business model passes the savings onto you.</p>
+                    <h3 class="margin-bottom-1">AI-Powered<br>Automation</h3>
+                    <p>We help businesses reduce repetitive work by using AI to handle tasks more efficiently.</p>
                 </div>
                 <div class="col card fade-in">
                     <div class="icon-container">
-                        <img src="/imgs/icons/crown-simple.svg">
+                        <img src="/imgs/icons/head-circuit.svg">
                     </div>
-                    <h3 class="margin-bottom-1">White Glove<br>Customer Service</h3>
-                    <p>Dedicated support from results-<br>driven project managers.</p>
+                    <h3 class="margin-bottom-1">Enhanced<br>Decision-Making</h3>
+                    <p>Automate and simplify decisions, escalations, and directives to focus on what’s important.</p>
                 </div>
                 <div class="col card fade-in">
                     <div class="icon-container">
-                        <img src="/imgs/icons/resize.svg">
+                        <img src="/imgs/icons/chats.svg">
                     </div>
-                    <h3 class="margin-bottom-1">Scalable Solutions<br>On Demand</h3>
-                    <p>Flexible services for startups, scaleups, and everything in between.</p>
+                    <h3 class="margin-bottom-1">AI-First<br>Comms</h3>
+                    <p>We use AI to automate content, simplify business communications, and enhance support.</p>
                 </div>
             </div>
         </section>
         <hr>
-        <section class="section-testimonials container-1080">
+        <section class="section-use-cases container-1080" id="use-cases">
+            <h2 class="heading-1 align-center fade-in">Use Cases</h2>
+        <hr>
+        <section class="section-about container-1080" id="about">
+            <h2 class="heading-1 align-center fade-in">Not Just Different.<br>Better.</h2>
+        <hr>
+        <section class="section-testimonials container-1080" id="testimonials">
             <h2 class="heading-1 align-center fade-in">Delivering Success,<br>One Client at a Time</h2>
             <?php include 'includes/testimonials.php';?>
         </section>
