@@ -25,6 +25,10 @@
     margin-bottom: 0;
 }
 
+.card li {
+    font-family: var(--serif-font-family), var(--serif-fallback-fonts);
+}
+
 .featured-card-wrapper {
     border-radius: 12px;
     padding: 2px;

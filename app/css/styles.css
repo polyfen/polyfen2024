@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, button, a.button, a small, small {
   font-feature-settings: "kern", "liga", "calt";
 }
 
-p, p a, li, p strong, p span, li strong, li a, p a {
+p, li, th, td {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
@@ -187,7 +187,7 @@ h6, .heading-6 {
   line-height: 120%;
 }
 
-p, p a, li, p strong, p span, li strong, th, td, li a {
+p, li, th, td {
   font-size: 1.175rem;
   line-height: 150%;
 }
@@ -312,7 +312,7 @@ h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.headi
   font-variation-settings: "wght" 600;
 }
 
-p, p a, li, p span, th, td, li a {
+p, li, th, td {
   font-weight: 400;
   font-variation-settings: "wght" 400;
 }
@@ -1359,7 +1359,7 @@ main ul li::before {
 }
 
 .hanging-list {
-  padding-left: 24px;
+  padding-left: 20px;
 }
 
 .arrow-bullets li::before {
@@ -1585,6 +1585,10 @@ ul.no-bullets li:before {
 
 .card p {
   margin-bottom: 0;
+}
+
+.card li {
+  font-family: var(--serif-font-family), var(--serif-fallback-fonts);
 }
 
 .featured-card-wrapper {

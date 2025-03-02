@@ -51,6 +51,7 @@ pre, code, pre code, pre code span {
     font-family: var(--mono-font-family), monospace;
 }
 
+
 /* TEXT WRAP */
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,7 +79,7 @@ h1, h2, h3, h4, h5, button, a.button, a small, small {
     font-feature-settings: "kern","liga","calt";
 }
 
-p, p a, li, p strong, p span, li strong, li a, p a {
+p, li, th, td {
     -moz-font-feature-settings: "kern","liga","clig","calt";
     -ms-font-feature-settings: "kern","liga","clig","calt";
     -webkit-font-feature-settings: "kern","liga","clig","calt";
@@ -139,7 +140,7 @@ h6, .heading-6 {
     line-height: 120%;
 }
 
-p, p a, li, p strong, p span, li strong, th, td, li a {
+p, li, th, td {
     font-size: 1.175rem;
     line-height: 150%;
 }
@@ -272,7 +273,7 @@ h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.headi
 }
 
 
-p, p a, li, p span, th, td, li a {
+p, li, th, td{
     font-weight: 400;
     font-variation-settings: "wght" 400;
 }
