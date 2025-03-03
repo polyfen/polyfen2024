@@ -4,7 +4,7 @@
             <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
             <blockquote>
                 <p class="caption">
-                Polyfen became my CTO’s right hand. They helped us scale our team and deliver on time.
+                Polyfen automated our finance workflows, saving us 20 hours a week while boosting accuracy. Their AI solutions are a total game-changer.
                 </p>
             </blockquote>
             <figcaption>
@@ -16,19 +16,19 @@
             <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
             <blockquote>
                 <p class="caption">
-                Always a pleasure working with them. They are very professional and always deliver on time. Their work always exceeds expectations.
+                They pinpointed exactly where AI could transform our marketing and sales pipeline, driving a 30% lift in conversions. Polyfen truly delivered.
                 </p>
             </blockquote>
             <figcaption>
-                <img src="/imgs/testimonials/carlos-flores.webp" height="36" width="36" alt="">
-                <small>Carlos Flores,<br>CEO at Metas Investments</small>
+                <img src="/imgs/testimonials/#.webp" height="36" width="36" alt="">
+                <small>#,<br>CEO at #</small>
             </figcaption>
         </figure>
         <figure class="testimonial fade-in card card-with-padding col">
             <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
             <blockquote>
                 <p class="caption">
-                Our whole mobile app team was sourced by Polyfen. Now, they are a key part of our success.
+                Our new AI-powered chatbots handle 70% of routine support, freeing the team to focus on higher-level tasks. Polyfen made it happen seamlessly.
                 </p>
             </blockquote>
             <figcaption>
@@ -42,7 +42,7 @@
             <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
             <blockquote>
                 <p class="caption">
-                    Thanks to Polyfen we crushed our tech debt and added new integrations to our platform in record time.
+                We cut compliance research time in half with their document classification and risk analysis solutions. Couldn’t be happier with the results.
                 </p>
             </blockquote>
             <figcaption>
@@ -54,7 +54,7 @@
             <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
             <blockquote>
                 <p class="caption">
-                Thanks to their lightning-fast turnaround they helped us catch up with the product goals we were behind on.
+                From HR screening to scheduling automation, Polyfen’s AI approach streamlined our daily operations. It’s like having an extra team on board.
                 </p>
             </blockquote>
             <figcaption>
@@ -66,7 +66,7 @@
             <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
             <blockquote>
                 <p class="caption">
-                    They helped us lower infra costs and reinvest that into new features for product growth.
+                Polyfen’s real-time threat detection boosted our security posture overnight. We’ve never been more confident about our data protection.
                 </p>
             </blockquote>
             <figcaption>
@@ -75,83 +75,4 @@
             </figcaption>
         </figure>
     </div>
-</div>
-<div class="testimonials-wrapper testimonials-wrapper-branding row gap-05">
-    <figure class="testimonial fade-in card card-with-padding col">
-        <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
-        <blockquote>
-            <p class="caption">
-                Always a pleasure working with them. They are very professional
-                and always deliver on time. Their work always exceeds expectations.
-            </p>
-        </blockquote>
-        <figcaption>
-            <img src="/imgs/testimonials/carlos-flores.webp" height="36" width="36" alt="">
-            <small>Carlos Flores,<br>CEO at Metas Investments</small>
-        </figcaption>
-    </figure>
-    <figure class="testimonial fade-in card card-with-padding col">
-        <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
-        <blockquote>
-            <p class="caption">
-                The final result was really great and had tons of
-                assets to use in different display formats.
-                We are super happy with our brand!
-            </p>
-        </blockquote>
-        <figcaption>
-            <img src="/imgs/testimonials/mati-storie.webp" height="36" width="36" alt="">
-            <small> Matias Sanchez,<br>Founder at Bike in Mex</small>
-        </figcaption>
-    </figure>
-    <figure class="testimonial fade-in card card-with-padding col">
-        <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
-        <blockquote>
-            <p class="caption">
-                Excellent skills and talent in project management, design, and branding.
-            </p>
-        </blockquote>
-        <figcaption>
-            <img src="/imgs/testimonials/cesar-storie.webp" height="36" width="36" alt="">
-            <small>Cesar Ramos,<br>CEO at Tradeana</small>
-        </figcaption>
-    </figure>
-</div>
-<div class="testimonials-wrapper testimonials-wrapper-staff-augmentation row gap-05">
-    <figure class="testimonial fade-in card card-with-padding col">
-        <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
-        <blockquote>
-            <p class="caption">
-                Thanks to their lightning-fast turnaround they helped us catch up with the product goals we were behind on.
-            </p>
-        </blockquote>
-        <figcaption>
-            <img src="/imgs/testimonials/jeremiah-simmons.webp" height="36" width="36" alt="">
-            <small>Jeremiah Simmons,<br>Co-founder at Blue Forge Labs</small>
-        </figcaption>
-    </figure>
-    <figure class="testimonial fade-in card card-with-padding col">
-        <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
-        <blockquote>
-            <p class="caption">
-                Every hire from Polyfen immediately clicked with the rest of team. Highly recommend.
-            </p>
-        </blockquote>
-        <figcaption>
-            <img src="/imgs/testimonials/matthew-sato.webp" height="36" width="36" alt="">
-            <small>Matthew Sato,<br>CTO at DeltaCraft</small>
-        </figcaption>
-    </figure>
-    <figure class="testimonial fade-in card card-with-padding col">
-        <img src="/imgs/five-stars.svg" alt="5 stars" class="margin-bottom-1">
-        <blockquote>
-            <p class="caption">
-                Our whole mobile app team was sourced by Polyfen. Now, they are a key part of our success.
-            </p>
-        </blockquote>
-        <figcaption>
-            <img src="/imgs/testimonials/amelia-rivera.webp" height="36" width="36" alt="">
-            <small>Amelia Rivera,<br>VP of Product at Orionis App</small>
-        </figcaption>
-    </figure>
 </div>

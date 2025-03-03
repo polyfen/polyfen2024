@@ -130,60 +130,76 @@ h1, h2, h3, h4, h5, button, a.button, a small, small {
   font-feature-settings: "kern", "liga", "calt";
 }
 
-p, p a, li, p strong, p span, li strong, li a, p a {
+p, li, th, td {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
 /* FONT-SIZES, LINE-HEIGHT, LETTER-SPACING */
-.title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+.title-1 {
   font-size: 3rem;
   line-height: 110%;
   letter-spacing: -0.4px;
 }
 
-.title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+.title-2 {
+  font-size: 2.85rem;
+  line-height: 110%;
+  letter-spacing: -0.4px;
+}
+
+.title-3 {
   font-size: 2.75rem;
   line-height: 110%;
   letter-spacing: -0.4px;
 }
 
-.title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+.title-4 {
   font-size: 2.4rem;
   line-height: 110%;
   letter-spacing: -0.4px;
 }
 
-h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+h1, .heading-1 {
   font-size: 2rem;
   line-height: 110%;
   letter-spacing: -0.25px;
 }
 
-h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+h2, .heading-2 {
   font-size: 1.75rem;
   line-height: 110%;
   letter-spacing: -0.25px;
 }
 
-h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+h3, .heading-3 {
   font-size: 1.5rem;
   line-height: 110%;
   letter-spacing: -0.25px;
 }
 
-h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+h4, .heading-4 {
   font-size: 1.375rem;
   line-height: 110%;
 }
 
-h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
+h5, .heading-5 {
   font-size: 1.25rem;
   line-height: 120%;
 }
 
-p, p a, li, p strong, p span, li strong, th, td, li a {
+h6, .heading-6 {
   font-size: 1.2rem;
+  line-height: 120%;
+}
+
+.heading-7 {
+  font-size: 1.175rem;
+  line-height: 120%;
+}
+
+p, li, th, td {
+  font-size: 1.175rem;
   line-height: 150%;
 }
 
@@ -214,55 +230,67 @@ small.mini, a.mini, .mini {
 }
 
 @media (min-width: 720px) {
-  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  .title-1 {
     font-size: 3.75rem;
   }
-  .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+  .title-2 {
+    font-size: 3.25rem;
+  }
+  .title-3 {
     font-size: 3rem;
   }
-  .title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
+  .title-4 {
     font-size: 2.85rem;
   }
-  h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
+  h1, .heading-1 {
     font-size: 2.75rem;
   }
-  h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.heading-2, h6.heading-2 {
+  h2, .heading-2 {
     font-size: 2.5rem;
   }
-  h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
+  h3, .heading-3 {
     font-size: 2.2rem;
   }
-  h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
+  h4, .heading-4 {
     font-size: 1.75rem;
   }
-  h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {
+  h5, .heading-5 {
     font-size: 1.6rem;
   }
-}
-@media (min-width: 1200px) {
-  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
-    font-size: 5.25rem;
-    letter-spacing: -0.8px;
+  h6, .heading-6 {
+    font-size: 1.4rem;
   }
-  .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
-    font-size: 4.25rem;
-  }
-  .title-3, h1.title-3, h2.title-3, h3.title-3, h4.title-3, h5.title-3, h6.title-3 {
-    font-size: 3.75rem;
-  }
-  h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
-    font-size: 3.25rem;
-    letter-spacing: -0.4px;
-  }
-  p, p a, li, p strong, p span, li strong, th, td, li a {
+  .heading-7 {
     font-size: 1.25rem;
   }
 }
+@media (min-width: 1200px) {
+  .title-1 {
+    font-size: 5.25rem;
+    letter-spacing: -0.8px;
+  }
+  .title-2 {
+    font-size: 4.75rem;
+  }
+  .title-3 {
+    font-size: 4.25rem;
+  }
+  .title-4 {
+    font-size: 3.75rem;
+  }
+  h1, .heading-1 {
+    font-size: 3.25rem;
+    letter-spacing: -0.4px;
+  }
+}
 @media (min-width: 1380px) {
-  .title-1, h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+  .title-1 {
     font-size: 7.75rem;
   }
-  .title-2, h1.title-2, h2.title-2, h3.title-2, h4.title-2, h5.title-2, h6.title-2 {
+  .title-2 {
+    font-size: 6.25rem;
+  }
+  .title-3 {
     font-size: 5rem;
   }
 }
@@ -307,7 +335,7 @@ h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.headi
   font-variation-settings: "wght" 600;
 }
 
-p, p a, li, p span, th, td, li a {
+p, li, th, td {
   font-weight: 400;
   font-variation-settings: "wght" 400;
 }
@@ -899,9 +927,18 @@ hr.vertical-hr {
   justify-content: flex-start;
 }
 
+.use-cases-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
 @media (min-width: 900px) {
   .row {
     flex-direction: row;
+  }
+  .use-cases-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 /*///////////// _ROWS.scss end /////////////*/
@@ -1354,7 +1391,7 @@ main ul li::before {
 }
 
 .hanging-list {
-  padding-left: 24px;
+  padding-left: 20px;
 }
 
 .arrow-bullets li::before {
@@ -1567,6 +1604,7 @@ ul.no-bullets li:before {
   padding-block: 16px 24px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .card.card-small {
@@ -1580,6 +1618,10 @@ ul.no-bullets li:before {
 
 .card p {
   margin-bottom: 0;
+}
+
+.card li {
+  font-family: var(--serif-font-family), var(--serif-fallback-fonts);
 }
 
 .featured-card-wrapper {
@@ -2215,7 +2257,7 @@ header {
   align-items: center;
   background: var(--black);
   border-bottom: 1px solid var(--accent-color-30pct);
-  max-width: 1200px;
+  max-width: 1080px;
   margin-inline: auto;
   border-radius: 12px;
   padding: 12px 16px;
@@ -2776,6 +2818,25 @@ footer nav a {
   margin-inline: auto;
 }
 
+.mobile-row {
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 16px;
+}
+
+.mobile-row h3 {
+  margin-bottom: 0 !important;
+}
+
+.mobile-row .icon-container {
+  margin-bottom: 0 !important;
+}
+
+.section-use-cases h4 {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
 /*///////////// _HOME.scss end /////////////*/
 /* -------------------------------------------------*/
 /* ------------------------------------------------------ */
@@ -3179,6 +3240,25 @@ div.other-project-card img {
 
 /*///////////// _SUBSCRIPTIONS.scss end /////////////*/
 /*------------------------------------------------------ */
+.video-container {
+  position: relative;
+}
+
+.video-buttons {
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  z-index: 9;
+}
+
+.video-buttons button {
+  width: 120px;
+  border-radius: 8px;
+  background-color: var(--slate-900);
+}
+
 .video-container video {
   max-width: 100%;
   border-radius: 6px;

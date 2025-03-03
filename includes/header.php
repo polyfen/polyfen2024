@@ -6,15 +6,13 @@
             </a>
         </div>
         <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/case-studies">Case Studies</a>
-            <a href="/ondemand">OnDemand</a>
-            <a href="/staff-augmentation">Staff Augmentation</a>
-            <a href="/branding">Branding</a>
+            <a href="/#services">Services</a>
+            <a href="/#use-cases">Use Cases</a>
+            <a href="/#about">About</a>
+            <a href="/#testimonials">Testimonials</a>
         </nav>
         <div class="header-cta-container">
-            <a class="button photo-button" href="/discovery-call">Book Call</a>
+            <a class="button photo-button" href="/#book-call">Book Call</a>
         </div>
         <div class="nav-menu-buttons">
             <button aria-label="Open/Close navbar" class="nav-open-button">

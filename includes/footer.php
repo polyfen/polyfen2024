@@ -20,12 +20,11 @@
     </div>
     <div class="footer-navbar-container">
         <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/case-studies">Case Studies</a>
-            <a href="/ondemand">OnDemand</a>
-            <a href="/staff-augmentation">Staff Augmentation</a>
-            <a href="/branding">Branding</a>
+            <a href="/#services">Services</a>
+            <a href="/#use-cases">Use Cases</a>
+            <a href="/#about">About</a>
+            <a href="/#testimonials">Testimonials</a>
+            <a href="/#book-call">Book Call</a>
         </nav>
     </div>
     <div class="social-links-container">
@@ -33,13 +32,7 @@
             <li>
                 <a class="caption" href="http://polyfen.com/twitter" target="_blank" title="X" id="x-icon">Twitter / X ↗</li>
             <li>
-                <a class="caption" href="http://polyfen.com/instagram" target="_blank" title="Instagram">Instagram ↗</a>
-            </li>
-            <li>
                 <a class="caption" href="http://polyfen.com/linkedin" target="_blank" title="Linkedin" id="linkedin-icon">Linkedin ↗</a>
-            </li>
-            <li>
-                <a class="caption" href="http://polyfen.com/github" target="_blank" title="Github" id="github-icon">Github ↗</a>
             </li>
         </ul>
     </div>

@@ -1,4 +1,3 @@
-
 RewriteOptions inherit
 
 RewriteEngine on
@@ -59,8 +58,8 @@ RewriteRule ^case\-study$ "http\:\/\/polyfen\.com\/case\-study\.php" [R=301,L]
 RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^pinterest$ "https\:\/\/www\.pinterest\.com\/polyfen\/brand\-identity\-design\/" [R=301,L]
 RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
@@ -221,9 +220,14 @@ RewriteRule ^ux$ "https\:\/\/docs\.google\.com\/document\/d\/1mh1lTJaMAMBYRP1gyy
 RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^github$ "http\:\/\/github\.com\/orgs\/polyfen" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^polyfen\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.polyfen\.com$
+RewriteCond %{REQUEST_URI} ^/subscriptions$
+RewriteRule ^subscriptions$ /ondemand [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php?%{QUERY_STRING} [NC,L]
