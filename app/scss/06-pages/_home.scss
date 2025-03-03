@@ -250,5 +250,24 @@
     margin-inline: auto;
 }
 
+.mobile-row {
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 16px;
+}
+
+.mobile-row h3 {
+    margin-bottom: 0 !important;
+}
+
+.mobile-row .icon-container {
+    margin-bottom: 0 !important;
+}
+
+.section-use-cases h4 {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
 /*///////////// _HOME.scss end /////////////*/
 /* -------------------------------------------------*/

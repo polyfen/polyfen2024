@@ -143,12 +143,18 @@ p, li, th, td {
 }
 
 .title-2 {
-  font-size: 2.75rem;
+  font-size: 2.85rem;
   line-height: 110%;
   letter-spacing: -0.4px;
 }
 
 .title-3 {
+  font-size: 2.75rem;
+  line-height: 110%;
+  letter-spacing: -0.4px;
+}
+
+.title-4 {
   font-size: 2.4rem;
   line-height: 110%;
   letter-spacing: -0.4px;
@@ -184,6 +190,11 @@ h5, .heading-5 {
 
 h6, .heading-6 {
   font-size: 1.2rem;
+  line-height: 120%;
+}
+
+.heading-7 {
+  font-size: 1.175rem;
   line-height: 120%;
 }
 
@@ -223,9 +234,12 @@ small.mini, a.mini, .mini {
     font-size: 3.75rem;
   }
   .title-2 {
-    font-size: 3rem;
+    font-size: 3.25rem;
   }
   .title-3 {
+    font-size: 3rem;
+  }
+  .title-4 {
     font-size: 2.85rem;
   }
   h1, .heading-1 {
@@ -246,6 +260,9 @@ small.mini, a.mini, .mini {
   h6, .heading-6 {
     font-size: 1.4rem;
   }
+  .heading-7 {
+    font-size: 1.25rem;
+  }
 }
 @media (min-width: 1200px) {
   .title-1 {
@@ -253,9 +270,12 @@ small.mini, a.mini, .mini {
     letter-spacing: -0.8px;
   }
   .title-2 {
-    font-size: 4.25rem;
+    font-size: 4.75rem;
   }
   .title-3 {
+    font-size: 4.25rem;
+  }
+  .title-4 {
     font-size: 3.75rem;
   }
   h1, .heading-1 {
@@ -268,6 +288,9 @@ small.mini, a.mini, .mini {
     font-size: 7.75rem;
   }
   .title-2 {
+    font-size: 6.25rem;
+  }
+  .title-3 {
     font-size: 5rem;
   }
 }
@@ -2783,6 +2806,25 @@ footer nav a {
   border-radius: 4px;
   max-width: 520px;
   margin-inline: auto;
+}
+
+.mobile-row {
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 16px;
+}
+
+.mobile-row h3 {
+  margin-bottom: 0 !important;
+}
+
+.mobile-row .icon-container {
+  margin-bottom: 0 !important;
+}
+
+.section-use-cases h4 {
+  display: inline-block;
+  margin-bottom: 0.5rem;
 }
 
 /*///////////// _HOME.scss end /////////////*/
