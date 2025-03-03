@@ -927,9 +927,18 @@ hr.vertical-hr {
   justify-content: flex-start;
 }
 
+.use-cases-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
 @media (min-width: 900px) {
   .row {
     flex-direction: row;
+  }
+  .use-cases-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 /*///////////// _ROWS.scss end /////////////*/
@@ -1595,6 +1604,7 @@ ul.no-bullets li:before {
   padding-block: 16px 24px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .card.card-small {

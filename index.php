@@ -101,8 +101,8 @@ ___     _       __
         <hr>
         <section class="section-use-cases container-1200" id="use-cases">
             <h2 class="heading-1 align-center fade-in">Vertical Use Cases</h2>
-            <div class="row margin-bottom-05">
-                <div class="col card fade-in">
+            <div class="use-cases-grid">
+                <div class="card fade-in">
                     <div class="mobile-row fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/clipboard.svg">
@@ -117,7 +117,7 @@ ___     _       __
                         <li class="fade-in"><h4 class="heading-7 color-gradient">Smart Assistants</h4><br>Voice-activated or chat-based AI systems that provide quick answers to internal administrative queries.</li>
                     </ul>
                 </div>
-                <div class="col card fade-in">
+                <div class="card fade-in">
                     <div class="mobile-row fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/users-three.svg">
@@ -132,9 +132,7 @@ ___     _       __
                         <li class="fade-in"><h4 class="heading-7 color-gradient">Predictive Workforce Planning</h4><br>Algorithms that forecast staffing needs based on historical data and upcoming projects.</li>
                     </ul>
                 </div>
-            </div>
-            <div class="row margin-bottom-05">
-                <div class="col card fade-in">                
+                <div class="card fade-in">                
                     <div class="mobile-row fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/wallet.svg">
@@ -149,7 +147,7 @@ ___     _       __
                         <li class="fade-in"><h4 class="heading-7 color-gradient">Credit Scoring</h4><br>AI-based risk assessment to make lending and credit decisions faster and more accurate.</li>
                     </ul>
                 </div>
-                <div class="col card fade-in">
+                <div class="card fade-in">
                     <div class="mobile-row fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/storefront.svg">
@@ -164,9 +162,7 @@ ___     _       __
                         <li class="fade-in"><h4 class="heading-7 color-gradient">Chatbots & Virtual Assistants</h4><br>Automated customer interactions that handle FAQs, demo requests, and lead qualification.</li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col card fade-in">
+                <div class="card fade-in">
                     <div class="mobile-row fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/shield.svg">
