@@ -44,8 +44,8 @@ ___     _       __
     <main>
         <section class="cover section-cover-home">
             <div class="content-wrapper">
-                <h1 class="title-2 align-center">Stay Ahead by Making<br>Your Business <span class="color-gradient">AI-first</span></h1>
-                <h2 class="heading-5 margin-bottom-2 font-weight-400 align-center">Tap into our AI consultancy and reduce<br>costs with automated workflows</h2>
+                <h1 class="title-2 align-center">Make Your<br>Business <span class="color-gradient">AI-first</span></h1>
+                <h2 class="heading-5 margin-bottom-2 font-weight-400 align-center">Reduce costs, increase efficiency,<br>and automate workflows</h2>
                 <a class="button large-button cta-button photo-button margin-bottom-05" href="/#book-call">Book Call</a>
                 <a data-button-arrow-down class="button large-button secondary-button" href="#learn-more">Learn More</a>
             </div>
@@ -80,7 +80,7 @@ ___     _       __
                         <img src="/imgs/icons/robot.svg">
                     </div>
                     <h3 class="margin-bottom-1">AI-Powered<br>Automation</h3>
-                    <p>We help businesses reduce repetitive work by using AI to handle tasks more efficiently.</p>
+                    <p>We leverage AI to get rid of repetitive work and make teams more efficient.</p>
                 </div>
                 <div class="col card fade-in">
                     <div class="icon-container">
@@ -88,13 +88,6 @@ ___     _       __
                     </div>
                     <h3 class="margin-bottom-1">Enhanced<br>Decision-Making</h3>
                     <p>Automate and simplify decisions, escalations, and directives to focus on what’s important.</p>
-                </div>
-                <div class="col card fade-in">
-                    <div class="icon-container">
-                        <img src="/imgs/icons/chats.svg">
-                    </div>
-                    <h3 class="margin-bottom-1">AI-First<br>Comms</h3>
-                    <p>We use AI to automate content, simplify business communications, and enhance support.</p>
                 </div>
             </div>
         </section>
