@@ -1810,7 +1810,7 @@ body:not(.body-branding) .testimonials-wrapper-branding, body:not(.body-staff-au
     align-items: flex-start;
   }
   .testimonial {
-    height: 250px;
+    height: 220px;
   }
   .testimonial blockquote {
     height: -webkit-fill-available;
