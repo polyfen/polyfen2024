@@ -92,7 +92,7 @@ ___     _       __
             </div>
         </section>
         <hr>
-        <section class="section-use-cases container-1200" id="use-cases">
+        <section class="section-use-cases container-1080" id="use-cases">
             <h2 class="heading-1 align-center fade-in">Vertical Use Cases</h2>
             <div class="use-cases-grid">
                 <div class="card fade-in">
