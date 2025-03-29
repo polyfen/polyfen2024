@@ -173,7 +173,42 @@ ___     _       __
         </section>
         <hr>
         <section class="section-about container-1080" id="about">
-            <h2 class="heading-1 align-center fade-in">Not Just Different.<br>Better.</h2>
+            <h2 class="heading-1 align-center fade-in">Stellar Leadership</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="card leadership-card leadership-card-rodrigo">
+                        <h3 class="margin-bottom-05 fade-in">Rodrigo Gatica</h3>
+                        <h4 class="heading-6 fade-in">Chief Executive Officer &amp; Co-Founder</h4>
+                        <ul class="hanging-list spaced-list margin-bottom-0 fade-in">
+                            <li class="fade-in">Leading projects since 2016, recruiting tech talent since 2018.</li>
+                            <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
+                            <li class="fade-in">Ran operations at companies in hypergrowth mode.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card leadership-card leadership-card-matias">
+                        <h3 class="margin-bottom-05 fade-in">Matias Gea</h3>
+                        <h4 class="heading-6 fade-in">Chief Technology Officer &amp; Co-Founder</h4>
+                        <ul class="hanging-list spaced-list margin-bottom-0 fade-in">
+                            <li class="fade-in">Leading projects since 2016, recruiting tech talent since 2018.</li>
+                            <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
+                            <li class="fade-in">Ran operations at companies in hypergrowth mode.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card leadership-card leadership-card-boris">
+                        <h3 class="margin-bottom-05 fade-in">Boris Hrncic</h3>
+                        <h4 class="heading-6 fade-in">Chief Design Officer &amp; Co-Founder</h4>
+                        <ul class="hanging-list spaced-list margin-bottom-0 fade-in">
+                            <li class="fade-in">Designing brands and digital products since 2010, coding websites since 2008.</li>
+                            <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.</li>
+                            <li class="fade-in">Led high-performance teams in bootstrapped startups and well-established multinationals.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         <hr>
         <section class="section-testimonials container-1080" id="testimonials">
             <h2 class="heading-1 align-center fade-in">Delivering Success,<br>One Client at a Time</h2>

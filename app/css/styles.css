@@ -1636,6 +1636,10 @@ ul.no-bullets li:before {
     padding-block: 24px 32px;
   }
 }
+.leadership-card {
+  padding-top: 280px;
+}
+
 /*///////////// _CARDS.scss end /////////////*/
 /* -------------------------------------------------*/
 .slider-container {
