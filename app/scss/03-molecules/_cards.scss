@@ -46,7 +46,24 @@
 
 .leadership-card {
     padding-top: 280px;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
+
+.leadership-card-rodrigo {
+    background-image: url(../../imgs/rod-portrait.webp);
+}
+
+.leadership-card-matias {
+    background-image: url(../../imgs/matias-gea.png);
+}
+
+.leadership-card-boris {
+    background-image: url(../../imgs/about/boris-hrncic.webp);
+}
+
+
 
 /*///////////// _CARDS.scss end /////////////*/
 /* -------------------------------------------------*/
