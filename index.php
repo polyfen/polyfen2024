@@ -218,6 +218,7 @@ ___     _       __
                     </div>
                 </div>
             </div>
+        </section>
         <hr>
         <section class="section-testimonials container-1080" id="testimonials">
             <h2 class="heading-1 align-center fade-in">Delivering Success,<br>One Client at a Time</h2>
