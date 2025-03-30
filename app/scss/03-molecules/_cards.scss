@@ -112,7 +112,7 @@
 }
 
 .leadership-card .linkedin-icon:hover {
-    background-color: var(--accent-color);
+    background-image: var(--accent-gradient, linear-gradient(225deg, #D837F8 0%, #3747F8 100%));
 }
 
 /*///////////// _CARDS.scss end /////////////*/
