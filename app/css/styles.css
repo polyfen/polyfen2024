@@ -2551,6 +2551,35 @@ header nav {
     margin-inline: unset;
   }
 }
+.section-cover-about .col.click-animation {
+  position: relative;
+  min-height: 400px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+.section-cover-about .parallax-bg {
+  background: conic-gradient(from 180deg at 50% 70%, hsl(0, 0%, 98%) 0deg, #3939f4 72.0000010729deg, #f92dfc 104.0000021458deg, #1d1dae 216.0000085831deg, #f92dfc 288.0000042915deg, #f92dfc 1turn);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  pointer-events: none;
+  -webkit-mask: radial-gradient(circle at 50% 50%, white 2px, transparent 2.5px) 50% 50%/20px 20px, url("https://assets.codepen.io/605876/noise-mask.png") 256px 50%/256px 256px;
+          mask: radial-gradient(circle at 50% 50%, white 2px, transparent 2.5px) 50% 50%/20px 20px, url("https://assets.codepen.io/605876/noise-mask.png") 256px 50%/256px 256px;
+  -webkit-mask-composite: source-in, xor;
+          mask-composite: intersect;
+  animation: flicker 20s infinite linear;
+  mix-blend-mode: color-dodge;
+}
+
 :root {
   --cta-section-background: var(--slate-900);
 }
@@ -3133,7 +3162,7 @@ footer nav a {
 
 @media (min-width: 900px) {
   .video-bg.pattern-background {
-    left: calc(50% - 160px);
+    left: 50%;
   }
 }
 .body-home .pattern-background,

@@ -1,0 +1,18 @@
+.section-cover-about .col.click-animation {
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+.parallax-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120%; /* Slightly larger to account for movement */
+    height: 120%; /* Slightly larger to account for movement */
+    transform: translate(-50%, -50%);
+    will-change: transform;
+    backface-visibility: hidden;
+    perspective: 1000px;
+    pointer-events: none; /* Ensures the parallax doesn't interfere with interactions */
+} 

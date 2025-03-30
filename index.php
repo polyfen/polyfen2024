@@ -28,6 +28,7 @@ ___     _       __
     <script defer src="/app/js/horizontal-scroll.js"></script>
     <script defer src="/app/js/plan-cards-toggle.js"></script>
     <script defer src="/app/js/click-animation.js"></script>
+    <script defer src="/app/js/parallax-effect.js"></script>
     <!---------- PAGE-SPECIFIC SCRIPTS end ---------->
 </head>
 <body class="body-home">
@@ -179,7 +180,7 @@ ___     _       __
                 <div class="col click-animation fade-in visible">
                     <img src="/imgs/cursor.svg" alt="" class="cursor-image">
                     <img src="/imgs/click-lines.svg" alt="" class="click-lines">   
-                    <div class="pattern-background video-bg">
+                    <div class="pattern-background video-bg parallax-bg">
                     </div>
                 </div>
                 <div class="col">
