@@ -92,6 +92,8 @@
 .leadership-card:hover {
     padding-top: 24px;
     border-color: var(--accent-color-50pct);
+    box-shadow: 0 0 6px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, .4);
+    transition: all 0.5s ease-out;
 }
 
 .leadership-card:hover ul {
@@ -99,7 +101,7 @@
 }
 
 .leadership-card:hover::after {
-    background: black;
+    background-image: linear-gradient(to top right, rgba(0,0,0,1) 0%, var(--slate-900) 100%);
 }
 
 .leadership-card .linkedin-icon {
@@ -111,8 +113,14 @@
     padding: 8px;
 }
 
+.leadership-card:hover .linkedin-icon {
+    background-image: var(--accent-gradient, linear-gradient(225deg, #D837F8 0%, #3747F8 100%));
+    box-shadow: 0 0 4px 2px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, .4);
+}
+
 .leadership-card .linkedin-icon:hover {
     background-image: var(--accent-gradient, linear-gradient(225deg, #D837F8 0%, #3747F8 100%));
+    box-shadow: 0 0 4px 2px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, .4);
 }
 
 /*///////////// _CARDS.scss end /////////////*/
