@@ -1653,13 +1653,13 @@ ul.no-bullets li:before {
   padding-top: 290px;
   padding-bottom: 24px;
   background-size: contain;
-  background-position: center 16px;
   background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
   height: 420px;
   justify-content: flex-start;
   background-color: black;
+  transition: padding-top 0.5s ease-out, border-color 0.5s ease-out, box-shadow 0.5s ease-out, background-position 0.3s ease-out;
 }
 
 .leadership-card-rodrigo {
@@ -1698,7 +1698,7 @@ ul.no-bullets li:before {
   padding-top: 24px;
   border-color: var(--accent-color-50pct);
   box-shadow: 0 0 6px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
-  transition: all 0.5s ease-out;
+  background-position: center 16px;
 }
 
 .leadership-card:hover ul {
