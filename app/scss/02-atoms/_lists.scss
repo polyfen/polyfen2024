@@ -11,12 +11,18 @@ main ul {
 }
   
 main ul li::before {
-    content: "✦";
-    color: var(--accent-color); 
-    font-weight: bold;
-    display: inline-block; 
-    width: 1.2em; 
-    margin-left: -1.2em;
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: -1.3em;
+    vertical-align: middle;
+    background-image: url(/imgs/spark-bullet.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 0.3rem;
+    margin-top: -4px;
 }
 
 .hanging-list {
