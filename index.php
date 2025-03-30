@@ -57,7 +57,7 @@ ___     _       __
         <!---------- CLIENTS-LOGO-SCROLLER.php end ---------->
         <hr id="learn-more">
         <section class="section-differential-value-props container-1080" id="services">
-            <h2 class="heading-1 align-center fade-in">AI Consulting Services</h2>
+            <h2 class="title-4  margin-bottom-4 align-center fade-in">AI Consulting Services</h2>
             <div class="row margin-bottom-05">
                 <div class="col card fade-in">
                     <div class="icon-container">
@@ -87,13 +87,13 @@ ___     _       __
                         <img src="/imgs/icons/head-circuit.svg">
                     </div>
                     <h3 class="margin-bottom-1">Enhanced<br>Decision-Making</h3>
-                    <p>Automate and simplify decisions, escalations, and directives to focus on what’s important.</p>
+                    <p>Automate and simplify decisions, escalations, and directives to focus on what's important.</p>
                 </div>
             </div>
         </section>
         <hr>
         <section class="section-use-cases container-1080" id="use-cases">
-            <h2 class="heading-1 align-center fade-in">Vertical Use Cases</h2>
+            <h2 class="title-4 margin-bottom-4 align-center fade-in">Vertical Use Cases</h2>
             <div class="use-cases-grid">
                 <div class="card fade-in">
                     <div class="mobile-row fade-in">
@@ -172,19 +172,25 @@ ___     _       __
             </div>
         </section>
         <hr>
-        <section class="section-culture container-1080" id="culture">
-            <h2 class="heading-1 align-center fade-in">Our Culture</h2>
-            <div class="row">
+        <section class="section-cover-about fade-in visible">
+            <h2 class="title-4 margin-bottom-4 align-center">Our Culture,<br>Shaped by <span class="color-gradient">R&D</span></h2>
+            <div class="container-900 row gap-4">
+                <div class="col click-animation fade-in visible">
+                    <img src="/imgs/cursor.svg" alt="" class="cursor-image">
+                    <img src="/imgs/click-lines.svg" alt="" class="click-lines">   
+                    <div class="pattern-background">
+                    </div>
+                </div>
                 <div class="col">
-                    <h3>
-                        
-                    </h3>
+                    <p>We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.</p>
+                    <p>From discovery to UX, development, deployment, and maintenance, we help companies translate their vision into digital experiences that bring in the money.</p>
+                    <p>Culture-wise, we're shaped by R&amp;D. It runs through our hiring, operational, and delivery strategies to stay ahead of the curve.</p>
                 </div>
             </div>
         </section>
         <hr>
         <section class="section-leadership container-1080" id="leadership">
-            <h2 class="heading-1 align-center fade-in">Stellar Leadership</h2>
+            <h2 class="title-4 margin-bottom-4 align-center fade-in">Stellar Leadership</h2>
             <div class="row">
                 <div class="col">
                     <div class="card leadership-card leadership-card-rodrigo">
