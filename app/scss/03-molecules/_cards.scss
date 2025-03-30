@@ -54,10 +54,7 @@
     height: 420px;
     justify-content: flex-start;
     background-color: black;
-    transition: padding-top 0.5s ease-out,
-                border-color 0.5s ease-out,
-                box-shadow 0.5s ease-out,
-                background-position 0.3s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .leadership-card-rodrigo {
@@ -86,6 +83,7 @@
     height: 100%;
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 200px, rgba(0,0,0,1) 300px);
     pointer-events: none;
+    transition: all 0.5s ease-out;
 }
 
 .leadership-card * {
@@ -97,6 +95,7 @@
     border-color: var(--accent-color-50pct);
     box-shadow: 0 0 6px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, .4);
     background-position: center 16px;
+    transition: all 0.5s ease-out;
 }
 
 .leadership-card:hover ul {
@@ -105,6 +104,7 @@
 
 .leadership-card:hover::after {
     background-image: linear-gradient(to top right, rgba(0,0,0,1) 0%, var(--slate-900) 100%);
+    transition: all 0.5s ease-out;
 }
 
 .leadership-card .linkedin-icon {
