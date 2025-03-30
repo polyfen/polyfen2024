@@ -27,6 +27,7 @@ ___     _       __
     <!---------- PAGE-SPECIFIC SCRIPTS start ---------->
     <script defer src="/app/js/horizontal-scroll.js"></script>
     <script defer src="/app/js/plan-cards-toggle.js"></script>
+    <script defer src="/app/js/click-animation.js"></script>
     <!---------- PAGE-SPECIFIC SCRIPTS end ---------->
 </head>
 <body class="body-home">
@@ -178,14 +179,14 @@ ___     _       __
                 <div class="col click-animation fade-in visible">
                     <img src="/imgs/cursor.svg" alt="" class="cursor-image">
                     <img src="/imgs/click-lines.svg" alt="" class="click-lines">   
-                    <div class="pattern-background">
+                    <div class="pattern-background video-bg">
                     </div>
                 </div>
                 <div class="col">
                     <ul class="hanging-list spaced-list">
                         <li class="fade-in"><h4 class="heading-7 font-weight-600 color-gradient">R&D at Our Core</h4><p class="margin-top-05">We invest heavily in R&D to stay cutting edge in AI. This keeps your solutions fresh, forward-looking, and highly competitive.</p></li>
                         <li class="fade-in"><h4 class="heading-7 font-weight-600    color-gradient">Expert Team, Direct Impact</h4><p class="margin-top-05">We handpick specialists who innovate and solve real problems. By focusing on quality, every client gets dedicated attention.</p></li>
-                        <li class="fade-in"><h4 class="heading-7 font-weight-600 color-gradient">Scalable Results, Lasting Partnerships</h4><p class="margin-top-05">We don’t just implement AI—we future-proof your operations. Our solutions grow with your business, automating workflows and refining decisions.</p></li>
+                        <li class="fade-in"><h4 class="heading-7 font-weight-600 color-gradient">Scalable Results, Lasting Partnerships</h4><p class="margin-top-05">We don't just implement AI—we future-proof your operations. Our solutions grow with your business, automating workflows and refining decisions.</p></li>
                     </ul>
                 </div>
             </div>
