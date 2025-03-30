@@ -29,6 +29,7 @@ ___     _       __
     <script defer src="/app/js/plan-cards-toggle.js"></script>
     <script defer src="/app/js/click-animation.js"></script>
     <script defer src="/app/js/parallax-effect.js"></script>
+    <script defer src="/app/js/accordion.js"></script>
     <!---------- PAGE-SPECIFIC SCRIPTS end ---------->
 </head>
 <body class="body-home">
@@ -104,13 +105,48 @@ ___     _       __
                         </div>
                         <h3 class="heading-4 margin-bottom-1">Administrative</h3>
                     </div>
-                    <ul class="hanging-list spaced-list">
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Automated Document Processing</h4><br>Use AI to digitize, classify, and route documents, reducing manual input.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Scheduling & Calendar Management</h4><br>AI-powered tools that suggest optimal meeting times and handle routine booking tasks.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Email & Communications Filtering</h4><br>Intelligent prioritization and filtering of emails to streamline inbox management.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Workflow Automation</h4><br>AI bots that handle repetitive admin tasks like data entry and invoice matching.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Smart Assistants</h4><br>Voice-activated or chat-based AI systems that provide quick answers to internal administrative queries.</li>
-                    </ul>
+                    <div class="accordions-container">
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Automated Document Processing</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Use AI to digitize, classify, and route documents, reducing manual input.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Scheduling & Calendar Management</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>AI-powered tools that suggest optimal meeting times and handle routine booking tasks.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Email & Communications Filtering</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Intelligent prioritization and filtering of emails to streamline inbox management.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Workflow Automation</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>AI bots that handle repetitive admin tasks like data entry and invoice matching.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Smart Assistants</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Voice-activated or chat-based AI systems that provide quick answers to internal administrative queries.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="card fade-in">
                     <div class="mobile-row fade-in">
@@ -119,43 +155,148 @@ ___     _       __
                         </div>
                         <h3 class="heading-4 margin-bottom-1">Human Resources</h3>
                     </div>
-                    <ul class="hanging-list spaced-list">
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Talent Sourcing & Screening</h4><br>AI-driven tools that sort through resumes, matching candidates to open roles more efficiently.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Employee Engagement</h4><br>Chatbots and sentiment analysis that gauge staff morale and highlight potential retention risks.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Onboarding & Training</h4><br>Personalized learning paths and automated onboarding checklists for new hires.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Performance Evaluation</h4><br>AI-driven analytics that track KPIs and provide unbiased performance insights.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Predictive Workforce Planning</h4><br>Algorithms that forecast staffing needs based on historical data and upcoming projects.</li>
-                    </ul>
+                    <div class="accordions-container">
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Talent Sourcing & Screening</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>AI-driven tools that sort through resumes, matching candidates to open roles more efficiently.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Employee Engagement</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Chatbots and sentiment analysis that gauge staff morale and highlight potential retention risks.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Onboarding & Training</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Personalized learning paths and automated onboarding checklists for new hires.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Performance Evaluation</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>AI-driven analytics that track KPIs and provide unbiased performance insights.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Predictive Workforce Planning</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Algorithms that forecast staffing needs based on historical data and upcoming projects.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card fade-in">                
+                <div class="card fade-in">
                     <div class="mobile-row fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/wallet.svg">
                         </div>
                         <h3 class="heading-4 margin-bottom-1">Finance</h3>
                     </div>
-                    <ul class="hanging-list spaced-list">
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Accounts Payable Automation</h4><br>Automated invoice matching, payment approvals, and ledger updates.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Expense Management</h4><br>Automated classification of expenses and anomaly detection to cut costs and reduce errors.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Tax Calculation</h4><br>Automatic tax computation that accounts for varying regulations, deductions, and filing requirements to reduce manual effort and errors.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Financial Forecasting</h4> <br>Predictive analytics that help with budgeting, revenue projections, and trend analysis.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Credit Scoring</h4><br>AI-based risk assessment to make lending and credit decisions faster and more accurate.</li>
-                    </ul>
+                    <div class="accordions-container">
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Accounts Payable Automation</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Automated invoice matching, payment approvals, and ledger updates.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Expense Management</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Automated classification of expenses and anomaly detection to cut costs and reduce errors.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Tax Calculation</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Automatic tax computation that accounts for varying regulations, deductions, and filing requirements to reduce manual effort and errors.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Financial Forecasting</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Predictive analytics that help with budgeting, revenue projections, and trend analysis.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Credit Scoring</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>AI-based risk assessment to make lending and credit decisions faster and more accurate.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="card fade-in">
                     <div class="mobile-row fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/storefront.svg">
                         </div>
-                        <h3 class="heading-4 margin-bottom-1">Marketing &amp; Sales</h3>
+                        <h3 class="heading-4 margin-bottom-1">Marketing & Sales</h3>
                     </div>
-                    <ul class="hanging-list spaced-list">
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Content Generation</h4><br>AI-powered creation of blog posts, social media updates, and product descriptions tailored to specific audiences.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Targeted Campaigns</h4><br>AI-powered segmentation and personalization to reach the right audiences at the right times.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Lead Scoring & Nurturing</h4><br>Predictive models that identify high-potential leads and recommend tailored follow-ups.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Customer Insights</h4><br>NLP-driven sentiment analysis to understand customer feedback and adapt marketing strategies.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Chatbots & Virtual Assistants</h4><br>Automated customer interactions that handle FAQs, demo requests, and lead qualification.</li>
-                    </ul>
+                    <div class="accordions-container">
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Content Generation</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>AI-powered creation of blog posts, social media updates, and product descriptions tailored to specific audiences.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Targeted Campaigns</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>AI-powered segmentation and personalization to reach the right audiences at the right times.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Lead Scoring & Nurturing</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Predictive models that identify high-potential leads and recommend tailored follow-ups.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Customer Insights</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>NLP-driven sentiment analysis to understand customer feedback and adapt marketing strategies.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Chatbots & Virtual Assistants</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Automated customer interactions that handle FAQs, demo requests, and lead qualification.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="card fade-in">
                     <div class="mobile-row fade-in">
@@ -164,12 +305,40 @@ ___     _       __
                         </div>
                         <h3 class="heading-4 margin-bottom-1">Security</h3>
                     </div>
-                    <ul class="hanging-list spaced-list">
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Fraud Detection</h4><br>Machine learning models that spot suspicious transactions and unusual spending patterns in real time.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Real-time Threat Detection</h4><br>AI systems that monitor network traffic, flag anomalies, and actively guard against potential attacks.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Automated Security Audits</h4><br>Tools that regularly assess configurations, pinpoint vulnerabilities, and suggest proactive fixes.</li>
-                        <li class="fade-in"><h4 class="heading-7 color-gradient">Data Encryption & Access Control</h4><br>Intelligent solutions that secure data at rest and in transit, ensuring only authorized users have access.</li>
-                    </ul>
+                    <div class="accordions-container">
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Fraud Detection</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Machine learning models that spot suspicious transactions and unusual spending patterns in real time.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Real-time Threat Detection</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>AI systems that monitor network traffic, flag anomalies, and actively guard against potential attacks.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Automated Security Audits</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Tools that regularly assess configurations, pinpoint vulnerabilities, and suggest proactive fixes.</p>
+                            </div>
+                        </div>
+                        <div class="accordion fade-in">
+                            <div class="acc-button">
+                                <h3 class="heading-4"><span>Data Encryption & Access Control</span></h3>
+                            </div>
+                            <div class="acc-panel">
+                                <p>Intelligent solutions that secure data at rest and in transit, ensuring only authorized users have access.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

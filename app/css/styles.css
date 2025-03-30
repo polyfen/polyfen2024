@@ -1999,59 +1999,77 @@ body:not(.body-branding) .testimonials-wrapper-branding, body:not(.body-staff-au
 /*------------------------------------------------------ */
 /*///////////// _FAQ.scss start /////////////*/
 .accordions-container {
-  padding-top: 2rem;
+    padding-top: 2rem;
 }
 
 .accordion {
-  border-bottom: 1px solid rgba(116, 55, 248, 0.3137254902);
-  margin-bottom: 32px;
+    border-bottom: 1px solid var(--accent-color-30pct);
+    margin-bottom: 32px;
 }
 
 .acc-button {
-  display: flex;
-  position: relative;
-  cursor: pointer;
-  align-items: center;
-  transition: 0.4s;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.3019607843);
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    transition: .4s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--white-50pct);
 }
 
-.faqs h3.heading-4 {
-  margin-bottom: 0;
-  display: flex;
-  gap: 5px;
-}
-
-.faqs .accordion h3 span {
-  color: var(--accent-color);
+.acc-button h3[data-acc] {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: unset;
+    padding-right: 5px;
 }
 
 .acc-button:after {
-  content: "+";
-  float: right;
-  margin-left: auto;
-  font-size: 2rem;
-  color: var(--accent-color);
+    content: '\002B';
+    float: right;
+    margin-left: auto;
+    font-size: 2rem;
+    color: var(--accent-color);
+}
+
+.active,
+.acc-button:hover {
+    color: var(--accent-color);
+}
+
+.acc-button.active:after {
+    content: "\2212";
 }
 
 .acc-panel {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 @media (min-width: 1024px) {
-  .acc-panel {
-    padding-left: 48px;
-    padding-right: 20px;
-  }
+    .acc-panel {
+        padding-left: 48px;
+        padding-right: 20px;
+    }
 }
+
+.section-use-cases .accordion h3 span {
+    color: var(--accent-color);
+}
+
+.section-use-cases h3.heading-4 {
+    margin-bottom: 0;
+    display: flex;
+    gap: 5px;
+}
+
 @media (min-width: 1024px) {
-  .faqs .acc-panel {
-    padding-left: 30px;
-  }
+    .section-use-cases .acc-panel {
+        padding-left: 30px;
+    }
 }
 /*///////////// _SUBSCRIPTIONS.scss end /////////////*/
 /*------------------------------------------------------ */
