@@ -108,7 +108,7 @@ ___     _       __
                     <div class="accordions-container">
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Automated Document Processing</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Automated Document Processing</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Use AI to digitize, classify, and route documents, reducing manual input.</p>
@@ -116,7 +116,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Scheduling & Calendar Management</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Scheduling & Calendar Management</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>AI-powered tools that suggest optimal meeting times and handle routine booking tasks.</p>
@@ -124,7 +124,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Email & Communications Filtering</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Email & Communications Filtering</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Intelligent prioritization and filtering of emails to streamline inbox management.</p>
@@ -132,7 +132,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Workflow Automation</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Workflow Automation</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>AI bots that handle repetitive admin tasks like data entry and invoice matching.</p>
@@ -140,7 +140,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Smart Assistants</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Smart Assistants</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Voice-activated or chat-based AI systems that provide quick answers to internal administrative queries.</p>
@@ -158,7 +158,7 @@ ___     _       __
                     <div class="accordions-container">
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Talent Sourcing & Screening</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Talent Sourcing & Screening</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>AI-driven tools that sort through resumes, matching candidates to open roles more efficiently.</p>
@@ -166,7 +166,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Employee Engagement</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Employee Engagement</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Chatbots and sentiment analysis that gauge staff morale and highlight potential retention risks.</p>
@@ -174,7 +174,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Onboarding & Training</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Onboarding & Training</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Personalized learning paths and automated onboarding checklists for new hires.</p>
@@ -182,7 +182,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Performance Evaluation</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Performance Evaluation</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>AI-driven analytics that track KPIs and provide unbiased performance insights.</p>
@@ -190,7 +190,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Predictive Workforce Planning</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Predictive Workforce Planning</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Algorithms that forecast staffing needs based on historical data and upcoming projects.</p>
@@ -208,7 +208,7 @@ ___     _       __
                     <div class="accordions-container">
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Accounts Payable Automation</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Accounts Payable Automation</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Automated invoice matching, payment approvals, and ledger updates.</p>
@@ -216,7 +216,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Expense Management</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Expense Management</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Automated classification of expenses and anomaly detection to cut costs and reduce errors.</p>
@@ -224,7 +224,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Tax Calculation</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Tax Calculation</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Automatic tax computation that accounts for varying regulations, deductions, and filing requirements to reduce manual effort and errors.</p>
@@ -232,7 +232,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Financial Forecasting</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Financial Forecasting</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Predictive analytics that help with budgeting, revenue projections, and trend analysis.</p>
@@ -240,7 +240,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Credit Scoring</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Credit Scoring</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>AI-based risk assessment to make lending and credit decisions faster and more accurate.</p>
@@ -258,7 +258,7 @@ ___     _       __
                     <div class="accordions-container">
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Content Generation</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Content Generation</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>AI-powered creation of blog posts, social media updates, and product descriptions tailored to specific audiences.</p>
@@ -266,7 +266,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Targeted Campaigns</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Targeted Campaigns</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>AI-powered segmentation and personalization to reach the right audiences at the right times.</p>
@@ -274,7 +274,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Lead Scoring & Nurturing</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Lead Scoring & Nurturing</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Predictive models that identify high-potential leads and recommend tailored follow-ups.</p>
@@ -282,7 +282,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Customer Insights</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Customer Insights</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>NLP-driven sentiment analysis to understand customer feedback and adapt marketing strategies.</p>
@@ -290,7 +290,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Chatbots & Virtual Assistants</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Chatbots & Virtual Assistants</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Automated customer interactions that handle FAQs, demo requests, and lead qualification.</p>
@@ -308,7 +308,7 @@ ___     _       __
                     <div class="accordions-container">
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Fraud Detection</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Fraud Detection</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Machine learning models that spot suspicious transactions and unusual spending patterns in real time.</p>
@@ -316,7 +316,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Real-time Threat Detection</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Real-time Threat Detection</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>AI systems that monitor network traffic, flag anomalies, and actively guard against potential attacks.</p>
@@ -324,7 +324,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Automated Security Audits</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Automated Security Audits</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Tools that regularly assess configurations, pinpoint vulnerabilities, and suggest proactive fixes.</p>
@@ -332,7 +332,7 @@ ___     _       __
                         </div>
                         <div class="accordion fade-in">
                             <div class="acc-button">
-                                <h3 class="heading-4"><span>Data Encryption & Access Control</span></h3>
+                                <h3 class="heading-6 margin-bottom-0"><span>Data Encryption & Access Control</span></h3>
                             </div>
                             <div class="acc-panel">
                                 <p>Intelligent solutions that secure data at rest and in transit, ensuring only authorized users have access.</p>
@@ -344,7 +344,7 @@ ___     _       __
         </section>
         <hr>
         <section class="section-cover-about fade-in visible">
-            <h2 class="title-4 margin-bottom-4 align-center">Our Culture,<br>Shaped by <span class="color-gradient">R&D</span></h2>
+            <h2 class="title-4 margin-bottom-4 align-center">Our Culture,<br>Shaped by R&D</h2>
             <div class="container-900 row gap-4">
                 <div class="col click-animation fade-in visible">
                     <img src="/imgs/cursor.svg" alt="" class="cursor-image">
@@ -363,7 +363,7 @@ ___     _       __
         </section>
         <hr>
         <section class="section-leadership container-1080" id="leadership">
-            <h2 class="title-4 margin-bottom-4 align-center fade-in">Stellar Leadership</h2>
+            <h2 class="title-4 margin-bottom-4 align-center fade-in">Visionary Leadership</h2>
             <div class="row">
                 <div class="col">
                     <div class="card leadership-card leadership-card-rodrigo">
@@ -398,7 +398,7 @@ ___     _       __
                         <h3 class="margin-bottom-05 color-gradient font-weight-700 fade-in">Boris Hrncic</h3>
                         <h4 class="heading-6 font-weight-400 fade-in">Chief Design Officer &amp; Co-Founder</h4>
                         <ul class="hanging-list spaced-list margin-bottom-0 fade-in">
-                            <li class="fade-in">Designing brands and digital products since 2010, coding websites since 2008.</li>
+                            <li class="fade-in">Designing user-centric digital products since 2010.</li>
                             <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.</li>
                             <li class="fade-in">Led high-performance teams in bootstrapped startups and well-established multinationals.</li>
                         </ul>

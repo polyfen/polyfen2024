@@ -7,7 +7,7 @@
 
 .accordion {
     border-bottom: 1px solid #7437f850;
-    margin-bottom: 32px;
+    margin-bottom: 0;
 }
 
 .acc-button {
@@ -16,9 +16,10 @@
     cursor: pointer;
     align-items: center;
     transition: .4s;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0;
     color: #ffffff4d;
+    padding-inline: 24px;
+    padding-block: 16px;
 }
 
 .faqs h3.heading-4 {
@@ -45,16 +46,19 @@
     transition: max-height 0.2s ease-out;
 }
 
+.acc-panel p {
+    margin-bottom: 40px;
+}
+
 @media (min-width: 1024px) {
-    .acc-panel {
-        padding-left: 48px;
-        padding-right: 20px;
+    .acc-panel {    
+      padding-inline: 24px;
     }
 }
 
 @media (min-width: 1024px) {
-    .faqs .acc-panel {
-        padding-left: 30px;
+    .faqs .acc-panel {    
+      padding-inline: 24px;
     }
 }
 

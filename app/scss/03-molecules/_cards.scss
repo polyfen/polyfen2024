@@ -9,7 +9,7 @@
     padding-inline: 16px;
     padding-block: 16px 24px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -124,6 +124,25 @@
 .leadership-card .linkedin-icon:hover {
     background-image: var(--accent-gradient, linear-gradient(225deg, #D837F8 0%, #3747F8 100%));
     box-shadow: 0 0 4px 0.5px #D837F8, 0 8px 4px -4px rgba(0, 0, 0, .4);
+}
+
+.section-use-cases .card {
+    padding-inline: 0;
+    padding-bottom: 0;
+}
+
+.section-use-cases .icon-container {
+    margin-left: 24px;
+}
+
+
+.section-use-cases .accordions-container .accordion:first-child {
+    border-top: 1px solid rgba(116,55,248,.3137254902);
+}
+
+.section-use-cases .accordions-container .accordion:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
 }
 
 /*///////////// _CARDS.scss end /////////////*/
