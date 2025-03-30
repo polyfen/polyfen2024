@@ -1147,7 +1147,7 @@ button:hover, a.button:hover, input.button:hover {
   text-decoration: none;
   transition: 0s;
   background-color: var(--accent-color);
-  box-shadow: 0 0 8px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px 1px #D837F8, 0 8px 4px -4px rgba(0, 0, 0, 0.4);
 }
 
 .cta-button {
@@ -1346,6 +1346,7 @@ button:hover, a.button:hover, input.button:hover {
   align-items: center;
   justify-content: center;
   padding: 16px;
+  box-shadow: 0 0 6px 0px #D837F8, 0 8px 4px -4px rgba(0, 0, 0, 0.4);
 }
 
 .icon-container-small {
@@ -1719,12 +1720,12 @@ ul.no-bullets li:before {
 
 .leadership-card:hover .linkedin-icon {
   background-image: var(--accent-gradient, linear-gradient(225deg, #D837F8 0%, #3747F8 100%));
-  box-shadow: 0 0 4px 2px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px 0.5px #D837F8, 0 8px 4px -4px rgba(0, 0, 0, 0.4);
 }
 
 .leadership-card .linkedin-icon:hover {
   background-image: var(--accent-gradient, linear-gradient(225deg, #D837F8 0%, #3747F8 100%));
-  box-shadow: 0 0 4px 2px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px 0.5px #D837F8, 0 8px 4px -4px rgba(0, 0, 0, 0.4);
 }
 
 /*///////////// _CARDS.scss end /////////////*/
