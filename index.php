@@ -182,9 +182,11 @@ ___     _       __
                     </div>
                 </div>
                 <div class="col">
-                    <p>We are a fully remote tech consultancy that found the sweet spot between elegant design and flawless performance.</p>
-                    <p>From discovery to UX, development, deployment, and maintenance, we help companies translate their vision into digital experiences that bring in the money.</p>
-                    <p>Culture-wise, we're shaped by R&amp;D. It runs through our hiring, operational, and delivery strategies to stay ahead of the curve.</p>
+                    <ul class="hanging-list spaced-list">
+                        <li class="fade-in"><h4 class="heading-7 font-weight-600 color-gradient">R&D at Our Core</h4><p class="margin-top-05">We invest heavily in R&D to stay cutting edge in AI. This keeps your solutions fresh, forward-looking, and highly competitive.</p></li>
+                        <li class="fade-in"><h4 class="heading-7 font-weight-600    color-gradient">Expert Team, Direct Impact</h4><p class="margin-top-05">We handpick specialists who innovate and solve real problems. By focusing on quality, every client gets dedicated attention.</p></li>
+                        <li class="fade-in"><h4 class="heading-7 font-weight-600 color-gradient">Scalable Results, Lasting Partnerships</h4><p class="margin-top-05">We don’t just implement AI—we future-proof your operations. Our solutions grow with your business, automating workflows and refining decisions.</p></li>
+                    </ul>
                 </div>
             </div>
         </section>
