@@ -2427,7 +2427,7 @@ header nav {
   padding-top: 140px;
   margin-bottom: 80px;
   padding-bottom: 80px;
-  background: #0c0124;
+  background: rgba(6, 0, 18, 0.8352941176);
   background-image: radial-gradient(at top, var(--accent-color-20pct) 0%, transparent 60%);
   border-bottom: 1px solid var(--accent-color-30pct);
   overflow: hidden;
@@ -2537,7 +2537,7 @@ header nav {
 }
 
 .section-cta {
-  background: #100230;
+  background: rgba(6, 0, 18, 0.8352941176);
   background-image: radial-gradient(at top, var(--accent-color-30pct) 0%, transparent 60%);
   border-top: 1px solid var(--accent-color-30pct);
   position: relative;

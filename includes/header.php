@@ -8,7 +8,8 @@
         <nav>
             <a href="/#services">Services</a>
             <a href="/#use-cases">Use Cases</a>
-            <a href="/#about">About</a>
+            <a href="/#culture">Culture</a>
+            <a href="/#leadership">Leadership</a>
             <a href="/#testimonials">Testimonials</a>
         </nav>
         <div class="header-cta-container">

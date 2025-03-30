@@ -172,7 +172,18 @@ ___     _       __
             </div>
         </section>
         <hr>
-        <section class="section-about container-1080" id="about">
+        <section class="section-culture container-1080" id="culture">
+            <h2 class="heading-1 align-center fade-in">Our Culture</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>
+                        
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="section-leadership container-1080" id="leadership">
             <h2 class="heading-1 align-center fade-in">Stellar Leadership</h2>
             <div class="row">
                 <div class="col">
