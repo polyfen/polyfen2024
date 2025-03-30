@@ -184,6 +184,9 @@ ___     _       __
                             <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
                             <li class="fade-in">Ran operations at companies in hypergrowth mode.</li>
                         </ul>
+                        <a href="https://www.linkedin.com/in/rodrigogatica/" target="_blank" class="linkedin-icon">
+                            <img src="/imgs/icons/linkedin-in.svg" width="24" height="24">
+                        </a>
                     </div>
                 </div>
                 <div class="col">
@@ -195,6 +198,9 @@ ___     _       __
                             <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
                             <li class="fade-in">Ran operations at companies in hypergrowth mode.</li>
                         </ul>
+                        <a href="https://www.linkedin.com/in/rodrigogatica/" target="_blank" class="linkedin-icon">
+                            <img src="/imgs/icons/linkedin-in.svg" width="24" height="24">
+                        </a>
                     </div>
                 </div>
                 <div class="col">
@@ -206,6 +212,9 @@ ___     _       __
                             <li class="fade-in">Vetted in the top 3% of designers worldwide by Toptal in 2017.</li>
                             <li class="fade-in">Led high-performance teams in bootstrapped startups and well-established multinationals.</li>
                         </ul>
+                        <a href="https://www.linkedin.com/in/borishr/" target="_blank" class="linkedin-icon">
+                            <img src="/imgs/icons/linkedin-in.svg" width="24" height="24">
+                        </a>
                     </div>
                 </div>
             </div>

@@ -102,5 +102,18 @@
     background: black;
 }
 
+.leadership-card .linkedin-icon {
+    position: absolute;
+    top: 22px;
+    right: 24px;
+    background-color: var(--accent-color-50pct);
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.leadership-card .linkedin-icon:hover {
+    background-color: var(--accent-color);
+}
+
 /*///////////// _CARDS.scss end /////////////*/
 /* -------------------------------------------------*/
