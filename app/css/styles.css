@@ -2054,6 +2054,11 @@ body:not(.body-branding) .testimonials-wrapper-branding, body:not(.body-staff-au
   gap: 5px;
 }
 
+.accordion h3 span {
+  font-weight: 500;
+  font-variation-settings: "wght" 500;
+}
+
 .faqs .accordion h3 span {
   color: var(--accent-color);
 }
@@ -2078,6 +2083,10 @@ body:not(.body-branding) .testimonials-wrapper-branding, body:not(.body-staff-au
     padding-inline: 24px;
   }
 }
+.acc-button:not(.active):hover {
+  background: var(--accent-color-30pct);
+}
+
 /*///////////// _SUBSCRIPTIONS.scss end /////////////*/
 /*------------------------------------------------------ */
 /*------------------------------------------------------ */

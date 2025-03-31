@@ -41,6 +41,11 @@
     gap: 5px;
 }
 
+.accordion h3 span {
+    font-weight: 500;
+    font-variation-settings: "wght" 500;
+}
+
 .faqs .accordion h3 span {
     color: var(--accent-color);
 }
@@ -65,6 +70,10 @@
     .faqs .acc-panel {    
       padding-inline: 24px;
     }
+}
+
+.acc-button:not(.active):hover {
+    background: var(--accent-color-30pct);
 }
 
 /*///////////// _SUBSCRIPTIONS.scss end /////////////*/
