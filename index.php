@@ -374,7 +374,7 @@ ___     _       __
                             <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
                             <li class="fade-in">Ran operations at companies in hypergrowth mode.</li>
                         </ul>
-                        <a href="https://www.linkedin.com/in/rodrigogatica/" target="_blank" class="linkedin-icon">
+                        <a href="https://www.linkedin.com/in/rodrigo-gatica/" target="_blank" class="linkedin-icon">
                             <img src="/imgs/icons/linkedin-in.svg" width="24" height="24">
                         </a>
                     </div>
@@ -384,11 +384,11 @@ ___     _       __
                         <h3 class="margin-bottom-05 color-gradient font-weight-700 fade-in">Matias Gea</h3>
                         <h4 class="heading-6 font-weight-400 fade-in">Chief Technology Officer &amp; Co-Founder</h4>
                         <ul class="hanging-list spaced-list margin-bottom-0 fade-in">
-                            <li class="fade-in">Leading projects since 2016, recruiting tech talent since 2018.</li>
-                            <li class="fade-in">Co-founded startups in Fintech and Communications.</li>
-                            <li class="fade-in">Ran operations at companies in hypergrowth mode.</li>
+                            <li class="fade-in">15 years in the tech industry with hands-on experience as Tech Lead and Architect.</li>
+                            <li class="fade-in">R&D focused, with proven track record building successful AI products.</li>
+                            <li class="fade-in">Expertise in cloud, data, and AI technologies.</li>
                         </ul>
-                        <a href="https://www.linkedin.com/in/rodrigogatica/" target="_blank" class="linkedin-icon">
+                        <a href="https://www.linkedin.com/in/matiasfernandogea/" target="_blank" class="linkedin-icon">
                             <img src="/imgs/icons/linkedin-in.svg" width="24" height="24">
                         </a>
                     </div>
