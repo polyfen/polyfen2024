@@ -1146,7 +1146,7 @@ button, .button {
 button:hover, a.button:hover, input.button:hover {
   text-decoration: none;
   transition: 0s;
-  background-color: var(--accent-color);
+  background-image: var(--accent-color-gradient);
   box-shadow: 0 0 4px 1px #D837F8, 0 8px 4px -4px rgba(0, 0, 0, 0.4);
 }
 
