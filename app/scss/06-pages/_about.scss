@@ -84,7 +84,7 @@
 }
 
 .cursor-image {
-    animation: click-scale 3s infinite;
+    animation: click-scale 2s infinite;
     height: 64px;
 }
 
@@ -110,7 +110,7 @@
     left: calc(50% - 49px);
     top: calc(50% - 58px);
     opacity: 0;
-    animation: click-lines 3s infinite;
+    animation: click-lines 2s infinite;
     height: 40px;
 }
 
@@ -172,9 +172,52 @@
     }
 }
 
+.click-animation .pattern-background {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, #722FFF 0%, #4B00AE 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 15px 0px var(--accent-color);
+    position: absolute;
+    left: calc(50% - 110px);
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+    z-index: -1;
+}
+
+@media (min-width: 900px) {
+    .click-animation .pattern-background {
+        height: 320px;
+        width: 320px;
+        left: calc(50% - 160px);
+    }
+}
+
 .video-bg.pattern-background {
-        background: url(../../imgs/background-pattern-a.webp) center no-repeat;
-        background-size: cover;
+    background: linear-gradient(45deg, #722FFF, #4B00AE);
+    transition: background 0.5s ease-in-out;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px var(--accent-color);
+    position: absolute;
+    left: calc(50% - 110px);
+    opacity: 1;
+}
+
+@media (min-width: 900px) {
+    .video-bg.pattern-background {
+        left: calc(50%);
+    }
+}
+
+.body-home {
+    .pattern-background,
+    .video-bg {
+        mix-blend-mode: unset;
+    }
 }
 
 /*///////////// _ABOUT.scss end /////////////*/

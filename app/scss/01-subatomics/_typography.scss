@@ -232,7 +232,7 @@ small.mini, a.mini, .mini {
         font-size: 4.25rem;
     }
     .title-4 {
-        font-size: 3.75rem;
+        font-size: 4rem;
     }
     h1, .heading-1 {
         font-size: 3.25rem;   
@@ -270,6 +270,11 @@ small.mini, a.mini, .mini {
     font-variation-settings: "wght" 800;
 }
 
+.title-4, h1.title-4, h2.title-4, h3.title-4, h4.title-4, h5.title-4, h6.title-4 {
+    font-weight: 800;
+    font-variation-settings: "wght" 800;
+}
+
 h1, .heading-1, h1.heading-1, h2.heading-1, h3.heading-1, h4.heading-1, h5.heading-1, h6.heading-1 {
     font-weight: 800;
     font-variation-settings: "wght" 800;
@@ -281,13 +286,13 @@ h2, .heading-2, h1.heading-2, h2.heading-2, h3.heading-2, h4.heading-2, h5.headi
 }
 
 h3, .heading-3, h1.heading-3, h2.heading-3, h3.heading-3, h4.heading-3, h5.heading-3, h6.heading-3 {
-    font-weight: 600;
-    font-variation-settings: "wght" 600;
+    font-weight: 700;
+    font-variation-settings: "wght" 700;
 }
 
 h4, .heading-4, h1.heading-4, h2.heading-4, h3.heading-4, h4.heading-4, h5.heading-4, h6.heading-4 {
-    font-weight: 600;
-    font-variation-settings: "wght" 600;
+    font-weight: 700;
+    font-variation-settings: "wght" 700;
 }
 
 h5, .heading-5, h1.heading-5, h2.heading-5, h3.heading-5, h4.heading-5, h5.heading-5, h6.heading-5 {

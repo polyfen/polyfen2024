@@ -3,7 +3,7 @@
     padding-top: 140px;
     margin-bottom: 80px;
     padding-bottom: 80px;
-    background: #0c0124;
+    background: #060012d5;
     background-image: radial-gradient(at top, var(--accent-color-20pct) 0%, transparent 60%);
     border-bottom: 1px solid var(--accent-color-30pct);
     overflow: hidden;
@@ -111,5 +111,37 @@
             text-align: left;
             margin-inline: unset;
         }
+    }
+}
+
+.section-cover-about {
+    .col.click-animation {
+        position: relative;
+        min-height: 400px;
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+    }
+
+    .parallax-bg {
+        background: conic-gradient(from 180deg at 50% 70%,hsla(0,0%,98%,1) 0deg,#3939f4 72.0000010728836deg,#f92dfc 104.0000021457672deg,#1d1dae 216.00000858306885deg,#f92dfc 288.0000042915344deg,#f92dfc 1turn);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+        height: 400px;
+        transform: translate(-50%, -50%);
+        will-change: transform;
+        backface-visibility: hidden;
+        perspective: 1000px;
+        pointer-events: none;
+        mask:
+            radial-gradient(circle at 50% 50%, white 2px, transparent 2.5px) 50% 50% / 20px 20px,
+            url("https://assets.codepen.io/605876/noise-mask.png") 256px 50% / 256px 256px;
+        mask-composite: intersect;
+        animation: flicker 20s infinite linear;
+        mix-blend-mode: color-dodge;
     }
 }

@@ -4,12 +4,12 @@
 .card {
     background: var(--card-background-color);
     background-image: var(--card-background-image);
-    border: 1px solid var(--card-border-color);
+    border: 1.5px solid var(--card-border-color);
     border-radius: 12px;
     padding-inline: 16px;
     padding-block: 16px 24px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -41,6 +41,108 @@
         padding-inline: 24px;
         padding-block: 24px 32px;
     }
+}
+
+
+.leadership-card {
+    padding-top: 290px;
+    padding-bottom: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    height: 420px;
+    justify-content: flex-start;
+    background-color: black;
+    transition: all 0.5s ease-out;
+}
+
+.leadership-card-rodrigo {
+    background-image: url(../../imgs/rodrigo-gatica.png);
+}
+
+.leadership-card-matias {
+    background-image: url(../../imgs/matias-gea.png);
+}
+
+.leadership-card-boris {
+    background-image: url(../../imgs/boris-hrncic.png);
+}
+
+.leadership-card ul {
+    display: none;
+}
+
+.leadership-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 200px, rgba(0,0,0,1) 300px);
+    pointer-events: none;
+    transition: all 0.5s ease-out;
+}
+
+.leadership-card * {
+    z-index: 2;
+}
+
+.leadership-card:hover {
+    padding-top: 24px;
+    border-color: var(--accent-color-50pct);
+    box-shadow: 0 0 6px 0px var(--accent-color), 0 8px 4px -4px rgba(0, 0, 0, .4);
+    background-position: center 16px;
+    transition: all 0.5s ease-out;
+}
+
+.leadership-card:hover ul {
+    display: block;
+}
+
+.leadership-card:hover::after {
+    background-image: linear-gradient(to top right, rgba(0,0,0,1) 0%, var(--slate-900) 100%);
+    transition: all 0.5s ease-out;
+}
+
+.leadership-card .linkedin-icon {
+    position: absolute;
+    top: 22px;
+    right: 24px;
+    background-color: var(--accent-color-50pct);
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.leadership-card:hover .linkedin-icon {
+    background-image: var(--accent-gradient, linear-gradient(225deg, #D837F8 0%, #3747F8 100%));
+    box-shadow: 0 0 4px 0.5px #D837F8, 0 8px 4px -4px rgba(0, 0, 0, .4);
+}
+
+.leadership-card .linkedin-icon:hover {
+    background-image: var(--accent-gradient, linear-gradient(225deg, #D837F8 0%, #3747F8 100%));
+    box-shadow: 0 0 4px 0.5px #D837F8, 0 8px 4px -4px rgba(0, 0, 0, .4);
+}
+
+.section-use-cases .card {
+    padding-inline: 0;
+    padding-bottom: 0;
+}
+
+.section-use-cases .icon-container {
+    margin-left: 24px;
+}
+
+
+.section-use-cases .accordions-container .accordion:first-child {
+    border-top: 1px solid rgba(116,55,248,.3137254902);
+}
+
+.section-use-cases .accordions-container .accordion:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
 }
 
 /*///////////// _CARDS.scss end /////////////*/
