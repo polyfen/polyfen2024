@@ -99,7 +99,7 @@ ___     _       __
             <h2 class="title-4 margin-bottom-4 align-center fade-in">Vertical Use Cases</h2>
             <div class="use-cases-grid">
                 <div class="card fade-in">
-                    <div class="mobile-row fade-in">
+                    <div class="mobile-row margin-bottom-0 fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/clipboard.svg">
                         </div>
@@ -149,7 +149,7 @@ ___     _       __
                     </div>
                 </div>
                 <div class="card fade-in">
-                    <div class="mobile-row fade-in">
+                    <div class="mobile-row margin-bottom-0 fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/users-three.svg">
                         </div>
@@ -199,7 +199,7 @@ ___     _       __
                     </div>
                 </div>
                 <div class="card fade-in">
-                    <div class="mobile-row fade-in">
+                    <div class="mobile-row margin-bottom-0 fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/wallet.svg">
                         </div>
@@ -249,7 +249,7 @@ ___     _       __
                     </div>
                 </div>
                 <div class="card fade-in">
-                    <div class="mobile-row fade-in">
+                    <div class="mobile-row margin-bottom-0 fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/storefront.svg">
                         </div>
@@ -299,7 +299,7 @@ ___     _       __
                     </div>
                 </div>
                 <div class="card fade-in">
-                    <div class="mobile-row fade-in">
+                    <div class="mobile-row  margin-bottom-0 fade-in">
                         <div class="icon-container">
                             <img src="/imgs/icons/shield.svg">
                         </div>
