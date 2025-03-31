@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             setTimeout(() => {
                 patternBackground.style.boxShadow = '0 0 15px 0px var(--accent-color)';
-            }, 150);
+            }, 100);
         }
     }
 

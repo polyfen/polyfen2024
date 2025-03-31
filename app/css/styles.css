@@ -3078,7 +3078,7 @@ footer nav a {
   }
 }
 .cursor-image {
-  animation: click-scale 3s infinite;
+  animation: click-scale 2s infinite;
   height: 64px;
 }
 
@@ -3105,7 +3105,7 @@ footer nav a {
   left: calc(50% - 49px);
   top: calc(50% - 58px);
   opacity: 0;
-  animation: click-lines 3s infinite;
+  animation: click-lines 2s infinite;
   height: 40px;
 }
 
@@ -3176,7 +3176,7 @@ footer nav a {
   position: absolute;
   left: calc(50% - 110px);
   opacity: 1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   z-index: -1;
 }
 
