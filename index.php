@@ -10,16 +10,16 @@ ___     _       __
 -->
 <html lang="en">
 <head>
-    <title>Polyfen | Software & Creative Studio</title>
+    <title>Polyfen | AI Consulting</title>
     <!---------- HEAD.php start ---------->
     <?php include 'includes/head.php';?>
     <!---------- HEAD.php end ---------->
     <!---------- PAGE-SPECIFIC META start ---------->
     <meta name="robots" content="index, follow">
     <meta property="og:url" content="https://polyfen.com">
-    <meta property="og:title" content="Polyfen | Software & Creative Studio">
+    <meta property="og:title" content="Polyfen | AI Consulting">
     <meta name="description" property="og:description" content="AI consultancy that helps businesses stay ahead of their competition by implementing AI and automation.">
-    <meta name="keywords" content="Brand, Brand Identity Design, Branding, Agency, Graphic Design, Logo, Creative, Strategy, Consultancy, Business Growth">
+    <meta name="keywords" content="AI consulting, AI strategy, AI planning, AI automation, AI decision-making, data processing, scheduling, calendar management, email filtering, workflow automation, smart assistants, talent sourcing, employee engagement, onboarding, training, performance evaluation, workforce planning, accounts payable, expense management, tax calculation, financial forecasting, credit scoring, content generation, targeted campaigns, lead scoring, customer insights, chatbots, virtual assistants, fraud detection, threat detection, security audits, data encryption, R&D, artificial intelligence, machine learning, business automation, cost reduction, efficiency">
     <meta property="og:image" content="https://polyfen.com/imgs/meta/home.png">
     <!---------- PAGE-SPECIFIC META end ---------->
     <!---------- PAGE-SPECIFIC CSS start ---------->
