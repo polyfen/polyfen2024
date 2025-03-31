@@ -22,9 +22,9 @@
         <nav>
             <a href="/#services">Services</a>
             <a href="/#use-cases">Use Cases</a>
-            <a href="/#about">About</a>
+            <a href="/#culture">Culture</a>
+            <a href="/#leadership">Leadership</a>
             <a href="/#testimonials">Testimonials</a>
-            <a href="/#book-call">Book Call</a>
         </nav>
     </div>
     <div class="social-links-container">
