@@ -87,7 +87,18 @@ ___     _       __
     }
 }
 
+.section-cover-about ul li::before {
+    margin-top: -8px;
+}
 
+.section-cover-about ul li:nth-child(2) {
+    border-top: 1px solid var(--accent-color-30pct);
+    padding-top: 2rem;
+    margin-top: 2.5rem;
+    border-bottom: 1px solid var(--accent-color-30pct);
+    padding-bottom: 2rem;
+    margin-bottom: 2.5rem;
+}
 
 /* --------------------------------------------------------- */
 

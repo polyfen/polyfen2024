@@ -355,7 +355,7 @@ ___     _       __
                 <div class="col">
                     <ul class="hanging-list spaced-list">
                         <li class="fade-in"><h4 class="heading-5 font-weight-600 color-gradient">R&D at Our Core</h4><p class="margin-top-05 fade-in">We invest heavily in R&D to stay at the forefront of AI. This empowers your business with cutting-edge tools to outperform competitors.</p></li>
-                        <li class="fade-in"><h4 class="heading-5 font-weight-600    color-gradient">Expert Team, Reliable Results</h4><p class="margin-top-05 fade-in">We hire only A-players with an extraordinary drive to excel. By focusing on quality, every client gets meaningful success.</p></li>
+                        <li class="fade-in"><h4 class="heading-5 font-weight-600 color-gradient">Expert Team, Reliable Results</h4><p class="margin-top-05 fade-in">We hire only A-players with an extraordinary drive to excel. By focusing on quality, every client gets meaningful success.</p></li>
                         <li class="fade-in"><h4 class="heading-5 font-weight-600 color-gradient">Long-Term Impact</h4><p class="margin-top-05 fade-in">We don't just implement AI—we future-proof your operations. Our solutions grow with your business, automating workflows and refining decisions.</p></li>
                     </ul>
                 </div>
