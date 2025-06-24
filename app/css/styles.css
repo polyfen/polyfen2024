@@ -2033,7 +2033,7 @@ body:not(.body-branding) .testimonials-wrapper-branding, body:not(.body-staff-au
   transition: 0.4s;
   margin-top: 0;
   color: rgba(255, 255, 255, 0.3019607843);
-  padding-inline: 24px;
+  padding-inline: 16px 24px;
   padding-block: 16px;
 }
 .acc-button:after {
@@ -2067,6 +2067,7 @@ body:not(.body-branding) .testimonials-wrapper-branding, body:not(.body-staff-au
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  padding-inline: 16px;
 }
 
 .acc-panel p {
@@ -2075,7 +2076,7 @@ body:not(.body-branding) .testimonials-wrapper-branding, body:not(.body-staff-au
 
 @media (min-width: 1024px) {
   .acc-panel {
-    padding-inline: 24px;
+    padding-inline: 16px 24px;
   }
 }
 @media (min-width: 1024px) {
