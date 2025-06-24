@@ -3589,6 +3589,11 @@ div.other-project-card img {
   margin-bottom: 2.5rem;
 }
 
+@media (max-width: 899px) {
+  .click-animation {
+    display: none !important;
+  }
+}
 /* --------------------------------------------------------- */
 /* Pages */
 /*

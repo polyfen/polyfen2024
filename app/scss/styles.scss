@@ -100,6 +100,12 @@ ___     _       __
     margin-bottom: 2.5rem;
 }
 
+@media (max-width: 899px) {
+    .click-animation {
+        display: none !important;
+    }
+}
+
 /* --------------------------------------------------------- */
 
 
