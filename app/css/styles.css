@@ -571,8 +571,8 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
   --slate-600: hsl(233, 8%, 40%);
   --slate-700: hsl(228, 9%, 30%);
   --slate-800: hsl(233, 14%, 22%);
-  --slate-900: hsl(235, 55%, 7.5%);
-  --slate-950: hsl(235, 55%, 5%);
+  --slate-900: hsl(235, 75%, 10%);
+  --slate-950: hsl(235, 75%, 6.5%);
   --slate-050-90pct: hsla(231, 64%, 96%, 0.9);
   --slate-050-80pct: hsla(231, 64%, 96%, 0.8);
   --slate-050-70pct: hsla(231, 64%, 96%, 0.7);
@@ -633,7 +633,7 @@ p a:hover, li a:hover, small a:hover, a:hover small, .link:hover {
   --body-text-color: var(--white-90pct);
   --card-background-color: var(--slate-900);
   --card-border-color: var(--accent-color-20pct);
-  --card-background-image: radial-gradient(at 75% 0%, var(--accent-color-07pct) 0%, black 100%);
+  --card-background-image: radial-gradient(at 75% 0%, var(--accent-color-07pct) 0%, #000000ba 100%);
 }
 
 body {
