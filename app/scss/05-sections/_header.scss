@@ -55,6 +55,7 @@ header nav {
         background: var(--accent-color-800);
         border-radius: 8px;
         padding: 0;
+        display: none !important;
     }
 
     button.nav-close-button {
