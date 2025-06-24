@@ -1614,7 +1614,7 @@ ul.no-bullets li:before {
   border: 1.5px solid var(--card-border-color);
   border-radius: 12px;
   padding-inline: 16px;
-  padding-block: 16px 24px;
+  padding-block: 16px 40px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -1646,7 +1646,7 @@ ul.no-bullets li:before {
 @media (min-width: 900px) {
   .card {
     padding-inline: 24px;
-    padding-block: 24px 32px;
+    padding-block: 24px 48px;
   }
 }
 .leadership-card {
