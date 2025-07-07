@@ -78,3 +78,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 src="https://code.jquery.com/jquery-3.6.3.min.js"
 integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
 crossorigin="anonymous"></script>
+
+<!-- Instantly -->
+<script id="vtag-ai-js" async src="https://r2.leadsy.ai/tag.js" data-pid="SzP4PzrUytNRAG5y" data-version="062024"></script>
